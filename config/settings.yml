@@ -1,0 +1,88 @@
+# =====================================================================
+# Market Paper Trading Demo — main settings
+# v1 MODE: PAPER TRADING ONLY  (no real orders are ever placed)
+# =====================================================================
+# NOTE: No secrets live in this file. API keys / SMTP credentials come
+# from environment variables only. This file is safe to commit publicly.
+
+user:
+  name: "Mishael Abhishek"
+
+market:
+  country: "India"
+  exchange: "NSE"
+  currency: "INR"
+  currency_symbol: "₹"
+  timezone: "Asia/Kolkata"
+
+mode:
+  # The only supported mode in v1 is paper_trading_only.
+  paper_trading_only: true
+  description: "Fake-money demo. No real orders are ever placed in v1."
+
+capital:
+  monthly_fake_capital: 10000      # ₹10,000 fake capital per month
+  max_amount_per_trade: 2000       # ₹2,000 max per single paper trade
+  max_buys_per_day: 1
+  max_buys_per_month: 5
+
+risk_thresholds:
+  soft_review_pct: -7.0
+  strong_review_pct: -10.0
+  hard_review_pct: -15.0
+
+notifications:
+  email_enabled: true
+  whatsapp_enabled: false          # intentionally disabled in v1
+  telegram_enabled: false          # intentionally disabled in v1
+  alert_email_to: "sahabhi115@gmail.com"
+  send_on:
+    daily_report: true             # full report after the last checkpoint
+    trade_events: true             # important fake-trade events
+    risk_events: true              # loss-review / drawdown events
+    system_errors: true
+    execution_mode_warnings: true
+
+# Checkpoints (Indian market hours, Asia/Kolkata). The system does NOT
+# scan continuously — it only acts at these discrete checkpoints.
+checkpoints:
+  - id: "open"
+    label: "Morning"
+    time_ist: "09:35"
+  - id: "mid"
+    label: "Midday"
+    time_ist: "11:30"
+  - id: "close"
+    label: "Afternoon"
+    time_ist: "14:45"
+
+# Market-data provider (swappable abstraction; see src/market_data/).
+# v1 uses Yahoo Finance via the UNOFFICIAL `yfinance` library (no API key,
+# no quota). It is for research/paper-trading only — not a guaranteed feed.
+market_data:
+  provider: "yfinance"             # yfinance | yahooquery(future) | serpapi(disabled)
+  period: "1mo"                    # history window per symbol
+  interval: "1d"                   # daily bars (medium-term trend)
+  max_symbols_per_run: 10          # cap symbols scanned per checkpoint
+  max_checkpoints_per_day: 3
+  single_checkpoint_mode: false    # set true to reduce to 1 checkpoint/day
+  allow_unofficial_data_provider: true
+  data_provider_warning: "Yahoo Finance via yfinance is unofficial and for research/paper-trading use."
+
+# yfinance has no API-key quota, but we stay polite to avoid abuse / rate limits.
+api_budget:
+  enabled: false
+  reason: "yfinance has no SerpApi key quota; polite limits are used instead."
+
+rate_limits:
+  sleep_seconds_between_symbols: 1
+  max_retries: 2
+
+data_quality:
+  max_data_age_minutes: 1440       # treat data older than this as stale
+  min_fields_required: 3           # minimal normalized fields to act on
+
+# MASTER SAFETY FLAG. Must remain false in v1. Even if set true, the
+# broker.yml adapter must also be switched away from "paper" for any
+# real execution — and that path is intentionally not implemented in v1.
+live_trading_enabled: false

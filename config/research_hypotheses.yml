@@ -1,0 +1,77 @@
+# =====================================================================
+# Research hypotheses registry
+# =====================================================================
+# IMPORTANT PRINCIPLE: a strategy idea from the internet / a paper / a blog
+# is a HYPOTHESIS, not a trusted rule. It must pass paper-trading validation
+# before its weight may be increased or it may ever inform real trading.
+#
+# validation_status values:
+#   untested | paper_testing | rejected |
+#   accepted_for_manual_review | accepted_for_limited_live_later
+
+hypotheses:
+  - hypothesis_id: "H001"
+    strategy_name: "trend_following"
+    source_type: "documentation"
+    source_url_optional: ""
+    short_description: "Stocks in a clean upward trend tend to continue over short horizons."
+    expected_behavior: "Positive contribution for stable up-trends; negative for breakdowns."
+    required_data: ["graph", "change_pct"]
+    risks: ["Trend-following whipsaws in choppy/sideways markets."]
+    validation_status: "paper_testing"
+    notes: "Core v1 contributor. Keep weight modest until 1 month of data."
+
+  - hypothesis_id: "H002"
+    strategy_name: "relative_strength"
+    source_type: "academic"
+    source_url_optional: ""
+    short_description: "Relative strength vs benchmark persists over short horizons (momentum)."
+    expected_behavior: "Reward outperformers, penalize underperformers."
+    required_data: ["change_pct", "benchmark_change_pct"]
+    risks: ["Reversals after crowded momentum; needs benchmark data."]
+    validation_status: "paper_testing"
+    notes: "Core v1 contributor."
+
+  - hypothesis_id: "H003"
+    strategy_name: "mean_reversion"
+    source_type: "blog"
+    source_url_optional: ""
+    short_description: "Controlled pullbacks within healthy up-trends can be buy opportunities."
+    expected_behavior: "Reward shallow dips in up-trends; avoid sharp falls."
+    required_data: ["graph", "change_pct"]
+    risks: ["Catching falling knives; easy to overfit thresholds."]
+    validation_status: "untested"
+    notes: "EXPERIMENTAL — display-only, does not affect trades in v1."
+
+  - hypothesis_id: "H004"
+    strategy_name: "breakout"
+    source_type: "market_observation"
+    source_url_optional: ""
+    short_description: "Breakouts above recent range with momentum can continue."
+    expected_behavior: "Reward confirmed breakouts; avoid chasing extended moves."
+    required_data: ["graph"]
+    risks: ["False breakouts; whipsaw; needs volume data we do not have on free tier."]
+    validation_status: "untested"
+    notes: "EXPERIMENTAL — display-only, does not affect trades in v1."
+
+  - hypothesis_id: "H005"
+    strategy_name: "news_event_risk"
+    source_type: "personal_idea"
+    source_url_optional: ""
+    short_description: "Negative news / event keywords should reduce a buy score."
+    expected_behavior: "Lower score on adverse headlines; mild lift on positive ones."
+    required_data: ["headlines"]
+    risks: ["Headline NLP is crude; sarcasm/old news; missing news data."]
+    validation_status: "paper_testing"
+    notes: "Core v1 risk filter. Do not over-trust headlines."
+
+  - hypothesis_id: "H006"
+    strategy_name: "volatility_risk"
+    source_type: "documentation"
+    source_url_optional: ""
+    short_description: "Lower-volatility large-caps are safer paper-buy candidates."
+    expected_behavior: "Penalize extreme moves, high dispersion, and data gaps."
+    required_data: ["graph", "change_pct"]
+    risks: ["Volatility regime shifts; intraday graph may understate true vol."]
+    validation_status: "paper_testing"
+    notes: "Core v1 risk filter."

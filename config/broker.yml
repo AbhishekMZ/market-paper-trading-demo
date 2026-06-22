@@ -1,0 +1,37 @@
+# =====================================================================
+# Broker / execution adapter configuration
+# =====================================================================
+# In v1 the ONLY enabled adapter is "paper" (PaperBrokerAdapter).
+# The angel_one adapter is a disabled stub. Do NOT change these flags
+# to enable real trading — that path is intentionally inert in v1.
+
+# Strict execution-mode handling. The system refuses to run on any unsafe
+# combination (see execution_engine.validate_safety).
+execution:
+  mode: "paper"
+  allowed_modes:
+    - "paper"
+    - "manual_approval_real_later"
+    - "live_later"
+  live_trading_enabled: false
+  broker_adapter: "paper"
+  angel_one_enabled: false
+  require_manual_approval: true
+
+broker:
+  active_adapter: "paper"          # paper | angel_one  (only "paper" works in v1)
+  live_trading_enabled: false
+  angel_one_enabled: false
+  require_manual_approval: true
+  allow_real_orders: false
+  allow_paper_orders: true
+
+  # Future-only safety confirmations. ALL must be true before the
+  # angel_one adapter may ever be selected. They are intentionally
+  # false in v1 and there is no code path that flips them automatically.
+  angel_one_safety_confirmations:
+    user_reviewed_one_month_paper_results: false
+    emergency_kill_switch_configured: false
+    daily_loss_cap_configured: false
+    ip_whitelisting_understood: false
+    credentials_stored_as_secrets: false

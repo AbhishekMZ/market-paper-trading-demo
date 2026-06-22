@@ -1,0 +1,18 @@
+# =====================================================================
+# Estimated Indian equity DELIVERY transaction costs (configurable)
+# =====================================================================
+# These are PLACEHOLDER estimates so paper P&L is shown cost-adjusted and
+# does not look unrealistically good. Tune to your real broker later.
+# All values are fractions (0.001 = 0.1%). Sources vary; verify before
+# trusting for real trading.
+
+costs:
+  brokerage_pct: 0.0          # many discount brokers: ₹0 on delivery
+  brokerage_cap: 20.0         # ₹ per order cap if brokerage_pct > 0
+  stt_pct: 0.001              # Securities Transaction Tax: 0.1% buy & sell (delivery)
+  exchange_txn_pct: 0.0000297 # NSE transaction charge (~0.00297%)
+  sebi_pct: 0.000001          # SEBI turnover fee (₹10 per crore)
+  gst_pct: 0.18               # 18% GST on (brokerage + exchange + sebi)
+  stamp_duty_pct: 0.00015     # 0.015% on BUY side only
+  slippage_pct: 0.0005        # assumed execution slippage per side (0.05%)
+  bid_ask_spread_pct: 0.0003  # assumed half-spread cost per side (0.03%)

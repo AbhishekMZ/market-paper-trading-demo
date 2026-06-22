@@ -1,0 +1,75 @@
+# =====================================================================
+# Scoring configuration (signal_engine.py)
+# =====================================================================
+# Produces a 0-100 score per symbol. Higher is a stronger (but never
+# "guaranteed") paper-buy candidate. Weights sum to 100.
+
+scoring:
+  weights:
+    medium_term_trend: 25
+    relative_strength: 20
+    volatility_control: 15
+    news_event_risk: 15
+    liquidity_safety: 10
+    quality_valuation: 10
+    portfolio_fit: 5
+
+  # Score band -> label mapping (inclusive lower bounds).
+  decision_bands:
+    buy_small_paper: 80            # score >= 80  -> BUY_SMALL_PAPER candidate
+    watch: 65                      # 65-79        -> WATCH
+    hold_no_action: 50             # 50-64        -> HOLD / NO_ACTION
+    do_not_buy: 35                 # 35-49        -> DO_NOT_BUY
+    # below 35                     ->               HIGH_RISK_IGNORE
+
+  buy_candidate_min_score: 80
+  max_risk_level_for_buy: "MEDIUM" # never buy when risk == HIGH
+
+  # Penalties subtracted from the raw score when risk factors are present.
+  risk_penalties:
+    high_volatility: 15
+    negative_news: 20
+    stale_data: 25
+    low_liquidity: 10
+
+  no_trade:
+    prefer_no_trade_when_unclear: true   # the system prefers NO_ACTION on weak data
+    min_data_quality: "ACCEPTABLE"       # ACCEPTABLE | GOOD ; below this -> no trade
+
+# =====================================================================
+# Hybrid scoring (HybridSignalEngine) — the v1 strategy combination
+# =====================================================================
+# Final score (0-100) = weighted blend of CONTRIBUTING strategies + the
+# market-regime score, minus transparent risk penalties. Weights below sum
+# to 100 across contributing strategies. Experimental strategies have weight
+# 0 and contributes_to_score=false (display-only until explicitly enabled).
+hybrid_scoring:
+  enabled: true
+  final_score_range: [0, 100]
+  buy_threshold: 80
+  watch_threshold: 65
+  no_action_threshold: 50
+  do_not_buy_threshold: 35
+  conflict_behavior: "prefer_no_action"     # when strategies disagree, prefer NO_ACTION
+  risk_off_blocks_new_buys: true
+  data_insufficient_blocks_new_buys: true
+
+  weights:
+    trend_following: 20
+    relative_strength: 20
+    market_regime: 20
+    volatility_risk: 15
+    news_event_risk: 15
+    portfolio_fit: 10
+    mean_reversion: 0      # experimental — display only in v1
+    breakout: 0            # experimental — display only in v1
+
+  experimental_strategies:
+    mean_reversion:
+      enabled: true
+      contributes_to_score: false
+      display_only: true
+    breakout:
+      enabled: true
+      contributes_to_score: false
+      display_only: true

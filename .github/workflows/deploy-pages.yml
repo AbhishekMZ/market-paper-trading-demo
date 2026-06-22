@@ -1,0 +1,61 @@
+name: deploy-pages
+
+# Builds the static React/Vite dashboard and deploys it to GitHub Pages.
+# The dashboard reads the JSON files under public/data/ (committed by the
+# analyze workflow). Runs after analyze completes, on push to main, or manually.
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "frontend/**"
+      - "public/data/**"
+      - ".github/workflows/deploy-pages.yml"
+  workflow_run:
+    workflows: ["analyze (paper trading)"]
+    types: [completed]
+  workflow_dispatch:
+
+# Permissions required to deploy to GitHub Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install & build frontend
+        working-directory: frontend
+        run: |
+          npm install
+          npm run build   # prebuild copies ../public/data into the bundle
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

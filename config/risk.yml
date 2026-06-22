@@ -1,0 +1,54 @@
+# =====================================================================
+# Risk configuration
+# =====================================================================
+# These limits are enforced by risk_engine.py and re-checked inside
+# PaperBrokerAdapter. They encode the hard safety rules for v1.
+
+risk:
+  max_trade_amount: 2000           # ₹ per single paper trade
+  monthly_capital_cap: 10000       # ₹ deployable per month
+  max_buys_per_day: 1
+  max_buys_per_month: 5
+  max_position_allocation_pct: 25  # no single name > 25% of monthly capital
+
+  # Equity delivery only.
+  allowed_product_types:
+    - "DELIVERY"
+  blocked_product_types:
+    - "INTRADAY"
+    - "MARGIN"
+    - "MIS"
+    - "CO"
+    - "BO"
+    - "FUTURES"
+    - "OPTIONS"
+    - "FNO"
+
+  # Limit orders only.
+  allowed_order_types:
+    - "LIMIT"
+  blocked_order_types:
+    - "MARKET"
+    - "SL"
+    - "SL-M"
+
+  # Strategies that are hard-blocked.
+  blocked_strategies:
+    short_selling: true
+    intraday: true
+    margin: true
+    fno: true
+    averaging_down: true           # no averaging down without explicit reapproval
+
+  loss_review_thresholds:
+    soft_review_pct: -7.0          # SELL_REVIEW (soft)
+    strong_review_pct: -10.0       # TRIM_REVIEW / stronger review
+    hard_review_pct: -15.0         # EXIT_REVIEW (hard, still no auto-sell)
+
+  # Selling rules.
+  sell_scope: "bot_owned_only"     # may only sell positions the bot itself bought
+  auto_forced_sell: false          # never auto-sell without explicit reasoning
+
+  # Hard v1 blocks.
+  allow_real_orders: false
+  reject_on_stale_data: true

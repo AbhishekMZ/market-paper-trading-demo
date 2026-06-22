@@ -1,0 +1,12 @@
+# Python 3.11
+# v1 keeps dependencies small (₹0 cost, easy CI). No ML, no database.
+# Market data: Yahoo Finance via the UNOFFICIAL yfinance library (no API key).
+yfinance>=0.2.66
+pandas>=2.2.0
+numpy>=1.26.0
+PyYAML>=6.0.1
+requests>=2.31.0
+python-dotenv>=1.0    # optional: load a local .env when running locally
+
+# Optional future market-data provider (not used in v1):
+# yahooquery>=2.3.7

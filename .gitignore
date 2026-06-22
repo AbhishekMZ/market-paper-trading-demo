@@ -1,0 +1,35 @@
+# Secrets — NEVER commit
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.vite/
+# Copied at build time from ../public/data by frontend/scripts/copy-data.mjs
+frontend/public/data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temp state writes
+data/state/*.tmp
+public/data/*.tmp
+
+# NOTE: data/state/*.json, data/reports/*, and public/data/*.json ARE committed
+# on purpose by the GitHub Actions workflow (that is how the dashboard updates).

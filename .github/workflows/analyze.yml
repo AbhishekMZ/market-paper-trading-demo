@@ -1,0 +1,97 @@
+name: analyze (paper trading)
+
+# Runs the paper-trading analyzer on Indian market checkpoints (weekdays) and
+# on manual dispatch. NO real orders are ever placed. NO SerpApi key needed
+# (market data comes from Yahoo Finance via yfinance).
+
+on:
+  workflow_dispatch:
+    inputs:
+      checkpoint:
+        description: "Checkpoint to run (auto | open | mid | close | manual)"
+        required: false
+        default: "auto"
+      monthly:
+        description: "Also generate the end-of-month report (true/false)"
+        required: false
+        default: "false"
+  schedule:
+    # Cron is UTC. Indian market checkpoints (IST = UTC+5:30), weekdays only.
+    - cron: "5 4 * * 1-5"    # 09:35 IST  (morning)
+    - cron: "0 6 * * 1-5"    # 11:30 IST  (midday)
+    - cron: "15 9 * * 1-5"   # 14:45 IST  (afternoon / end-of-day report)
+
+# Allow the workflow to commit updated state/reports back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: analyze
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Safety gate — verify v1 paper-only config
+        run: |
+          python - <<'PY'
+          import sys, yaml
+          broker = yaml.safe_load(open("config/broker.yml"))["broker"]
+          settings = yaml.safe_load(open("config/settings.yml"))
+          problems = []
+          if broker.get("active_adapter") != "paper":
+              problems.append(f"active_adapter must be 'paper' in v1 (got {broker.get('active_adapter')!r})")
+          if broker.get("live_trading_enabled"):
+              problems.append("live_trading_enabled must be false in v1")
+          if settings.get("live_trading_enabled"):
+              problems.append("settings.live_trading_enabled must be false in v1")
+          if broker.get("allow_real_orders"):
+              problems.append("allow_real_orders must be false in v1")
+          if broker.get("angel_one_enabled"):
+              problems.append("angel_one_enabled must be false in v1")
+          if problems:
+              print("SAFETY GATE FAILED:")
+              for p in problems:
+                  print(" -", p)
+              sys.exit(1)
+          print("Safety gate OK: v1 paper-only configuration verified.")
+          PY
+
+      - name: Run analyzer
+        env:
+          # Email (only notification channel). No SerpApi/Angel One secrets in v1.
+          MARKET_DATA_PROVIDER: yfinance
+          EMAIL_ENABLED: "true"
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          ARGS="--checkpoint ${{ github.event.inputs.checkpoint || 'auto' }}"
+          if [ "${{ github.event.inputs.monthly }}" = "true" ]; then ARGS="$ARGS --monthly"; fi
+          echo "Running: python src/main.py $ARGS"
+          python src/main.py $ARGS
+
+      - name: Commit updated data
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/reports data/state public/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore(data): update paper-trading state & reports [skip ci]"
+            git push
+          fi
