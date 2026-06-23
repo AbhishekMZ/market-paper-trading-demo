@@ -159,6 +159,15 @@ class ExecutionEngine:
                          "mtm_price_used": signal.mtm_price_used})
             return None
 
+        # Defense-in-depth: never buy into HIGH/CRITICAL adverse news. The news
+        # overlay already downgrades the label upstream; this is a backstop.
+        if getattr(signal, "news_blocks_buy", False):
+            self._audit("PAPER_BUY_BLOCKED_BY_NEWS", signal.symbol,
+                        f"Buy blocked — adverse news (risk {signal.news_risk_level}).",
+                        {"signal_id": signal.signal_id, "news_event_types": signal.news_event_types,
+                         "news_top_headline": signal.news_top_headline})
+            return None
+
         price = prices.get(signal.symbol) or signal.last_price
         if not price or price <= 0:
             self._audit_no_trade(signal, "No usable price to size the order.")

@@ -40,6 +40,7 @@ notifications:
     daily_report: true             # full report after the last checkpoint
     trade_events: true             # important fake-trade events
     risk_events: true              # loss-review / drawdown events
+    news_alerts: true              # adverse-news alerts (HIGH/CRITICAL); throttled per run
     system_errors: true
     execution_mode_warnings: true
 

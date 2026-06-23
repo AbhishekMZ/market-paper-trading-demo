@@ -1,0 +1,128 @@
+# =====================================================================
+# News risk layer — configuration
+# v1 MODE: PAPER TRADING ONLY. News is a RISK overlay only:
+#   * adverse news can BLOCK / downgrade a paper buy
+#   * positive news gives at most a small informational boost and can NEVER,
+#     on its own, turn a non-buy into a buy.
+# No secrets live here. NewsAPI (key-gated) stays disabled in v1 (₹0-cost).
+# =====================================================================
+news:
+  enabled: true
+
+  providers:
+    yfinance:
+      enabled: true            # reuses headlines already fetched with the price snapshot (no extra cost)
+      max_items: 10
+    gdelt:
+      enabled: true            # GDELT 2.0 Doc API — free, no key. Resilient: failures degrade to "no news".
+      max_items: 15
+      lookback_hours: 48
+      timeout_seconds: 8
+      base_url: "https://api.gdeltproject.org/api/v2/doc/doc"
+    newsapi:
+      enabled: false           # requires NEWSAPI_KEY — intentionally OFF in v1
+      reason: "Key-gated paid source; disabled to keep v1 ₹0-cost."
+
+  cache:
+    enabled: true
+    ttl_minutes: 60            # don't re-hit GDELT for the same symbol within this window
+
+  freshness:
+    fresh_hours: 24            # items newer than this are "fresh"
+    max_age_hours: 96          # items older than this are context-only (won't block)
+
+  relevance:
+    min_score: 0.30            # below this an item is treated as noise
+    require_relevance_for_gdelt: true   # GDELT is keyword-broad; insist on a symbol/company match
+    keep_yfinance_unfiltered: true      # yfinance items are already symbol-tagged
+
+  # How news verdicts map to action. The engine can only ADD caution.
+  blocking:
+    high_risk_news_blocks_buy: true            # HIGH/CRITICAL adverse news -> no new paper buy
+    critical_news_triggers_exit_review: true   # CRITICAL news on a held position -> EXIT_REVIEW (advisory, never auto-sells)
+    medium_risk_news_triggers_manual_review: true  # MEDIUM adverse news on a buy candidate -> MANUAL_REVIEW
+
+  scoring:
+    positive_sentiment_boost_max: 3.0   # cap on the informational boost; NOT applied to cross the buy threshold
+
+  sentiment:
+    negative_keywords:
+      - fraud
+      - scam
+      - probe
+      - investigation
+      - penalty
+      - downgrade
+      - weak results
+      - loss
+      - default
+      - resignation
+      - regulatory action
+      - lawsuit
+      - debt concern
+      - raid
+      - ban
+      - fine
+      - recall
+      - miss
+      - profit warning
+      - insolvency
+      - bankruptcy
+    positive_keywords:
+      - strong results
+      - order win
+      - expansion
+      - approval
+      - upgrade
+      - margin improvement
+      - debt reduction
+      - record
+      - beats
+      - wins order
+      - new contract
+
+  # Event classification: text -> (event type, risk). Worst risk across matches wins.
+  event_rules:
+    - type: FRAUD
+      risk: CRITICAL
+      keywords: [fraud, scam, embezzle, siphon, ponzi, forensic audit]
+    - type: REGULATORY
+      risk: HIGH
+      keywords: [sebi, regulatory action, probe, investigation, raid, ban, show cause, penalty notice, sfio]
+    - type: LEGAL
+      risk: HIGH
+      keywords: [lawsuit, litigation, insolvency, bankruptcy, default, nclt, arrest]
+    - type: RATING_DOWNGRADE
+      risk: HIGH
+      keywords: [downgrade, rating cut, outlook negative, credit concern]
+    - type: MANAGEMENT_CHANGE
+      risk: MEDIUM
+      keywords: [resignation, steps down, resigns, auditor resigns, ceo exit, cfo exit]
+    - type: EARNINGS_MISS
+      risk: MEDIUM
+      keywords: [profit falls, loss widens, misses estimates, weak results, margin pressure, profit warning]
+    - type: EARNINGS_BEAT
+      risk: NONE
+      keywords: [beats estimates, strong results, profit rises, record profit, margin improvement]
+    - type: ORDER_WIN
+      risk: NONE
+      keywords: [order win, wins contract, bags order, new order, new contract]
+    - type: EXPANSION
+      risk: NONE
+      keywords: [expansion, capacity addition, new plant, acquisition completed]
+    - type: MACRO
+      risk: LOW
+      keywords: [rbi, inflation, rate hike, crude oil, fed, gst, monsoon]
+
+  alerting:
+    email_enabled: true
+    alert_email_to: "sahabhi115@gmail.com"
+    max_alerts_per_run: 5
+    send_on:
+      critical_news: true               # any CRITICAL news on watchlist/held symbol
+      high_risk_news_on_position: true  # HIGH news on a held bot position
+      high_risk_news_blocked_buy: true  # HIGH news that blocked a would-be buy
+
+  export:
+    max_items_public: 200     # cap news items written to public/data
+    max_assessments_public: 50

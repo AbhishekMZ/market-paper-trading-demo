@@ -71,7 +71,16 @@ def load_all_configs() -> dict:
         "scoring": load_config("scoring.yml"),
         "universe": load_config("universe.yml"),
         "costs": load_config("costs.yml"),
+        "news": _load_optional("news.yml"),
     }
+
+
+def _load_optional(name: str) -> dict:
+    """Load a config that may be absent on older checkouts (returns {} if missing)."""
+    try:
+        return load_yaml(config_path(name))
+    except FileNotFoundError:
+        return {}
 
 
 # --------------------------------------------------------------------------- #

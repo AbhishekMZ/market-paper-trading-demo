@@ -228,6 +228,15 @@ class TradeSignal:
     mtm_price_used: Optional[float] = None
     price_consistency_check: str = "PASSED"
     data_quality_verdict: str = "OK"
+    # News-risk overlay (NewsRiskEngine). News can only ADD caution.
+    news_available: bool = False
+    news_risk_level: str = "NONE"
+    news_sentiment: str = "NEUTRAL"
+    news_event_types: List[str] = field(default_factory=list)
+    news_blocks_buy: bool = False
+    news_item_count: int = 0
+    news_top_headline: Optional[str] = None
+    news_reasons: List[str] = field(default_factory=list)
     created_at: str = field(default_factory=now_ist_iso)
 
     def to_dict(self) -> Dict[str, Any]:

@@ -31,5 +31,9 @@ Thumbs.db
 data/state/*.tmp
 public/data/*.tmp
 
+# News provider cache — regenerable performance cache (GDELT responses); not
+# demo state, and would create noisy/bloating diffs on every workflow commit.
+data/state/news_cache.json
+
 # NOTE: data/state/*.json, data/reports/*, and public/data/*.json ARE committed
 # on purpose by the GitHub Actions workflow (that is how the dashboard updates).

@@ -38,6 +38,7 @@ from data_quality import DataQualityEngine  # noqa: E402
 from email_sender import EmailSender  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
+from news import NewsRiskEngine  # noqa: E402
 from order_models import SignalLabel  # noqa: E402
 from portfolio_manager import PortfolioManager  # noqa: E402
 from report_generator import ReportGenerator  # noqa: E402
@@ -169,6 +170,7 @@ def run(args: argparse.Namespace) -> int:
     universe = load_universe(max_active=max_symbols)
     dq = DataQualityEngine(settings.get("data_quality", {}))
     market_by_symbol: Dict[str, Tuple[Dict[str, Any], Dict[str, str]]] = {}
+    news_raw_by_symbol: Dict[str, Any] = {}
     prices: Dict[str, float] = {}
     dq_results = []
     dq_by_symbol: Dict[str, Any] = {}
@@ -179,6 +181,9 @@ def run(args: argparse.Namespace) -> int:
         usage.record()
         md = snap.to_market_data(name=meta.get("name"), exchange=meta.get("exchange"))
         market_by_symbol[meta["symbol"]] = (md, meta)
+        # Keep the raw snapshot news (publisher/time/link) for the news overlay;
+        # to_market_data() only retains headline titles.
+        news_raw_by_symbol[meta["symbol"]] = list(getattr(snap, "news", []) or [])
         # Data-quality gate: assess BEFORE the price is trusted.
         res = dq.assess(meta["symbol"], md)
         dq_results.append(res)
@@ -236,6 +241,32 @@ def run(args: argparse.Namespace) -> int:
         signals.append(sig)
     signals.sort(key=lambda s: s.score, reverse=True)
     dq.save_source_log()
+
+    # --- news risk overlay (post-strategy; can only ADD caution) --------- #
+    # Runs BEFORE buys so adverse news blocks a would-be paper buy. News never
+    # creates or upgrades a buy — it only downgrades/blocks. Degrades to a
+    # no-op when news is disabled or unavailable.
+    news_cfg = (configs.get("news") or {}).get("news", {})
+    news_engine = NewsRiskEngine(news_cfg)
+    news_assessments: List[Dict[str, Any]] = []
+    news_items_run: List[Dict[str, Any]] = []
+    news_alerts: List[Dict[str, Any]] = []
+    for sig in signals:
+        was_buy = sig.label == SignalLabel.BUY_SMALL_PAPER
+        is_held = sig.symbol in held
+        assessment = news_engine.assess(
+            sig.symbol, sig.name,
+            prefetched_news=news_raw_by_symbol.get(sig.symbol),
+            held=is_held,
+        )
+        news_engine.apply_to_signal(sig, assessment)
+        news_assessments.append(assessment.to_dict())
+        news_items_run.extend(assessment.top_items)
+        alert = news_engine.build_alert(assessment, was_buy_candidate=was_buy, held=is_held)
+        if alert:
+            news_alerts.append(alert)
+    news_engine.cache.save()
+    news_health = _build_news_health(news_assessments, news_alerts, now_ist_iso(), cp_id)
 
     # --- process paper buys (risk engine enforces all hard limits) ------- #
     executed: List[Dict[str, Any]] = []
@@ -303,6 +334,10 @@ def run(args: argparse.Namespace) -> int:
     if incidents:
         payload["data_quality_warnings"].append(f"{len(incidents)} data-quality incident(s) this run — see Data Health.")
 
+    # --- news artifacts (assessments + rolling items/alerts + health) ---- #
+    _write_news_artifacts(news_assessments, news_items_run, news_alerts, news_health)
+    payload["news_summary"] = news_health
+
     # Persist runtime state BEFORE exporting so public/data reflects this run.
     usage.save()
     engine.save_state(exec_state)
@@ -321,6 +356,15 @@ def run(args: argparse.Namespace) -> int:
     if reviews and es.should_send("risk_events"):
         lines = "\n".join(f"- {r['symbol']}: {r['unrealized_pnl_pct']}% → {r['label']}" for r in reviews)
         sent_info["risk"] = es.send(f"[Paper] {len(reviews)} position(s) under review", lines)
+    # News alerts (CRITICAL / HIGH adverse news), throttled per run.
+    news_email_on = news_cfg.get("alerting", {}).get("email_enabled", True)
+    if news_alerts and news_email_on and es.should_send("news_alerts"):
+        sent_news = []
+        for alert in news_alerts[: news_engine.max_alerts_per_run]:
+            sent_news.append({"symbol": alert["symbol"], "level": alert["level"],
+                              "result": es.send(alert["subject"], alert["body"])})
+        if sent_news:
+            sent_info["news"] = sent_news
     if sent_info:
         storage.append_audit({"event": "EMAIL", "details": sent_info})
 
@@ -381,6 +425,53 @@ def _write_data_quality_artifacts(incidents, data_health) -> None:
     write_json(storage.public_file("data_quality_incidents.json"), log[-100:][::-1])
     write_json(storage.report_file("data_health.json"), data_health)
     write_json(storage.public_file("data_health.json"), data_health)
+
+
+def _build_news_health(assessments, alerts, last_run, checkpoint) -> Dict[str, Any]:
+    """Summarize this run's news coverage for the dashboard / source-health panel."""
+    providers = sorted({p for a in assessments for p in a.get("providers_used", [])})
+    with_news = [a for a in assessments if a.get("news_available")]
+    blocked = [a for a in assessments if a.get("blocks_buy")]
+    critical = [a for a in assessments if a.get("news_risk_level") == "CRITICAL"]
+    high = [a for a in assessments if a.get("news_risk_level") == "HIGH"]
+    return {
+        "providers_used": providers,
+        "symbols_assessed": len(assessments),
+        "symbols_with_news": len(with_news),
+        "total_items": sum(int(a.get("item_count", 0)) for a in assessments),
+        "blocked_buys": len(blocked),
+        "critical_count": len(critical),
+        "high_count": len(high),
+        "alerts_this_run": len(alerts),
+        "newsapi_enabled": False,
+        "last_run": last_run,
+        "checkpoint": checkpoint,
+        "overall": "CRITICAL" if critical else ("ELEVATED" if (high or blocked) else "NORMAL"),
+    }
+
+
+def _write_news_artifacts(assessments, items, alerts, health) -> None:
+    """Persist news assessments (current run) + rolling items/alerts + health.
+
+    Public export is handled by static_exporter (it copies + caps these files).
+    """
+    from utils import write_json  # local import to keep top clean
+
+    write_json(storage.report_file("news_assessments.json"), assessments)
+    write_json(storage.report_file("news_health.json"), health)
+
+    item_log = storage.read_json(storage.report_file("news_items.json"), [])
+    if not isinstance(item_log, list):
+        item_log = []
+    item_log.extend(items)
+    write_json(storage.report_file("news_items.json"), item_log[-500:])
+
+    alert_log = storage.read_json(storage.report_file("news_alerts.json"), [])
+    if not isinstance(alert_log, list):
+        alert_log = []
+    stamp = now_ist_iso()
+    alert_log.extend({**a, "ts": stamp} for a in alerts)
+    write_json(storage.report_file("news_alerts.json"), alert_log[-200:])
 
 
 def _persist_signal_history(signals) -> None:

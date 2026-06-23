@@ -1,0 +1,299 @@
+[
+  {
+    "symbol": "ITC.NS",
+    "company_name": "ITC",
+    "news_available": true,
+    "item_count": 1,
+    "fresh_item_count": 1,
+    "overall_sentiment": "POSITIVE",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 1.5,
+    "reasons": [
+      "1 relevant item(s); worst risk NONE, sentiment POSITIVE."
+    ],
+    "providers_used": [
+      "yfinance"
+    ],
+    "top_items": [
+      {
+        "symbol": "ITC.NS",
+        "title": "ITC reports strong results; margin improvement and debt reduction noted",
+        "source": "SAMPLE",
+        "provider": "yfinance",
+        "url": null,
+        "summary": "",
+        "published_at": null,
+        "fetched_at": "2026-06-23T04:55:02.432608+00:00",
+        "age_hours": null,
+        "is_fresh": true,
+        "sentiment": "POSITIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "EARNINGS_BEAT"
+        ],
+        "risk_level": "NONE",
+        "matched_keywords": [
+          "debt reduction",
+          "margin improvement",
+          "strong results"
+        ]
+      }
+    ],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "company_name": "Reliance Industries",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "INFY.NS",
+    "company_name": "Infosys",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "company_name": "HDFC Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "company_name": "ICICI Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "company_name": "Bharti Airtel",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "company_name": "Axis Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "LT.NS",
+    "company_name": "Larsen & Toubro",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "SBIN.NS",
+    "company_name": "State Bank of India",
+    "news_available": true,
+    "item_count": 1,
+    "fresh_item_count": 1,
+    "overall_sentiment": "NEGATIVE",
+    "news_risk_level": "CRITICAL",
+    "dominant_event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "blocks_buy": true,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "1 relevant item(s); worst risk CRITICAL, sentiment NEGATIVE.",
+      "[CRITICAL] SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+      "HIGH/CRITICAL adverse news -> new paper buy blocked."
+    ],
+    "providers_used": [
+      "yfinance"
+    ],
+    "top_items": [
+      {
+        "symbol": "SBIN.NS",
+        "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+        "source": "SAMPLE",
+        "provider": "yfinance",
+        "url": null,
+        "summary": "",
+        "published_at": null,
+        "fetched_at": "2026-06-23T04:55:02.433825+00:00",
+        "age_hours": null,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "FRAUD",
+          "REGULATORY"
+        ],
+        "risk_level": "CRITICAL",
+        "matched_keywords": [
+          "forensic audit",
+          "fraud",
+          "probe",
+          "sebi"
+        ]
+      }
+    ],
+    "critical_items": [
+      {
+        "symbol": "SBIN.NS",
+        "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+        "source": "SAMPLE",
+        "provider": "yfinance",
+        "url": null,
+        "summary": "",
+        "published_at": null,
+        "fetched_at": "2026-06-23T04:55:02.433825+00:00",
+        "age_hours": null,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "FRAUD",
+          "REGULATORY"
+        ],
+        "risk_level": "CRITICAL",
+        "matched_keywords": [
+          "forensic audit",
+          "fraud",
+          "probe",
+          "sebi"
+        ]
+      }
+    ],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  },
+  {
+    "symbol": "TCS.NS",
+    "company_name": "Tata Consultancy Services",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:25:02+05:30"
+  }
+]

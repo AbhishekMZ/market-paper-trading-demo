@@ -41,8 +41,13 @@ PROFILES = {
 }
 
 SAMPLE_NEWS = {
+    # Positive news on the buy candidate — informational only; never forces a buy.
     "ITC.NS": [{"title": "ITC reports strong results; margin improvement and debt reduction noted",
                 "publisher": "SAMPLE", "link": "", "provider_publish_time": 0, "type": "STORY"}],
+    # CRITICAL adverse news on a weak name — demonstrates the news panels + that
+    # news BLOCKS buys (this symbol is not a buy candidate, so no trade is affected).
+    "SBIN.NS": [{"title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+                 "publisher": "SAMPLE", "link": "", "provider_publish_time": 0, "type": "STORY"}],
 }
 
 
@@ -86,6 +91,11 @@ def main() -> int:
     # Patch the provider class BEFORE importing the orchestrator's run.
     from market_data.yahoo_finance_provider import YahooFinanceProvider
     YahooFinanceProvider.get_snapshot = synthetic_get_snapshot
+
+    # Honor the "no network" contract: stub the GDELT news provider so the news
+    # overlay runs deterministically against SAMPLE_NEWS only (no live fetch).
+    import news.providers as news_providers
+    news_providers.GDELTNewsProvider._query = lambda self, query_name: []
 
     import main as orchestrator  # noqa: E402
 
