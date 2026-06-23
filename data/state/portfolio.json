@@ -1,13 +1,31 @@
 {
-  "as_of": "2026-06-23T09:52:09+05:30",
+  "as_of": "2026-06-23T10:25:02+05:30",
   "starting_capital": 10000.0,
   "monthly_capital": 10000.0,
-  "cash": 10000.0,
-  "holdings_value": 0.0,
+  "cash": 8474.74,
+  "holdings_value": 1525.26,
   "total_value": 10000.0,
   "realized_pnl": 0.0,
   "unrealized_pnl": 0.0,
-  "positions": [],
+  "positions": [
+    {
+      "symbol": "ITC.NS",
+      "exchange": "NSE",
+      "name": "ITC.NS",
+      "quantity": 3,
+      "avg_price": 508.42,
+      "invested": 1525.26,
+      "last_price": 508.42,
+      "current_value": 1525.26,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "bot_owned": true,
+      "opened_at": "2026-06-23T10:25:02+05:30",
+      "signal_id": "sig_bdc46eaad949",
+      "risk_status": "OK",
+      "data_status": "OK"
+    }
+  ],
   "closed_positions": [],
   "peak_total_value": 10000.0,
   "max_drawdown_pct": 0.0

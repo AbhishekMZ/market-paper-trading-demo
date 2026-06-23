@@ -202,6 +202,31 @@ position entered on one price basis and marked on another can show a fake −40%
 `python scripts/reset_demo.py --confirm RESET_PAPER_DEMO` (or the **reset-demo**
 GitHub Action with input `RESET_PAPER_DEMO`) to wipe paper state to a clean start.
 
+### News risk layer (important)
+A **post-strategy risk overlay** (`src/news/`) that runs *after* the hybrid
+scoring engine, per symbol, and can **only add caution**. The cardinal rule is
+enforced in code (`news_risk_engine.apply_to_signal`): adverse news may
+**block or downgrade** a paper buy, but **news can never create or upgrade a
+buy**. Positive news is recorded as a mild informational `sentiment_boost` only —
+it is not added to the score and can never cross the buy threshold, so **news
+alone can never trigger a buy.**
+
+- **Providers (₹0-cost):** `yfinance` headlines already fetched with the price
+  snapshot (no extra call), plus the free, key-less **GDELT** 2.0 Doc API (8 s
+  timeout, cached, degrades to "no news" on any failure). `NewsAPI` is **disabled**
+  (needs a key). Sentiment + event classification are keyword-driven, deterministic,
+  and tunable in `config/news.yml` — no ML.
+- **Verdict → action:** `CRITICAL`/`HIGH` adverse news **blocks** a fresh buy
+  (`CRITICAL` → `NO_ACTION`, `HIGH` → `WATCH`); `MEDIUM` → `MANUAL_REVIEW`;
+  `CRITICAL` news on a held position flags `EXIT_REVIEW` (advisory — v1 never
+  auto-sells). `src/execution_engine.py` independently re-blocks any buy with
+  `news_blocks_buy` set (audit event `PAPER_BUY_BLOCKED_BY_NEWS`) as defense-in-depth.
+- **Alerts:** email only (Gmail SMTP), on `CRITICAL` news (watched/held), `HIGH`
+  news on a held position, or `HIGH` news that blocked a buy. Throttled to
+  `max_alerts_per_run` (default 5); every body reminds **PAPER TRADING ONLY**.
+
+Full design, pipeline, and config reference: [`docs/news_risk_layer.md`](docs/news_risk_layer.md).
+
 ---
 
 ## 11. Setup

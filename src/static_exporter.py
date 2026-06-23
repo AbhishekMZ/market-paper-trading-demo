@@ -40,7 +40,12 @@ def export_all() -> Dict[str, Any]:
     # 4) Reports copied verbatim into public/ if present.
     for fname, cap in (("strategy_evaluation.json", None),
                        ("data_health.json", None),
-                       ("data_quality_incidents.json", 100)):
+                       ("data_quality_incidents.json", 100),
+                       # News risk layer.
+                       ("news_assessments.json", 50),
+                       ("news_items.json", 200),
+                       ("news_alerts.json", 100),
+                       ("news_health.json", None)):
         src = os.path.join(storage.REPORTS_DIR, fname)
         if not os.path.exists(src):
             continue

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T09:51:20+05:30",
+  "generated_at": "2026-06-23T10:25:02+05:30",
   "month": "2026-06",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
   "fake_pnl": 0.0,
@@ -26,7 +26,7 @@
   "best_trade": 0.0,
   "worst_trade": 0.0,
   "strategy_evaluation": {
-    "as_of": "2026-06-23T09:51:19+05:30",
+    "as_of": "2026-06-23T10:25:02+05:30",
     "portfolio_max_drawdown_pct": 0.0,
     "total_signals": 10,
     "total_paper_trades": 1,
@@ -68,8 +68,8 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 0,
-        "average_score_contribution": 66.5,
+        "avoided_bad_trade_count": 1,
+        "average_score_contribution": 64.1,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },

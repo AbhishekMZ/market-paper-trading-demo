@@ -53,13 +53,18 @@ def reset() -> None:
         "provider": settings.get("market_data", {}).get("provider", "yfinance"),
         "budget_enabled": False, "calls_today": 0, "last_updated": now_ist_iso(),
     })
-    # Truncate the audit log and DQ artifacts.
+    # Truncate the audit log and DQ / news artifacts.
     open(storage.AUDIT_LOG_PATH, "w", encoding="utf-8").close()
-    for f in ("data_quality_incidents.json", "data_health.json", "strategy_evaluation.json"):
-        p = storage.report_file(f)
-        if os.path.exists(p):
-            os.remove(p)
+    artifacts = (
+        "data_quality_incidents.json", "data_health.json", "strategy_evaluation.json",
+        "news_assessments.json", "news_items.json", "news_alerts.json", "news_health.json",
+    )
+    for f in artifacts:
+        for p in (storage.report_file(f), storage.public_file(f)):
+            if os.path.exists(p):
+                os.remove(p)
     write_json(storage.state_file("dq_source_log.json"), {})
+    write_json(storage.state_file("news_cache.json"), {})
     storage.append_audit({"event": "DEMO_RESET", "message": "Paper demo reset to clean state.",
                           "starting_capital": starting})
     static_exporter.export_all()
