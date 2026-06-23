@@ -222,6 +222,12 @@ class TradeSignal:
     estimated_cost: float = 0.0
     led_to_paper_trade: bool = False
     data_snapshot: Dict[str, Any] = field(default_factory=dict)
+    # Data-quality provenance (DataQualityEngine).
+    price_source: str = "unknown"
+    entry_price_used: Optional[float] = None
+    mtm_price_used: Optional[float] = None
+    price_consistency_check: str = "PASSED"
+    data_quality_verdict: str = "OK"
     created_at: str = field(default_factory=now_ist_iso)
 
     def to_dict(self) -> Dict[str, Any]:

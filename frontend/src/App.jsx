@@ -7,6 +7,7 @@ import SignalTable from './components/SignalTable.jsx';
 import Portfolio from './components/Portfolio.jsx';
 import TradeHistory from './components/TradeHistory.jsx';
 import AuditLog from './components/AuditLog.jsx';
+import DataHealth from './components/DataHealth.jsx';
 import StrategyEvaluation from './components/StrategyEvaluation.jsx';
 import ResearchHypotheses from './components/ResearchHypotheses.jsx';
 import SettingsView from './components/SettingsView.jsx';
@@ -19,6 +20,7 @@ const TABS = [
   { id: 'portfolio', label: 'Portfolio', el: Portfolio },
   { id: 'trades', label: 'Trade History', el: TradeHistory },
   { id: 'audit', label: 'Audit Log', el: AuditLog },
+  { id: 'datahealth', label: 'Data Health', el: DataHealth },
   { id: 'evaluation', label: 'Strategy Eval', el: StrategyEvaluation },
   { id: 'research', label: 'Research', el: ResearchHypotheses },
   { id: 'execution', label: 'Execution Mode', el: ExecutionMode },

@@ -176,6 +176,32 @@ Set `market_data.provider` in `config/settings.yml` (e.g. to `yahooquery` once
 implemented) and/or add a new provider under `src/market_data/`. Strategies are
 unaffected — they only see the normalized `MarketSnapshot`.
 
+### Data-quality & anomaly handling (important)
+Unofficial feeds occasionally return bad, stale, or **adjusted/unadjusted**
+prices. Acted on blindly, that produces misleading paper trades and P&L (e.g. a
+position entered on one price basis and marked on another can show a fake −40%).
+`src/data_quality/` (`DataQualityEngine`) guards against this:
+
+- **Before trusting a quote**, it checks current price vs the latest history
+  close (basis mismatch), price-within-recent-range, staleness, extreme moves
+  with no news, and split/corporate-action discontinuities. A failure ⇒ verdict
+  `DATA_ANOMALY`, the symbol is **excluded from pricing**, and **buys are blocked**
+  (label forced to `NO_ACTION`). The execution engine also blocks such buys as
+  defense-in-depth.
+- **Marking held positions**, a new mark that jumps more than
+  `data_quality.mtm_jump_pct` vs the last-known-good price is **rejected** — the
+  prior price is kept, the position is flagged `DATA_ANOMALY`, and an incident is
+  recorded (never a fake loss).
+- Every signal stores `price_source`, `entry_price_used`, `mtm_price_used`,
+  `price_consistency_check`, and `data_quality_verdict`.
+- Incidents → `data/reports/data_quality_incidents.json` (+ public, capped);
+  a per-run **Data Health** snapshot → `data_health.json` (shown on the dashboard's
+  Data Health tab). Tune thresholds in `config/settings.yml → data_quality`.
+
+**Reset the demo:** if state ever gets corrupted, run
+`python scripts/reset_demo.py --confirm RESET_PAPER_DEMO` (or the **reset-demo**
+GitHub Action with input `RESET_PAPER_DEMO`) to wipe paper state to a clean start.
+
 ---
 
 ## 11. Setup

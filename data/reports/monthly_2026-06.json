@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T02:23:39+05:30",
+  "generated_at": "2026-06-23T09:51:20+05:30",
   "month": "2026-06",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
   "fake_pnl": 0.0,
@@ -26,7 +26,7 @@
   "best_trade": 0.0,
   "worst_trade": 0.0,
   "strategy_evaluation": {
-    "as_of": "2026-06-23T02:23:39+05:30",
+    "as_of": "2026-06-23T09:51:19+05:30",
     "portfolio_max_drawdown_pct": 0.0,
     "total_signals": 10,
     "total_paper_trades": 1,

@@ -149,6 +149,16 @@ class ExecutionEngine:
         if signal.label != SignalLabel.BUY_SMALL_PAPER:
             return None
 
+        # Defense-in-depth: never buy on anomalous/inconsistent data, even if a
+        # bug let the label through. (main also forces NO_ACTION upstream.)
+        if signal.data_quality_verdict != "OK" or signal.price_consistency_check == "FAILED":
+            self._audit("PAPER_BUY_BLOCKED_BY_DATA_QUALITY", signal.symbol,
+                        f"Buy blocked — data quality {signal.data_quality_verdict} "
+                        f"(consistency {signal.price_consistency_check}).",
+                        {"signal_id": signal.signal_id, "entry_price_used": signal.entry_price_used,
+                         "mtm_price_used": signal.mtm_price_used})
+            return None
+
         price = prices.get(signal.symbol) or signal.last_price
         if not price or price <= 0:
             self._audit_no_trade(signal, "No usable price to size the order.")

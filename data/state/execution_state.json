@@ -6,7 +6,7 @@
   "require_manual_approval": true,
   "allow_real_orders": false,
   "kill_switch": false,
-  "buys_today": 1,
+  "buys_today": 0,
   "buy_date": "2026-06-23",
-  "last_run": "2026-06-23T02:29:27+05:30"
+  "last_run": "2026-06-23T09:52:09+05:30"
 }

@@ -34,6 +34,7 @@ import storage  # noqa: E402
 from backtesting.cost_model import CostModel  # noqa: E402
 from backtesting.backtest_engine import PaperTradeReplay  # noqa: E402
 from broker import build_adapter  # noqa: E402
+from data_quality import DataQualityEngine  # noqa: E402
 from email_sender import EmailSender  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
@@ -166,18 +167,35 @@ def run(args: argparse.Namespace) -> int:
     # --- market data for the active universe ----------------------------- #
     max_symbols = int(md_cfg.get("max_symbols_per_run", 10))
     universe = load_universe(max_active=max_symbols)
-    market_by_symbol: Dict[str, Tuple[Any, Dict[str, str]]] = {}
+    dq = DataQualityEngine(settings.get("data_quality", {}))
+    market_by_symbol: Dict[str, Tuple[Dict[str, Any], Dict[str, str]]] = {}
     prices: Dict[str, float] = {}
+    dq_results = []
+    dq_by_symbol: Dict[str, Any] = {}
+    incidents: List[Dict[str, Any]] = []
+    anomalous_symbols = set()
     for meta in universe["active"]:
         snap = provider.get_snapshot(meta["symbol"], period=period, interval=interval)
         usage.record()
-        market_by_symbol[meta["symbol"]] = (snap, meta)
-        price = snap.quote.current_price if snap.quote else None
-        if price:
-            prices[meta["symbol"]] = price
+        md = snap.to_market_data(name=meta.get("name"), exchange=meta.get("exchange"))
+        market_by_symbol[meta["symbol"]] = (md, meta)
+        # Data-quality gate: assess BEFORE the price is trusted.
+        res = dq.assess(meta["symbol"], md)
+        dq_results.append(res)
+        dq_by_symbol[meta["symbol"]] = res
+        inc = dq.incident(res)
+        if inc:
+            incidents.append(inc)
+        if res.verdict == "DATA_ANOMALY":
+            anomalous_symbols.add(meta["symbol"])
+        # Only trust the price for marking/sizing when it passed the gate.
+        if md.get("price") and res.verdict == "OK":
+            prices[meta["symbol"]] = md["price"]
 
     adapter.set_prices(prices)
-    pm.mark_to_market(prices)
+    mtm_jump = float(settings.get("data_quality", {}).get("mtm_jump_pct", 15))
+    pm.mark_to_market(prices, anomalous_symbols=anomalous_symbols, mtm_jump_pct=mtm_jump)
+    incidents.extend(getattr(pm, "last_mtm_incidents", []))
     portfolio = storage.load_state("portfolio", {})
     held = [p["symbol"] for p in portfolio.get("positions", [])]
     budget = pm.load_budget()
@@ -198,12 +216,26 @@ def run(args: argparse.Namespace) -> int:
         "checkpoint": cp_id,
     }
 
-    # --- evaluate every symbol (engine receives normalized snapshots) ---- #
+    # --- evaluate every symbol (engine receives normalized market data) -- #
     signals = []
-    for symbol, (snap, meta) in market_by_symbol.items():
-        sig = hybrid.evaluate(symbol, snap, portfolio, context, meta)
+    for symbol, (md, meta) in market_by_symbol.items():
+        sig = hybrid.evaluate(symbol, md, portfolio, context, meta)
+        # Attach data-quality provenance and enforce the gate on the signal.
+        res = dq_by_symbol.get(symbol)
+        if res is not None:
+            sig.price_source = res.price_source
+            sig.entry_price_used = res.entry_price_used
+            sig.mtm_price_used = res.mtm_price_used
+            sig.price_consistency_check = res.price_consistency_check
+            sig.data_quality_verdict = res.verdict
+            if res.verdict != "OK":
+                if sig.label == SignalLabel.BUY_SMALL_PAPER:
+                    sig.label = SignalLabel.NO_ACTION
+                sig.warnings = list(sig.warnings) + [f"DataQuality:{res.verdict}"] + res.reasons[:2]
+                sig.reason = f"[DATA {res.verdict}] " + sig.reason
         signals.append(sig)
     signals.sort(key=lambda s: s.score, reverse=True)
+    dq.save_source_log()
 
     # --- process paper buys (risk engine enforces all hard limits) ------- #
     executed: List[Dict[str, Any]] = []
@@ -218,7 +250,7 @@ def run(args: argparse.Namespace) -> int:
                 sig.led_to_paper_trade = True
 
     # Re-value the portfolio after any fills so holdings/total/unrealized are current.
-    pm.mark_to_market(prices)
+    pm.mark_to_market(prices, anomalous_symbols=anomalous_symbols, mtm_jump_pct=mtm_jump)
 
     # --- audit each signal (comprehensive entry) ------------------------- #
     for sig in signals:
@@ -253,6 +285,23 @@ def run(args: argparse.Namespace) -> int:
         research_summary=research_summary,
         strategy_eval=strat_eval,
     )
+
+    # --- data-quality artifacts (incidents + health) --------------------- #
+    usable_syms = [sym for sym in market_by_symbol if sym not in anomalous_symbols
+                   and dq_by_symbol.get(sym) and dq_by_symbol[sym].verdict == "OK"]
+    rejected_syms = [sym for sym in market_by_symbol
+                     if dq_by_symbol.get(sym) and dq_by_symbol[sym].verdict != "OK"]
+    data_health = dq.health(
+        provider=usage.u.get("provider", "yfinance"),
+        results=dq_results,
+        usable=usable_syms,
+        rejected=rejected_syms,
+        last_run=now_ist_iso(),
+        extra={"latest_workflow": "analyze", "checkpoint": cp_id, "mtm_incidents": len(getattr(pm, "last_mtm_incidents", []))},
+    )
+    _write_data_quality_artifacts(incidents, data_health)
+    if incidents:
+        payload["data_quality_warnings"].append(f"{len(incidents)} data-quality incident(s) this run — see Data Health.")
 
     # Persist runtime state BEFORE exporting so public/data reflects this run.
     usage.save()
@@ -313,6 +362,25 @@ def _audit_signal(sig, regime, adapter, engine) -> None:
         "warnings": sig.warnings,
         "conflicts": sig.conflict_warnings,
     })
+
+
+def _write_data_quality_artifacts(incidents, data_health) -> None:
+    """Persist data-quality incidents + health to reports and public/data.
+
+    Incidents are appended to a rolling log (capped) so the dashboard can show
+    history; data_health is the latest snapshot.
+    """
+    from utils import write_json  # local import to keep top clean
+
+    log = storage.read_json(storage.report_file("data_quality_incidents.json"), [])
+    if not isinstance(log, list):
+        log = []
+    log.extend(incidents)
+    log = log[-500:]
+    write_json(storage.report_file("data_quality_incidents.json"), log)
+    write_json(storage.public_file("data_quality_incidents.json"), log[-100:][::-1])
+    write_json(storage.report_file("data_health.json"), data_health)
+    write_json(storage.public_file("data_health.json"), data_health)
 
 
 def _persist_signal_history(signals) -> None:
