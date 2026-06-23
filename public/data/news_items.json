@@ -1,5 +1,878 @@
 [
   {
+    "symbol": "INFY.NS",
+    "title": "Indian IT stocks tumble as Accenture flags weak outlook",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indian-stocks-tumble-accenture-flags-035749287.html",
+    "summary": "",
+    "published_at": "2026-06-19T03:57:49+00:00",
+    "fetched_at": "2026-06-23T06:18:09.659491+00:00",
+    "age_hours": 98.34,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "INFY.NS",
+    "title": "India's Nifty IT index at three-year low as bellwether Accenture flags weak outlook",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/indian-stocks-tumble-bellwether-accenture-035749702.html",
+    "summary": "",
+    "published_at": "2026-06-19T03:57:49+00:00",
+    "fetched_at": "2026-06-23T06:18:09.659479+00:00",
+    "age_hours": 98.34,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "INFY.NS",
+    "title": "Infosys (NSEI:INFY) Stock Sees Split Analyst Revisions As Price Targets Edge Lower",
+    "source": "Simply Wall St.",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/infosys-nsei-infy-stock-sees-101044067.html",
+    "summary": "",
+    "published_at": "2026-06-19T10:10:44+00:00",
+    "fetched_at": "2026-06-23T06:18:09.659465+00:00",
+    "age_hours": 92.12,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "INFY.NS",
+    "title": "Infosys (INFY) Partners With Valmet On Enterprise-Wide IT Transformation Initiative",
+    "source": "Insider Monkey",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/technology/articles/infosys-infy-partners-valmet-enterprise-190353544.html",
+    "summary": "",
+    "published_at": "2026-06-20T19:03:53+00:00",
+    "fetched_at": "2026-06-23T06:18:09.659449+00:00",
+    "age_hours": 59.24,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "INFY.NS",
+    "title": "India seeks tariff advantage before implementing U.S. trade deal",
+    "source": "Investing.com",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/economy/policy/articles/india-seeks-tariff-advantage-implementing-094014828.html",
+    "summary": "",
+    "published_at": "2026-06-21T09:40:14+00:00",
+    "fetched_at": "2026-06-23T06:18:09.659428+00:00",
+    "age_hours": 44.63,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "TCS.NS",
+    "title": "As Anthropic suspends access to new models, India debates its AI future",
+    "source": "TechCrunch",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-suspends-access-models-india-030000333.html",
+    "summary": "",
+    "published_at": "2026-06-14T03:00:00+00:00",
+    "fetched_at": "2026-06-23T06:18:01.569540+00:00",
+    "age_hours": 219.3,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "TCS.NS",
+    "title": "US Supreme Court rejects Tata challenge to $168 million award in trade secrets case",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://ca.news.yahoo.com/us-supreme-court-rejects-tata-134527744.html",
+    "summary": "",
+    "published_at": "2026-06-15T13:49:37+00:00",
+    "fetched_at": "2026-06-23T06:18:01.569527+00:00",
+    "age_hours": 184.47,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "TCS.NS",
+    "title": "India's TCS to take $70 million hit after US Supreme Court rejects appeal",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-tcs-70-million-hit-040310433.html",
+    "summary": "",
+    "published_at": "2026-06-16T04:40:43+00:00",
+    "fetched_at": "2026-06-23T06:18:01.569513+00:00",
+    "age_hours": 169.62,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "TCS.NS",
+    "title": "Indian IT stocks tumble as Accenture flags weak outlook",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indian-stocks-tumble-accenture-flags-035749287.html",
+    "summary": "",
+    "published_at": "2026-06-19T03:57:49+00:00",
+    "fetched_at": "2026-06-23T06:18:01.569498+00:00",
+    "age_hours": 98.34,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "TCS.NS",
+    "title": "India's Nifty IT index at three-year low as bellwether Accenture flags weak outlook",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/indian-stocks-tumble-bellwether-accenture-035749702.html",
+    "summary": "",
+    "published_at": "2026-06-19T03:57:49+00:00",
+    "fetched_at": "2026-06-23T06:18:01.569480+00:00",
+    "age_hours": 98.34,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "title": "Meta Platforms, Inc. (META): A Top Growth Stock to Buy Pursuing Data Centers Opportunities in India",
+    "source": "Insider Monkey",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/technology/articles/meta-platforms-inc-meta-top-212041730.html",
+    "summary": "",
+    "published_at": "2026-06-18T21:20:41+00:00",
+    "fetched_at": "2026-06-23T06:17:48.603714+00:00",
+    "age_hours": 104.95,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "title": "Meta (META) Builds Its First India AI Data Center With Reliance",
+    "source": "Simply Wall St.",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-builds-first-india-050916545.html",
+    "summary": "",
+    "published_at": "2026-06-22T05:09:16+00:00",
+    "fetched_at": "2026-06-23T06:17:48.603679+00:00",
+    "age_hours": 25.14,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "title": "Reliance reveals JioStar first - year revenue at Rs 34 , 917 crore",
+    "source": "afaqs.com",
+    "provider": "gdelt",
+    "url": "https://www.afaqs.com/news/media/reliance-reveals-jiostars-first-year-revenue-at-rs-34917-crore-12062164",
+    "summary": "",
+    "published_at": "2026-06-22T12:00:00+00:00",
+    "fetched_at": "2026-06-23T06:18:01.568204+00:00",
+    "age_hours": 18.3,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "title": "Explained : Reliance Communications and Telegram global blocking",
+    "source": "thehindu.com",
+    "provider": "gdelt",
+    "url": "https://www.thehindu.com/business/explained-reliance-communications-and-telegrams-global-blocking/article71132737.ece",
+    "summary": "",
+    "published_at": "2026-06-23T02:45:00+00:00",
+    "fetched_at": "2026-06-23T06:18:01.567983+00:00",
+    "age_hours": 3.55,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "title": "Billionaire Ambani wants AI in every call, app, and home",
+    "source": "TechCrunch",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-ambani-wants-ai-every-152328329.html",
+    "summary": "",
+    "published_at": "2026-06-19T15:23:28+00:00",
+    "fetched_at": "2026-06-23T06:17:48.603698+00:00",
+    "age_hours": 86.91,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "British American Tobacco plans to offload stake in India's ITC Hotels",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/british-american-tobacco-plans-offload-142827642.html",
+    "summary": "",
+    "published_at": "2025-12-04T14:28:27+00:00",
+    "fetched_at": "2026-06-23T06:17:40.594345+00:00",
+    "age_hours": 4815.82,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "title": "Market Chatter: HDFC Bank's $4.71 Million Allegedly-Disguised Payment to State-Owned Indian Board Under Media Scrutiny",
+    "source": "MT Newswires",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-hdfc-bank-apos-101531396.html",
+    "summary": "",
+    "published_at": "2026-05-27T10:15:31+00:00",
+    "fetched_at": "2026-06-23T06:17:31.590807+00:00",
+    "age_hours": 644.03,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "title": "Here’s Why HDFC Bank Limited (HDB) Traded Lower in Q1",
+    "source": "Insider Monkey",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-hdfc-bank-limited-hdb-132253859.html",
+    "summary": "",
+    "published_at": "2026-06-03T13:22:53+00:00",
+    "fetched_at": "2026-06-23T06:17:31.590792+00:00",
+    "age_hours": 472.91,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "title": "India's HDFC Bank to hit dollar bond market under new subsidised scheme, sources say",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
+    "summary": "",
+    "published_at": "2026-06-16T15:21:42+00:00",
+    "fetched_at": "2026-06-23T06:17:31.590710+00:00",
+    "age_hours": 158.93,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "title": "HDFC Bank (HDB) Fell as Deposit Fell Short of Expectations",
+    "source": "Insider Monkey",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hdfc-bank-hdb-fell-deposit-125050903.html",
+    "summary": "",
+    "published_at": "2026-06-17T12:50:50+00:00",
+    "fetched_at": "2026-06-23T06:17:31.590694+00:00",
+    "age_hours": 137.44,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "title": "India's HDFC Bank to extend interim chairman Keki Mistry's tenure for three months",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-extend-interim-115058341.html",
+    "summary": "",
+    "published_at": "2026-06-18T11:50:58+00:00",
+    "fetched_at": "2026-06-23T06:17:31.590674+00:00",
+    "age_hours": 114.44,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "title": "India's Axis Bank to infuse $162 million in consumer lending arm",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-infuse-162-045039386.html",
+    "summary": "",
+    "published_at": "2026-03-18T04:50:39+00:00",
+    "fetched_at": "2026-06-23T06:17:23.486453+00:00",
+    "age_hours": 2329.45,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "title": "India's Axis Bank misses profit forecast on lower trading income, approves $2 billion equity fundraise",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-misses-profit-091831838.html",
+    "summary": "",
+    "published_at": "2026-04-25T13:08:54+00:00",
+    "fetched_at": "2026-06-23T06:17:23.486409+00:00",
+    "age_hours": 1409.14,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban",
+      "miss"
+    ]
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "title": "India's Axis Bank slips on profit miss, $2 billion equity fundraise",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-falls-missing-040121217.html",
+    "summary": "",
+    "published_at": "2026-04-27T06:41:22+00:00",
+    "fetched_at": "2026-06-23T06:17:23.486394+00:00",
+    "age_hours": 1367.6,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban",
+      "miss"
+    ]
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "title": "Axis Bank Ltd (FRA:UZC) (Full Year 2026) Earnings Call Highlights: Strong Growth Amidst Margin ...",
+    "source": "GuruFocus.com",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/axis-bank-ltd-fra-uzc-010027807.html",
+    "summary": "",
+    "published_at": "2026-04-28T01:00:27+00:00",
+    "fetched_at": "2026-06-23T06:17:23.486364+00:00",
+    "age_hours": 1349.28,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "title": "Banks reduce headcounts globally as AI boosts efficiency",
+    "source": "Retail Banker International",
+    "provider": "yfinance",
+    "url": "https://www.retailbankerinternational.com/analyst-comment/banks-reduce-headcounts-ai-boosts-efficiency/",
+    "summary": "",
+    "published_at": "2026-05-26T13:36:22+00:00",
+    "fetched_at": "2026-06-23T06:17:23.486343+00:00",
+    "age_hours": 664.68,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "India directs state-run banks, insurance firms to cut costs, shift to EVs",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/india-directs-state-run-banks-072654260.html",
+    "summary": "",
+    "published_at": "2026-05-18T07:26:54+00:00",
+    "fetched_at": "2026-06-23T06:17:15.405987+00:00",
+    "age_hours": 862.84,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "How a book convinced Arundhati Bhattacharya, one of India’s most powerful bankers, to try working for a U.S. tech company",
+    "source": "Fortune",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/sectors/technology/articles/book-convinced-arundhati-bhattacharya-one-070000846.html",
+    "summary": "",
+    "published_at": "2026-05-19T07:00:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.405974+00:00",
+    "age_hours": 839.29,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
+    "summary": "",
+    "published_at": "2026-06-09T06:44:34+00:00",
+    "fetched_at": "2026-06-23T06:17:15.405913+00:00",
+    "age_hours": 335.54,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "MACRO",
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban",
+      "rbi"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "Japan’s Biggest Crypto Banking Experiment Is Here, and the US Can’t Do This Yet",
+    "source": "BeInCrypto",
+    "provider": "yfinance",
+    "url": "https://beincrypto.com/sbi-shinsei-crypto-banking-experiment-japan-xrp-bitcoin/",
+    "summary": "",
+    "published_at": "2026-06-09T11:30:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.405900+00:00",
+    "age_hours": 330.79,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "India's HDFC Bank to hit dollar bond market under new subsidised scheme, sources say",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
+    "summary": "",
+    "published_at": "2026-06-16T15:21:42+00:00",
+    "fetched_at": "2026-06-23T06:17:15.405868+00:00",
+    "age_hours": 158.93,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "title": "VEON Closes USD 1.4B Bond Offering & Refinances 2027 Debt Ahead of Schedule",
+    "source": "Exec Edge",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/veon-closes-usd-1-4b-214320227.html",
+    "summary": "",
+    "published_at": "2026-06-02T21:43:20+00:00",
+    "fetched_at": "2026-06-23T06:17:03.851776+00:00",
+    "age_hours": 488.56,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "title": "Jio Platforms IPO signals diverging growth paths with Bharti Airtel",
+    "source": "livemint.com",
+    "provider": "gdelt",
+    "url": "https://www.livemint.com/industry/telecom/jio-platforms-ipo-signals-diverging-growth-paths-with-bharti-airtel-11782036991881.html",
+    "summary": "",
+    "published_at": "2026-06-22T02:45:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.404543+00:00",
+    "age_hours": 27.54,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 0.8333333333333333,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "title": "Reliance Industries , Bharti Airtel , Waaree : Stocks to buy price targets , stop loss & more",
+    "source": "businesstoday.in",
+    "provider": "gdelt",
+    "url": "https://www.businesstoday.in/markets/stocks/story/reliance-industries-bharti-airtel-waaree-stocks-to-buy-price-targets-stop-loss-more-538330-2026-06-22",
+    "summary": "",
+    "published_at": "2026-06-22T05:15:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.404522+00:00",
+    "age_hours": 25.04,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 0.8333333333333333,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "loss"
+    ]
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "title": "Top - 10 Firms Add ₹2 . 15 Lakh Crore in Market Value ; Bharti Airtel Leads Rally",
+    "source": "dailypioneer.com",
+    "provider": "gdelt",
+    "url": "https://dailypioneer.com/news/mcap-of-9-out-of-top10-most-valued-firms-jumps-rs-2-15-lakh-cr",
+    "summary": "",
+    "published_at": "2026-06-22T06:30:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.404475+00:00",
+    "age_hours": 23.79,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "relevance": 0.8333333333333333,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "title": "Bharti Airtel completes share swap with ICIL , raises Africa stake to 79 %",
+    "source": "thehindubusinessline.com",
+    "provider": "gdelt",
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/bharti-airtel-completes-share-swap-with-icil-raises-africa-stake-to-79/article71136125.ece",
+    "summary": "",
+    "published_at": "2026-06-23T05:45:00+00:00",
+    "fetched_at": "2026-06-23T06:17:15.404198+00:00",
+    "age_hours": 0.54,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "relevance": 0.8333333333333333,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "LT.NS",
+    "title": "Indian shares dip, rupee slips to record low on elevated oil prices",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indian-shares-set-open-lower-024139331.html",
+    "summary": "",
+    "published_at": "2026-05-05T10:28:21+00:00",
+    "fetched_at": "2026-06-23T06:16:55.763874+00:00",
+    "age_hours": 1171.81,
+    "is_fresh": false,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "record"
+    ]
+  },
+  {
+    "symbol": "LT.NS",
+    "title": "India's L&T expects fiscal revenue growth may temper on Middle East disruption",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-larsen-toubro-quarterly-profit-114014774.html",
+    "summary": "",
+    "published_at": "2026-05-05T15:43:28+00:00",
+    "fetched_at": "2026-06-23T06:16:55.763857+00:00",
+    "age_hours": 1166.56,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "LT.NS",
+    "title": "India's L&T hits three-week low after profit dip, slower growth outlook",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-l-t-hits-three-040049978.html",
+    "summary": "",
+    "published_at": "2026-05-06T05:25:50+00:00",
+    "fetched_at": "2026-06-23T06:16:55.763814+00:00",
+    "age_hours": 1152.85,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "LT.NS",
+    "title": "LTM bids $186m for Randstad’s tech services in Europe and Australia",
+    "source": "Verdict",
+    "provider": "yfinance",
+    "url": "https://www.verdict.co.uk/ltm-bids-186m-randstads-services/",
+    "summary": "",
+    "published_at": "2026-05-25T09:46:48+00:00",
+    "fetched_at": "2026-06-23T06:16:55.763798+00:00",
+    "age_hours": 692.5,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "LT.NS",
+    "title": "India's L&T to invest nearly $2 billion in Tamil Nadu, state government says",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indias-l-t-invest-nearly-103527851.html",
+    "summary": "",
+    "published_at": "2026-06-04T10:35:27+00:00",
+    "fetched_at": "2026-06-23T06:16:55.763772+00:00",
+    "age_hours": 451.69,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "title": "Asian Equities Traded in the US as American Depositary Receipts Lower in Wednesday Trading",
+    "source": "MT Newswires",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-143616123.html",
+    "summary": "",
+    "published_at": "2026-06-10T14:36:16+00:00",
+    "fetched_at": "2026-06-23T06:16:46.323714+00:00",
+    "age_hours": 303.68,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": []
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "title": "ICICI Bank receives central bank approval for CEO reappointment",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/icici-bank-receives-central-bank-174518537.html",
+    "summary": "",
+    "published_at": "2026-05-22T17:45:18+00:00",
+    "fetched_at": "2026-06-23T06:16:46.323907+00:00",
+    "age_hours": 756.52,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "approval",
+      "ban"
+    ]
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "title": "SoftBank sells 3% stake in India's Lenskart",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/softbank-sells-3-stake-indias-150810983.html",
+    "summary": "",
+    "published_at": "2026-06-03T15:08:10+00:00",
+    "fetched_at": "2026-06-23T06:16:46.323792+00:00",
+    "age_hours": 471.14,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "title": "Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
+    "source": "Reuters",
+    "provider": "yfinance",
+    "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
+    "summary": "",
+    "published_at": "2026-06-09T06:44:34+00:00",
+    "fetched_at": "2026-06-23T06:16:46.323749+00:00",
+    "age_hours": 335.54,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "MACRO",
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban",
+      "rbi"
+    ]
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
+    "source": "Insider Monkey",
+    "provider": "yfinance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/icici-bank-limited-ibn-best-005903282.html",
+    "summary": "",
+    "published_at": "2026-06-11T00:59:03+00:00",
+    "fetched_at": "2026-06-23T06:16:46.323681+00:00",
+    "age_hours": 293.3,
+    "is_fresh": false,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ]
+  },
+  {
     "symbol": "SBIN.NS",
     "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
     "source": "SAMPLE",

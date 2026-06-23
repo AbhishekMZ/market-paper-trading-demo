@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-23T11:14:31+05:30",
+  "as_of": "2026-06-23T11:48:19+05:30",
   "starting_capital": 10000.0,
   "monthly_capital": 10000.0,
   "cash": 8474.74,
@@ -23,7 +23,7 @@
       "opened_at": "2026-06-23T11:14:27+05:30",
       "signal_id": "sig_77555c9bddbe",
       "risk_status": "OK",
-      "data_status": "OK"
+      "data_status": "DATA_ANOMALY"
     }
   ],
   "closed_positions": [],

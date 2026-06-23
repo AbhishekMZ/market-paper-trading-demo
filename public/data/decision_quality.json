@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-06-23T11:14:31+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-06-23T11:48:19+05:30",
+  "checkpoint": "mid",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 10,
+    "total_tracked_episodes": 20,
     "matured_episodes": 10,
     "paper_trades": 1,
     "distinct_days": 1,
-    "action_rate_pct": 10.0,
+    "action_rate_pct": 5.0,
     "avg_forward_return_acted_pct": 6.0,
     "avg_forward_return_not_acted_pct": -0.11,
     "decision_edge_pct": 5.5,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": -1.59,
-    "benchmark_verdict": "BEHIND"
+    "benchmark_outperformance_pct": 7.27,
+    "benchmark_verdict": "AHEAD"
   },
   "forward_returns": {
-    "as_of": "2026-06-23T11:14:31+05:30",
-    "open_episodes": 0,
+    "as_of": "2026-06-23T11:48:19+05:30",
+    "open_episodes": 10,
     "matured_episodes": 10,
-    "total_episodes": 10,
+    "total_episodes": 20,
     "by_score_band": {
       "buy_grade": {
         "count": 1,
@@ -35,7 +35,7 @@
         "hit_rate_pct": 100.0
       },
       "low_grade": {
-        "count": 8,
+        "count": 18,
         "rated": 8,
         "avg_return_pct": -0.88,
         "hit_rate_pct": 75.0
@@ -48,7 +48,7 @@
       "hit_rate_pct": 100.0
     },
     "not_acted": {
-      "count": 9,
+      "count": 19,
       "rated": 9,
       "avg_return_pct": -0.11,
       "hit_rate_pct": 77.8
@@ -62,13 +62,13 @@
       "hit_rate_pct": 100.0
     },
     "shadow_candidates": {
-      "count": 2,
+      "count": 12,
       "rated": 2,
       "avg_return_pct": 0.5,
       "hit_rate_pct": 50.0
     },
     "blocked": {
-      "count": 1,
+      "count": 11,
       "rated": 1,
       "avg_return_pct": -5.0,
       "hit_rate_pct": 0.0
@@ -106,12 +106,12 @@
         "status": "MATURED"
       },
       {
-        "symbol": "SBIN.NS",
-        "name": "State Bank of India",
-        "signal_id": "sig_648f92bcd05d",
-        "label_at_open": "DO_NOT_BUY",
-        "score": 44.4,
-        "checkpoint": "close",
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank",
+        "signal_id": "sig_1745769ffcf7",
+        "label_at_open": "NO_ACTION",
+        "score": 63.7,
+        "checkpoint": "mid",
         "contributors": [
           "trend_following",
           "relative_strength",
@@ -119,33 +119,201 @@
           "volatility_risk",
           "portfolio_fit"
         ],
-        "news_risk_level": "CRITICAL",
-        "news_blocked": true,
-        "data_quality_verdict": "OK",
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
         "acted": false,
         "entry_date": "2026-06-23",
-        "entry_price": 778.34,
-        "last_price": 739.43,
+        "entry_price": 1364.6,
+        "last_price": 1364.6,
         "last_update": "2026-06-23",
-        "runs_tracked": 5,
-        "forward_return_pct": -5.0,
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
         "max_return_pct": 0.0,
-        "min_return_pct": -5.0,
-        "status": "MATURED"
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "LT.NS",
+        "name": "Larsen & Toubro",
+        "signal_id": "sig_51d03c9e9d56",
+        "label_at_open": "NO_ACTION",
+        "score": 61.0,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 4226.7002,
+        "last_price": 4226.7002,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "name": "Bharti Airtel",
+        "signal_id": "sig_b733ace9fb81",
+        "label_at_open": "NO_ACTION",
+        "score": 57.9,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 1919.8,
+        "last_price": 1919.8,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India",
+        "signal_id": "sig_fc443e395293",
+        "label_at_open": "NO_ACTION",
+        "score": 55.8,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 1033.9,
+        "last_price": 1033.9,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "AXISBANK.NS",
+        "name": "Axis Bank",
+        "signal_id": "sig_96f3b41c4031",
+        "label_at_open": "NO_ACTION",
+        "score": 55.4,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 1363.0,
+        "last_price": 1363.0,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank",
+        "signal_id": "sig_63fd69553a23",
+        "label_at_open": "DO_NOT_BUY",
+        "score": 44.9,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 784.0,
+        "last_price": 784.0,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
+      },
+      {
+        "symbol": "ITC.NS",
+        "name": "ITC",
+        "signal_id": "sig_c86d9302fa65",
+        "label_at_open": "DO_NOT_BUY",
+        "score": 42.7,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 291.4,
+        "last_price": 291.4,
+        "last_update": "2026-06-23",
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
+        "max_return_pct": 0.0,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-23T11:14:31+05:30",
+    "as_of": "2026-06-23T11:48:19+05:30",
     "ready": true,
-    "points": 6,
+    "points": 7,
     "from_date": "2026-06-23",
     "to_date": "2026-06-23",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": 2.5,
+    "benchmark_return_pct": -6.36,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": -1.59,
-    "verdict": "BEHIND",
+    "outperformance_pct": 7.27,
+    "verdict": "AHEAD",
     "history": [
       {
         "date": "2026-06-23",
@@ -192,6 +360,14 @@
         "ts": "2026-06-23T11:14:31+05:30",
         "checkpoint": "close",
         "nifty_close": 26314.78,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-23",
+        "ts": "2026-06-23T11:48:19+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 24039.75,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
       }
@@ -282,8 +458,8 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 5,
-    "triggers_detected": 15,
+    "observation_runs": 6,
+    "triggers_detected": 18,
     "escalations_created": 2,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 1,
@@ -298,12 +474,11 @@
     "verdict": "NOT_ENOUGH_DATA",
     "checks": {
       "enough_trades": false,
-      "enough_episodes": false,
+      "enough_episodes": true,
       "enough_days": false
     },
     "reasons": [
       "Only 1/10 paper trades so far.",
-      "Only 10/20 tracked episodes.",
       "Only 1/20 distinct days of data."
     ],
     "live_trading": "DISABLED",

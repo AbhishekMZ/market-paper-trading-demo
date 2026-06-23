@@ -1,33 +1,44 @@
 {
-  "as_of": "2026-06-23T11:14:31+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-06-23T11:48:22+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
-  "watchlist_size": 3,
-  "observed": 3,
+  "watchlist_size": 8,
+  "observed": 8,
   "open_positions_observed": 1,
-  "triggers_this_run": 3,
-  "escalations": 0,
+  "triggers_this_run": 4,
+  "escalations": 3,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 2,
+  "blocked_actions": [
+    {
+      "symbol": "RELIANCE.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 6,
-    "triggers_detected": 18,
-    "escalations_created": 2,
+    "observation_runs": 7,
+    "triggers_detected": 22,
+    "escalations_created": 5,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 1,
+    "blocked_actions_from_triggers": 2,
     "emails_sent_total": 0,
-    "last_run": "2026-06-23T11:14:31+05:30",
-    "last_watchlist_size": 3
+    "last_run": "2026-06-23T11:48:22+05:30",
+    "last_watchlist_size": 8
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "RELIANCE.NS",
-      "SBIN.NS"
+      "ICICIBANK.NS",
+      "LT.NS",
+      "BHARTIARTL.NS",
+      "SBIN.NS",
+      "AXISBANK.NS",
+      "HDFCBANK.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
@@ -35,84 +46,156 @@
     "triggers": [
       {
         "symbol": "ITC.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.5% vs previous close.",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved -46.0% since last observation.",
         "company_name": "ITC.NS",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 538.92,
+        "price_at_detection": 291.25,
         "previous_price": null,
-        "change_pct": 2.5,
-        "market_regime": "RISK_ON",
+        "change_pct": -45.96,
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_41b117e7113b",
-        "detected_at": "2026-06-23T11:14:31+05:30"
+        "created_escalation_id": "esc_2d204481e7a0",
+        "trigger_id": "trg_78bb5ec71842",
+        "detected_at": "2026-06-23T11:48:19+05:30"
       },
       {
-        "symbol": "SBIN.NS",
-        "trigger_type": "CRITICAL_NEWS",
-        "severity": "CRITICAL",
-        "reason": "Critical adverse news.",
-        "company_name": "State Bank of India",
+        "symbol": "RELIANCE.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "Reliance Industries",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 739.43,
+        "price_at_detection": 1325.699951171875,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "RISK_ON",
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
-        "recommended_next_step": "Block any buy.",
+        "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_f2e3e7f77d01",
-        "detected_at": "2026-06-23T11:14:31+05:30"
+        "created_escalation_id": "esc_79e497784c0f",
+        "trigger_id": "trg_047357d08f62",
+        "detected_at": "2026-06-23T11:48:20+05:30"
       },
       {
-        "symbol": "SBIN.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -3.6% vs previous close.",
-        "company_name": "State Bank of India",
+        "symbol": "RELIANCE.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved -59.3% since last observation.",
+        "company_name": "Reliance Industries",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 739.43,
+        "price_at_detection": 1325.699951171875,
         "previous_price": null,
-        "change_pct": -3.6,
-        "market_regime": "RISK_ON",
+        "change_pct": -59.28,
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_11b3f2523fad",
-        "detected_at": "2026-06-23T11:14:31+05:30"
-      }
-    ],
-    "throttled": [
-      {
-        "symbol": "SBIN.NS",
-        "trigger": "CRITICAL_NEWS",
-        "reason": "cooldown"
+        "created_escalation_id": "esc_79e497784c0f",
+        "trigger_id": "trg_c8ff821023a7",
+        "detected_at": "2026-06-23T11:48:20+05:30"
       },
       {
-        "symbol": "ITC.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "symbol": "SBIN.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved +39.9% since last observation.",
+        "company_name": "State Bank of India",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1034.25,
+        "previous_price": null,
+        "change_pct": 39.87,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_5db158be2bc7",
+        "trigger_id": "trg_22ca025292b8",
+        "detected_at": "2026-06-23T11:48:21+05:30"
       }
     ],
-    "escalations": [],
+    "throttled": [],
+    "escalations": [
+      {
+        "symbol": "ITC.NS",
+        "severity": "HIGH",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved -46.0% since last observation.",
+        "trigger_ids": [
+          "trg_78bb5ec71842"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_2d204481e7a0",
+        "created_at": "2026-06-23T11:48:22+05:30",
+        "expires_at": "2026-06-23T11:48:22+05:30"
+      },
+      {
+        "symbol": "RELIANCE.NS",
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_047357d08f62",
+          "trg_c8ff821023a7"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_79e497784c0f",
+        "created_at": "2026-06-23T11:48:22+05:30",
+        "expires_at": "2026-06-23T11:48:22+05:30"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "severity": "HIGH",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +39.9% since last observation.",
+        "trigger_ids": [
+          "trg_22ca025292b8"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_5db158be2bc7",
+        "created_at": "2026-06-23T11:48:22+05:30",
+        "expires_at": "2026-06-23T11:48:22+05:30"
+      }
+    ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "RELIANCE.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-06-23T11:14:31+05:30"
+    "as_of": "2026-06-23T11:48:19+05:30"
   }
 }

@@ -1,27 +1,62 @@
 {
   "symbols": {
     "ITC.NS": {
-      "last_price": 538.92,
-      "change_pct": 2.5,
+      "last_price": 291.25,
+      "change_pct": 0.0,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-23T11:14:31+05:30"
+      "updated_at": "2026-06-23T11:48:19+05:30"
     },
     "RELIANCE.NS": {
-      "last_price": 3255.98,
-      "change_pct": 2.3,
-      "news_risk_level": "NONE",
+      "last_price": 1325.699951171875,
+      "change_pct": -0.0603,
+      "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-23T11:14:31+05:30"
+      "updated_at": "2026-06-23T11:48:20+05:30"
     },
     "SBIN.NS": {
-      "last_price": 739.43,
-      "change_pct": -3.6,
-      "news_risk_level": "CRITICAL",
+      "last_price": 1034.25,
+      "change_pct": -0.6245,
+      "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-23T11:14:31+05:30"
+      "updated_at": "2026-06-23T11:48:21+05:30"
+    },
+    "ICICIBANK.NS": {
+      "last_price": 1365.0,
+      "change_pct": 0.9317,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-06-23T11:48:20+05:30"
+    },
+    "LT.NS": {
+      "last_price": 4226.5,
+      "change_pct": 0.5998,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-06-23T11:48:20+05:30"
+    },
+    "BHARTIARTL.NS": {
+      "last_price": 1920.800048828125,
+      "change_pct": 0.2191,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-06-23T11:48:21+05:30"
+    },
+    "AXISBANK.NS": {
+      "last_price": 1363.800048828125,
+      "change_pct": 0.3828,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-06-23T11:48:22+05:30"
+    },
+    "HDFCBANK.NS": {
+      "last_price": 784.0499877929688,
+      "change_pct": -0.2988,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-06-23T11:48:22+05:30"
     }
   },
-  "last_observation_at": "2026-06-23T11:14:31+05:30",
-  "last_regime": "RISK_ON"
+  "last_observation_at": "2026-06-23T11:48:22+05:30",
+  "last_regime": "NEUTRAL"
 }
