@@ -1,0 +1,42 @@
+# =====================================================================
+# Decision Quality Engine — configuration
+# v1 MODE: PAPER TRADING ONLY. This layer MEASURES decision quality
+# (forward returns, shadow tracking, benchmark comparison, threshold
+# analysis) but NEVER changes thresholds or weights automatically.
+# =====================================================================
+evaluation:
+  enabled: true
+
+  forward_returns:
+    # An "episode" tracks one symbol from the moment a notable signal opens it
+    # until it matures, recording the forward price return. This answers:
+    # "did high-score / acted signals actually go up afterwards?"
+    maturity_runs: 5            # episode matures after this many tracked runs
+    max_archived_per_symbol: 10
+    open_min_score: 0           # open an episode for any priced signal (0 = all)
+    score_bands:                # [low, high, label] — high is exclusive
+      - [80, 201, "buy_grade"]
+      - [65, 80, "watch_grade"]
+      - [0, 65, "low_grade"]
+
+  shadow:
+    track_blocked: true         # treat buys blocked by news/regime/DQ as shadow episodes
+    strong_watch_threshold: 65  # WATCH at/above this counts as a "shadow buy candidate"
+
+  benchmark:
+    primary_name: "NIFTY 50"    # matches config/universe.yml benchmarks.primary.name
+    max_history_points: 500
+
+  thresholds_to_test: [70, 75, 80, 85, 90]
+
+  readiness:
+    # Gates used ONLY to describe how mature the evidence is. Even when all are
+    # met, v1 remains paper-only — this never enables real trading.
+    min_trades: 10
+    min_tracked_episodes: 20
+    min_distinct_days: 20
+    target_benchmark_outperformance_pct: 0.0
+
+  disclaimer: >
+    Indicative only. One month of paper data cannot prove an edge. No thresholds
+    or weights are auto-optimized in v1, and these metrics never enable real trading.

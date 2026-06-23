@@ -1,0 +1,162 @@
+{
+  "as_of": "2026-06-23T10:48:48+05:30",
+  "checkpoint": "close",
+  "enabled": true,
+  "metrics": {
+    "total_tracked_episodes": 1,
+    "matured_episodes": 0,
+    "paper_trades": 1,
+    "distinct_days": 1,
+    "action_rate_pct": 100.0,
+    "avg_forward_return_acted_pct": 0.0,
+    "avg_forward_return_not_acted_pct": 0.0,
+    "decision_edge_pct": 0.0,
+    "buy_grade_hit_rate_pct": 0.0,
+    "buy_grade_avg_return_pct": 0.0,
+    "benchmark_outperformance_pct": 1.0,
+    "benchmark_verdict": "AHEAD"
+  },
+  "forward_returns": {
+    "as_of": "2026-06-23T10:48:48+05:30",
+    "open_episodes": 1,
+    "matured_episodes": 0,
+    "total_episodes": 1,
+    "by_score_band": {
+      "buy_grade": {
+        "count": 1,
+        "rated": 0,
+        "avg_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      "watch_grade": {
+        "count": 0,
+        "rated": 0,
+        "avg_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      "low_grade": {
+        "count": 0,
+        "rated": 0,
+        "avg_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      }
+    },
+    "acted": {
+      "count": 1,
+      "rated": 0,
+      "avg_return_pct": 0.0,
+      "hit_rate_pct": 0.0
+    },
+    "not_acted": {
+      "count": 0,
+      "rated": 0,
+      "avg_return_pct": 0.0,
+      "hit_rate_pct": 0.0
+    }
+  },
+  "shadow": {
+    "acted": {
+      "count": 1,
+      "rated": 0,
+      "avg_return_pct": 0.0,
+      "hit_rate_pct": 0.0
+    },
+    "shadow_candidates": {
+      "count": 0,
+      "rated": 0,
+      "avg_return_pct": 0.0,
+      "hit_rate_pct": 0.0
+    },
+    "blocked": {
+      "count": 0,
+      "rated": 0,
+      "avg_return_pct": 0.0,
+      "hit_rate_pct": 0.0
+    },
+    "acted_vs_shadow_edge_pct": 0.0,
+    "decision_note": "Not enough matured episodes on both sides to compare yet.",
+    "block_note": "No matured blocked episodes yet.",
+    "shadow_examples": []
+  },
+  "benchmark": {
+    "as_of": "2026-06-23T10:48:48+05:30",
+    "ready": true,
+    "points": 1,
+    "from_date": "2026-06-23",
+    "to_date": "2026-06-23",
+    "benchmark_name": "NIFTY 50",
+    "benchmark_return_pct": 0.0,
+    "portfolio_return_pct": 1.0,
+    "outperformance_pct": 1.0,
+    "verdict": "AHEAD",
+    "history": [
+      {
+        "date": "2026-06-23",
+        "ts": "2026-06-23T10:48:48+05:30",
+        "checkpoint": "close",
+        "nifty_close": 110.0,
+        "portfolio_total": 10100.0,
+        "starting_capital": 10000.0
+      }
+    ]
+  },
+  "attribution": {
+    "leaderboard": [],
+    "rated_episodes": 0,
+    "note": "Ranked by average forward return of contributing signals. Indicative only; small sample."
+  },
+  "threshold_analysis": {
+    "table": [
+      {
+        "threshold": 70,
+        "would_buy_count": 0,
+        "avg_forward_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      {
+        "threshold": 75,
+        "would_buy_count": 0,
+        "avg_forward_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      {
+        "threshold": 80,
+        "would_buy_count": 0,
+        "avg_forward_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      {
+        "threshold": 85,
+        "would_buy_count": 0,
+        "avg_forward_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      },
+      {
+        "threshold": 90,
+        "would_buy_count": 0,
+        "avg_forward_return_pct": 0.0,
+        "hit_rate_pct": 0.0
+      }
+    ],
+    "best_threshold_observed": null,
+    "rated_episodes": 0,
+    "auto_tuning": "DISABLED",
+    "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
+  },
+  "readiness": {
+    "verdict": "NOT_ENOUGH_DATA",
+    "checks": {
+      "enough_trades": false,
+      "enough_episodes": false,
+      "enough_days": false
+    },
+    "reasons": [
+      "Only 1/10 paper trades so far.",
+      "Only 1/20 tracked episodes.",
+      "Only 1/20 distinct days of data."
+    ],
+    "live_trading": "DISABLED",
+    "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict."
+  },
+  "disclaimer": "Indicative only. One month of paper data cannot prove an edge. No thresholds or weights are auto-optimized in v1, and these metrics never enable real trading.\n"
+}

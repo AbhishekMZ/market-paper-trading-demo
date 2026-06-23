@@ -227,6 +227,39 @@ alone can never trigger a buy.**
 
 Full design, pipeline, and config reference: [`docs/news_risk_layer.md`](docs/news_risk_layer.md).
 
+### Decision Quality Engine (important)
+A **measure-only evaluation layer** (`src/evaluation/`) that runs after the
+portfolio summary each run and asks one question: *are the system's decisions
+actually good?* The invariant is enforced in code: it **only measures** — it
+**never** auto-tunes thresholds or weights, and its verdict **never enables real
+trading**. v1 stays paper regardless.
+
+- **Forward-return episodes** (`forward_return_tracker.py`) are the spine: each
+  priced signal opens one episode per symbol (snapshotting score, label,
+  contributors, news/DQ flags, and whether it was acted on); later runs re-price
+  it and record `forward_return_pct` vs entry, maturing after `maturity_runs`.
+  **No look-ahead** — each update uses only that run's price. A score is only
+  meaningful if high-score signals actually rise, and this is how we check.
+  Ledger: `data/state/forward_returns.json`.
+- **Shadow / benchmark / attribution / threshold** analyses sit on top: acted vs
+  declined ("shadow") vs blocked forward returns (a protective block shows a
+  *negative* avg return); cumulative portfolio return **vs NIFTY** with an
+  AHEAD/BEHIND/INLINE verdict; a strategy leaderboard ranked by the forward
+  return of every episode a strategy contributed to; and a **descriptive** per-
+  threshold table (`auto_tuning: "DISABLED"` — the live buy threshold in
+  `config/scoring.yml` is never changed automatically).
+- **Readiness verdict** (`NOT_ENOUGH_DATA` / `EARLY_PROMISING` / `EARLY_WEAK`) is
+  gated on min trades / episodes / distinct days, describes only how mature the
+  evidence is, and always reports `live_trading: "DISABLED"` — it never enables
+  live trading. One month of paper data cannot prove an edge; every output says so.
+- **Seeding tip:** forward returns and benchmark history need multiple runs to
+  populate, so simulate successive runs with price drift via
+  `python scripts/seed_sample_data.py --days 6`.
+
+Config keys live in `config/evaluation.yml`; the engine publishes
+`decision_quality.json` to the dashboard's **Decision Quality** tab. Full design
+reference: [`docs/decision_quality_engine.md`](docs/decision_quality_engine.md).
+
 ---
 
 ## 11. Setup

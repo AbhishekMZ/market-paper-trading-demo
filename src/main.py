@@ -36,6 +36,7 @@ from backtesting.backtest_engine import PaperTradeReplay  # noqa: E402
 from broker import build_adapter  # noqa: E402
 from data_quality import DataQualityEngine  # noqa: E402
 from email_sender import EmailSender  # noqa: E402
+from evaluation import DecisionQualityEngine  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
 from news import NewsRiskEngine  # noqa: E402
@@ -298,6 +299,18 @@ def run(args: argparse.Namespace) -> int:
     replay = PaperTradeReplay(cost_model).summarize()
     research_summary = research.summary()
     pf_summary = pm.summary()
+
+    # --- decision quality (forward returns / shadow / benchmark / thresholds) --- #
+    # Measurement only: never auto-tunes thresholds/weights, never enables live.
+    dq_eval_cfg = (configs.get("evaluation") or {}).get("evaluation", {})
+    decision_quality = DecisionQualityEngine(dq_eval_cfg).evaluate(
+        signals=[s.to_dict() for s in signals],
+        prices=prices,
+        benchmarks=benchmarks,
+        portfolio_summary=pf_summary,
+        checkpoint=cp_id,
+    )
+
     exec_state = engine.load_state()
 
     if not any(s.data_quality.value in ("GOOD", "ACCEPTABLE") for s in signals):
@@ -337,6 +350,11 @@ def run(args: argparse.Namespace) -> int:
     # --- news artifacts (assessments + rolling items/alerts + health) ---- #
     _write_news_artifacts(news_assessments, news_items_run, news_alerts, news_health)
     payload["news_summary"] = news_health
+    payload["decision_quality"] = {
+        "metrics": decision_quality.get("metrics"),
+        "readiness": decision_quality.get("readiness"),
+        "benchmark": decision_quality.get("benchmark"),
+    }
 
     # Persist runtime state BEFORE exporting so public/data reflects this run.
     usage.save()

@@ -29,7 +29,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T04:55:02.432608+00:00",
+        "fetched_at": "2026-06-23T05:06:24.700071+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "POSITIVE",
@@ -46,7 +46,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
+    "assessed_at": "2026-06-23T10:36:24+05:30"
   },
   {
     "symbol": "RELIANCE.NS",
@@ -67,7 +67,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
+    "assessed_at": "2026-06-23T10:36:24+05:30"
   },
   {
     "symbol": "INFY.NS",
@@ -88,91 +88,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "company_name": "HDFC Bank",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (treated as neutral)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "company_name": "ICICI Bank",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (treated as neutral)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
-  },
-  {
-    "symbol": "BHARTIARTL.NS",
-    "company_name": "Bharti Airtel",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (treated as neutral)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "company_name": "Axis Bank",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (treated as neutral)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
+    "assessed_at": "2026-06-23T10:36:24+05:30"
   },
   {
     "symbol": "LT.NS",
@@ -193,7 +109,112 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
+    "assessed_at": "2026-06-23T10:36:24+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "company_name": "HDFC Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:36:24+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "company_name": "ICICI Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:36:24+05:30"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "company_name": "Bharti Airtel",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:36:24+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "company_name": "Axis Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:36:24+05:30"
+  },
+  {
+    "symbol": "TCS.NS",
+    "company_name": "Tata Consultancy Services",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-06-23T10:36:24+05:30"
   },
   {
     "symbol": "SBIN.NS",
@@ -228,7 +249,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T04:55:02.433825+00:00",
+        "fetched_at": "2026-06-23T05:06:24.701596+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "NEGATIVE",
@@ -255,7 +276,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T04:55:02.433825+00:00",
+        "fetched_at": "2026-06-23T05:06:24.701596+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "NEGATIVE",
@@ -273,27 +294,6 @@
         ]
       }
     ],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
-  },
-  {
-    "symbol": "TCS.NS",
-    "company_name": "Tata Consultancy Services",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (treated as neutral)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-06-23T10:25:02+05:30"
+    "assessed_at": "2026-06-23T10:36:24+05:30"
   }
 ]
