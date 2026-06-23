@@ -1,5 +1,77 @@
 [
   {
+    "symbol": "INFY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.4% vs previous close.",
+    "trigger_ids": [
+      "trg_b08bd3f2c315"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_de86b8cb28df",
+    "created_at": "2026-06-23T17:46:20+05:30",
+    "expires_at": "2026-06-23T17:46:20+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_95c39d807aff"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_31957401ef5b",
+    "created_at": "2026-06-23T17:46:20+05:30",
+    "expires_at": "2026-06-23T17:46:20+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_758bd3dbee55"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_15134969d280",
+    "created_at": "2026-06-23T17:46:20+05:30",
+    "expires_at": "2026-06-23T17:46:20+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_48aad117148a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_802400cbc2d4",
+    "created_at": "2026-06-23T17:46:20+05:30",
+    "expires_at": "2026-06-23T17:46:20+05:30"
+  },
+  {
     "symbol": "TCS.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
