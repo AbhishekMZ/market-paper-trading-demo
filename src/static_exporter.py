@@ -37,10 +37,17 @@ def export_all() -> Dict[str, Any]:
     write_json(os.path.join(storage.PUBLIC_DATA_DIR, "audit_log.json"), audit[-500:][::-1])
     exported.append("audit_log.json")
 
-    # 4) strategy_evaluation.json (written by the evaluator) — copy if present.
-    se = os.path.join(storage.REPORTS_DIR, "strategy_evaluation.json")
-    if os.path.exists(se):
-        shutil.copyfile(se, os.path.join(storage.PUBLIC_DATA_DIR, "strategy_evaluation.json"))
-        exported.append("strategy_evaluation.json")
+    # 4) Reports copied verbatim into public/ if present.
+    for fname, cap in (("strategy_evaluation.json", None),
+                       ("data_health.json", None),
+                       ("data_quality_incidents.json", 100)):
+        src = os.path.join(storage.REPORTS_DIR, fname)
+        if not os.path.exists(src):
+            continue
+        data = storage.read_json(src, None)
+        if cap and isinstance(data, list):
+            data = data[-cap:][::-1]  # newest first, capped
+        write_json(os.path.join(storage.PUBLIC_DATA_DIR, fname), data)
+        exported.append(fname)
 
     return {"exported": exported, "dir": storage.PUBLIC_DATA_DIR}

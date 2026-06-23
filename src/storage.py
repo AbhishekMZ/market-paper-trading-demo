@@ -83,6 +83,19 @@ def state_path(name: str) -> str:
     return os.path.join(STATE_DIR, STATE_FILES[name])
 
 
+def state_file(filename: str) -> str:
+    """Path for an ad-hoc state file not in the fixed STATE_FILES map."""
+    return os.path.join(STATE_DIR, filename)
+
+
+def report_file(filename: str) -> str:
+    return os.path.join(REPORTS_DIR, filename)
+
+
+def public_file(filename: str) -> str:
+    return os.path.join(PUBLIC_DATA_DIR, filename)
+
+
 def load_state(name: str, default: Any = None) -> Any:
     return read_json(state_path(name), default if default is not None else {})
 

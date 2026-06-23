@@ -54,17 +54,46 @@ class PortfolioManager:
     # ------------------------------------------------------------------ #
     # Mark-to-market
     # ------------------------------------------------------------------ #
-    def mark_to_market(self, prices: Dict[str, Optional[float]]) -> Dict[str, Any]:
+    def mark_to_market(
+        self,
+        prices: Dict[str, Optional[float]],
+        anomalous_symbols: Optional[set] = None,
+        mtm_jump_pct: float = 15.0,
+    ) -> Dict[str, Any]:
+        """Revalue holdings. A new mark that jumps more than mtm_jump_pct vs the
+        last-known-good price (or that comes from a DATA_ANOMALY symbol) is
+        REJECTED: the prior price is kept and the position flagged, so a bad/
+        adjusted quote can never produce a misleading P&L. Returns the portfolio;
+        any rejections are recorded in self.last_mtm_incidents.
+        """
+        anomalous_symbols = anomalous_symbols or set()
+        self.last_mtm_incidents: List[Dict[str, Any]] = []
         pf = storage.load_state("portfolio", {})
         if not pf:
             return pf
         holdings_value = 0.0
         unrealized = 0.0
         for p in pf.get("positions", []):
+            prev = p.get("last_price", p.get("avg_price"))
             last = prices.get(p["symbol"])
             if last is None:
-                last = p.get("last_price", p.get("avg_price"))
+                last = prev
             last = float(last)
+            # Reject anomalous marks: keep the last-known-good price, flag, record.
+            jump_pct = abs(last - prev) / prev * 100.0 if prev else 0.0
+            if p["symbol"] in anomalous_symbols or jump_pct > mtm_jump_pct:
+                self.last_mtm_incidents.append({
+                    "ts": now_ist_iso(), "symbol": p["symbol"], "issue": "mtm_price_rejected",
+                    "prev_price": prev, "rejected_price": last, "jump_pct": round(jump_pct, 2),
+                    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded",
+                })
+                p["data_status"] = "DATA_ANOMALY"
+                p["risk_status"] = "DATA_ANOMALY"
+                last = float(prev)  # keep last good
+            else:
+                p.setdefault("data_status", "OK")
+                if p.get("data_status") == "DATA_ANOMALY":
+                    p["data_status"] = "OK"
             qty = p["quantity"]
             current_value = round(last * qty, 2)
             invested = p.get("invested", p["avg_price"] * qty)

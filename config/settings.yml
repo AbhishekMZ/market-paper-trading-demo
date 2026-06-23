@@ -81,6 +81,15 @@ rate_limits:
 data_quality:
   max_data_age_minutes: 1440       # treat data older than this as stale
   min_fields_required: 3           # minimal normalized fields to act on
+  # --- Hardening guards (DataQualityEngine). Prevent bad/adjusted quotes
+  #     from producing misleading paper trades or P&L. ---
+  entry_mtm_divergence_pct: 8      # current price vs latest history close must agree within this
+  recent_range_margin_pct: 20      # current price must sit within [min,max]*(1±margin) of recent bars
+  extreme_move_pct: 20             # |day move| above this needs a news/corporate-action flag
+  split_gap_pct: 25                # consecutive-close gap above this => suspected split/CA discontinuity
+  mtm_jump_pct: 15                 # held-position mark jump vs last-known-good price => anomaly
+  max_quote_age_minutes: 1440      # quote timestamp older than this => stale
+  block_buys_on_anomaly: true      # never paper-buy a symbol flagged DATA_ANOMALY
 
 # MASTER SAFETY FLAG. Must remain false in v1. Even if set true, the
 # broker.yml adapter must also be switched away from "paper" for any

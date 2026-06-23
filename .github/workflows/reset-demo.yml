@@ -1,0 +1,53 @@
+name: reset-demo (paper)
+
+# Manually reset the fake-money paper-trading demo to a clean state.
+# Requires typing the exact confirmation token, so it can't fire by accident.
+# Paper-only — never touches a real broker.
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type RESET_PAPER_DEMO to confirm wiping paper state'
+        required: true
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reset-demo
+  cancel-in-progress: false
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    # Hard gate: only run if the confirmation token matches exactly.
+    if: ${{ github.event.inputs.confirm == 'RESET_PAPER_DEMO' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Reset paper demo
+        run: python scripts/reset_demo.py --confirm RESET_PAPER_DEMO
+
+      - name: Commit cleaned state
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/reports data/state public/data
+          if git diff --cached --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -m "chore(data): reset paper demo to clean state [skip ci]"
+            git push
+          fi

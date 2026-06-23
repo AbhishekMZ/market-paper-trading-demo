@@ -154,12 +154,14 @@ class YahooFinanceProvider(MarketDataProvider):
                     return default
 
         current_price = _safe_float(fi_get("last_price"))
+        price_source = "fast_info.last_price" if current_price is not None else "fallback"
         previous_close = _safe_float(fi_get("previous_close"))
         # Fall back to the last NON-NULL daily closes (the most recent bar can be
         # an incomplete/NaN session, e.g. today's bar off-hours).
         closes = [b.close for b in bars if b.close is not None]
         if current_price is None and closes:
             current_price = closes[-1]
+            price_source = "history.close"
         if previous_close is None and len(closes) >= 2:
             previous_close = closes[-2]
 
@@ -180,6 +182,7 @@ class YahooFinanceProvider(MarketDataProvider):
             day_change_pct=day_change_pct,
             timestamp=now_ist_iso(),
             provider=self.provider_name,
+            price_source=price_source,
             raw={
                 "info_subset": {
                     "longName": info.get("longName"),

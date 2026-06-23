@@ -39,6 +39,8 @@ class MarketQuote:
     day_change_pct: Optional[float]
     timestamp: str
     provider: str
+    #: where current_price came from: "fast_info.last_price" | "history.close" | "fallback"
+    price_source: str = "unknown"
     raw: Dict[str, Any] = field(default_factory=dict)
 
 
@@ -80,6 +82,7 @@ class MarketSnapshot:
             "news_available": len(headlines) > 0,
             "extracted_at": q.timestamp if q else now_ist_iso(),
             "source": q.provider if q else "unknown",
+            "price_source": q.price_source if q else "unknown",
             "reason": "" if price is not None else "; ".join(self.data_quality.get("errors", []) or ["no price"]),
         }
 

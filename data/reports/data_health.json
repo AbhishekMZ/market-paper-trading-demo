@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-06-23T09:52:09+05:30",
+  "provider": "yfinance",
+  "last_successful_run": "2026-06-23T09:52:09+05:30",
+  "symbols_assessed": 10,
+  "usable_symbols": 10,
+  "rejected_symbols": 0,
+  "price_anomalies": 0,
+  "stale_quotes": 0,
+  "missing_news": 0,
+  "anomaly_symbols": [],
+  "rejected_symbol_list": [],
+  "overall": "HEALTHY",
+  "latest_workflow": "analyze",
+  "checkpoint": "close",
+  "mtm_incidents": 0
+}
