@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:28+05:30",
+    "checkpoint": "close",
+    "nifty_close": 25672.96,
+    "portfolio_total": 10000.0,
+    "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:28+05:30",
+    "checkpoint": "close",
+    "nifty_close": 25801.32,
+    "portfolio_total": 10018.3,
+    "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:29+05:30",
+    "checkpoint": "close",
+    "nifty_close": 25929.69,
+    "portfolio_total": 10036.6,
+    "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:30+05:30",
+    "checkpoint": "close",
+    "nifty_close": 26058.05,
+    "portfolio_total": 10054.9,
+    "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:30+05:30",
+    "checkpoint": "close",
+    "nifty_close": 26186.42,
+    "portfolio_total": 10073.2,
+    "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-06-23",
+    "ts": "2026-06-23T11:14:31+05:30",
+    "checkpoint": "close",
+    "nifty_close": 26314.78,
+    "portfolio_total": 10091.5,
+    "starting_capital": 10000.0
+  }
+]

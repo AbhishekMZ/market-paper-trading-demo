@@ -1,0 +1,88 @@
+# =====================================================================
+# Observation & Escalation Engine — configuration
+# v1 MODE: PAPER TRADING ONLY. Observation watches a small active watchlist
+# between deep-analysis checkpoints, detects meaningful changes, and escalates.
+# It can take SWIFT PAPER action or raise a manual-review alert — but every
+# paper action still goes through ExecutionEngine + Risk + News + DataQuality.
+# No real orders. No Angel One. Email-only alerts.
+# =====================================================================
+observation:
+  enabled: true
+  mode: "lightweight_monitoring"
+  full_universe_scan: false
+  observe_only_active_watchlist: true
+  observe_open_positions: true
+  observe_news_risk: true
+  observe_market_regime: true
+  observe_data_quality: true
+
+  frequency:
+    deep_analysis_checkpoints: ["09:35", "11:30", "14:45"]
+    observation_interval_minutes: 60
+    min_observation_interval_minutes: 30
+    enable_extra_observation_schedule: false
+    reason: "GitHub Actions is not a precision real-time engine; keep v1 low-noise and zero-cost."
+
+  watchlist:
+    max_active_symbols: 15
+    include_open_positions: true
+    include_recent_watch_signals: true
+    include_high_score_rejections: true
+    include_news_blocked_candidates: true
+    include_shadow_candidates: true
+    max_age_days: 5
+    high_score_rejection_min: 70   # rejected-but-improving candidates at/above this score
+
+  triggers:
+    price:
+      enabled: true
+      breakout_above_recent_high_pct: 1.0
+      breakdown_below_recent_low_pct: -1.0
+      intraday_move_alert_pct: 3.0
+      gap_alert_pct: 2.5
+      held_position_soft_loss_pct: -7.0
+      held_position_strong_loss_pct: -10.0
+      held_position_hard_loss_pct: -15.0
+      held_position_profit_review_pct: 8.0
+    news:
+      enabled: true
+      high_risk_news_blocks_buy: true
+      critical_news_triggers_exit_review: true
+      medium_risk_news_triggers_manual_review: true
+    market_regime:
+      enabled: true
+      risk_off_blocks_new_buys: true
+      event_risk_triggers_manual_review: true
+    data_quality:
+      enabled: true
+      price_anomaly_blocks_action: true
+      stale_quote_blocks_action: true
+      provider_failure_blocks_action: true
+
+  escalation:
+    enabled: true
+    run_focused_analysis_on_trigger: true
+    create_manual_review_items: true
+    allow_paper_buy_after_trigger: true
+    allow_paper_sell_after_trigger: false
+    reason: "v1 may create paper BUYS after all checks pass, but SELL stays review-only."
+    max_escalations_per_run: 5
+    max_email_alerts_per_run: 5
+
+  cooldowns:
+    enabled: true
+    same_symbol_alert_cooldown_minutes: 120
+    same_trigger_alert_cooldown_minutes: 180
+    paper_trade_cooldown_after_buy_hours: 24
+    escalation_expiry_hours: 24
+
+  alerting:
+    email_enabled: true
+    alert_email_to: "sahabhi115@gmail.com"
+    send_on:
+      critical_trigger: true
+      high_risk_news_on_position: true
+      buy_candidate_triggered: true
+      position_loss_review: true
+      data_anomaly: true
+      market_regime_shift: true

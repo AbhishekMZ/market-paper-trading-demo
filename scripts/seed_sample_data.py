@@ -113,7 +113,9 @@ def main() -> int:
                         help="simulate N successive runs with price drift (populates forward returns/benchmark)")
     cli = parser.parse_args()
 
-    args = argparse.Namespace(checkpoint="close", manual=True, eod=True, monthly=True, force=True)
+    args = argparse.Namespace(checkpoint="close", manual=True, eod=True, monthly=True, force=True,
+                              observe=False, observe_only=False, focused_symbol=None,
+                              escalation_report=False, no_action=False)
     print(f"=== Seeding SAMPLE data through the real pipeline ({cli.days} simulated day(s)) ===")
     rc = 0
     for d in range(max(1, cli.days)):

@@ -73,6 +73,7 @@ def load_all_configs() -> dict:
         "costs": load_config("costs.yml"),
         "news": _load_optional("news.yml"),
         "evaluation": _load_optional("evaluation.yml"),
+        "observation": _load_optional("observation.yml"),
     }
 
 

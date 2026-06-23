@@ -8,6 +8,6 @@
   "provider": "yfinance",
   "budget_enabled": false,
   "calls_today": 72,
-  "last_updated": "2026-06-23T10:36:24+05:30",
+  "last_updated": "2026-06-23T11:14:31+05:30",
   "note": "yfinance has no API key/quota; polite limits applied."
 }

@@ -10,6 +10,7 @@ import AuditLog from './components/AuditLog.jsx';
 import DataHealth from './components/DataHealth.jsx';
 import News from './components/News.jsx';
 import Decisions from './components/Decisions.jsx';
+import Observation from './components/Observation.jsx';
 import StrategyEvaluation from './components/StrategyEvaluation.jsx';
 import ResearchHypotheses from './components/ResearchHypotheses.jsx';
 import SettingsView from './components/SettingsView.jsx';
@@ -23,6 +24,7 @@ const TABS = [
   { id: 'trades', label: 'Trade History', el: TradeHistory },
   { id: 'audit', label: 'Audit Log', el: AuditLog },
   { id: 'datahealth', label: 'Data Health', el: DataHealth },
+  { id: 'observation', label: 'Observation', el: Observation },
   { id: 'news', label: 'News', el: News },
   { id: 'evaluation', label: 'Strategy Eval', el: StrategyEvaluation },
   { id: 'decisions', label: 'Decision Quality', el: Decisions },

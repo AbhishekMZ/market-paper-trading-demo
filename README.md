@@ -260,6 +260,43 @@ Config keys live in `config/evaluation.yml`; the engine publishes
 `decision_quality.json` to the dashboard's **Decision Quality** tab. Full design
 reference: [`docs/decision_quality_engine.md`](docs/decision_quality_engine.md).
 
+### Observation & Escalation Engine (important)
+A **lightweight, between-checkpoint monitoring layer** (`src/observation/`) that
+watches a **small active watchlist** (≤ ~15 symbols — open positions + a handful
+of live buy candidates, **not** the full universe) more frequently than the three
+fixed deep-analysis checkpoints (09:35 / 11:30 / 14:45 IST). Why: the deep view
+**goes stale between checkpoints**, so a breakout or a headline at 12:10 wouldn't
+be looked at until 14:45. The observer re-prices just that short list, runs
+deterministic trigger rules, and reacts — **no full-universe scan, no new daily
+signals.**
+
+- **Triggers it watches:** price breakout / breakdown / large-move-since-last /
+  gap; held-position soft/strong/hard-loss + profit reviews; HIGH/CRITICAL news;
+  market-regime shifts (→ RISK_OFF / EVENT_RISK / DATA_INSUFFICIENT); and
+  data-quality anomalies / stale quotes / provider failures (which **block
+  action**).
+- **"Swift action" = swift PAPER action or a manual-review alert — never a real
+  order.** A breakout on a buy candidate triggers **focused re-analysis** (the
+  *same* hybrid scoring + data-quality gate + news overlay, for one symbol); only
+  if it still qualifies **and** every gate passes does it place a swift **paper**
+  buy — and **only** through `ExecutionEngine.process_buy` (which independently
+  enforces risk + data-quality + news + daily/monthly limits + LIMIT + DELIVERY +
+  paper-only). **Sell is review-only; the observer never auto-sells.** Cooldowns +
+  per-run caps keep it low-noise; cumulative metrics feed the Decision Quality
+  Engine so the system measures whether observation added value or just noise.
+- **CLI:** `--observe` (deep run, then observe once), `--observe-only` (watchlist
+  + positions only, no scan/new signals), `--focused-symbol RELIANCE.NS`,
+  `--escalation-report`, `--no-action` (never create even a paper order).
+- **GitHub Actions:** `analyze.yml` gained `workflow_dispatch` inputs
+  `observe_only` / `focused_symbol` / `no_action`; a separate **`observe.yml`**
+  runs `--observe-only` (manual-dispatch by default; schedule examples commented
+  out). **GitHub Actions is NOT a real-time engine** (cron jitter, no intraday
+  guarantees) — v1 stays manual + low-noise on purpose.
+
+Full design: [`docs/observation_escalation_engine.md`](docs/observation_escalation_engine.md).
+Future lower-latency / gated-live phases:
+[`docs/future_realtime_execution.md`](docs/future_realtime_execution.md).
+
 ---
 
 ## 11. Setup
