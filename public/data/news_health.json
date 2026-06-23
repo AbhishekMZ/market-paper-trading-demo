@@ -1,17 +1,16 @@
 {
   "providers_used": [
-    "gdelt",
     "yfinance"
   ],
   "symbols_assessed": 10,
   "symbols_with_news": 10,
-  "total_items": 94,
+  "total_items": 91,
   "blocked_buys": 4,
   "critical_count": 0,
   "high_count": 4,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-06-23T13:28:10+05:30",
-  "checkpoint": "mid",
+  "last_run": "2026-06-23T15:01:24+05:30",
+  "checkpoint": "close",
   "overall": "ELEVATED"
 }
