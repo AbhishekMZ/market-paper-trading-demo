@@ -40,6 +40,7 @@ from evaluation import DecisionQualityEngine  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
 from news import NewsRiskEngine  # noqa: E402
+from observation import ObservationEngine  # noqa: E402
 from order_models import SignalLabel  # noqa: E402
 from portfolio_manager import PortfolioManager  # noqa: E402
 from report_generator import ReportGenerator  # noqa: E402
@@ -116,6 +117,10 @@ def run(args: argparse.Namespace) -> int:
     period = md_cfg.get("period", "1mo")
     interval = md_cfg.get("interval", "1d")
 
+    # Light path: just regenerate the escalation report from the current queue.
+    if args.escalation_report:
+        return _regenerate_escalation_report()
+
     # --- build components (paper adapter is the only enabled adapter) ---- #
     risk = RiskEngine(configs["risk"])
     pm = PortfolioManager(settings)
@@ -165,6 +170,25 @@ def run(args: argparse.Namespace) -> int:
     benchmarks, bench_change = fetch_benchmarks(provider, configs, usage, period, interval)
     regime = MarketRegimeEngine().classify(benchmarks)
     print(f"[regime] {regime.regime} (score {regime.score}) — {regime.reason}")
+
+    # --- observe-only / focused-symbol: skip the heavy universe scan ----- #
+    if args.observe_only or args.focused_symbol:
+        es = EmailSender(settings)
+        obs_engine = ObservationEngine(configs, provider, engine, es, regime,
+                                       cost_model=cost_model, period=period, interval=interval,
+                                       no_action=args.no_action)
+        obs_result = obs_engine.run(cp_id, focused_symbol=args.focused_symbol)
+        usage.save()
+        engine.save_state(exec_state)
+        static_exporter.export_all()
+        storage.append_audit({"event": "OBSERVE_ONLY_RUN", "focused_symbol": args.focused_symbol,
+                              "triggers": len(obs_result.triggers),
+                              "escalations": len(obs_result.escalations),
+                              "actions": len(obs_result.actions_taken)})
+        print(f"[observe-only] symbols={len(obs_result.observed_symbols)} "
+              f"triggers={len(obs_result.triggers)} escalations={len(obs_result.escalations)} "
+              f"actions={len(obs_result.actions_taken)} blocked={len(obs_result.blocked_actions)}")
+        return 0
 
     # --- market data for the active universe ----------------------------- #
     max_symbols = int(md_cfg.get("max_symbols_per_run", 10))
@@ -272,14 +296,18 @@ def run(args: argparse.Namespace) -> int:
     # --- process paper buys (risk engine enforces all hard limits) ------- #
     executed: List[Dict[str, Any]] = []
     max_trade = float(capital.get("max_amount_per_trade", 2000))
-    for sig in signals:
-        if sig.label != SignalLabel.BUY_SMALL_PAPER:
-            continue
-        result = engine.process_buy(sig, amount_cap=max_trade, prices=prices, checkpoint=cp_id)
-        if result is not None:
-            executed.append(result.to_dict())
-            if result.status.value == "FILLED":
-                sig.led_to_paper_trade = True
+    if args.no_action:
+        storage.append_audit({"event": "NO_ACTION_MODE",
+                              "message": "Buys suppressed (--no-action); analysis only."})
+    else:
+        for sig in signals:
+            if sig.label != SignalLabel.BUY_SMALL_PAPER:
+                continue
+            result = engine.process_buy(sig, amount_cap=max_trade, prices=prices, checkpoint=cp_id)
+            if result is not None:
+                executed.append(result.to_dict())
+                if result.status.value == "FILLED":
+                    sig.led_to_paper_trade = True
 
     # Re-value the portfolio after any fills so holdings/total/unrealized are current.
     pm.mark_to_market(prices, anomalous_symbols=anomalous_symbols, mtm_jump_pct=mtm_jump)
@@ -385,6 +413,27 @@ def run(args: argparse.Namespace) -> int:
             sent_info["news"] = sent_news
     if sent_info:
         storage.append_audit({"event": "EMAIL", "details": sent_info})
+
+    # --- observation & escalation (lightweight, after deep analysis) ----- #
+    # Default behavior: after a deep run, observe the watchlist + positions once
+    # and escalate any triggers. Wrapped so it can never break the deep run.
+    if (configs.get("observation") or {}).get("observation", {}).get("enabled", True):
+        try:
+            obs_result = ObservationEngine(
+                configs, provider, engine, es, regime, cost_model=cost_model,
+                period=period, interval=interval, no_action=args.no_action,
+            ).run(cp_id)
+            storage.append_audit({"event": "OBSERVATION_RUN", "checkpoint": cp_id,
+                                  "triggers": len(obs_result.triggers),
+                                  "escalations": len(obs_result.escalations),
+                                  "actions": len(obs_result.actions_taken),
+                                  "blocked": len(obs_result.blocked_actions)})
+            print(f"[observe] triggers={len(obs_result.triggers)} "
+                  f"escalations={len(obs_result.escalations)} actions={len(obs_result.actions_taken)} "
+                  f"blocked={len(obs_result.blocked_actions)}")
+        except Exception as exc:  # observation must never break the deep run
+            storage.append_audit({"event": "OBSERVATION_ERROR", "message": str(exc)})
+            print(f"[observe] error: {exc}", file=sys.stderr)
 
     # --- monthly report (optional) --------------------------------------- #
     if args.monthly:
@@ -492,6 +541,21 @@ def _write_news_artifacts(assessments, items, alerts, health) -> None:
     write_json(storage.report_file("news_alerts.json"), alert_log[-200:])
 
 
+def _regenerate_escalation_report() -> int:
+    """Rewrite the escalation report from the current persisted queue (no scan)."""
+    from utils import write_json  # local import to keep top clean
+
+    queue = storage.read_json(storage.state_file("escalation_queue.json"), [])
+    if not isinstance(queue, list):
+        queue = []
+    report = {"as_of": now_ist_iso(), "regenerated": True,
+              "open_escalations": queue, "open_count": len(queue)}
+    write_json(storage.report_file("escalation_report.json"), report)
+    write_json(storage.public_file("escalation_report.json"), report)
+    print(f"[escalation-report] regenerated with {len(queue)} open escalation(s).")
+    return 0
+
+
 def _persist_signal_history(signals) -> None:
     history = storage.load_state("signal_history", [])
     if not isinstance(history, list):
@@ -507,6 +571,17 @@ def main() -> int:
     parser.add_argument("--eod", action="store_true", help="treat as end-of-day (send daily email)")
     parser.add_argument("--monthly", action="store_true", help="also generate the end-of-month report")
     parser.add_argument("--force", action="store_true", help="run even on a non-trading day")
+    # Observation & Escalation Engine flags.
+    parser.add_argument("--observe", action="store_true",
+                        help="run lightweight observation + escalation after deep analysis")
+    parser.add_argument("--observe-only", action="store_true",
+                        help="ONLY observe the active watchlist + open positions (no full scan, no new signals)")
+    parser.add_argument("--focused-symbol", default=None, metavar="SYMBOL",
+                        help="run focused observation/analysis for a single symbol")
+    parser.add_argument("--escalation-report", action="store_true",
+                        help="regenerate the escalation report from the current queue and exit")
+    parser.add_argument("--no-action", action="store_true",
+                        help="observe/analyze only — never create even a paper order")
     args = parser.parse_args()
     try:
         return run(args)

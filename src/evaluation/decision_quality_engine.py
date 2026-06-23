@@ -62,6 +62,10 @@ class DecisionQualityEngine:
         metrics = quality_metrics.compute(forward_summary, shadow, comparison, trades_count, distinct_days)
         readiness = self._readiness(metrics, comparison, trades_count, distinct_days)
 
+        # Observation value: did the between-checkpoint observer add signal or noise?
+        obs_metrics = storage.read_json(storage.state_file("observation_metrics.json"), {})
+        observation = self._observation_value(obs_metrics if isinstance(obs_metrics, dict) else {})
+
         payload = {
             "as_of": now_ist_iso(),
             "checkpoint": checkpoint,
@@ -72,6 +76,7 @@ class DecisionQualityEngine:
             "benchmark": comparison,
             "attribution": attribution,
             "threshold_analysis": thresholds,
+            "observation": observation,
             "readiness": readiness,
             "disclaimer": self.disclaimer,
         }
@@ -117,6 +122,29 @@ class DecisionQualityEngine:
             "reasons": reasons,
             "live_trading": "DISABLED",
             "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict.",
+        }
+
+    def _observation_value(self, m: Dict[str, Any]) -> Dict[str, Any]:
+        """Summarize whether the observer is adding value or just noise."""
+        triggers = int(m.get("triggers_detected", 0))
+        escalations = int(m.get("escalations_created", 0))
+        actions = int(m.get("paper_actions_from_triggers", 0))
+        blocked = int(m.get("blocked_actions_from_triggers", 0))
+        emails = int(m.get("emails_sent_total", 0))
+        runs = int(m.get("observation_runs", 0))
+        useful = actions + blocked  # acted-on or protectively-blocked = signal
+        return {
+            "observation_runs": runs,
+            "triggers_detected": triggers,
+            "escalations_created": escalations,
+            "paper_actions_from_triggers": actions,
+            "blocked_actions_from_triggers": blocked,
+            "useful_triggers": useful,
+            "emails_sent_total": emails,
+            "alert_noise_score": round(max(0.0, (escalations - useful)) / escalations, 2) if escalations else 0.0,
+            "avg_triggers_per_run": round(triggers / runs, 2) if runs else 0.0,
+            "last_run": m.get("last_run"),
+            "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts.",
         }
 
     def _write(self, payload: Dict[str, Any]) -> None:

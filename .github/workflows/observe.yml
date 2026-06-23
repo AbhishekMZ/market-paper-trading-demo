@@ -1,0 +1,98 @@
+name: observe (paper — lightweight)
+
+# Lightweight, between-checkpoint OBSERVATION of the active watchlist + open
+# positions. It does NOT scan the full universe and does NOT generate new daily
+# signals — it detects triggers and escalates (paper action via ExecutionEngine
+# or a manual-review alert). PAPER TRADING ONLY. No real orders.
+#
+# ⚠️ GitHub Actions is NOT a precision real-time engine. Cron has minutes of
+# jitter and no intraday guarantees. v1 keeps this manual-dispatch by default and
+# low-noise on purpose. Do NOT enable a high-frequency schedule — see
+# docs/future_realtime_execution.md for what real real-time would require.
+
+on:
+  workflow_dispatch:
+    inputs:
+      focused_symbol:
+        description: "Optional: observe ONE symbol only (e.g. RELIANCE.NS)"
+        required: false
+        default: ""
+      no_action:
+        description: "Observe only — never create even a paper order (true/false)"
+        required: false
+        default: "false"
+
+  # OPTIONAL hourly observation during Indian market hours (UTC). Left COMMENTED
+  # OUT on purpose — uncomment ONLY if you accept the noise/cost and understand
+  # GitHub Actions is not real-time. Keep within the configured min interval.
+  # schedule:
+  #   - cron: "30 4-9 * * 1-5"   # ~10:00-15:00 IST, top of each hour (approx)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: observe
+  cancel-in-progress: false
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Safety gate — verify v1 paper-only config
+        run: |
+          python - <<'PY'
+          import sys, yaml
+          broker = yaml.safe_load(open("config/broker.yml"))["broker"]
+          settings = yaml.safe_load(open("config/settings.yml"))
+          problems = []
+          if broker.get("active_adapter") != "paper":
+              problems.append("active_adapter must be 'paper' in v1")
+          if broker.get("live_trading_enabled") or settings.get("live_trading_enabled"):
+              problems.append("live_trading_enabled must be false in v1")
+          if broker.get("allow_real_orders"):
+              problems.append("allow_real_orders must be false in v1")
+          if broker.get("angel_one_enabled"):
+              problems.append("angel_one_enabled must be false in v1")
+          if problems:
+              print("SAFETY GATE FAILED:"); [print(" -", p) for p in problems]; sys.exit(1)
+          print("Safety gate OK: v1 paper-only configuration verified.")
+          PY
+
+      - name: Run observation (lightweight)
+        env:
+          MARKET_DATA_PROVIDER: yfinance
+          EMAIL_ENABLED: "true"
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+        run: |
+          ARGS="--observe-only --force"
+          if [ -n "${{ github.event.inputs.focused_symbol }}" ]; then ARGS="$ARGS --focused-symbol ${{ github.event.inputs.focused_symbol }}"; fi
+          if [ "${{ github.event.inputs.no_action }}" = "true" ]; then ARGS="$ARGS --no-action"; fi
+          echo "Running: python src/main.py $ARGS"
+          python src/main.py $ARGS
+
+      - name: Commit updated observation state
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/reports data/state public/data
+          if git diff --cached --quiet; then
+            echo "No observation changes to commit."
+          else
+            git commit -m "chore(data): observation update [skip ci]"
+            git push
+          fi

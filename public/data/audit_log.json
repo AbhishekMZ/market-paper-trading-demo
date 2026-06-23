@@ -1,6 +1,6 @@
 [
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -31,7 +31,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -96,7 +96,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -128,7 +128,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -192,7 +192,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -225,7 +225,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -257,7 +257,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -290,7 +290,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -322,7 +322,16 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:31+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 0,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-06-23T11:14:31+05:30",
     "event": "EMAIL",
     "details": {
       "daily": {
@@ -344,7 +353,7 @@
     }
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -375,7 +384,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -408,7 +417,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -440,7 +449,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -472,7 +481,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -504,7 +513,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -536,7 +545,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -569,7 +578,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -601,7 +610,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -634,7 +643,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -666,7 +675,16 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:24+05:30",
+    "ts": "2026-06-23T11:14:30+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 0,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-06-23T11:14:30+05:30",
     "event": "EMAIL",
     "details": {
       "daily": {
@@ -688,7 +706,7 @@
     }
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -719,7 +737,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -752,7 +770,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -784,7 +802,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -816,7 +834,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -848,7 +866,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -880,7 +898,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -913,7 +931,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -945,7 +963,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -978,7 +996,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -1010,7 +1028,16 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 0,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "EMAIL",
     "details": {
       "daily": {
@@ -1032,7 +1059,7 @@
     }
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -1063,7 +1090,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -1096,7 +1123,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -1128,7 +1155,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -1160,7 +1187,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -1192,7 +1219,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -1224,7 +1251,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -1257,7 +1284,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -1289,7 +1316,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -1322,7 +1349,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -1354,7 +1381,16 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:23+05:30",
+    "ts": "2026-06-23T11:14:29+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 0,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-06-23T11:14:29+05:30",
     "event": "EMAIL",
     "details": {
       "daily": {
@@ -1376,7 +1412,7 @@
     }
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -1407,7 +1443,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -1440,7 +1476,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -1472,7 +1508,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -1504,7 +1540,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -1536,7 +1572,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -1568,7 +1604,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -1601,7 +1637,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -1633,7 +1669,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -1666,7 +1702,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -1698,7 +1734,16 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 2,
+    "actions": 0,
+    "blocked": 1
+  },
+  {
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "EMAIL",
     "details": {
       "daily": {
@@ -1725,7 +1770,7 @@
     }
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -1757,7 +1802,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -1786,7 +1831,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -1818,7 +1863,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -1849,7 +1894,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -1880,7 +1925,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -1911,7 +1956,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -1942,7 +1987,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:28+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -1973,7 +2018,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:27+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -2005,7 +2050,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:27+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -2032,15 +2077,15 @@
     "conflicts": []
   },
   {
-    "ts": "2026-06-23T10:36:22+05:30",
+    "ts": "2026-06-23T11:14:27+05:30",
     "event": "PAPER_BUY_FILLED",
     "symbol": "ITC.NS",
     "message": "Bought 3 @ ₹508.42 (₹1525.26). Final 85.3/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80.",
     "mode": "paper",
     "broker_adapter": "paper",
     "is_paper": true,
-    "order_id": "ord_26d4af1f16f7",
-    "signal_id": "sig_99eba7335101",
+    "order_id": "ord_f42c6296ec47",
+    "signal_id": "sig_77555c9bddbe",
     "decision": {
       "approved": true,
       "symbol": "ITC.NS",
@@ -2057,11 +2102,11 @@
       ],
       "rules_failed": [],
       "risk_level": "LOW",
-      "created_at": "2026-06-23T10:36:22+05:30"
+      "created_at": "2026-06-23T11:14:27+05:30"
     }
   },
   {
-    "ts": "2026-06-23T10:36:21+05:30",
+    "ts": "2026-06-23T11:14:26+05:30",
     "event": "DEMO_RESET",
     "message": "Paper demo reset to clean state.",
     "starting_capital": 10000.0

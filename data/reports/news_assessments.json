@@ -29,7 +29,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T05:06:24.700071+00:00",
+        "fetched_at": "2026-06-23T05:44:31.439878+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "POSITIVE",
@@ -46,7 +46,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "RELIANCE.NS",
@@ -67,7 +67,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "INFY.NS",
@@ -88,7 +88,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "LT.NS",
@@ -109,7 +109,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "HDFCBANK.NS",
@@ -130,7 +130,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "ICICIBANK.NS",
@@ -151,7 +151,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "BHARTIARTL.NS",
@@ -172,7 +172,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "AXISBANK.NS",
@@ -193,7 +193,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "TCS.NS",
@@ -214,7 +214,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   },
   {
     "symbol": "SBIN.NS",
@@ -249,7 +249,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T05:06:24.701596+00:00",
+        "fetched_at": "2026-06-23T05:44:31.441466+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "NEGATIVE",
@@ -276,7 +276,7 @@
         "url": null,
         "summary": "",
         "published_at": null,
-        "fetched_at": "2026-06-23T05:06:24.701596+00:00",
+        "fetched_at": "2026-06-23T05:44:31.441466+00:00",
         "age_hours": null,
         "is_fresh": true,
         "sentiment": "NEGATIVE",
@@ -294,6 +294,6 @@
         ]
       }
     ],
-    "assessed_at": "2026-06-23T10:36:24+05:30"
+    "assessed_at": "2026-06-23T11:14:31+05:30"
   }
 ]

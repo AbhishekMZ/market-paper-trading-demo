@@ -59,6 +59,8 @@ def reset() -> None:
         "data_quality_incidents.json", "data_health.json", "strategy_evaluation.json",
         "news_assessments.json", "news_items.json", "news_alerts.json", "news_health.json",
         "decision_quality.json",
+        "observation_report.json", "escalation_report.json",
+        "active_watchlist.json", "trigger_history.json", "escalation_queue.json", "observation_state.json",
     )
     for f in artifacts:
         for p in (storage.report_file(f), storage.public_file(f)):
@@ -69,6 +71,13 @@ def reset() -> None:
     # Decision-quality ledgers (forward-return episodes + benchmark history).
     write_json(storage.state_file("forward_returns.json"), {"open": {}, "archived": []})
     write_json(storage.state_file("benchmark_history.json"), [])
+    # Observation & escalation state.
+    write_json(storage.state_file("observation_state.json"), {"symbols": {}, "last_observation_at": None, "last_regime": None})
+    write_json(storage.state_file("active_watchlist.json"), [])
+    write_json(storage.state_file("trigger_history.json"), [])
+    write_json(storage.state_file("escalation_queue.json"), [])
+    write_json(storage.state_file("alert_cooldowns.json"), {})
+    write_json(storage.state_file("observation_metrics.json"), {})
     storage.append_audit({"event": "DEMO_RESET", "message": "Paper demo reset to clean state.",
                           "starting_capital": starting})
     static_exporter.export_all()

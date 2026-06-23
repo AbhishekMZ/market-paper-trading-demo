@@ -1,6 +1,6 @@
 [
   {
-    "order_id": "ord_26d4af1f16f7",
+    "order_id": "ord_f42c6296ec47",
     "symbol": "ITC.NS",
     "side": "BUY",
     "status": "FILLED",
@@ -12,8 +12,8 @@
     "broker_adapter": "paper",
     "message": "Paper BUY filled at limit price.",
     "reason": "Final 85.3/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80.",
-    "signal_id": "sig_99eba7335101",
-    "timestamp": "2026-06-23T10:36:22+05:30",
+    "signal_id": "sig_77555c9bddbe",
+    "timestamp": "2026-06-23T11:14:27+05:30",
     "realized_pnl": 0.0
   }
 ]

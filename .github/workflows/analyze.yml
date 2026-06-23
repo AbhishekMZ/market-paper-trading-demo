@@ -15,6 +15,18 @@ on:
         description: "Also generate the end-of-month report (true/false)"
         required: false
         default: "false"
+      observe_only:
+        description: "Only observe the active watchlist + positions (no full scan / new signals)"
+        required: false
+        default: "false"
+      focused_symbol:
+        description: "Run focused observation/analysis for ONE symbol (e.g. RELIANCE.NS)"
+        required: false
+        default: ""
+      no_action:
+        description: "Observe/analyze only — never create even a paper order"
+        required: false
+        default: "false"
   schedule:
     # Cron is UTC. Indian market checkpoints (IST = UTC+5:30), weekdays only.
     - cron: "5 4 * * 1-5"    # 09:35 IST  (morning)
@@ -81,6 +93,9 @@ jobs:
         run: |
           ARGS="--checkpoint ${{ github.event.inputs.checkpoint || 'auto' }}"
           if [ "${{ github.event.inputs.monthly }}" = "true" ]; then ARGS="$ARGS --monthly"; fi
+          if [ "${{ github.event.inputs.observe_only }}" = "true" ]; then ARGS="$ARGS --observe-only"; fi
+          if [ -n "${{ github.event.inputs.focused_symbol }}" ]; then ARGS="$ARGS --focused-symbol ${{ github.event.inputs.focused_symbol }}"; fi
+          if [ "${{ github.event.inputs.no_action }}" = "true" ]; then ARGS="$ARGS --no-action"; fi
           echo "Running: python src/main.py $ARGS"
           python src/main.py $ARGS
 

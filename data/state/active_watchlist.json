@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "ITC.NS",
+    "name": "ITC.NS",
+    "exchange": "NSE",
+    "source": "open_position",
+    "reason_added": "Open bot-owned position",
+    "priority": "HIGHEST",
+    "score_when_added": null,
+    "last_signal_label": null,
+    "last_price": 538.92,
+    "trigger_levels": {},
+    "added_at": "2026-06-23T11:14:31+05:30",
+    "expires_at": "2026-06-23",
+    "is_open_position": true,
+    "is_bot_owned": true
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "name": "Reliance Industries",
+    "exchange": "NSE",
+    "source": "watch_signal",
+    "reason_added": "Recent WATCH signal",
+    "priority": "HIGH",
+    "score_when_added": 75.6,
+    "last_signal_label": "WATCH",
+    "last_price": 3255.98,
+    "trigger_levels": {},
+    "added_at": "2026-06-23T11:14:31+05:30",
+    "expires_at": "2026-06-23",
+    "is_open_position": false,
+    "is_bot_owned": false
+  },
+  {
+    "symbol": "SBIN.NS",
+    "name": "State Bank of India",
+    "exchange": "NSE",
+    "source": "news_blocked",
+    "reason_added": "Buy candidate blocked by news",
+    "priority": "HIGH",
+    "score_when_added": 37.9,
+    "last_signal_label": "DO_NOT_BUY",
+    "last_price": 739.43,
+    "trigger_levels": {},
+    "added_at": "2026-06-23T11:14:31+05:30",
+    "expires_at": "2026-06-23",
+    "is_open_position": false,
+    "is_bot_owned": false
+  }
+]

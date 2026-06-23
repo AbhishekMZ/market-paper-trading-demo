@@ -7,6 +7,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import time
 import uuid
 from typing import Any, Optional
 
@@ -83,12 +84,24 @@ def read_json(path: str, default: Any = None) -> Any:
 
 
 def write_json(path: str, data: Any) -> None:
-    """Atomic JSON write (temp file + os.replace)."""
+    """Atomic JSON write (temp file + os.replace).
+
+    os.replace can transiently fail on Windows (WinError 5) when an AV/indexer
+    briefly locks the target; retry a few times before giving up. No-op effect
+    on Linux/CI where the first attempt succeeds.
+    """
     os.makedirs(os.path.dirname(path), exist_ok=True)
     tmp = f"{path}.tmp"
     with open(tmp, "w", encoding="utf-8") as fh:
         json.dump(data, fh, indent=2, ensure_ascii=False, default=str)
-    os.replace(tmp, path)
+    for attempt in range(5):
+        try:
+            os.replace(tmp, path)
+            return
+        except PermissionError:
+            if attempt == 4:
+                raise
+            time.sleep(0.1)
 
 
 def append_jsonl(path: str, record: dict) -> None:
