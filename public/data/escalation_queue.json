@@ -1,5 +1,95 @@
 [
   {
+    "symbol": "INFY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_e6002e4298ca"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ecef39083702",
+    "created_at": "2026-06-23T13:28:13+05:30",
+    "expires_at": "2026-06-23T13:28:13+05:30"
+  },
+  {
+    "symbol": "_MARKET_",
+    "severity": "HIGH",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
+    "trigger_ids": [
+      "trg_8b27ef0f77bb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_7ae59958e6d9",
+    "created_at": "2026-06-23T13:28:13+05:30",
+    "expires_at": "2026-06-23T13:28:13+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_aeafa6be9a35"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_13746e72bdef",
+    "created_at": "2026-06-23T13:28:13+05:30",
+    "expires_at": "2026-06-23T13:28:13+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_5bc96c874f7a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_0abb01a877bf",
+    "created_at": "2026-06-23T13:28:13+05:30",
+    "expires_at": "2026-06-23T13:28:13+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_8a6044c3c762"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_ab7dd712fded",
+    "created_at": "2026-06-23T13:28:13+05:30",
+    "expires_at": "2026-06-23T13:28:13+05:30"
+  },
+  {
     "symbol": "SBIN.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",

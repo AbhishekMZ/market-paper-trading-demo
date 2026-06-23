@@ -4,24 +4,48 @@
     "company_name": "ICICI Bank",
     "news_available": true,
     "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
+    "fresh_item_count": 1,
+    "overall_sentiment": "NEGATIVE",
+    "news_risk_level": "HIGH",
+    "dominant_event_types": [
+      "REGULATORY"
+    ],
+    "blocks_buy": true,
     "requires_manual_review": false,
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
+      "10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+      "[HIGH] India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
       "[HIGH] Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
       "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
-      "[HIGH] SoftBank sells 3% stake in India's Lenskart"
+      "HIGH/CRITICAL adverse news -> new paper buy blocked."
     ],
     "providers_used": [
       "yfinance"
     ],
     "top_items": [
+      {
+        "symbol": "ICICIBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:56:47.450384+00:00",
+        "age_hours": 0.28,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
       {
         "symbol": "ICICIBANK.NS",
         "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
@@ -30,8 +54,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/icici-bank-limited-ibn-best-005903282.html",
         "summary": "",
         "published_at": "2026-06-11T00:59:03+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323681+00:00",
-        "age_hours": 293.3,
+        "fetched_at": "2026-06-23T07:56:47.450422+00:00",
+        "age_hours": 294.96,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -51,8 +75,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
         "summary": "",
         "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323749+00:00",
-        "age_hours": 335.54,
+        "fetched_at": "2026-06-23T07:56:47.450474+00:00",
+        "age_hours": 337.2,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -74,8 +98,8 @@
         "url": "https://sg.finance.yahoo.com/news/softbank-sells-3-stake-indias-150810983.html",
         "summary": "",
         "published_at": "2026-06-03T15:08:10+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323792+00:00",
-        "age_hours": 471.14,
+        "fetched_at": "2026-06-23T07:56:47.450524+00:00",
+        "age_hours": 472.81,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -84,28 +108,6 @@
         ],
         "risk_level": "HIGH",
         "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "ICICI Bank receives central bank approval for CEO reappointment",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/icici-bank-receives-central-bank-174518537.html",
-        "summary": "",
-        "published_at": "2026-05-22T17:45:18+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323907+00:00",
-        "age_hours": 756.52,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "approval",
           "ban"
         ]
       },
@@ -117,8 +119,8 @@
         "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-143616123.html",
         "summary": "",
         "published_at": "2026-06-10T14:36:16+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323714+00:00",
-        "age_hours": 303.68,
+        "fetched_at": "2026-06-23T07:56:47.450441+00:00",
+        "age_hours": 305.34,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -130,14 +132,35 @@
     "critical_items": [
       {
         "symbol": "ICICIBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:56:47.450384+00:00",
+        "age_hours": 0.28,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
+      {
+        "symbol": "ICICIBANK.NS",
         "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
         "source": "Insider Monkey",
         "provider": "yfinance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/icici-bank-limited-ibn-best-005903282.html",
         "summary": "",
         "published_at": "2026-06-11T00:59:03+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323681+00:00",
-        "age_hours": 293.3,
+        "fetched_at": "2026-06-23T07:56:47.450422+00:00",
+        "age_hours": 294.96,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -157,8 +180,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
         "summary": "",
         "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323749+00:00",
-        "age_hours": 335.54,
+        "fetched_at": "2026-06-23T07:56:47.450474+00:00",
+        "age_hours": 337.2,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -180,8 +203,8 @@
         "url": "https://sg.finance.yahoo.com/news/softbank-sells-3-stake-indias-150810983.html",
         "summary": "",
         "published_at": "2026-06-03T15:08:10+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323792+00:00",
-        "age_hours": 471.14,
+        "fetched_at": "2026-06-23T07:56:47.450524+00:00",
+        "age_hours": 472.81,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -190,33 +213,11 @@
         ],
         "risk_level": "HIGH",
         "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "ICICI Bank receives central bank approval for CEO reappointment",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/icici-bank-receives-central-bank-174518537.html",
-        "summary": "",
-        "published_at": "2026-05-22T17:45:18+00:00",
-        "fetched_at": "2026-06-23T06:16:46.323907+00:00",
-        "age_hours": 756.52,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "approval",
           "ban"
         ]
       }
     ],
-    "assessed_at": "2026-06-23T11:46:55+05:30"
+    "assessed_at": "2026-06-23T13:26:55+05:30"
   },
   {
     "symbol": "LT.NS",
@@ -246,8 +247,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-l-t-invest-nearly-103527851.html",
         "summary": "",
         "published_at": "2026-06-04T10:35:27+00:00",
-        "fetched_at": "2026-06-23T06:16:55.763772+00:00",
-        "age_hours": 451.69,
+        "fetched_at": "2026-06-23T07:56:55.215720+00:00",
+        "age_hours": 453.36,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -263,8 +264,8 @@
         "url": "https://www.verdict.co.uk/ltm-bids-186m-randstads-services/",
         "summary": "",
         "published_at": "2026-05-25T09:46:48+00:00",
-        "fetched_at": "2026-06-23T06:16:55.763798+00:00",
-        "age_hours": 692.5,
+        "fetched_at": "2026-06-23T07:56:55.215746+00:00",
+        "age_hours": 694.17,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -280,8 +281,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-l-t-hits-three-040049978.html",
         "summary": "",
         "published_at": "2026-05-06T05:25:50+00:00",
-        "fetched_at": "2026-06-23T06:16:55.763814+00:00",
-        "age_hours": 1152.85,
+        "fetched_at": "2026-06-23T07:56:55.215762+00:00",
+        "age_hours": 1154.52,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -297,8 +298,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-larsen-toubro-quarterly-profit-114014774.html",
         "summary": "",
         "published_at": "2026-05-05T15:43:28+00:00",
-        "fetched_at": "2026-06-23T06:16:55.763857+00:00",
-        "age_hours": 1166.56,
+        "fetched_at": "2026-06-23T07:56:55.215776+00:00",
+        "age_hours": 1168.22,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -314,8 +315,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-shares-set-open-lower-024139331.html",
         "summary": "",
         "published_at": "2026-05-05T10:28:21+00:00",
-        "fetched_at": "2026-06-23T06:16:55.763874+00:00",
-        "age_hours": 1171.81,
+        "fetched_at": "2026-06-23T07:56:55.215790+00:00",
+        "age_hours": 1173.48,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "relevance": 1.0,
@@ -327,15 +328,15 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T11:47:03+05:30"
+    "assessed_at": "2026-06-23T13:27:09+05:30"
   },
   {
     "symbol": "BHARTIARTL.NS",
     "company_name": "Bharti Airtel",
     "news_available": true,
-    "item_count": 14,
-    "fresh_item_count": 2,
-    "overall_sentiment": "NEGATIVE",
+    "item_count": 10,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
     "news_risk_level": "NONE",
     "dominant_event_types": [],
     "blocks_buy": false,
@@ -343,83 +344,12 @@
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "14 relevant item(s); worst risk NONE, sentiment NEGATIVE."
+      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
     ],
     "providers_used": [
-      "gdelt",
       "yfinance"
     ],
     "top_items": [
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Bharti Airtel completes share swap with ICIL , raises Africa stake to 79 %",
-        "source": "thehindubusinessline.com",
-        "provider": "gdelt",
-        "url": "https://www.thehindubusinessline.com/markets/stock-markets/bharti-airtel-completes-share-swap-with-icil-raises-africa-stake-to-79/article71136125.ece",
-        "summary": "",
-        "published_at": "2026-06-23T05:45:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.404198+00:00",
-        "age_hours": 0.54,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "relevance": 0.8333333333333333,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Top - 10 Firms Add ₹2 . 15 Lakh Crore in Market Value ; Bharti Airtel Leads Rally",
-        "source": "dailypioneer.com",
-        "provider": "gdelt",
-        "url": "https://dailypioneer.com/news/mcap-of-9-out-of-top10-most-valued-firms-jumps-rs-2-15-lakh-cr",
-        "summary": "",
-        "published_at": "2026-06-22T06:30:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.404475+00:00",
-        "age_hours": 23.79,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "relevance": 0.8333333333333333,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Reliance Industries , Bharti Airtel , Waaree : Stocks to buy price targets , stop loss & more",
-        "source": "businesstoday.in",
-        "provider": "gdelt",
-        "url": "https://www.businesstoday.in/markets/stocks/story/reliance-industries-bharti-airtel-waaree-stocks-to-buy-price-targets-stop-loss-more-538330-2026-06-22",
-        "summary": "",
-        "published_at": "2026-06-22T05:15:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.404522+00:00",
-        "age_hours": 25.04,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 0.8333333333333333,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": [
-          "loss"
-        ]
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Jio Platforms IPO signals diverging growth paths with Bharti Airtel",
-        "source": "livemint.com",
-        "provider": "gdelt",
-        "url": "https://www.livemint.com/industry/telecom/jio-platforms-ipo-signals-diverging-growth-paths-with-bharti-airtel-11782036991881.html",
-        "summary": "",
-        "published_at": "2026-06-22T02:45:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.404543+00:00",
-        "age_hours": 27.54,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "relevance": 0.8333333333333333,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
       {
         "symbol": "BHARTIARTL.NS",
         "title": "VEON Closes USD 1.4B Bond Offering & Refinances 2027 Debt Ahead of Schedule",
@@ -428,18 +358,93 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/veon-closes-usd-1-4b-214320227.html",
         "summary": "",
         "published_at": "2026-06-02T21:43:20+00:00",
-        "fetched_at": "2026-06-23T06:17:03.851776+00:00",
-        "age_hours": 488.56,
+        "fetched_at": "2026-06-23T07:57:09.085863+00:00",
+        "age_hours": 490.23,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
         "event_types": [],
         "risk_level": "NONE",
         "matched_keywords": []
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "title": "Prudential seals deal to acquire 75% of Bharti Life",
+        "source": "Life Insurance International",
+        "provider": "yfinance",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/",
+        "summary": "",
+        "published_at": "2026-05-18T09:22:17+00:00",
+        "fetched_at": "2026-06-23T07:57:09.085883+00:00",
+        "age_hours": 862.58,
+        "is_fresh": false,
+        "sentiment": "NEUTRAL",
+        "relevance": 1.0,
+        "event_types": [],
+        "risk_level": "NONE",
+        "matched_keywords": []
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "title": "Bharti Airtel Ltd (BOM:532454) Q4 2026 Earnings Call Highlights: Record Revenue and Strategic ...",
+        "source": "GuruFocus.com",
+        "provider": "yfinance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/bharti-airtel-ltd-bom-532454-150036807.html",
+        "summary": "",
+        "published_at": "2026-05-14T15:00:36+00:00",
+        "fetched_at": "2026-06-23T07:57:09.085898+00:00",
+        "age_hours": 952.94,
+        "is_fresh": false,
+        "sentiment": "POSITIVE",
+        "relevance": 1.0,
+        "event_types": [],
+        "risk_level": "NONE",
+        "matched_keywords": [
+          "record"
+        ]
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "title": "Indian shares open higher as earnings steady markets; higher oil caps gains",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indian-shares-set-extend-gains-023736283.html",
+        "summary": "",
+        "published_at": "2026-05-14T03:55:08+00:00",
+        "fetched_at": "2026-06-23T07:57:09.085939+00:00",
+        "age_hours": 964.03,
+        "is_fresh": false,
+        "sentiment": "NEUTRAL",
+        "relevance": 1.0,
+        "event_types": [],
+        "risk_level": "NONE",
+        "matched_keywords": []
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "title": "Indian telecom operator Bharti Airtel's profit rises on subscriber growth, upgrades",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indian-telecom-operator-bharti-airtels-112449169.html",
+        "summary": "",
+        "published_at": "2026-05-13T11:24:49+00:00",
+        "fetched_at": "2026-06-23T07:57:09.085953+00:00",
+        "age_hours": 980.54,
+        "is_fresh": false,
+        "sentiment": "POSITIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "EARNINGS_BEAT"
+        ],
+        "risk_level": "NONE",
+        "matched_keywords": [
+          "profit rises",
+          "upgrade"
+        ]
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T11:47:15+05:30"
+    "assessed_at": "2026-06-23T13:27:17+05:30"
   },
   {
     "symbol": "SBIN.NS",
@@ -472,8 +477,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
         "summary": "",
         "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405868+00:00",
-        "age_hours": 158.93,
+        "fetched_at": "2026-06-23T07:57:17.019388+00:00",
+        "age_hours": 160.59,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -493,8 +498,8 @@
         "url": "https://beincrypto.com/sbi-shinsei-crypto-banking-experiment-japan-xrp-bitcoin/",
         "summary": "",
         "published_at": "2026-06-09T11:30:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405900+00:00",
-        "age_hours": 330.79,
+        "fetched_at": "2026-06-23T07:57:17.019426+00:00",
+        "age_hours": 332.45,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -514,8 +519,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
         "summary": "",
         "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405913+00:00",
-        "age_hours": 335.54,
+        "fetched_at": "2026-06-23T07:57:17.019441+00:00",
+        "age_hours": 337.21,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -537,8 +542,8 @@
         "url": "https://finance.yahoo.com/sectors/technology/articles/book-convinced-arundhati-bhattacharya-one-070000846.html",
         "summary": "",
         "published_at": "2026-05-19T07:00:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405974+00:00",
-        "age_hours": 839.29,
+        "fetched_at": "2026-06-23T07:57:17.019502+00:00",
+        "age_hours": 840.95,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -558,8 +563,8 @@
         "url": "https://sg.finance.yahoo.com/news/india-directs-state-run-banks-072654260.html",
         "summary": "",
         "published_at": "2026-05-18T07:26:54+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405987+00:00",
-        "age_hours": 862.84,
+        "fetched_at": "2026-06-23T07:57:17.019516+00:00",
+        "age_hours": 864.51,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -581,8 +586,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
         "summary": "",
         "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405868+00:00",
-        "age_hours": 158.93,
+        "fetched_at": "2026-06-23T07:57:17.019388+00:00",
+        "age_hours": 160.59,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -602,8 +607,8 @@
         "url": "https://beincrypto.com/sbi-shinsei-crypto-banking-experiment-japan-xrp-bitcoin/",
         "summary": "",
         "published_at": "2026-06-09T11:30:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405900+00:00",
-        "age_hours": 330.79,
+        "fetched_at": "2026-06-23T07:57:17.019426+00:00",
+        "age_hours": 332.45,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -623,8 +628,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
         "summary": "",
         "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405913+00:00",
-        "age_hours": 335.54,
+        "fetched_at": "2026-06-23T07:57:17.019441+00:00",
+        "age_hours": 337.21,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -646,8 +651,8 @@
         "url": "https://finance.yahoo.com/sectors/technology/articles/book-convinced-arundhati-bhattacharya-one-070000846.html",
         "summary": "",
         "published_at": "2026-05-19T07:00:00+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405974+00:00",
-        "age_hours": 839.29,
+        "fetched_at": "2026-06-23T07:57:17.019502+00:00",
+        "age_hours": 840.95,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -667,8 +672,8 @@
         "url": "https://sg.finance.yahoo.com/news/india-directs-state-run-banks-072654260.html",
         "summary": "",
         "published_at": "2026-05-18T07:26:54+00:00",
-        "fetched_at": "2026-06-23T06:17:15.405987+00:00",
-        "age_hours": 862.84,
+        "fetched_at": "2026-06-23T07:57:17.019516+00:00",
+        "age_hours": 864.51,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -681,26 +686,29 @@
         ]
       }
     ],
-    "assessed_at": "2026-06-23T11:47:23+05:30"
+    "assessed_at": "2026-06-23T13:27:25+05:30"
   },
   {
     "symbol": "AXISBANK.NS",
     "company_name": "Axis Bank",
     "news_available": true,
     "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
+    "fresh_item_count": 1,
+    "overall_sentiment": "NEGATIVE",
+    "news_risk_level": "HIGH",
+    "dominant_event_types": [
+      "REGULATORY"
+    ],
+    "blocks_buy": true,
     "requires_manual_review": false,
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
+      "10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+      "[HIGH] India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
       "[HIGH] Banks reduce headcounts globally as AI boosts efficiency",
       "[HIGH] Axis Bank Ltd (FRA:UZC) (Full Year 2026) Earnings Call Highlights: Strong Growth Amidst Margin ...",
-      "[HIGH] India's Axis Bank slips on profit miss, $2 billion equity fundraise"
+      "HIGH/CRITICAL adverse news -> new paper buy blocked."
     ],
     "providers_used": [
       "yfinance"
@@ -708,14 +716,35 @@
     "top_items": [
       {
         "symbol": "AXISBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:57:25.538027+00:00",
+        "age_hours": 0.29,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
+      {
+        "symbol": "AXISBANK.NS",
         "title": "Banks reduce headcounts globally as AI boosts efficiency",
         "source": "Retail Banker International",
         "provider": "yfinance",
         "url": "https://www.retailbankerinternational.com/analyst-comment/banks-reduce-headcounts-ai-boosts-efficiency/",
         "summary": "",
         "published_at": "2026-05-26T13:36:22+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486343+00:00",
-        "age_hours": 664.68,
+        "fetched_at": "2026-06-23T07:57:25.538047+00:00",
+        "age_hours": 666.35,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -735,8 +764,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/axis-bank-ltd-fra-uzc-010027807.html",
         "summary": "",
         "published_at": "2026-04-28T01:00:27+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486364+00:00",
-        "age_hours": 1349.28,
+        "fetched_at": "2026-06-23T07:57:25.538063+00:00",
+        "age_hours": 1350.95,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -756,8 +785,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-falls-missing-040121217.html",
         "summary": "",
         "published_at": "2026-04-27T06:41:22+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486394+00:00",
-        "age_hours": 1367.6,
+        "fetched_at": "2026-06-23T07:57:25.538089+00:00",
+        "age_hours": 1369.27,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -778,8 +807,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-misses-profit-091831838.html",
         "summary": "",
         "published_at": "2026-04-25T13:08:54+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486409+00:00",
-        "age_hours": 1409.14,
+        "fetched_at": "2026-06-23T07:57:25.538103+00:00",
+        "age_hours": 1410.81,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -790,41 +819,41 @@
         "matched_keywords": [
           "ban",
           "miss"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "India's Axis Bank to infuse $162 million in consumer lending arm",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-infuse-162-045039386.html",
-        "summary": "",
-        "published_at": "2026-03-18T04:50:39+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486453+00:00",
-        "age_hours": 2329.45,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
         ]
       }
     ],
     "critical_items": [
       {
         "symbol": "AXISBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:57:25.538027+00:00",
+        "age_hours": 0.29,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
+      {
+        "symbol": "AXISBANK.NS",
         "title": "Banks reduce headcounts globally as AI boosts efficiency",
         "source": "Retail Banker International",
         "provider": "yfinance",
         "url": "https://www.retailbankerinternational.com/analyst-comment/banks-reduce-headcounts-ai-boosts-efficiency/",
         "summary": "",
         "published_at": "2026-05-26T13:36:22+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486343+00:00",
-        "age_hours": 664.68,
+        "fetched_at": "2026-06-23T07:57:25.538047+00:00",
+        "age_hours": 666.35,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -844,8 +873,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/axis-bank-ltd-fra-uzc-010027807.html",
         "summary": "",
         "published_at": "2026-04-28T01:00:27+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486364+00:00",
-        "age_hours": 1349.28,
+        "fetched_at": "2026-06-23T07:57:25.538063+00:00",
+        "age_hours": 1350.95,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -865,8 +894,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-falls-missing-040121217.html",
         "summary": "",
         "published_at": "2026-04-27T06:41:22+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486394+00:00",
-        "age_hours": 1367.6,
+        "fetched_at": "2026-06-23T07:57:25.538089+00:00",
+        "age_hours": 1369.27,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -887,8 +916,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-misses-profit-091831838.html",
         "summary": "",
         "published_at": "2026-04-25T13:08:54+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486409+00:00",
-        "age_hours": 1409.14,
+        "fetched_at": "2026-06-23T07:57:25.538103+00:00",
+        "age_hours": 1410.81,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -900,54 +929,57 @@
           "ban",
           "miss"
         ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "India's Axis Bank to infuse $162 million in consumer lending arm",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-axis-bank-infuse-162-045039386.html",
-        "summary": "",
-        "published_at": "2026-03-18T04:50:39+00:00",
-        "fetched_at": "2026-06-23T06:17:23.486453+00:00",
-        "age_hours": 2329.45,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
       }
     ],
-    "assessed_at": "2026-06-23T11:47:31+05:30"
+    "assessed_at": "2026-06-23T13:27:32+05:30"
   },
   {
     "symbol": "HDFCBANK.NS",
     "company_name": "HDFC Bank",
     "news_available": true,
     "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
+    "fresh_item_count": 1,
+    "overall_sentiment": "NEGATIVE",
+    "news_risk_level": "HIGH",
+    "dominant_event_types": [
+      "REGULATORY"
+    ],
+    "blocks_buy": true,
     "requires_manual_review": false,
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
+      "10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+      "[HIGH] India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
       "[HIGH] India's HDFC Bank to extend interim chairman Keki Mistry's tenure for three months",
       "[HIGH] HDFC Bank (HDB) Fell as Deposit Fell Short of Expectations",
-      "[HIGH] India's HDFC Bank to hit dollar bond market under new subsidised scheme, sources say"
+      "HIGH/CRITICAL adverse news -> new paper buy blocked."
     ],
     "providers_used": [
       "yfinance"
     ],
     "top_items": [
+      {
+        "symbol": "HDFCBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:57:32.133683+00:00",
+        "age_hours": 0.29,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
       {
         "symbol": "HDFCBANK.NS",
         "title": "India's HDFC Bank to extend interim chairman Keki Mistry's tenure for three months",
@@ -956,8 +988,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-extend-interim-115058341.html",
         "summary": "",
         "published_at": "2026-06-18T11:50:58+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590674+00:00",
-        "age_hours": 114.44,
+        "fetched_at": "2026-06-23T07:57:32.133703+00:00",
+        "age_hours": 116.11,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -977,8 +1009,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/hdfc-bank-hdb-fell-deposit-125050903.html",
         "summary": "",
         "published_at": "2026-06-17T12:50:50+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590694+00:00",
-        "age_hours": 137.44,
+        "fetched_at": "2026-06-23T07:57:32.133719+00:00",
+        "age_hours": 139.11,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -998,8 +1030,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
         "summary": "",
         "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590710+00:00",
-        "age_hours": 158.93,
+        "fetched_at": "2026-06-23T07:57:32.133734+00:00",
+        "age_hours": 160.6,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1019,29 +1051,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-hdfc-bank-limited-hdb-132253859.html",
         "summary": "",
         "published_at": "2026-06-03T13:22:53+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590792+00:00",
-        "age_hours": 472.91,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Market Chatter: HDFC Bank's $4.71 Million Allegedly-Disguised Payment to State-Owned Indian Board Under Media Scrutiny",
-        "source": "MT Newswires",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-hdfc-bank-apos-101531396.html",
-        "summary": "",
-        "published_at": "2026-05-27T10:15:31+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590807+00:00",
-        "age_hours": 644.03,
+        "fetched_at": "2026-06-23T07:57:32.133818+00:00",
+        "age_hours": 474.58,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1057,14 +1068,35 @@
     "critical_items": [
       {
         "symbol": "HDFCBANK.NS",
+        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "source": "Reuters",
+        "provider": "yfinance",
+        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
+        "summary": "",
+        "published_at": "2026-06-23T07:39:55+00:00",
+        "fetched_at": "2026-06-23T07:57:32.133683+00:00",
+        "age_hours": 0.29,
+        "is_fresh": true,
+        "sentiment": "NEGATIVE",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      },
+      {
+        "symbol": "HDFCBANK.NS",
         "title": "India's HDFC Bank to extend interim chairman Keki Mistry's tenure for three months",
         "source": "Reuters",
         "provider": "yfinance",
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-extend-interim-115058341.html",
         "summary": "",
         "published_at": "2026-06-18T11:50:58+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590674+00:00",
-        "age_hours": 114.44,
+        "fetched_at": "2026-06-23T07:57:32.133703+00:00",
+        "age_hours": 116.11,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1084,8 +1116,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/hdfc-bank-hdb-fell-deposit-125050903.html",
         "summary": "",
         "published_at": "2026-06-17T12:50:50+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590694+00:00",
-        "age_hours": 137.44,
+        "fetched_at": "2026-06-23T07:57:32.133719+00:00",
+        "age_hours": 139.11,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1105,8 +1137,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
         "summary": "",
         "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590710+00:00",
-        "age_hours": 158.93,
+        "fetched_at": "2026-06-23T07:57:32.133734+00:00",
+        "age_hours": 160.6,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1126,29 +1158,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/why-hdfc-bank-limited-hdb-132253859.html",
         "summary": "",
         "published_at": "2026-06-03T13:22:53+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590792+00:00",
-        "age_hours": 472.91,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Market Chatter: HDFC Bank's $4.71 Million Allegedly-Disguised Payment to State-Owned Indian Board Under Media Scrutiny",
-        "source": "MT Newswires",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-hdfc-bank-apos-101531396.html",
-        "summary": "",
-        "published_at": "2026-05-27T10:15:31+00:00",
-        "fetched_at": "2026-06-23T06:17:31.590807+00:00",
-        "age_hours": 644.03,
+        "fetched_at": "2026-06-23T07:57:32.133818+00:00",
+        "age_hours": 474.58,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1161,7 +1172,7 @@
         ]
       }
     ],
-    "assessed_at": "2026-06-23T11:47:40+05:30"
+    "assessed_at": "2026-06-23T13:27:38+05:30"
   },
   {
     "symbol": "ITC.NS",
@@ -1191,8 +1202,8 @@
         "url": "https://sg.finance.yahoo.com/news/british-american-tobacco-plans-offload-142827642.html",
         "summary": "",
         "published_at": "2025-12-04T14:28:27+00:00",
-        "fetched_at": "2026-06-23T06:17:40.594345+00:00",
-        "age_hours": 4815.82,
+        "fetched_at": "2026-06-23T07:57:38.913366+00:00",
+        "age_hours": 4817.49,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1202,14 +1213,14 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T11:47:48+05:30"
+    "assessed_at": "2026-06-23T13:27:45+05:30"
   },
   {
     "symbol": "RELIANCE.NS",
     "company_name": "Reliance Industries",
     "news_available": true,
-    "item_count": 12,
-    "fresh_item_count": 2,
+    "item_count": 13,
+    "fresh_item_count": 3,
     "overall_sentiment": "NEGATIVE",
     "news_risk_level": "HIGH",
     "dominant_event_types": [
@@ -1220,7 +1231,8 @@
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "12 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+      "13 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+      "[HIGH] Reliance Industries Shares Jump Nearly 3 % as Jio Platforms Files Draft IPO Papers with SEBI",
       "[HIGH] Billionaire Ambani wants AI in every call, app, and home",
       "HIGH/CRITICAL adverse news -> new paper buy blocked."
     ],
@@ -1231,14 +1243,35 @@
     "top_items": [
       {
         "symbol": "RELIANCE.NS",
+        "title": "Reliance Industries Shares Jump Nearly 3 % as Jio Platforms Files Draft IPO Papers with SEBI",
+        "source": "dailypioneer.com",
+        "provider": "gdelt",
+        "url": "https://dailypioneer.com/news/reliance-industries-shares-climb-nearly-3-as-jio-files-for-ipo",
+        "summary": "",
+        "published_at": "2026-06-23T06:30:00+00:00",
+        "fetched_at": "2026-06-23T07:57:53.826491+00:00",
+        "age_hours": 1.46,
+        "is_fresh": true,
+        "sentiment": "NEUTRAL",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "sebi"
+        ]
+      },
+      {
+        "symbol": "RELIANCE.NS",
         "title": "Billionaire Ambani wants AI in every call, app, and home",
         "source": "TechCrunch",
         "provider": "yfinance",
         "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-ambani-wants-ai-every-152328329.html",
         "summary": "",
         "published_at": "2026-06-19T15:23:28+00:00",
-        "fetched_at": "2026-06-23T06:17:48.603698+00:00",
-        "age_hours": 86.91,
+        "fetched_at": "2026-06-23T07:57:45.276928+00:00",
+        "age_hours": 88.57,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1258,8 +1291,8 @@
         "url": "https://www.thehindu.com/business/explained-reliance-communications-and-telegrams-global-blocking/article71132737.ece",
         "summary": "",
         "published_at": "2026-06-23T02:45:00+00:00",
-        "fetched_at": "2026-06-23T06:18:01.567983+00:00",
-        "age_hours": 3.55,
+        "fetched_at": "2026-06-23T07:57:53.826607+00:00",
+        "age_hours": 5.21,
         "is_fresh": true,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1275,8 +1308,8 @@
         "url": "https://www.afaqs.com/news/media/reliance-reveals-jiostars-first-year-revenue-at-rs-34917-crore-12062164",
         "summary": "",
         "published_at": "2026-06-22T12:00:00+00:00",
-        "fetched_at": "2026-06-23T06:18:01.568204+00:00",
-        "age_hours": 18.3,
+        "fetched_at": "2026-06-23T07:57:53.826855+00:00",
+        "age_hours": 19.96,
         "is_fresh": true,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1292,25 +1325,8 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-builds-first-india-050916545.html",
         "summary": "",
         "published_at": "2026-06-22T05:09:16+00:00",
-        "fetched_at": "2026-06-23T06:17:48.603679+00:00",
-        "age_hours": 25.14,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Meta Platforms, Inc. (META): A Top Growth Stock to Buy Pursuing Data Centers Opportunities in India",
-        "source": "Insider Monkey",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/articles/meta-platforms-inc-meta-top-212041730.html",
-        "summary": "",
-        "published_at": "2026-06-18T21:20:41+00:00",
-        "fetched_at": "2026-06-23T06:17:48.603714+00:00",
-        "age_hours": 104.95,
+        "fetched_at": "2026-06-23T07:57:45.276886+00:00",
+        "age_hours": 26.81,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1322,14 +1338,35 @@
     "critical_items": [
       {
         "symbol": "RELIANCE.NS",
+        "title": "Reliance Industries Shares Jump Nearly 3 % as Jio Platforms Files Draft IPO Papers with SEBI",
+        "source": "dailypioneer.com",
+        "provider": "gdelt",
+        "url": "https://dailypioneer.com/news/reliance-industries-shares-climb-nearly-3-as-jio-files-for-ipo",
+        "summary": "",
+        "published_at": "2026-06-23T06:30:00+00:00",
+        "fetched_at": "2026-06-23T07:57:53.826491+00:00",
+        "age_hours": 1.46,
+        "is_fresh": true,
+        "sentiment": "NEUTRAL",
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "sebi"
+        ]
+      },
+      {
+        "symbol": "RELIANCE.NS",
         "title": "Billionaire Ambani wants AI in every call, app, and home",
         "source": "TechCrunch",
         "provider": "yfinance",
         "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-ambani-wants-ai-every-152328329.html",
         "summary": "",
         "published_at": "2026-06-19T15:23:28+00:00",
-        "fetched_at": "2026-06-23T06:17:48.603698+00:00",
-        "age_hours": 86.91,
+        "fetched_at": "2026-06-23T07:57:45.276928+00:00",
+        "age_hours": 88.57,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "relevance": 1.0,
@@ -1342,7 +1379,7 @@
         ]
       }
     ],
-    "assessed_at": "2026-06-23T11:48:01+05:30"
+    "assessed_at": "2026-06-23T13:27:53+05:30"
   },
   {
     "symbol": "TCS.NS",
@@ -1372,8 +1409,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/indian-stocks-tumble-bellwether-accenture-035749702.html",
         "summary": "",
         "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-06-23T06:18:01.569480+00:00",
-        "age_hours": 98.34,
+        "fetched_at": "2026-06-23T07:57:53.828322+00:00",
+        "age_hours": 100.0,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1389,8 +1426,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-stocks-tumble-accenture-flags-035749287.html",
         "summary": "",
         "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-06-23T06:18:01.569498+00:00",
-        "age_hours": 98.34,
+        "fetched_at": "2026-06-23T07:57:53.828340+00:00",
+        "age_hours": 100.0,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1406,8 +1443,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-tcs-70-million-hit-040310433.html",
         "summary": "",
         "published_at": "2026-06-16T04:40:43+00:00",
-        "fetched_at": "2026-06-23T06:18:01.569513+00:00",
-        "age_hours": 169.62,
+        "fetched_at": "2026-06-23T07:57:53.828355+00:00",
+        "age_hours": 171.29,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1423,8 +1460,8 @@
         "url": "https://ca.news.yahoo.com/us-supreme-court-rejects-tata-134527744.html",
         "summary": "",
         "published_at": "2026-06-15T13:49:37+00:00",
-        "fetched_at": "2026-06-23T06:18:01.569527+00:00",
-        "age_hours": 184.47,
+        "fetched_at": "2026-06-23T07:57:53.828370+00:00",
+        "age_hours": 186.14,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1440,8 +1477,8 @@
         "url": "https://finance.yahoo.com/sectors/technology/articles/anthropic-suspends-access-models-india-030000333.html",
         "summary": "",
         "published_at": "2026-06-14T03:00:00+00:00",
-        "fetched_at": "2026-06-23T06:18:01.569540+00:00",
-        "age_hours": 219.3,
+        "fetched_at": "2026-06-23T07:57:53.828384+00:00",
+        "age_hours": 220.96,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1451,7 +1488,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T11:48:09+05:30"
+    "assessed_at": "2026-06-23T13:28:01+05:30"
   },
   {
     "symbol": "INFY.NS",
@@ -1481,8 +1518,8 @@
         "url": "https://finance.yahoo.com/economy/policy/articles/india-seeks-tariff-advantage-implementing-094014828.html",
         "summary": "",
         "published_at": "2026-06-21T09:40:14+00:00",
-        "fetched_at": "2026-06-23T06:18:09.659428+00:00",
-        "age_hours": 44.63,
+        "fetched_at": "2026-06-23T07:58:01.918282+00:00",
+        "age_hours": 46.3,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1498,8 +1535,8 @@
         "url": "https://finance.yahoo.com/technology/articles/infosys-infy-partners-valmet-enterprise-190353544.html",
         "summary": "",
         "published_at": "2026-06-20T19:03:53+00:00",
-        "fetched_at": "2026-06-23T06:18:09.659449+00:00",
-        "age_hours": 59.24,
+        "fetched_at": "2026-06-23T07:58:01.918303+00:00",
+        "age_hours": 60.9,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1515,8 +1552,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/infosys-nsei-infy-stock-sees-101044067.html",
         "summary": "",
         "published_at": "2026-06-19T10:10:44+00:00",
-        "fetched_at": "2026-06-23T06:18:09.659465+00:00",
-        "age_hours": 92.12,
+        "fetched_at": "2026-06-23T07:58:01.918319+00:00",
+        "age_hours": 93.79,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1532,8 +1569,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/indian-stocks-tumble-bellwether-accenture-035749702.html",
         "summary": "",
         "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-06-23T06:18:09.659479+00:00",
-        "age_hours": 98.34,
+        "fetched_at": "2026-06-23T07:58:01.918334+00:00",
+        "age_hours": 100.0,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1549,8 +1586,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-stocks-tumble-accenture-flags-035749287.html",
         "summary": "",
         "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-06-23T06:18:09.659491+00:00",
-        "age_hours": 98.34,
+        "fetched_at": "2026-06-23T07:58:01.918347+00:00",
+        "age_hours": 100.0,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "relevance": 1.0,
@@ -1560,6 +1597,6 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-06-23T11:48:19+05:30"
+    "assessed_at": "2026-06-23T13:28:10+05:30"
   }
 ]

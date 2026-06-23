@@ -2,7 +2,7 @@
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.38%) — neutral regime.
+**Market regime:** `RISK_OFF` — Benchmarks down -0.87% on average — risk-off. New buys blocked.
 
 ## 💰 Portfolio (fake money)
 - Total value: **₹10,091.50** (started ₹10,000.00)
@@ -19,45 +19,44 @@
 None.
 
 ## 🚫 Do-not-buy
-HDFCBANK.NS(44.9), ITC.NS(42.7), RELIANCE.NS(41.4), TCS.NS(22.2), INFY.NS(18.6)
+HDFCBANK.NS(38.7), ITC.NS(38.3), RELIANCE.NS(37.3), TCS.NS(18.2), INFY.NS(14.7)
 
 ## 🧠 Strategy contribution summary
-- trend_following: avg 47/100 (weight 20)
-- relative_strength: avg 48/100 (weight 20)
+- trend_following: avg 44/100 (weight 20)
+- relative_strength: avg 47/100 (weight 20)
 - mean_reversion _(display-only)_: avg 46/100 (weight 0)
-- breakout _(display-only)_: avg 59/100 (weight 0)
+- breakout _(display-only)_: avg 57/100 (weight 0)
 - news_event_risk: avg 56/100 (weight 15)
 - volatility_risk: avg 43/100 (weight 15)
 - portfolio_fit: avg 15/100 (weight 10)
 
 ## ❗ Strategy conflicts
 - ICICIBANK.NS: Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
-- LT.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
-- BHARTIARTL.NS: Disagreement: ['trend_following', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
+- LT.NS: Disagreement: ['trend_following', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
+- BHARTIARTL.NS: Disagreement: ['news_event_risk'] positive vs ['portfolio_fit'] negative.
 - SBIN.NS: Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
-- AXISBANK.NS: Disagreement: ['trend_following'] positive vs ['portfolio_fit'] negative.
+- AXISBANK.NS: Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
 
 ## 🤔 Why no trade (selected)
-- ICICIBANK.NS (NO_ACTION, 63.7): [DATA DATA_ANOMALY] Final 63.7/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, relative_strength=79, news_event_risk=58. Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
-- LT.NS (NO_ACTION, 61.0): [DATA DATA_ANOMALY] Final 61.0/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=87, relative_strength=72, news_event_risk=70. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
-- BHARTIARTL.NS (NO_ACTION, 57.9): [DATA DATA_ANOMALY] Final 57.9/100 -> NO_ACTION [regime NEUTRAL]. Top: news_event_risk=75, trend_following=66, relative_strength=61. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
-- SBIN.NS (NO_ACTION, 55.8): [DATA DATA_ANOMALY] Final 55.8/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=87, volatility_risk=66, news_event_risk=53. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
-- AXISBANK.NS (NO_ACTION, 55.4): [DATA DATA_ANOMALY] Final 55.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=78, relative_strength=65, volatility_risk=55. Disagreement: ['trend_following'] positive vs ['portfolio_fit'] negative.
-- HDFCBANK.NS (DO_NOT_BUY, 44.9): [DATA DATA_ANOMALY] Final 44.9/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=53, relative_strength=49, volatility_risk=45.
-- ITC.NS (DO_NOT_BUY, 42.7): [DATA DATA_ANOMALY] Final 42.7/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, relative_strength=58, volatility_risk=49.
-- RELIANCE.NS (DO_NOT_BUY, 41.4): [DATA DATA_ANOMALY] Final 41.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: volatility_risk=56, relative_strength=56, news_event_risk=41.
+- ICICIBANK.NS (NO_ACTION, 57.2): Final 57.2/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=88, relative_strength=72, volatility_risk=58. Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
+- LT.NS (NO_ACTION, 52.7): Final 52.7/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=76, news_event_risk=70, relative_strength=60. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
+- BHARTIARTL.NS (NO_ACTION, 52.5): Final 52.5/100 -> NO_ACTION [regime RISK_OFF]. Top: news_event_risk=75, relative_strength=60, trend_following=59. Disagreement: ['news_event_risk'] positive vs ['portfolio_fit'] negative.
+- SBIN.NS (NO_ACTION, 52.4): Final 52.4/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=87, volatility_risk=65, news_event_risk=53. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
+- AXISBANK.NS (NO_ACTION, 51.8): Final 51.8/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=75, relative_strength=70, volatility_risk=55. Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
+- HDFCBANK.NS (DO_NOT_BUY, 38.7): Final 38.7/100 -> DO_NOT_BUY [regime RISK_OFF]. Top: news_event_risk=53, relative_strength=44, volatility_risk=44.
+- ITC.NS (DO_NOT_BUY, 38.3): Final 38.3/100 -> DO_NOT_BUY [regime RISK_OFF]. Top: news_event_risk=65, relative_strength=60, volatility_risk=49.
+- RELIANCE.NS (DO_NOT_BUY, 37.3): Final 37.3/100 -> DO_NOT_BUY [regime RISK_OFF]. Top: relative_strength=59, volatility_risk=56, news_event_risk=41.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 84 · total this month: 84 (no API-key quota)
+- Provider: `yfinance` · calls today: 96 · total this month: 96 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
 - Daily buy limit reached.
-- DataQuality:DATA_ANOMALY
-- Share price ₹2068 exceeds per-trade cap ₹2000.
-- Share price ₹4227 exceeds per-trade cap ₹2000.
-- price source changed today: unknown -> history.close.
-- 11 data-quality incident(s) this run — see Data Health.
+- Market regime: RISK_OFF.
+- Share price ₹2066 exceeds per-trade cap ₹2000.
+- Share price ₹4185 exceeds per-trade cap ₹2000.
+- 1 data-quality incident(s) this run — see Data Health.
 
 ## 🔭 Future-readiness checklist
 - ✅ Phase 1: Paper trading running (email + GitHub Pages, ₹0 cost)
