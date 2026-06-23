@@ -7,7 +7,7 @@
     "url": null,
     "summary": "",
     "published_at": null,
-    "fetched_at": "2026-06-23T04:55:02.433825+00:00",
+    "fetched_at": "2026-06-23T05:06:24.701596+00:00",
     "age_hours": null,
     "is_fresh": true,
     "sentiment": "NEGATIVE",
@@ -32,7 +32,247 @@
     "url": null,
     "summary": "",
     "published_at": null,
-    "fetched_at": "2026-06-23T04:55:02.432608+00:00",
+    "fetched_at": "2026-06-23T05:06:24.700071+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "debt reduction",
+      "margin improvement",
+      "strong results"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:24.246891+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "risk_level": "CRITICAL",
+    "matched_keywords": [
+      "forensic audit",
+      "fraud",
+      "probe",
+      "sebi"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "ITC reports strong results; margin improvement and debt reduction noted",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:24.245882+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "debt reduction",
+      "margin improvement",
+      "strong results"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:23.814763+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "risk_level": "CRITICAL",
+    "matched_keywords": [
+      "forensic audit",
+      "fraud",
+      "probe",
+      "sebi"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "ITC reports strong results; margin improvement and debt reduction noted",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:23.813683+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "debt reduction",
+      "margin improvement",
+      "strong results"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:23.406490+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "risk_level": "CRITICAL",
+    "matched_keywords": [
+      "forensic audit",
+      "fraud",
+      "probe",
+      "sebi"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "ITC reports strong results; margin improvement and debt reduction noted",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:23.405675+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "debt reduction",
+      "margin improvement",
+      "strong results"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:22.984294+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "risk_level": "CRITICAL",
+    "matched_keywords": [
+      "forensic audit",
+      "fraud",
+      "probe",
+      "sebi"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "ITC reports strong results; margin improvement and debt reduction noted",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:22.983760+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "POSITIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_BEAT"
+    ],
+    "risk_level": "NONE",
+    "matched_keywords": [
+      "debt reduction",
+      "margin improvement",
+      "strong results"
+    ]
+  },
+  {
+    "symbol": "SBIN.NS",
+    "title": "SAMPLE: SBIN faces SEBI fraud probe; forensic audit ordered",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:22.574176+00:00",
+    "age_hours": null,
+    "is_fresh": true,
+    "sentiment": "NEGATIVE",
+    "relevance": 1.0,
+    "event_types": [
+      "FRAUD",
+      "REGULATORY"
+    ],
+    "risk_level": "CRITICAL",
+    "matched_keywords": [
+      "forensic audit",
+      "fraud",
+      "probe",
+      "sebi"
+    ]
+  },
+  {
+    "symbol": "ITC.NS",
+    "title": "ITC reports strong results; margin improvement and debt reduction noted",
+    "source": "SAMPLE",
+    "provider": "yfinance",
+    "url": null,
+    "summary": "",
+    "published_at": null,
+    "fetched_at": "2026-06-23T05:06:22.573650+00:00",
     "age_hours": null,
     "is_fresh": true,
     "sentiment": "POSITIVE",

@@ -1,6 +1,1731 @@
 [
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 37.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 41.0,
+      "volatility_risk": 85.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 37.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=85, news_event_risk=41, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.21,
+    "warnings": [
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=95, news_event_risk=65, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3517 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 7.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 3.92,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 10.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.99,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 12.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.28,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 15.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.89,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 17.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3644 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 20.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.53,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 62.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 75.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3256 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 78.8,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 67.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 80.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 78.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.7,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "news": [
+        {
+          "symbol": "SBIN.NS",
+          "level": "CRITICAL",
+          "result": {
+            "sent": false,
+            "reason": "Email disabled or credentials/recipient missing.",
+            "recipient": "sahabhi115@gmail.com"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 37.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 41.0,
+      "volatility_risk": 85.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 37.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=85, news_event_risk=41, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.26,
+    "warnings": [
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=95, news_event_risk=65, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3554 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 7.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 3.92,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 10.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.99,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 12.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.28,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 15.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.87,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 17.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3640 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 20.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.52,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 62.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 75.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3219 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 78.8,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 67.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 80.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 78.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.64,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:24+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "news": [
+        {
+          "symbol": "SBIN.NS",
+          "level": "CRITICAL",
+          "result": {
+            "sent": false,
+            "reason": "Email disabled or credentials/recipient missing.",
+            "recipient": "sahabhi115@gmail.com"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 37.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 41.0,
+      "volatility_risk": 85.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 37.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=85, news_event_risk=41, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.32,
+    "warnings": [
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=95, news_event_risk=65, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3591 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 7.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 3.91,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 10.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.98,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 12.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.27,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 15.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.87,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 17.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3637 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 20.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.52,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 62.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 75.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3182 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 78.8,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 67.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 80.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 78.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.56,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "news": [
+        {
+          "symbol": "SBIN.NS",
+          "level": "CRITICAL",
+          "result": {
+            "sent": false,
+            "reason": "Email disabled or credentials/recipient missing.",
+            "recipient": "sahabhi115@gmail.com"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 37.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 41.0,
+      "volatility_risk": 85.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 37.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=85, news_event_risk=41, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.37,
+    "warnings": [
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=95, news_event_risk=65, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3628 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 7.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 3.91,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 10.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.97,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 12.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.26,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 15.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.87,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 17.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3633 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 20.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.51,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 62.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 75.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3145 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 78.8,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 67.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 80.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 78.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.5,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:23+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "news": [
+        {
+          "symbol": "SBIN.NS",
+          "level": "CRITICAL",
+          "result": {
+            "sent": false,
+            "reason": "Email disabled or credentials/recipient missing.",
+            "recipient": "sahabhi115@gmail.com"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 37.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 41.0,
+      "volatility_risk": 85.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 37.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=85, news_event_risk=41, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.43,
+    "warnings": [
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 0.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.3,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: volatility_risk=95, news_event_risk=65, portfolio_fit=15. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3665 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 7.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 3.91,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 10.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.97,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 12.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 4.26,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 15.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.86,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.0,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 17.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.0/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3630 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 57.5,
+    "strategy_contributions": {
+      "trend_following": 52.2,
+      "relative_strength": 20.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.5,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 57.5/100 -> NO_ACTION [regime RISK_ON]. Top: volatility_risk=96, news_event_risk=65, trend_following=52. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.51,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 62.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 75.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Daily buy limit reached.",
+      "No news data available; using a neutral assumption.",
+      "Share price ₹3109 exceeds per-trade cap ₹2000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "RISK_ON",
+    "final_recommendation": "WATCH",
+    "final_score": 78.8,
+    "strategy_contributions": {
+      "trend_following": 100.0,
+      "relative_strength": 67.5,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 80.0,
+      "volatility_risk": 95.6,
+      "portfolio_fit": 15.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 78.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 5.43,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "Daily buy limit reached."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "news": [
+        {
+          "symbol": "SBIN.NS",
+          "level": "CRITICAL",
+          "result": {
+            "sent": false,
+            "reason": "Email disabled or credentials/recipient missing.",
+            "recipient": "sahabhi115@gmail.com"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "RISK_ON",
@@ -32,7 +1757,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "RISK_ON",
@@ -61,7 +1786,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "RISK_ON",
@@ -93,7 +1818,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "RISK_ON",
@@ -124,7 +1849,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "RISK_ON",
@@ -155,7 +1880,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "RISK_ON",
@@ -186,7 +1911,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "RISK_ON",
@@ -217,7 +1942,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "RISK_ON",
@@ -248,7 +1973,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "RISK_ON",
@@ -280,7 +2005,7 @@
     ]
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "RISK_ON",
@@ -307,15 +2032,15 @@
     "conflicts": []
   },
   {
-    "ts": "2026-06-23T10:25:02+05:30",
+    "ts": "2026-06-23T10:36:22+05:30",
     "event": "PAPER_BUY_FILLED",
     "symbol": "ITC.NS",
     "message": "Bought 3 @ ₹508.42 (₹1525.26). Final 85.3/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=100, volatility_risk=96, news_event_risk=80.",
     "mode": "paper",
     "broker_adapter": "paper",
     "is_paper": true,
-    "order_id": "ord_13752d1b86ff",
-    "signal_id": "sig_bdc46eaad949",
+    "order_id": "ord_26d4af1f16f7",
+    "signal_id": "sig_99eba7335101",
     "decision": {
       "approved": true,
       "symbol": "ITC.NS",
@@ -332,11 +2057,11 @@
       ],
       "rules_failed": [],
       "risk_level": "LOW",
-      "created_at": "2026-06-23T10:25:02+05:30"
+      "created_at": "2026-06-23T10:36:22+05:30"
     }
   },
   {
-    "ts": "2026-06-23T10:25:01+05:30",
+    "ts": "2026-06-23T10:36:21+05:30",
     "event": "DEMO_RESET",
     "message": "Paper demo reset to clean state.",
     "starting_capital": 10000.0

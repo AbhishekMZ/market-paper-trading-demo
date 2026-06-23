@@ -51,6 +51,13 @@ SAMPLE_NEWS = {
 }
 
 
+# Simulated "day" offset for multi-run seeding (--days). Each extra day drifts
+# prices so the Decision Quality Engine sees real forward returns: strong names
+# trend up, weak names down, the index up. Default 0 = single static snapshot.
+DAY = 0
+DAILY_DRIFT_PCT = {"strong": 1.2, "moderate": 0.1, "weak": -1.0, "bench": 0.5}
+
+
 def _bars(base: float, total_change_pct: float, n: int = 22):
     end = base * (1 + total_change_pct / 100.0)
     bars = []
@@ -69,6 +76,8 @@ def synthetic_get_snapshot(self, symbol, period="1mo", interval="1d"):
     if profile is None:
         return self._empty_snapshot(symbol, ["no sample profile"])
     kind, base, change_pct = profile
+    # Apply the simulated-day drift so successive seed runs produce a price path.
+    base = round(base * (1 + DAILY_DRIFT_PCT.get(kind, 0.0) / 100.0 * DAY), 2)
     series_change = {"strong": 6.0, "moderate": 0.8, "weak": -5.0, "bench": change_pct * 2}[kind]
     bars = _bars(base, series_change)
     price = bars[-1].close
@@ -99,9 +108,19 @@ def main() -> int:
 
     import main as orchestrator  # noqa: E402
 
+    parser = argparse.ArgumentParser(description="Seed SAMPLE paper-trading data (offline).")
+    parser.add_argument("--days", type=int, default=1,
+                        help="simulate N successive runs with price drift (populates forward returns/benchmark)")
+    cli = parser.parse_args()
+
     args = argparse.Namespace(checkpoint="close", manual=True, eod=True, monthly=True, force=True)
-    print("=== Seeding SAMPLE data through the real pipeline (synthetic snapshots) ===")
-    rc = orchestrator.run(args)
+    print(f"=== Seeding SAMPLE data through the real pipeline ({cli.days} simulated day(s)) ===")
+    rc = 0
+    for d in range(max(1, cli.days)):
+        globals()["DAY"] = d  # synthetic_get_snapshot reads this at call time
+        rc = orchestrator.run(args)
+        if rc != 0:
+            break
     print(f"=== Done (exit {rc}). Sample data written to data/ and public/data/. ===")
     return rc
 

@@ -58,6 +58,7 @@ def reset() -> None:
     artifacts = (
         "data_quality_incidents.json", "data_health.json", "strategy_evaluation.json",
         "news_assessments.json", "news_items.json", "news_alerts.json", "news_health.json",
+        "decision_quality.json",
     )
     for f in artifacts:
         for p in (storage.report_file(f), storage.public_file(f)):
@@ -65,6 +66,9 @@ def reset() -> None:
                 os.remove(p)
     write_json(storage.state_file("dq_source_log.json"), {})
     write_json(storage.state_file("news_cache.json"), {})
+    # Decision-quality ledgers (forward-return episodes + benchmark history).
+    write_json(storage.state_file("forward_returns.json"), {"open": {}, "archived": []})
+    write_json(storage.state_file("benchmark_history.json"), [])
     storage.append_audit({"event": "DEMO_RESET", "message": "Paper demo reset to clean state.",
                           "starting_capital": starting})
     static_exporter.export_all()

@@ -45,7 +45,9 @@ def export_all() -> Dict[str, Any]:
                        ("news_assessments.json", 50),
                        ("news_items.json", 200),
                        ("news_alerts.json", 100),
-                       ("news_health.json", None)):
+                       ("news_health.json", None),
+                       # Decision Quality Engine.
+                       ("decision_quality.json", None)):
         src = os.path.join(storage.REPORTS_DIR, fname)
         if not os.path.exists(src):
             continue

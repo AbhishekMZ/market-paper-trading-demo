@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-23T10:25:02+05:30",
+  "generated_at": "2026-06-23T10:36:25+05:30",
   "month": "2026-06",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
-  "fake_pnl": 0.0,
+  "fake_pnl": 91.5,
   "cost_adjusted_pnl": {
     "closed_trades": 0,
     "wins": 0,
@@ -14,7 +14,7 @@
     "best_trade": 0.0,
     "worst_trade": 0.0
   },
-  "total_return_pct": 0.0,
+  "total_return_pct": 0.91,
   "benchmark_return_pct": null,
   "beat_benchmark": null,
   "num_trades": 1,
@@ -26,13 +26,13 @@
   "best_trade": 0.0,
   "worst_trade": 0.0,
   "strategy_evaluation": {
-    "as_of": "2026-06-23T10:25:02+05:30",
+    "as_of": "2026-06-23T10:36:24+05:30",
     "portfolio_max_drawdown_pct": 0.0,
-    "total_signals": 10,
+    "total_signals": 60,
     "total_paper_trades": 1,
     "strategies": {
       "trend_following": {
-        "signals_generated": 10,
+        "signals_generated": 60,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -40,13 +40,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 2,
+        "avoided_bad_trade_count": 12,
         "average_score_contribution": 51.3,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "relative_strength": {
-        "signals_generated": 10,
+        "signals_generated": 60,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -54,13 +54,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 8,
+        "avoided_bad_trade_count": 48,
         "average_score_contribution": 21.2,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "news_event_risk": {
-        "signals_generated": 10,
+        "signals_generated": 60,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -68,13 +68,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 1,
+        "avoided_bad_trade_count": 6,
         "average_score_contribution": 64.1,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "volatility_risk": {
-        "signals_generated": 10,
+        "signals_generated": 60,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -88,7 +88,7 @@
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "portfolio_fit": {
-        "signals_generated": 10,
+        "signals_generated": 60,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -96,8 +96,8 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 2,
-        "average_score_contribution": 62.0,
+        "avoided_bad_trade_count": 42,
+        "average_score_contribution": 22.8,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       }
@@ -122,7 +122,7 @@
   "manual_approval_reasons": [
     "Closed paper trades ≥ 5: False (0).",
     "Max drawdown better than -20%: True (0.0%).",
-    "Net paper P&L positive: False.",
+    "Net paper P&L positive: True.",
     "NOTE: readiness is necessary-but-not-sufficient; out-of-sample validation still required."
   ],
   "recommendation": "Continue paper trading — not enough closed trades to judge."
