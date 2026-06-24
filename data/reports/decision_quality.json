@@ -1,25 +1,25 @@
 {
-  "as_of": "2026-06-24T13:23:08+05:30",
+  "as_of": "2026-06-24T14:29:50+05:30",
   "checkpoint": "mid",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 20,
-    "matured_episodes": 10,
+    "matured_episodes": 20,
     "paper_trades": 1,
     "distinct_days": 2,
     "action_rate_pct": 5.0,
     "avg_forward_return_acted_pct": 6.0,
-    "avg_forward_return_not_acted_pct": 0.15,
-    "decision_edge_pct": 5.6,
+    "avg_forward_return_not_acted_pct": 0.2,
+    "decision_edge_pct": 5.52,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": 7.22,
+    "benchmark_outperformance_pct": 7.19,
     "benchmark_verdict": "AHEAD"
   },
   "forward_returns": {
-    "as_of": "2026-06-24T13:23:08+05:30",
-    "open_episodes": 10,
-    "matured_episodes": 10,
+    "as_of": "2026-06-24T14:29:50+05:30",
+    "open_episodes": 0,
+    "matured_episodes": 20,
     "total_episodes": 20,
     "by_score_band": {
       "buy_grade": {
@@ -37,7 +37,7 @@
       "low_grade": {
         "count": 18,
         "rated": 18,
-        "avg_return_pct": -0.18,
+        "avg_return_pct": -0.12,
         "hit_rate_pct": 66.7
       }
     },
@@ -50,7 +50,7 @@
     "not_acted": {
       "count": 19,
       "rated": 19,
-      "avg_return_pct": 0.15,
+      "avg_return_pct": 0.2,
       "hit_rate_pct": 68.4
     }
   },
@@ -64,18 +64,18 @@
     "shadow_candidates": {
       "count": 12,
       "rated": 12,
-      "avg_return_pct": 0.4,
+      "avg_return_pct": 0.48,
       "hit_rate_pct": 58.3
     },
     "blocked": {
       "count": 11,
       "rated": 11,
-      "avg_return_pct": -0.11,
+      "avg_return_pct": -0.02,
       "hit_rate_pct": 54.5
     },
-    "acted_vs_shadow_edge_pct": 5.6,
-    "decision_note": "Acted picks outperformed declined candidates by 5.6% avg forward return.",
-    "block_note": "Blocks were protective on average (-0.11% forward return avoided).",
+    "acted_vs_shadow_edge_pct": 5.52,
+    "decision_note": "Acted picks outperformed declined candidates by 5.52% avg forward return.",
+    "block_note": "Blocks were protective on average (-0.02% forward return avoided).",
     "shadow_examples": [
       {
         "symbol": "RELIANCE.NS",
@@ -106,34 +106,6 @@
         "status": "MATURED"
       },
       {
-        "symbol": "TCS.NS",
-        "name": "Tata Consultancy Services",
-        "signal_id": "sig_40ee1f3b51e8",
-        "label_at_open": "HIGH_RISK_IGNORE",
-        "score": 22.2,
-        "checkpoint": "mid",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "DATA_ANOMALY",
-        "acted": false,
-        "entry_date": "2026-06-23",
-        "entry_price": 2068.2,
-        "last_price": 2103.8999,
-        "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 1.73,
-        "max_return_pct": 1.73,
-        "min_return_pct": -0.42,
-        "status": "OPEN"
-      },
-      {
         "symbol": "INFY.NS",
         "name": "Infosys",
         "signal_id": "sig_ba9dfcf1c00e",
@@ -153,13 +125,41 @@
         "acted": false,
         "entry_date": "2026-06-23",
         "entry_price": 1033.1,
-        "last_price": 1050.3,
+        "last_price": 1062.0,
         "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 1.66,
-        "max_return_pct": 1.66,
+        "runs_tracked": 5,
+        "forward_return_pct": 2.8,
+        "max_return_pct": 2.8,
         "min_return_pct": -0.37,
-        "status": "OPEN"
+        "status": "MATURED"
+      },
+      {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services",
+        "signal_id": "sig_40ee1f3b51e8",
+        "label_at_open": "HIGH_RISK_IGNORE",
+        "score": 22.2,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 2068.2,
+        "last_price": 2115.6001,
+        "last_update": "2026-06-24",
+        "runs_tracked": 5,
+        "forward_return_pct": 2.29,
+        "max_return_pct": 2.29,
+        "min_return_pct": -0.42,
+        "status": "MATURED"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -181,41 +181,13 @@
         "acted": false,
         "entry_date": "2026-06-23",
         "entry_price": 1363.0,
-        "last_price": 1381.3,
+        "last_price": 1378.3,
         "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 1.34,
+        "runs_tracked": 5,
+        "forward_return_pct": 1.12,
         "max_return_pct": 1.34,
         "min_return_pct": -0.32,
-        "status": "OPEN"
-      },
-      {
-        "symbol": "SBIN.NS",
-        "name": "State Bank of India",
-        "signal_id": "sig_fc443e395293",
-        "label_at_open": "NO_ACTION",
-        "score": 55.8,
-        "checkpoint": "mid",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "DATA_ANOMALY",
-        "acted": false,
-        "entry_date": "2026-06-23",
-        "entry_price": 1033.9,
-        "last_price": 1043.6,
-        "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 0.94,
-        "max_return_pct": 0.94,
-        "min_return_pct": -0.94,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "HDFCBANK.NS",
@@ -237,13 +209,13 @@
         "acted": false,
         "entry_date": "2026-06-23",
         "entry_price": 784.0,
-        "last_price": 790.45,
+        "last_price": 791.2,
         "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 0.82,
-        "max_return_pct": 0.82,
+        "runs_tracked": 5,
+        "forward_return_pct": 0.92,
+        "max_return_pct": 0.92,
         "min_return_pct": -1.19,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -265,13 +237,41 @@
         "acted": false,
         "entry_date": "2026-06-23",
         "entry_price": 1364.6,
-        "last_price": 1372.0,
+        "last_price": 1373.5,
         "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": 0.54,
-        "max_return_pct": 0.54,
+        "runs_tracked": 5,
+        "forward_return_pct": 0.65,
+        "max_return_pct": 0.65,
         "min_return_pct": -1.93,
-        "status": "OPEN"
+        "status": "MATURED"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "name": "State Bank of India",
+        "signal_id": "sig_fc443e395293",
+        "label_at_open": "NO_ACTION",
+        "score": 55.8,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "DATA_ANOMALY",
+        "acted": false,
+        "entry_date": "2026-06-23",
+        "entry_price": 1033.9,
+        "last_price": 1038.55,
+        "last_update": "2026-06-24",
+        "runs_tracked": 5,
+        "forward_return_pct": 0.45,
+        "max_return_pct": 0.94,
+        "min_return_pct": -0.94,
+        "status": "MATURED"
       },
       {
         "symbol": "ITC.NS",
@@ -293,26 +293,26 @@
         "acted": false,
         "entry_date": "2026-06-23",
         "entry_price": 291.4,
-        "last_price": 290.15,
+        "last_price": 290.55,
         "last_update": "2026-06-24",
-        "runs_tracked": 4,
-        "forward_return_pct": -0.43,
+        "runs_tracked": 5,
+        "forward_return_pct": -0.29,
         "max_return_pct": 0.0,
         "min_return_pct": -0.48,
-        "status": "OPEN"
+        "status": "MATURED"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-24T13:23:08+05:30",
+    "as_of": "2026-06-24T14:29:50+05:30",
     "ready": true,
-    "points": 11,
+    "points": 12,
     "from_date": "2026-06-23",
     "to_date": "2026-06-24",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.31,
+    "benchmark_return_pct": -6.28,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": 7.22,
+    "outperformance_pct": 7.19,
     "verdict": "AHEAD",
     "history": [
       {
@@ -402,6 +402,14 @@
         "nifty_close": 24053.599609375,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-24",
+        "ts": "2026-06-24T14:29:50+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 24059.650390625,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -411,7 +419,7 @@
         "strategy": "trend_following",
         "episodes": 20,
         "wins": 14,
-        "avg_forward_return_pct": 0.44,
+        "avg_forward_return_pct": 0.49,
         "hit_rate_pct": 70.0,
         "rank": 1
       },
@@ -419,7 +427,7 @@
         "strategy": "relative_strength",
         "episodes": 20,
         "wins": 14,
-        "avg_forward_return_pct": 0.44,
+        "avg_forward_return_pct": 0.49,
         "hit_rate_pct": 70.0,
         "rank": 2
       },
@@ -427,7 +435,7 @@
         "strategy": "news_event_risk",
         "episodes": 20,
         "wins": 14,
-        "avg_forward_return_pct": 0.44,
+        "avg_forward_return_pct": 0.49,
         "hit_rate_pct": 70.0,
         "rank": 3
       },
@@ -435,7 +443,7 @@
         "strategy": "volatility_risk",
         "episodes": 20,
         "wins": 14,
-        "avg_forward_return_pct": 0.44,
+        "avg_forward_return_pct": 0.49,
         "hit_rate_pct": 70.0,
         "rank": 4
       },
@@ -443,7 +451,7 @@
         "strategy": "portfolio_fit",
         "episodes": 20,
         "wins": 14,
-        "avg_forward_return_pct": 0.44,
+        "avg_forward_return_pct": 0.49,
         "hit_rate_pct": 70.0,
         "rank": 5
       }
@@ -490,16 +498,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 10,
-    "triggers_detected": 41,
-    "escalations_created": 16,
+    "observation_runs": 11,
+    "triggers_detected": 44,
+    "escalations_created": 19,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 9,
-    "useful_triggers": 9,
+    "blocked_actions_from_triggers": 12,
+    "useful_triggers": 12,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.44,
-    "avg_triggers_per_run": 4.1,
-    "last_run": "2026-06-23T17:46:20+05:30",
+    "alert_noise_score": 0.37,
+    "avg_triggers_per_run": 4.0,
+    "last_run": "2026-06-24T13:23:10+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {

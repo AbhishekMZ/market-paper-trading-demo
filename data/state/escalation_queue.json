@@ -342,5 +342,41 @@
     "escalation_id": "esc_51ac1a49c5a7",
     "created_at": "2026-06-24T13:23:10+05:30",
     "expires_at": "2026-06-24T13:23:10+05:30"
+  },
+  {
+    "symbol": "INFY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_5b2e75615c35"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7f9e21deb33c",
+    "created_at": "2026-06-24T14:29:54+05:30",
+    "expires_at": "2026-06-24T14:29:54+05:30"
+  },
+  {
+    "symbol": "TCS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_6c46db91f823"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f648855dcccb",
+    "created_at": "2026-06-24T14:29:54+05:30",
+    "expires_at": "2026-06-24T14:29:54+05:30"
   }
 ]
