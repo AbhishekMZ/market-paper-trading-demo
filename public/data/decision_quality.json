@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-06-24T14:29:50+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-06-24T17:31:33+05:30",
+  "checkpoint": "close",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 20,
+    "total_tracked_episodes": 30,
     "matured_episodes": 20,
     "paper_trades": 1,
     "distinct_days": 2,
-    "action_rate_pct": 5.0,
+    "action_rate_pct": 3.3,
     "avg_forward_return_acted_pct": 6.0,
     "avg_forward_return_not_acted_pct": 0.2,
     "decision_edge_pct": 5.52,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": 7.19,
+    "benchmark_outperformance_pct": 7.34,
     "benchmark_verdict": "AHEAD"
   },
   "forward_returns": {
-    "as_of": "2026-06-24T14:29:50+05:30",
-    "open_episodes": 0,
+    "as_of": "2026-06-24T17:31:33+05:30",
+    "open_episodes": 10,
     "matured_episodes": 20,
-    "total_episodes": 20,
+    "total_episodes": 30,
     "by_score_band": {
       "buy_grade": {
         "count": 1,
@@ -29,13 +29,13 @@
         "hit_rate_pct": 100.0
       },
       "watch_grade": {
-        "count": 1,
+        "count": 4,
         "rated": 1,
         "avg_return_pct": 6.0,
         "hit_rate_pct": 100.0
       },
       "low_grade": {
-        "count": 18,
+        "count": 25,
         "rated": 18,
         "avg_return_pct": -0.12,
         "hit_rate_pct": 66.7
@@ -48,7 +48,7 @@
       "hit_rate_pct": 100.0
     },
     "not_acted": {
-      "count": 19,
+      "count": 29,
       "rated": 19,
       "avg_return_pct": 0.2,
       "hit_rate_pct": 68.4
@@ -62,13 +62,13 @@
       "hit_rate_pct": 100.0
     },
     "shadow_candidates": {
-      "count": 12,
+      "count": 16,
       "rated": 12,
       "avg_return_pct": 0.48,
       "hit_rate_pct": 58.3
     },
     "blocked": {
-      "count": 11,
+      "count": 14,
       "rated": 11,
       "avg_return_pct": -0.02,
       "hit_rate_pct": 54.5
@@ -274,12 +274,12 @@
         "status": "MATURED"
       },
       {
-        "symbol": "ITC.NS",
-        "name": "ITC",
-        "signal_id": "sig_c86d9302fa65",
-        "label_at_open": "DO_NOT_BUY",
-        "score": 42.7,
-        "checkpoint": "mid",
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank",
+        "signal_id": "sig_87794b2680ff",
+        "label_at_open": "WATCH",
+        "score": 73.8,
+        "checkpoint": "close",
         "contributors": [
           "trend_following",
           "relative_strength",
@@ -287,32 +287,32 @@
           "volatility_risk",
           "portfolio_fit"
         ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "DATA_ANOMALY",
+        "news_risk_level": "HIGH",
+        "news_blocked": true,
+        "data_quality_verdict": "OK",
         "acted": false,
-        "entry_date": "2026-06-23",
-        "entry_price": 291.4,
-        "last_price": 290.55,
+        "entry_date": "2026-06-24",
+        "entry_price": 1373.6,
+        "last_price": 1373.6,
         "last_update": "2026-06-24",
-        "runs_tracked": 5,
-        "forward_return_pct": -0.29,
+        "runs_tracked": 0,
+        "forward_return_pct": 0.0,
         "max_return_pct": 0.0,
-        "min_return_pct": -0.48,
-        "status": "MATURED"
+        "min_return_pct": 0.0,
+        "status": "OPEN"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-24T14:29:50+05:30",
+    "as_of": "2026-06-24T17:31:33+05:30",
     "ready": true,
-    "points": 12,
+    "points": 13,
     "from_date": "2026-06-23",
     "to_date": "2026-06-24",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.28,
+    "benchmark_return_pct": -6.43,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": 7.19,
+    "outperformance_pct": 7.34,
     "verdict": "AHEAD",
     "history": [
       {
@@ -410,6 +410,14 @@
         "nifty_close": 24059.650390625,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-24",
+        "ts": "2026-06-24T17:31:33+05:30",
+        "checkpoint": "close",
+        "nifty_close": 24021.650390625,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -498,16 +506,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 11,
-    "triggers_detected": 44,
-    "escalations_created": 19,
+    "observation_runs": 12,
+    "triggers_detected": 50,
+    "escalations_created": 21,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 12,
     "useful_triggers": 12,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.37,
-    "avg_triggers_per_run": 4.0,
-    "last_run": "2026-06-24T13:23:10+05:30",
+    "alert_noise_score": 0.43,
+    "avg_triggers_per_run": 4.17,
+    "last_run": "2026-06-24T14:29:54+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24T14:29:50+05:30",
+  "generated_at": "2026-06-24T17:31:33+05:30",
   "date": "2026-06-24",
-  "checkpoint": "mid",
+  "checkpoint": "close",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
   "execution": {
     "mode": "paper",
@@ -14,23 +14,23 @@
   },
   "market_regime": {
     "regime": "RISK_ON",
-    "score": 68.715,
+    "score": 65.0,
     "confidence": 0.7,
-    "reason": "Benchmarks up 1.37% on average — risk-on.",
+    "reason": "Benchmarks up 1.26% on average — risk-on.",
     "inputs": {
       "benchmarks": {
-        "NIFTY 50": 0.9887,
-        "NIFTY Bank": 1.7599
+        "NIFTY 50": 0.8292,
+        "NIFTY Bank": 1.6903
       },
-      "avg_change_pct": 1.374,
-      "index_volatility_pct": 0.791,
-      "max_abs_move_pct": 1.76
+      "avg_change_pct": 1.26,
+      "index_volatility_pct": 0.782,
+      "max_abs_move_pct": 1.69
     },
     "blocks_new_buys": false,
-    "timestamp": "2026-06-24T14:28:35+05:30"
+    "timestamp": "2026-06-24T17:30:01+05:30"
   },
   "portfolio": {
-    "as_of": "2026-06-24T14:29:50+05:30",
+    "as_of": "2026-06-24T17:31:33+05:30",
     "starting_capital": 10000.0,
     "cash": 8474.74,
     "holdings_value": 1616.76,
@@ -82,25 +82,25 @@
   "top_candidates": [],
   "watchlist": [
     {
-      "signal_id": "sig_6531ec4daa25",
+      "signal_id": "sig_87794b2680ff",
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank",
       "exchange": "NSE",
-      "score": 73.7,
+      "score": 73.8,
       "label": "WATCH",
       "risk_level": "LOW",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 73.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=91, trend_following=89, portfolio_fit=80.",
-      "last_price": 1373.5,
-      "checkpoint": "mid",
+      "reason": "Final 73.8/100 -> WATCH [regime RISK_ON]. Top: relative_strength=95, trend_following=89, portfolio_fit=80.",
+      "last_price": 1373.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 89.1,
-        "relative_strength": 91.0,
+        "relative_strength": 95.2,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 53.0,
-        "volatility_risk": 53.3,
+        "volatility_risk": 53.2,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
@@ -110,15 +110,15 @@
           "score_contribution": 89.1,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +6.32% over 23 points, smoothness 64%.",
+          "reason": "Trend +6.33% over 23 points, smoothness 64%.",
           "data_used": {
-            "trend_pct": 6.325,
+            "trend_pct": 6.332,
             "points": 23,
             "smoothness": 0.64
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -126,18 +126,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 91.0,
+          "score_contribution": 95.2,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +2.63% vs benchmark +0.99% -> relative +1.64%.",
+          "reason": "Stock +2.64% vs benchmark +0.83% -> relative +1.81%.",
           "data_used": {
-            "stock_change_pct": 2.6302,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 1.6414999999999997
+            "stock_change_pct": 2.6377,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.8085
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -150,13 +150,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 6.32,
+            "broader_trend_pct": 6.33,
             "below_mean_pct": 5.93,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -171,11 +171,11 @@
           "data_used": {
             "pos_in_range": 1.0,
             "trend_up": true,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -198,7 +198,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -206,17 +206,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 53.3,
+          "score_contribution": 53.2,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.17% / daily move 2.6302% -> stability score 53.",
+          "reason": "Volatility 1.17% / daily move 2.6377% -> stability score 53.",
           "data_used": {
             "volatility_pct": 1.169,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -236,7 +236,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -248,15 +248,15 @@
       "estimated_cost": 4.84,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1373.5,
-        "change_pct": 2.6302,
+        "price": 1373.5999755859375,
+        "change_pct": 2.6377,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:39+05:30",
+        "extracted_at": "2026-06-24T17:30:04+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1373.5,
-      "mtm_price_used": 1373.5,
+      "entry_price_used": 1373.5999755859375,
+      "mtm_price_used": 1373.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -275,28 +275,28 @@
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_28bfc6373f8a",
+      "signal_id": "sig_d46348dea72b",
       "symbol": "SBIN.NS",
       "name": "State Bank of India",
       "exchange": "NSE",
-      "score": 68.7,
+      "score": 67.0,
       "label": "WATCH",
       "risk_level": "LOW",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 68.7/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=63.",
-      "last_price": 1038.550048828125,
-      "checkpoint": "mid",
+      "reason": "Final 67.0/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=64.",
+      "last_price": 1034.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 87.7,
-        "relative_strength": 60.3,
+        "relative_strength": 54.7,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 53.0,
-        "volatility_risk": 62.9,
+        "volatility_risk": 63.6,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
@@ -306,15 +306,15 @@
           "score_contribution": 87.7,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +7.11% over 23 points, smoothness 59%.",
+          "reason": "Trend +6.70% over 23 points, smoothness 59%.",
           "data_used": {
-            "trend_pct": 7.111,
+            "trend_pct": 6.704,
             "points": 23,
             "smoothness": 0.59
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -322,18 +322,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 60.3,
+          "score_contribution": 54.7,
           "confidence": 0.6,
-          "signal": "POSITIVE",
-          "reason": "Stock +1.40% vs benchmark +0.99% -> relative +0.41%.",
+          "signal": "NEUTRAL",
+          "reason": "Stock +1.02% vs benchmark +0.83% -> relative +0.19%.",
           "data_used": {
-            "stock_change_pct": 1.4011,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 0.4124
+            "stock_change_pct": 1.0154,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 0.18620000000000003
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -346,13 +346,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 7.11,
-            "below_mean_pct": 4.19,
-            "change_pct": 1.4011
+            "broader_trend_pct": 6.7,
+            "below_mean_pct": 3.81,
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -363,15 +363,15 @@
           "score_contribution": 70.0,
           "confidence": 0.4,
           "signal": "POSITIVE",
-          "reason": "Near range high (95%) with up-trend confirmation — breakout setup.",
+          "reason": "Near range high (91%) with up-trend confirmation — breakout setup.",
           "data_used": {
-            "pos_in_range": 0.95,
+            "pos_in_range": 0.91,
             "trend_up": true,
-            "change_pct": 1.4011
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -394,7 +394,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -402,17 +402,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 62.9,
+          "score_contribution": 63.6,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Volatility 0.93% / daily move 1.4011% -> stability score 63.",
+          "reason": "Volatility 0.91% / daily move 1.0154% -> stability score 64.",
           "data_used": {
-            "volatility_pct": 0.928,
-            "change_pct": 1.4011
+            "volatility_pct": 0.911,
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -432,7 +432,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -441,18 +441,18 @@
       ],
       "conflict_warnings": [],
       "warnings": [],
-      "estimated_cost": 3.66,
+      "estimated_cost": 3.64,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1038.550048828125,
-        "change_pct": 1.4011,
+        "price": 1034.5999755859375,
+        "change_pct": 1.0154,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:39+05:30",
+        "extracted_at": "2026-06-24T17:30:05+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1038.550048828125,
-      "mtm_price_used": 1038.550048828125,
+      "entry_price_used": 1034.5999755859375,
+      "mtm_price_used": 1034.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -468,26 +468,415 @@
         "[HIGH] Japan’s Biggest Crypto Banking Experiment Is Here, and the US Can’t Do This Yet",
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings"
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
+    },
+    {
+      "signal_id": "sig_362ea7b529d1",
+      "symbol": "AXISBANK.NS",
+      "name": "Axis Bank",
+      "exchange": "NSE",
+      "score": 66.4,
+      "label": "WATCH",
+      "risk_level": "LOW",
+      "confidence": 0.66,
+      "data_quality": "GOOD",
+      "reason": "Final 66.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=68.",
+      "last_price": 1384.5,
+      "checkpoint": "close",
+      "score_breakdown": {
+        "trend_following": 87.7,
+        "relative_strength": 67.8,
+        "mean_reversion": 52.0,
+        "breakout": 70.0,
+        "news_event_risk": 41.0,
+        "volatility_risk": 54.3,
+        "portfolio_fit": 80.0
+      },
+      "market_regime": "RISK_ON",
+      "strategy_results": [
+        {
+          "strategy_name": "trend_following",
+          "score_contribution": 87.7,
+          "confidence": 0.78,
+          "signal": "POSITIVE",
+          "reason": "Trend +5.59% over 23 points, smoothness 59%.",
+          "data_used": {
+            "trend_pct": 5.59,
+            "points": 23,
+            "smoothness": 0.59
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "relative_strength",
+          "score_contribution": 67.8,
+          "confidence": 0.6,
+          "signal": "POSITIVE",
+          "reason": "Stock +1.54% vs benchmark +0.83% -> relative +0.71%.",
+          "data_used": {
+            "stock_change_pct": 1.5402,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 0.711
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "mean_reversion",
+          "score_contribution": 52.0,
+          "confidence": 0.4,
+          "signal": "NEUTRAL",
+          "reason": "No clear mean-reversion setup.",
+          "data_used": {
+            "broader_trend_pct": 5.59,
+            "below_mean_pct": 5.19,
+            "change_pct": 1.5402
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": false,
+          "display_only": true
+        },
+        {
+          "strategy_name": "breakout",
+          "score_contribution": 70.0,
+          "confidence": 0.4,
+          "signal": "POSITIVE",
+          "reason": "Near range high (100%) with up-trend confirmation — breakout setup.",
+          "data_used": {
+            "pos_in_range": 1.0,
+            "trend_up": true,
+            "change_pct": 1.5402
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": false,
+          "display_only": true
+        },
+        {
+          "strategy_name": "news_event_risk",
+          "score_contribution": 41.0,
+          "confidence": 0.55,
+          "signal": "NEGATIVE",
+          "reason": "Scanned 10 headlines. Negative: ['ban', 'miss']; positive: none.",
+          "data_used": {
+            "headlines_used": 10,
+            "negative_keywords": [
+              "ban",
+              "miss"
+            ],
+            "positive_keywords": []
+          },
+          "warnings": [],
+          "risk_flags": [
+            "news:ban",
+            "news:miss"
+          ],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "volatility_risk",
+          "score_contribution": 54.3,
+          "confidence": 0.6,
+          "signal": "NEUTRAL",
+          "reason": "Volatility 1.14% / daily move 1.5402% -> stability score 54.",
+          "data_used": {
+            "volatility_pct": 1.143,
+            "change_pct": 1.5402
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "portfolio_fit",
+          "score_contribution": 80.0,
+          "confidence": 0.7,
+          "signal": "POSITIVE",
+          "reason": "Fit 80/100 — budget ₹8475 left, 1/5 monthly buys used, held=False.",
+          "data_used": {
+            "capital_remaining": 8474.74,
+            "buys_this_month": 1,
+            "buys_today": 0,
+            "already_held": false
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        }
+      ],
+      "conflict_warnings": [],
+      "warnings": [],
+      "estimated_cost": 4.87,
+      "led_to_paper_trade": false,
+      "data_snapshot": {
+        "price": 1384.5,
+        "change_pct": 1.5402,
+        "graph_points": 23,
+        "extracted_at": "2026-06-24T17:30:07+05:30",
+        "headlines_count": 10
+      },
+      "price_source": "history.close",
+      "entry_price_used": 1384.5,
+      "mtm_price_used": 1384.5,
+      "price_consistency_check": "PASSED",
+      "data_quality_verdict": "OK",
+      "news_available": true,
+      "news_risk_level": "HIGH",
+      "news_sentiment": "NEGATIVE",
+      "news_event_types": [
+        "REGULATORY"
+      ],
+      "news_blocks_buy": true,
+      "news_item_count": 10,
+      "news_top_headline": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+      "news_reasons": [
+        "10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+        "[HIGH] India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
+        "[HIGH] Banks reduce headcounts globally as AI boosts efficiency",
+        "[HIGH] Axis Bank Ltd (FRA:UZC) (Full Year 2026) Earnings Call Highlights: Strong Growth Amidst Margin ...",
+        "HIGH/CRITICAL adverse news -> new paper buy blocked."
+      ],
+      "created_at": "2026-06-24T17:30:07+05:30"
     }
   ],
   "do_not_buy": [
     {
-      "signal_id": "sig_bb9c7c08f9f7",
-      "symbol": "INFY.NS",
-      "name": "Infosys",
+      "signal_id": "sig_d476d9ae4472",
+      "symbol": "BHARTIARTL.NS",
+      "name": "Bharti Airtel",
       "exchange": "NSE",
-      "score": 49.7,
+      "score": 49.9,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 49.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=100, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
-      "last_price": 1062.0,
-      "checkpoint": "mid",
+      "reason": "Final 49.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=58. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
+      "last_price": 1877.300048828125,
+      "checkpoint": "close",
+      "score_breakdown": {
+        "trend_following": 44.3,
+        "relative_strength": 0.0,
+        "mean_reversion": 52.0,
+        "breakout": 48.0,
+        "news_event_risk": 75.0,
+        "volatility_risk": 58.4,
+        "portfolio_fit": 80.0
+      },
+      "market_regime": "RISK_ON",
+      "strategy_results": [
+        {
+          "strategy_name": "trend_following",
+          "score_contribution": 44.3,
+          "confidence": 0.78,
+          "signal": "NEUTRAL",
+          "reason": "Trend +0.13% over 23 points, smoothness 55%.",
+          "data_used": {
+            "trend_pct": 0.133,
+            "points": 23,
+            "smoothness": 0.55
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "relative_strength",
+          "score_contribution": 0.0,
+          "confidence": 0.6,
+          "signal": "NEGATIVE",
+          "reason": "Stock -1.28% vs benchmark +0.83% -> relative -2.11%.",
+          "data_used": {
+            "stock_change_pct": -1.2779,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -2.1071
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "mean_reversion",
+          "score_contribution": 52.0,
+          "confidence": 0.4,
+          "signal": "NEUTRAL",
+          "reason": "No clear mean-reversion setup.",
+          "data_used": {
+            "broader_trend_pct": 0.13,
+            "below_mean_pct": 1.92,
+            "change_pct": -1.2779
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": false,
+          "display_only": true
+        },
+        {
+          "strategy_name": "breakout",
+          "score_contribution": 48.0,
+          "confidence": 0.4,
+          "signal": "NEUTRAL",
+          "reason": "No breakout (72% of range).",
+          "data_used": {
+            "pos_in_range": 0.72,
+            "trend_up": true,
+            "change_pct": -1.2779
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": false,
+          "display_only": true
+        },
+        {
+          "strategy_name": "news_event_risk",
+          "score_contribution": 75.0,
+          "confidence": 0.55,
+          "signal": "POSITIVE",
+          "reason": "Scanned 10 headlines. Negative: none; positive: ['record', 'upgrade'].",
+          "data_used": {
+            "headlines_used": 10,
+            "negative_keywords": [],
+            "positive_keywords": [
+              "record",
+              "upgrade"
+            ]
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "volatility_risk",
+          "score_contribution": 58.4,
+          "confidence": 0.6,
+          "signal": "NEUTRAL",
+          "reason": "Volatility 1.04% / daily move -1.2779% -> stability score 58.",
+          "data_used": {
+            "volatility_pct": 1.041,
+            "change_pct": -1.2779
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        },
+        {
+          "strategy_name": "portfolio_fit",
+          "score_contribution": 80.0,
+          "confidence": 0.7,
+          "signal": "POSITIVE",
+          "reason": "Fit 80/100 — budget ₹8475 left, 1/5 monthly buys used, held=False.",
+          "data_used": {
+            "capital_remaining": 8474.74,
+            "buys_this_month": 1,
+            "buys_today": 0,
+            "already_held": false
+          },
+          "warnings": [],
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
+          "error": null,
+          "is_valid": true,
+          "contributes_to_score": true,
+          "display_only": false
+        }
+      ],
+      "conflict_warnings": [
+        "Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative."
+      ],
+      "warnings": [],
+      "estimated_cost": 6.62,
+      "led_to_paper_trade": false,
+      "data_snapshot": {
+        "price": 1877.300048828125,
+        "change_pct": -1.2779,
+        "graph_points": 23,
+        "extracted_at": "2026-06-24T17:30:06+05:30",
+        "headlines_count": 10
+      },
+      "price_source": "history.close",
+      "entry_price_used": 1877.300048828125,
+      "mtm_price_used": 1877.300048828125,
+      "price_consistency_check": "PASSED",
+      "data_quality_verdict": "OK",
+      "news_available": true,
+      "news_risk_level": "NONE",
+      "news_sentiment": "NEUTRAL",
+      "news_event_types": [],
+      "news_blocks_buy": false,
+      "news_item_count": 10,
+      "news_top_headline": "VEON Closes USD 1.4B Bond Offering & Refinances 2027 Debt Ahead of Schedule",
+      "news_reasons": [
+        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
+      ],
+      "created_at": "2026-06-24T17:30:07+05:30"
+    },
+    {
+      "signal_id": "sig_53b9c0cc356d",
+      "symbol": "INFY.NS",
+      "name": "Infosys",
+      "exchange": "NSE",
+      "score": 48.1,
+      "label": "DO_NOT_BUY",
+      "risk_level": "HIGH",
+      "confidence": 0.66,
+      "data_quality": "GOOD",
+      "reason": "Final 48.1/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=96, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
+      "last_price": 1056.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 0.0,
-        "relative_strength": 100.0,
+        "relative_strength": 95.6,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 53.0,
@@ -501,15 +890,15 @@
           "score_contribution": 0.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -9.11% over 23 points, smoothness 45%.",
+          "reason": "Trend -9.58% over 23 points, smoothness 45%.",
           "data_used": {
-            "trend_pct": -9.114,
+            "trend_pct": -9.576,
             "points": 23,
             "smoothness": 0.45
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -517,18 +906,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 100.0,
+          "score_contribution": 95.6,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +3.18% vs benchmark +0.99% -> relative +2.19%.",
+          "reason": "Stock +2.65% vs benchmark +0.83% -> relative +1.82%.",
           "data_used": {
-            "stock_change_pct": 3.1769,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 2.1881999999999997
+            "stock_change_pct": 2.6523,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.8230999999999997
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -539,15 +928,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-9.11%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-9.58%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -9.11,
-            "below_mean_pct": -7.57,
-            "change_pct": 3.1769
+            "broader_trend_pct": -9.58,
+            "below_mean_pct": -8.03,
+            "change_pct": 2.6523
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -558,15 +947,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (14% of range).",
+          "reason": "No breakout (11% of range).",
           "data_used": {
-            "pos_in_range": 0.14,
+            "pos_in_range": 0.11,
             "trend_up": false,
-            "change_pct": 3.1769
+            "change_pct": 2.6523
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -589,7 +978,7 @@
           "risk_flags": [
             "news:miss"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -600,16 +989,14 @@
           "score_contribution": 0.0,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Volatility 2.67% / daily move 3.1769% -> stability score 0.",
+          "reason": "Volatility 2.64% / daily move 2.6523% -> stability score 0.",
           "data_used": {
-            "volatility_pct": 2.673,
-            "change_pct": 3.1769
+            "volatility_pct": 2.644,
+            "change_pct": 2.6523
           },
           "warnings": [],
-          "risk_flags": [
-            "large_daily_move"
-          ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -629,7 +1016,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -640,18 +1027,18 @@
         "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
       ],
       "warnings": [],
-      "estimated_cost": 3.74,
+      "estimated_cost": 3.72,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1062.0,
-        "change_pct": 3.1769,
+        "price": 1056.5999755859375,
+        "change_pct": 2.6523,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:38+05:30",
+        "extracted_at": "2026-06-24T17:30:03+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1062.0,
-      "mtm_price_used": 1062.0,
+      "entry_price_used": 1056.5999755859375,
+      "mtm_price_used": 1056.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -664,46 +1051,46 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_398e56d36e36",
+      "signal_id": "sig_c6654d3cecd0",
       "symbol": "RELIANCE.NS",
       "name": "Reliance Industries",
       "exchange": "NSE",
-      "score": 48.0,
+      "score": 44.7,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 48.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=55, relative_strength=46. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
-      "last_price": 1320.4000244140625,
-      "checkpoint": "mid",
+      "reason": "Final 44.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=56, news_event_risk=41. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+      "last_price": 1313.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 13.1,
-        "relative_strength": 46.1,
+        "trend_following": 9.0,
+        "relative_strength": 37.1,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 41.0,
-        "volatility_risk": 54.8,
+        "volatility_risk": 55.5,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 13.1,
+          "score_contribution": 9.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -3.41% over 23 points, smoothness 41%.",
+          "reason": "Trend -3.91% over 23 points, smoothness 41%.",
           "data_used": {
-            "trend_pct": -3.409,
+            "trend_pct": -3.906,
             "points": 23,
             "smoothness": 0.41
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -711,18 +1098,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 46.1,
+          "score_contribution": 37.1,
           "confidence": 0.6,
-          "signal": "NEUTRAL",
-          "reason": "Stock +0.83% vs benchmark +0.99% -> relative -0.16%.",
+          "signal": "NEGATIVE",
+          "reason": "Stock +0.31% vs benchmark +0.83% -> relative -0.52%.",
           "data_used": {
-            "stock_change_pct": 0.8324,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -0.1563
+            "stock_change_pct": 0.3131,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -0.5161
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -733,15 +1120,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-3.41%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-3.91%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -3.41,
-            "below_mean_pct": 0.57,
-            "change_pct": 0.8324
+            "broader_trend_pct": -3.91,
+            "below_mean_pct": 0.07,
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -752,15 +1139,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (57% of range).",
+          "reason": "No breakout (51% of range).",
           "data_used": {
-            "pos_in_range": 0.57,
+            "pos_in_range": 0.51,
             "trend_up": false,
-            "change_pct": 0.8324
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -785,7 +1172,7 @@
             "news:ban",
             "news:fine"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -793,17 +1180,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 54.8,
+          "score_contribution": 55.5,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.13% / daily move 0.8324% -> stability score 55.",
+          "reason": "Volatility 1.11% / daily move 0.3131% -> stability score 55.",
           "data_used": {
-            "volatility_pct": 1.129,
-            "change_pct": 0.8324
+            "volatility_pct": 1.114,
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -823,7 +1210,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -834,18 +1221,18 @@
         "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
       ],
       "warnings": [],
-      "estimated_cost": 4.65,
+      "estimated_cost": 4.63,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1320.4000244140625,
-        "change_pct": 0.8324,
+        "price": 1313.5999755859375,
+        "change_pct": 0.3131,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:36+05:30",
+        "extracted_at": "2026-06-24T17:30:02+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1320.4000244140625,
-      "mtm_price_used": 1320.4000244140625,
+      "entry_price_used": 1313.5999755859375,
+      "mtm_price_used": 1313.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -859,24 +1246,24 @@
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
         "[HIGH] Billionaire Ambani wants AI in every call, app, and home"
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_cea0b2641bee",
+      "signal_id": "sig_58ad504c3548",
       "symbol": "TCS.NS",
       "name": "Tata Consultancy Services",
       "exchange": "NSE",
-      "score": 44.2,
+      "score": 42.6,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 44.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=93, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
-      "last_price": 2115.60009765625,
-      "checkpoint": "mid",
+      "reason": "Final 42.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=89, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+      "last_price": 2109.0,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 0.0,
-        "relative_strength": 93.3,
+        "relative_strength": 89.2,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 65.0,
@@ -890,15 +1277,15 @@
           "score_contribution": 0.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -8.34% over 23 points, smoothness 50%.",
+          "reason": "Trend -8.63% over 23 points, smoothness 50%.",
           "data_used": {
-            "trend_pct": -8.344,
+            "trend_pct": -8.63,
             "points": 23,
             "smoothness": 0.5
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -906,18 +1293,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 93.3,
+          "score_contribution": 89.2,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +2.72% vs benchmark +0.99% -> relative +1.73%.",
+          "reason": "Stock +2.40% vs benchmark +0.83% -> relative +1.57%.",
           "data_used": {
-            "stock_change_pct": 2.719,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 1.7302999999999997
+            "stock_change_pct": 2.3985,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.5692999999999997
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -928,15 +1315,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-8.34%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-8.63%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -8.34,
-            "below_mean_pct": -4.23,
-            "change_pct": 2.719
+            "broader_trend_pct": -8.63,
+            "below_mean_pct": -4.51,
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -947,15 +1334,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (14% of range).",
+          "reason": "No breakout (13% of range).",
           "data_used": {
-            "pos_in_range": 0.14,
+            "pos_in_range": 0.13,
             "trend_up": false,
-            "change_pct": 2.719
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -974,7 +1361,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -985,14 +1372,14 @@
           "score_contribution": 0.0,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Volatility 2.71% / daily move 2.719% -> stability score 0.",
+          "reason": "Volatility 2.69% / daily move 2.3985% -> stability score 0.",
           "data_used": {
-            "volatility_pct": 2.711,
-            "change_pct": 2.719
+            "volatility_pct": 2.695,
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1011,12 +1398,12 @@
             "already_held": false
           },
           "warnings": [
-            "Share price ₹2116 exceeds per-trade cap ₹2000."
+            "Share price ₹2109 exceeds per-trade cap ₹2000."
           ],
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1027,20 +1414,20 @@
         "Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
       ],
       "warnings": [
-        "Share price ₹2116 exceeds per-trade cap ₹2000."
+        "Share price ₹2109 exceeds per-trade cap ₹2000."
       ],
       "estimated_cost": 0.0,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 2115.60009765625,
-        "change_pct": 2.719,
+        "price": 2109.0,
+        "change_pct": 2.3985,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:37+05:30",
+        "extracted_at": "2026-06-24T17:30:02+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 2115.60009765625,
-      "mtm_price_used": 2115.60009765625,
+      "entry_price_used": 2109.0,
+      "mtm_price_used": 2109.0,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -1048,29 +1435,29 @@
       "news_sentiment": "NEUTRAL",
       "news_event_types": [],
       "news_blocks_buy": false,
-      "news_item_count": 12,
-      "news_top_headline": "DXC Collects $213 , 560 , 494 . 98 in Landmark IP Theft Case From TCS",
+      "news_item_count": 10,
+      "news_top_headline": "India's Nifty IT index at three-year low as bellwether Accenture flags weak outlook",
       "news_reasons": [
-        "12 relevant item(s); worst risk NONE, sentiment NEUTRAL."
+        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_638fbafdfef2",
+      "signal_id": "sig_65f6bf5679bc",
       "symbol": "ITC.NS",
       "name": "ITC",
       "exchange": "NSE",
-      "score": 41.6,
+      "score": 41.2,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 41.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35.",
-      "last_price": 290.54998779296875,
-      "checkpoint": "mid",
+      "reason": "Final 41.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35.",
+      "last_price": 290.3500061035156,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 5.1,
-        "relative_strength": 30.0,
+        "trend_following": 4.5,
+        "relative_strength": 32.3,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 65.0,
@@ -1081,18 +1468,18 @@
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 5.1,
+          "score_contribution": 4.5,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -4.41% over 23 points, smoothness 55%.",
+          "reason": "Trend -4.47% over 23 points, smoothness 55%.",
           "data_used": {
-            "trend_pct": -4.409,
+            "trend_pct": -4.474,
             "points": 23,
             "smoothness": 0.55
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1100,18 +1487,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 30.0,
+          "score_contribution": 32.3,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Stock +0.19% vs benchmark +0.99% -> relative -0.80%.",
+          "reason": "Stock +0.12% vs benchmark +0.83% -> relative -0.71%.",
           "data_used": {
-            "stock_change_pct": 0.1897,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -0.799
+            "stock_change_pct": 0.1207,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -0.7085
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1122,15 +1509,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-4.41%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-4.47%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -4.41,
-            "below_mean_pct": 1.04,
-            "change_pct": 0.1897
+            "broader_trend_pct": -4.47,
+            "below_mean_pct": 0.98,
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1145,11 +1532,11 @@
           "data_used": {
             "pos_in_range": 0.5,
             "trend_up": false,
-            "change_pct": 0.1897
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1168,7 +1555,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1179,14 +1566,14 @@
           "score_contribution": 50.4,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.24% / daily move 0.1897% -> stability score 50.",
+          "reason": "Volatility 1.24% / daily move 0.1207% -> stability score 50.",
           "data_used": {
-            "volatility_pct": 1.24,
-            "change_pct": 0.1897
+            "volatility_pct": 1.239,
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1210,7 +1597,7 @@
           "risk_flags": [
             "already_held"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1224,15 +1611,15 @@
       "estimated_cost": 6.14,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 290.54998779296875,
-        "change_pct": 0.1897,
+        "price": 290.3500061035156,
+        "change_pct": 0.1207,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:40+05:30",
+        "extracted_at": "2026-06-24T17:30:06+05:30",
         "headlines_count": 1
       },
       "price_source": "history.close",
-      "entry_price_used": 290.54998779296875,
-      "mtm_price_used": 290.54998779296875,
+      "entry_price_used": 290.3500061035156,
+      "mtm_price_used": 290.3500061035156,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -1245,7 +1632,7 @@
       "news_reasons": [
         "1 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     }
   ],
   "manual_review": [],
@@ -1255,72 +1642,72 @@
     {
       "symbol": "ICICIBANK.NS",
       "label": "WATCH",
-      "score": 73.7,
-      "reason": "Final 73.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=91, trend_following=89, portfolio_fit=80."
+      "score": 73.8,
+      "reason": "Final 73.8/100 -> WATCH [regime RISK_ON]. Top: relative_strength=95, trend_following=89, portfolio_fit=80."
     },
     {
       "symbol": "SBIN.NS",
       "label": "WATCH",
-      "score": 68.7,
-      "reason": "Final 68.7/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=63."
+      "score": 67.0,
+      "reason": "Final 67.0/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=64."
     },
     {
       "symbol": "AXISBANK.NS",
-      "label": "NO_ACTION",
-      "score": 64.2,
-      "reason": "Final 64.2/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=55."
+      "label": "WATCH",
+      "score": 66.4,
+      "reason": "Final 66.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=68."
     },
     {
       "symbol": "HDFCBANK.NS",
       "label": "NO_ACTION",
-      "score": 61.3,
-      "reason": "Final 61.3/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, relative_strength=79, news_event_risk=53."
+      "score": 62.9,
+      "reason": "Final 62.9/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=89, portfolio_fit=80, news_event_risk=53."
     },
     {
       "symbol": "LT.NS",
       "label": "NO_ACTION",
-      "score": 55.1,
-      "reason": "Final 55.1/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=78, news_event_risk=70, volatility_risk=43. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
+      "score": 53.3,
+      "reason": "Final 53.3/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=76, news_event_risk=70, volatility_risk=43. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
     },
     {
       "symbol": "BHARTIARTL.NS",
-      "label": "NO_ACTION",
-      "score": 51.2,
-      "reason": "Final 51.2/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=59. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative."
+      "label": "DO_NOT_BUY",
+      "score": 49.9,
+      "reason": "Final 49.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=58. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative."
     },
     {
       "symbol": "INFY.NS",
       "label": "DO_NOT_BUY",
-      "score": 49.7,
-      "reason": "Final 49.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=100, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
+      "score": 48.1,
+      "reason": "Final 48.1/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=96, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
     },
     {
       "symbol": "RELIANCE.NS",
       "label": "DO_NOT_BUY",
-      "score": 48.0,
-      "reason": "Final 48.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=55, relative_strength=46. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+      "score": 44.7,
+      "reason": "Final 44.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=56, news_event_risk=41. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
     },
     {
       "symbol": "TCS.NS",
       "label": "DO_NOT_BUY",
-      "score": 44.2,
-      "reason": "Final 44.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=93, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
+      "score": 42.6,
+      "reason": "Final 42.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=89, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
     },
     {
       "symbol": "ITC.NS",
       "label": "DO_NOT_BUY",
-      "score": 41.6,
-      "reason": "Final 41.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35."
+      "score": 41.2,
+      "reason": "Final 41.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35."
     }
   ],
   "strategy_summary": {
     "trend_following": {
-      "avg_score": 45.6,
+      "avg_score": 44.9,
       "weight": 20,
       "contributes": true
     },
     "relative_strength": {
-      "avg_score": 58.5,
+      "avg_score": 59.2,
       "weight": 20,
       "contributes": true
     },
@@ -1330,7 +1717,7 @@
       "contributes": false
     },
     "breakout": {
-      "avg_score": 56.8,
+      "avg_score": 59.0,
       "weight": 0,
       "contributes": false
     },
@@ -1359,25 +1746,25 @@
   ],
   "signals": [
     {
-      "signal_id": "sig_6531ec4daa25",
+      "signal_id": "sig_87794b2680ff",
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank",
       "exchange": "NSE",
-      "score": 73.7,
+      "score": 73.8,
       "label": "WATCH",
       "risk_level": "LOW",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 73.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=91, trend_following=89, portfolio_fit=80.",
-      "last_price": 1373.5,
-      "checkpoint": "mid",
+      "reason": "Final 73.8/100 -> WATCH [regime RISK_ON]. Top: relative_strength=95, trend_following=89, portfolio_fit=80.",
+      "last_price": 1373.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 89.1,
-        "relative_strength": 91.0,
+        "relative_strength": 95.2,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 53.0,
-        "volatility_risk": 53.3,
+        "volatility_risk": 53.2,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
@@ -1387,15 +1774,15 @@
           "score_contribution": 89.1,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +6.32% over 23 points, smoothness 64%.",
+          "reason": "Trend +6.33% over 23 points, smoothness 64%.",
           "data_used": {
-            "trend_pct": 6.325,
+            "trend_pct": 6.332,
             "points": 23,
             "smoothness": 0.64
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1403,18 +1790,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 91.0,
+          "score_contribution": 95.2,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +2.63% vs benchmark +0.99% -> relative +1.64%.",
+          "reason": "Stock +2.64% vs benchmark +0.83% -> relative +1.81%.",
           "data_used": {
-            "stock_change_pct": 2.6302,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 1.6414999999999997
+            "stock_change_pct": 2.6377,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.8085
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1427,13 +1814,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 6.32,
+            "broader_trend_pct": 6.33,
             "below_mean_pct": 5.93,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1448,11 +1835,11 @@
           "data_used": {
             "pos_in_range": 1.0,
             "trend_up": true,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1475,7 +1862,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1483,17 +1870,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 53.3,
+          "score_contribution": 53.2,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.17% / daily move 2.6302% -> stability score 53.",
+          "reason": "Volatility 1.17% / daily move 2.6377% -> stability score 53.",
           "data_used": {
             "volatility_pct": 1.169,
-            "change_pct": 2.6302
+            "change_pct": 2.6377
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1513,7 +1900,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1525,15 +1912,15 @@
       "estimated_cost": 4.84,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1373.5,
-        "change_pct": 2.6302,
+        "price": 1373.5999755859375,
+        "change_pct": 2.6377,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:39+05:30",
+        "extracted_at": "2026-06-24T17:30:04+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1373.5,
-      "mtm_price_used": 1373.5,
+      "entry_price_used": 1373.5999755859375,
+      "mtm_price_used": 1373.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -1552,28 +1939,28 @@
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_28bfc6373f8a",
+      "signal_id": "sig_d46348dea72b",
       "symbol": "SBIN.NS",
       "name": "State Bank of India",
       "exchange": "NSE",
-      "score": 68.7,
+      "score": 67.0,
       "label": "WATCH",
       "risk_level": "LOW",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 68.7/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=63.",
-      "last_price": 1038.550048828125,
-      "checkpoint": "mid",
+      "reason": "Final 67.0/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=64.",
+      "last_price": 1034.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 87.7,
-        "relative_strength": 60.3,
+        "relative_strength": 54.7,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 53.0,
-        "volatility_risk": 62.9,
+        "volatility_risk": 63.6,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
@@ -1583,15 +1970,15 @@
           "score_contribution": 87.7,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +7.11% over 23 points, smoothness 59%.",
+          "reason": "Trend +6.70% over 23 points, smoothness 59%.",
           "data_used": {
-            "trend_pct": 7.111,
+            "trend_pct": 6.704,
             "points": 23,
             "smoothness": 0.59
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1599,18 +1986,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 60.3,
+          "score_contribution": 54.7,
           "confidence": 0.6,
-          "signal": "POSITIVE",
-          "reason": "Stock +1.40% vs benchmark +0.99% -> relative +0.41%.",
+          "signal": "NEUTRAL",
+          "reason": "Stock +1.02% vs benchmark +0.83% -> relative +0.19%.",
           "data_used": {
-            "stock_change_pct": 1.4011,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 0.4124
+            "stock_change_pct": 1.0154,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 0.18620000000000003
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1623,13 +2010,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 7.11,
-            "below_mean_pct": 4.19,
-            "change_pct": 1.4011
+            "broader_trend_pct": 6.7,
+            "below_mean_pct": 3.81,
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1640,15 +2027,15 @@
           "score_contribution": 70.0,
           "confidence": 0.4,
           "signal": "POSITIVE",
-          "reason": "Near range high (95%) with up-trend confirmation — breakout setup.",
+          "reason": "Near range high (91%) with up-trend confirmation — breakout setup.",
           "data_used": {
-            "pos_in_range": 0.95,
+            "pos_in_range": 0.91,
             "trend_up": true,
-            "change_pct": 1.4011
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1671,7 +2058,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1679,17 +2066,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 62.9,
+          "score_contribution": 63.6,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Volatility 0.93% / daily move 1.4011% -> stability score 63.",
+          "reason": "Volatility 0.91% / daily move 1.0154% -> stability score 64.",
           "data_used": {
-            "volatility_pct": 0.928,
-            "change_pct": 1.4011
+            "volatility_pct": 0.911,
+            "change_pct": 1.0154
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1709,7 +2096,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1718,18 +2105,18 @@
       ],
       "conflict_warnings": [],
       "warnings": [],
-      "estimated_cost": 3.66,
+      "estimated_cost": 3.64,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1038.550048828125,
-        "change_pct": 1.4011,
+        "price": 1034.5999755859375,
+        "change_pct": 1.0154,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:39+05:30",
+        "extracted_at": "2026-06-24T17:30:05+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1038.550048828125,
-      "mtm_price_used": 1038.550048828125,
+      "entry_price_used": 1034.5999755859375,
+      "mtm_price_used": 1034.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -1745,28 +2132,28 @@
         "[HIGH] Japan’s Biggest Crypto Banking Experiment Is Here, and the US Can’t Do This Yet",
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings"
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_7719f0eb1369",
+      "signal_id": "sig_362ea7b529d1",
       "symbol": "AXISBANK.NS",
       "name": "Axis Bank",
       "exchange": "NSE",
-      "score": 64.2,
-      "label": "NO_ACTION",
-      "risk_level": "MEDIUM",
+      "score": 66.4,
+      "label": "WATCH",
+      "risk_level": "LOW",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 64.2/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=55.",
-      "last_price": 1378.300048828125,
-      "checkpoint": "mid",
+      "reason": "Final 66.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=68.",
+      "last_price": 1384.5,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 87.7,
-        "relative_strength": 52.4,
+        "relative_strength": 67.8,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 41.0,
-        "volatility_risk": 55.1,
+        "volatility_risk": 54.3,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
@@ -1776,15 +2163,15 @@
           "score_contribution": 87.7,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +5.12% over 23 points, smoothness 59%.",
+          "reason": "Trend +5.59% over 23 points, smoothness 59%.",
           "data_used": {
-            "trend_pct": 5.117,
+            "trend_pct": 5.59,
             "points": 23,
             "smoothness": 0.59
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1792,18 +2179,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 52.4,
+          "score_contribution": 67.8,
           "confidence": 0.6,
-          "signal": "NEUTRAL",
-          "reason": "Stock +1.09% vs benchmark +0.99% -> relative +0.10%.",
+          "signal": "POSITIVE",
+          "reason": "Stock +1.54% vs benchmark +0.83% -> relative +0.71%.",
           "data_used": {
-            "stock_change_pct": 1.0854,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 0.0966999999999999
+            "stock_change_pct": 1.5402,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 0.711
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1816,13 +2203,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 5.12,
-            "below_mean_pct": 4.74,
-            "change_pct": 1.0854
+            "broader_trend_pct": 5.59,
+            "below_mean_pct": 5.19,
+            "change_pct": 1.5402
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1837,11 +2224,11 @@
           "data_used": {
             "pos_in_range": 1.0,
             "trend_up": true,
-            "change_pct": 1.0854
+            "change_pct": 1.5402
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1866,7 +2253,7 @@
             "news:ban",
             "news:miss"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1874,17 +2261,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 55.1,
+          "score_contribution": 54.3,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.12% / daily move 1.0854% -> stability score 55.",
+          "reason": "Volatility 1.14% / daily move 1.5402% -> stability score 54.",
           "data_used": {
-            "volatility_pct": 1.124,
-            "change_pct": 1.0854
+            "volatility_pct": 1.143,
+            "change_pct": 1.5402
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1904,7 +2291,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1913,18 +2300,18 @@
       ],
       "conflict_warnings": [],
       "warnings": [],
-      "estimated_cost": 4.85,
+      "estimated_cost": 4.87,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1378.300048828125,
-        "change_pct": 1.0854,
+        "price": 1384.5,
+        "change_pct": 1.5402,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:41+05:30",
+        "extracted_at": "2026-06-24T17:30:07+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1378.300048828125,
-      "mtm_price_used": 1378.300048828125,
+      "entry_price_used": 1384.5,
+      "mtm_price_used": 1384.5,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -1943,46 +2330,46 @@
         "[HIGH] Axis Bank Ltd (FRA:UZC) (Full Year 2026) Earnings Call Highlights: Strong Growth Amidst Margin ...",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_1d8862c13702",
+      "signal_id": "sig_9aa631bff7d6",
       "symbol": "HDFCBANK.NS",
       "name": "HDFC Bank",
       "exchange": "NSE",
-      "score": 61.3,
+      "score": 62.9,
       "label": "NO_ACTION",
       "risk_level": "MEDIUM",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 61.3/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, relative_strength=79, news_event_risk=53.",
-      "last_price": 791.2000122070312,
-      "checkpoint": "mid",
+      "reason": "Final 62.9/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=89, portfolio_fit=80, news_event_risk=53.",
+      "last_price": 793.2000122070312,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 48.0,
-        "relative_strength": 78.7,
+        "trend_following": 50.2,
+        "relative_strength": 89.1,
         "mean_reversion": 52.0,
-        "breakout": 48.0,
+        "breakout": 70.0,
         "news_event_risk": 53.0,
-        "volatility_risk": 41.6,
+        "volatility_risk": 40.9,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 48.0,
+          "score_contribution": 50.2,
           "confidence": 0.78,
           "signal": "NEUTRAL",
-          "reason": "Trend +0.55% over 23 points, smoothness 55%.",
+          "reason": "Trend +0.81% over 23 points, smoothness 55%.",
           "data_used": {
-            "trend_pct": 0.553,
+            "trend_pct": 0.807,
             "points": 23,
             "smoothness": 0.55
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1990,18 +2377,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 78.7,
+          "score_contribution": 89.1,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +2.14% vs benchmark +0.99% -> relative +1.15%.",
+          "reason": "Stock +2.39% vs benchmark +0.83% -> relative +1.57%.",
           "data_used": {
-            "stock_change_pct": 2.1364,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 1.1477
+            "stock_change_pct": 2.3946,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.5654
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2014,13 +2401,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 0.55,
-            "below_mean_pct": 3.43,
-            "change_pct": 2.1364
+            "broader_trend_pct": 0.81,
+            "below_mean_pct": 3.68,
+            "change_pct": 2.3946
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2028,18 +2415,18 @@
         },
         {
           "strategy_name": "breakout",
-          "score_contribution": 48.0,
+          "score_contribution": 70.0,
           "confidence": 0.4,
-          "signal": "NEUTRAL",
-          "reason": "No breakout (87% of range).",
+          "signal": "POSITIVE",
+          "reason": "Near range high (90%) with up-trend confirmation — breakout setup.",
           "data_used": {
-            "pos_in_range": 0.87,
+            "pos_in_range": 0.9,
             "trend_up": true,
-            "change_pct": 2.1364
+            "change_pct": 2.3946
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2062,7 +2449,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2070,17 +2457,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 41.6,
+          "score_contribution": 40.9,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.46% / daily move 2.1364% -> stability score 42.",
+          "reason": "Volatility 1.48% / daily move 2.3946% -> stability score 41.",
           "data_used": {
-            "volatility_pct": 1.46,
-            "change_pct": 2.1364
+            "volatility_pct": 1.478,
+            "change_pct": 2.3946
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2100,7 +2487,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2109,18 +2496,18 @@
       ],
       "conflict_warnings": [],
       "warnings": [],
-      "estimated_cost": 5.58,
+      "estimated_cost": 5.59,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 791.2000122070312,
-        "change_pct": 2.1364,
+        "price": 793.2000122070312,
+        "change_pct": 2.3946,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:37+05:30",
+        "extracted_at": "2026-06-24T17:30:03+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 791.2000122070312,
-      "mtm_price_used": 791.2000122070312,
+      "entry_price_used": 793.2000122070312,
+      "mtm_price_used": 793.2000122070312,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -2139,24 +2526,24 @@
         "[HIGH] HDFC Bank (HDB) Fell as Deposit Fell Short of Expectations",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_9d8a2dd3f178",
+      "signal_id": "sig_7fa57f6c3a95",
       "symbol": "LT.NS",
       "name": "Larsen & Toubro",
       "exchange": "NSE",
-      "score": 55.1,
+      "score": 53.3,
       "label": "NO_ACTION",
       "risk_level": "MEDIUM",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 55.1/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=78, news_event_risk=70, volatility_risk=43. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
-      "last_price": 4192.60009765625,
-      "checkpoint": "mid",
+      "reason": "Final 53.3/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=76, news_event_risk=70, volatility_risk=43. Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
+      "last_price": 4181.7001953125,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 78.5,
-        "relative_strength": 33.2,
+        "trend_following": 76.1,
+        "relative_strength": 30.6,
         "mean_reversion": 52.0,
         "breakout": 70.0,
         "news_event_risk": 70.0,
@@ -2167,18 +2554,18 @@
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 78.5,
+          "score_contribution": 76.1,
           "confidence": 0.78,
           "signal": "POSITIVE",
-          "reason": "Trend +3.95% over 23 points, smoothness 59%.",
+          "reason": "Trend +3.68% over 23 points, smoothness 59%.",
           "data_used": {
-            "trend_pct": 3.947,
+            "trend_pct": 3.677,
             "points": 23,
             "smoothness": 0.59
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2186,18 +2573,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 33.2,
+          "score_contribution": 30.6,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Stock +0.32% vs benchmark +0.99% -> relative -0.67%.",
+          "reason": "Stock +0.06% vs benchmark +0.83% -> relative -0.77%.",
           "data_used": {
-            "stock_change_pct": 0.3158,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -0.6729
+            "stock_change_pct": 0.055,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -0.7742
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2210,13 +2597,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 3.95,
-            "below_mean_pct": 3.42,
-            "change_pct": 0.3158
+            "broader_trend_pct": 3.68,
+            "below_mean_pct": 3.16,
+            "change_pct": 0.055
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2227,15 +2614,15 @@
           "score_contribution": 70.0,
           "confidence": 0.4,
           "signal": "POSITIVE",
-          "reason": "Near range high (95%) with up-trend confirmation — breakout setup.",
+          "reason": "Near range high (92%) with up-trend confirmation — breakout setup.",
           "data_used": {
-            "pos_in_range": 0.95,
+            "pos_in_range": 0.92,
             "trend_up": true,
-            "change_pct": 0.3158
+            "change_pct": 0.055
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2256,7 +2643,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2267,14 +2654,14 @@
           "score_contribution": 43.3,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.42% / daily move 0.3158% -> stability score 43.",
+          "reason": "Volatility 1.42% / daily move 0.055% -> stability score 43.",
           "data_used": {
             "volatility_pct": 1.416,
-            "change_pct": 0.3158
+            "change_pct": 0.055
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2293,12 +2680,12 @@
             "already_held": false
           },
           "warnings": [
-            "Share price ₹4193 exceeds per-trade cap ₹2000."
+            "Share price ₹4182 exceeds per-trade cap ₹2000."
           ],
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2309,20 +2696,20 @@
         "Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
       ],
       "warnings": [
-        "Share price ₹4193 exceeds per-trade cap ₹2000."
+        "Share price ₹4182 exceeds per-trade cap ₹2000."
       ],
       "estimated_cost": 0.0,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 4192.60009765625,
-        "change_pct": 0.3158,
+        "price": 4181.7001953125,
+        "change_pct": 0.055,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:40+05:30",
+        "extracted_at": "2026-06-24T17:30:05+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 4192.60009765625,
-      "mtm_price_used": 4192.60009765625,
+      "entry_price_used": 4181.7001953125,
+      "mtm_price_used": 4181.7001953125,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -2335,46 +2722,46 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_3e9eae58116a",
+      "signal_id": "sig_d476d9ae4472",
       "symbol": "BHARTIARTL.NS",
       "name": "Bharti Airtel",
       "exchange": "NSE",
-      "score": 51.2,
-      "label": "NO_ACTION",
-      "risk_level": "MEDIUM",
+      "score": 49.9,
+      "label": "DO_NOT_BUY",
+      "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 51.2/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=59. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-      "last_price": 1882.4000244140625,
-      "checkpoint": "mid",
+      "reason": "Final 49.9/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=58. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
+      "last_price": 1877.300048828125,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 46.7,
+        "trend_following": 44.3,
         "relative_strength": 0.0,
         "mean_reversion": 52.0,
         "breakout": 48.0,
         "news_event_risk": 75.0,
-        "volatility_risk": 58.9,
+        "volatility_risk": 58.4,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 46.7,
+          "score_contribution": 44.3,
           "confidence": 0.78,
           "signal": "NEUTRAL",
-          "reason": "Trend +0.41% over 23 points, smoothness 55%.",
+          "reason": "Trend +0.13% over 23 points, smoothness 55%.",
           "data_used": {
-            "trend_pct": 0.405,
+            "trend_pct": 0.133,
             "points": 23,
             "smoothness": 0.55
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2385,15 +2772,15 @@
           "score_contribution": 0.0,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Stock -1.01% vs benchmark +0.99% -> relative -2.00%.",
+          "reason": "Stock -1.28% vs benchmark +0.83% -> relative -2.11%.",
           "data_used": {
-            "stock_change_pct": -1.0097,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -1.9984000000000002
+            "stock_change_pct": -1.2779,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -2.1071
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2406,13 +2793,13 @@
           "signal": "NEUTRAL",
           "reason": "No clear mean-reversion setup.",
           "data_used": {
-            "broader_trend_pct": 0.41,
-            "below_mean_pct": 2.18,
-            "change_pct": -1.0097
+            "broader_trend_pct": 0.13,
+            "below_mean_pct": 1.92,
+            "change_pct": -1.2779
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2423,15 +2810,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (76% of range).",
+          "reason": "No breakout (72% of range).",
           "data_used": {
-            "pos_in_range": 0.76,
+            "pos_in_range": 0.72,
             "trend_up": true,
-            "change_pct": -1.0097
+            "change_pct": -1.2779
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2453,7 +2840,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2461,17 +2848,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 58.9,
+          "score_contribution": 58.4,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.03% / daily move -1.0097% -> stability score 59.",
+          "reason": "Volatility 1.04% / daily move -1.2779% -> stability score 58.",
           "data_used": {
-            "volatility_pct": 1.027,
-            "change_pct": -1.0097
+            "volatility_pct": 1.041,
+            "change_pct": -1.2779
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2491,7 +2878,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2502,18 +2889,18 @@
         "Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative."
       ],
       "warnings": [],
-      "estimated_cost": 6.63,
+      "estimated_cost": 6.62,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1882.4000244140625,
-        "change_pct": -1.0097,
+        "price": 1877.300048828125,
+        "change_pct": -1.2779,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:41+05:30",
+        "extracted_at": "2026-06-24T17:30:06+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1882.4000244140625,
-      "mtm_price_used": 1882.4000244140625,
+      "entry_price_used": 1877.300048828125,
+      "mtm_price_used": 1877.300048828125,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -2526,24 +2913,24 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_bb9c7c08f9f7",
+      "signal_id": "sig_53b9c0cc356d",
       "symbol": "INFY.NS",
       "name": "Infosys",
       "exchange": "NSE",
-      "score": 49.7,
+      "score": 48.1,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 49.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=100, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
-      "last_price": 1062.0,
-      "checkpoint": "mid",
+      "reason": "Final 48.1/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=96, portfolio_fit=80, news_event_risk=53. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
+      "last_price": 1056.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 0.0,
-        "relative_strength": 100.0,
+        "relative_strength": 95.6,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 53.0,
@@ -2557,15 +2944,15 @@
           "score_contribution": 0.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -9.11% over 23 points, smoothness 45%.",
+          "reason": "Trend -9.58% over 23 points, smoothness 45%.",
           "data_used": {
-            "trend_pct": -9.114,
+            "trend_pct": -9.576,
             "points": 23,
             "smoothness": 0.45
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2573,18 +2960,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 100.0,
+          "score_contribution": 95.6,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +3.18% vs benchmark +0.99% -> relative +2.19%.",
+          "reason": "Stock +2.65% vs benchmark +0.83% -> relative +1.82%.",
           "data_used": {
-            "stock_change_pct": 3.1769,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 2.1881999999999997
+            "stock_change_pct": 2.6523,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.8230999999999997
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2595,15 +2982,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-9.11%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-9.58%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -9.11,
-            "below_mean_pct": -7.57,
-            "change_pct": 3.1769
+            "broader_trend_pct": -9.58,
+            "below_mean_pct": -8.03,
+            "change_pct": 2.6523
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2614,15 +3001,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (14% of range).",
+          "reason": "No breakout (11% of range).",
           "data_used": {
-            "pos_in_range": 0.14,
+            "pos_in_range": 0.11,
             "trend_up": false,
-            "change_pct": 3.1769
+            "change_pct": 2.6523
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2645,7 +3032,7 @@
           "risk_flags": [
             "news:miss"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2656,16 +3043,14 @@
           "score_contribution": 0.0,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Volatility 2.67% / daily move 3.1769% -> stability score 0.",
+          "reason": "Volatility 2.64% / daily move 2.6523% -> stability score 0.",
           "data_used": {
-            "volatility_pct": 2.673,
-            "change_pct": 3.1769
+            "volatility_pct": 2.644,
+            "change_pct": 2.6523
           },
           "warnings": [],
-          "risk_flags": [
-            "large_daily_move"
-          ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "risk_flags": [],
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2685,7 +3070,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2696,18 +3081,18 @@
         "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
       ],
       "warnings": [],
-      "estimated_cost": 3.74,
+      "estimated_cost": 3.72,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1062.0,
-        "change_pct": 3.1769,
+        "price": 1056.5999755859375,
+        "change_pct": 2.6523,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:38+05:30",
+        "extracted_at": "2026-06-24T17:30:03+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1062.0,
-      "mtm_price_used": 1062.0,
+      "entry_price_used": 1056.5999755859375,
+      "mtm_price_used": 1056.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -2720,46 +3105,46 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_398e56d36e36",
+      "signal_id": "sig_c6654d3cecd0",
       "symbol": "RELIANCE.NS",
       "name": "Reliance Industries",
       "exchange": "NSE",
-      "score": 48.0,
+      "score": 44.7,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 48.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=55, relative_strength=46. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
-      "last_price": 1320.4000244140625,
-      "checkpoint": "mid",
+      "reason": "Final 44.7/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=56, news_event_risk=41. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+      "last_price": 1313.5999755859375,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 13.1,
-        "relative_strength": 46.1,
+        "trend_following": 9.0,
+        "relative_strength": 37.1,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 41.0,
-        "volatility_risk": 54.8,
+        "volatility_risk": 55.5,
         "portfolio_fit": 80.0
       },
       "market_regime": "RISK_ON",
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 13.1,
+          "score_contribution": 9.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -3.41% over 23 points, smoothness 41%.",
+          "reason": "Trend -3.91% over 23 points, smoothness 41%.",
           "data_used": {
-            "trend_pct": -3.409,
+            "trend_pct": -3.906,
             "points": 23,
             "smoothness": 0.41
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2767,18 +3152,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 46.1,
+          "score_contribution": 37.1,
           "confidence": 0.6,
-          "signal": "NEUTRAL",
-          "reason": "Stock +0.83% vs benchmark +0.99% -> relative -0.16%.",
+          "signal": "NEGATIVE",
+          "reason": "Stock +0.31% vs benchmark +0.83% -> relative -0.52%.",
           "data_used": {
-            "stock_change_pct": 0.8324,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -0.1563
+            "stock_change_pct": 0.3131,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -0.5161
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2789,15 +3174,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-3.41%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-3.91%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -3.41,
-            "below_mean_pct": 0.57,
-            "change_pct": 0.8324
+            "broader_trend_pct": -3.91,
+            "below_mean_pct": 0.07,
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2808,15 +3193,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (57% of range).",
+          "reason": "No breakout (51% of range).",
           "data_used": {
-            "pos_in_range": 0.57,
+            "pos_in_range": 0.51,
             "trend_up": false,
-            "change_pct": 0.8324
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2841,7 +3226,7 @@
             "news:ban",
             "news:fine"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2849,17 +3234,17 @@
         },
         {
           "strategy_name": "volatility_risk",
-          "score_contribution": 54.8,
+          "score_contribution": 55.5,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.13% / daily move 0.8324% -> stability score 55.",
+          "reason": "Volatility 1.11% / daily move 0.3131% -> stability score 55.",
           "data_used": {
-            "volatility_pct": 1.129,
-            "change_pct": 0.8324
+            "volatility_pct": 1.114,
+            "change_pct": 0.3131
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2879,7 +3264,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2890,18 +3275,18 @@
         "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
       ],
       "warnings": [],
-      "estimated_cost": 4.65,
+      "estimated_cost": 4.63,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 1320.4000244140625,
-        "change_pct": 0.8324,
+        "price": 1313.5999755859375,
+        "change_pct": 0.3131,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:36+05:30",
+        "extracted_at": "2026-06-24T17:30:02+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 1320.4000244140625,
-      "mtm_price_used": 1320.4000244140625,
+      "entry_price_used": 1313.5999755859375,
+      "mtm_price_used": 1313.5999755859375,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -2915,24 +3300,24 @@
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
         "[HIGH] Billionaire Ambani wants AI in every call, app, and home"
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_cea0b2641bee",
+      "signal_id": "sig_58ad504c3548",
       "symbol": "TCS.NS",
       "name": "Tata Consultancy Services",
       "exchange": "NSE",
-      "score": 44.2,
+      "score": 42.6,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 44.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=93, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
-      "last_price": 2115.60009765625,
-      "checkpoint": "mid",
+      "reason": "Final 42.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: relative_strength=89, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+      "last_price": 2109.0,
+      "checkpoint": "close",
       "score_breakdown": {
         "trend_following": 0.0,
-        "relative_strength": 93.3,
+        "relative_strength": 89.2,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 65.0,
@@ -2946,15 +3331,15 @@
           "score_contribution": 0.0,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -8.34% over 23 points, smoothness 50%.",
+          "reason": "Trend -8.63% over 23 points, smoothness 50%.",
           "data_used": {
-            "trend_pct": -8.344,
+            "trend_pct": -8.63,
             "points": 23,
             "smoothness": 0.5
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2962,18 +3347,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 93.3,
+          "score_contribution": 89.2,
           "confidence": 0.6,
           "signal": "POSITIVE",
-          "reason": "Stock +2.72% vs benchmark +0.99% -> relative +1.73%.",
+          "reason": "Stock +2.40% vs benchmark +0.83% -> relative +1.57%.",
           "data_used": {
-            "stock_change_pct": 2.719,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": 1.7302999999999997
+            "stock_change_pct": 2.3985,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": 1.5692999999999997
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2984,15 +3369,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-8.34%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-8.63%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -8.34,
-            "below_mean_pct": -4.23,
-            "change_pct": 2.719
+            "broader_trend_pct": -8.63,
+            "below_mean_pct": -4.51,
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3003,15 +3388,15 @@
           "score_contribution": 48.0,
           "confidence": 0.4,
           "signal": "NEUTRAL",
-          "reason": "No breakout (14% of range).",
+          "reason": "No breakout (13% of range).",
           "data_used": {
-            "pos_in_range": 0.14,
+            "pos_in_range": 0.13,
             "trend_up": false,
-            "change_pct": 2.719
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3030,7 +3415,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3041,14 +3426,14 @@
           "score_contribution": 0.0,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Volatility 2.71% / daily move 2.719% -> stability score 0.",
+          "reason": "Volatility 2.69% / daily move 2.3985% -> stability score 0.",
           "data_used": {
-            "volatility_pct": 2.711,
-            "change_pct": 2.719
+            "volatility_pct": 2.695,
+            "change_pct": 2.3985
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3067,12 +3452,12 @@
             "already_held": false
           },
           "warnings": [
-            "Share price ₹2116 exceeds per-trade cap ₹2000."
+            "Share price ₹2109 exceeds per-trade cap ₹2000."
           ],
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3083,20 +3468,20 @@
         "Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
       ],
       "warnings": [
-        "Share price ₹2116 exceeds per-trade cap ₹2000."
+        "Share price ₹2109 exceeds per-trade cap ₹2000."
       ],
       "estimated_cost": 0.0,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 2115.60009765625,
-        "change_pct": 2.719,
+        "price": 2109.0,
+        "change_pct": 2.3985,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:37+05:30",
+        "extracted_at": "2026-06-24T17:30:02+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
-      "entry_price_used": 2115.60009765625,
-      "mtm_price_used": 2115.60009765625,
+      "entry_price_used": 2109.0,
+      "mtm_price_used": 2109.0,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -3104,29 +3489,29 @@
       "news_sentiment": "NEUTRAL",
       "news_event_types": [],
       "news_blocks_buy": false,
-      "news_item_count": 12,
-      "news_top_headline": "DXC Collects $213 , 560 , 494 . 98 in Landmark IP Theft Case From TCS",
+      "news_item_count": 10,
+      "news_top_headline": "India's Nifty IT index at three-year low as bellwether Accenture flags weak outlook",
       "news_reasons": [
-        "12 relevant item(s); worst risk NONE, sentiment NEUTRAL."
+        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     },
     {
-      "signal_id": "sig_638fbafdfef2",
+      "signal_id": "sig_65f6bf5679bc",
       "symbol": "ITC.NS",
       "name": "ITC",
       "exchange": "NSE",
-      "score": 41.6,
+      "score": 41.2,
       "label": "DO_NOT_BUY",
       "risk_level": "HIGH",
       "confidence": 0.66,
       "data_quality": "GOOD",
-      "reason": "Final 41.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35.",
-      "last_price": 290.54998779296875,
-      "checkpoint": "mid",
+      "reason": "Final 41.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=50, portfolio_fit=35.",
+      "last_price": 290.3500061035156,
+      "checkpoint": "close",
       "score_breakdown": {
-        "trend_following": 5.1,
-        "relative_strength": 30.0,
+        "trend_following": 4.5,
+        "relative_strength": 32.3,
         "mean_reversion": 40.0,
         "breakout": 48.0,
         "news_event_risk": 65.0,
@@ -3137,18 +3522,18 @@
       "strategy_results": [
         {
           "strategy_name": "trend_following",
-          "score_contribution": 5.1,
+          "score_contribution": 4.5,
           "confidence": 0.78,
           "signal": "NEGATIVE",
-          "reason": "Trend -4.41% over 23 points, smoothness 55%.",
+          "reason": "Trend -4.47% over 23 points, smoothness 55%.",
           "data_used": {
-            "trend_pct": -4.409,
+            "trend_pct": -4.474,
             "points": 23,
             "smoothness": 0.55
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3156,18 +3541,18 @@
         },
         {
           "strategy_name": "relative_strength",
-          "score_contribution": 30.0,
+          "score_contribution": 32.3,
           "confidence": 0.6,
           "signal": "NEGATIVE",
-          "reason": "Stock +0.19% vs benchmark +0.99% -> relative -0.80%.",
+          "reason": "Stock +0.12% vs benchmark +0.83% -> relative -0.71%.",
           "data_used": {
-            "stock_change_pct": 0.1897,
-            "benchmark_change_pct": 0.9887,
-            "relative_pct": -0.799
+            "stock_change_pct": 0.1207,
+            "benchmark_change_pct": 0.8292,
+            "relative_pct": -0.7085
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3178,15 +3563,15 @@
           "score_contribution": 40.0,
           "confidence": 0.4,
           "signal": "NEGATIVE",
-          "reason": "Pullback inside a flat/down trend (-4.41%) — not constructive.",
+          "reason": "Pullback inside a flat/down trend (-4.47%) — not constructive.",
           "data_used": {
-            "broader_trend_pct": -4.41,
-            "below_mean_pct": 1.04,
-            "change_pct": 0.1897
+            "broader_trend_pct": -4.47,
+            "below_mean_pct": 0.98,
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3201,11 +3586,11 @@
           "data_used": {
             "pos_in_range": 0.5,
             "trend_up": false,
-            "change_pct": 0.1897
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3224,7 +3609,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3235,14 +3620,14 @@
           "score_contribution": 50.4,
           "confidence": 0.6,
           "signal": "NEUTRAL",
-          "reason": "Volatility 1.24% / daily move 0.1897% -> stability score 50.",
+          "reason": "Volatility 1.24% / daily move 0.1207% -> stability score 50.",
           "data_used": {
-            "volatility_pct": 1.24,
-            "change_pct": 0.1897
+            "volatility_pct": 1.239,
+            "change_pct": 0.1207
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3266,7 +3651,7 @@
           "risk_flags": [
             "already_held"
           ],
-          "timestamp": "2026-06-24T14:28:42+05:30",
+          "timestamp": "2026-06-24T17:30:07+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3280,15 +3665,15 @@
       "estimated_cost": 6.14,
       "led_to_paper_trade": false,
       "data_snapshot": {
-        "price": 290.54998779296875,
-        "change_pct": 0.1897,
+        "price": 290.3500061035156,
+        "change_pct": 0.1207,
         "graph_points": 23,
-        "extracted_at": "2026-06-24T14:28:40+05:30",
+        "extracted_at": "2026-06-24T17:30:06+05:30",
         "headlines_count": 1
       },
       "price_source": "history.close",
-      "entry_price_used": 290.54998779296875,
-      "mtm_price_used": 290.54998779296875,
+      "entry_price_used": 290.3500061035156,
+      "mtm_price_used": 290.3500061035156,
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
@@ -3301,27 +3686,27 @@
       "news_reasons": [
         "1 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-24T14:28:42+05:30"
+      "created_at": "2026-06-24T17:30:07+05:30"
     }
   ],
   "api_usage": {
     "month": "2026-06",
-    "calls_total": 144,
+    "calls_total": 156,
     "daily": {
       "2026-06-23": 120,
-      "2026-06-24": 24
+      "2026-06-24": 36
     },
     "warnings": [],
     "provider": "yfinance",
     "budget_enabled": false,
-    "calls_today": 24,
-    "last_updated": "2026-06-24T14:29:50+05:30",
+    "calls_today": 36,
+    "last_updated": "2026-06-24T17:31:33+05:30",
     "note": "yfinance has no API key/quota; polite limits applied."
   },
   "data_quality_warnings": [
     "Already held — adding would require averaging (blocked) and reduces diversification.",
-    "Share price ₹2116 exceeds per-trade cap ₹2000.",
-    "Share price ₹4193 exceeds per-trade cap ₹2000.",
+    "Share price ₹2109 exceeds per-trade cap ₹2000.",
+    "Share price ₹4182 exceeds per-trade cap ₹2000.",
     "1 data-quality incident(s) this run — see Data Health."
   ],
   "research": {
@@ -3339,13 +3724,41 @@
     "real_trading_eligible": []
   },
   "strategy_evaluation": {
-    "as_of": "2026-06-24T14:29:50+05:30",
+    "as_of": "2026-06-24T17:31:33+05:30",
     "portfolio_max_drawdown_pct": 0.0,
-    "total_signals": 120,
+    "total_signals": 130,
     "total_paper_trades": 1,
     "strategies": {
       "trend_following": {
-        "signals_generated": 120,
+        "signals_generated": 130,
+        "paper_trades_triggered": 1,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "average_gain": 0.0,
+        "average_loss": 0.0,
+        "false_positive_count": 0,
+        "avoided_bad_trade_count": 44,
+        "average_score_contribution": 47.7,
+        "confidence_accuracy": null,
+        "notes": "Insufficient sample to judge; continue paper testing."
+      },
+      "relative_strength": {
+        "signals_generated": 130,
+        "paper_trades_triggered": 1,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": 0.0,
+        "average_gain": 0.0,
+        "average_loss": 0.0,
+        "false_positive_count": 0,
+        "avoided_bad_trade_count": 69,
+        "average_score_contribution": 37.7,
+        "confidence_accuracy": null,
+        "notes": "Insufficient sample to judge; continue paper testing."
+      },
+      "news_event_risk": {
+        "signals_generated": 130,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3354,40 +3767,12 @@
         "average_loss": 0.0,
         "false_positive_count": 0,
         "avoided_bad_trade_count": 40,
-        "average_score_contribution": 47.9,
-        "confidence_accuracy": null,
-        "notes": "Insufficient sample to judge; continue paper testing."
-      },
-      "relative_strength": {
-        "signals_generated": 120,
-        "paper_trades_triggered": 1,
-        "wins": 0,
-        "losses": 0,
-        "win_rate": 0.0,
-        "average_gain": 0.0,
-        "average_loss": 0.0,
-        "false_positive_count": 0,
-        "avoided_bad_trade_count": 65,
-        "average_score_contribution": 35.9,
-        "confidence_accuracy": null,
-        "notes": "Insufficient sample to judge; continue paper testing."
-      },
-      "news_event_risk": {
-        "signals_generated": 120,
-        "paper_trades_triggered": 1,
-        "wins": 0,
-        "losses": 0,
-        "win_rate": 0.0,
-        "average_gain": 0.0,
-        "average_loss": 0.0,
-        "false_positive_count": 0,
-        "avoided_bad_trade_count": 37,
-        "average_score_contribution": 60.1,
+        "average_score_contribution": 59.9,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "volatility_risk": {
-        "signals_generated": 120,
+        "signals_generated": 130,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3395,13 +3780,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 12,
-        "average_score_contribution": 68.5,
+        "avoided_bad_trade_count": 14,
+        "average_score_contribution": 66.4,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "portfolio_fit": {
-        "signals_generated": 120,
+        "signals_generated": 130,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3409,8 +3794,8 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 88,
-        "average_score_contribution": 27.0,
+        "avoided_bad_trade_count": 91,
+        "average_score_contribution": 29.8,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       }
@@ -3457,34 +3842,33 @@
   ],
   "news_summary": {
     "providers_used": [
-      "gdelt",
       "yfinance"
     ],
     "symbols_assessed": 10,
     "symbols_with_news": 10,
-    "total_items": 93,
+    "total_items": 91,
     "blocked_buys": 3,
     "critical_count": 0,
     "high_count": 3,
     "alerts_this_run": 0,
     "newsapi_enabled": false,
-    "last_run": "2026-06-24T14:29:50+05:30",
-    "checkpoint": "mid",
+    "last_run": "2026-06-24T17:31:33+05:30",
+    "checkpoint": "close",
     "overall": "ELEVATED"
   },
   "decision_quality": {
     "metrics": {
-      "total_tracked_episodes": 20,
+      "total_tracked_episodes": 30,
       "matured_episodes": 20,
       "paper_trades": 1,
       "distinct_days": 2,
-      "action_rate_pct": 5.0,
+      "action_rate_pct": 3.3,
       "avg_forward_return_acted_pct": 6.0,
       "avg_forward_return_not_acted_pct": 0.2,
       "decision_edge_pct": 5.52,
       "buy_grade_hit_rate_pct": 100.0,
       "buy_grade_avg_return_pct": 6.0,
-      "benchmark_outperformance_pct": 7.19,
+      "benchmark_outperformance_pct": 7.34,
       "benchmark_verdict": "AHEAD"
     },
     "readiness": {
@@ -3502,15 +3886,15 @@
       "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict."
     },
     "benchmark": {
-      "as_of": "2026-06-24T14:29:50+05:30",
+      "as_of": "2026-06-24T17:31:33+05:30",
       "ready": true,
-      "points": 12,
+      "points": 13,
       "from_date": "2026-06-23",
       "to_date": "2026-06-24",
       "benchmark_name": "NIFTY 50",
-      "benchmark_return_pct": -6.28,
+      "benchmark_return_pct": -6.43,
       "portfolio_return_pct": 0.91,
-      "outperformance_pct": 7.19,
+      "outperformance_pct": 7.34,
       "verdict": "AHEAD",
       "history": [
         {
@@ -3606,6 +3990,14 @@
           "ts": "2026-06-24T14:29:50+05:30",
           "checkpoint": "mid",
           "nifty_close": 24059.650390625,
+          "portfolio_total": 10091.5,
+          "starting_capital": 10000.0
+        },
+        {
+          "date": "2026-06-24",
+          "ts": "2026-06-24T17:31:33+05:30",
+          "checkpoint": "close",
+          "nifty_close": 24021.650390625,
           "portfolio_total": 10091.5,
           "starting_capital": 10000.0
         }
