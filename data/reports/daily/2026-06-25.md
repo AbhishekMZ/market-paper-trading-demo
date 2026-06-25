@@ -48,7 +48,7 @@ BHARTIARTL.NS(47.5), RELIANCE.NS(46.9), ITC.NS(41.4), INFY.NS(28.9), TCS.NS(28.6
 - ITC.NS (DO_NOT_BUY, 41.4): Final 41.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, volatility_risk=52, relative_strength=43.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 60 · total this month: 216 (no API-key quota)
+- Provider: `yfinance` · calls today: 72 · total this month: 228 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
