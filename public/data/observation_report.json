@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-06-25T12:38:19+05:30",
+  "as_of": "2026-06-25T13:24:07+05:30",
   "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 9,
   "observed": 9,
   "open_positions_observed": 1,
-  "triggers_this_run": 3,
-  "escalations": 0,
+  "triggers_this_run": 4,
+  "escalations": 1,
   "actions_taken": [],
-  "blocked_actions": [],
+  "blocked_actions": [
+    {
+      "symbol": "BHARTIARTL.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
   "throttled": 3,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 15,
-    "triggers_detected": 62,
-    "escalations_created": 29,
+    "observation_runs": 16,
+    "triggers_detected": 66,
+    "escalations_created": 30,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 19,
+    "blocked_actions_from_triggers": 20,
     "emails_sent_total": 0,
-    "last_run": "2026-06-25T12:38:19+05:30",
+    "last_run": "2026-06-25T13:24:07+05:30",
     "last_watchlist_size": 9
   },
   "result": {
@@ -28,8 +34,8 @@
       "ITC.NS",
       "HDFCBANK.NS",
       "ICICIBANK.NS",
+      "BHARTIARTL.NS",
       "AXISBANK.NS",
-      "LT.NS",
       "SBIN.NS",
       "RELIANCE.NS",
       "INFY.NS",
@@ -47,7 +53,7 @@
         "company_name": "HDFC Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 800.25,
+        "price_at_detection": 802.1500244140625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -57,8 +63,8 @@
         "requires_focused_analysis": false,
         "blocks_action": true,
         "created_escalation_id": null,
-        "trigger_id": "trg_6e703ea31384",
-        "detected_at": "2026-06-25T12:38:15+05:30"
+        "trigger_id": "trg_d51a31a71266",
+        "detected_at": "2026-06-25T13:24:04+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -68,7 +74,7 @@
         "company_name": "ICICI Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1398.9000244140625,
+        "price_at_detection": 1397.699951171875,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -78,8 +84,29 @@
         "requires_focused_analysis": false,
         "blocks_action": true,
         "created_escalation_id": null,
-        "trigger_id": "trg_8d64e39e0b0d",
-        "detected_at": "2026-06-25T12:38:16+05:30"
+        "trigger_id": "trg_6fcfd4b46108",
+        "detected_at": "2026-06-25T13:24:05+05:30"
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "Bharti Airtel",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1864.0,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "RISK_ON",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block any buy; review if held.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_070505cf574b",
+        "trigger_id": "trg_4a699cf2b6e5",
+        "detected_at": "2026-06-25T13:24:05+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -89,7 +116,7 @@
         "company_name": "Axis Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1388.0,
+        "price_at_detection": 1381.9000244140625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -99,8 +126,8 @@
         "requires_focused_analysis": false,
         "blocks_action": true,
         "created_escalation_id": null,
-        "trigger_id": "trg_9d0a719cd76b",
-        "detected_at": "2026-06-25T12:38:16+05:30"
+        "trigger_id": "trg_106a1ef46a1b",
+        "detected_at": "2026-06-25T13:24:06+05:30"
       }
     ],
     "throttled": [
@@ -120,10 +147,35 @@
         "reason": "cooldown"
       }
     ],
-    "escalations": [],
+    "escalations": [
+      {
+        "symbol": "BHARTIARTL.NS",
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_4a699cf2b6e5"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_070505cf574b",
+        "created_at": "2026-06-25T13:24:07+05:30",
+        "expires_at": "2026-06-25T13:24:07+05:30"
+      }
+    ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "BHARTIARTL.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-06-25T12:38:14+05:30"
+    "as_of": "2026-06-25T13:24:04+05:30"
   }
 }
