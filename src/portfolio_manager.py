@@ -35,6 +35,23 @@ class PortfolioManager:
                 "realized_pnl_month": 0.0,
             }
             storage.save_state("monthly_budget", budget)
+        else:
+            # Keep config-derived caps in sync within the same month, so a
+            # mid-month settings change (e.g. raising max_buys_per_month or
+            # monthly_capital) is reflected immediately instead of only at the
+            # start of the next month. Accumulated counters are preserved.
+            changed = False
+            if budget.get("max_buys_per_month") != self.max_buys_per_month:
+                budget["max_buys_per_month"] = self.max_buys_per_month
+                changed = True
+            if budget.get("monthly_capital") != self.monthly_capital:
+                budget["monthly_capital"] = self.monthly_capital
+                budget["capital_remaining"] = round(
+                    self.monthly_capital - budget.get("capital_deployed", 0.0), 2
+                )
+                changed = True
+            if changed:
+                storage.save_state("monthly_budget", budget)
         return budget
 
     def record_buy(self, amount: float) -> Dict[str, Any]:
