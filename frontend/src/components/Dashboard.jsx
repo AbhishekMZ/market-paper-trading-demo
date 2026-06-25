@@ -9,6 +9,7 @@ import {
 } from '../lib/format.js';
 import MarketRegimeCard from './MarketRegimeCard.jsx';
 import BiasWarnings from './BiasWarnings.jsx';
+import EvidenceSummary from './EvidenceSummary.jsx';
 
 function pct(part, whole) {
   const p = Number(part);
@@ -43,6 +44,14 @@ export default function Dashboard({ report }) {
                 Generated {formatDateTime(data.generated_at)} ({data.checkpoint} checkpoint).
               </p>
             </div>
+
+            {data.decision_quality ? (
+              <EvidenceSummary
+                summary={data.decision_quality.evidence_summary}
+                metrics={data.decision_quality.metrics}
+                readiness={data.decision_quality.readiness}
+              />
+            ) : null}
 
             {/* Top metric tiles */}
             <div className="grid cols-4">

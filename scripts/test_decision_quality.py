@@ -100,8 +100,12 @@ def main() -> int:
     print("readiness:", payload["readiness"]["verdict"], "live:", payload["readiness"]["live_trading"])
     assert payload["readiness"]["verdict"] == "NOT_ENOUGH_DATA"
     assert payload["readiness"]["live_trading"] == "DISABLED"
-    for key in ("metrics", "forward_returns", "shadow", "benchmark", "attribution", "threshold_analysis"):
+    for key in ("metrics", "evidence_summary", "forward_returns", "shadow", "benchmark", "attribution", "threshold_analysis"):
         assert key in payload, f"missing {key}"
+    evidence = payload["evidence_summary"]
+    assert evidence["live_trading"] == "DISABLED"
+    assert evidence["auto_tuning"] == "DISABLED"
+    assert evidence["maturity_checks"], "evidence maturity checks should be present"
 
     _reset_ledgers()  # leave clean; the demo seed regenerates committed state
     print("OK: all decision-quality invariants hold.")

@@ -382,6 +382,7 @@ def run(args: argparse.Namespace) -> int:
         "metrics": decision_quality.get("metrics"),
         "readiness": decision_quality.get("readiness"),
         "benchmark": decision_quality.get("benchmark"),
+        "evidence_summary": decision_quality.get("evidence_summary"),
     }
 
     # Persist runtime state BEFORE exporting so public/data reflects this run.
