@@ -1,46 +1,25 @@
 {
-  "as_of": "2026-06-25T12:25:01+05:30",
+  "as_of": "2026-06-25T12:38:19+05:30",
   "checkpoint": "mid",
   "mode": "lightweight_monitoring",
-  "watchlist_size": 8,
-  "observed": 8,
+  "watchlist_size": 9,
+  "observed": 9,
   "open_positions_observed": 1,
-  "triggers_this_run": 4,
-  "escalations": 4,
+  "triggers_this_run": 3,
+  "escalations": 0,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "SBIN.NS",
-      "blocked_by": "NEWS",
-      "trigger": "CRITICAL_NEWS"
-    },
-    {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "ICICIBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "AXISBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
-  "throttled": 0,
+  "blocked_actions": [],
+  "throttled": 3,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 14,
-    "triggers_detected": 59,
+    "observation_runs": 15,
+    "triggers_detected": 62,
     "escalations_created": 29,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 19,
     "emails_sent_total": 0,
-    "last_run": "2026-06-25T12:25:01+05:30",
-    "last_watchlist_size": 8
+    "last_run": "2026-06-25T12:38:19+05:30",
+    "last_watchlist_size": 9
   },
   "result": {
     "checkpoint": "mid",
@@ -50,6 +29,7 @@
       "HDFCBANK.NS",
       "ICICIBANK.NS",
       "AXISBANK.NS",
+      "LT.NS",
       "SBIN.NS",
       "RELIANCE.NS",
       "INFY.NS",
@@ -67,7 +47,7 @@
         "company_name": "HDFC Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 802.0,
+        "price_at_detection": 800.25,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -76,9 +56,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_59e25f46de9f",
-        "trigger_id": "trg_4fc99c707891",
-        "detected_at": "2026-06-25T12:24:58+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_6e703ea31384",
+        "detected_at": "2026-06-25T12:38:15+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -88,7 +68,7 @@
         "company_name": "ICICI Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1401.9000244140625,
+        "price_at_detection": 1398.9000244140625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -97,9 +77,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_e599e7aa67ad",
-        "trigger_id": "trg_2a1520a51f87",
-        "detected_at": "2026-06-25T12:24:59+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_8d64e39e0b0d",
+        "detected_at": "2026-06-25T12:38:16+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -109,7 +89,7 @@
         "company_name": "Axis Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1393.0999755859375,
+        "price_at_detection": 1388.0,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -118,131 +98,32 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_3f8cc3c4c4e5",
-        "trigger_id": "trg_3cdba630edb8",
-        "detected_at": "2026-06-25T12:24:59+05:30"
-      },
-      {
-        "symbol": "SBIN.NS",
-        "trigger_type": "CRITICAL_NEWS",
-        "severity": "CRITICAL",
-        "reason": "Critical adverse news.",
-        "company_name": "State Bank of India",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1052.75,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_ON",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_476cbca7f368",
-        "trigger_id": "trg_5bb1c9b73130",
-        "detected_at": "2026-06-25T12:24:59+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_9d0a719cd76b",
+        "detected_at": "2026-06-25T12:38:16+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
-      {
-        "symbol": "SBIN.NS",
-        "severity": "CRITICAL",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "Critical adverse news.",
-        "trigger_ids": [
-          "trg_5bb1c9b73130"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_476cbca7f368",
-        "created_at": "2026-06-25T12:25:01+05:30",
-        "expires_at": "2026-06-25T12:25:01+05:30"
-      },
+    "throttled": [
       {
         "symbol": "HDFCBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_4fc99c707891"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_59e25f46de9f",
-        "created_at": "2026-06-25T12:25:01+05:30",
-        "expires_at": "2026-06-25T12:25:01+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       },
       {
         "symbol": "ICICIBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_2a1520a51f87"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_e599e7aa67ad",
-        "created_at": "2026-06-25T12:25:01+05:30",
-        "expires_at": "2026-06-25T12:25:01+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       },
       {
         "symbol": "AXISBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_3cdba630edb8"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_3f8cc3c4c4e5",
-        "created_at": "2026-06-25T12:25:01+05:30",
-        "expires_at": "2026-06-25T12:25:01+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       }
     ],
+    "escalations": [],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "SBIN.NS",
-        "blocked_by": "NEWS",
-        "trigger": "CRITICAL_NEWS"
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-06-25T12:24:57+05:30"
+    "as_of": "2026-06-25T12:38:14+05:30"
   }
 }

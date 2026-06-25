@@ -5,13 +5,13 @@
   ],
   "symbols_assessed": 10,
   "symbols_with_news": 10,
-  "total_items": 97,
-  "blocked_buys": 4,
-  "critical_count": 1,
+  "total_items": 95,
+  "blocked_buys": 3,
+  "critical_count": 0,
   "high_count": 3,
-  "alerts_this_run": 1,
+  "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-06-25T12:24:57+05:30",
+  "last_run": "2026-06-25T12:38:14+05:30",
   "checkpoint": "mid",
-  "overall": "CRITICAL"
+  "overall": "ELEVATED"
 }

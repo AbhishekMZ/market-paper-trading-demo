@@ -2,28 +2,28 @@
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `RISK_ON` — Benchmarks up 0.84% on average — risk-on.
+**Market regime:** `RISK_ON` — Benchmarks up 0.72% on average — risk-on.
 
 ## 💰 Portfolio (fake money)
 - Total value: **₹10,091.50** (started ₹10,000.00)
 - Cash: ₹8,474.74 · Holdings: ₹1,616.76
 - Realized P&L: ₹0.00 · Unrealized: ₹91.50
 - Total return: +0.91% · Max drawdown: +0.00%
-- Monthly budget: deployed ₹1,525.26 / ₹10,000.00 · buys 1/5
+- Monthly budget: deployed ₹1,525.26 / ₹10,000.00 · buys 1/100
 - **Cost-adjusted** net realized: ₹0.00 (est. costs ₹0.00)
 
 ## ✅ Top paper-buy candidates
 - None this checkpoint.
 
 ## 👀 Watchlist
-SBIN.NS(71.2), ICICIBANK.NS(70.5)
+SBIN.NS(71.1), ICICIBANK.NS(70.3), LT.NS(65.6)
 
 ## 🚫 Do-not-buy
-RELIANCE.NS(46.5), ITC.NS(42.6), TCS.NS(33.9), INFY.NS(32.1)
+RELIANCE.NS(46.5), ITC.NS(42.2), TCS.NS(33.8), INFY.NS(31.4)
 
 ## 🧠 Strategy contribution summary
 - trend_following: avg 47/100 (weight 20)
-- relative_strength: avg 48/100 (weight 20)
+- relative_strength: avg 47/100 (weight 20)
 - mean_reversion _(display-only)_: avg 46/100 (weight 0)
 - breakout _(display-only)_: avg 59/100 (weight 0)
 - news_event_risk: avg 57/100 (weight 15)
@@ -37,22 +37,22 @@ RELIANCE.NS(46.5), ITC.NS(42.6), TCS.NS(33.9), INFY.NS(32.1)
 - INFY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 
 ## 🤔 Why no trade (selected)
-- SBIN.NS (WATCH, 71.2): Final 71.2/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=73.
-- ICICIBANK.NS (WATCH, 70.5): Final 70.5/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, relative_strength=79.
-- LT.NS (NO_ACTION, 64.7): Final 64.7/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=88, relative_strength=75, news_event_risk=70. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
-- AXISBANK.NS (NO_ACTION, 62.6): Final 62.6/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=55.
-- HDFCBANK.NS (NO_ACTION, 58.6): Final 58.6/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, trend_following=60, relative_strength=57.
-- BHARTIARTL.NS (NO_ACTION, 50.2): Final 50.2/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=59. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- SBIN.NS (WATCH, 71.1): Final 71.1/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=71.
+- ICICIBANK.NS (WATCH, 70.3): Final 70.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, relative_strength=78.
+- LT.NS (WATCH, 65.6): Final 65.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, relative_strength=80, news_event_risk=70. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
+- AXISBANK.NS (NO_ACTION, 60.6): Final 60.6/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, volatility_risk=55.
+- HDFCBANK.NS (NO_ACTION, 57.8): Final 57.8/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, trend_following=59, relative_strength=54.
+- BHARTIARTL.NS (NO_ACTION, 50.6): Final 50.6/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=75, volatility_risk=59. Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.
 - RELIANCE.NS (DO_NOT_BUY, 46.5): Final 46.5/100 -> DO_NOT_BUY [regime RISK_ON]. Top: portfolio_fit=80, volatility_risk=56, relative_strength=42. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- ITC.NS (DO_NOT_BUY, 42.6): Final 42.6/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=51, relative_strength=36.
+- ITC.NS (DO_NOT_BUY, 42.2): Final 42.2/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, volatility_risk=51, relative_strength=35.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 12 · total this month: 168 (no API-key quota)
+- Provider: `yfinance` · calls today: 24 · total this month: 180 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
-- Share price ₹2123 exceeds per-trade cap ₹2000.
-- Share price ₹4260 exceeds per-trade cap ₹2000.
+- Share price ₹2121 exceeds per-trade cap ₹2000.
+- Share price ₹4264 exceeds per-trade cap ₹2000.
 - 1 data-quality incident(s) this run — see Data Health.
 
 ## 🔭 Future-readiness checklist
