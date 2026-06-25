@@ -7,8 +7,11 @@
 risk:
   max_trade_amount: 2000           # ₹ per single paper trade
   monthly_capital_cap: 10000       # ₹ deployable per month
-  max_buys_per_day: 1
-  max_buys_per_month: 5
+  # Count caps are deliberately high so the ₹ budget (monthly_capital_cap /
+  # max_trade_amount / max_position_allocation_pct) is the ONLY real limit on
+  # how many paper buys can happen. To fund more buys, raise capital — not these.
+  max_buys_per_day: 20             # backstop only — not the intended limiter
+  max_buys_per_month: 100          # backstop only — the ₹ budget is the gate
   max_position_allocation_pct: 25  # no single name > 25% of monthly capital
 
   # Equity delivery only.

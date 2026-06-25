@@ -23,8 +23,10 @@ mode:
 capital:
   monthly_fake_capital: 10000      # ₹10,000 fake capital per month
   max_amount_per_trade: 2000       # ₹2,000 max per single paper trade
-  max_buys_per_day: 1
-  max_buys_per_month: 5
+  # Buy-count caps are intentionally high: the ₹ budget above is the real
+  # limiter, so the engine makes as many buys as the money allows.
+  max_buys_per_day: 20             # backstop only — not the intended limiter
+  max_buys_per_month: 100          # backstop only — the ₹ budget is the gate
 
 risk_thresholds:
   soft_review_pct: -7.0
