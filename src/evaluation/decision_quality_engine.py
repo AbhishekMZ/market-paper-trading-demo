@@ -65,12 +65,14 @@ class DecisionQualityEngine:
         # Observation value: did the between-checkpoint observer add signal or noise?
         obs_metrics = storage.read_json(storage.state_file("observation_metrics.json"), {})
         observation = self._observation_value(obs_metrics if isinstance(obs_metrics, dict) else {})
+        evidence_summary = self._evidence_summary(metrics, readiness, comparison, shadow, thresholds, attribution, observation)
 
         payload = {
             "as_of": now_ist_iso(),
             "checkpoint": checkpoint,
             "enabled": True,
             "metrics": metrics,
+            "evidence_summary": evidence_summary,
             "forward_returns": forward_summary,
             "shadow": shadow,
             "benchmark": comparison,
@@ -96,6 +98,17 @@ class DecisionQualityEngine:
             "enough_episodes": metrics["total_tracked_episodes"] >= min_eps,
             "enough_days": distinct_days >= min_days,
         }
+        requirements = {
+            "min_trades": min_trades,
+            "min_tracked_episodes": min_eps,
+            "min_distinct_days": min_days,
+            "target_benchmark_outperformance_pct": target,
+        }
+        progress = {
+            "paper_trades": trades_count,
+            "tracked_episodes": int(metrics.get("total_tracked_episodes", 0)),
+            "distinct_days": distinct_days,
+        }
         reasons: List[str] = []
         if not checks["enough_trades"]:
             reasons.append(f"Only {trades_count}/{min_trades} paper trades so far.")
@@ -119,9 +132,82 @@ class DecisionQualityEngine:
         return {
             "verdict": verdict,
             "checks": checks,
+            "requirements": requirements,
+            "progress": progress,
             "reasons": reasons,
             "live_trading": "DISABLED",
             "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict.",
+        }
+
+    def _evidence_summary(self, metrics: Dict[str, Any], readiness: Dict[str, Any], comparison: Dict[str, Any],
+                          shadow: Dict[str, Any], thresholds: Dict[str, Any], attribution: Dict[str, Any],
+                          observation: Dict[str, Any]) -> Dict[str, Any]:
+        req = readiness.get("requirements", {})
+        prog = readiness.get("progress", {})
+
+        maturity_checks = [
+            {"label": "Paper trades", "current": prog.get("paper_trades", 0),
+             "required": req.get("min_trades", 0), "done": readiness.get("checks", {}).get("enough_trades", False)},
+            {"label": "Tracked episodes", "current": prog.get("tracked_episodes", 0),
+             "required": req.get("min_tracked_episodes", 0), "done": readiness.get("checks", {}).get("enough_episodes", False)},
+            {"label": "Distinct days", "current": prog.get("distinct_days", 0),
+             "required": req.get("min_distinct_days", 0), "done": readiness.get("checks", {}).get("enough_days", False)},
+        ]
+        ratios = []
+        for item in maturity_checks:
+            required = float(item.get("required") or 0)
+            current = float(item.get("current") or 0)
+            ratios.append(1.0 if required <= 0 else min(current / required, 1.0))
+        evidence_score = round(sum(ratios) / len(ratios) * 100, 1) if ratios else 0.0
+
+        verdict = readiness.get("verdict", "NOT_ENOUGH_DATA")
+        if verdict == "EARLY_PROMISING":
+            status = "EARLY_PROMISING"
+            tone = "ok"
+            headline = "Early evidence is positive, but v1 remains paper-only."
+        elif verdict == "EARLY_WEAK":
+            status = "EARLY_WEAK"
+            tone = "warn"
+            headline = "Evidence is mature enough to review, but the edge is not convincing yet."
+        else:
+            status = "COLLECTING_EVIDENCE"
+            tone = "neutral"
+            headline = "Not enough paper-trading evidence yet. Keep collecting runs before judging the system."
+
+        takeaways = [
+            f"Evidence maturity is {evidence_score}% of the configured minimum sample.",
+            f"Decision edge is {metrics.get('decision_edge_pct', 0.0)}% acted vs declined candidates.",
+            f"Benchmark verdict is {metrics.get('benchmark_verdict', 'INSUFFICIENT_DATA')}.",
+        ]
+        if comparison.get("ready"):
+            takeaways.append(f"Paper portfolio outperformance is {comparison.get('outperformance_pct', 0.0)}% vs {comparison.get('benchmark_name', 'benchmark')}.")
+        if shadow.get("block_note"):
+            takeaways.append(shadow["block_note"])
+        if observation.get("observation_runs", 0):
+            takeaways.append(f"Observer has run {observation.get('observation_runs', 0)} time(s) with noise score {observation.get('alert_noise_score', 0.0)}.")
+
+        leaderboard = attribution.get("leaderboard", []) if isinstance(attribution.get("leaderboard"), list) else []
+        top_strategy = leaderboard[0] if leaderboard else None
+        best_threshold = thresholds.get("best_threshold_observed") if isinstance(thresholds, dict) else None
+        watch_items = list(readiness.get("reasons", []))
+        if top_strategy:
+            watch_items.append(
+                f"Top observed strategy so far: {top_strategy.get('strategy')} ({top_strategy.get('avg_forward_return_pct')}% avg forward return)."
+            )
+        if best_threshold is not None:
+            watch_items.append(f"Best observed score threshold so far: {best_threshold} (descriptive only; no auto-tuning).")
+        watch_items.append("Live trading remains DISABLED regardless of evidence summary.")
+
+        return {
+            "status": status,
+            "tone": tone,
+            "headline": headline,
+            "evidence_score": evidence_score,
+            "maturity_checks": maturity_checks,
+            "takeaways": takeaways[:6],
+            "watch_items": watch_items[:6],
+            "live_trading": "DISABLED",
+            "auto_tuning": "DISABLED",
         }
 
     def _observation_value(self, m: Dict[str, Any]) -> Dict[str, Any]:
