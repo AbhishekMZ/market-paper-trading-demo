@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-06-25T14:23:27+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 290.8500061035156,
+    "jump_pct": 46.03,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-06-25T13:22:59+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",

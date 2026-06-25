@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-25T13:24:04+05:30",
+  "as_of": "2026-06-25T14:24:27+05:30",
   "checkpoint": "mid",
   "enabled": true,
   "metrics": {
@@ -9,15 +9,15 @@
     "distinct_days": 3,
     "action_rate_pct": 3.3,
     "avg_forward_return_acted_pct": 6.0,
-    "avg_forward_return_not_acted_pct": 0.31,
-    "decision_edge_pct": 5.38,
+    "avg_forward_return_not_acted_pct": 0.23,
+    "decision_edge_pct": 5.48,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": 6.69,
+    "benchmark_outperformance_pct": 6.95,
     "benchmark_verdict": "AHEAD"
   },
   "forward_returns": {
-    "as_of": "2026-06-25T13:24:04+05:30",
+    "as_of": "2026-06-25T14:24:27+05:30",
     "open_episodes": 10,
     "matured_episodes": 20,
     "total_episodes": 30,
@@ -31,13 +31,13 @@
       "watch_grade": {
         "count": 4,
         "rated": 4,
-        "avg_return_pct": 2.26,
+        "avg_return_pct": 1.97,
         "hit_rate_pct": 75.0
       },
       "low_grade": {
         "count": 25,
         "rated": 25,
-        "avg_return_pct": 0.0,
+        "avg_return_pct": -0.05,
         "hit_rate_pct": 68.0
       }
     },
@@ -50,7 +50,7 @@
     "not_acted": {
       "count": 29,
       "rated": 29,
-      "avg_return_pct": 0.31,
+      "avg_return_pct": 0.23,
       "hit_rate_pct": 69.0
     }
   },
@@ -64,18 +64,18 @@
     "shadow_candidates": {
       "count": 16,
       "rated": 16,
-      "avg_return_pct": 0.62,
+      "avg_return_pct": 0.52,
       "hit_rate_pct": 62.5
     },
     "blocked": {
       "count": 14,
       "rated": 14,
-      "avg_return_pct": 0.17,
+      "avg_return_pct": 0.07,
       "hit_rate_pct": 57.1
     },
-    "acted_vs_shadow_edge_pct": 5.38,
-    "decision_note": "Acted picks outperformed declined candidates by 5.38% avg forward return.",
-    "block_note": "Blocked names rose 0.17% on average — blocking had a cost (still paper-safe).",
+    "acted_vs_shadow_edge_pct": 5.48,
+    "decision_note": "Acted picks outperformed declined candidates by 5.48% avg forward return.",
+    "block_note": "Blocked names rose 0.07% on average — blocking had a cost (still paper-safe).",
     "shadow_examples": [
       {
         "symbol": "RELIANCE.NS",
@@ -162,34 +162,6 @@
         "status": "MATURED"
       },
       {
-        "symbol": "ICICIBANK.NS",
-        "name": "ICICI Bank",
-        "signal_id": "sig_87794b2680ff",
-        "label_at_open": "WATCH",
-        "score": 73.8,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "HIGH",
-        "news_blocked": true,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-06-24",
-        "entry_price": 1373.6,
-        "last_price": 1397.4,
-        "last_update": "2026-06-25",
-        "runs_tracked": 3,
-        "forward_return_pct": 1.73,
-        "max_return_pct": 2.02,
-        "min_return_pct": 0.0,
-        "status": "OPEN"
-      },
-      {
         "symbol": "SBIN.NS",
         "name": "State Bank of India",
         "signal_id": "sig_d46348dea72b",
@@ -209,10 +181,10 @@
         "acted": false,
         "entry_date": "2026-06-24",
         "entry_price": 1034.6,
-        "last_price": 1050.5,
+        "last_price": 1047.85,
         "last_update": "2026-06-25",
-        "runs_tracked": 3,
-        "forward_return_pct": 1.54,
+        "runs_tracked": 4,
+        "forward_return_pct": 1.28,
         "max_return_pct": 1.76,
         "min_return_pct": 0.0,
         "status": "OPEN"
@@ -246,11 +218,11 @@
         "status": "MATURED"
       },
       {
-        "symbol": "HDFCBANK.NS",
-        "name": "HDFC Bank",
-        "signal_id": "sig_9aa631bff7d6",
-        "label_at_open": "NO_ACTION",
-        "score": 62.9,
+        "symbol": "ICICIBANK.NS",
+        "name": "ICICI Bank",
+        "signal_id": "sig_87794b2680ff",
+        "label_at_open": "WATCH",
+        "score": 73.8,
         "checkpoint": "close",
         "contributors": [
           "trend_following",
@@ -264,12 +236,12 @@
         "data_quality_verdict": "OK",
         "acted": false,
         "entry_date": "2026-06-24",
-        "entry_price": 793.2,
-        "last_price": 801.7,
+        "entry_price": 1373.6,
+        "last_price": 1387.9,
         "last_update": "2026-06-25",
-        "runs_tracked": 3,
-        "forward_return_pct": 1.07,
-        "max_return_pct": 1.13,
+        "runs_tracked": 4,
+        "forward_return_pct": 1.04,
+        "max_return_pct": 2.02,
         "min_return_pct": 0.0,
         "status": "OPEN"
       },
@@ -300,19 +272,47 @@
         "max_return_pct": 0.92,
         "min_return_pct": -1.19,
         "status": "MATURED"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "name": "HDFC Bank",
+        "signal_id": "sig_9aa631bff7d6",
+        "label_at_open": "NO_ACTION",
+        "score": 62.9,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "HIGH",
+        "news_blocked": true,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-06-24",
+        "entry_price": 793.2,
+        "last_price": 798.65,
+        "last_update": "2026-06-25",
+        "runs_tracked": 4,
+        "forward_return_pct": 0.69,
+        "max_return_pct": 1.13,
+        "min_return_pct": 0.0,
+        "status": "OPEN"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-25T13:24:04+05:30",
+    "as_of": "2026-06-25T14:24:27+05:30",
     "ready": true,
-    "points": 16,
+    "points": 17,
     "from_date": "2026-06-23",
     "to_date": "2026-06-25",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -5.78,
+    "benchmark_return_pct": -6.04,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": 6.69,
+    "outperformance_pct": 6.95,
     "verdict": "AHEAD",
     "history": [
       {
@@ -442,6 +442,14 @@
         "nifty_close": 24188.19921875,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-25",
+        "ts": "2026-06-25T14:24:27+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 24121.650390625,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -451,7 +459,7 @@
         "strategy": "trend_following",
         "episodes": 30,
         "wins": 21,
-        "avg_forward_return_pct": 0.5,
+        "avg_forward_return_pct": 0.42,
         "hit_rate_pct": 70.0,
         "rank": 1
       },
@@ -459,7 +467,7 @@
         "strategy": "relative_strength",
         "episodes": 30,
         "wins": 21,
-        "avg_forward_return_pct": 0.5,
+        "avg_forward_return_pct": 0.42,
         "hit_rate_pct": 70.0,
         "rank": 2
       },
@@ -467,7 +475,7 @@
         "strategy": "news_event_risk",
         "episodes": 30,
         "wins": 21,
-        "avg_forward_return_pct": 0.5,
+        "avg_forward_return_pct": 0.42,
         "hit_rate_pct": 70.0,
         "rank": 3
       },
@@ -475,7 +483,7 @@
         "strategy": "volatility_risk",
         "episodes": 30,
         "wins": 21,
-        "avg_forward_return_pct": 0.5,
+        "avg_forward_return_pct": 0.42,
         "hit_rate_pct": 70.0,
         "rank": 4
       },
@@ -483,7 +491,7 @@
         "strategy": "portfolio_fit",
         "episodes": 30,
         "wins": 21,
-        "avg_forward_return_pct": 0.5,
+        "avg_forward_return_pct": 0.42,
         "hit_rate_pct": 70.0,
         "rank": 5
       }
@@ -496,7 +504,7 @@
       {
         "threshold": 70,
         "would_buy_count": 3,
-        "avg_forward_return_pct": 4.58,
+        "avg_forward_return_pct": 4.35,
         "hit_rate_pct": 100.0
       },
       {
@@ -530,16 +538,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 15,
-    "triggers_detected": 62,
-    "escalations_created": 29,
+    "observation_runs": 16,
+    "triggers_detected": 66,
+    "escalations_created": 30,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 19,
-    "useful_triggers": 19,
+    "blocked_actions_from_triggers": 20,
+    "useful_triggers": 20,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.34,
-    "avg_triggers_per_run": 4.13,
-    "last_run": "2026-06-25T12:38:19+05:30",
+    "alert_noise_score": 0.33,
+    "avg_triggers_per_run": 4.12,
+    "last_run": "2026-06-25T13:24:07+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {

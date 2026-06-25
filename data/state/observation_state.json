@@ -5,28 +5,28 @@
       "change_pct": 0.0689,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:04+05:30"
+      "updated_at": "2026-06-25T14:24:28+05:30"
     },
     "RELIANCE.NS": {
-      "last_price": 1321.4000244140625,
-      "change_pct": 0.5938,
+      "last_price": 1319.0999755859375,
+      "change_pct": 0.4187,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:06+05:30"
+      "updated_at": "2026-06-25T14:24:30+05:30"
     },
     "SBIN.NS": {
-      "last_price": 1051.0,
-      "change_pct": 1.5852,
+      "last_price": 1047.699951171875,
+      "change_pct": 1.2662,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:06+05:30"
+      "updated_at": "2026-06-25T14:24:29+05:30"
     },
     "ICICIBANK.NS": {
-      "last_price": 1397.699951171875,
-      "change_pct": 1.7545,
+      "last_price": 1386.699951171875,
+      "change_pct": 0.9537,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:05+05:30"
+      "updated_at": "2026-06-25T14:24:29+05:30"
     },
     "LT.NS": {
       "last_price": 4260.89990234375,
@@ -43,34 +43,34 @@
       "updated_at": "2026-06-25T13:24:05+05:30"
     },
     "AXISBANK.NS": {
-      "last_price": 1381.9000244140625,
-      "change_pct": -0.1878,
+      "last_price": 1376.5999755859375,
+      "change_pct": -0.5706,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:06+05:30"
+      "updated_at": "2026-06-25T14:24:29+05:30"
     },
     "HDFCBANK.NS": {
-      "last_price": 802.1500244140625,
-      "change_pct": 1.1283,
+      "last_price": 798.5499877929688,
+      "change_pct": 0.6745,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:04+05:30"
+      "updated_at": "2026-06-25T14:24:28+05:30"
     },
     "INFY.NS": {
-      "last_price": 1045.699951171875,
-      "change_pct": -1.0316,
+      "last_price": 1046.199951171875,
+      "change_pct": -0.9843,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:07+05:30"
+      "updated_at": "2026-06-25T14:24:30+05:30"
     },
     "TCS.NS": {
-      "last_price": 2124.39990234375,
-      "change_pct": 0.7302,
+      "last_price": 2113.0,
+      "change_pct": 0.1897,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-25T13:24:07+05:30"
+      "updated_at": "2026-06-25T14:24:30+05:30"
     }
   },
-  "last_observation_at": "2026-06-25T13:24:07+05:30",
-  "last_regime": "RISK_ON"
+  "last_observation_at": "2026-06-25T14:24:30+05:30",
+  "last_regime": "NEUTRAL"
 }
