@@ -46,5 +46,13 @@
     "symbol": "SBIN.NS",
     "level": "CRITICAL",
     "ts": "2026-06-23T11:14:31+05:30"
+  },
+  {
+    "key": "SBIN.NS:CRITICAL",
+    "subject": "[Paper News] CRITICAL news: SBIN.NS",
+    "body": "Symbol: SBIN.NS (State Bank of India)\nNews risk: CRITICAL   Sentiment: NEGATIVE\nEvents: FRAUD, REGULATORY\nHeld position: no   Blocked a would-be buy: no\nTop headline: ₹356 Crore Bank Fraud : ED Attaches ₹35 . 52 Crore Assets of Dhanlaxmi Solvex\n\nWhy: 14 relevant item(s); worst risk CRITICAL, sentiment NEGATIVE.; [HIGH] Banks boost renewable energy credit by 7 % in April amid energy security concerns; [CRITICAL] ₹356 Crore Bank Fraud : ED Attaches ₹35 . 52 Crore Assets of Dhanlaxmi Solvex; [HIGH] Top Gainers & Losers on June 23 : Vedanta , Hindustan Zinc , Infosys , TCS , Bank of Baroda among top losers; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "SBIN.NS",
+    "level": "CRITICAL",
+    "ts": "2026-06-25T12:24:57+05:30"
   }
 ]
