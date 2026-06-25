@@ -414,6 +414,14 @@ main.content {
   background: var(--pill-neutral-bg);
   color: var(--pill-neutral-fg);
 }
+.pill.ok {
+  background: var(--pill-buy-bg);
+  color: var(--pill-buy-fg);
+}
+.pill.warn {
+  background: var(--pill-review-bg);
+  color: var(--pill-review-fg);
+}
 .pill.danger {
   background: var(--pill-danger-bg);
   color: var(--pill-danger-fg);

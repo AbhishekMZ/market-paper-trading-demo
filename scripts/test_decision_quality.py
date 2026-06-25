@@ -106,6 +106,16 @@ def main() -> int:
     assert evidence["live_trading"] == "DISABLED"
     assert evidence["auto_tuning"] == "DISABLED"
     assert evidence["maturity_checks"], "evidence maturity checks should be present"
+    # Content invariants the Dashboard + Decision Quality cards render directly.
+    assert evidence["status"] in ("COLLECTING_EVIDENCE", "EARLY_WEAK", "EARLY_PROMISING")
+    assert isinstance(evidence["evidence_score"], (int, float))
+    assert isinstance(evidence["takeaways"], list) and isinstance(evidence["watch_items"], list)
+    for check in evidence["maturity_checks"]:
+        assert {"label", "current", "required", "done"} <= set(check), f"bad maturity check: {check}"
+    # The Dashboard reads readiness.progress/requirements (embedded via main.py into
+    # latest_report.json); guard that contract so the headline card cannot silently
+    # lose its maturity bars.
+    assert all(k in payload["readiness"] for k in ("requirements", "progress")), "readiness contract"
 
     _reset_ledgers()  # leave clean; the demo seed regenerates committed state
     print("OK: all decision-quality invariants hold.")
