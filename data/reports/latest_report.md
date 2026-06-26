@@ -1,4 +1,4 @@
-# 📄 Paper Trading Report — 2026-06-26 (mid)
+# 📄 Paper Trading Report — 2026-06-26 (close)
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
@@ -48,7 +48,7 @@ RELIANCE.NS(48.1), ITC.NS(42.5), INFY.NS(28.9), TCS.NS(28.6)
 - ITC.NS (DO_NOT_BUY, 42.5): Final 42.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, volatility_risk=51, relative_strength=43.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 24 · total this month: 252 (no API-key quota)
+- Provider: `yfinance` · calls today: 36 · total this month: 264 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

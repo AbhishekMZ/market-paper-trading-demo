@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-06-26T14:27:55+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-06-26T17:21:18+05:30",
+  "checkpoint": "close",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 40,
@@ -47,7 +47,7 @@
       "Benchmark verdict is AHEAD.",
       "Paper portfolio outperformance is 7.21% vs NIFTY 50.",
       "Blocked names rose 0.04% on average — blocking had a cost (still paper-safe).",
-      "Observer has run 20 time(s) with noise score 0.27."
+      "Observer has run 21 time(s) with noise score 0.26."
     ],
     "watch_items": [
       "Only 1/10 paper trades so far.",
@@ -60,7 +60,7 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-06-26T14:27:55+05:30",
+    "as_of": "2026-06-26T17:21:18+05:30",
     "open_episodes": 10,
     "matured_episodes": 30,
     "total_episodes": 40,
@@ -347,9 +347,9 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-26T14:27:55+05:30",
+    "as_of": "2026-06-26T17:21:18+05:30",
     "ready": true,
-    "points": 21,
+    "points": 22,
     "from_date": "2026-06-23",
     "to_date": "2026-06-26",
     "benchmark_name": "NIFTY 50",
@@ -525,6 +525,14 @@
         "nifty_close": 24056.0,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-26",
+        "ts": "2026-06-26T17:21:18+05:30",
+        "checkpoint": "close",
+        "nifty_close": 24056.0,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -613,16 +621,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 20,
-    "triggers_detected": 79,
-    "escalations_created": 37,
+    "observation_runs": 21,
+    "triggers_detected": 84,
+    "escalations_created": 38,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 27,
-    "useful_triggers": 27,
+    "blocked_actions_from_triggers": 28,
+    "useful_triggers": 28,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.27,
-    "avg_triggers_per_run": 3.95,
-    "last_run": "2026-06-26T13:32:19+05:30",
+    "alert_noise_score": 0.26,
+    "avg_triggers_per_run": 4.0,
+    "last_run": "2026-06-26T14:28:00+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
