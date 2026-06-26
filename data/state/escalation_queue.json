@@ -595,5 +595,77 @@
     "escalation_id": "esc_063aa202816d",
     "created_at": "2026-06-25T17:02:55+05:30",
     "expires_at": "2026-06-25T17:02:55+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_06745ef544f1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_f74087e2ff7c",
+    "created_at": "2026-06-26T13:32:19+05:30",
+    "expires_at": "2026-06-26T13:32:19+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_89a538e4b671"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_e326418c0c75",
+    "created_at": "2026-06-26T13:32:19+05:30",
+    "expires_at": "2026-06-26T13:32:19+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_a2eabf4d6f6b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_51e7ab079f7c",
+    "created_at": "2026-06-26T13:32:19+05:30",
+    "expires_at": "2026-06-26T13:32:19+05:30"
+  },
+  {
+    "symbol": "SBIN.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_1762165928b7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_c336c3a896ec",
+    "created_at": "2026-06-26T13:32:19+05:30",
+    "expires_at": "2026-06-26T13:32:19+05:30"
   }
 ]
