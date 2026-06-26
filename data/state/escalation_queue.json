@@ -667,5 +667,23 @@
     "escalation_id": "esc_c336c3a896ec",
     "created_at": "2026-06-26T13:32:19+05:30",
     "expires_at": "2026-06-26T13:32:19+05:30"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_7cd74b74bf77"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_30b9b9e318d4",
+    "created_at": "2026-06-26T14:28:00+05:30",
+    "expires_at": "2026-06-26T14:28:00+05:30"
   }
 ]

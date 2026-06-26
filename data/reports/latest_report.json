@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T13:32:16+05:30",
+  "generated_at": "2026-06-26T14:27:55+05:30",
   "date": "2026-06-26",
   "checkpoint": "mid",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
@@ -27,10 +27,10 @@
       "max_abs_move_pct": 0.143
     },
     "blocks_new_buys": false,
-    "timestamp": "2026-06-26T13:30:49+05:30"
+    "timestamp": "2026-06-26T14:26:13+05:30"
   },
   "portfolio": {
-    "as_of": "2026-06-26T13:32:16+05:30",
+    "as_of": "2026-06-26T14:27:55+05:30",
     "starting_capital": 10000.0,
     "cash": 8474.74,
     "holdings_value": 1616.76,
@@ -82,7 +82,7 @@
   "top_candidates": [],
   "watchlist": [
     {
-      "signal_id": "sig_4ea86148db93",
+      "signal_id": "sig_e3018c39b35f",
       "symbol": "SBIN.NS",
       "name": "State Bank of India",
       "exchange": "NSE",
@@ -118,7 +118,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -137,7 +137,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -156,7 +156,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -175,7 +175,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -200,7 +200,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -218,7 +218,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -238,7 +238,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -253,7 +253,7 @@
         "price": 1045.4000244140625,
         "change_pct": 1.0439,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:52+05:30",
+        "extracted_at": "2026-06-26T14:26:16+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -277,10 +277,10 @@
         "[HIGH] Japan’s Biggest Crypto Banking Experiment Is Here, and the US Can’t Do This Yet",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_d198555bf300",
+      "signal_id": "sig_642afc4fa4b4",
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank",
       "exchange": "NSE",
@@ -316,7 +316,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -335,7 +335,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -354,7 +354,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -373,7 +373,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -396,7 +396,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -414,7 +414,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -434,7 +434,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -449,7 +449,7 @@
         "price": 1387.5,
         "change_pct": 1.0119,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:51+05:30",
+        "extracted_at": "2026-06-26T14:26:16+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -473,12 +473,12 @@
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     }
   ],
   "do_not_buy": [
     {
-      "signal_id": "sig_7746191c033b",
+      "signal_id": "sig_a4c4b9da9259",
       "symbol": "RELIANCE.NS",
       "name": "Reliance Industries",
       "exchange": "NSE",
@@ -514,7 +514,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -533,7 +533,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -552,7 +552,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -571,7 +571,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -596,7 +596,7 @@
             "news:ban",
             "news:fine"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -614,7 +614,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -634,7 +634,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -651,7 +651,7 @@
         "price": 1318.0999755859375,
         "change_pct": 0.3426,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:49+05:30",
+        "extracted_at": "2026-06-26T14:26:13+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -664,16 +664,16 @@
       "news_sentiment": "NEUTRAL",
       "news_event_types": [],
       "news_blocks_buy": false,
-      "news_item_count": 10,
+      "news_item_count": 13,
       "news_top_headline": "Billionaire Ambani wants AI in every call, app, and home",
       "news_reasons": [
-        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
+        "13 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
         "[HIGH] Billionaire Ambani wants AI in every call, app, and home"
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_62ce38fcdda6",
+      "signal_id": "sig_da05e5cc205a",
       "symbol": "ITC.NS",
       "name": "ITC",
       "exchange": "NSE",
@@ -709,7 +709,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -728,7 +728,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -747,7 +747,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -766,7 +766,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -785,7 +785,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -803,7 +803,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -827,7 +827,7 @@
           "risk_flags": [
             "already_held"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -844,7 +844,7 @@
         "price": 290.0,
         "change_pct": -0.1205,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:53+05:30",
+        "extracted_at": "2026-06-26T14:26:18+05:30",
         "headlines_count": 1
       },
       "price_source": "history.close",
@@ -862,10 +862,10 @@
       "news_reasons": [
         "1 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_8bc4155299f8",
+      "signal_id": "sig_c1a2c5999ad8",
       "symbol": "INFY.NS",
       "name": "Infosys",
       "exchange": "NSE",
@@ -901,7 +901,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -920,7 +920,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -939,7 +939,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -958,7 +958,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -981,7 +981,7 @@
           "risk_flags": [
             "news:miss"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -999,7 +999,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1019,7 +1019,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1036,7 +1036,7 @@
         "price": 1041.199951171875,
         "change_pct": -1.4575,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:51+05:30",
+        "extracted_at": "2026-06-26T14:26:15+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -1054,10 +1054,10 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_1954032983e9",
+      "signal_id": "sig_55c0369a82a5",
       "symbol": "TCS.NS",
       "name": "Tata Consultancy Services",
       "exchange": "NSE",
@@ -1093,7 +1093,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1112,7 +1112,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1131,7 +1131,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1150,7 +1150,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1169,7 +1169,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1187,7 +1187,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1211,7 +1211,7 @@
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1228,7 +1228,7 @@
         "price": 2094.699951171875,
         "change_pct": -0.678,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:50+05:30",
+        "extracted_at": "2026-06-26T14:26:14+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -1246,7 +1246,7 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     }
   ],
   "manual_review": [],
@@ -1360,7 +1360,7 @@
   ],
   "signals": [
     {
-      "signal_id": "sig_4ea86148db93",
+      "signal_id": "sig_e3018c39b35f",
       "symbol": "SBIN.NS",
       "name": "State Bank of India",
       "exchange": "NSE",
@@ -1396,7 +1396,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1415,7 +1415,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1434,7 +1434,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1453,7 +1453,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1478,7 +1478,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1496,7 +1496,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1516,7 +1516,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1531,7 +1531,7 @@
         "price": 1045.4000244140625,
         "change_pct": 1.0439,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:52+05:30",
+        "extracted_at": "2026-06-26T14:26:16+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -1555,10 +1555,10 @@
         "[HIGH] Japan’s Biggest Crypto Banking Experiment Is Here, and the US Can’t Do This Yet",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_d198555bf300",
+      "signal_id": "sig_642afc4fa4b4",
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank",
       "exchange": "NSE",
@@ -1594,7 +1594,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1613,7 +1613,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1632,7 +1632,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1651,7 +1651,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1674,7 +1674,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1692,7 +1692,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1712,7 +1712,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1727,7 +1727,7 @@
         "price": 1387.5,
         "change_pct": 1.0119,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:51+05:30",
+        "extracted_at": "2026-06-26T14:26:16+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -1751,10 +1751,10 @@
         "[HIGH] Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_69e1c20578a3",
+      "signal_id": "sig_cb44474c61b8",
       "symbol": "LT.NS",
       "name": "Larsen & Toubro",
       "exchange": "NSE",
@@ -1790,7 +1790,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1809,7 +1809,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1828,7 +1828,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1847,7 +1847,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -1868,7 +1868,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1886,7 +1886,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1910,7 +1910,7 @@
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -1929,7 +1929,7 @@
         "price": 4216.39990234375,
         "change_pct": 0.8298,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:52+05:30",
+        "extracted_at": "2026-06-26T14:26:17+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -1947,10 +1947,10 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_22903258c6cb",
+      "signal_id": "sig_25dacd971c87",
       "symbol": "AXISBANK.NS",
       "name": "Axis Bank",
       "exchange": "NSE",
@@ -1986,7 +1986,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2005,7 +2005,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2024,7 +2024,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2043,7 +2043,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2068,7 +2068,7 @@
             "news:ban",
             "news:miss"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2086,7 +2086,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2106,7 +2106,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2123,7 +2123,7 @@
         "price": 1377.199951171875,
         "change_pct": -0.5273,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:54+05:30",
+        "extracted_at": "2026-06-26T14:26:19+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -2147,10 +2147,10 @@
         "[HIGH] Axis Bank Ltd (FRA:UZC) (Full Year 2026) Earnings Call Highlights: Strong Growth Amidst Margin ...",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_96c42228d0bc",
+      "signal_id": "sig_5493653f8b8a",
       "symbol": "HDFCBANK.NS",
       "name": "HDFC Bank",
       "exchange": "NSE",
@@ -2186,7 +2186,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2205,7 +2205,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2224,7 +2224,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2243,7 +2243,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2266,7 +2266,7 @@
           "risk_flags": [
             "news:ban"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2284,7 +2284,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2304,7 +2304,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2319,7 +2319,7 @@
         "price": 796.2999877929688,
         "change_pct": 0.3908,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:50+05:30",
+        "extracted_at": "2026-06-26T14:26:14+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -2343,10 +2343,10 @@
         "[HIGH] HDFC Bank (HDB) Fell as Deposit Fell Short of Expectations",
         "HIGH/CRITICAL adverse news -> new paper buy blocked."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_a29214567200",
+      "signal_id": "sig_33ca25fed239",
       "symbol": "BHARTIARTL.NS",
       "name": "Bharti Airtel",
       "exchange": "NSE",
@@ -2382,7 +2382,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2401,7 +2401,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2420,7 +2420,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2439,7 +2439,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2461,7 +2461,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2479,7 +2479,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2499,7 +2499,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2516,7 +2516,7 @@
         "price": 1850.699951171875,
         "change_pct": -1.4169,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:53+05:30",
+        "extracted_at": "2026-06-26T14:26:18+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -2525,19 +2525,23 @@
       "price_consistency_check": "PASSED",
       "data_quality_verdict": "OK",
       "news_available": true,
-      "news_risk_level": "NONE",
-      "news_sentiment": "NEUTRAL",
-      "news_event_types": [],
-      "news_blocks_buy": false,
-      "news_item_count": 10,
-      "news_top_headline": "VEON Closes USD 1.4B Bond Offering & Refinances 2027 Debt Ahead of Schedule",
-      "news_reasons": [
-        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
+      "news_risk_level": "HIGH",
+      "news_sentiment": "NEGATIVE",
+      "news_event_types": [
+        "REGULATORY"
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "news_blocks_buy": true,
+      "news_item_count": 15,
+      "news_top_headline": "Top stocks in news : Airtel , LIC , Tata Steel , HCL Tech , ICICI Bank , IRFC , Vedanta , NLC India",
+      "news_reasons": [
+        "15 relevant item(s); worst risk HIGH, sentiment NEGATIVE.",
+        "[HIGH] Top stocks in news : Airtel , LIC , Tata Steel , HCL Tech , ICICI Bank , IRFC , Vedanta , NLC India",
+        "HIGH/CRITICAL adverse news -> new paper buy blocked."
+      ],
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_7746191c033b",
+      "signal_id": "sig_a4c4b9da9259",
       "symbol": "RELIANCE.NS",
       "name": "Reliance Industries",
       "exchange": "NSE",
@@ -2573,7 +2577,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2592,7 +2596,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2611,7 +2615,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2630,7 +2634,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2655,7 +2659,7 @@
             "news:ban",
             "news:fine"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2673,7 +2677,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2693,7 +2697,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2710,7 +2714,7 @@
         "price": 1318.0999755859375,
         "change_pct": 0.3426,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:49+05:30",
+        "extracted_at": "2026-06-26T14:26:13+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -2723,16 +2727,16 @@
       "news_sentiment": "NEUTRAL",
       "news_event_types": [],
       "news_blocks_buy": false,
-      "news_item_count": 10,
+      "news_item_count": 13,
       "news_top_headline": "Billionaire Ambani wants AI in every call, app, and home",
       "news_reasons": [
-        "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
+        "13 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
         "[HIGH] Billionaire Ambani wants AI in every call, app, and home"
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_62ce38fcdda6",
+      "signal_id": "sig_da05e5cc205a",
       "symbol": "ITC.NS",
       "name": "ITC",
       "exchange": "NSE",
@@ -2768,7 +2772,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2787,7 +2791,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2806,7 +2810,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2825,7 +2829,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -2844,7 +2848,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2862,7 +2866,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2886,7 +2890,7 @@
           "risk_flags": [
             "already_held"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2903,7 +2907,7 @@
         "price": 290.0,
         "change_pct": -0.1205,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:53+05:30",
+        "extracted_at": "2026-06-26T14:26:18+05:30",
         "headlines_count": 1
       },
       "price_source": "history.close",
@@ -2921,10 +2925,10 @@
       "news_reasons": [
         "1 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_8bc4155299f8",
+      "signal_id": "sig_c1a2c5999ad8",
       "symbol": "INFY.NS",
       "name": "Infosys",
       "exchange": "NSE",
@@ -2960,7 +2964,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2979,7 +2983,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -2998,7 +3002,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3017,7 +3021,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3040,7 +3044,7 @@
           "risk_flags": [
             "news:miss"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3058,7 +3062,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3078,7 +3082,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3095,7 +3099,7 @@
         "price": 1041.199951171875,
         "change_pct": -1.4575,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:51+05:30",
+        "extracted_at": "2026-06-26T14:26:15+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -3113,10 +3117,10 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     },
     {
-      "signal_id": "sig_1954032983e9",
+      "signal_id": "sig_55c0369a82a5",
       "symbol": "TCS.NS",
       "name": "Tata Consultancy Services",
       "exchange": "NSE",
@@ -3152,7 +3156,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3171,7 +3175,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3190,7 +3194,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3209,7 +3213,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": false,
@@ -3228,7 +3232,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3246,7 +3250,7 @@
           },
           "warnings": [],
           "risk_flags": [],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3270,7 +3274,7 @@
           "risk_flags": [
             "price_above_per_trade_cap"
           ],
-          "timestamp": "2026-06-26T13:30:54+05:30",
+          "timestamp": "2026-06-26T14:26:19+05:30",
           "error": null,
           "is_valid": true,
           "contributes_to_score": true,
@@ -3287,7 +3291,7 @@
         "price": 2094.699951171875,
         "change_pct": -0.678,
         "graph_points": 23,
-        "extracted_at": "2026-06-26T13:30:50+05:30",
+        "extracted_at": "2026-06-26T14:26:14+05:30",
         "headlines_count": 10
       },
       "price_source": "history.close",
@@ -3305,23 +3309,23 @@
       "news_reasons": [
         "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
       ],
-      "created_at": "2026-06-26T13:30:54+05:30"
+      "created_at": "2026-06-26T14:26:19+05:30"
     }
   ],
   "api_usage": {
     "month": "2026-06",
-    "calls_total": 240,
+    "calls_total": 252,
     "daily": {
       "2026-06-23": 120,
       "2026-06-24": 36,
       "2026-06-25": 72,
-      "2026-06-26": 12
+      "2026-06-26": 24
     },
     "warnings": [],
     "provider": "yfinance",
     "budget_enabled": false,
-    "calls_today": 12,
-    "last_updated": "2026-06-26T13:32:16+05:30",
+    "calls_today": 24,
+    "last_updated": "2026-06-26T14:27:55+05:30",
     "note": "yfinance has no API key/quota; polite limits applied."
   },
   "data_quality_warnings": [
@@ -3345,13 +3349,13 @@
     "real_trading_eligible": []
   },
   "strategy_evaluation": {
-    "as_of": "2026-06-26T13:32:16+05:30",
+    "as_of": "2026-06-26T14:27:55+05:30",
     "portfolio_max_drawdown_pct": 0.0,
-    "total_signals": 200,
+    "total_signals": 210,
     "total_paper_trades": 1,
     "strategies": {
       "trend_following": {
-        "signals_generated": 200,
+        "signals_generated": 210,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3359,13 +3363,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 78,
+        "avoided_bad_trade_count": 82,
         "average_score_contribution": 47.3,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "relative_strength": {
-        "signals_generated": 200,
+        "signals_generated": 210,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3373,13 +3377,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 95,
-        "average_score_contribution": 40.6,
+        "avoided_bad_trade_count": 99,
+        "average_score_contribution": 40.8,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "news_event_risk": {
-        "signals_generated": 200,
+        "signals_generated": 210,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3387,13 +3391,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 68,
-        "average_score_contribution": 59.0,
+        "avoided_bad_trade_count": 72,
+        "average_score_contribution": 58.9,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "volatility_risk": {
-        "signals_generated": 200,
+        "signals_generated": 210,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3401,13 +3405,13 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 28,
-        "average_score_contribution": 58.0,
+        "avoided_bad_trade_count": 30,
+        "average_score_contribution": 57.2,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       },
       "portfolio_fit": {
-        "signals_generated": 200,
+        "signals_generated": 210,
         "paper_trades_triggered": 1,
         "wins": 0,
         "losses": 0,
@@ -3415,8 +3419,8 @@
         "average_gain": 0.0,
         "average_loss": 0.0,
         "false_positive_count": 0,
-        "avoided_bad_trade_count": 111,
-        "average_score_contribution": 41.6,
+        "avoided_bad_trade_count": 114,
+        "average_score_contribution": 42.6,
         "confidence_accuracy": null,
         "notes": "Insufficient sample to judge; continue paper testing."
       }
@@ -3463,17 +3467,18 @@
   ],
   "news_summary": {
     "providers_used": [
+      "gdelt",
       "yfinance"
     ],
     "symbols_assessed": 10,
     "symbols_with_news": 10,
-    "total_items": 91,
-    "blocked_buys": 4,
+    "total_items": 99,
+    "blocked_buys": 5,
     "critical_count": 0,
-    "high_count": 4,
+    "high_count": 5,
     "alerts_this_run": 0,
     "newsapi_enabled": false,
-    "last_run": "2026-06-26T13:32:16+05:30",
+    "last_run": "2026-06-26T14:27:55+05:30",
     "checkpoint": "mid",
     "overall": "ELEVATED"
   },
@@ -3518,9 +3523,9 @@
       "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict."
     },
     "benchmark": {
-      "as_of": "2026-06-26T13:32:16+05:30",
+      "as_of": "2026-06-26T14:27:55+05:30",
       "ready": true,
-      "points": 20,
+      "points": 21,
       "from_date": "2026-06-23",
       "to_date": "2026-06-26",
       "benchmark_name": "NIFTY 50",
@@ -3688,6 +3693,14 @@
           "nifty_close": 24056.0,
           "portfolio_total": 10091.5,
           "starting_capital": 10000.0
+        },
+        {
+          "date": "2026-06-26",
+          "ts": "2026-06-26T14:27:55+05:30",
+          "checkpoint": "mid",
+          "nifty_close": 24056.0,
+          "portfolio_total": 10091.5,
+          "starting_capital": 10000.0
         }
       ]
     },
@@ -3722,7 +3735,7 @@
         "Benchmark verdict is AHEAD.",
         "Paper portfolio outperformance is 7.21% vs NIFTY 50.",
         "Blocked names rose 0.04% on average — blocking had a cost (still paper-safe).",
-        "Observer has run 19 time(s) with noise score 0.3."
+        "Observer has run 20 time(s) with noise score 0.27."
       ],
       "watch_items": [
         "Only 1/10 paper trades so far.",
