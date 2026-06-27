@@ -234,6 +234,7 @@ def run(args: argparse.Namespace) -> int:
     research = ResearchRegistry()
     context = {
         "regime": regime,
+        "news_cfg": (configs.get("news") or {}).get("news", {}),
         "benchmark_change_pct": bench_change if bench_change is not None else regime.inputs.get("avg_change_pct"),
         "held_symbols": held,
         "budget": budget,
