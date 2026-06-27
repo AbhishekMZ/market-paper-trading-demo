@@ -11,6 +11,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
 from news.lexicon import load_lexicon  # noqa: E402
+from news.sentiment import SentimentScore, score_text  # noqa: E402
+from news.base import NewsSentiment  # noqa: E402
 
 
 def test_lexicon_defaults_and_overrides():
@@ -26,8 +28,22 @@ def test_lexicon_defaults_and_overrides():
     assert lex2.terms["fraud"] == -1.0
 
 
+def test_score_text_weighting_and_deadband():
+    neg = score_text("Company hit by fraud probe")
+    assert neg.label == NewsSentiment.NEGATIVE and neg.polarity < 0
+    pos = score_text("Company posts strong results and record profit")
+    assert pos.label == NewsSentiment.POSITIVE and pos.polarity > 0
+    flat = score_text("The company held its annual general meeting today")
+    assert flat.label == NewsSentiment.NEUTRAL and abs(flat.polarity) < 0.15
+    # severity ordering: fraud is more bearish than a mild miss.
+    assert score_text("fraud probe").polarity < score_text("earnings miss").polarity
+    # positive ceiling stays below negative magnitude (caution-first).
+    assert abs(pos.polarity) < abs(score_text("fraud scam probe").polarity)
+
+
 def main() -> int:
     test_lexicon_defaults_and_overrides()
+    test_score_text_weighting_and_deadband()
     print("OK: sentiment scorer tests pass")
     return 0
 
