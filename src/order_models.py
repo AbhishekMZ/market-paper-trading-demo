@@ -232,6 +232,8 @@ class TradeSignal:
     news_available: bool = False
     news_risk_level: str = "NONE"
     news_sentiment: str = "NEUTRAL"
+    news_sentiment_confidence: float = 0.0
+    news_sentiment_sources_agree: bool = False
     news_event_types: List[str] = field(default_factory=list)
     news_blocks_buy: bool = False
     news_item_count: int = 0

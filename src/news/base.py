@@ -94,6 +94,8 @@ class NewsItem:
     age_hours: Optional[float] = None
     is_fresh: bool = True
     sentiment: NewsSentiment = NewsSentiment.NEUTRAL
+    sentiment_score: float = 0.0        # -1..+1 signed polarity
+    sentiment_confidence: float = 0.0   # 0..1
     relevance: float = 0.0            # 0..1
     event_types: List[str] = field(default_factory=list)
     risk_level: NewsRiskLevel = NewsRiskLevel.NONE
@@ -116,6 +118,11 @@ class NewsRiskAssessment:
     item_count: int = 0
     fresh_item_count: int = 0
     overall_sentiment: NewsSentiment = NewsSentiment.NEUTRAL
+    sentiment_score: float = 0.0
+    sentiment_confidence: float = 0.0
+    sentiment_sources_agree: bool = False
+    sentiment_conflict: bool = False
+    sentiment_n_sources: int = 0
     news_risk_level: NewsRiskLevel = NewsRiskLevel.NONE
     dominant_event_types: List[str] = field(default_factory=list)
     blocks_buy: bool = False
