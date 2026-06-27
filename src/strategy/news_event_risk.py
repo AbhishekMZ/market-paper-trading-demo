@@ -10,7 +10,7 @@ from __future__ import annotations
 from typing import Any, Dict, List
 
 from news.sentiment import aggregate, score_text
-from strategy.base import NEGATIVE, NEUTRAL, POSITIVE, StrategyPlugin, StrategyResult
+from strategy.base import NEGATIVE, NEUTRAL, StrategyPlugin, StrategyResult
 
 
 class NewsEventRiskStrategy(StrategyPlugin):
