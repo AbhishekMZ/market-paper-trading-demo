@@ -109,6 +109,20 @@ def test_matching_robustness():
     assert score_text("fraud probe", company_tokens=[""]).confidence == score_text("fraud probe").confidence
 
 
+def test_silent_e_inflections():
+    # silent-e risk words must catch -ed/-ing/-s forms, not just the base.
+    assert score_text("Stock downgraded sharply").label == NewsSentiment.NEGATIVE
+    assert score_text("Company probed by the regulator").label == NewsSentiment.NEGATIVE
+    assert score_text("Regulator fined the firm").label == NewsSentiment.NEGATIVE
+    assert score_text("Executives embezzled funds").label == NewsSentiment.NEGATIVE
+    assert score_text("multiple probes launched").label == NewsSentiment.NEGATIVE
+    assert score_text("Rating upgraded by the agency").label == NewsSentiment.POSITIVE
+    # base forms still fine; lookalikes still excluded.
+    assert score_text("rating downgrade expected").label == NewsSentiment.NEGATIVE
+    assert score_text("the company held a finance meeting").label == NewsSentiment.NEUTRAL
+    assert score_text("a problem was discussed").label == NewsSentiment.NEUTRAL
+
+
 def test_aggregate_handles_none_and_nan():
     r = aggregate([(-0.5, 0.8, "yfinance", None, None)])
     assert r.label == NewsSentiment.NEGATIVE and r.n_sources == 1
@@ -126,6 +140,7 @@ def main() -> int:
     test_backcompat_wrappers()
     test_matching_robustness()
     test_aggregate_handles_none_and_nan()
+    test_silent_e_inflections()
     print("OK: sentiment scorer tests pass")
     return 0
 

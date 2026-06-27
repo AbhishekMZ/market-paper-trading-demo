@@ -80,6 +80,18 @@ def recency_weight(age_hours: Optional[float], cfg: Any = None) -> float:
     return 1.0 - frac * (1.0 - floor)
 
 
+def _term_pattern(term: str) -> str:
+    """Regex for a lexicon term plus common inflections, with word boundaries.
+
+    Silent-e stems: 'probe' -> probe/probes/probed/probing,
+    'downgrade' -> downgrade/downgraded/downgrading. Non-e terms get an optional
+    s/es/ed/ing: 'miss' -> miss/misses/missed/missing (but NOT 'mission').
+    """
+    if term.endswith("e"):
+        return r"\b" + re.escape(term[:-1]) + r"(?:e|es|ed|ing)\b"
+    return r"\b" + re.escape(term) + r"(?:s|es|ed|ing)?\b"
+
+
 def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
                age_hours: Optional[float] = None,
                company_tokens: Optional[List[str]] = None) -> SentimentScore:
@@ -108,7 +120,7 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
     for term, w in lex.terms.items():
         # leading boundary + optional inflection suffix + trailing boundary:
         # matches "miss"/"misses"/"missed" but NOT "mission".
-        m = re.search(r"\b" + re.escape(term) + r"(?:s|es|ed|ing)?\b", low)
+        m = re.search(_term_pattern(term), low)
         if not m:
             continue
         start = m.start()
