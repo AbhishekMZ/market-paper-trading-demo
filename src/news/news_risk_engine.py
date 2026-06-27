@@ -28,8 +28,8 @@ from news.cache import NewsCache
 from news.deduper import dedupe
 from news.event_classifier import classify_events
 from news.providers import build_news_providers
-from news.relevance import relevance_score
-from news.sentiment import aggregate_sentiment, classify_sentiment
+from news.relevance import company_tokens, relevance_score
+from news.sentiment import aggregate, score_text
 from order_models import SignalLabel
 from utils import now_ist_iso
 
@@ -58,6 +58,9 @@ class NewsRiskEngine:
         self.medium_manual_review = bool(block.get("medium_risk_news_triggers_manual_review", True))
 
         self.boost_cap = float(cfg.get("scoring", {}).get("positive_sentiment_boost_max", 3.0))
+        sent = cfg.get("sentiment", {})
+        self.manual_review_min_conf = float(
+            sent.get("confidence", {}).get("manual_review_min_confidence", 0.6))
         self.max_age_hours = float(cfg.get("freshness", {}).get("max_age_hours", 96))
 
         alert = cfg.get("alerting", {})
@@ -87,7 +90,12 @@ class NewsRiskEngine:
         worst = NewsRiskLevel.NONE
         for it in blocking_pool:
             worst = max_risk(worst, it.risk_level)
-        overall_sentiment = aggregate_sentiment([it.sentiment for it in blocking_pool])
+        agg = aggregate(
+            [(it.sentiment_score, it.sentiment_confidence, it.provider, it.relevance, it.age_hours)
+             for it in blocking_pool],
+            self.cfg,
+        )
+        overall_sentiment = agg.label
         event_types = sorted({t for it in blocking_pool for t in it.event_types})
         fresh_count = sum(1 for it in kept if it.is_fresh)
 
@@ -100,7 +108,8 @@ class NewsRiskEngine:
 
         boost = 0.0
         if not blocks_buy and overall_sentiment == NewsSentiment.POSITIVE and worst == NewsRiskLevel.NONE:
-            boost = min(self.boost_cap, 1.0 + 0.5 * fresh_count)
+            # Informational only; scaled by confidence. Never crosses the buy line.
+            boost = min(self.boost_cap, (1.0 + 0.5 * fresh_count) * agg.confidence)
 
         reasons = self._reasons(kept, worst, overall_sentiment, blocks_buy, manual_review, exit_review)
         ranked = sorted(kept, key=lambda i: (-risk_rank(i.risk_level), i.age_hours if i.age_hours is not None else 48.0))
@@ -118,6 +127,11 @@ class NewsRiskEngine:
             requires_manual_review=manual_review,
             exit_review_for_holding=exit_review,
             sentiment_boost=round(boost, 2),
+            sentiment_score=agg.polarity,
+            sentiment_confidence=agg.confidence,
+            sentiment_sources_agree=agg.sources_agree,
+            sentiment_conflict=agg.conflict,
+            sentiment_n_sources=agg.n_sources,
             reasons=reasons,
             providers_used=sorted({it.provider for it in kept}),
             top_items=[i.to_dict() for i in ranked[:5]],
@@ -134,6 +148,8 @@ class NewsRiskEngine:
         signal.news_available = assessment.news_available
         signal.news_risk_level = assessment.news_risk_level.value
         signal.news_sentiment = assessment.overall_sentiment.value
+        signal.news_sentiment_confidence = round(assessment.sentiment_confidence, 2)
+        signal.news_sentiment_sources_agree = assessment.sentiment_sources_agree
         signal.news_event_types = list(assessment.dominant_event_types)
         signal.news_item_count = assessment.item_count
         signal.news_blocks_buy = assessment.blocks_buy
@@ -214,12 +230,19 @@ class NewsRiskEngine:
         item.relevance = (
             1.0 if item.provider == "yfinance" else relevance_score(text, symbol, company_name)
         )
-        sentiment, neg, pos = classify_sentiment(text, self.cfg)
-        item.sentiment = sentiment
+        score = score_text(
+            text, self.cfg,
+            relevance=item.relevance,
+            age_hours=item.age_hours,
+            company_tokens=company_tokens(symbol, company_name),
+        )
+        item.sentiment = score.label
+        item.sentiment_score = score.polarity
+        item.sentiment_confidence = score.confidence
         types, risk, matched = classify_events(text, self.cfg)
         item.event_types = types
         item.risk_level = risk
-        item.matched_keywords = sorted(set(neg + pos + matched))
+        item.matched_keywords = sorted({t for t, _ in score.matched} | set(matched))
 
     def _is_relevant(self, item: NewsItem) -> bool:
         if item.provider == "yfinance" and self.keep_yf_unfiltered:

@@ -76,6 +76,13 @@ def main() -> int:
     alert = eng.build_alert(a, was_buy_candidate=True, held=False)
     assert alert and "CRITICAL" in alert["subject"]
 
+    # 6) New: assessment carries finance-aware sentiment fields.
+    assert a.sentiment_score < 0, "CRITICAL fraud news must read negative"
+    assert 0.0 <= a.sentiment_confidence <= 1.0
+    assert a2.sentiment_score > 0, "order-win/strong-results must read positive"
+    # Overlay never relaxes caution: positive news still does not block or change score.
+    assert not a2.blocks_buy and s2.score == 85.0
+
     print("OK: all news risk engine invariants hold.")
     return 0
 
