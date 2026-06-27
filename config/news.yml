@@ -46,6 +46,24 @@ news:
     positive_sentiment_boost_max: 3.0   # cap on the informational boost; NOT applied to cross the buy threshold
 
   sentiment:
+    # --- finance-aware scorer (deterministic). Values mirror code defaults. ---
+    weighted_terms:
+      critical_negative: { weight: -1.0, terms: [fraud, scam, ponzi, embezzle, siphon, forensic audit] }
+      strong_negative:   { weight: -0.7, terms: [probe, investigation, default, lawsuit, downgrade, insolvency, bankruptcy] }
+      mild_negative:     { weight: -0.4, terms: [miss, weak results, profit warning, recall, fine, penalty] }
+      mild_positive:     { weight:  0.4, terms: [order win, upgrade, expansion, new contract, wins order] }
+      strong_positive:   { weight:  0.6, terms: [strong results, record profit, debt reduction, beats] }
+    negators: [denies, denied, deny, "no", "not", cleared of, rejects, rejected, dismisses, dismissed, refutes, unfounded, "false", without merit]
+    negation_window: 4
+    neutral_deadband: 0.15
+    recency: { full_weight_hours: 24, floor_weight: 0.3 }
+    entity_proximity: { window_tokens: 6, near_boost: 0.2, far_penalty: 0.3 }
+    confidence:
+      single_source_penalty: 0.3
+      conflict_penalty: 0.5
+      agreement_bonus: 0.25
+      manual_review_min_confidence: 0.6
+    plugin_scoring: { neutral_base: 65, max_positive: 78, min_negative: 25 }
     negative_keywords:
       - fraud
       - scam
