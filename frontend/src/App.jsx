@@ -2,36 +2,14 @@ import { useState } from 'react';
 import { useData } from './hooks/useData.js';
 import { formatDateTime } from './lib/format.js';
 
-import Dashboard from './components/Dashboard.jsx';
-import SignalTable from './components/SignalTable.jsx';
-import Portfolio from './components/Portfolio.jsx';
-import TradeHistory from './components/TradeHistory.jsx';
-import AuditLog from './components/AuditLog.jsx';
-import DataHealth from './components/DataHealth.jsx';
-import News from './components/News.jsx';
-import Decisions from './components/Decisions.jsx';
-import Observation from './components/Observation.jsx';
-import StrategyEvaluation from './components/StrategyEvaluation.jsx';
-import ResearchHypotheses from './components/ResearchHypotheses.jsx';
-import SettingsView from './components/SettingsView.jsx';
-import ExecutionMode from './components/ExecutionMode.jsx';
-import FutureReadiness from './components/FutureReadiness.jsx';
+import Today from './views/Today.jsx';
+import Why from './views/Why.jsx';
+import TrackRecord from './views/TrackRecord.jsx';
 
 const TABS = [
-  { id: 'dashboard', label: 'Dashboard', el: Dashboard },
-  { id: 'signals', label: 'Signals', el: SignalTable },
-  { id: 'portfolio', label: 'Portfolio', el: Portfolio },
-  { id: 'trades', label: 'Trade History', el: TradeHistory },
-  { id: 'audit', label: 'Audit Log', el: AuditLog },
-  { id: 'datahealth', label: 'Data Health', el: DataHealth },
-  { id: 'observation', label: 'Observation', el: Observation },
-  { id: 'news', label: 'News', el: News },
-  { id: 'evaluation', label: 'Strategy Eval', el: StrategyEvaluation },
-  { id: 'decisions', label: 'Decision Quality', el: Decisions },
-  { id: 'research', label: 'Research', el: ResearchHypotheses },
-  { id: 'execution', label: 'Execution Mode', el: ExecutionMode },
-  { id: 'settings', label: 'Settings', el: SettingsView },
-  { id: 'future', label: 'Future Readiness', el: FutureReadiness },
+  { id: 'today', label: 'Today' },
+  { id: 'why', label: 'Why' },
+  { id: 'track', label: 'Track Record' },
 ];
 
 function PaperBanner() {
@@ -71,12 +49,16 @@ function StatusStrip({ report }) {
 }
 
 export default function App() {
-  const [active, setActive] = useState('dashboard');
+  const [active, setActive] = useState('today');
+  const [focusSymbol, setFocusSymbol] = useState(null);
 
   // The report is the spine of the dashboard; share it across views.
   const report = useData('latest_report.json');
 
-  const ActiveView = TABS.find((t) => t.id === active)?.el || Dashboard;
+  function goToWhy(symbol) {
+    setFocusSymbol(symbol);
+    setActive('why');
+  }
 
   return (
     <div className="app-shell">
@@ -111,7 +93,9 @@ export default function App() {
 
       <main className="content">
         <div className="container">
-          <ActiveView report={report} />
+          {active === 'today' && <Today report={report} onSelectSymbol={goToWhy} />}
+          {active === 'why' && <Why report={report} focusSymbol={focusSymbol} />}
+          {active === 'track' && <TrackRecord report={report} />}
         </div>
       </main>
 
