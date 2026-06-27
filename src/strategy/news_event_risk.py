@@ -39,7 +39,12 @@ class NewsEventRiskStrategy(StrategyPlugin):
             )
 
         scores = [score_text(h, cfg) for h in headlines]
-        agg = aggregate([(s.polarity, s.confidence, "yfinance", 1.0, None) for s in scores], cfg)
+        # Treat each headline as a corroborating "voice": multiple headlines that
+        # agree raise confidence (and conflicting ones lower it), mirroring the
+        # cross-source agreement logic. A single headline => single-source penalty.
+        records = [(s.polarity, s.confidence, f"headline_{i}", 1.0, None)
+                   for i, s in enumerate(scores)]
+        agg = aggregate(records, cfg)
 
         ps = (cfg.get("sentiment", {}) or {}).get("plugin_scoring", {})
         neutral_base = float(ps.get("neutral_base", 65))

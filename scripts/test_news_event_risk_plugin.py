@@ -41,6 +41,14 @@ def main() -> int:
     assert mild_neg.score_contribution > strong_neg.score_contribution
     assert mild_neg.score_contribution < 65
 
+    # Corroboration must FIRM the score: more agreeing negative headlines ->
+    # a score at least as low as a single one (not softer). Regression for the
+    # single-provider dilution bug.
+    one = p.evaluate("X", _md(["fraud probe; forensic audit"]), {}, ctx)
+    many = p.evaluate("X", _md(["fraud probe", "forensic audit fraud", "SEBI investigation launched"]), {}, ctx)
+    assert many.signal == NEGATIVE
+    assert many.score_contribution <= one.score_contribution, (many.score_contribution, one.score_contribution)
+
     print("OK: news_event_risk plugin sentiment scoring")
     return 0
 

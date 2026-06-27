@@ -95,7 +95,7 @@ def _term_pattern(term: str) -> str:
 def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
                age_hours: Optional[float] = None,
                company_tokens: Optional[List[str]] = None) -> SentimentScore:
-    low = (text or "").lower()
+    low = ("" if text is None else str(text)).lower()
     if not low.strip():
         return SentimentScore(reason="empty text -> neutral")
     lex = load_lexicon(cfg)
