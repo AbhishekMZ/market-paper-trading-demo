@@ -140,22 +140,24 @@ AggregateSentiment:
   = aggregate label.
 - **Hard blocks unchanged:** `blocks_buy` still derives from the deterministic event risk level
   (HIGH/CRITICAL). Safety-critical path is not touched.
-- **Sentiment becomes graded, not twitchy:**
-  - `requires_manual_review` (MEDIUM event + negative sentiment) additionally requires
-    `sentiment_confidence ≥ confidence.manual_review_min_confidence`. Low-confidence or
-    conflicting negative sentiment is recorded as *informational only* — no action. **This is
-    the core "trustworthy" win: a single noisy headline no longer escalates.**
+- **Caution is never relaxed; sentiment is graded only where that is strictly safe:**
+  - Hard blocks **and** the `requires_manual_review` trigger are left **exactly as today** — the
+    overlay never weakens a caution. (`manual_review_min_confidence` is loaded for forward-use but
+    is applied to no trigger in v1.)
   - `sentiment_boost` (informational, capped, never crosses the buy line) scales with confidence.
+  - The "trustworthy, not twitchy" win lands in the **scoring plugin** (§4.2): a single
+    low-confidence headline barely moves the 0–100 score instead of slamming it.
 - Reasons include polarity, confidence, and agreement (e.g. "2 sources agree; confidence 0.82").
 
 ### 4.2 Scoring plugin — `src/strategy/news_event_risk.py`
-- Drop its private keyword lists; score each headline via `score_text`, aggregate, and map
-  the aggregate polarity → `score_contribution` on the existing 0–100 scale, **calibrated** by a
-  sign-dependent linear interpolation around `neutral_base`:
-  `score = neutral_base + polarity × (max_positive − neutral_base)` when `polarity ≥ 0`, and
-  `score = neutral_base + polarity × (neutral_base − min_negative)` when `polarity < 0`
-  (so polarity 0 → ≈65, +1 → `max_positive` ≈78, −1 → `min_negative` ≈25), clamped 0–100.
-  Confidence reflects agreement/strength.
+- Drop its private keyword lists; score each headline via `score_text`, aggregate to
+  `(polarity, confidence)`, then map **`effective = polarity × confidence`** → `score_contribution`
+  via a sign-dependent linear interpolation around `neutral_base`:
+  `score = neutral_base + effective × (max_positive − neutral_base)` when `effective ≥ 0`, and
+  `score = neutral_base + effective × (neutral_base − min_negative)` when `effective < 0`
+  (so effective 0 → ≈65, easing to `max_positive` ≈78 / `min_negative` ≈25 at the extremes),
+  clamped 0–100. Multiplying by confidence is the "trustworthy, not twitchy" damping: a single
+  low-confidence headline barely moves the score.
 - ⚠️ **The one real behavior change:** this is a weighted (15/100) contributor, so some
   scores/labels will shift. That is the intended effect of a better input. Calibration knobs
   (`plugin_scoring`) keep the scale comparable so shifts are gradual, not wild.
@@ -223,8 +225,14 @@ Run style: `python scripts/test_<name>.py` → prints `OK: ...`, exit 0. No pyte
   - back-compat: `classify_sentiment` and `aggregate_sentiment` still return the original enum-shaped results.
 - **`scripts/test_news_risk_engine.py` (extend):**
   - all 5 existing cardinal invariants still pass unchanged;
-  - new: a single low-confidence negative headline does **not** escalate to MANUAL_REVIEW;
-  - new: two corroborating negative sources raise `sentiment_confidence` and set `sentiment_sources_agree`.
+  - new: the assessment carries finance-aware fields — CRITICAL fraud reads `sentiment_score < 0`;
+    an order-win/strong-results headline reads `sentiment_score > 0`; positive news still does not
+    block and never changes the score.
+- **`scripts/test_news_event_risk_plugin.py` (new):** confidence-damped mapping — neutral headlines
+  ≈65; strong negative <45 (NEGATIVE); strong positive >68 (POSITIVE); a single mild negative stays
+  well above the strong-negative score (the not-twitchy win).
+- Cross-source agreement/conflict/single-source are unit-tested directly in `aggregate` (the engine
+  test stubs GDELT, so it sees a single source).
 
 ## 9. Error Handling
 
