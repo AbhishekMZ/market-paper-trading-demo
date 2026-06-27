@@ -1,25 +1,16 @@
-"""NewsEventRiskStrategy — reduce score for negative news / event risk.
+"""NewsEventRiskStrategy — reduce/raise score using the shared sentiment scorer.
 
-Uses headlines returned alongside the SerpApi Google Finance result (no extra
-API call, to protect quota). Headlines are scanned with simple keyword
-categories. Headlines are NOT over-trusted: positive news lifts the score only
-mildly, negative news / risk keywords reduce it more firmly.
+Scores each available headline with the finance-aware scorer, aggregates, and
+maps polarity × confidence onto the 0-100 contribution. Low-confidence reads stay
+near neutral, so a single noisy headline no longer swings the score. Negative news
+weighs more heavily than positive (caution-first). Degrades to neutral with no news.
 """
 from __future__ import annotations
 
 from typing import Any, Dict, List
 
-from strategy.base import NEGATIVE, NEUTRAL, POSITIVE, StrategyPlugin, StrategyResult
-
-NEGATIVE_KEYWORDS = [
-    "fraud", "probe", "investigation", "penalty", "downgrade", "weak results",
-    "loss", "default", "resignation", "regulatory action", "lawsuit", "debt concern",
-    "raid", "scam", "ban", "fine", "recall", "miss",
-]
-POSITIVE_KEYWORDS = [
-    "strong results", "order win", "expansion", "approval", "upgrade",
-    "margin improvement", "debt reduction", "record", "beats", "wins order",
-]
+from news.sentiment import aggregate, score_text
+from strategy.base import NEGATIVE, NEUTRAL, StrategyPlugin, StrategyResult
 
 
 class NewsEventRiskStrategy(StrategyPlugin):
@@ -27,18 +18,16 @@ class NewsEventRiskStrategy(StrategyPlugin):
         return "news_event_risk"
 
     def describe(self) -> str:
-        return "Scans available headlines for risk/positive keywords; reduces score on negative news."
+        return "Finance-aware headline sentiment; confidence-damped score contribution."
 
     def required_fields(self) -> List[str]:
         return []  # degrades gracefully when no news is present
 
     def evaluate(self, symbol, market_data, portfolio_state, context) -> StrategyResult:
         headlines: List[str] = market_data.get("headlines", []) or []
-        warnings: List[str] = []
-        risk_flags: List[str] = []
+        cfg = context.get("news_cfg") or {}
 
         if not headlines:
-            warnings.append("No news data available; using a neutral assumption.")
             return StrategyResult(
                 strategy_name=self.name(),
                 score_contribution=65.0,            # neutral-ish, not optimistic
@@ -46,42 +35,44 @@ class NewsEventRiskStrategy(StrategyPlugin):
                 signal=NEUTRAL,
                 reason="No headlines available; assuming no adverse news (low confidence).",
                 data_used={"headlines_used": 0},
-                warnings=warnings,
+                warnings=["No news data available; using a neutral assumption."],
             )
 
-        neg_hits, pos_hits = [], []
-        for h in headlines:
-            low = h.lower()
-            for kw in NEGATIVE_KEYWORDS:
-                if kw in low:
-                    neg_hits.append(kw)
-                    risk_flags.append(f"news:{kw}")
-            for kw in POSITIVE_KEYWORDS:
-                if kw in low:
-                    pos_hits.append(kw)
+        scores = [score_text(h, cfg) for h in headlines]
+        # Treat each headline as a corroborating "voice": multiple headlines that
+        # agree raise confidence (and conflicting ones lower it), mirroring the
+        # cross-source agreement logic. A single headline => single-source penalty.
+        records = [(s.polarity, s.confidence, f"headline_{i}", 1.0, None)
+                   for i, s in enumerate(scores)]
+        agg = aggregate(records, cfg)
 
-        # Negative news weighs more heavily than positive (do not over-trust).
-        score = 65.0 - 12.0 * len(set(neg_hits)) + 5.0 * len(set(pos_hits))
-        score = max(0.0, min(100.0, score))
-        if neg_hits:
-            signal = NEGATIVE
-        elif pos_hits:
-            signal = POSITIVE
+        ps = (cfg.get("sentiment", {}) or {}).get("plugin_scoring", {})
+        neutral_base = float(ps.get("neutral_base", 65))
+        max_pos = float(ps.get("max_positive", 78))
+        min_neg = float(ps.get("min_negative", 25))
+
+        effective = agg.polarity * agg.confidence       # confidence damps the deviation
+        if effective >= 0:
+            score = neutral_base + effective * (max_pos - neutral_base)
         else:
-            signal = NEUTRAL
+            score = neutral_base + effective * (neutral_base - min_neg)
+        score = max(0.0, min(100.0, score))
+
+        signal = agg.label.value  # "POSITIVE" | "NEUTRAL" | "NEGATIVE"
+        risk_flags = ["news:negative_sentiment"] if signal == NEGATIVE else []
 
         return StrategyResult(
             strategy_name=self.name(),
             score_contribution=round(score, 1),
-            confidence=0.55,
+            confidence=max(0.2, round(agg.confidence, 2)),
             signal=signal,
-            reason=(
-                f"Scanned {len(headlines)} headlines. "
-                f"Negative: {sorted(set(neg_hits)) or 'none'}; positive: {sorted(set(pos_hits)) or 'none'}."
-            ),
+            reason=(f"Scanned {len(headlines)} headline(s). Sentiment {signal} "
+                    f"(polarity {agg.polarity:.2f}, confidence {agg.confidence:.2f}) "
+                    f"-> {score:.0f}/100."),
             data_used={"headlines_used": len(headlines),
-                       "negative_keywords": sorted(set(neg_hits)),
-                       "positive_keywords": sorted(set(pos_hits))},
-            warnings=warnings,
-            risk_flags=sorted(set(risk_flags)),
+                       "polarity": agg.polarity,
+                       "confidence": agg.confidence,
+                       "negated_any": any(s.negated for s in scores)},
+            warnings=[],
+            risk_flags=risk_flags,
         )
