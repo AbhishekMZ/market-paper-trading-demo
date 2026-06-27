@@ -15,6 +15,7 @@ from news.sentiment import SentimentScore, score_text  # noqa: E402
 from news.base import NewsSentiment  # noqa: E402
 from news.sentiment import recency_weight  # noqa: E402
 from news.relevance import company_tokens  # noqa: E402
+from news.sentiment import AggregateSentiment, aggregate  # noqa: E402
 
 
 def test_lexicon_defaults_and_overrides():
@@ -68,12 +69,29 @@ def test_entity_proximity_confidence():
     assert near.confidence > far.confidence
 
 
+def test_aggregate_agreement_and_conflict():
+    # records: (polarity, confidence, provider, relevance, age_hours)
+    agree = aggregate([(-0.8, 0.9, "yfinance", 1.0, 1.0), (-0.7, 0.8, "gdelt", 0.9, 2.0)])
+    assert agree.label == NewsSentiment.NEGATIVE and agree.sources_agree and not agree.conflict
+    assert agree.n_sources == 2 and agree.confidence > 0.7
+
+    conflict = aggregate([(-0.8, 0.9, "yfinance", 1.0, 1.0), (0.7, 0.8, "gdelt", 1.0, 1.0)])
+    assert conflict.conflict and conflict.confidence < 0.6
+
+    single = aggregate([(-0.8, 0.9, "yfinance", 1.0, 1.0)])
+    assert single.n_sources == 1 and single.confidence < 0.9 and single.label == NewsSentiment.NEGATIVE
+
+    empty = aggregate([])
+    assert empty.label == NewsSentiment.NEUTRAL and empty.n_sources == 0
+
+
 def main() -> int:
     test_lexicon_defaults_and_overrides()
     test_score_text_weighting_and_deadband()
     test_negation_neutralizes()
     test_recency_decay()
     test_entity_proximity_confidence()
+    test_aggregate_agreement_and_conflict()
     print("OK: sentiment scorer tests pass")
     return 0
 

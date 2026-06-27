@@ -132,6 +132,70 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
     return SentimentScore(round(polarity, 3), label, round(conf, 3), matched, negated, reason)
 
 
+@dataclass
+class AggregateSentiment:
+    label: NewsSentiment = NewsSentiment.NEUTRAL
+    polarity: float = 0.0
+    confidence: float = 0.0
+    sources_agree: bool = False
+    conflict: bool = False
+    n_sources: int = 0
+    reason: str = ""
+
+
+def aggregate(records: List[Tuple[float, float, str, float, Optional[float]]],
+              cfg: Any = None) -> AggregateSentiment:
+    """Combine per-article (polarity, confidence, provider, relevance, age_hours).
+
+    Confidence rises when ≥2 distinct sources agree, falls on single-source or
+    when sources conflict. Polarity is a relevance×recency-weighted mean.
+    """
+    sent = _sent_cfg(cfg)
+    deadband = float(sent.get("neutral_deadband", 0.15))
+    cc = sent.get("confidence", {})
+    single_pen = float(cc.get("single_source_penalty", 0.3))
+    conflict_pen = float(cc.get("conflict_penalty", 0.5))
+    agree_bonus = float(cc.get("agreement_bonus", 0.25))
+
+    if not records:
+        return AggregateSentiment(confidence=0.1, reason="no items -> neutral")
+
+    weights = [max(0.0, float(rel)) * recency_weight(age, cfg)
+               for (_pol, _conf, _prov, rel, age) in records]
+    tw = sum(weights)
+    if tw > 0:
+        pol_mean = sum(w * r[0] for r, w in zip(records, weights)) / tw
+        conf_mean = sum(w * r[1] for r, w in zip(records, weights)) / tw
+    else:
+        pol_mean = sum(r[0] for r in records) / len(records)
+        conf_mean = sum(r[1] for r in records) / len(records)
+
+    by_source: Dict[str, float] = {}
+    for pol, _conf, prov, _rel, _age in records:
+        by_source[prov] = by_source.get(prov, 0.0) + pol
+    signs = {p: (-1 if s < -deadband else 1 if s > deadband else 0) for p, s in by_source.items()}
+    non_neutral = [v for v in signs.values() if v != 0]
+    n_sources = len(by_source)
+    sources_agree = len(non_neutral) >= 2 and len(set(non_neutral)) == 1
+    conflict = (1 in non_neutral) and (-1 in non_neutral)
+
+    conf = conf_mean
+    if conflict:
+        conf *= (1.0 - conflict_pen)
+    elif sources_agree:
+        conf = min(1.0, conf * (1.0 + agree_bonus))
+    elif n_sources < 2:
+        conf *= (1.0 - single_pen)
+
+    label = _label_for(pol_mean, deadband)
+    reason = (f"{len(records)} item(s)/{n_sources} source(s); polarity {pol_mean:.2f}, "
+              f"confidence {conf:.2f}"
+              + ("; sources agree" if sources_agree else "")
+              + ("; sources conflict" if conflict else ""))
+    return AggregateSentiment(label, round(pol_mean, 3), round(_clamp(conf, 0.0, 1.0), 3),
+                              sources_agree, conflict, n_sources, reason)
+
+
 # ---------------------------------------------------------------------------
 # Legacy back-compat wrappers (preserved so news_risk_engine.py keeps working)
 # ---------------------------------------------------------------------------
