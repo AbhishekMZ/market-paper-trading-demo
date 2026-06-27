@@ -16,6 +16,7 @@ from news.base import NewsSentiment  # noqa: E402
 from news.sentiment import recency_weight  # noqa: E402
 from news.relevance import company_tokens  # noqa: E402
 from news.sentiment import AggregateSentiment, aggregate  # noqa: E402
+from news.sentiment import classify_sentiment, aggregate_sentiment  # noqa: E402
 
 
 def test_lexicon_defaults_and_overrides():
@@ -85,6 +86,14 @@ def test_aggregate_agreement_and_conflict():
     assert empty.label == NewsSentiment.NEUTRAL and empty.n_sources == 0
 
 
+def test_backcompat_wrappers():
+    label, neg, pos = classify_sentiment("fraud probe", {})
+    assert label == NewsSentiment.NEGATIVE
+    assert "fraud" in neg and "probe" in neg and pos == []
+    assert aggregate_sentiment([NewsSentiment.POSITIVE, NewsSentiment.NEGATIVE]) == NewsSentiment.NEGATIVE
+    assert aggregate_sentiment([]) == NewsSentiment.NEUTRAL
+
+
 def main() -> int:
     test_lexicon_defaults_and_overrides()
     test_score_text_weighting_and_deadband()
@@ -92,6 +101,7 @@ def main() -> int:
     test_recency_decay()
     test_entity_proximity_confidence()
     test_aggregate_agreement_and_conflict()
+    test_backcompat_wrappers()
     print("OK: sentiment scorer tests pass")
     return 0
 
