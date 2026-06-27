@@ -19,7 +19,17 @@ from news.lexicon import load_lexicon
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
 
 
+def _finite(x: Any, default: float) -> float:
+    try:
+        x = float(x)
+    except (TypeError, ValueError):
+        return default
+    return x if math.isfinite(x) else default
+
+
 def _clamp(x: float, lo: float, hi: float) -> float:
+    if not math.isfinite(x):
+        return lo
     return lo if x < lo else hi if x > hi else x
 
 
@@ -30,6 +40,8 @@ def _sent_cfg(cfg: Any) -> Dict[str, Any]:
 
 
 def _label_for(polarity: float, deadband: float) -> NewsSentiment:
+    if not math.isfinite(polarity):
+        return NewsSentiment.NEUTRAL
     if abs(polarity) < deadband:
         return NewsSentiment.NEUTRAL
     return NewsSentiment.POSITIVE if polarity > 0 else NewsSentiment.NEGATIVE
@@ -48,6 +60,12 @@ class SentimentScore:
 def recency_weight(age_hours: Optional[float], cfg: Any = None) -> float:
     """1.0 for fresh items, decaying linearly to floor_weight by max_age_hours."""
     if age_hours is None:
+        return 1.0
+    try:
+        age_hours = float(age_hours)
+    except (TypeError, ValueError):
+        return 1.0
+    if not math.isfinite(age_hours):
         return 1.0
     s = _sent_cfg(cfg).get("recency", {})
     full = float(s.get("full_weight_hours", 24))
@@ -88,13 +106,18 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
     surviving: List[Tuple[str, float, int]] = []
     negated: List[str] = []
     for term, w in lex.terms.items():
-        m = re.search(r"\b" + re.escape(term), low)
+        # leading boundary + optional inflection suffix + trailing boundary:
+        # matches "miss"/"misses"/"missed" but NOT "mission".
+        m = re.search(r"\b" + re.escape(term) + r"(?:s|es|ed|ing)?\b", low)
         if not m:
             continue
         start = m.start()
         lo = max(0, tok_index(start) - window)
         win_text = low[token_starts[lo]:start] if token_starts else ""
-        if any(re.search(r"\b" + re.escape(n), win_text) for n in lex.negators):
+        for sep in (".", ";", "!", "?"):
+            if sep in win_text:
+                win_text = win_text.rsplit(sep, 1)[-1]
+        if any(re.search(r"\b" + re.escape(n) + r"\b", win_text) for n in lex.negators):
             negated.append(term)
             continue
         surviving.append((term, w, start))
@@ -107,13 +130,14 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
     base = min(1.0, strength / 1.5)
 
     prox_factor = 1.0
-    if company_tokens:
+    valid_company = [ct for ct in (company_tokens or []) if ct]
+    if valid_company:
         ep = sent.get("entity_proximity", {})
         near_boost = float(ep.get("near_boost", 0.2))
         far_pen = float(ep.get("far_penalty", 0.3))
         pwin = int(ep.get("window_tokens", 6))
         comp_idx = [tok_index(mm.start()) for mm in
-                    (re.search(r"\b" + re.escape(ct), low) for ct in company_tokens) if mm]
+                    (re.search(r"\b" + re.escape(ct), low) for ct in valid_company) if mm]
         if not comp_idx:
             prox_factor = 1.0 - far_pen
         elif surviving:
@@ -122,7 +146,7 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
             prox_factor = (1.0 + near_boost) if nearest <= pwin else (1.0 - far_pen)
 
     rec = recency_weight(age_hours, cfg)
-    conf = _clamp(base * float(relevance) * rec * prox_factor, 0.0, 1.0)
+    conf = _clamp(base * _finite(relevance, 1.0) * rec * prox_factor, 0.0, 1.0)
     if not surviving:
         conf = min(conf, 0.1)
 
@@ -145,11 +169,7 @@ class AggregateSentiment:
 
 def aggregate(records: List[Tuple[float, float, str, float, Optional[float]]],
               cfg: Any = None) -> AggregateSentiment:
-    """Combine per-article (polarity, confidence, provider, relevance, age_hours).
-
-    Confidence rises when ≥2 distinct sources agree, falls on single-source or
-    when sources conflict. Polarity is a relevance×recency-weighted mean.
-    """
+    """Combine per-article (polarity, confidence, provider, relevance, age_hours)."""
     sent = _sent_cfg(cfg)
     deadband = float(sent.get("neutral_deadband", 0.15))
     cc = sent.get("confidence", {})
@@ -160,18 +180,21 @@ def aggregate(records: List[Tuple[float, float, str, float, Optional[float]]],
     if not records:
         return AggregateSentiment(confidence=0.1, reason="no items -> neutral")
 
-    weights = [max(0.0, float(rel)) * recency_weight(age, cfg)
-               for (_pol, _conf, _prov, rel, age) in records]
+    clean = [(_finite(pol, 0.0), _finite(conf, 0.0), prov, _finite(rel, 1.0), age)
+             for (pol, conf, prov, rel, age) in records]
+
+    weights = [max(0.0, rel) * recency_weight(age, cfg)
+               for (_pol, _conf, _prov, rel, age) in clean]
     tw = sum(weights)
     if tw > 0:
-        pol_mean = sum(w * r[0] for r, w in zip(records, weights)) / tw
-        conf_mean = sum(w * r[1] for r, w in zip(records, weights)) / tw
+        pol_mean = sum(w * r[0] for r, w in zip(clean, weights)) / tw
+        conf_mean = sum(w * r[1] for r, w in zip(clean, weights)) / tw
     else:
-        pol_mean = sum(r[0] for r in records) / len(records)
-        conf_mean = sum(r[1] for r in records) / len(records)
+        pol_mean = sum(r[0] for r in clean) / len(clean)
+        conf_mean = sum(r[1] for r in clean) / len(clean)
 
     by_source: Dict[str, float] = {}
-    for pol, _conf, prov, _rel, _age in records:
+    for pol, _conf, prov, _rel, _age in clean:
         by_source[prov] = by_source.get(prov, 0.0) + pol
     signs = {p: (-1 if s < -deadband else 1 if s > deadband else 0) for p, s in by_source.items()}
     non_neutral = [v for v in signs.values() if v != 0]
@@ -188,7 +211,7 @@ def aggregate(records: List[Tuple[float, float, str, float, Optional[float]]],
         conf *= (1.0 - single_pen)
 
     label = _label_for(pol_mean, deadband)
-    reason = (f"{len(records)} item(s)/{n_sources} source(s); polarity {pol_mean:.2f}, "
+    reason = (f"{len(clean)} item(s)/{n_sources} source(s); polarity {pol_mean:.2f}, "
               f"confidence {conf:.2f}"
               + ("; sources agree" if sources_agree else "")
               + ("; sources conflict" if conflict else ""))

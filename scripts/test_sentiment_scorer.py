@@ -94,6 +94,28 @@ def test_backcompat_wrappers():
     assert aggregate_sentiment([]) == NewsSentiment.NEUTRAL
 
 
+def test_matching_robustness():
+    # negators must not prefix-match ordinary words (Critical fix).
+    assert score_text("North zone fraud probe").label == NewsSentiment.NEGATIVE
+    assert score_text("November fraud probe results").label == NewsSentiment.NEGATIVE
+    assert score_text("Company notes fraud probe ongoing").label == NewsSentiment.NEGATIVE
+    # genuine negation still neutralizes.
+    assert score_text("Company denies fraud").label == NewsSentiment.NEUTRAL
+    # terms must not prefix-match unrelated words, but must catch inflections.
+    assert score_text("Company unveils new mission statement").label == NewsSentiment.NEUTRAL
+    assert score_text("The finer details were released").label == NewsSentiment.NEUTRAL
+    assert score_text("Q3 profit misses estimates").label == NewsSentiment.NEGATIVE
+    # an empty company token must not fabricate a proximity boost.
+    assert score_text("fraud probe", company_tokens=[""]).confidence == score_text("fraud probe").confidence
+
+
+def test_aggregate_handles_none_and_nan():
+    r = aggregate([(-0.5, 0.8, "yfinance", None, None)])
+    assert r.label == NewsSentiment.NEGATIVE and r.n_sources == 1
+    r2 = aggregate([(float("nan"), 0.8, "yfinance", 1.0, 1.0)])
+    assert r2.label == NewsSentiment.NEUTRAL  # NaN polarity -> neutral, no crash
+
+
 def main() -> int:
     test_lexicon_defaults_and_overrides()
     test_score_text_weighting_and_deadband()
@@ -102,6 +124,8 @@ def main() -> int:
     test_entity_proximity_confidence()
     test_aggregate_agreement_and_conflict()
     test_backcompat_wrappers()
+    test_matching_robustness()
+    test_aggregate_handles_none_and_nan()
     print("OK: sentiment scorer tests pass")
     return 0
 
