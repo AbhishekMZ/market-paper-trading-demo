@@ -45,6 +45,23 @@ class SentimentScore:
     reason: str = ""
 
 
+def recency_weight(age_hours: Optional[float], cfg: Any = None) -> float:
+    """1.0 for fresh items, decaying linearly to floor_weight by max_age_hours."""
+    if age_hours is None:
+        return 1.0
+    s = _sent_cfg(cfg).get("recency", {})
+    full = float(s.get("full_weight_hours", 24))
+    floor = float(s.get("floor_weight", 0.3))
+    fr = cfg.get("freshness", {}) if isinstance(cfg, dict) else {}
+    max_age = float(fr.get("max_age_hours", 96))
+    if age_hours <= full or max_age <= full:
+        return 1.0 if age_hours <= full else floor
+    if age_hours >= max_age:
+        return floor
+    frac = (age_hours - full) / (max_age - full)
+    return 1.0 - frac * (1.0 - floor)
+
+
 def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
                age_hours: Optional[float] = None,
                company_tokens: Optional[List[str]] = None) -> SentimentScore:
@@ -52,25 +69,67 @@ def score_text(text: str, cfg: Any = None, *, relevance: float = 1.0,
     if not low.strip():
         return SentimentScore(reason="empty text -> neutral")
     lex = load_lexicon(cfg)
-    deadband = float(_sent_cfg(cfg).get("neutral_deadband", 0.15))
+    sent = _sent_cfg(cfg)
+    deadband = float(sent.get("neutral_deadband", 0.15))
+    window = int(sent.get("negation_window", 4))
 
-    surviving: List[Tuple[str, float]] = []
+    tokens = [(m.group(0), m.start()) for m in _TOKEN_RE.finditer(low)]
+    token_starts = [s for _, s in tokens]
+
+    def tok_index(char_pos: int) -> int:
+        idx = 0
+        for i, s in enumerate(token_starts):
+            if s <= char_pos:
+                idx = i
+            else:
+                break
+        return idx
+
+    surviving: List[Tuple[str, float, int]] = []
+    negated: List[str] = []
     for term, w in lex.terms.items():
-        if re.search(r"\b" + re.escape(term), low):
-            surviving.append((term, w))
+        m = re.search(r"\b" + re.escape(term), low)
+        if not m:
+            continue
+        start = m.start()
+        lo = max(0, tok_index(start) - window)
+        win_text = low[token_starts[lo]:start] if token_starts else ""
+        if any(re.search(r"\b" + re.escape(n), win_text) for n in lex.negators):
+            negated.append(term)
+            continue
+        surviving.append((term, w, start))
 
-    total = sum(w for _, w in surviving)
+    total = sum(w for _, w, _ in surviving)
     polarity = math.tanh(total)
     label = _label_for(polarity, deadband)
 
-    strength = sum(abs(w) for _, w in surviving)
-    conf = _clamp(min(1.0, strength / 1.5) * float(relevance), 0.0, 1.0)
+    strength = sum(abs(w) for _, w, _ in surviving)
+    base = min(1.0, strength / 1.5)
+
+    prox_factor = 1.0
+    if company_tokens:
+        ep = sent.get("entity_proximity", {})
+        near_boost = float(ep.get("near_boost", 0.2))
+        far_pen = float(ep.get("far_penalty", 0.3))
+        pwin = int(ep.get("window_tokens", 6))
+        comp_idx = [tok_index(mm.start()) for mm in
+                    (re.search(r"\b" + re.escape(ct), low) for ct in company_tokens) if mm]
+        if not comp_idx:
+            prox_factor = 1.0 - far_pen
+        elif surviving:
+            term_idx = [tok_index(s) for _, _, s in surviving]
+            nearest = min(abs(a - b) for a in term_idx for b in comp_idx)
+            prox_factor = (1.0 + near_boost) if nearest <= pwin else (1.0 - far_pen)
+
+    rec = recency_weight(age_hours, cfg)
+    conf = _clamp(base * float(relevance) * rec * prox_factor, 0.0, 1.0)
     if not surviving:
         conf = min(conf, 0.1)
 
-    reason = f"matched={surviving}; polarity={polarity:.2f}, confidence={conf:.2f}"
-    return SentimentScore(round(polarity, 3), label, round(conf, 3),
-                          list(surviving), [], reason)
+    matched = [(t, w) for t, w, _ in surviving]
+    reason = (f"matched={matched}" + (f"; negated={negated}" if negated else "")
+              + f"; polarity={polarity:.2f}, confidence={conf:.2f}")
+    return SentimentScore(round(polarity, 3), label, round(conf, 3), matched, negated, reason)
 
 
 # ---------------------------------------------------------------------------
