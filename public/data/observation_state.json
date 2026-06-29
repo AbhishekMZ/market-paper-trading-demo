@@ -5,28 +5,28 @@
       "change_pct": 0.2414,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:28+05:30"
+      "updated_at": "2026-06-29T18:46:05+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1301.0,
       "change_pct": -1.2973,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:31+05:30"
+      "updated_at": "2026-06-29T18:46:08+05:30"
     },
     "SBIN.NS": {
       "last_price": 1036.0999755859375,
       "change_pct": -0.8896,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:30+05:30"
+      "updated_at": "2026-06-29T18:46:08+05:30"
     },
     "ICICIBANK.NS": {
       "last_price": 1387.5999755859375,
       "change_pct": 0.0072,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:30+05:30"
+      "updated_at": "2026-06-29T18:46:07+05:30"
     },
     "LT.NS": {
       "last_price": 4260.89990234375,
@@ -47,30 +47,30 @@
       "change_pct": -1.4813,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:30+05:30"
+      "updated_at": "2026-06-29T18:46:08+05:30"
     },
     "HDFCBANK.NS": {
       "last_price": 798.9000244140625,
       "change_pct": 0.3265,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:29+05:30"
+      "updated_at": "2026-06-29T18:46:06+05:30"
     },
     "INFY.NS": {
       "last_price": 1036.699951171875,
       "change_pct": -0.4322,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:29+05:30"
+      "updated_at": "2026-06-29T18:46:06+05:30"
     },
     "TCS.NS": {
       "last_price": 2097.89990234375,
       "change_pct": 0.1528,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-06-29T16:18:31+05:30"
+      "updated_at": "2026-06-29T18:46:09+05:30"
     }
   },
-  "last_observation_at": "2026-06-29T16:18:31+05:30",
+  "last_observation_at": "2026-06-29T18:46:09+05:30",
   "last_regime": "NEUTRAL"
 }

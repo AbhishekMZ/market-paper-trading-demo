@@ -1,5 +1,59 @@
 [
   {
+    "symbol": "SBIN.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_f97d330a8c6d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_aefdd71dcd6c",
+    "created_at": "2026-06-29T18:46:09+05:30",
+    "expires_at": "2026-06-29T18:46:09+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_d01a0617e45e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_f2d5dab2d890",
+    "created_at": "2026-06-29T18:46:09+05:30",
+    "expires_at": "2026-06-29T18:46:09+05:30"
+  },
+  {
+    "symbol": "INFY.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_c3248b66af6f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_de5a55ec27c2",
+    "created_at": "2026-06-29T18:46:09+05:30",
+    "expires_at": "2026-06-29T18:46:09+05:30"
+  },
+  {
     "symbol": "AXISBANK.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",

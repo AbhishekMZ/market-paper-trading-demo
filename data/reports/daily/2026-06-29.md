@@ -48,7 +48,7 @@ RELIANCE.NS(48.8), LT.NS(47.0), INFY.NS(38.9), TCS.NS(35.8)
 - LT.NS (DO_NOT_BUY, 47.0): Final 47.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, trend_following=61, volatility_risk=39.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 24 · total this month: 288 (no API-key quota)
+- Provider: `yfinance` · calls today: 36 · total this month: 300 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
