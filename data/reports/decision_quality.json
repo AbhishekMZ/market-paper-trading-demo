@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-06-26T17:21:18+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-06-29T14:36:53+05:30",
+  "checkpoint": "mid",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 40,
     "matured_episodes": 30,
     "paper_trades": 1,
-    "distinct_days": 4,
+    "distinct_days": 5,
     "action_rate_pct": 2.5,
     "avg_forward_return_acted_pct": 6.0,
-    "avg_forward_return_not_acted_pct": 0.08,
-    "decision_edge_pct": 5.62,
+    "avg_forward_return_not_acted_pct": -0.06,
+    "decision_edge_pct": 5.67,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": 7.21,
+    "benchmark_outperformance_pct": 7.6,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
     "status": "COLLECTING_EVIDENCE",
     "tone": "neutral",
     "headline": "Not enough paper-trading evidence yet. Keep collecting runs before judging the system.",
-    "evidence_score": 43.3,
+    "evidence_score": 45.0,
     "maturity_checks": [
       {
         "label": "Paper trades",
@@ -36,23 +36,23 @@
       },
       {
         "label": "Distinct days",
-        "current": 4,
+        "current": 5,
         "required": 20,
         "done": false
       }
     ],
     "takeaways": [
-      "Evidence maturity is 43.3% of the configured minimum sample.",
-      "Decision edge is 5.62% acted vs declined candidates.",
+      "Evidence maturity is 45.0% of the configured minimum sample.",
+      "Decision edge is 5.67% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 7.21% vs NIFTY 50.",
-      "Blocked names rose 0.04% on average — blocking had a cost (still paper-safe).",
-      "Observer has run 21 time(s) with noise score 0.26."
+      "Paper portfolio outperformance is 7.6% vs NIFTY 50.",
+      "Blocked names rose 0.01% on average — blocking had a cost (still paper-safe).",
+      "Observer has run 22 time(s) with noise score 0.24."
     ],
     "watch_items": [
       "Only 1/10 paper trades so far.",
-      "Only 4/20 distinct days of data.",
-      "Top observed strategy so far: trend_following (0.23% avg forward return).",
+      "Only 5/20 distinct days of data.",
+      "Top observed strategy so far: trend_following (0.09% avg forward return).",
       "Best observed score threshold so far: 70 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
     ],
@@ -60,7 +60,7 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-06-26T17:21:18+05:30",
+    "as_of": "2026-06-29T14:36:53+05:30",
     "open_episodes": 10,
     "matured_episodes": 30,
     "total_episodes": 40,
@@ -74,14 +74,14 @@
       "watch_grade": {
         "count": 6,
         "rated": 6,
-        "avg_return_pct": 1.25,
-        "hit_rate_pct": 50.0
+        "avg_return_pct": 1.15,
+        "hit_rate_pct": 66.7
       },
       "low_grade": {
         "count": 33,
         "rated": 33,
-        "avg_return_pct": -0.13,
-        "hit_rate_pct": 45.5
+        "avg_return_pct": -0.28,
+        "hit_rate_pct": 48.5
       }
     },
     "acted": {
@@ -93,8 +93,8 @@
     "not_acted": {
       "count": 39,
       "rated": 39,
-      "avg_return_pct": 0.08,
-      "hit_rate_pct": 46.2
+      "avg_return_pct": -0.06,
+      "hit_rate_pct": 51.3
     }
   },
   "shadow": {
@@ -107,18 +107,18 @@
     "shadow_candidates": {
       "count": 20,
       "rated": 20,
-      "avg_return_pct": 0.38,
-      "hit_rate_pct": 50.0
+      "avg_return_pct": 0.33,
+      "hit_rate_pct": 60.0
     },
     "blocked": {
       "count": 17,
       "rated": 17,
-      "avg_return_pct": 0.04,
-      "hit_rate_pct": 47.1
+      "avg_return_pct": 0.01,
+      "hit_rate_pct": 58.8
     },
-    "acted_vs_shadow_edge_pct": 5.62,
-    "decision_note": "Acted picks outperformed declined candidates by 5.62% avg forward return.",
-    "block_note": "Blocked names rose 0.04% on average — blocking had a cost (still paper-safe).",
+    "acted_vs_shadow_edge_pct": 5.67,
+    "decision_note": "Acted picks outperformed declined candidates by 5.67% avg forward return.",
+    "block_note": "Blocked names rose 0.01% on average — blocking had a cost (still paper-safe).",
     "shadow_examples": [
       {
         "symbol": "RELIANCE.NS",
@@ -347,15 +347,15 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-06-26T17:21:18+05:30",
+    "as_of": "2026-06-29T14:36:53+05:30",
     "ready": true,
-    "points": 22,
+    "points": 23,
     "from_date": "2026-06-23",
-    "to_date": "2026-06-26",
+    "to_date": "2026-06-29",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.3,
+    "benchmark_return_pct": -6.69,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": 7.21,
+    "outperformance_pct": 7.6,
     "verdict": "AHEAD",
     "history": [
       {
@@ -533,6 +533,14 @@
         "nifty_close": 24056.0,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-06-29",
+        "ts": "2026-06-29T14:36:53+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 23956.69921875,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -541,41 +549,41 @@
       {
         "strategy": "trend_following",
         "episodes": 40,
-        "wins": 19,
-        "avg_forward_return_pct": 0.23,
-        "hit_rate_pct": 47.5,
+        "wins": 21,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 52.5,
         "rank": 1
       },
       {
         "strategy": "relative_strength",
         "episodes": 40,
-        "wins": 19,
-        "avg_forward_return_pct": 0.23,
-        "hit_rate_pct": 47.5,
+        "wins": 21,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 52.5,
         "rank": 2
       },
       {
         "strategy": "news_event_risk",
         "episodes": 40,
-        "wins": 19,
-        "avg_forward_return_pct": 0.23,
-        "hit_rate_pct": 47.5,
+        "wins": 21,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 52.5,
         "rank": 3
       },
       {
         "strategy": "volatility_risk",
         "episodes": 40,
-        "wins": 19,
-        "avg_forward_return_pct": 0.23,
-        "hit_rate_pct": 47.5,
+        "wins": 21,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 52.5,
         "rank": 4
       },
       {
         "strategy": "portfolio_fit",
         "episodes": 40,
-        "wins": 19,
-        "avg_forward_return_pct": 0.23,
-        "hit_rate_pct": 47.5,
+        "wins": 21,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 52.5,
         "rank": 5
       }
     ],
@@ -621,16 +629,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 21,
-    "triggers_detected": 84,
-    "escalations_created": 38,
+    "observation_runs": 22,
+    "triggers_detected": 89,
+    "escalations_created": 42,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 28,
-    "useful_triggers": 28,
+    "blocked_actions_from_triggers": 32,
+    "useful_triggers": 32,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.26,
-    "avg_triggers_per_run": 4.0,
-    "last_run": "2026-06-26T14:28:00+05:30",
+    "alert_noise_score": 0.24,
+    "avg_triggers_per_run": 4.05,
+    "last_run": "2026-06-26T17:21:23+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -649,11 +657,11 @@
     "progress": {
       "paper_trades": 1,
       "tracked_episodes": 40,
-      "distinct_days": 4
+      "distinct_days": 5
     },
     "reasons": [
       "Only 1/10 paper trades so far.",
-      "Only 4/20 distinct days of data."
+      "Only 5/20 distinct days of data."
     ],
     "live_trading": "DISABLED",
     "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict."
