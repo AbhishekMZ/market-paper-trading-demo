@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-07-01T15:08:39+05:30",
+  "as_of": "2026-07-01T17:48:23+05:30",
   "portfolio_max_drawdown_pct": 0.0,
-  "total_signals": 300,
+  "total_signals": 310,
   "total_paper_trades": 1,
   "strategies": {
     "trend_following": {
-      "signals_generated": 300,
+      "signals_generated": 310,
       "paper_trades_triggered": 1,
       "wins": 0,
       "losses": 0,
@@ -13,13 +13,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 110,
-      "average_score_contribution": 50.3,
+      "avoided_bad_trade_count": 113,
+      "average_score_contribution": 50.6,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
     "relative_strength": {
-      "signals_generated": 300,
+      "signals_generated": 310,
       "paper_trades_triggered": 1,
       "wins": 0,
       "losses": 0,
@@ -27,13 +27,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 136,
+      "avoided_bad_trade_count": 140,
       "average_score_contribution": 41.3,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
     "news_event_risk": {
-      "signals_generated": 300,
+      "signals_generated": 310,
       "paper_trades_triggered": 1,
       "wins": 0,
       "losses": 0,
@@ -42,12 +42,12 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 76,
-      "average_score_contribution": 60.5,
+      "average_score_contribution": 60.6,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
     "volatility_risk": {
-      "signals_generated": 300,
+      "signals_generated": 310,
       "paper_trades_triggered": 1,
       "wins": 0,
       "losses": 0,
@@ -55,13 +55,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 51,
-      "average_score_contribution": 53.2,
+      "avoided_bad_trade_count": 53,
+      "average_score_contribution": 52.9,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
     "portfolio_fit": {
-      "signals_generated": 300,
+      "signals_generated": 310,
       "paper_trades_triggered": 1,
       "wins": 0,
       "losses": 0,
@@ -69,8 +69,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 133,
-      "average_score_contribution": 49.1,
+      "avoided_bad_trade_count": 134,
+      "average_score_contribution": 49.8,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     }
