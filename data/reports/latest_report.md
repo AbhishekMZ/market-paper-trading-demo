@@ -1,8 +1,8 @@
-# 📄 Paper Trading Report — 2026-07-01 (mid)
+# 📄 Paper Trading Report — 2026-07-01 (close)
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `RISK_ON` — Benchmarks up 0.71% on average — risk-on.
+**Market regime:** `RISK_ON` — Benchmarks up 0.73% on average — risk-on.
 
 ## 💰 Portfolio (fake money)
 - Total value: **₹10,091.50** (started ₹10,000.00)
@@ -16,42 +16,43 @@
 - None this checkpoint.
 
 ## 👀 Watchlist
-AXISBANK.NS(73.4), SBIN.NS(71.8), BHARTIARTL.NS(67.4), ICICIBANK.NS(66.4)
+SBIN.NS(75.3), AXISBANK.NS(71.7), BHARTIARTL.NS(66.9), ICICIBANK.NS(66.6)
 
 ## 🚫 Do-not-buy
-LT.NS(43.1), INFY.NS(31.3), TCS.NS(24.8)
+LT.NS(44.0), TCS.NS(30.8), INFY.NS(30.8)
 
 ## 🧠 Strategy contribution summary
 - trend_following: avg 61/100 (weight 20)
 - relative_strength: avg 43/100 (weight 20)
 - mean_reversion _(display-only)_: avg 48/100 (weight 0)
-- breakout _(display-only)_: avg 57/100 (weight 0)
+- breakout _(display-only)_: avg 55/100 (weight 0)
 - news_event_risk: avg 65/100 (weight 15)
 - volatility_risk: avg 44/100 (weight 15)
-- portfolio_fit: avg 64/100 (weight 10)
+- portfolio_fit: avg 70/100 (weight 10)
 
 ## ❗ Strategy conflicts
-- ITC.NS: Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
+- ITC.NS: Disagreement: ['trend_following', 'relative_strength', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
 - HDFCBANK.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- RELIANCE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- TCS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - INFY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 
 ## 🤔 Why no trade (selected)
-- AXISBANK.NS (WATCH, 73.4): Final 73.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, relative_strength=87, portfolio_fit=80.
-- SBIN.NS (WATCH, 71.8): Final 71.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, relative_strength=68.
-- BHARTIARTL.NS (WATCH, 67.4): Final 67.4/100 -> WATCH [regime RISK_ON]. Top: portfolio_fit=80, trend_following=75, news_event_risk=65.
-- ICICIBANK.NS (WATCH, 66.4): Final 66.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=93, portfolio_fit=80, news_event_risk=65.
-- ITC.NS (HOLD, 64.8): Final 64.8/100 -> HOLD [regime RISK_ON]. Top: trend_following=79, relative_strength=65, news_event_risk=65. Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
-- HDFCBANK.NS (NO_ACTION, 63.3): Final 63.3/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- RELIANCE.NS (NO_ACTION, 59.4): Final 59.4/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=65, relative_strength=65.
-- LT.NS (DO_NOT_BUY, 43.1): Final 43.1/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, trend_following=59, volatility_risk=42.
+- SBIN.NS (WATCH, 75.3): Final 75.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, relative_strength=87, portfolio_fit=80.
+- AXISBANK.NS (WATCH, 71.7): Final 71.7/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=77.
+- BHARTIARTL.NS (WATCH, 66.9): Final 66.9/100 -> WATCH [regime RISK_ON]. Top: portfolio_fit=80, trend_following=74, news_event_risk=65.
+- ICICIBANK.NS (WATCH, 66.6): Final 66.6/100 -> WATCH [regime RISK_ON]. Top: trend_following=93, portfolio_fit=80, news_event_risk=65.
+- ITC.NS (HOLD, 64.8): Final 64.8/100 -> HOLD [regime RISK_ON]. Top: trend_following=79, relative_strength=65, news_event_risk=65. Disagreement: ['trend_following', 'relative_strength', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
+- HDFCBANK.NS (NO_ACTION, 61.9): Final 61.9/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- RELIANCE.NS (NO_ACTION, 58.5): Final 58.5/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=65, relative_strength=62. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- LT.NS (DO_NOT_BUY, 44.0): Final 44.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, trend_following=60, volatility_risk=43.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 12 · total this month: 12 (no API-key quota)
+- Provider: `yfinance` · calls today: 24 · total this month: 24 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
-- Share price ₹2002 exceeds per-trade cap ₹2000.
-- Share price ₹4090 exceeds per-trade cap ₹2000.
+- Share price ₹4092 exceeds per-trade cap ₹2000.
 - 1 data-quality incident(s) this run — see Data Health.
 
 ## 🔭 Future-readiness checklist
