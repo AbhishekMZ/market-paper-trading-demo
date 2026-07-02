@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-07-01T17:48:26+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-02T13:10:53+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
-  "watchlist_size": 9,
-  "observed": 9,
+  "watchlist_size": 8,
+  "observed": 8,
   "open_positions_observed": 1,
-  "triggers_this_run": 2,
-  "escalations": 2,
+  "triggers_this_run": 6,
+  "escalations": 4,
   "actions_taken": [],
   "blocked_actions": [
     {
@@ -23,28 +23,27 @@
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 31,
-    "triggers_detected": 124,
-    "escalations_created": 63,
+    "observation_runs": 32,
+    "triggers_detected": 130,
+    "escalations_created": 67,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 52,
+    "blocked_actions_from_triggers": 54,
     "emails_sent_total": 0,
-    "last_run": "2026-07-01T17:48:26+05:30",
-    "last_watchlist_size": 9
+    "last_run": "2026-07-02T13:10:53+05:30",
+    "last_watchlist_size": 8
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "HDFCBANK.NS",
       "ICICIBANK.NS",
-      "BHARTIARTL.NS",
       "AXISBANK.NS",
-      "SBIN.NS",
       "RELIANCE.NS",
       "INFY.NS",
-      "TCS.NS"
+      "TCS.NS",
+      "SBIN.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
@@ -58,18 +57,18 @@
         "company_name": "HDFC Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 796.1500244140625,
+        "price_at_detection": 798.0499877929688,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "RISK_ON",
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_30b239cf9f6a",
-        "trigger_id": "trg_6d1b44d4be9b",
-        "detected_at": "2026-07-01T17:48:24+05:30"
+        "created_escalation_id": "esc_64f84ac6c889",
+        "trigger_id": "trg_c0f21821422c",
+        "detected_at": "2026-07-02T13:10:50+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -79,18 +78,102 @@
         "company_name": "Axis Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1368.699951171875,
+        "price_at_detection": 1363.5,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "RISK_ON",
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_3d6aa430e5f9",
-        "trigger_id": "trg_1f0405a47616",
-        "detected_at": "2026-07-01T17:48:25+05:30"
+        "created_escalation_id": "esc_271e12d85966",
+        "trigger_id": "trg_5a1613152039",
+        "detected_at": "2026-07-02T13:10:51+05:30"
+      },
+      {
+        "symbol": "INFY.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +5.4% since last observation.",
+        "company_name": "Infosys",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1038.199951171875,
+        "previous_price": null,
+        "change_pct": 5.37,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_b953a382dc70",
+        "trigger_id": "trg_9946c7428409",
+        "detected_at": "2026-07-02T13:10:52+05:30"
+      },
+      {
+        "symbol": "INFY.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +5.4% vs previous close.",
+        "company_name": "Infosys",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1038.199951171875,
+        "previous_price": null,
+        "change_pct": 5.3689,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_b953a382dc70",
+        "trigger_id": "trg_2875982e4fe3",
+        "detected_at": "2026-07-02T13:10:52+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +4.0% since last observation.",
+        "company_name": "Tata Consultancy Services",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 2061.39990234375,
+        "previous_price": null,
+        "change_pct": 3.97,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_a641cd9cb104",
+        "trigger_id": "trg_965325b3c46d",
+        "detected_at": "2026-07-02T13:10:52+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +4.0% vs previous close.",
+        "company_name": "Tata Consultancy Services",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 2061.39990234375,
+        "previous_price": null,
+        "change_pct": 3.9746,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_a641cd9cb104",
+        "trigger_id": "trg_c40e6f2cb2ae",
+        "detected_at": "2026-07-02T13:10:52+05:30"
       }
     ],
     "throttled": [],
@@ -101,7 +184,7 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_6d1b44d4be9b"
+          "trg_c0f21821422c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -109,9 +192,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_30b239cf9f6a",
-        "created_at": "2026-07-01T17:48:26+05:30",
-        "expires_at": "2026-07-01T17:48:26+05:30"
+        "escalation_id": "esc_64f84ac6c889",
+        "created_at": "2026-07-02T13:10:53+05:30",
+        "expires_at": "2026-07-02T13:10:53+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -119,7 +202,7 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_1f0405a47616"
+          "trg_5a1613152039"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -127,9 +210,47 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_3d6aa430e5f9",
-        "created_at": "2026-07-01T17:48:26+05:30",
-        "expires_at": "2026-07-01T17:48:26+05:30"
+        "escalation_id": "esc_271e12d85966",
+        "created_at": "2026-07-02T13:10:53+05:30",
+        "expires_at": "2026-07-02T13:10:53+05:30"
+      },
+      {
+        "symbol": "INFY.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +5.4% since last observation.",
+        "trigger_ids": [
+          "trg_9946c7428409",
+          "trg_2875982e4fe3"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b953a382dc70",
+        "created_at": "2026-07-02T13:10:53+05:30",
+        "expires_at": "2026-07-02T13:10:53+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +4.0% since last observation.",
+        "trigger_ids": [
+          "trg_965325b3c46d",
+          "trg_c40e6f2cb2ae"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_a641cd9cb104",
+        "created_at": "2026-07-02T13:10:53+05:30",
+        "expires_at": "2026-07-02T13:10:53+05:30"
       }
     ],
     "actions_taken": [],
@@ -146,6 +267,6 @@
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-07-01T17:48:23+05:30"
+    "as_of": "2026-07-02T13:10:49+05:30"
   }
 }
