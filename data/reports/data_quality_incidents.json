@@ -410,5 +410,14 @@
     "rejected_price": 289.8999938964844,
     "jump_pct": 46.21,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-07-03T13:02:53+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 290.3999938964844,
+    "jump_pct": 46.11,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]
