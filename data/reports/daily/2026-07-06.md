@@ -49,7 +49,7 @@ INFY.NS(35.1), TCS.NS(29.3)
 - ITC.NS (HOLD, 55.3): Final 55.3/100 -> HOLD [regime RISK_ON]. Top: volatility_risk=73, trend_following=72, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 24 · total this month: 132 (no API-key quota)
+- Provider: `yfinance` · calls today: 36 · total this month: 144 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
