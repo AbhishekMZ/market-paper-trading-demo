@@ -1390,5 +1390,61 @@
     "escalation_id": "esc_289d523e6b96",
     "created_at": "2026-07-03T17:12:41+05:30",
     "expires_at": "2026-07-03T17:12:41+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_4386a2d219e8",
+      "trg_89420a8c8d67",
+      "trg_c9098efc9166"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_dfca9c27f823",
+    "created_at": "2026-07-06T14:10:48+05:30",
+    "expires_at": "2026-07-06T14:10:48+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_7ce6e48e7d3f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_7e66b9c87c5f",
+    "created_at": "2026-07-06T14:10:48+05:30",
+    "expires_at": "2026-07-06T14:10:48+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_6ed24cd6c9ff"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_03f4ced38d17",
+    "created_at": "2026-07-06T14:10:48+05:30",
+    "expires_at": "2026-07-06T14:10:48+05:30"
   }
 ]

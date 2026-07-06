@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-07-03T17:12:41+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-06T14:10:48+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 9,
   "observed": 9,
   "open_positions_observed": 1,
-  "triggers_this_run": 3,
+  "triggers_this_run": 5,
   "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [
@@ -28,25 +28,25 @@
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 37,
-    "triggers_detected": 147,
-    "escalations_created": 77,
+    "observation_runs": 38,
+    "triggers_detected": 152,
+    "escalations_created": 80,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 62,
+    "blocked_actions_from_triggers": 65,
     "emails_sent_total": 0,
-    "last_run": "2026-07-03T17:12:41+05:30",
+    "last_run": "2026-07-06T14:10:48+05:30",
     "last_watchlist_size": 9
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
+      "RELIANCE.NS",
       "HDFCBANK.NS",
       "ICICIBANK.NS",
       "BHARTIARTL.NS",
       "AXISBANK.NS",
-      "RELIANCE.NS",
       "INFY.NS",
       "TCS.NS",
       "SBIN.NS"
@@ -63,18 +63,60 @@
         "company_name": "HDFC Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 801.0499877929688,
+        "price_at_detection": 829.2999877929688,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "NEUTRAL",
+        "market_regime": "RISK_ON",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_fef526b43f37",
-        "trigger_id": "trg_be9bb92b8a40",
-        "detected_at": "2026-07-03T17:12:39+05:30"
+        "created_escalation_id": "esc_dfca9c27f823",
+        "trigger_id": "trg_4386a2d219e8",
+        "detected_at": "2026-07-06T14:10:46+05:30"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +3.5% since last observation.",
+        "company_name": "HDFC Bank",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 829.2999877929688,
+        "previous_price": null,
+        "change_pct": 3.53,
+        "market_regime": "RISK_ON",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_dfca9c27f823",
+        "trigger_id": "trg_89420a8c8d67",
+        "detected_at": "2026-07-06T14:10:46+05:30"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.5% vs previous close.",
+        "company_name": "HDFC Bank",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 829.2999877929688,
+        "previous_price": null,
+        "change_pct": 3.5266,
+        "market_regime": "RISK_ON",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_dfca9c27f823",
+        "trigger_id": "trg_c9098efc9166",
+        "detected_at": "2026-07-06T14:10:46+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -84,18 +126,18 @@
         "company_name": "ICICI Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1411.4000244140625,
+        "price_at_detection": 1427.4000244140625,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "NEUTRAL",
+        "market_regime": "RISK_ON",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_0512628f675a",
-        "trigger_id": "trg_26ba0b79c6ce",
-        "detected_at": "2026-07-03T17:12:39+05:30"
+        "created_escalation_id": "esc_7e66b9c87c5f",
+        "trigger_id": "trg_7ce6e48e7d3f",
+        "detected_at": "2026-07-06T14:10:47+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -105,18 +147,18 @@
         "company_name": "Axis Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1342.0999755859375,
+        "price_at_detection": 1341.199951171875,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "NEUTRAL",
+        "market_regime": "RISK_ON",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_289d523e6b96",
-        "trigger_id": "trg_0af7bb816e51",
-        "detected_at": "2026-07-03T17:12:40+05:30"
+        "created_escalation_id": "esc_03f4ced38d17",
+        "trigger_id": "trg_6ed24cd6c9ff",
+        "detected_at": "2026-07-06T14:10:47+05:30"
       }
     ],
     "throttled": [],
@@ -127,7 +169,9 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_be9bb92b8a40"
+          "trg_4386a2d219e8",
+          "trg_89420a8c8d67",
+          "trg_c9098efc9166"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -135,9 +179,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_fef526b43f37",
-        "created_at": "2026-07-03T17:12:41+05:30",
-        "expires_at": "2026-07-03T17:12:41+05:30"
+        "escalation_id": "esc_dfca9c27f823",
+        "created_at": "2026-07-06T14:10:48+05:30",
+        "expires_at": "2026-07-06T14:10:48+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -145,7 +189,7 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_26ba0b79c6ce"
+          "trg_7ce6e48e7d3f"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -153,9 +197,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_0512628f675a",
-        "created_at": "2026-07-03T17:12:41+05:30",
-        "expires_at": "2026-07-03T17:12:41+05:30"
+        "escalation_id": "esc_7e66b9c87c5f",
+        "created_at": "2026-07-06T14:10:48+05:30",
+        "expires_at": "2026-07-06T14:10:48+05:30"
       },
       {
         "symbol": "AXISBANK.NS",
@@ -163,7 +207,7 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_0af7bb816e51"
+          "trg_6ed24cd6c9ff"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -171,9 +215,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_289d523e6b96",
-        "created_at": "2026-07-03T17:12:41+05:30",
-        "expires_at": "2026-07-03T17:12:41+05:30"
+        "escalation_id": "esc_03f4ced38d17",
+        "created_at": "2026-07-06T14:10:48+05:30",
+        "expires_at": "2026-07-06T14:10:48+05:30"
       }
     ],
     "actions_taken": [],
@@ -195,6 +239,6 @@
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-07-03T17:12:38+05:30"
+    "as_of": "2026-07-06T14:10:45+05:30"
   }
 }
