@@ -1,26 +1,55 @@
 {
-  "as_of": "2026-07-07T15:03:54+05:30",
+  "as_of": "2026-07-07T17:40:36+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "INFY.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
+      "symbol": "HDFCBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_4d08fd4d6708"
+        "trg_21856d9a8dc6"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b93232bd510a",
-      "created_at": "2026-07-07T15:03:54+05:30",
-      "expires_at": "2026-07-07T15:03:54+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_e0c1b07a48fa",
+      "created_at": "2026-07-07T17:40:36+05:30",
+      "expires_at": "2026-07-07T17:40:36+05:30"
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_c32182a65fef"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_197f0a3dce49",
+      "created_at": "2026-07-07T17:40:36+05:30",
+      "expires_at": "2026-07-07T17:40:36+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "AXISBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
