@@ -1,8 +1,8 @@
-# 📄 Paper Trading Report — 2026-07-07 (mid)
+# 📄 Paper Trading Report — 2026-07-07 (close)
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.06%) — neutral regime.
+**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.09%) — neutral regime.
 
 ## 💰 Portfolio (fake money)
 - Total value: **₹10,091.50** (started ₹10,000.00)
@@ -16,42 +16,43 @@
 - None this checkpoint.
 
 ## 👀 Watchlist
-SBIN.NS(67.3), BHARTIARTL.NS(66.7), AXISBANK.NS(66.3)
+SBIN.NS(66.2), BHARTIARTL.NS(65.9), AXISBANK.NS(65.7)
 
 ## 🚫 Do-not-buy
-TCS.NS(49.3), INFY.NS(48.7), LT.NS(46.4)
+TCS.NS(49.9), INFY.NS(48.7), LT.NS(46.5)
 
 ## 🧠 Strategy contribution summary
 - trend_following: avg 69/100 (weight 20)
-- relative_strength: avg 56/100 (weight 20)
+- relative_strength: avg 55/100 (weight 20)
 - mean_reversion _(display-only)_: avg 51/100 (weight 0)
 - breakout _(display-only)_: avg 55/100 (weight 0)
 - news_event_risk: avg 65/100 (weight 15)
-- volatility_risk: avg 48/100 (weight 15)
+- volatility_risk: avg 47/100 (weight 15)
 - portfolio_fit: avg 64/100 (weight 10)
 
 ## ❗ Strategy conflicts
+- ICICIBANK.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
 - ITC.NS: Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
 - TCS.NS: Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.
 - INFY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - LT.NS: Disagreement: ['trend_following'] positive vs ['relative_strength', 'portfolio_fit'] negative.
 
 ## 🤔 Why no trade (selected)
-- SBIN.NS (WATCH, 67.3): Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65.
-- BHARTIARTL.NS (WATCH, 66.7): Final 66.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65.
-- AXISBANK.NS (WATCH, 66.3): Final 66.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, news_event_risk=65.
-- ICICIBANK.NS (NO_ACTION, 63.6): Final 63.6/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, news_event_risk=65.
-- HDFCBANK.NS (NO_ACTION, 63.1): Final 63.1/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65.
+- SBIN.NS (WATCH, 66.2): Final 66.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65.
+- BHARTIARTL.NS (WATCH, 65.9): Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65.
+- AXISBANK.NS (WATCH, 65.7): Final 65.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, news_event_risk=65.
+- HDFCBANK.NS (NO_ACTION, 63.3): Final 63.3/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65.
+- ICICIBANK.NS (NO_ACTION, 62.2): Final 62.2/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- ITC.NS (HOLD, 61.6): Final 61.6/100 -> HOLD [regime NEUTRAL]. Top: trend_following=74, volatility_risk=74, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
 - RELIANCE.NS (NO_ACTION, 60.8): Final 60.8/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=79, news_event_risk=65.
-- ITC.NS (HOLD, 59.1): Final 59.1/100 -> HOLD [regime NEUTRAL]. Top: volatility_risk=74, trend_following=70, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
-- TCS.NS (DO_NOT_BUY, 49.3): Final 49.3/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=95, news_event_risk=65, volatility_risk=23. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.
+- TCS.NS (DO_NOT_BUY, 49.9): Final 49.9/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=98, news_event_risk=65, volatility_risk=23. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 12 · total this month: 156 (no API-key quota)
+- Provider: `yfinance` · calls today: 24 · total this month: 168 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
-- Share price ₹2094 exceeds per-trade cap ₹2000.
+- Share price ₹2096 exceeds per-trade cap ₹2000.
 - Share price ₹3988 exceeds per-trade cap ₹2000.
 - 1 data-quality incident(s) this run — see Data Health.
 
