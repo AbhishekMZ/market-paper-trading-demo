@@ -1,178 +1,429 @@
 {
-  "as_of": "2026-07-07T17:40:36+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-08T12:08:27+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 9,
   "observed": 9,
   "open_positions_observed": 1,
-  "triggers_this_run": 3,
-  "escalations": 2,
+  "triggers_this_run": 10,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [
     {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
+      "symbol": "ITC.NS",
+      "blocked_by": "DATA_QUALITY",
+      "trigger": "PROVIDER_FAILURE"
     },
     {
-      "symbol": "AXISBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
+      "symbol": "RELIANCE.NS",
+      "blocked_by": "DATA_QUALITY",
+      "trigger": "PROVIDER_FAILURE"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "blocked_by": "DATA_QUALITY",
+      "trigger": "PROVIDER_FAILURE"
+    },
+    {
+      "symbol": "INFY.NS",
+      "blocked_by": "DATA_QUALITY",
+      "trigger": "PROVIDER_FAILURE"
+    },
+    {
+      "symbol": "TCS.NS",
+      "blocked_by": "DATA_QUALITY",
+      "trigger": "PROVIDER_FAILURE"
     }
   ],
-  "throttled": 1,
+  "throttled": 5,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 43,
-    "triggers_detected": 166,
-    "escalations_created": 87,
+    "observation_runs": 44,
+    "triggers_detected": 176,
+    "escalations_created": 92,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 70,
+    "blocked_actions_from_triggers": 75,
     "emails_sent_total": 0,
-    "last_run": "2026-07-07T17:40:36+05:30",
+    "last_run": "2026-07-08T12:08:27+05:30",
     "last_watchlist_size": 9
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
-      "HDFCBANK.NS",
-      "BHARTIARTL.NS",
-      "AXISBANK.NS",
-      "SBIN.NS",
       "RELIANCE.NS",
+      "HDFCBANK.NS",
       "INFY.NS",
       "TCS.NS",
-      "ICICIBANK.NS"
+      "ICICIBANK.NS",
+      "BHARTIARTL.NS",
+      "SBIN.NS",
+      "AXISBANK.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
     ],
     "triggers": [
       {
+        "symbol": "ITC.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "ITC.NS",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_c4c5b371a780",
+        "trigger_id": "trg_8d90ff2d9d51",
+        "detected_at": "2026-07-08T12:08:10+05:30"
+      },
+      {
+        "symbol": "RELIANCE.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "Reliance Industries",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_077ccdb305cf",
+        "trigger_id": "trg_f6645644b3ad",
+        "detected_at": "2026-07-08T12:08:12+05:30"
+      },
+      {
         "symbol": "HDFCBANK.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
         "company_name": "HDFC Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 829.2999877929688,
+        "price_at_detection": null,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "NEUTRAL",
+        "market_regime": "DATA_INSUFFICIENT",
         "news_event_ids": [],
         "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
+        "recommended_next_step": "Block action; provider degraded.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_e0c1b07a48fa",
-        "trigger_id": "trg_21856d9a8dc6",
-        "detected_at": "2026-07-07T17:40:32+05:30"
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
-        "company_name": "Axis Bank",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1341.0,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_197f0a3dce49",
-        "trigger_id": "trg_c32182a65fef",
-        "detected_at": "2026-07-07T17:40:33+05:30"
+        "created_escalation_id": "esc_95c968d19abc",
+        "trigger_id": "trg_ace8074af4a6",
+        "detected_at": "2026-07-08T12:08:14+05:30"
       },
       {
         "symbol": "INFY.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.8% vs previous close.",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
         "company_name": "Infosys",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1071.800048828125,
+        "price_at_detection": null,
         "previous_price": null,
-        "change_pct": 2.8402,
-        "market_regime": "NEUTRAL",
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
         "news_event_ids": [],
         "data_quality_flags": [],
-        "recommended_next_step": "",
+        "recommended_next_step": "Block action; provider degraded.",
         "requires_focused_analysis": false,
-        "blocks_action": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_d5dc3ed0936f",
+        "trigger_id": "trg_5bef273a9e7f",
+        "detected_at": "2026-07-08T12:08:16+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "Tata Consultancy Services",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_23a839612346",
+        "trigger_id": "trg_432c1ed52983",
+        "detected_at": "2026-07-08T12:08:18+05:30"
+      },
+      {
+        "symbol": "ICICIBANK.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "ICICI Bank",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
         "created_escalation_id": null,
-        "trigger_id": "trg_43c836be8884",
-        "detected_at": "2026-07-07T17:40:35+05:30"
+        "trigger_id": "trg_eff02ed852db",
+        "detected_at": "2026-07-08T12:08:20+05:30"
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "Bharti Airtel",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": null,
+        "trigger_id": "trg_050ab6c7d4eb",
+        "detected_at": "2026-07-08T12:08:22+05:30"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "State Bank of India",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": null,
+        "trigger_id": "trg_e83f795e4ac4",
+        "detected_at": "2026-07-08T12:08:24+05:30"
+      },
+      {
+        "symbol": "AXISBANK.NS",
+        "trigger_type": "PROVIDER_FAILURE",
+        "severity": "MEDIUM",
+        "reason": "No usable quote — provider issue.",
+        "company_name": "Axis Bank",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block action; provider degraded.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": null,
+        "trigger_id": "trg_eac6d23a8c27",
+        "detected_at": "2026-07-08T12:08:27+05:30"
+      },
+      {
+        "symbol": "_MARKET_",
+        "trigger_type": "MARKET_REGIME_SHIFT",
+        "severity": "MEDIUM",
+        "reason": "Market regime -> DATA_INSUFFICIENT during market hours.",
+        "company_name": null,
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "DATA_INSUFFICIENT",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Decline to act on insufficient data.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": null,
+        "trigger_id": "trg_7dbb1ca2e00f",
+        "detected_at": "2026-07-08T12:08:27+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "INFY.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "symbol": "ICICIBANK.NS",
+        "trigger": "PROVIDER_FAILURE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "BHARTIARTL.NS",
+        "trigger": "PROVIDER_FAILURE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "SBIN.NS",
+        "trigger": "PROVIDER_FAILURE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "AXISBANK.NS",
+        "trigger": "PROVIDER_FAILURE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "_MARKET_",
+        "trigger": "MARKET_REGIME_SHIFT",
+        "reason": "max_escalations_per_run"
       }
     ],
     "escalations": [
       {
-        "symbol": "HDFCBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
+        "symbol": "ITC.NS",
+        "severity": "MEDIUM",
+        "action_type": "BLOCKED_BY_DATA_QUALITY",
+        "reason": "No usable quote — provider issue.",
         "trigger_ids": [
-          "trg_21856d9a8dc6"
+          "trg_8d90ff2d9d51"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_e0c1b07a48fa",
-        "created_at": "2026-07-07T17:40:36+05:30",
-        "expires_at": "2026-07-07T17:40:36+05:30"
+        "final_decision": "No action — data not trustworthy.",
+        "escalation_id": "esc_c4c5b371a780",
+        "created_at": "2026-07-08T12:08:27+05:30",
+        "expires_at": "2026-07-08T12:08:27+05:30"
       },
       {
-        "symbol": "AXISBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
+        "symbol": "RELIANCE.NS",
+        "severity": "MEDIUM",
+        "action_type": "BLOCKED_BY_DATA_QUALITY",
+        "reason": "No usable quote — provider issue.",
         "trigger_ids": [
-          "trg_c32182a65fef"
+          "trg_f6645644b3ad"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_197f0a3dce49",
-        "created_at": "2026-07-07T17:40:36+05:30",
-        "expires_at": "2026-07-07T17:40:36+05:30"
+        "final_decision": "No action — data not trustworthy.",
+        "escalation_id": "esc_077ccdb305cf",
+        "created_at": "2026-07-08T12:08:27+05:30",
+        "expires_at": "2026-07-08T12:08:27+05:30"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "severity": "MEDIUM",
+        "action_type": "BLOCKED_BY_DATA_QUALITY",
+        "reason": "No usable quote — provider issue.",
+        "trigger_ids": [
+          "trg_ace8074af4a6"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "No action — data not trustworthy.",
+        "escalation_id": "esc_95c968d19abc",
+        "created_at": "2026-07-08T12:08:27+05:30",
+        "expires_at": "2026-07-08T12:08:27+05:30"
+      },
+      {
+        "symbol": "INFY.NS",
+        "severity": "MEDIUM",
+        "action_type": "BLOCKED_BY_DATA_QUALITY",
+        "reason": "No usable quote — provider issue.",
+        "trigger_ids": [
+          "trg_5bef273a9e7f"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "No action — data not trustworthy.",
+        "escalation_id": "esc_d5dc3ed0936f",
+        "created_at": "2026-07-08T12:08:27+05:30",
+        "expires_at": "2026-07-08T12:08:27+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "severity": "MEDIUM",
+        "action_type": "BLOCKED_BY_DATA_QUALITY",
+        "reason": "No usable quote — provider issue.",
+        "trigger_ids": [
+          "trg_432c1ed52983"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "No action — data not trustworthy.",
+        "escalation_id": "esc_23a839612346",
+        "created_at": "2026-07-08T12:08:27+05:30",
+        "expires_at": "2026-07-08T12:08:27+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [
       {
-        "symbol": "HDFCBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
+        "symbol": "ITC.NS",
+        "blocked_by": "DATA_QUALITY",
+        "trigger": "PROVIDER_FAILURE"
       },
       {
-        "symbol": "AXISBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
+        "symbol": "RELIANCE.NS",
+        "blocked_by": "DATA_QUALITY",
+        "trigger": "PROVIDER_FAILURE"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "blocked_by": "DATA_QUALITY",
+        "trigger": "PROVIDER_FAILURE"
+      },
+      {
+        "symbol": "INFY.NS",
+        "blocked_by": "DATA_QUALITY",
+        "trigger": "PROVIDER_FAILURE"
+      },
+      {
+        "symbol": "TCS.NS",
+        "blocked_by": "DATA_QUALITY",
+        "trigger": "PROVIDER_FAILURE"
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-07-07T17:40:31+05:30"
+    "as_of": "2026-07-08T12:08:08+05:30"
   }
 }

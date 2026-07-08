@@ -1,1201 +1,9 @@
 [
   {
-    "symbol": "BHARTIARTL.NS",
-    "company_name": "Bharti Airtel",
-    "news_available": true,
-    "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Why India Is Becoming a Data-Center Hub, Whether Communities Like It or Not",
-        "source": "Barrons.com",
-        "provider": "yfinance",
-        "url": "https://www.barrons.com/articles/ai-data-centers-india-75425e19?siteid=yhoof2&yptr=yahoo",
-        "summary": "",
-        "published_at": "2026-07-02T14:17:00+00:00",
-        "fetched_at": "2026-07-07T12:09:02.139587+00:00",
-        "age_hours": 117.87,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "VEON Closes USD 1.4B Bond Offering & Refinances 2027 Debt Ahead of Schedule",
-        "source": "Exec Edge",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/veon-closes-usd-1-4b-214320227.html",
-        "summary": "",
-        "published_at": "2026-06-02T21:43:20+00:00",
-        "fetched_at": "2026-07-07T12:09:02.139614+00:00",
-        "age_hours": 830.43,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Prudential seals deal to acquire 75% of Bharti Life",
-        "source": "Life Insurance International",
-        "provider": "yfinance",
-        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/",
-        "summary": "",
-        "published_at": "2026-05-18T09:22:17+00:00",
-        "fetched_at": "2026-07-07T12:09:02.139640+00:00",
-        "age_hours": 1202.78,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Bharti Airtel Ltd (BOM:532454) Q4 2026 Earnings Call Highlights: Record Revenue and Strategic ...",
-        "source": "GuruFocus.com",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/bharti-airtel-ltd-bom-532454-150036807.html",
-        "summary": "",
-        "published_at": "2026-05-14T15:00:36+00:00",
-        "fetched_at": "2026-07-07T12:09:02.139659+00:00",
-        "age_hours": 1293.14,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.38,
-        "sentiment_confidence": 0.056,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": [
-          "record"
-        ]
-      },
-      {
-        "symbol": "BHARTIARTL.NS",
-        "title": "Indian shares open higher as earnings steady markets; higher oil caps gains",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-shares-set-extend-gains-023736283.html",
-        "summary": "",
-        "published_at": "2026-05-14T03:55:08+00:00",
-        "fetched_at": "2026-07-07T12:09:02.139674+00:00",
-        "age_hours": 1304.23,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [],
-    "assessed_at": "2026-07-07T17:39:10+05:30"
-  },
-  {
-    "symbol": "SBIN.NS",
-    "company_name": "State Bank of India",
-    "news_available": true,
-    "item_count": 10,
-    "fresh_item_count": 1,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 1,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
-      "[HIGH] Japan’s SBI Holdings to buy crypto exchange Bitbank",
-      "[HIGH] SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
-      "[HIGH] SBI Funds Management gets SEBI approval for IPO draft papers"
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "SBIN.NS",
-        "title": "Japan’s SBI Holdings to buy crypto exchange Bitbank",
-        "source": "Electronic Payments",
-        "provider": "yfinance",
-        "url": "https://www.electronicpaymentsinternational.com/news/sbi-holdings-buy-crypto-exchange-bitbank/",
-        "summary": "",
-        "published_at": "2026-06-26T11:52:07+00:00",
-        "fetched_at": "2026-07-07T12:09:10.233930+00:00",
-        "age_hours": 264.28,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
-        "source": "decrypt",
-        "provider": "yfinance",
-        "url": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
-        "summary": "",
-        "published_at": "2026-06-25T19:42:54+00:00",
-        "fetched_at": "2026-07-07T12:09:10.233981+00:00",
-        "age_hours": 280.44,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "SBI Funds Management gets SEBI approval for IPO draft papers",
-        "source": "Private Banker International",
-        "provider": "yfinance",
-        "url": "https://www.privatebankerinternational.com/news/sbi-funds-management-ipo-sebi-approval/",
-        "summary": "",
-        "published_at": "2026-06-19T12:02:10+00:00",
-        "fetched_at": "2026-07-07T12:09:10.234037+00:00",
-        "age_hours": 432.12,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.38,
-        "sentiment_confidence": 0.056,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "approval",
-          "sebi"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "India's HDFC Bank to hit dollar bond market under new subsidised scheme, sources say",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
-        "summary": "",
-        "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-07-07T12:09:10.234065+00:00",
-        "age_hours": 500.79,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "India's largest asset manager draws top sovereign funds in $1.2 billion IPO, sources say",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-largest-asset-manager-draws-081459839.html",
-        "summary": "",
-        "published_at": "2026-07-07T08:14:59+00:00",
-        "fetched_at": "2026-07-07T12:09:10.233780+00:00",
-        "age_hours": 3.9,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "SBIN.NS",
-        "title": "Japan’s SBI Holdings to buy crypto exchange Bitbank",
-        "source": "Electronic Payments",
-        "provider": "yfinance",
-        "url": "https://www.electronicpaymentsinternational.com/news/sbi-holdings-buy-crypto-exchange-bitbank/",
-        "summary": "",
-        "published_at": "2026-06-26T11:52:07+00:00",
-        "fetched_at": "2026-07-07T12:09:10.233930+00:00",
-        "age_hours": 264.28,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "SBI Holdings Says $289 Million Bitbank Deal Will Make It Japan's Largest Crypto Exchange",
-        "source": "decrypt",
-        "provider": "yfinance",
-        "url": "https://decrypt.co/372117/sbi-holdings-289-million-bitbank-deal-japan-largest-crypto-exchange",
-        "summary": "",
-        "published_at": "2026-06-25T19:42:54+00:00",
-        "fetched_at": "2026-07-07T12:09:10.233981+00:00",
-        "age_hours": 280.44,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "SBI Funds Management gets SEBI approval for IPO draft papers",
-        "source": "Private Banker International",
-        "provider": "yfinance",
-        "url": "https://www.privatebankerinternational.com/news/sbi-funds-management-ipo-sebi-approval/",
-        "summary": "",
-        "published_at": "2026-06-19T12:02:10+00:00",
-        "fetched_at": "2026-07-07T12:09:10.234037+00:00",
-        "age_hours": 432.12,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.38,
-        "sentiment_confidence": 0.056,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "approval",
-          "sebi"
-        ]
-      },
-      {
-        "symbol": "SBIN.NS",
-        "title": "India's HDFC Bank to hit dollar bond market under new subsidised scheme, sources say",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-hdfc-bank-hit-dollar-152142639.html",
-        "summary": "",
-        "published_at": "2026-06-16T15:21:42+00:00",
-        "fetched_at": "2026-07-07T12:09:10.234065+00:00",
-        "age_hours": 500.79,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:39:18+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "company_name": "Axis Bank",
-    "news_available": true,
-    "item_count": 18,
-    "fresh_item_count": 2,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.055,
-    "sentiment_confidence": 0.018,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 2,
-    "news_risk_level": "HIGH",
-    "dominant_event_types": [
-      "REGULATORY"
-    ],
-    "blocks_buy": true,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "18 relevant item(s); worst risk HIGH, sentiment NEUTRAL.",
-      "[HIGH] HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-      "[HIGH] Deposits Win for Private Banks , Loans Trophy for PSBs",
-      "[HIGH] HDFC Bank Shares Gain Over 2 % as Q1 FY27 Business Update Beats Street Estimates",
-      "HIGH/CRITICAL adverse news -> new paper buy blocked."
-    ],
-    "providers_used": [
-      "gdelt",
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-        "source": "businesstoday.in",
-        "provider": "gdelt",
-        "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-icici-bank-sbi-axis-bank-bob-kotak-bank-check-fresh-targets-for-top-banks-541447-2026-07-07",
-        "summary": "",
-        "published_at": "2026-07-07T09:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414504+00:00",
-        "age_hours": 2.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.8333333333333333,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "Deposits Win for Private Banks , Loans Trophy for PSBs",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/jul/07/et-front/deposits-win-for-pvt-banks-loans-trophy-for-psbs/articleshow/132225752.cms",
-        "summary": "",
-        "published_at": "2026-07-07T06:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414599+00:00",
-        "age_hours": 6.16,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank Shares Gain Over 2 % as Q1 FY27 Business Update Beats Street Estimates",
-        "source": "indiainfoline.com",
-        "provider": "gdelt",
-        "url": "https://www.indiainfoline.com/news/companies/hdfc-bank-shares-gain-over-2-as-q1-fy27-business-update-beats-street-estimates",
-        "summary": "",
-        "published_at": "2026-07-06T09:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414678+00:00",
-        "age_hours": 27.16,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.537,
-        "sentiment_confidence": 0.181,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "beats"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "Markets climb in early trade on buying in blue - chip bank stocks , lower oil prices",
-        "source": "tribuneindia.com",
-        "provider": "gdelt",
-        "url": "https://www.tribuneindia.com/news/business/markets-climb-in-early-trade-on-buying-in-blue-chip-bank-stocks-lower-oil-prices/",
-        "summary": "",
-        "published_at": "2026-07-06T07:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414743+00:00",
-        "age_hours": 29.16,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank shares jump 3 % on strong Q1FY27 business update",
-        "source": "thehindubusinessline.com",
-        "provider": "gdelt",
-        "url": "https://www.thehindubusinessline.com/markets/hdfc-bank-shares-jump-3-on-strong-q1fy27-business-update/article71187981.ece",
-        "summary": "",
-        "published_at": "2026-07-06T07:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414763+00:00",
-        "age_hours": 29.16,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-        "source": "businesstoday.in",
-        "provider": "gdelt",
-        "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-icici-bank-sbi-axis-bank-bob-kotak-bank-check-fresh-targets-for-top-banks-541447-2026-07-07",
-        "summary": "",
-        "published_at": "2026-07-07T09:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414504+00:00",
-        "age_hours": 2.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.8333333333333333,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "Deposits Win for Private Banks , Loans Trophy for PSBs",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/jul/07/et-front/deposits-win-for-pvt-banks-loans-trophy-for-psbs/articleshow/132225752.cms",
-        "summary": "",
-        "published_at": "2026-07-07T06:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414599+00:00",
-        "age_hours": 6.16,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank Shares Gain Over 2 % as Q1 FY27 Business Update Beats Street Estimates",
-        "source": "indiainfoline.com",
-        "provider": "gdelt",
-        "url": "https://www.indiainfoline.com/news/companies/hdfc-bank-shares-gain-over-2-as-q1-fy27-business-update-beats-street-estimates",
-        "summary": "",
-        "published_at": "2026-07-06T09:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414678+00:00",
-        "age_hours": 27.16,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.537,
-        "sentiment_confidence": 0.181,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "beats"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "Markets climb in early trade on buying in blue - chip bank stocks , lower oil prices",
-        "source": "tribuneindia.com",
-        "provider": "gdelt",
-        "url": "https://www.tribuneindia.com/news/business/markets-climb-in-early-trade-on-buying-in-blue-chip-bank-stocks-lower-oil-prices/",
-        "summary": "",
-        "published_at": "2026-07-06T07:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414743+00:00",
-        "age_hours": 29.16,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "AXISBANK.NS",
-        "title": "HDFC Bank shares jump 3 % on strong Q1FY27 business update",
-        "source": "thehindubusinessline.com",
-        "provider": "gdelt",
-        "url": "https://www.thehindubusinessline.com/markets/hdfc-bank-shares-jump-3-on-strong-q1fy27-business-update/article71187981.ece",
-        "summary": "",
-        "published_at": "2026-07-06T07:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:28.414763+00:00",
-        "age_hours": 29.16,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:39:28+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "company_name": "HDFC Bank",
-    "news_available": true,
-    "item_count": 15,
-    "fresh_item_count": 6,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 2,
-    "news_risk_level": "HIGH",
-    "dominant_event_types": [
-      "REGULATORY"
-    ],
-    "blocks_buy": true,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "15 relevant item(s); worst risk HIGH, sentiment NEUTRAL.",
-      "[HIGH] HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-      "[HIGH] Deposits Win for Private Banks , Loans Trophy for PSBs",
-      "[HIGH] Sensex Rises 521 Points to Two - Month High as Bank and Oil Stocks Rally",
-      "HIGH/CRITICAL adverse news -> new paper buy blocked."
-    ],
-    "providers_used": [
-      "gdelt",
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-        "source": "businesstoday.in",
-        "provider": "gdelt",
-        "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-icici-bank-sbi-axis-bank-bob-kotak-bank-check-fresh-targets-for-top-banks-541447-2026-07-07",
-        "summary": "",
-        "published_at": "2026-07-07T09:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815234+00:00",
-        "age_hours": 2.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.8333333333333333,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Deposits Win for Private Banks , Loans Trophy for PSBs",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/jul/07/et-front/deposits-win-for-pvt-banks-loans-trophy-for-psbs/articleshow/132225752.cms",
-        "summary": "",
-        "published_at": "2026-07-07T06:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815299+00:00",
-        "age_hours": 6.16,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Sensex Rises 521 Points to Two - Month High as Bank and Oil Stocks Rally",
-        "source": "dailypioneer.com",
-        "provider": "gdelt",
-        "url": "https://dailypioneer.com/news/markets-surge-on-4th-day-led-by-bank-stocks",
-        "summary": "",
-        "published_at": "2026-07-07T04:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815322+00:00",
-        "age_hours": 7.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "IT stocks are beginning to offer bank FD - like dividend yields . But is that a trap for investors ?",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/it-stocks-are-beginning-to-offer-bank-fd-like-dividend-yields-but-is-that-a-trap-for-investors/articleshow/132229555.cms",
-        "summary": "",
-        "published_at": "2026-07-07T04:30:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815369+00:00",
-        "age_hours": 7.66,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Stock markets rise for 4th day , close at over 2 - month high on gains in bank , oil shares",
-        "source": "tribuneindia.com",
-        "provider": "gdelt",
-        "url": "https://www.tribuneindia.com/news/business/stock-markets-rise-for-4th-day-close-at-over-2-month-high-on-gains-in-bank-oil-shares/",
-        "summary": "",
-        "published_at": "2026-07-06T16:30:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815489+00:00",
-        "age_hours": 19.66,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "HDFC Bank , ICICI Bank , SBI , Axis Bank , BoB , Kotak Bank : Check fresh targets for top banks",
-        "source": "businesstoday.in",
-        "provider": "gdelt",
-        "url": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-icici-bank-sbi-axis-bank-bob-kotak-bank-check-fresh-targets-for-top-banks-541447-2026-07-07",
-        "summary": "",
-        "published_at": "2026-07-07T09:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815234+00:00",
-        "age_hours": 2.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.8333333333333333,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Deposits Win for Private Banks , Loans Trophy for PSBs",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/epaper/delhicapital/2026/jul/07/et-front/deposits-win-for-pvt-banks-loans-trophy-for-psbs/articleshow/132225752.cms",
-        "summary": "",
-        "published_at": "2026-07-07T06:00:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815299+00:00",
-        "age_hours": 6.16,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Sensex Rises 521 Points to Two - Month High as Bank and Oil Stocks Rally",
-        "source": "dailypioneer.com",
-        "provider": "gdelt",
-        "url": "https://dailypioneer.com/news/markets-surge-on-4th-day-led-by-bank-stocks",
-        "summary": "",
-        "published_at": "2026-07-07T04:45:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815322+00:00",
-        "age_hours": 7.41,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "IT stocks are beginning to offer bank FD - like dividend yields . But is that a trap for investors ?",
-        "source": "economictimes.indiatimes.com",
-        "provider": "gdelt",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/it-stocks-are-beginning-to-offer-bank-fd-like-dividend-yields-but-is-that-a-trap-for-investors/articleshow/132229555.cms",
-        "summary": "",
-        "published_at": "2026-07-07T04:30:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815369+00:00",
-        "age_hours": 7.66,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "HDFCBANK.NS",
-        "title": "Stock markets rise for 4th day , close at over 2 - month high on gains in bank , oil shares",
-        "source": "tribuneindia.com",
-        "provider": "gdelt",
-        "url": "https://www.tribuneindia.com/news/business/stock-markets-rise-for-4th-day-close-at-over-2-month-high-on-gains-in-bank-oil-shares/",
-        "summary": "",
-        "published_at": "2026-07-06T16:30:00+00:00",
-        "fetched_at": "2026-07-07T12:09:41.815489+00:00",
-        "age_hours": 19.66,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 0.6666666666666666,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:39:41+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "company_name": "ICICI Bank",
-    "news_available": true,
-    "item_count": 10,
-    "fresh_item_count": 1,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 1,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
-      "[HIGH] India's ICICI Bank to join peers in dollar debt funding under RBI swap window, sources say",
-      "[HIGH] India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
-      "[HIGH] Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?"
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "India's ICICI Bank to join peers in dollar debt funding under RBI swap window, sources say",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-icici-bank-join-peers-072222158.html",
-        "summary": "",
-        "published_at": "2026-07-03T07:22:22+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819910+00:00",
-        "age_hours": 100.79,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "MACRO",
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "rbi"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
-        "summary": "",
-        "published_at": "2026-06-23T07:39:55+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819960+00:00",
-        "age_hours": 340.5,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
-        "source": "Insider Monkey",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/icici-bank-limited-ibn-best-005903282.html",
-        "summary": "",
-        "published_at": "2026-06-11T00:59:03+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819975+00:00",
-        "age_hours": 635.18,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
-        "summary": "",
-        "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-07-07T12:09:41.820015+00:00",
-        "age_hours": 677.42,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "MACRO",
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "rbi"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Soar in Monday Trading",
-        "source": "MT Newswires",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144711286.html",
-        "summary": "",
-        "published_at": "2026-07-06T14:47:11+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819892+00:00",
-        "age_hours": 21.38,
-        "is_fresh": true,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "India's ICICI Bank to join peers in dollar debt funding under RBI swap window, sources say",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-icici-bank-join-peers-072222158.html",
-        "summary": "",
-        "published_at": "2026-07-03T07:22:22+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819910+00:00",
-        "age_hours": 100.79,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "MACRO",
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "rbi"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "India's Kotak Mahindra Bank has 'high ambitions' to deploy capital for growth, CEO says",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-kotak-mahindra-bank-high-073955105.html",
-        "summary": "",
-        "published_at": "2026-06-23T07:39:55+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819960+00:00",
-        "age_hours": 340.5,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "Is ICICI Bank Limited (IBN) The Best Deep Value Stock to Invest in?",
-        "source": "Insider Monkey",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/icici-bank-limited-ibn-best-005903282.html",
-        "summary": "",
-        "published_at": "2026-06-11T00:59:03+00:00",
-        "fetched_at": "2026-07-07T12:09:41.819975+00:00",
-        "age_hours": 635.18,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "ICICIBANK.NS",
-        "title": "Indian banks rise on RBI forex swap window for lenders' overseas borrowings",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-banks-rise-rbi-forex-064434265.html",
-        "summary": "",
-        "published_at": "2026-06-09T06:44:34+00:00",
-        "fetched_at": "2026-07-07T12:09:41.820015+00:00",
-        "age_hours": 677.42,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "MACRO",
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban",
-          "rbi"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:39:49+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "company_name": "ITC",
-    "news_available": true,
-    "item_count": 1,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "1 relevant item(s); worst risk NONE, sentiment NEUTRAL."
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "ITC.NS",
-        "title": "British American Tobacco plans to offload stake in India's ITC Hotels",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/british-american-tobacco-plans-offload-142827642.html",
-        "summary": "",
-        "published_at": "2025-12-04T14:28:27+00:00",
-        "fetched_at": "2026-07-07T12:09:49.912159+00:00",
-        "age_hours": 5157.69,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [],
-    "assessed_at": "2026-07-07T17:39:58+05:30"
-  },
-  {
     "symbol": "RELIANCE.NS",
     "company_name": "Reliance Industries",
-    "news_available": true,
-    "item_count": 10,
+    "news_available": false,
+    "item_count": 0,
     "fresh_item_count": 0,
     "overall_sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -1210,424 +18,18 @@
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
-      "[HIGH] Billionaire Ambani wants AI in every call, app, and home"
+      "No relevant news found (treated as neutral)."
     ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Billionaire Ambani wants AI in every call, app, and home",
-        "source": "TechCrunch",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-ambani-wants-ai-every-152328329.html",
-        "summary": "",
-        "published_at": "2026-06-19T15:23:28+00:00",
-        "fetched_at": "2026-07-07T12:09:58.009991+00:00",
-        "age_hours": 428.78,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      },
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Meta (META) Builds Its First India AI Data Center With Reliance",
-        "source": "Simply Wall St.",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/meta-meta-builds-first-india-050916545.html",
-        "summary": "",
-        "published_at": "2026-06-22T05:09:16+00:00",
-        "fetched_at": "2026-07-07T12:09:58.009972+00:00",
-        "age_hours": 367.01,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Reliance’s Jio Platforms to Seek India Listing",
-        "source": "The Wall Street Journal",
-        "provider": "yfinance",
-        "url": "https://www.wsj.com/finance/reliances-jio-platforms-to-seek-india-listing-ed1d8397?siteid=yhoof2&yptr=yahoo",
-        "summary": "",
-        "published_at": "2026-06-19T10:57:00+00:00",
-        "fetched_at": "2026-07-07T12:09:58.010010+00:00",
-        "age_hours": 433.22,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Meta Platforms, Inc. (META): A Top Growth Stock to Buy Pursuing Data Centers Opportunities in India",
-        "source": "Insider Monkey",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/articles/meta-platforms-inc-meta-top-212041730.html",
-        "summary": "",
-        "published_at": "2026-06-18T21:20:41+00:00",
-        "fetched_at": "2026-07-07T12:09:58.010026+00:00",
-        "age_hours": 446.82,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Reliance Industries (NSEI:RELIANCE) Stock Fair Value Edges Higher After Analyst Fine Tuning",
-        "source": "Simply Wall St.",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/reliance-industries-nsei-reliance-stock-021043227.html",
-        "summary": "",
-        "published_at": "2026-06-18T02:10:43+00:00",
-        "fetched_at": "2026-07-07T12:09:58.010041+00:00",
-        "age_hours": 465.99,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "sentiment_score": -0.38,
-        "sentiment_confidence": 0.056,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": [
-          "fine"
-        ]
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "RELIANCE.NS",
-        "title": "Billionaire Ambani wants AI in every call, app, and home",
-        "source": "TechCrunch",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/billionaire-ambani-wants-ai-every-152328329.html",
-        "summary": "",
-        "published_at": "2026-06-19T15:23:28+00:00",
-        "fetched_at": "2026-07-07T12:09:58.009991+00:00",
-        "age_hours": 428.78,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [
-          "REGULATORY"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "ban"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:40:07+05:30"
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:06:52+05:30"
   },
   {
     "symbol": "TCS.NS",
     "company_name": "Tata Consultancy Services",
-    "news_available": true,
-    "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 1,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "TCS.NS",
-        "title": "Indian IT firms face muted Q1 as AI shift, weak demand weigh",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-firms-face-muted-q1-094537052.html",
-        "summary": "",
-        "published_at": "2026-07-06T09:45:37+00:00",
-        "fetched_at": "2026-07-07T12:10:07.165714+00:00",
-        "age_hours": 26.41,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "TCS.NS",
-        "title": "Investors Looking for Shelter From AI Storm Are Turning to India",
-        "source": "Bloomberg",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/investors-looking-shelter-ai-storm-020000150.html",
-        "summary": "",
-        "published_at": "2026-07-05T02:00:00+00:00",
-        "fetched_at": "2026-07-07T12:10:07.165733+00:00",
-        "age_hours": 58.17,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "TCS.NS",
-        "title": "China, India See Top Firms Lose Market Cap Share in AI Lag",
-        "source": "Bloomberg",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/china-india-see-top-firms-230000570.html",
-        "summary": "",
-        "published_at": "2026-06-28T23:00:00+00:00",
-        "fetched_at": "2026-07-07T12:10:07.165748+00:00",
-        "age_hours": 205.17,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "TCS.NS",
-        "title": "India's Nifty IT index at three-year low as bellwether Accenture flags weak outlook",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/indian-stocks-tumble-bellwether-accenture-035749702.html",
-        "summary": "",
-        "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-07-07T12:10:07.165763+00:00",
-        "age_hours": 440.21,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "TCS.NS",
-        "title": "Indian IT stocks tumble as Accenture flags weak outlook",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-stocks-tumble-accenture-flags-035749287.html",
-        "summary": "",
-        "published_at": "2026-06-19T03:57:49+00:00",
-        "fetched_at": "2026-07-07T12:10:07.165775+00:00",
-        "age_hours": 440.21,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [],
-    "assessed_at": "2026-07-07T17:40:15+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "company_name": "Infosys",
-    "news_available": true,
-    "item_count": 10,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 1,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL.",
-      "[HIGH] Robinhood initiation, Nike downgrade among today's top calls on Wall Street"
-    ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "INFY.NS",
-        "title": "Robinhood initiation, Nike downgrade among today's top calls on Wall Street",
-        "source": "The Fly",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/news/cvs-upgraded-general-mills-downgraded-135035702.html",
-        "summary": "",
-        "published_at": "2026-06-26T13:31:26+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246636+00:00",
-        "age_hours": 262.65,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "sentiment_score": -0.604,
-        "sentiment_confidence": 0.098,
-        "relevance": 1.0,
-        "event_types": [
-          "RATING_DOWNGRADE"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "downgrade"
-        ]
-      },
-      {
-        "symbol": "INFY.NS",
-        "title": "Indian IT firms face muted Q1 as AI shift, weak demand weigh",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/technology/articles/indian-firms-face-muted-q1-094537453.html",
-        "summary": "",
-        "published_at": "2026-07-06T09:45:37+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246569+00:00",
-        "age_hours": 26.41,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "INFY.NS",
-        "title": "Madison Square Garden Entertainment Corp. (MSGE) To Remain Fully Operational Amid New York Penn Station Redevelopment",
-        "source": "Insider Monkey",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/madison-square-garden-entertainment-corp-133527129.html",
-        "summary": "",
-        "published_at": "2026-07-04T13:35:27+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246590+00:00",
-        "age_hours": 70.58,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "INFY.NS",
-        "title": "Infosys (NSEI:INFY) Stock Sees Modest Fair Value Cut As AI Hopes Meet Choppy Demand",
-        "source": "Simply Wall St.",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/infosys-nsei-infy-stock-sees-131751150.html",
-        "summary": "",
-        "published_at": "2026-07-03T13:17:51+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246607+00:00",
-        "age_hours": 94.87,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "INFY.NS",
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Surge in Thursday Trading",
-        "source": "MT Newswires",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144152150.html",
-        "summary": "",
-        "published_at": "2026-07-02T14:41:52+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246622+00:00",
-        "age_hours": 117.47,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      }
-    ],
-    "critical_items": [
-      {
-        "symbol": "INFY.NS",
-        "title": "Robinhood initiation, Nike downgrade among today's top calls on Wall Street",
-        "source": "The Fly",
-        "provider": "yfinance",
-        "url": "https://finance.yahoo.com/news/cvs-upgraded-general-mills-downgraded-135035702.html",
-        "summary": "",
-        "published_at": "2026-06-26T13:31:26+00:00",
-        "fetched_at": "2026-07-07T12:10:15.246636+00:00",
-        "age_hours": 262.65,
-        "is_fresh": false,
-        "sentiment": "NEGATIVE",
-        "sentiment_score": -0.604,
-        "sentiment_confidence": 0.098,
-        "relevance": 1.0,
-        "event_types": [
-          "RATING_DOWNGRADE"
-        ],
-        "risk_level": "HIGH",
-        "matched_keywords": [
-          "downgrade"
-        ]
-      }
-    ],
-    "assessed_at": "2026-07-07T17:40:23+05:30"
-  },
-  {
-    "symbol": "LT.NS",
-    "company_name": "Larsen & Toubro",
-    "news_available": true,
-    "item_count": 10,
+    "news_available": false,
+    "item_count": 0,
     "fresh_item_count": 0,
     "overall_sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
@@ -1642,111 +44,219 @@
     "exit_review_for_holding": false,
     "sentiment_boost": 0.0,
     "reasons": [
-      "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
+      "No relevant news found (treated as neutral)."
     ],
-    "providers_used": [
-      "yfinance"
-    ],
-    "top_items": [
-      {
-        "symbol": "LT.NS",
-        "title": "India's L&T to invest nearly $2 billion in Tamil Nadu, state government says",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-l-t-invest-nearly-103527851.html",
-        "summary": "",
-        "published_at": "2026-06-04T10:35:27+00:00",
-        "fetched_at": "2026-07-07T12:10:23.328342+00:00",
-        "age_hours": 793.58,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "LT.NS",
-        "title": "LTM bids $186m for Randstad’s tech services in Europe and Australia",
-        "source": "Verdict",
-        "provider": "yfinance",
-        "url": "https://www.verdict.co.uk/ltm-bids-186m-randstads-services/",
-        "summary": "",
-        "published_at": "2026-05-25T09:46:48+00:00",
-        "fetched_at": "2026-07-07T12:10:23.328363+00:00",
-        "age_hours": 1034.39,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "LT.NS",
-        "title": "India's L&T hits three-week low after profit dip, slower growth outlook",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-l-t-hits-three-040049978.html",
-        "summary": "",
-        "published_at": "2026-05-06T05:25:50+00:00",
-        "fetched_at": "2026-07-07T12:10:23.328378+00:00",
-        "age_hours": 1494.74,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "LT.NS",
-        "title": "India's L&T expects fiscal revenue growth may temper on Middle East disruption",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indias-larsen-toubro-quarterly-profit-114014774.html",
-        "summary": "",
-        "published_at": "2026-05-05T15:43:28+00:00",
-        "fetched_at": "2026-07-07T12:10:23.328391+00:00",
-        "age_hours": 1508.45,
-        "is_fresh": false,
-        "sentiment": "NEUTRAL",
-        "sentiment_score": 0.0,
-        "sentiment_confidence": 0.0,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": []
-      },
-      {
-        "symbol": "LT.NS",
-        "title": "Indian shares dip, rupee slips to record low on elevated oil prices",
-        "source": "Reuters",
-        "provider": "yfinance",
-        "url": "https://sg.finance.yahoo.com/news/indian-shares-set-open-lower-024139331.html",
-        "summary": "",
-        "published_at": "2026-05-05T10:28:21+00:00",
-        "fetched_at": "2026-07-07T12:10:23.328404+00:00",
-        "age_hours": 1513.7,
-        "is_fresh": false,
-        "sentiment": "POSITIVE",
-        "sentiment_score": 0.38,
-        "sentiment_confidence": 0.056,
-        "relevance": 1.0,
-        "event_types": [],
-        "risk_level": "NONE",
-        "matched_keywords": [
-          "record"
-        ]
-      }
-    ],
+    "providers_used": [],
+    "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-07-07T17:40:31+05:30"
+    "assessed_at": "2026-07-08T12:07:02+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "company_name": "HDFC Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:10+05:30"
+  },
+  {
+    "symbol": "INFY.NS",
+    "company_name": "Infosys",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:19+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "company_name": "ICICI Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:27+05:30"
+  },
+  {
+    "symbol": "SBIN.NS",
+    "company_name": "State Bank of India",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:35+05:30"
+  },
+  {
+    "symbol": "LT.NS",
+    "company_name": "Larsen & Toubro",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:43+05:30"
+  },
+  {
+    "symbol": "BHARTIARTL.NS",
+    "company_name": "Bharti Airtel",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:51+05:30"
+  },
+  {
+    "symbol": "AXISBANK.NS",
+    "company_name": "Axis Bank",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:07:59+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "company_name": "ITC",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-07-08T12:08:07+05:30"
   }
 ]

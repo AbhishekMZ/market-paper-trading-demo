@@ -84018,5 +84018,1940 @@
       "10 relevant item(s); worst risk NONE, sentiment NEUTRAL."
     ],
     "created_at": "2026-07-07T17:39:02+05:30"
+  },
+  {
+    "signal_id": "sig_ff9af0f8549e",
+    "symbol": "RELIANCE.NS",
+    "name": "Reliance Industries",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:25+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_6adb4d4eccc4",
+    "symbol": "TCS.NS",
+    "name": "Tata Consultancy Services",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:27+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_5405af6ec2d4",
+    "symbol": "HDFCBANK.NS",
+    "name": "HDFC Bank",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:29+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_5168ee584443",
+    "symbol": "INFY.NS",
+    "name": "Infosys",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:32+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_43b70a05e2d5",
+    "symbol": "ICICIBANK.NS",
+    "name": "ICICI Bank",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:34+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_87340fde7f1b",
+    "symbol": "SBIN.NS",
+    "name": "State Bank of India",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:36+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_bcd8bca44c30",
+    "symbol": "LT.NS",
+    "name": "Larsen & Toubro",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:38+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_b410d68c4287",
+    "symbol": "BHARTIARTL.NS",
+    "name": "Bharti Airtel",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:42+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_d71c0be275a9",
+    "symbol": "AXISBANK.NS",
+    "name": "Axis Bank",
+    "exchange": "NSE",
+    "score": 40.0,
+    "label": "DO_NOT_BUY",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 40.0/100 -> DO_NOT_BUY [regime DATA_INSUFFICIENT]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 80.0,
+        "confidence": 0.7,
+        "signal": "POSITIVE",
+        "reason": "Fit 80/100 — budget ₹10000 left, 0/100 monthly buys used, held=False.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": false
+        },
+        "warnings": [],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:44+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
+  },
+  {
+    "signal_id": "sig_60074f63dbb1",
+    "symbol": "ITC.NS",
+    "name": "ITC",
+    "exchange": "NSE",
+    "score": 32.5,
+    "label": "HIGH_RISK_IGNORE",
+    "risk_level": "HIGH",
+    "confidence": 0.03,
+    "data_quality": "MISSING",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 32.5/100 -> HIGH_RISK_IGNORE [regime DATA_INSUFFICIENT]. Top: news_event_risk=65, volatility_risk=55, portfolio_fit=35. Penalties: weak_data.",
+    "last_price": null,
+    "checkpoint": "mid",
+    "score_breakdown": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 35.0
+    },
+    "market_regime": "DATA_INSUFFICIENT",
+    "strategy_results": [
+      {
+        "strategy_name": "trend_following",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No price series available to assess trend.",
+        "data_used": {},
+        "warnings": [
+          "missing_graph"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "relative_strength",
+        "score_contribution": 50.0,
+        "confidence": 0.1,
+        "signal": "NEUTRAL",
+        "reason": "No stock change available for relative strength.",
+        "data_used": {},
+        "warnings": [
+          "missing_change_pct"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": false,
+        "contributes_to_score": false,
+        "display_only": false
+      },
+      {
+        "strategy_name": "mean_reversion",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for mean-reversion assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "breakout",
+        "score_contribution": 50.0,
+        "confidence": 0.15,
+        "signal": "NEUTRAL",
+        "reason": "Insufficient data for breakout assessment.",
+        "data_used": {},
+        "warnings": [
+          "insufficient_data"
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": false,
+        "display_only": true
+      },
+      {
+        "strategy_name": "news_event_risk",
+        "score_contribution": 65.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "No headlines available; assuming no adverse news (low confidence).",
+        "data_used": {
+          "headlines_used": 0
+        },
+        "warnings": [
+          "No news data available; using a neutral assumption."
+        ],
+        "risk_flags": [],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "volatility_risk",
+        "score_contribution": 55.0,
+        "confidence": 0.25,
+        "signal": "NEUTRAL",
+        "reason": "Volatility unknown (data gap); stability score 55.",
+        "data_used": {
+          "volatility_pct": null,
+          "change_pct": null
+        },
+        "warnings": [
+          "Sparse price series (data gap); volatility under-measured."
+        ],
+        "risk_flags": [
+          "data_gap"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      },
+      {
+        "strategy_name": "portfolio_fit",
+        "score_contribution": 35.0,
+        "confidence": 0.7,
+        "signal": "NEGATIVE",
+        "reason": "Fit 35/100 — budget ₹10000 left, 0/100 monthly buys used, held=True.",
+        "data_used": {
+          "capital_remaining": 10000.0,
+          "buys_this_month": 0,
+          "buys_today": 0,
+          "already_held": true
+        },
+        "warnings": [
+          "Already held — adding would require averaging (blocked) and reduces diversification."
+        ],
+        "risk_flags": [
+          "already_held"
+        ],
+        "timestamp": "2026-07-08T12:06:44+05:30",
+        "error": null,
+        "is_valid": true,
+        "contributes_to_score": true,
+        "display_only": false
+      }
+    ],
+    "conflict_warnings": [],
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification.",
+      "No news data available; using a neutral assumption.",
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "Market regime: DATA_INSUFFICIENT.",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "estimated_cost": 0.0,
+    "led_to_paper_trade": false,
+    "data_snapshot": {
+      "price": null,
+      "change_pct": null,
+      "graph_points": 0,
+      "extracted_at": "2026-07-08T12:06:40+05:30",
+      "headlines_count": 0
+    },
+    "price_source": "fallback",
+    "entry_price_used": null,
+    "mtm_price_used": null,
+    "price_consistency_check": "FAILED",
+    "data_quality_verdict": "DATA_INSUFFICIENT",
+    "news_available": false,
+    "news_risk_level": "NONE",
+    "news_sentiment": "NEUTRAL",
+    "news_sentiment_confidence": 0.1,
+    "news_sentiment_sources_agree": false,
+    "news_event_types": [],
+    "news_blocks_buy": false,
+    "news_item_count": 0,
+    "news_top_headline": null,
+    "news_reasons": [
+      "No relevant news found (treated as neutral)."
+    ],
+    "created_at": "2026-07-08T12:06:44+05:30"
   }
 ]

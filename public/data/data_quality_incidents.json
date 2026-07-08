@@ -1,5 +1,145 @@
 [
   {
+    "ts": "2026-07-08T12:06:44+05:30",
+    "symbol": "AXISBANK.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:42+05:30",
+    "symbol": "BHARTIARTL.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:40+05:30",
+    "symbol": "ITC.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:38+05:30",
+    "symbol": "LT.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:36+05:30",
+    "symbol": "SBIN.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:34+05:30",
+    "symbol": "ICICIBANK.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:32+05:30",
+    "symbol": "INFY.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:29+05:30",
+    "symbol": "HDFCBANK.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:27+05:30",
+    "symbol": "TCS.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-07-08T12:06:25+05:30",
+    "symbol": "RELIANCE.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
     "ts": "2026-07-07T17:39:02+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",

@@ -1,17 +1,28 @@
 {
-  "as_of": "2026-07-07T17:40:31+05:30",
+  "as_of": "2026-07-08T12:08:08+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-07-07T17:40:31+05:30",
+  "last_successful_run": "2026-07-08T12:08:08+05:30",
   "symbols_assessed": 10,
-  "usable_symbols": 10,
-  "rejected_symbols": 0,
+  "usable_symbols": 0,
+  "rejected_symbols": 10,
   "price_anomalies": 0,
   "stale_quotes": 0,
-  "missing_news": 0,
+  "missing_news": 10,
   "anomaly_symbols": [],
-  "rejected_symbol_list": [],
-  "overall": "HEALTHY",
+  "rejected_symbol_list": [
+    "RELIANCE.NS",
+    "TCS.NS",
+    "HDFCBANK.NS",
+    "INFY.NS",
+    "ICICIBANK.NS",
+    "SBIN.NS",
+    "LT.NS",
+    "ITC.NS",
+    "BHARTIARTL.NS",
+    "AXISBANK.NS"
+  ],
+  "overall": "NO_USABLE_DATA",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
-  "mtm_incidents": 1
+  "checkpoint": "mid",
+  "mtm_incidents": 0
 }
