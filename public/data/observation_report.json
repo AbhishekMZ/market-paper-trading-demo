@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-07-08T13:48:44+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-08T16:47:17+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 9,
   "observed": 9,
   "open_positions_observed": 1,
-  "triggers_this_run": 0,
-  "escalations": 0,
+  "triggers_this_run": 2,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 45,
-    "triggers_detected": 176,
-    "escalations_created": 92,
+    "observation_runs": 46,
+    "triggers_detected": 178,
+    "escalations_created": 94,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 75,
     "emails_sent_total": 0,
-    "last_run": "2026-07-08T13:48:44+05:30",
+    "last_run": "2026-07-08T16:47:17+05:30",
     "last_watchlist_size": 9
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
@@ -38,12 +38,92 @@
     "open_positions_observed": [
       "ITC.NS"
     ],
-    "triggers": [],
+    "triggers": [
+      {
+        "symbol": "ITC.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap -2.8% vs previous close.",
+        "company_name": "ITC.NS",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 280.6499938964844,
+        "previous_price": null,
+        "change_pct": -2.8052,
+        "market_regime": "EVENT_RISK",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_835460ffb431",
+        "trigger_id": "trg_b6334341e5d7",
+        "detected_at": "2026-07-08T16:47:14+05:30"
+      },
+      {
+        "symbol": "_MARKET_",
+        "trigger_type": "MARKET_REGIME_SHIFT",
+        "severity": "HIGH",
+        "reason": "Market regime -> EVENT_RISK (was RISK_OFF).",
+        "company_name": null,
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": null,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "EVENT_RISK",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block new buys; manual review of holdings.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_7494dbe0f09c",
+        "trigger_id": "trg_f4fc51a753dd",
+        "detected_at": "2026-07-08T16:47:17+05:30"
+      }
+    ],
     "throttled": [],
-    "escalations": [],
+    "escalations": [
+      {
+        "symbol": "_MARKET_",
+        "severity": "HIGH",
+        "action_type": "MANUAL_REVIEW",
+        "reason": "Market regime -> EVENT_RISK (was RISK_OFF).",
+        "trigger_ids": [
+          "trg_f4fc51a753dd"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "Regime shift (EVENT_RISK) — new buys blocked; review holdings.",
+        "escalation_id": "esc_7494dbe0f09c",
+        "created_at": "2026-07-08T16:47:17+05:30",
+        "expires_at": "2026-07-08T16:47:17+05:30"
+      },
+      {
+        "symbol": "ITC.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.8% vs previous close.",
+        "trigger_ids": [
+          "trg_b6334341e5d7"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_835460ffb431",
+        "created_at": "2026-07-08T16:47:17+05:30",
+        "expires_at": "2026-07-08T16:47:17+05:30"
+      }
+    ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-08T13:48:40+05:30"
+    "as_of": "2026-07-08T16:47:14+05:30"
   }
 }

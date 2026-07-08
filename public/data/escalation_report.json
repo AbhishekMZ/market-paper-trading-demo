@@ -1,7 +1,44 @@
 {
-  "as_of": "2026-07-08T13:48:44+05:30",
-  "checkpoint": "mid",
-  "open_escalations": [],
+  "as_of": "2026-07-08T16:47:17+05:30",
+  "checkpoint": "close",
+  "open_escalations": [
+    {
+      "symbol": "_MARKET_",
+      "severity": "HIGH",
+      "action_type": "MANUAL_REVIEW",
+      "reason": "Market regime -> EVENT_RISK (was RISK_OFF).",
+      "trigger_ids": [
+        "trg_f4fc51a753dd"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "Regime shift (EVENT_RISK) — new buys blocked; review holdings.",
+      "escalation_id": "esc_7494dbe0f09c",
+      "created_at": "2026-07-08T16:47:17+05:30",
+      "expires_at": "2026-07-08T16:47:17+05:30"
+    },
+    {
+      "symbol": "ITC.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.8% vs previous close.",
+      "trigger_ids": [
+        "trg_b6334341e5d7"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_835460ffb431",
+      "created_at": "2026-07-08T16:47:17+05:30",
+      "expires_at": "2026-07-08T16:47:17+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }
