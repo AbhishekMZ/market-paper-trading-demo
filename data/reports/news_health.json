@@ -1,14 +1,16 @@
 {
-  "providers_used": [],
+  "providers_used": [
+    "yfinance"
+  ],
   "symbols_assessed": 10,
-  "symbols_with_news": 0,
-  "total_items": 0,
+  "symbols_with_news": 10,
+  "total_items": 91,
   "blocked_buys": 0,
   "critical_count": 0,
   "high_count": 0,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-07-08T12:08:07+05:30",
+  "last_run": "2026-07-08T13:48:40+05:30",
   "checkpoint": "mid",
   "overall": "NORMAL"
 }
