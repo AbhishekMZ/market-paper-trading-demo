@@ -1,32 +1,32 @@
 {
   "symbols": {
     "ITC.NS": {
-      "last_price": 283.0,
-      "change_pct": 0.8373,
+      "last_price": 281.6000061035156,
+      "change_pct": 0.3385,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:49+05:30"
+      "updated_at": "2026-07-09T15:11:12+05:30"
     },
     "RELIANCE.NS": {
-      "last_price": 1291.4000244140625,
-      "change_pct": 1.2148,
+      "last_price": 1278.199951171875,
+      "change_pct": 0.1803,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:50+05:30"
+      "updated_at": "2026-07-09T15:11:13+05:30"
     },
     "SBIN.NS": {
-      "last_price": 1025.300048828125,
-      "change_pct": 0.826,
+      "last_price": 1021.0999755859375,
+      "change_pct": 0.413,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:51+05:30"
+      "updated_at": "2026-07-09T15:11:14+05:30"
     },
     "ICICIBANK.NS": {
-      "last_price": 1385.5999755859375,
-      "change_pct": 0.3622,
+      "last_price": 1379.800048828125,
+      "change_pct": -0.0579,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:50+05:30"
+      "updated_at": "2026-07-09T15:11:13+05:30"
     },
     "LT.NS": {
       "last_price": 4260.89990234375,
@@ -36,41 +36,41 @@
       "updated_at": "2026-06-25T12:38:17+05:30"
     },
     "BHARTIARTL.NS": {
-      "last_price": 1928.5999755859375,
-      "change_pct": 0.1454,
+      "last_price": 1930.0999755859375,
+      "change_pct": 2.2245,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:50+05:30"
+      "updated_at": "2026-07-09T15:11:13+05:30"
     },
     "AXISBANK.NS": {
-      "last_price": 1304.0999755859375,
-      "change_pct": -0.4124,
+      "last_price": 1295.5,
+      "change_pct": -1.0691,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:52+05:30"
+      "updated_at": "2026-07-09T15:11:15+05:30"
     },
     "HDFCBANK.NS": {
-      "last_price": 821.0,
-      "change_pct": 1.3205,
+      "last_price": 817.2000122070312,
+      "change_pct": 0.8515,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:49+05:30"
+      "updated_at": "2026-07-09T15:11:12+05:30"
     },
     "INFY.NS": {
-      "last_price": 1059.5,
-      "change_pct": -0.9165,
+      "last_price": 1048.300048828125,
+      "change_pct": -1.9639,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:51+05:30"
+      "updated_at": "2026-07-09T15:11:14+05:30"
     },
     "TCS.NS": {
-      "last_price": 2050.10009765625,
-      "change_pct": -0.3597,
+      "last_price": 2045.800048828125,
+      "change_pct": -0.5687,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-09T13:20:51+05:30"
+      "updated_at": "2026-07-09T15:11:14+05:30"
     }
   },
-  "last_observation_at": "2026-07-09T13:20:52+05:30",
-  "last_regime": "RISK_ON"
+  "last_observation_at": "2026-07-09T15:11:15+05:30",
+  "last_regime": "NEUTRAL"
 }

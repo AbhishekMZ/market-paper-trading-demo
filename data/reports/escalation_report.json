@@ -1,32 +1,7 @@
 {
-  "as_of": "2026-07-09T13:20:52+05:30",
-  "checkpoint": "mid",
-  "open_escalations": [
-    {
-      "symbol": "ICICIBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_c1b90fd1a546"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_8bcbfab7658a",
-      "created_at": "2026-07-09T13:20:52+05:30",
-      "expires_at": "2026-07-09T13:20:52+05:30"
-    }
-  ],
+  "as_of": "2026-07-09T15:11:15+05:30",
+  "checkpoint": "close",
+  "open_escalations": [],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "ICICIBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }

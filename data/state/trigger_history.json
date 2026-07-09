@@ -3757,5 +3757,26 @@
     "created_escalation_id": "esc_8bcbfab7658a",
     "trigger_id": "trg_c1b90fd1a546",
     "detected_at": "2026-07-09T13:20:50+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "trigger_type": "HIGH_RISK_NEWS",
+    "severity": "HIGH",
+    "reason": "High-risk adverse news.",
+    "company_name": "ICICI Bank",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1379.800048828125,
+    "previous_price": null,
+    "change_pct": null,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "Block any buy; review if held.",
+    "requires_focused_analysis": false,
+    "blocks_action": true,
+    "created_escalation_id": null,
+    "trigger_id": "trg_731a5063e770",
+    "detected_at": "2026-07-09T15:11:13+05:30"
   }
 ]
