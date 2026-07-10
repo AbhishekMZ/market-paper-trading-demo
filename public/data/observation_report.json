@@ -1,49 +1,38 @@
 {
-  "as_of": "2026-07-10T13:19:24+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-10T14:56:54+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 9,
   "observed": 9,
   "open_positions_observed": 1,
   "triggers_this_run": 2,
-  "escalations": 2,
+  "escalations": 0,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "ICICIBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "TCS.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
-  "throttled": 0,
+  "blocked_actions": [],
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 50,
-    "triggers_detected": 184,
+    "observation_runs": 51,
+    "triggers_detected": 186,
     "escalations_created": 99,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 80,
     "emails_sent_total": 0,
-    "last_run": "2026-07-10T13:19:24+05:30",
+    "last_run": "2026-07-10T14:56:54+05:30",
     "last_watchlist_size": 9
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "RELIANCE.NS",
+      "HDFCBANK.NS",
       "ICICIBANK.NS",
-      "BHARTIARTL.NS",
       "SBIN.NS",
       "TCS.NS",
-      "HDFCBANK.NS",
       "INFY.NS",
+      "BHARTIARTL.NS",
       "AXISBANK.NS"
     ],
     "open_positions_observed": [
@@ -58,7 +47,7 @@
         "company_name": "ICICI Bank",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1400.300048828125,
+        "price_at_detection": 1401.9000244140625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -67,9 +56,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_0ab883437ebf",
-        "trigger_id": "trg_d670886f2f3c",
-        "detected_at": "2026-07-10T13:19:22+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_875e53b0a44f",
+        "detected_at": "2026-07-10T14:56:52+05:30"
       },
       {
         "symbol": "TCS.NS",
@@ -79,7 +68,7 @@
         "company_name": "Tata Consultancy Services",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 2077.0,
+        "price_at_detection": 2070.60009765625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_ON",
@@ -88,64 +77,27 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_696ff6cbf149",
-        "trigger_id": "trg_fdec3b61bf65",
-        "detected_at": "2026-07-10T13:19:23+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_1a4f1d78c4d9",
+        "detected_at": "2026-07-10T14:56:53+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "ICICIBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_d670886f2f3c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_0ab883437ebf",
-        "created_at": "2026-07-10T13:19:24+05:30",
-        "expires_at": "2026-07-10T13:19:24+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       },
       {
         "symbol": "TCS.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_fdec3b61bf65"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_696ff6cbf149",
-        "created_at": "2026-07-10T13:19:24+05:30",
-        "expires_at": "2026-07-10T13:19:24+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       }
     ],
+    "escalations": [],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "ICICIBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      },
-      {
-        "symbol": "TCS.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-10T13:19:21+05:30"
+    "as_of": "2026-07-10T14:56:50+05:30"
   }
 }
