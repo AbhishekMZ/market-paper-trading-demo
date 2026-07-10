@@ -5,6 +5,42 @@
     "action_type": "BLOCKED_BY_NEWS",
     "reason": "High-risk adverse news.",
     "trigger_ids": [
+      "trg_d3315cd75495"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_3c97f3f47ef9",
+    "created_at": "2026-07-10T17:39:30+05:30",
+    "expires_at": "2026-07-10T17:39:30+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_4a0d58fffa05"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_32260200e69d",
+    "created_at": "2026-07-10T17:39:30+05:30",
+    "expires_at": "2026-07-10T17:39:30+05:30"
+  },
+  {
+    "symbol": "TCS.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
       "trg_fdec3b61bf65"
     ],
     "action_status": "OPEN",
@@ -1769,25 +1805,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_d13e9e22428b",
-    "created_at": "2026-06-23T11:14:28+05:30",
-    "expires_at": "2026-06-23T11:14:28+05:30"
-  },
-  {
-    "symbol": "SBIN.NS",
-    "severity": "CRITICAL",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "Critical adverse news.",
-    "trigger_ids": [
-      "trg_40e99b31c7b0",
-      "trg_96324d9c3702"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_44b1ee6171cb",
     "created_at": "2026-06-23T11:14:28+05:30",
     "expires_at": "2026-06-23T11:14:28+05:30"
   }
