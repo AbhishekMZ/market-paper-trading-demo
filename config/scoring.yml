@@ -1,8 +1,6 @@
 # =====================================================================
-# Scoring configuration (signal_engine.py)
+# Scoring configuration
 # =====================================================================
-# Produces a 0-100 score per symbol. Higher is a stronger (but never
-# "guaranteed") paper-buy candidate. Weights sum to 100.
 
 scoring:
   weights:
@@ -14,18 +12,15 @@ scoring:
     quality_valuation: 10
     portfolio_fit: 5
 
-  # Score band -> label mapping (inclusive lower bounds).
   decision_bands:
-    buy_small_paper: 80            # score >= 80  -> BUY_SMALL_PAPER candidate
-    watch: 65                      # 65-79        -> WATCH
-    hold_no_action: 50             # 50-64        -> HOLD / NO_ACTION
-    do_not_buy: 35                 # 35-49        -> DO_NOT_BUY
-    # below 35                     ->               HIGH_RISK_IGNORE
+    buy_small_paper: 70
+    watch: 60
+    hold_no_action: 50
+    do_not_buy: 35
 
-  buy_candidate_min_score: 80
-  max_risk_level_for_buy: "MEDIUM" # never buy when risk == HIGH
+  buy_candidate_min_score: 70
+  max_risk_level_for_buy: "MEDIUM"
 
-  # Penalties subtracted from the raw score when risk factors are present.
   risk_penalties:
     high_volatility: 15
     negative_news: 20
@@ -33,43 +28,36 @@ scoring:
     low_liquidity: 10
 
   no_trade:
-    prefer_no_trade_when_unclear: true   # the system prefers NO_ACTION on weak data
-    min_data_quality: "ACCEPTABLE"       # ACCEPTABLE | GOOD ; below this -> no trade
+    prefer_no_trade_when_unclear: true
+    min_data_quality: "ACCEPTABLE"
 
-# =====================================================================
-# Hybrid scoring (HybridSignalEngine) — the v1 strategy combination
-# =====================================================================
-# Final score (0-100) = weighted blend of CONTRIBUTING strategies + the
-# market-regime score, minus transparent risk penalties. Weights below sum
-# to 100 across contributing strategies. Experimental strategies have weight
-# 0 and contributes_to_score=false (display-only until explicitly enabled).
 hybrid_scoring:
   enabled: true
   final_score_range: [0, 100]
-  buy_threshold: 80
-  watch_threshold: 65
+  buy_threshold: 70
+  watch_threshold: 60
   no_action_threshold: 50
   do_not_buy_threshold: 35
-  conflict_behavior: "prefer_no_action"     # when strategies disagree, prefer NO_ACTION
+  conflict_behavior: "prefer_no_action"
   risk_off_blocks_new_buys: true
   data_insufficient_blocks_new_buys: true
 
   weights:
-    trend_following: 20
+    trend_following: 18
     relative_strength: 20
-    market_regime: 20
-    volatility_risk: 15
-    news_event_risk: 15
-    portfolio_fit: 10
-    mean_reversion: 0      # experimental — display only in v1
-    breakout: 0            # experimental — display only in v1
+    market_regime: 16
+    volatility_risk: 12
+    news_event_risk: 14
+    portfolio_fit: 8
+    mean_reversion: 4
+    breakout: 8
 
   experimental_strategies:
     mean_reversion:
       enabled: true
-      contributes_to_score: false
-      display_only: true
+      contributes_to_score: true
+      display_only: false
     breakout:
       enabled: true
-      contributes_to_score: false
-      display_only: true
+      contributes_to_score: true
+      display_only: false

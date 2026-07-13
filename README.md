@@ -33,6 +33,20 @@ clean, localized, and *safe* change — but **v1 cannot place a real order**.
 - Writes daily + end-of-month reports, emails them, and exports JSON for the dashboard.
 - Logs **every** decision (and every *no-trade*) with reasoning to an audit log.
 
+## CLI control
+
+Most local operations can be run without an LLM through the repo CLI:
+
+```powershell
+py -3 mmg.py status
+py -3 mmg.py profile apply max-paper
+py -3 mmg.py analyze --checkpoint close --force
+py -3 mmg.py execute --checkpoint close --force
+```
+
+See [`docs/CLI.md`](docs/CLI.md) for profiles, config edits, history inspection,
+and timeout options.
+
 ## 2. What it does **not** do in v1
 
 - ❌ No real orders. ❌ No Angel One credentials. ❌ No live broker execution.
