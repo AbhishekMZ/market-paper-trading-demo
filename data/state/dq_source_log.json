@@ -1,16 +1,4 @@
 {
-  "2026-07-06": {
-    "RELIANCE.NS": "history.close",
-    "TCS.NS": "history.close",
-    "HDFCBANK.NS": "history.close",
-    "INFY.NS": "history.close",
-    "ICICIBANK.NS": "history.close",
-    "SBIN.NS": "history.close",
-    "LT.NS": "history.close",
-    "ITC.NS": "history.close",
-    "BHARTIARTL.NS": "history.close",
-    "AXISBANK.NS": "history.close"
-  },
   "2026-07-07": {
     "RELIANCE.NS": "history.close",
     "TCS.NS": "history.close",
@@ -48,6 +36,18 @@
     "AXISBANK.NS": "history.close"
   },
   "2026-07-10": {
+    "RELIANCE.NS": "history.close",
+    "TCS.NS": "history.close",
+    "HDFCBANK.NS": "history.close",
+    "INFY.NS": "history.close",
+    "ICICIBANK.NS": "history.close",
+    "SBIN.NS": "history.close",
+    "LT.NS": "history.close",
+    "ITC.NS": "history.close",
+    "BHARTIARTL.NS": "history.close",
+    "AXISBANK.NS": "history.close"
+  },
+  "2026-07-13": {
     "RELIANCE.NS": "history.close",
     "TCS.NS": "history.close",
     "HDFCBANK.NS": "history.close",

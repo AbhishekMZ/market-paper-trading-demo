@@ -1,5 +1,62 @@
 [
   {
+    "symbol": "INFY.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.3% since last observation.",
+    "trigger_ids": [
+      "trg_152c2853b07c",
+      "trg_66b06c245cab"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_407a703d5c32",
+    "created_at": "2026-07-13T13:04:08+05:30",
+    "expires_at": "2026-07-13T13:04:08+05:30"
+  },
+  {
+    "symbol": "TCS.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_fc06c43a9bad",
+      "trg_faeb92692dfa",
+      "trg_8c23a87a43f3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_0262bbcf8ba4",
+    "created_at": "2026-07-13T13:04:08+05:30",
+    "expires_at": "2026-07-13T13:04:08+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_82243aed45f4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_e58b3106c63a",
+    "created_at": "2026-07-13T13:04:08+05:30",
+    "expires_at": "2026-07-13T13:04:08+05:30"
+  },
+  {
     "symbol": "TCS.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -1752,60 +1809,5 @@
     "escalation_id": "esc_5db158be2bc7",
     "created_at": "2026-06-23T11:48:22+05:30",
     "expires_at": "2026-06-23T11:48:22+05:30"
-  },
-  {
-    "symbol": "RELIANCE.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_047357d08f62",
-      "trg_c8ff821023a7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_79e497784c0f",
-    "created_at": "2026-06-23T11:48:22+05:30",
-    "expires_at": "2026-06-23T11:48:22+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -46.0% since last observation.",
-    "trigger_ids": [
-      "trg_78bb5ec71842"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_2d204481e7a0",
-    "created_at": "2026-06-23T11:48:22+05:30",
-    "expires_at": "2026-06-23T11:48:22+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_2ff160c624e3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d13e9e22428b",
-    "created_at": "2026-06-23T11:14:28+05:30",
-    "expires_at": "2026-06-23T11:14:28+05:30"
   }
 ]
