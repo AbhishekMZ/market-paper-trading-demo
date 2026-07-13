@@ -1,6 +1,24 @@
 [
   {
     "symbol": "INFY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_aec0dcbb26c7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f1234ce0f3a0",
+    "created_at": "2026-07-13T14:30:06+05:30",
+    "expires_at": "2026-07-13T14:30:06+05:30"
+  },
+  {
+    "symbol": "INFY.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved +4.3% since last observation.",
@@ -1791,23 +1809,5 @@
     "escalation_id": "esc_ab7dd712fded",
     "created_at": "2026-06-23T13:28:13+05:30",
     "expires_at": "2026-06-23T13:28:13+05:30"
-  },
-  {
-    "symbol": "SBIN.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +39.9% since last observation.",
-    "trigger_ids": [
-      "trg_22ca025292b8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5db158be2bc7",
-    "created_at": "2026-06-23T11:48:22+05:30",
-    "expires_at": "2026-06-23T11:48:22+05:30"
   }
 ]

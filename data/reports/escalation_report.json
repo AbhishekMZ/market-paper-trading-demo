@@ -1,53 +1,14 @@
 {
-  "as_of": "2026-07-13T13:04:08+05:30",
+  "as_of": "2026-07-13T14:30:06+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "HDFCBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_82243aed45f4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_e58b3106c63a",
-      "created_at": "2026-07-13T13:04:08+05:30",
-      "expires_at": "2026-07-13T13:04:08+05:30"
-    },
-    {
-      "symbol": "TCS.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_fc06c43a9bad",
-        "trg_faeb92692dfa",
-        "trg_8c23a87a43f3"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_0262bbcf8ba4",
-      "created_at": "2026-07-13T13:04:08+05:30",
-      "expires_at": "2026-07-13T13:04:08+05:30"
-    },
-    {
       "symbol": "INFY.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.3% since last observation.",
+      "reason": "Gap +3.3% vs previous close.",
       "trigger_ids": [
-        "trg_152c2853b07c",
-        "trg_66b06c245cab"
+        "trg_aec0dcbb26c7"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -55,22 +16,11 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_407a703d5c32",
-      "created_at": "2026-07-13T13:04:08+05:30",
-      "expires_at": "2026-07-13T13:04:08+05:30"
+      "escalation_id": "esc_f1234ce0f3a0",
+      "created_at": "2026-07-13T14:30:06+05:30",
+      "expires_at": "2026-07-13T14:30:06+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "TCS.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }
