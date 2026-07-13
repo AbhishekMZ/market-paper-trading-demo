@@ -39,6 +39,30 @@ active_symbols:
   - { symbol: "ITC.NS",        exchange: "NSE", name: "ITC" }
   - { symbol: "BHARTIARTL.NS", exchange: "NSE", name: "Bharti Airtel" }
   - { symbol: "AXISBANK.NS",   exchange: "NSE", name: "Axis Bank" }
+  - { symbol: "KOTAKBANK.NS",  exchange: "NSE", name: "Kotak Mahindra Bank" }
+  - { symbol: "HINDUNILVR.NS", exchange: "NSE", name: "Hindustan Unilever" }
+  - { symbol: "ASIANPAINT.NS", exchange: "NSE", name: "Asian Paints" }
+  - { symbol: "MARUTI.NS",     exchange: "NSE", name: "Maruti Suzuki" }
+  - { symbol: "SUNPHARMA.NS",  exchange: "NSE", name: "Sun Pharmaceutical" }
+  - { symbol: "TITAN.NS",      exchange: "NSE", name: "Titan Company" }
+  - { symbol: "ULTRACEMCO.NS", exchange: "NSE", name: "UltraTech Cement" }
+  - { symbol: "BAJFINANCE.NS", exchange: "NSE", name: "Bajaj Finance" }
+  - { symbol: "NESTLEIND.NS",  exchange: "NSE", name: "Nestle India" }
+  - { symbol: "WIPRO.NS",      exchange: "NSE", name: "Wipro" }
+  - { symbol: "HCLTECH.NS",    exchange: "NSE", name: "HCL Technologies" }
+  - { symbol: "POWERGRID.NS",  exchange: "NSE", name: "Power Grid Corporation" }
+  - { symbol: "NTPC.NS",       exchange: "NSE", name: "NTPC" }
+  - { symbol: "TATAMOTORS.NS", exchange: "NSE", name: "Tata Motors" }
+  - { symbol: "TATASTEEL.NS",  exchange: "NSE", name: "Tata Steel" }
+  - { symbol: "ADANIPORTS.NS", exchange: "NSE", name: "Adani Ports & SEZ" }
+  - { symbol: "ONGC.NS",       exchange: "NSE", name: "Oil & Natural Gas Corp" }
+  - { symbol: "COALINDIA.NS",  exchange: "NSE", name: "Coal India" }
+  - { symbol: "JSWSTEEL.NS",   exchange: "NSE", name: "JSW Steel" }
+  - { symbol: "BAJAJFINSV.NS", exchange: "NSE", name: "Bajaj Finserv" }
+  - { symbol: "TECHM.NS",      exchange: "NSE", name: "Tech Mahindra" }
+  - { symbol: "CIPLA.NS",      exchange: "NSE", name: "Cipla" }
+  - { symbol: "DRREDDY.NS",    exchange: "NSE", name: "Dr. Reddy's Laboratories" }
+  - { symbol: "BRITANNIA.NS",  exchange: "NSE", name: "Britannia Industries" }
 
 # 20-30 large-cap names to rotate in manually. Not scanned automatically.
 candidate_symbols:
