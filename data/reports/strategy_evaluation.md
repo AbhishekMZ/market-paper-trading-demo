@@ -1,8 +1,8 @@
 # Strategy Evaluation
 
-_As of 2026-07-13T14:30:01+05:30_
+_As of 2026-07-13T17:47:56+05:30_
 
-- Total signals: **540**
+- Total signals: **550**
 - Total paper trades: **1**
 - Portfolio max drawdown: **0.00%**
 
@@ -10,8 +10,8 @@ _As of 2026-07-13T14:30:01+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| news_event_risk | 540 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 76 | 62.5 | Insufficient sample to judge; continue paper testing. |
-| portfolio_fit | 540 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 186 | 55.8 | Insufficient sample to judge; continue paper testing. |
-| relative_strength | 530 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 216 | 44.3 | Insufficient sample to judge; continue paper testing. |
-| trend_following | 530 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 174 | 54.4 | Insufficient sample to judge; continue paper testing. |
-| volatility_risk | 540 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 100 | 50.0 | Insufficient sample to judge; continue paper testing. |
+| news_event_risk | 550 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 76 | 62.5 | Insufficient sample to judge; continue paper testing. |
+| portfolio_fit | 550 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 189 | 56.0 | Insufficient sample to judge; continue paper testing. |
+| relative_strength | 540 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 221 | 44.4 | Insufficient sample to judge; continue paper testing. |
+| trend_following | 540 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 179 | 54.3 | Insufficient sample to judge; continue paper testing. |
+| volatility_risk | 550 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 102 | 49.9 | Insufficient sample to judge; continue paper testing. |

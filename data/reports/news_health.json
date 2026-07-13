@@ -10,7 +10,7 @@
   "high_count": 2,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-07-13T14:30:01+05:30",
-  "checkpoint": "mid",
+  "last_run": "2026-07-13T17:47:56+05:30",
+  "checkpoint": "close",
   "overall": "ELEVATED"
 }
