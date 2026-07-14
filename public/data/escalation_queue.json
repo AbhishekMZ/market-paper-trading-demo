@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "_MARKET_",
+    "severity": "HIGH",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
+    "trigger_ids": [
+      "trg_c021c65bbbfb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_05aa0375182e",
+    "created_at": "2026-07-14T13:28:38+05:30",
+    "expires_at": "2026-07-14T13:28:38+05:30"
+  },
+  {
     "symbol": "TECHM.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1789,24 +1807,6 @@
     "email_sent": false,
     "final_decision": "Adverse news — buy blocked.",
     "escalation_id": "esc_15134969d280",
-    "created_at": "2026-06-23T17:46:20+05:30",
-    "expires_at": "2026-06-23T17:46:20+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_48aad117148a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_802400cbc2d4",
     "created_at": "2026-06-23T17:46:20+05:30",
     "expires_at": "2026-06-23T17:46:20+05:30"
   }
