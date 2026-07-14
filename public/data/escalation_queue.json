@@ -1,5 +1,59 @@
 [
   {
+    "symbol": "TECHM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_5680cf89e990"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_fa5077a5937e",
+    "created_at": "2026-07-14T11:56:11+05:30",
+    "expires_at": "2026-07-14T11:56:11+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_b3d66662ba56"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_105856549959",
+    "created_at": "2026-07-14T11:56:11+05:30",
+    "expires_at": "2026-07-14T11:56:11+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_aaa768100ace"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_f419543c764a",
+    "created_at": "2026-07-14T11:56:11+05:30",
+    "expires_at": "2026-07-14T11:56:11+05:30"
+  },
+  {
     "symbol": "INFY.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1755,59 +1809,5 @@
     "escalation_id": "esc_802400cbc2d4",
     "created_at": "2026-06-23T17:46:20+05:30",
     "expires_at": "2026-06-23T17:46:20+05:30"
-  },
-  {
-    "symbol": "TCS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_0a0b2ac8617a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_7df6edc09fc6",
-    "created_at": "2026-06-23T15:01:28+05:30",
-    "expires_at": "2026-06-23T15:01:28+05:30"
-  },
-  {
-    "symbol": "RELIANCE.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_3d8bdc5dcfda"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_1195693d36bb",
-    "created_at": "2026-06-23T15:01:28+05:30",
-    "expires_at": "2026-06-23T15:01:28+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_e6002e4298ca"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ecef39083702",
-    "created_at": "2026-06-23T13:28:13+05:30",
-    "expires_at": "2026-06-23T13:28:13+05:30"
   }
 ]

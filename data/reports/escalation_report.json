@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-13T17:48:00+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-14T11:56:11+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
       "symbol": "HDFCBANK.NS",
@@ -8,7 +8,7 @@
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_a5a18b6080bc"
+        "trg_aaa768100ace"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_7cdefb7c718a",
-      "created_at": "2026-07-13T17:48:00+05:30",
-      "expires_at": "2026-07-13T17:48:00+05:30"
+      "escalation_id": "esc_f419543c764a",
+      "created_at": "2026-07-14T11:56:11+05:30",
+      "expires_at": "2026-07-14T11:56:11+05:30"
     },
     {
       "symbol": "ICICIBANK.NS",
@@ -26,7 +26,7 @@
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_1dcb6c6a864f"
+        "trg_b3d66662ba56"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,17 +34,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_0a5dc2c07749",
-      "created_at": "2026-07-13T17:48:00+05:30",
-      "expires_at": "2026-07-13T17:48:00+05:30"
+      "escalation_id": "esc_105856549959",
+      "created_at": "2026-07-14T11:56:11+05:30",
+      "expires_at": "2026-07-14T11:56:11+05:30"
     },
     {
-      "symbol": "TCS.NS",
+      "symbol": "TECHM.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.4% vs previous close.",
+      "reason": "Gap +3.3% vs previous close.",
       "trigger_ids": [
-        "trg_c852eb384f17"
+        "trg_5680cf89e990"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,27 +52,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5ce62f0f096a",
-      "created_at": "2026-07-13T17:48:00+05:30",
-      "expires_at": "2026-07-13T17:48:00+05:30"
-    },
-    {
-      "symbol": "INFY.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
-      "trigger_ids": [
-        "trg_3022ad7ea2cb"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_8d1e512d5aed",
-      "created_at": "2026-07-13T17:48:00+05:30",
-      "expires_at": "2026-07-13T17:48:00+05:30"
+      "escalation_id": "esc_fa5077a5937e",
+      "created_at": "2026-07-14T11:56:11+05:30",
+      "expires_at": "2026-07-14T11:56:11+05:30"
     }
   ],
   "actions_taken": [],
