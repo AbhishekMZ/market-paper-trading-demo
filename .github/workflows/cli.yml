@@ -1,0 +1,86 @@
+name: mmg CLI (remote)
+
+# Lets you run mmg.py commands entirely on GitHub's runners — no local Python
+# needed. Trigger from the Actions tab ("Run workflow") or via:
+#   gh workflow run cli.yml -f subcommand="status"
+#   gh workflow run cli.yml -f subcommand="profile apply max-paper"
+#   gh workflow run cli.yml -f subcommand="history signals --limit 20 --json"
+#
+# Read-only commands (status, safety, history, config show/get) just print
+# output in the run log. Mutating commands (profile apply, config set) also
+# commit the resulting config change back to main.
+
+on:
+  workflow_dispatch:
+    inputs:
+      subcommand:
+        description: >-
+          Arguments to pass to mmg.py, e.g. "status", "safety",
+          "profile list", "profile apply max-paper", "profile apply balanced --dry-run",
+          "config get scoring hybrid_scoring.buy_threshold",
+          "config set settings market_data.max_symbols_per_run 20",
+          "history trades --limit 20", "history signals --label BUY_SMALL_PAPER --limit 20"
+        required: true
+        default: "status"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mmg-cli
+  cancel-in-progress: false
+
+jobs:
+  run-cli:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Safety gate — verify v1 paper-only config
+        run: |
+          python - <<'PY'
+          import sys, yaml
+          broker = yaml.safe_load(open("config/broker.yml"))["broker"]
+          settings = yaml.safe_load(open("config/settings.yml"))
+          problems = []
+          if broker.get("active_adapter") != "paper":
+              problems.append("active_adapter must be 'paper' in v1")
+          if broker.get("live_trading_enabled") or settings.get("live_trading_enabled"):
+              problems.append("live_trading_enabled must be false in v1")
+          if broker.get("allow_real_orders"):
+              problems.append("allow_real_orders must be false in v1")
+          if broker.get("angel_one_enabled"):
+              problems.append("angel_one_enabled must be false in v1")
+          if problems:
+              print("SAFETY GATE FAILED:"); [print(" -", p) for p in problems]; sys.exit(1)
+          print("Safety gate OK: v1 paper-only configuration verified.")
+          PY
+
+      - name: Run mmg.py
+        env:
+          PYTHONPATH: src
+        run: |
+          echo "$ python mmg.py ${{ github.event.inputs.subcommand }}"
+          python mmg.py ${{ github.event.inputs.subcommand }}
+
+      - name: Commit config changes (if any)
+        run: |
+          git config user.name "paper-trading-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add config/
+          if git diff --cached --quiet; then
+            echo "No config changes to commit."
+          else
+            git commit -m "chore(cli): mmg.py ${{ github.event.inputs.subcommand }} [skip ci]"
+            git push
+          fi
