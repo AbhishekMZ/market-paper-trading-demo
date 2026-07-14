@@ -1,8 +1,8 @@
-# 📄 Paper Trading Report — 2026-07-14 (mid)
+# 📄 Paper Trading Report — 2026-07-14 (close)
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `RISK_OFF` — Benchmarks down -0.82% on average — risk-off. New buys blocked.
+**Market regime:** `RISK_OFF` — Benchmarks down -0.90% on average — risk-off. New buys blocked.
 
 ## 💰 Portfolio (fake money)
 - Total value: **INR10,091.50** (started INR10,000.00)
@@ -16,61 +16,60 @@
 - None this checkpoint.
 
 ## 👀 Watchlist
-BHARTIARTL.NS(71.2), SUNPHARMA.NS(68.6), TECHM.NS(66.0), CIPLA.NS(65.4), ICICIBANK.NS(62.1), TITAN.NS(60.9)
+SUNPHARMA.NS(71.6), BHARTIARTL.NS(71.2), CIPLA.NS(64.4), ICICIBANK.NS(63.5), TITAN.NS(61.3), ONGC.NS(61.0), NESTLEIND.NS(60.1)
 
 ## 🚫 Do-not-buy
-HINDUNILVR.NS(49.9), ASIANPAINT.NS(49.1), JSWSTEEL.NS(47.5), WIPRO.NS(46.3), SBIN.NS(44.7), AXISBANK.NS(43.2), HCLTECH.NS(42.5), ITC.NS(40.2), ULTRACEMCO.NS(39.7), LT.NS(36.4), INFY.NS(35.9), TATAMOTORS.NS(34.4), KOTAKBANK.NS(34.0), MARUTI.NS(29.4)
+TATASTEEL.NS(49.8), TECHM.NS(49.3), HINDUNILVR.NS(48.2), AXISBANK.NS(48.0), ULTRACEMCO.NS(47.0), ASIANPAINT.NS(46.6), WIPRO.NS(45.9), SBIN.NS(43.0), HCLTECH.NS(40.2), ITC.NS(37.8), INFY.NS(37.4), LT.NS(37.2), KOTAKBANK.NS(36.4), TATAMOTORS.NS(34.4), MARUTI.NS(34.2)
 
 ## 🧠 Strategy contribution summary
-- trend_following: avg 48/100 (weight 18)
-- relative_strength: avg 50/100 (weight 20)
-- mean_reversion: avg 47/100 (weight 4)
+- trend_following: avg 46/100 (weight 18)
+- relative_strength: avg 54/100 (weight 20)
+- mean_reversion: avg 46/100 (weight 4)
 - breakout: avg 51/100 (weight 8)
 - news_event_risk: avg 65/100 (weight 14)
-- volatility_risk: avg 46/100 (weight 12)
+- volatility_risk: avg 47/100 (weight 12)
 - portfolio_fit: avg 75/100 (weight 8)
 
 ## ❗ Strategy conflicts
-- TECHM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TCS.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BAJFINANCE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- COALINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- TCS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NESTLEIND.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- TATASTEEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- JSWSTEEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - DRREDDY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- BRITANNIA.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
 - BAJAJFINSV.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- RELIANCE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- COALINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TATASTEEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TECHM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
 - HINDUNILVR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- AXISBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - ASIANPAINT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- JSWSTEEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - WIPRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - SBIN.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- AXISBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- HCLTECH.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ITC.NS: Disagreement: ['volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative.
-- LT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- HCLTECH.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'mean_reversion', 'volatility_risk'] negative.
+- ITC.NS: Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.
 - INFY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- LT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - KOTAKBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 
 ## 🤔 Why no trade (selected)
+- SUNPHARMA.NS (WATCH, 71.6): Final 71.6/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=94, trend_following=90, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.
 - BHARTIARTL.NS (WATCH, 71.2): Final 71.2/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.
-- SUNPHARMA.NS (WATCH, 68.6): Final 68.6/100 -> WATCH [regime RISK_OFF]. Top: trend_following=91, portfolio_fit=80, relative_strength=77.
-- TECHM.NS (WATCH, 66.0): Final 66.0/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- CIPLA.NS (WATCH, 65.4): Final 65.4/100 -> WATCH [regime RISK_OFF]. Top: trend_following=88, relative_strength=84, portfolio_fit=80.
-- ICICIBANK.NS (WATCH, 62.1): Final 62.1/100 -> WATCH [regime RISK_OFF]. Top: trend_following=93, portfolio_fit=80, news_event_risk=65.
-- TITAN.NS (WATCH, 60.9): Final 60.9/100 -> WATCH [regime RISK_OFF]. Top: trend_following=87, portfolio_fit=80, breakout=70.
-- ONGC.NS (NO_ACTION, 57.7): Final 57.7/100 -> NO_ACTION [regime RISK_OFF]. Top: portfolio_fit=80, breakout=70, news_event_risk=65.
-- ADANIPORTS.NS (NO_ACTION, 56.5): Final 56.5/100 -> NO_ACTION [regime RISK_OFF]. Top: portfolio_fit=80, relative_strength=74, news_event_risk=65.
+- CIPLA.NS (WATCH, 64.4): Final 64.4/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=86, portfolio_fit=80, trend_following=79.
+- ICICIBANK.NS (WATCH, 63.5): Final 63.5/100 -> WATCH [regime RISK_OFF]. Top: trend_following=93, portfolio_fit=80, news_event_risk=65.
+- TITAN.NS (WATCH, 61.3): Final 61.3/100 -> WATCH [regime RISK_OFF]. Top: trend_following=87, portfolio_fit=80, breakout=70.
+- ONGC.NS (WATCH, 61.0): Final 61.0/100 -> WATCH [regime RISK_OFF]. Top: portfolio_fit=80, relative_strength=71, breakout=70.
+- NESTLEIND.NS (WATCH, 60.1): Final 60.1/100 -> WATCH [regime RISK_OFF]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.
+- ADANIPORTS.NS (NO_ACTION, 58.4): Final 58.4/100 -> NO_ACTION [regime RISK_OFF]. Top: relative_strength=82, portfolio_fit=80, news_event_risk=65.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 72 · total this month: 396 (no API-key quota)
+- Provider: `yfinance` · calls today: 108 · total this month: 432 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
 - DataQuality:DATA_INSUFFICIENT
 - Market regime: RISK_OFF.
-- Share price ₹11490 exceeds per-trade cap ₹10000.
-- Share price ₹13530 exceeds per-trade cap ₹10000.
+- Share price ₹11496 exceeds per-trade cap ₹10000.
+- Share price ₹13489 exceeds per-trade cap ₹10000.
 - Sparse price series (data gap); volatility under-measured.
 - insufficient_data
 - missing_change_pct

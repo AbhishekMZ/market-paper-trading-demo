@@ -1,26 +1,55 @@
 {
-  "as_of": "2026-07-14T13:28:38+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-14T16:31:37+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "_MARKET_",
+      "symbol": "HDFCBANK.NS",
       "severity": "HIGH",
-      "action_type": "MANUAL_REVIEW",
-      "reason": "Market regime NEUTRAL -> RISK_OFF.",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_c021c65bbbfb"
+        "trg_81e7abce79fc"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
-      "manual_review_required": true,
+      "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-      "escalation_id": "esc_05aa0375182e",
-      "created_at": "2026-07-14T13:28:38+05:30",
-      "expires_at": "2026-07-14T13:28:38+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_9a7b400ebb68",
+      "created_at": "2026-07-14T16:31:37+05:30",
+      "expires_at": "2026-07-14T16:31:37+05:30"
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_33a3244f5b22"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_62f46687d910",
+      "created_at": "2026-07-14T16:31:37+05:30",
+      "expires_at": "2026-07-14T16:31:37+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
