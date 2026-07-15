@@ -1,9 +1,9 @@
 # Observation Report
 
-_As of 2026-07-14T16:31:37+05:30 — checkpoint close_
+_As of 2026-07-15T11:59:43+05:30 — checkpoint mid_
 
 - Mode: **lightweight_monitoring**
-- Watchlist size: **13**  |  Observed: **13**
+- Watchlist size: **15**  |  Observed: **15**
 - Triggers this run: **2**  |  Escalations: **2**
 - Paper actions: **0**  |  Blocked: **2**  |  Emails: **0**
 
