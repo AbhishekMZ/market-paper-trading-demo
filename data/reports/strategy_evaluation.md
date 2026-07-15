@@ -1,8 +1,8 @@
 # Strategy Evaluation
 
-_As of 2026-07-15T11:59:37+05:30_
+_As of 2026-07-15T13:33:39+05:30_
 
-- Total signals: **686**
+- Total signals: **720**
 - Total paper trades: **1**
 - Portfolio max drawdown: **0.00%**
 
@@ -10,10 +10,10 @@ _As of 2026-07-15T11:59:37+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 136 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 51.5 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 136 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 62 | 46.7 | No paper trades yet attributed; acting mainly as a filter. |
-| news_event_risk | 686 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 80 | 63.0 | Insufficient sample to judge; continue paper testing. |
-| portfolio_fit | 686 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 199 | 59.8 | Insufficient sample to judge; continue paper testing. |
-| relative_strength | 672 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 265 | 46.0 | Insufficient sample to judge; continue paper testing. |
-| trend_following | 672 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 236 | 52.9 | Insufficient sample to judge; continue paper testing. |
-| volatility_risk | 686 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 127 | 49.3 | Insufficient sample to judge; continue paper testing. |
+| breakout | 170 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 51.3 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 170 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 78 | 46.7 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 720 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 81 | 63.1 | Insufficient sample to judge; continue paper testing. |
+| portfolio_fit | 720 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 201 | 60.5 | Insufficient sample to judge; continue paper testing. |
+| relative_strength | 705 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 273 | 46.6 | Insufficient sample to judge; continue paper testing. |
+| trend_following | 705 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 252 | 52.6 | Insufficient sample to judge; continue paper testing. |
+| volatility_risk | 720 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 134 | 49.2 | Insufficient sample to judge; continue paper testing. |

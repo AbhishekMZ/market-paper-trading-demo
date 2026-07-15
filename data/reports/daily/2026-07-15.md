@@ -2,7 +2,7 @@
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.24%) — neutral regime.
+**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.67%) — neutral regime.
 
 ## 💰 Portfolio (fake money)
 - Total value: **INR10,091.50** (started INR10,000.00)
@@ -16,60 +16,60 @@
 - None this checkpoint.
 
 ## 👀 Watchlist
-BAJFINANCE.NS(72.1), ICICIBANK.NS(70.5), SUNPHARMA.NS(70.4), CIPLA.NS(70.2), HDFCBANK.NS(67.2), ULTRACEMCO.NS(66.0), NESTLEIND.NS(65.8), TITAN.NS(65.5), BHARTIARTL.NS(64.9), TECHM.NS(64.8), SBIN.NS(61.6)
+BAJFINANCE.NS(71.7), SUNPHARMA.NS(71.3), ICICIBANK.NS(68.4), CIPLA.NS(67.7), NESTLEIND.NS(66.8), TITAN.NS(66.5), HDFCBANK.NS(66.1), ULTRACEMCO.NS(65.1), SBIN.NS(62.3), BHARTIARTL.NS(61.3), TECHM.NS(61.3)
 
 ## 🚫 Do-not-buy
-TCS.NS(48.8), COALINDIA.NS(47.7), HINDUNILVR.NS(46.2), MARUTI.NS(46.1), WIPRO.NS(46.0), POWERGRID.NS(46.0), KOTAKBANK.NS(45.8), LT.NS(45.7), JSWSTEEL.NS(41.9), DRREDDY.NS(41.6), TATAMOTORS.NS(39.5), INFY.NS(34.2)
+AXISBANK.NS(49.7), BAJAJFINSV.NS(49.6), NTPC.NS(49.5), COALINDIA.NS(49.2), ITC.NS(48.9), MARUTI.NS(46.9), HINDUNILVR.NS(46.1), LT.NS(45.9), KOTAKBANK.NS(45.4), WIPRO.NS(44.8), POWERGRID.NS(44.6), JSWSTEEL.NS(42.9), DRREDDY.NS(41.5), TATAMOTORS.NS(39.5), INFY.NS(35.7)
 
 ## 🧠 Strategy contribution summary
-- trend_following: avg 48/100 (weight 18)
-- relative_strength: avg 57/100 (weight 20)
+- trend_following: avg 45/100 (weight 18)
+- relative_strength: avg 58/100 (weight 20)
 - mean_reversion: avg 46/100 (weight 4)
-- breakout: avg 53/100 (weight 8)
+- breakout: avg 51/100 (weight 8)
 - news_event_risk: avg 65/100 (weight 14)
 - volatility_risk: avg 47/100 (weight 12)
 - portfolio_fit: avg 75/100 (weight 8)
 
 ## ❗ Strategy conflicts
-- ULTRACEMCO.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
-- TECHM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ULTRACEMCO.NS: Disagreement: ['relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
+- TECHM.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - HCLTECH.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ASIANPAINT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BRITANNIA.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- AXISBANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BAJAJFINSV.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- TATASTEEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ITC.NS: Disagreement: ['relative_strength', 'volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative.
 - TCS.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TATASTEEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- AXISBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BAJAJFINSV.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- NTPC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - COALINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- HINDUNILVR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ITC.NS: Disagreement: ['relative_strength', 'volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative.
 - MARUTI.NS: Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.
-- WIPRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- POWERGRID.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- KOTAKBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- HINDUNILVR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - LT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- KOTAKBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- WIPRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- POWERGRID.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - JSWSTEEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - DRREDDY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - INFY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 
 ## 🤔 Why no trade (selected)
-- BAJFINANCE.NS (WATCH, 72.1): Final 72.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- ICICIBANK.NS (WATCH, 70.5): Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, relative_strength=73. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- SUNPHARMA.NS (WATCH, 70.4): Final 70.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, relative_strength=71. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- CIPLA.NS (WATCH, 70.2): Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=94, trend_following=87, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- HDFCBANK.NS (WATCH, 67.2): Final 67.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, relative_strength=78.
-- ULTRACEMCO.NS (WATCH, 66.0): Final 66.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, breakout=70, trend_following=69. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
-- NESTLEIND.NS (WATCH, 65.8): Final 65.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=82, portfolio_fit=80, relative_strength=73.
-- TITAN.NS (WATCH, 65.5): Final 65.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.
+- BAJFINANCE.NS (WATCH, 71.7): Final 71.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=98, trend_following=90, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- SUNPHARMA.NS (WATCH, 71.3): Final 71.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, relative_strength=76. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- ICICIBANK.NS (WATCH, 68.4): Final 68.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, relative_strength=71.
+- CIPLA.NS (WATCH, 67.7): Final 67.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=86, trend_following=80, portfolio_fit=80.
+- NESTLEIND.NS (WATCH, 66.8): Final 66.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=81, portfolio_fit=80, relative_strength=79.
+- TITAN.NS (WATCH, 66.5): Final 66.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, breakout=70.
+- HDFCBANK.NS (WATCH, 66.1): Final 66.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, relative_strength=76.
+- ULTRACEMCO.NS (WATCH, 65.1): Final 65.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, breakout=70, news_event_risk=65. Disagreement: ['relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 36 · total this month: 468 (no API-key quota)
+- Provider: `yfinance` · calls today: 72 · total this month: 504 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
 - DataQuality:DATA_INSUFFICIENT
-- Share price ₹11814 exceeds per-trade cap ₹10000.
-- Share price ₹13561 exceeds per-trade cap ₹10000.
+- Share price ₹11738 exceeds per-trade cap ₹10000.
+- Share price ₹13531 exceeds per-trade cap ₹10000.
 - Sparse price series (data gap); volatility under-measured.
 - insufficient_data
 - missing_change_pct
