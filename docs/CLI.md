@@ -62,7 +62,10 @@ Profiles currently available:
 
 - `conservative`: smaller paper budget, 10-symbol scan, buy threshold 80.
 - `balanced`: medium paper budget, 24-symbol scan, buy threshold 74.
-- `max-paper`: larger paper budget, 34-symbol scan, buy threshold 70.
+- `max-paper`: larger paper budget, full NIFTY 500 scan (light fetch), buy threshold 70.
+
+The scanned universe comes from `config/nifty500.csv` via `active_source` in
+`config/universe.yml`; the run is capped by `market_data.max_symbols_per_run`.
 
 All profiles keep `allow_real_orders: false`; they only change paper-trading research capacity.
 

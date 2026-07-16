@@ -160,7 +160,11 @@ def run(args: argparse.Namespace) -> int:
         return 0
 
     try:
-        provider = build_market_data_provider(md_cfg.get("provider", "yfinance"), settings.get("rate_limits", {}))
+        provider = build_market_data_provider(
+            md_cfg.get("provider", "yfinance"),
+            settings.get("rate_limits", {}),
+            fetch_company_info=bool(md_cfg.get("fetch_company_info", True)),
+        )
     except Exception as exc:
         report.write_warning(cp_id, f"Market-data provider error: {exc}", usage.save())
         static_exporter.export_all()

@@ -10,7 +10,11 @@ from typing import Any, Dict
 from market_data.base import MarketDataProvider
 
 
-def build_market_data_provider(provider_name: str, rate_limits: Dict[str, Any] | None = None) -> MarketDataProvider:
+def build_market_data_provider(
+    provider_name: str,
+    rate_limits: Dict[str, Any] | None = None,
+    fetch_company_info: bool = True,
+) -> MarketDataProvider:
     rate_limits = rate_limits or {}
     sleep = float(rate_limits.get("sleep_seconds_between_symbols", 1))
     retries = int(rate_limits.get("max_retries", 2))
@@ -19,7 +23,9 @@ def build_market_data_provider(provider_name: str, rate_limits: Dict[str, Any] |
     if normalized in {"yahoo", "yfinance", "yahoo_finance"}:
         from market_data.yahoo_finance_provider import YahooFinanceProvider
 
-        return YahooFinanceProvider(sleep_seconds=sleep, max_retries=retries)
+        return YahooFinanceProvider(
+            sleep_seconds=sleep, max_retries=retries, fetch_company_info=fetch_company_info
+        )
 
     if normalized in {"yahooquery"}:
         from market_data.yahooquery_provider import YahooQueryProvider

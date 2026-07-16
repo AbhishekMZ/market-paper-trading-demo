@@ -131,7 +131,7 @@ PROFILES: dict[str, dict[str, Any]] = {
                 "max_buys_per_day": 50,
                 "max_buys_per_month": 250,
             },
-            "market_data": {"max_symbols_per_run": 34},
+            "market_data": {"max_symbols_per_run": 500, "fetch_company_info": False},
             "rate_limits": {"sleep_seconds_between_symbols": 0.25},
         },
         "risk": {
