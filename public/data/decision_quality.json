@@ -1,26 +1,26 @@
 {
-  "as_of": "2026-07-15T16:36:26+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-16T12:03:43+05:30",
+  "checkpoint": "mid",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 123,
+    "total_tracked_episodes": 156,
     "matured_episodes": 123,
     "paper_trades": 1,
-    "distinct_days": 17,
-    "action_rate_pct": 0.8,
+    "distinct_days": 18,
+    "action_rate_pct": 0.6,
     "avg_forward_return_acted_pct": 6.0,
     "avg_forward_return_not_acted_pct": -0.17,
     "decision_edge_pct": 5.87,
     "buy_grade_hit_rate_pct": 100.0,
     "buy_grade_avg_return_pct": 6.0,
-    "benchmark_outperformance_pct": 7.12,
+    "benchmark_outperformance_pct": 6.83,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
     "status": "COLLECTING_EVIDENCE",
     "tone": "neutral",
     "headline": "Not enough paper-trading evidence yet. Keep collecting runs before judging the system.",
-    "evidence_score": 65.0,
+    "evidence_score": 66.7,
     "maturity_checks": [
       {
         "label": "Paper trades",
@@ -30,28 +30,28 @@
       },
       {
         "label": "Tracked episodes",
-        "current": 123,
+        "current": 156,
         "required": 20,
         "done": true
       },
       {
         "label": "Distinct days",
-        "current": 17,
+        "current": 18,
         "required": 20,
         "done": false
       }
     ],
     "takeaways": [
-      "Evidence maturity is 65.0% of the configured minimum sample.",
+      "Evidence maturity is 66.7% of the configured minimum sample.",
       "Decision edge is 5.87% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 7.12% vs NIFTY 50.",
+      "Paper portfolio outperformance is 6.83% vs NIFTY 50.",
       "Blocked names rose 0.02% on average — blocking had a cost (still paper-safe).",
-      "Observer has run 60 time(s) with noise score 0.21."
+      "Observer has run 61 time(s) with noise score 0.21."
     ],
     "watch_items": [
       "Only 1/10 paper trades so far.",
-      "Only 17/20 distinct days of data.",
+      "Only 18/20 distinct days of data.",
       "Top observed strategy so far: trend_following (-0.12% avg forward return).",
       "Best observed score threshold so far: 75 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
@@ -60,10 +60,10 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-07-15T16:36:26+05:30",
-    "open_episodes": 0,
+    "as_of": "2026-07-16T12:03:43+05:30",
+    "open_episodes": 33,
     "matured_episodes": 123,
-    "total_episodes": 123,
+    "total_episodes": 156,
     "by_score_band": {
       "buy_grade": {
         "count": 1,
@@ -72,13 +72,13 @@
         "hit_rate_pct": 100.0
       },
       "watch_grade": {
-        "count": 27,
+        "count": 31,
         "rated": 27,
         "avg_return_pct": 0.21,
         "hit_rate_pct": 48.1
       },
       "low_grade": {
-        "count": 95,
+        "count": 124,
         "rated": 95,
         "avg_return_pct": -0.27,
         "hit_rate_pct": 44.2
@@ -91,7 +91,7 @@
       "hit_rate_pct": 100.0
     },
     "not_acted": {
-      "count": 122,
+      "count": 155,
       "rated": 122,
       "avg_return_pct": -0.17,
       "hit_rate_pct": 45.1
@@ -105,13 +105,13 @@
       "hit_rate_pct": 100.0
     },
     "shadow_candidates": {
-      "count": 49,
+      "count": 55,
       "rated": 49,
       "avg_return_pct": 0.13,
       "hit_rate_pct": 55.1
     },
     "blocked": {
-      "count": 32,
+      "count": 34,
       "rated": 32,
       "avg_return_pct": 0.02,
       "hit_rate_pct": 62.5
@@ -347,25 +347,17 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-07-15T16:36:26+05:30",
+    "as_of": "2026-07-16T12:03:43+05:30",
     "ready": true,
-    "points": 60,
+    "points": 61,
     "from_date": "2026-06-23",
-    "to_date": "2026-07-15",
+    "to_date": "2026-07-16",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.21,
+    "benchmark_return_pct": -5.92,
     "portfolio_return_pct": 0.91,
-    "outperformance_pct": 7.12,
+    "outperformance_pct": 6.83,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-06-23",
-        "ts": "2026-06-23T11:14:28+05:30",
-        "checkpoint": "close",
-        "nifty_close": 25672.96,
-        "portfolio_total": 10000.0,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-06-23",
         "ts": "2026-06-23T11:14:28+05:30",
@@ -837,6 +829,14 @@
         "nifty_close": 24078.5,
         "portfolio_total": 10091.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-07-16",
+        "ts": "2026-07-16T12:03:43+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 24153.5,
+        "portfolio_total": 10091.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -941,16 +941,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 60,
-    "triggers_detected": 216,
-    "escalations_created": 118,
+    "observation_runs": 61,
+    "triggers_detected": 219,
+    "escalations_created": 121,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 93,
-    "useful_triggers": 93,
+    "blocked_actions_from_triggers": 95,
+    "useful_triggers": 95,
     "emails_sent_total": 0,
     "alert_noise_score": 0.21,
-    "avg_triggers_per_run": 3.6,
-    "last_run": "2026-07-15T13:33:48+05:30",
+    "avg_triggers_per_run": 3.59,
+    "last_run": "2026-07-15T16:36:32+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -968,12 +968,12 @@
     },
     "progress": {
       "paper_trades": 1,
-      "tracked_episodes": 123,
-      "distinct_days": 17
+      "tracked_episodes": 156,
+      "distinct_days": 18
     },
     "reasons": [
       "Only 1/10 paper trades so far.",
-      "Only 17/20 distinct days of data."
+      "Only 18/20 distinct days of data."
     ],
     "live_trading": "DISABLED",
     "note": "Readiness describes evidence maturity only. v1 stays paper-trading regardless of this verdict."

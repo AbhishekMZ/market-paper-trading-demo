@@ -1,5 +1,1002 @@
 [
   {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TATAMOTORS.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 39.5,
+    "strategy_contributions": {
+      "trend_following": 50.0,
+      "relative_strength": 50.0,
+      "mean_reversion": 50.0,
+      "breakout": 50.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "MISSING",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "[DATA DATA_INSUFFICIENT] Final 39.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Penalties: weak_data.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Sparse price series (data gap); volatility under-measured.",
+      "insufficient_data",
+      "missing_change_pct",
+      "missing_graph",
+      "DataQuality:DATA_INSUFFICIENT",
+      "no current price."
+    ],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "AXISBANK.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 41.2,
+    "strategy_contributions": {
+      "trend_following": 1.9,
+      "relative_strength": 20.1,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 64.8,
+      "volatility_risk": 59.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 41.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=59. Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.07,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "DRREDDY.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.4,
+    "strategy_contributions": {
+      "trend_following": 10.2,
+      "relative_strength": 40.4,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 31.4,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, breakout=48. Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.62,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "KOTAKBANK.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 43.6,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 47.2,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 37.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 43.6/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, breakout=48. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.74,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LT.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 44.9,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 38.1,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 62.9,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 44.9/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=63. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 26.61,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "INFY.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 45.6,
+    "strategy_contributions": {
+      "trend_following": 3.4,
+      "relative_strength": 76.6,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 64.6,
+      "volatility_risk": 0.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 45.6/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, relative_strength=77, news_event_risk=65. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.59,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TATASTEEL.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 46.0,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 50.4,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 64.3,
+      "volatility_risk": 52.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 46.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=64, volatility_risk=52. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.7,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ITC.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 46.0,
+    "strategy_contributions": {
+      "trend_following": 3.2,
+      "relative_strength": 55.8,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 67.5,
+      "portfolio_fit": 35.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 46.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: volatility_risk=68, news_event_risk=65, relative_strength=56. Disagreement: ['volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.3,
+    "warnings": [
+      "Already held — adding would require averaging (blocked) and reduces diversification."
+    ],
+    "conflicts": [
+      "Disagreement: ['volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "COALINDIA.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 46.4,
+    "strategy_contributions": {
+      "trend_following": 0.0,
+      "relative_strength": 43.7,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 65.9,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 46.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, volatility_risk=66, news_event_risk=65. Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.66,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "JSWSTEEL.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 46.6,
+    "strategy_contributions": {
+      "trend_following": 10.5,
+      "relative_strength": 41.2,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 64.6,
+      "volatility_risk": 56.6,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 46.6/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=57. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.56,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HINDUNILVR.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 48.1,
+    "strategy_contributions": {
+      "trend_following": 8.2,
+      "relative_strength": 52.8,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 52.4,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 48.1/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, relative_strength=53. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 29.75,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "NTPC.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 48.5,
+    "strategy_contributions": {
+      "trend_following": 16.6,
+      "relative_strength": 44.0,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 58.2,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 48.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=58. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 35.2,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ONGC.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 49.0,
+    "strategy_contributions": {
+      "trend_following": 36.6,
+      "relative_strength": 30.3,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.4,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 49.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=55. Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.66,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ASIANPAINT.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "DO_NOT_BUY",
+    "final_score": 49.8,
+    "strategy_contributions": {
+      "trend_following": 20.4,
+      "relative_strength": 48.4,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 55.5,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "HIGH",
+    "data_quality_status": "GOOD",
+    "decision_taken": "DO_NOT_BUY",
+    "reason": "Final 49.8/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=56. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 28.28,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BAJAJFINSV.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 52.1,
+    "strategy_contributions": {
+      "trend_following": 72.8,
+      "relative_strength": 16.3,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 46.2,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 52.1/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=73, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.58,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "MARUTI.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 54.1,
+    "strategy_contributions": {
+      "trend_following": 46.2,
+      "relative_strength": 89.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 20.4,
+      "portfolio_fit": 20.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 54.1/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=90, news_event_risk=65, mean_reversion=52. Disagreement: ['relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Share price ₹13744 exceeds per-trade cap ₹10000."
+    ],
+    "conflicts": [
+      "Disagreement: ['relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SBIN.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.2,
+    "strategy_contributions": {
+      "trend_following": 56.5,
+      "relative_strength": 41.7,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 54.2,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.2/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, trend_following=56.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.65,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "RELIANCE.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.2,
+    "strategy_contributions": {
+      "trend_following": 29.5,
+      "relative_strength": 65.9,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 57.9,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.2/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, relative_strength=66, news_event_risk=65. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.25,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "POWERGRID.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 55.9,
+    "strategy_contributions": {
+      "trend_following": 37.0,
+      "relative_strength": 60.5,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 64.8,
+      "volatility_risk": 61.9,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 55.9/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=62.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.86,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "WIPRO.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.0,
+    "strategy_contributions": {
+      "trend_following": 19.3,
+      "relative_strength": 86.6,
+      "mean_reversion": 40.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 45.7,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.0/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=87, portfolio_fit=80, news_event_risk=65. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 35.06,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HDFCBANK.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.1,
+    "strategy_contributions": {
+      "trend_following": 74.2,
+      "relative_strength": 34.9,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 46.6,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.1/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=74, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.37,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "NESTLEIND.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 56.2,
+    "strategy_contributions": {
+      "trend_following": 63.3,
+      "relative_strength": 41.5,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 52.3,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 56.2/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, trend_following=63.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 35.18,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ULTRACEMCO.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 58.5,
+    "strategy_contributions": {
+      "trend_following": 79.3,
+      "relative_strength": 53.9,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 51.8,
+      "portfolio_fit": 20.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 58.5/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=79, breakout=70, news_event_risk=65. Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 0.0,
+    "warnings": [
+      "Share price ₹11867 exceeds per-trade cap ₹10000."
+    ],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BHARTIARTL.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "NO_ACTION",
+    "final_score": 59.6,
+    "strategy_contributions": {
+      "trend_following": 79.9,
+      "relative_strength": 34.2,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 53.6,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "MEDIUM",
+    "data_quality_status": "GOOD",
+    "decision_taken": "NO_ACTION",
+    "reason": "Final 59.6/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 33.99,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TCS.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 60.1,
+    "strategy_contributions": {
+      "trend_following": 54.3,
+      "relative_strength": 85.8,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 10.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 60.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=86, portfolio_fit=80, breakout=70. Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 31.38,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ICICIBANK.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 61.0,
+    "strategy_contributions": {
+      "trend_following": 91.8,
+      "relative_strength": 35.7,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 59.6,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 61.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, portfolio_fit=80, news_event_risk=65.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.83,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "CIPLA.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 61.4,
+    "strategy_contributions": {
+      "trend_following": 87.2,
+      "relative_strength": 47.4,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 50.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 61.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, news_event_risk=65.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 30.46,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "HCLTECH.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 61.9,
+    "strategy_contributions": {
+      "trend_following": 68.7,
+      "relative_strength": 96.4,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 0.0,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 61.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, portfolio_fit=80, trend_following=69. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 33.63,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "ADANIPORTS.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 62.2,
+    "strategy_contributions": {
+      "trend_following": 56.3,
+      "relative_strength": 81.6,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 46.3,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=82, portfolio_fit=80, news_event_risk=65.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.59,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BRITANNIA.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 62.7,
+    "strategy_contributions": {
+      "trend_following": 66.1,
+      "relative_strength": 71.8,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 52.2,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 62.7/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, relative_strength=72, trend_following=66.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 18.83,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "SUNPHARMA.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 65.4,
+    "strategy_contributions": {
+      "trend_following": 91.8,
+      "relative_strength": 44.4,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 66.4,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 65.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, portfolio_fit=80, breakout=70.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 34.4,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TECHM.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 68.8,
+    "strategy_contributions": {
+      "trend_following": 82.9,
+      "relative_strength": 100.0,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.3,
+      "volatility_risk": 15.5,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.21,
+    "warnings": [],
+    "conflicts": [
+      "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
+    ]
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "BAJFINANCE.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 70.9,
+    "strategy_contributions": {
+      "trend_following": 90.5,
+      "relative_strength": 84.6,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.0,
+      "volatility_risk": 47.5,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=85, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.92,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-16T12:03:43+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "TITAN.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "WATCH",
+    "final_score": 71.5,
+    "strategy_contributions": {
+      "trend_following": 87.1,
+      "relative_strength": 86.8,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 65.1,
+      "volatility_risk": 53.8,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "WATCH",
+    "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, relative_strength=87, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.8,
+    "warnings": [],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-07-15T16:36:32+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 3,
+    "actions": 0,
+    "blocked": 2
+  },
+  {
+    "ts": "2026-07-15T16:36:26+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-07-15T16:36:26+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
@@ -12737,923 +13734,5 @@
     "estimated_costs": 4.93,
     "warnings": [],
     "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T14:19:39+05:30",
-    "event": "OBSERVATION_RUN",
-    "checkpoint": "mid",
-    "triggers": 4,
-    "escalations": 2,
-    "actions": 0,
-    "blocked": 0
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "INFY.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "HIGH_RISK_IGNORE",
-    "final_score": 33.7,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 40.0,
-      "breakout": 45.0,
-      "news_event_risk": 64.9,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HIGH_RISK_IGNORE",
-    "reason": "Final 33.7/100 -> HIGH_RISK_IGNORE [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 3.66,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LT.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "DO_NOT_BUY",
-    "final_score": 38.0,
-    "strategy_contributions": {
-      "trend_following": 45.9,
-      "relative_strength": 0.0,
-      "mean_reversion": 68.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 40.4,
-      "portfolio_fit": 20.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "DO_NOT_BUY",
-    "reason": "Final 38.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, trend_following=46, volatility_risk=40.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 0.0,
-    "warnings": [
-      "Share price ₹4017 exceeds per-trade cap ₹2000."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "TCS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "DO_NOT_BUY",
-    "final_score": 42.8,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 20.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "DO_NOT_BUY",
-    "reason": "Final 42.8/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 0.0,
-    "warnings": [
-      "Share price ₹2064 exceeds per-trade cap ₹2000."
-    ],
-    "conflicts": [
-      "Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "RELIANCE.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 50.4,
-    "strategy_contributions": {
-      "trend_following": 35.8,
-      "relative_strength": 29.7,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 56.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 50.4/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=57. Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.59,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ITC.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "HOLD",
-    "final_score": 54.0,
-    "strategy_contributions": {
-      "trend_following": 64.8,
-      "relative_strength": 34.2,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 66.4,
-      "portfolio_fit": 35.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HOLD",
-    "reason": "Final 54.0/100 -> HOLD [regime NEUTRAL]. Top: volatility_risk=66, news_event_risk=65, trend_following=65. Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.13,
-    "warnings": [
-      "Already held — adding would require averaging (blocked) and reduces diversification."
-    ],
-    "conflicts": [
-      "Disagreement: ['volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "BHARTIARTL.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 57.3,
-    "strategy_contributions": {
-      "trend_following": 67.8,
-      "relative_strength": 30.1,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 59.7,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 57.3/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=68, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.58,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "AXISBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 59.4,
-    "strategy_contributions": {
-      "trend_following": 87.7,
-      "relative_strength": 23.4,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 64.8,
-      "volatility_risk": 56.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 59.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.8,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "HDFCBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 60.9,
-    "strategy_contributions": {
-      "trend_following": 87.7,
-      "relative_strength": 35.8,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 49.7,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 60.9/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 5.6,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "SBIN.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 64.4,
-    "strategy_contributions": {
-      "trend_following": 90.5,
-      "relative_strength": 42.5,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 60.4,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 64.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 3.7,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T14:19:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ICICIBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 70.9,
-    "strategy_contributions": {
-      "trend_following": 94.5,
-      "relative_strength": 71.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 60.1,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, relative_strength=71.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.93,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T13:10:53+05:30",
-    "event": "OBSERVATION_RUN",
-    "checkpoint": "mid",
-    "triggers": 6,
-    "escalations": 4,
-    "actions": 0,
-    "blocked": 2
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "INFY.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "HIGH_RISK_IGNORE",
-    "final_score": 33.7,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 40.0,
-      "breakout": 45.0,
-      "news_event_risk": 64.9,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HIGH_RISK_IGNORE",
-    "reason": "Final 33.7/100 -> HIGH_RISK_IGNORE [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 3.66,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LT.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "DO_NOT_BUY",
-    "final_score": 38.4,
-    "strategy_contributions": {
-      "trend_following": 47.6,
-      "relative_strength": 0.0,
-      "mean_reversion": 68.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 40.8,
-      "portfolio_fit": 20.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "DO_NOT_BUY",
-    "reason": "Final 38.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, trend_following=48, volatility_risk=41.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 0.0,
-    "warnings": [
-      "Share price ₹4025 exceeds per-trade cap ₹2000."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "TCS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "DO_NOT_BUY",
-    "final_score": 42.8,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 20.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "DO_NOT_BUY",
-    "reason": "Final 42.8/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, portfolio_fit=20. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 0.0,
-    "warnings": [
-      "Share price ₹2063 exceeds per-trade cap ₹2000."
-    ],
-    "conflicts": [
-      "Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "RELIANCE.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 50.0,
-    "strategy_contributions": {
-      "trend_following": 35.5,
-      "relative_strength": 28.0,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 56.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 50.0/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, news_event_risk=65, volatility_risk=57. Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.59,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ITC.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "HOLD",
-    "final_score": 54.1,
-    "strategy_contributions": {
-      "trend_following": 65.1,
-      "relative_strength": 34.3,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 66.4,
-      "portfolio_fit": 35.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HOLD",
-    "reason": "Final 54.1/100 -> HOLD [regime NEUTRAL]. Top: volatility_risk=66, trend_following=65, news_event_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.14,
-    "warnings": [
-      "Already held — adding would require averaging (blocked) and reduces diversification."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['relative_strength', 'portfolio_fit'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "BHARTIARTL.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 56.0,
-    "strategy_contributions": {
-      "trend_following": 66.4,
-      "relative_strength": 25.2,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 59.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 56.0/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=66, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.56,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "AXISBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 60.4,
-    "strategy_contributions": {
-      "trend_following": 87.7,
-      "relative_strength": 28.1,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 64.8,
-      "volatility_risk": 56.9,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 60.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.81,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "HDFCBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 62.4,
-    "strategy_contributions": {
-      "trend_following": 89.1,
-      "relative_strength": 42.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 49.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 62.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 5.62,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "SBIN.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 64.6,
-    "strategy_contributions": {
-      "trend_following": 90.5,
-      "relative_strength": 43.4,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 60.4,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 64.6/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 3.7,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-02T13:10:49+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ICICIBANK.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 70.8,
-    "strategy_contributions": {
-      "trend_following": 94.5,
-      "relative_strength": 71.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 60.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, relative_strength=71.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.93,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T17:48:26+05:30",
-    "event": "OBSERVATION_RUN",
-    "checkpoint": "close",
-    "triggers": 2,
-    "escalations": 2,
-    "actions": 0,
-    "blocked": 2
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "EMAIL",
-    "details": {
-      "daily": {
-        "sent": false,
-        "reason": "Email disabled or credentials/recipient missing.",
-        "recipient": "sahabhi115@gmail.com"
-      }
-    }
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "INFY.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "HIGH_RISK_IGNORE",
-    "final_score": 30.7,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 0.0,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 64.9,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HIGH_RISK_IGNORE",
-    "reason": "Final 30.7/100 -> HIGH_RISK_IGNORE [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=65, trend_following=0. Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.94,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "TCS.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "HIGH_RISK_IGNORE",
-    "final_score": 30.8,
-    "strategy_contributions": {
-      "trend_following": 0.0,
-      "relative_strength": 0.0,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 0.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HIGH_RISK_IGNORE",
-    "reason": "Final 30.8/100 -> HIGH_RISK_IGNORE [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=65, trend_following=0. Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.98,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LT.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "DO_NOT_BUY",
-    "final_score": 44.0,
-    "strategy_contributions": {
-      "trend_following": 59.8,
-      "relative_strength": 4.7,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 42.6,
-      "portfolio_fit": 20.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "DO_NOT_BUY",
-    "reason": "Final 44.0/100 -> DO_NOT_BUY [regime RISK_ON]. Top: news_event_risk=65, trend_following=60, volatility_risk=43.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 0.0,
-    "warnings": [
-      "Share price ₹4093 exceeds per-trade cap ₹2000."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "RELIANCE.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 58.8,
-    "strategy_contributions": {
-      "trend_following": 34.8,
-      "relative_strength": 62.6,
-      "mean_reversion": 40.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 56.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 58.8/100 -> NO_ACTION [regime RISK_ON]. Top: portfolio_fit=80, news_event_risk=65, relative_strength=63. Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.61,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "HDFCBANK.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "NO_ACTION",
-    "final_score": 62.0,
-    "strategy_contributions": {
-      "trend_following": 89.1,
-      "relative_strength": 29.7,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 49.7,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "NO_ACTION",
-    "reason": "Final 62.0/100 -> NO_ACTION [regime RISK_ON]. Top: trend_following=89, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 5.6,
-    "warnings": [],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ITC.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "HOLD",
-    "final_score": 64.6,
-    "strategy_contributions": {
-      "trend_following": 78.5,
-      "relative_strength": 64.5,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 65.0,
-      "portfolio_fit": 35.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "HOLD",
-    "reason": "Final 64.6/100 -> HOLD [regime RISK_ON]. Top: trend_following=78, news_event_risk=65, volatility_risk=65. Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.14,
-    "warnings": [
-      "Already held — adding would require averaging (blocked) and reduces diversification."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'volatility_risk'] positive vs ['portfolio_fit'] negative."
-    ]
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "BHARTIARTL.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "WATCH",
-    "final_score": 66.6,
-    "strategy_contributions": {
-      "trend_following": 73.1,
-      "relative_strength": 61.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 59.9,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 66.6/100 -> WATCH [regime RISK_ON]. Top: portfolio_fit=80, trend_following=73, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 6.59,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ICICIBANK.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "WATCH",
-    "final_score": 66.9,
-    "strategy_contributions": {
-      "trend_following": 93.2,
-      "relative_strength": 43.7,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 58.4,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 66.9/100 -> WATCH [regime RISK_ON]. Top: trend_following=93, portfolio_fit=80, news_event_risk=65.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.86,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "AXISBANK.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "WATCH",
-    "final_score": 71.8,
-    "strategy_contributions": {
-      "trend_following": 87.7,
-      "relative_strength": 78.1,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 64.8,
-      "volatility_risk": 53.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 71.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=78.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 4.82,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T17:48:23+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "SBIN.NS",
-    "market_regime": "RISK_ON",
-    "final_recommendation": "WATCH",
-    "final_score": 75.0,
-    "strategy_contributions": {
-      "trend_following": 90.5,
-      "relative_strength": 85.2,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 60.4,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 75.0/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, relative_strength=85, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 3.69,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-07-01T15:08:43+05:30",
-    "event": "OBSERVATION_RUN",
-    "checkpoint": "close",
-    "triggers": 2,
-    "escalations": 0,
-    "actions": 0,
-    "blocked": 0
-  },
-  {
-    "ts": "2026-07-01T15:08:39+05:30",
-    "event": "EMAIL",
-    "details": {
-      "daily": {
-        "sent": false,
-        "reason": "Email disabled or credentials/recipient missing.",
-        "recipient": "sahabhi115@gmail.com"
-      }
-    }
   }
 ]
