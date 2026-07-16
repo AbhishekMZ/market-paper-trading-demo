@@ -15,5 +15,22 @@
     "signal_id": "sig_77555c9bddbe",
     "timestamp": "2026-06-23T11:14:27+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_d6a8a8486d00",
+    "symbol": "AFFLE.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 6,
+    "filled_quantity": 0,
+    "price": 1539.9,
+    "amount": 9239.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9239.40, have 8474.74.",
+    "reason": "Final 71.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=82, portfolio_fit=80.",
+    "signal_id": "sig_3b6b3bb4c670",
+    "timestamp": "2026-07-17T00:58:11+05:30",
+    "realized_pnl": 0.0
   }
 ]
