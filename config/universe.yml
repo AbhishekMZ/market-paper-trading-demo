@@ -27,6 +27,18 @@ benchmarks:
   secondary:
     - { symbol: "^NSEBANK", exchange: "NSE", name: "NIFTY Bank" }
 
+# Source for the ACTIVE (scanned) list. When type: csv and the file resolves,
+# the active list is built from the bundled CSV (the full NIFTY 500 here).
+# Falls back to the inline active_symbols list below if the CSV is missing.
+# The scan is still capped by settings.yml -> market_data.max_symbols_per_run.
+active_source:
+  type: csv
+  csv_file: nifty500.csv        # relative to config/
+  symbol_column: Symbol
+  name_column: Company Name
+  symbol_suffix: ".NS"
+  exchange: NSE
+
 # 8-10 names scanned each checkpoint. Edit this list to rotate coverage.
 active_symbols:
   - { symbol: "RELIANCE.NS",   exchange: "NSE", name: "Reliance Industries" }

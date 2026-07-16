@@ -51,9 +51,14 @@ def _safe_int(value: Any) -> Optional[int]:
 class YahooFinanceProvider(MarketDataProvider):
     provider_name = "yfinance"
 
-    def __init__(self, sleep_seconds: float = 1.0, max_retries: int = 2) -> None:
+    def __init__(self, sleep_seconds: float = 1.0, max_retries: int = 2,
+                 fetch_company_info: bool = True) -> None:
         self.sleep_seconds = float(sleep_seconds)
         self.max_retries = int(max_retries)
+        # ticker.info is slow and rate-limit-prone; skip it for large scans.
+        # Only cosmetic fields (sector/exchange/currency) come from it — price,
+        # history, change%, and news all come from history()/fast_info/news.
+        self.fetch_company_info = bool(fetch_company_info)
 
     # ------------------------------------------------------------------ #
     def get_snapshot(self, symbol: str, period: str = "1mo", interval: str = "1d") -> MarketSnapshot:
@@ -88,10 +93,11 @@ class YahooFinanceProvider(MarketDataProvider):
                 fast_info = getattr(ticker, "fast_info", {}) or {}
             except Exception as exc:
                 errors.append(f"fast_info_error: {exc}")
-            try:
-                info = ticker.info or {}  # best-effort; can be slow/brittle
-            except Exception as exc:
-                errors.append(f"info_error: {exc}")
+            if self.fetch_company_info:
+                try:
+                    info = ticker.info or {}  # best-effort; can be slow/brittle
+                except Exception as exc:
+                    errors.append(f"info_error: {exc}")
             try:
                 quote = self._build_quote(symbol, fast_info, info, bars)
             except Exception as exc:
