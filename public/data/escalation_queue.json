@@ -1,5 +1,97 @@
 [
   {
+    "symbol": "WIPRO.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_f3ef684225e2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_26fb2d51dbc6",
+    "created_at": "2026-07-17T13:10:55+05:30",
+    "expires_at": "2026-07-17T13:10:55+05:30"
+  },
+  {
+    "symbol": "TECHM.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_9b688635cc0d",
+      "trg_ee6c14521ff5",
+      "trg_4092b7af2074"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_9e59dcdcc358",
+    "created_at": "2026-07-17T13:10:55+05:30",
+    "expires_at": "2026-07-17T13:10:55+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_3a1dcbbae4a4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_1a941864ecf6",
+    "created_at": "2026-07-17T13:10:55+05:30",
+    "expires_at": "2026-07-17T13:10:55+05:30"
+  },
+  {
+    "symbol": "HDFCBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_44ed9f6c751f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_3749af0b4f3f",
+    "created_at": "2026-07-17T13:10:55+05:30",
+    "expires_at": "2026-07-17T13:10:55+05:30"
+  },
+  {
+    "symbol": "RELIANCE.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_1846b65e60ef"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_dbd3ea8e7b81",
+    "created_at": "2026-07-17T13:10:55+05:30",
+    "expires_at": "2026-07-17T13:10:55+05:30"
+  },
+  {
     "symbol": "ICICIBANK.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -1718,95 +1810,5 @@
     "escalation_id": "esc_063aa202816d",
     "created_at": "2026-06-25T17:02:55+05:30",
     "expires_at": "2026-06-25T17:02:55+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_0be5486bffae"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_fbe26b8fc8e7",
-    "created_at": "2026-06-25T17:02:55+05:30",
-    "expires_at": "2026-06-25T17:02:55+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_f9bbf00f6463"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_12fafc2c6c6c",
-    "created_at": "2026-06-25T17:02:55+05:30",
-    "expires_at": "2026-06-25T17:02:55+05:30"
-  },
-  {
-    "symbol": "BHARTIARTL.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_4a699cf2b6e5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_070505cf574b",
-    "created_at": "2026-06-25T13:24:07+05:30",
-    "expires_at": "2026-06-25T13:24:07+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_3cdba630edb8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_3f8cc3c4c4e5",
-    "created_at": "2026-06-25T12:25:01+05:30",
-    "expires_at": "2026-06-25T12:25:01+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_2a1520a51f87"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_e599e7aa67ad",
-    "created_at": "2026-06-25T12:25:01+05:30",
-    "expires_at": "2026-06-25T12:25:01+05:30"
   }
 ]

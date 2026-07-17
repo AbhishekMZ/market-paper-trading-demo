@@ -1,5 +1,13 @@
 [
   {
+    "key": "ICICIBANK.NS:HIGH",
+    "subject": "[Paper News] HIGH news: ICICIBANK.NS",
+    "body": "Symbol: ICICIBANK.NS (ICICI Bank Ltd.)\nNews risk: HIGH   Sentiment: NEUTRAL\nEvents: EARNINGS_MISS, REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: IT, financials lead Indian benchmarks higher; Reliance, private banks up ahead of results\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEUTRAL.; [HIGH] IT, financials lead Indian benchmarks higher; Reliance, private banks up ahead of results; [MEDIUM] India's ICICI Lombard's quarterly profit falls; [HIGH] Quadria-backed India's Maxivision hires IPO bankers, sources say; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "ICICIBANK.NS",
+    "level": "HIGH",
+    "ts": "2026-07-17T13:08:55+05:30"
+  },
+  {
     "key": "SBIN.NS:CRITICAL",
     "subject": "[Paper News] CRITICAL news: SBIN.NS",
     "body": "Symbol: SBIN.NS (State Bank of India)\nNews risk: CRITICAL   Sentiment: NEGATIVE\nEvents: FRAUD, REGULATORY\nHeld position: no   Blocked a would-be buy: no\nTop headline: ₹356 Crore Bank Fraud : ED Attaches ₹35 . 52 Crore Assets of Dhanlaxmi Solvex\n\nWhy: 14 relevant item(s); worst risk CRITICAL, sentiment NEGATIVE.; [HIGH] Banks boost renewable energy credit by 7 % in April amid energy security concerns; [CRITICAL] ₹356 Crore Bank Fraud : ED Attaches ₹35 . 52 Crore Assets of Dhanlaxmi Solvex; [HIGH] Top Gainers & Losers on June 23 : Vedanta , Hindustan Zinc , Infosys , TCS , Bank of Baroda among top losers; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
