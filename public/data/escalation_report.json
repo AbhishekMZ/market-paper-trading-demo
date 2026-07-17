@@ -1,126 +1,44 @@
 {
-  "as_of": "2026-07-17T13:10:55+05:30",
+  "as_of": "2026-07-17T14:48:32+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "RELIANCE.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "symbol": "TCS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.2% vs previous close.",
       "trigger_ids": [
-        "trg_1846b65e60ef"
+        "trg_f2673284a6e7"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_dbd3ea8e7b81",
-      "created_at": "2026-07-17T13:10:55+05:30",
-      "expires_at": "2026-07-17T13:10:55+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_45e85967f119",
+      "created_at": "2026-07-17T14:48:32+05:30",
+      "expires_at": "2026-07-17T14:48:32+05:30"
     },
     {
-      "symbol": "HDFCBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "symbol": "SONACOMS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.7% vs previous close.",
       "trigger_ids": [
-        "trg_44ed9f6c751f"
+        "trg_fd75abe358f2"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_3749af0b4f3f",
-      "created_at": "2026-07-17T13:10:55+05:30",
-      "expires_at": "2026-07-17T13:10:55+05:30"
-    },
-    {
-      "symbol": "ICICIBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_3a1dcbbae4a4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_1a941864ecf6",
-      "created_at": "2026-07-17T13:10:55+05:30",
-      "expires_at": "2026-07-17T13:10:55+05:30"
-    },
-    {
-      "symbol": "TECHM.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_9b688635cc0d",
-        "trg_ee6c14521ff5",
-        "trg_4092b7af2074"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_9e59dcdcc358",
-      "created_at": "2026-07-17T13:10:55+05:30",
-      "expires_at": "2026-07-17T13:10:55+05:30"
-    },
-    {
-      "symbol": "WIPRO.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_f3ef684225e2"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_26fb2d51dbc6",
-      "created_at": "2026-07-17T13:10:55+05:30",
-      "expires_at": "2026-07-17T13:10:55+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_e7751c3ed5d0",
+      "created_at": "2026-07-17T14:48:32+05:30",
+      "expires_at": "2026-07-17T14:48:32+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "RELIANCE.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "ICICIBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "TECHM.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "WIPRO.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }
