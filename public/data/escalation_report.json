@@ -1,32 +1,51 @@
 {
-  "as_of": "2026-07-17T14:48:32+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-17T17:42:48+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "TCS.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
+      "symbol": "ICICIBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_f2673284a6e7"
+        "trg_636b9feebeae"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_45e85967f119",
-      "created_at": "2026-07-17T14:48:32+05:30",
-      "expires_at": "2026-07-17T14:48:32+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_6c6eacfc0477",
+      "created_at": "2026-07-17T17:42:48+05:30",
+      "expires_at": "2026-07-17T17:42:48+05:30"
     },
     {
-      "symbol": "SONACOMS.NS",
+      "symbol": "TECHM.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_552632b5a59d",
+        "trg_9a48cfaa7716"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_5ba41d663824",
+      "created_at": "2026-07-17T17:42:48+05:30",
+      "expires_at": "2026-07-17T17:42:48+05:30"
+    },
+    {
+      "symbol": "INDIACEM.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.7% vs previous close.",
+      "reason": "Gap +3.1% vs previous close.",
       "trigger_ids": [
-        "trg_fd75abe358f2"
+        "trg_2b165bdb57f1"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,11 +53,40 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e7751c3ed5d0",
-      "created_at": "2026-07-17T14:48:32+05:30",
-      "expires_at": "2026-07-17T14:48:32+05:30"
+      "escalation_id": "esc_cf72080440d6",
+      "created_at": "2026-07-17T17:42:48+05:30",
+      "expires_at": "2026-07-17T17:42:48+05:30"
+    },
+    {
+      "symbol": "PPLPHARMA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.6% vs previous close.",
+      "trigger_ids": [
+        "trg_1a072425c5f0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_9bc209c3a272",
+      "created_at": "2026-07-17T17:42:48+05:30",
+      "expires_at": "2026-07-17T17:42:48+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "TECHM.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

@@ -62,5 +62,13 @@
     "symbol": "ICICIBANK.NS",
     "level": "HIGH",
     "ts": "2026-07-17T13:08:55+05:30"
+  },
+  {
+    "key": "ICICIBANK.NS:HIGH",
+    "subject": "[Paper News] HIGH news: ICICIBANK.NS",
+    "body": "Symbol: ICICIBANK.NS (ICICI Bank Ltd.)\nNews risk: HIGH   Sentiment: NEUTRAL\nEvents: EARNINGS_MISS, REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: IT, financials lead Indian benchmarks higher; Reliance, private banks up ahead of results\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEUTRAL.; [HIGH] IT, financials lead Indian benchmarks higher; Reliance, private banks up ahead of results; [MEDIUM] India's ICICI Lombard's quarterly profit falls; [HIGH] Quadria-backed India's Maxivision hires IPO bankers, sources say; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "ICICIBANK.NS",
+    "level": "HIGH",
+    "ts": "2026-07-17T17:40:50+05:30"
   }
 ]

@@ -32,5 +32,22 @@
     "signal_id": "sig_3b6b3bb4c670",
     "timestamp": "2026-07-17T00:58:11+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_86d39e504e76",
+    "symbol": "APTUS.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 32,
+    "filled_quantity": 0,
+    "price": 306.85,
+    "amount": 9819.2,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9819.20, have 8474.74.",
+    "reason": "Final 71.1/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=93, relative_strength=80, portfolio_fit=80.",
+    "signal_id": "sig_008bd9c62d7a",
+    "timestamp": "2026-07-17T17:40:49+05:30",
+    "realized_pnl": 0.0
   }
 ]
