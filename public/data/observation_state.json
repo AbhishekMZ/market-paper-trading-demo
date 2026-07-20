@@ -5,7 +5,7 @@
       "change_pct": 0.7125,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:32:19+05:30"
+      "updated_at": "2026-07-20T18:41:13+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -26,7 +26,7 @@
       "change_pct": 1.1009,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:33:00+05:30"
+      "updated_at": "2026-07-20T18:41:41+05:30"
     },
     "LT.NS": {
       "last_price": 4260.89990234375,
@@ -82,7 +82,7 @@
       "change_pct": 0.2225,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:33:25+05:30"
+      "updated_at": "2026-07-20T18:42:24+05:30"
     },
     "CIPLA.NS": {
       "last_price": 1438.4000244140625,
@@ -124,7 +124,7 @@
       "change_pct": 0.729,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:33:17+05:30"
+      "updated_at": "2026-07-20T18:42:07+05:30"
     },
     "ULTRACEMCO.NS": {
       "last_price": 11812.0,
@@ -134,11 +134,11 @@
       "updated_at": "2026-07-15T16:36:31+05:30"
     },
     "BRITANNIA.NS": {
-      "last_price": 5407.0,
-      "change_pct": 1.8172,
+      "last_price": 5470.0,
+      "change_pct": 1.0624,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-17T14:48:05+05:30"
+      "updated_at": "2026-07-20T18:43:05+05:30"
     },
     "HCLTECH.NS": {
       "last_price": 1168.0,
@@ -173,7 +173,7 @@
       "change_pct": 1.3762,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:32:27+05:30"
+      "updated_at": "2026-07-20T18:41:30+05:30"
     },
     "DEEPAKNTR.NS": {
       "last_price": 1697.0,
@@ -194,7 +194,7 @@
       "change_pct": -0.4562,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:33:34+05:30"
+      "updated_at": "2026-07-20T18:41:50+05:30"
     },
     "BAJAJFINSV.NS": {
       "last_price": 1856.0999755859375,
@@ -250,7 +250,7 @@
       "change_pct": 0.4006,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:32:44+05:30"
+      "updated_at": "2026-07-20T18:42:33+05:30"
     },
     "PPLPHARMA.NS": {
       "last_price": 179.4199981689453,
@@ -264,7 +264,7 @@
       "change_pct": 0.55,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:34:07+05:30"
+      "updated_at": "2026-07-20T18:43:14+05:30"
     },
     "ABBOTINDIA.NS": {
       "last_price": 28055.0,
@@ -285,14 +285,14 @@
       "change_pct": 0.8446,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:32:35+05:30"
+      "updated_at": "2026-07-20T18:41:22+05:30"
     },
     "EXIDEIND.NS": {
       "last_price": 436.6499938964844,
       "change_pct": 0.3332,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:32:52+05:30"
+      "updated_at": "2026-07-20T18:42:15+05:30"
     },
     "BAYERCROP.NS": {
       "last_price": 4260.89990234375,
@@ -327,7 +327,7 @@
       "change_pct": 4.1805,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-20T15:33:59+05:30"
+      "updated_at": "2026-07-20T18:43:26+05:30"
     },
     "EMCURE.NS": {
       "last_price": 1861.199951171875,
@@ -335,8 +335,29 @@
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
       "updated_at": "2026-07-20T15:34:15+05:30"
+    },
+    "ANANTRAJ.NS": {
+      "last_price": 600.7999877929688,
+      "change_pct": 1.4693,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-07-20T18:41:58+05:30"
+    },
+    "AEGISLOG.NS": {
+      "last_price": 1383.9000244140625,
+      "change_pct": 2.5795,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-07-20T18:42:43+05:30"
+    },
+    "HSCL.NS": {
+      "last_price": 769.9000244140625,
+      "change_pct": 3.8231,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-07-20T18:42:52+05:30"
     }
   },
-  "last_observation_at": "2026-07-20T15:34:15+05:30",
+  "last_observation_at": "2026-07-20T18:43:26+05:30",
   "last_regime": "NEUTRAL"
 }

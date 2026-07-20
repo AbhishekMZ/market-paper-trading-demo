@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-07-20T17:30:46+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 282.70001220703125,
+    "jump_pct": 47.54,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-07-20T14:21:09+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1095,22 +1104,6 @@
     "price_source": "history.close",
     "entry_price": 1033.0999755859375,
     "mtm_price": 1033.0999755859375,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: unknown -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-06-23T11:46:42+05:30",
-    "symbol": "HDFCBANK.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 784.0,
-    "mtm_price": 784.0,
     "price_consistency_check": "PASSED",
     "anomaly_flags": [
       "quote_source_changed"

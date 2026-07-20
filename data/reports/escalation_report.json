@@ -1,14 +1,86 @@
 {
-  "as_of": "2026-07-20T15:34:15+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-20T18:43:26+05:30",
+  "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_cca726a45abc"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_440ab1952774",
+      "created_at": "2026-07-20T18:43:26+05:30",
+      "expires_at": "2026-07-20T18:43:26+05:30"
+    },
+    {
+      "symbol": "TECHM.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_1d81cdbf1ef5"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_e49ee90ad3a3",
+      "created_at": "2026-07-20T18:43:26+05:30",
+      "expires_at": "2026-07-20T18:43:26+05:30"
+    },
+    {
+      "symbol": "AEGISLOG.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.6% vs previous close.",
+      "trigger_ids": [
+        "trg_60c6043c6b8a"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a6ef2e7415da",
+      "created_at": "2026-07-20T18:43:26+05:30",
+      "expires_at": "2026-07-20T18:43:26+05:30"
+    },
+    {
+      "symbol": "HSCL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.8% vs previous close.",
+      "trigger_ids": [
+        "trg_b14814a4894c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b3e886752242",
+      "created_at": "2026-07-20T18:43:26+05:30",
+      "expires_at": "2026-07-20T18:43:26+05:30"
+    },
     {
       "symbol": "OIL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +4.2% vs previous close.",
       "trigger_ids": [
-        "trg_ee653d4af8b5"
+        "trg_07b7fa847453"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,29 +88,22 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_17674119181f",
-      "created_at": "2026-07-20T15:34:15+05:30",
-      "expires_at": "2026-07-20T15:34:15+05:30"
-    },
-    {
-      "symbol": "EMCURE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.4% vs previous close.",
-      "trigger_ids": [
-        "trg_8c6aadd4d9a2"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_9da055a279fe",
-      "created_at": "2026-07-20T15:34:15+05:30",
-      "expires_at": "2026-07-20T15:34:15+05:30"
+      "escalation_id": "esc_3051c32207b0",
+      "created_at": "2026-07-20T18:43:26+05:30",
+      "expires_at": "2026-07-20T18:43:26+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "TECHM.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
