@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-17T17:42:48+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-20T14:09:43+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
       "symbol": "ICICIBANK.NS",
@@ -8,7 +8,7 @@
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_636b9feebeae"
+        "trg_d79bb6a0a914"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_6c6eacfc0477",
-      "created_at": "2026-07-17T17:42:48+05:30",
-      "expires_at": "2026-07-17T17:42:48+05:30"
+      "escalation_id": "esc_13c5ffbf3707",
+      "created_at": "2026-07-20T14:09:43+05:30",
+      "expires_at": "2026-07-20T14:09:43+05:30"
     },
     {
       "symbol": "TECHM.NS",
@@ -26,8 +26,7 @@
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_552632b5a59d",
-        "trg_9a48cfaa7716"
+        "trg_f2c508c339c8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -35,45 +34,65 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_5ba41d663824",
-      "created_at": "2026-07-17T17:42:48+05:30",
-      "expires_at": "2026-07-17T17:42:48+05:30"
+      "escalation_id": "esc_4d68ddd5a2d0",
+      "created_at": "2026-07-20T14:09:43+05:30",
+      "expires_at": "2026-07-20T14:09:43+05:30"
     },
     {
-      "symbol": "INDIACEM.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.1% vs previous close.",
+      "symbol": "FEDERALBNK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_2b165bdb57f1"
+        "trg_87a3f97f0776"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_cf72080440d6",
-      "created_at": "2026-07-17T17:42:48+05:30",
-      "expires_at": "2026-07-17T17:42:48+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_d9547c06f6eb",
+      "created_at": "2026-07-20T14:09:43+05:30",
+      "expires_at": "2026-07-20T14:09:43+05:30"
     },
     {
-      "symbol": "PPLPHARMA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.6% vs previous close.",
+      "symbol": "JIOFIN.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_1a072425c5f0"
+        "trg_1384dc6d0b47"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_9bc209c3a272",
-      "created_at": "2026-07-17T17:42:48+05:30",
-      "expires_at": "2026-07-17T17:42:48+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_59b700c65df8",
+      "created_at": "2026-07-20T14:09:43+05:30",
+      "expires_at": "2026-07-20T14:09:43+05:30"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_7b387f5690fc",
+        "trg_f4b710c9bddd",
+        "trg_95e33eaea2f4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_0e33bba4ab53",
+      "created_at": "2026-07-20T14:09:43+05:30",
+      "expires_at": "2026-07-20T14:09:43+05:30"
     }
   ],
   "actions_taken": [],
@@ -85,6 +104,21 @@
     },
     {
       "symbol": "TECHM.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "HDFCBANK.NS",
       "blocked_by": "NEWS",
       "trigger": "HIGH_RISK_NEWS"
     }

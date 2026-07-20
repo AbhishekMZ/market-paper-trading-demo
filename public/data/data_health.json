@@ -1,17 +1,17 @@
 {
-  "as_of": "2026-07-17T17:40:50+05:30",
+  "as_of": "2026-07-20T14:07:41+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-07-17T17:40:50+05:30",
+  "last_successful_run": "2026-07-20T14:07:41+05:30",
   "symbols_assessed": 500,
   "usable_symbols": 500,
   "rejected_symbols": 0,
   "price_anomalies": 0,
   "stale_quotes": 0,
-  "missing_news": 53,
+  "missing_news": 54,
   "anomaly_symbols": [],
   "rejected_symbol_list": [],
   "overall": "HEALTHY",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
+  "checkpoint": "mid",
   "mtm_incidents": 1
 }
