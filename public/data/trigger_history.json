@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "LUPIN.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap +2.9% vs previous close.",
+    "company_name": "Lupin Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 2514.89990234375,
+    "previous_price": null,
+    "change_pct": 2.9347,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_1a95556aeede",
+    "trigger_id": "trg_56e52e5d3c83",
+    "detected_at": "2026-07-21T13:20:28+05:30"
+  },
+  {
     "symbol": "OIL.NS",
     "trigger_type": "GAP_MOVE",
     "severity": "LOW",

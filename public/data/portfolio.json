@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-07-20T18:41:03+05:30",
+  "as_of": "2026-07-21T13:19:43+05:30",
   "starting_capital": 10000.0,
   "monthly_capital": 10000.0,
-  "cash": 8474.74,
-  "holdings_value": 1616.76,
+  "cash": 100.34,
+  "holdings_value": 9991.16,
   "total_value": 10091.5,
   "realized_pnl": 0.0,
   "unrealized_pnl": 91.5,
@@ -24,6 +24,23 @@
       "signal_id": "sig_77555c9bddbe",
       "risk_status": "OK",
       "data_status": "DATA_ANOMALY"
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "exchange": "NSE",
+      "name": "COLPAL.NS",
+      "quantity": 4,
+      "avg_price": 2093.6,
+      "invested": 8374.4,
+      "last_price": 2093.6001,
+      "current_value": 8374.4,
+      "unrealized_pnl": 0.0,
+      "unrealized_pnl_pct": 0.0,
+      "bot_owned": true,
+      "opened_at": "2026-07-21T13:19:43+05:30",
+      "signal_id": "sig_bdb083d1d500",
+      "risk_status": "OK",
+      "data_status": "OK"
     }
   ],
   "closed_positions": [],

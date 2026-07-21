@@ -1,212 +1,82 @@
 {
-  "as_of": "2026-07-20T18:43:26+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-21T13:21:46+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
-  "open_positions_observed": 1,
-  "triggers_this_run": 5,
-  "escalations": 5,
+  "open_positions_observed": 2,
+  "triggers_this_run": 1,
+  "escalations": 1,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "ICICIBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "TECHM.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
+  "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 71,
-    "triggers_detected": 269,
-    "escalations_created": 150,
+    "observation_runs": 72,
+    "triggers_detected": 270,
+    "escalations_created": 151,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 114,
     "emails_sent_total": 0,
-    "last_run": "2026-07-20T18:43:26+05:30",
+    "last_run": "2026-07-21T13:21:46+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
-      "BHARATFORG.NS",
-      "SONACOMS.NS",
-      "ICICIBANK.NS",
-      "APTUS.NS",
-      "ANANTRAJ.NS",
-      "BAJFINANCE.NS",
-      "EXIDEIND.NS",
-      "TECHM.NS",
-      "ADANIENSOL.NS",
-      "AEGISLOG.NS",
-      "HSCL.NS",
+      "COLPAL.NS",
+      "APOLLOHOSP.NS",
+      "SUNPHARMA.NS",
+      "DIVISLAB.NS",
+      "LUPIN.NS",
+      "ZYDUSLIFE.NS",
       "BRITANNIA.NS",
-      "INDUSINDBK.NS",
-      "OIL.NS"
+      "MARICO.NS",
+      "RADICO.NS",
+      "SAILIFE.NS",
+      "ALKEM.NS",
+      "ANTHEM.NS",
+      "PVRINOX.NS",
+      "DALBHARAT.NS"
     ],
     "open_positions_observed": [
-      "ITC.NS"
+      "ITC.NS",
+      "COLPAL.NS"
     ],
     "triggers": [
       {
-        "symbol": "ICICIBANK.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
-        "company_name": "ICICI Bank Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1460.199951171875,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_440ab1952774",
-        "trigger_id": "trg_cca726a45abc",
-        "detected_at": "2026-07-20T18:41:41+05:30"
-      },
-      {
-        "symbol": "TECHM.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
-        "company_name": "Tech Mahindra Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1576.4000244140625,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_e49ee90ad3a3",
-        "trigger_id": "trg_1d81cdbf1ef5",
-        "detected_at": "2026-07-20T18:42:24+05:30"
-      },
-      {
-        "symbol": "AEGISLOG.NS",
+        "symbol": "LUPIN.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
-        "reason": "Gap +2.6% vs previous close.",
-        "company_name": "Aegis Logistics Ltd.",
+        "reason": "Gap +2.9% vs previous close.",
+        "company_name": "Lupin Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1383.9000244140625,
+        "price_at_detection": 2514.89990234375,
         "previous_price": null,
-        "change_pct": 2.5795,
+        "change_pct": 2.9347,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_a6ef2e7415da",
-        "trigger_id": "trg_60c6043c6b8a",
-        "detected_at": "2026-07-20T18:42:43+05:30"
-      },
-      {
-        "symbol": "HSCL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +3.8% vs previous close.",
-        "company_name": "Himadri Speciality Chemical Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 769.9000244140625,
-        "previous_price": null,
-        "change_pct": 3.8231,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_b3e886752242",
-        "trigger_id": "trg_b14814a4894c",
-        "detected_at": "2026-07-20T18:42:52+05:30"
-      },
-      {
-        "symbol": "OIL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +4.2% vs previous close.",
-        "company_name": "Oil India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 453.54998779296875,
-        "previous_price": null,
-        "change_pct": 4.1805,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_3051c32207b0",
-        "trigger_id": "trg_07b7fa847453",
-        "detected_at": "2026-07-20T18:43:26+05:30"
+        "created_escalation_id": "esc_1a95556aeede",
+        "trigger_id": "trg_56e52e5d3c83",
+        "detected_at": "2026-07-21T13:20:28+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
-        "symbol": "ICICIBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_cca726a45abc"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_440ab1952774",
-        "created_at": "2026-07-20T18:43:26+05:30",
-        "expires_at": "2026-07-20T18:43:26+05:30"
-      },
-      {
-        "symbol": "TECHM.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_1d81cdbf1ef5"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_e49ee90ad3a3",
-        "created_at": "2026-07-20T18:43:26+05:30",
-        "expires_at": "2026-07-20T18:43:26+05:30"
-      },
-      {
-        "symbol": "AEGISLOG.NS",
+        "symbol": "LUPIN.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.6% vs previous close.",
+        "reason": "Gap +2.9% vs previous close.",
         "trigger_ids": [
-          "trg_60c6043c6b8a"
+          "trg_56e52e5d3c83"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -214,61 +84,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_a6ef2e7415da",
-        "created_at": "2026-07-20T18:43:26+05:30",
-        "expires_at": "2026-07-20T18:43:26+05:30"
-      },
-      {
-        "symbol": "HSCL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.8% vs previous close.",
-        "trigger_ids": [
-          "trg_b14814a4894c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_b3e886752242",
-        "created_at": "2026-07-20T18:43:26+05:30",
-        "expires_at": "2026-07-20T18:43:26+05:30"
-      },
-      {
-        "symbol": "OIL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.2% vs previous close.",
-        "trigger_ids": [
-          "trg_07b7fa847453"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_3051c32207b0",
-        "created_at": "2026-07-20T18:43:26+05:30",
-        "expires_at": "2026-07-20T18:43:26+05:30"
+        "escalation_id": "esc_1a95556aeede",
+        "created_at": "2026-07-21T13:21:46+05:30",
+        "expires_at": "2026-07-21T13:21:46+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "ICICIBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      },
-      {
-        "symbol": "TECHM.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-20T18:41:05+05:30"
+    "as_of": "2026-07-21T13:19:45+05:30"
   }
 }

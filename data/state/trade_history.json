@@ -49,5 +49,22 @@
     "signal_id": "sig_008bd9c62d7a",
     "timestamp": "2026-07-17T17:40:49+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_c55cfef1d93e",
+    "symbol": "COLPAL.NS",
+    "side": "BUY",
+    "status": "FILLED",
+    "quantity": 4,
+    "filled_quantity": 4,
+    "price": 2093.6,
+    "amount": 8374.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Paper BUY filled at limit price.",
+    "reason": "Final 71.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
+    "signal_id": "sig_bdb083d1d500",
+    "timestamp": "2026-07-21T13:19:43+05:30",
+    "realized_pnl": 0.0
   }
 ]
