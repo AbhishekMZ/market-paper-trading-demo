@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-21T13:21:46+05:30",
+  "as_of": "2026-07-21T15:01:30+05:30",
   "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
@@ -8,17 +8,23 @@
   "triggers_this_run": 1,
   "escalations": 1,
   "actions_taken": [],
-  "blocked_actions": [],
+  "blocked_actions": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 72,
-    "triggers_detected": 270,
-    "escalations_created": 151,
+    "observation_runs": 73,
+    "triggers_detected": 271,
+    "escalations_created": 152,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 114,
+    "blocked_actions_from_triggers": 115,
     "emails_sent_total": 0,
-    "last_run": "2026-07-21T13:21:46+05:30",
+    "last_run": "2026-07-21T15:01:30+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +33,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "APOLLOHOSP.NS",
-      "SUNPHARMA.NS",
-      "DIVISLAB.NS",
-      "LUPIN.NS",
-      "ZYDUSLIFE.NS",
-      "BRITANNIA.NS",
       "MARICO.NS",
-      "RADICO.NS",
+      "DIVISLAB.NS",
+      "SUNPHARMA.NS",
+      "ICICIBANK.NS",
       "SAILIFE.NS",
       "ALKEM.NS",
-      "ANTHEM.NS",
-      "PVRINOX.NS",
-      "DALBHARAT.NS"
+      "APOLLOHOSP.NS",
+      "LUPIN.NS",
+      "ONESOURCE.NS",
+      "LAURUSLABS.NS",
+      "RADICO.NS",
+      "DALBHARAT.NS",
+      "LENSKART.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -47,51 +53,57 @@
     ],
     "triggers": [
       {
-        "symbol": "LUPIN.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.9% vs previous close.",
-        "company_name": "Lupin Ltd.",
+        "symbol": "ICICIBANK.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "ICICI Bank Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 2514.89990234375,
+        "price_at_detection": 1463.0,
         "previous_price": null,
-        "change_pct": 2.9347,
+        "change_pct": null,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
-        "recommended_next_step": "",
+        "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_1a95556aeede",
-        "trigger_id": "trg_56e52e5d3c83",
-        "detected_at": "2026-07-21T13:20:28+05:30"
+        "blocks_action": true,
+        "created_escalation_id": "esc_2262c2c25f1a",
+        "trigger_id": "trg_3e647bcf6347",
+        "detected_at": "2026-07-21T15:00:12+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
-        "symbol": "LUPIN.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.9% vs previous close.",
+        "symbol": "ICICIBANK.NS",
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_56e52e5d3c83"
+          "trg_3e647bcf6347"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_1a95556aeede",
-        "created_at": "2026-07-21T13:21:46+05:30",
-        "expires_at": "2026-07-21T13:21:46+05:30"
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_2262c2c25f1a",
+        "created_at": "2026-07-21T15:01:29+05:30",
+        "expires_at": "2026-07-21T15:01:29+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "ICICIBANK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-07-21T13:19:45+05:30"
+    "as_of": "2026-07-21T14:59:30+05:30"
   }
 }

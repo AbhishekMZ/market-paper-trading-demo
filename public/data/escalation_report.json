@@ -1,26 +1,32 @@
 {
-  "as_of": "2026-07-21T13:21:46+05:30",
+  "as_of": "2026-07-21T15:01:30+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "LUPIN.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
+      "symbol": "ICICIBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_56e52e5d3c83"
+        "trg_3e647bcf6347"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1a95556aeede",
-      "created_at": "2026-07-21T13:21:46+05:30",
-      "expires_at": "2026-07-21T13:21:46+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_2262c2c25f1a",
+      "created_at": "2026-07-21T15:01:29+05:30",
+      "expires_at": "2026-07-21T15:01:29+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

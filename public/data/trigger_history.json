@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "ICICIBANK.NS",
+    "trigger_type": "HIGH_RISK_NEWS",
+    "severity": "HIGH",
+    "reason": "High-risk adverse news.",
+    "company_name": "ICICI Bank Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1463.0,
+    "previous_price": null,
+    "change_pct": null,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "Block any buy; review if held.",
+    "requires_focused_analysis": false,
+    "blocks_action": true,
+    "created_escalation_id": "esc_2262c2c25f1a",
+    "trigger_id": "trg_3e647bcf6347",
+    "detected_at": "2026-07-21T15:00:12+05:30"
+  },
+  {
     "symbol": "LUPIN.NS",
     "trigger_type": "GAP_MOVE",
     "severity": "LOW",
