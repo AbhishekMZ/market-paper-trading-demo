@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-07-21T16:51:50+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 281.0,
+    "jump_pct": 47.86,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-07-21T13:49:53+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1074,22 +1083,6 @@
     "price_source": "history.close",
     "entry_price": 4226.7001953125,
     "mtm_price": 4226.7001953125,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: unknown -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-06-23T11:46:44+05:30",
-    "symbol": "SBIN.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 1033.9000244140625,
-    "mtm_price": 1033.9000244140625,
     "price_consistency_check": "PASSED",
     "anomaly_flags": [
       "quote_source_changed"

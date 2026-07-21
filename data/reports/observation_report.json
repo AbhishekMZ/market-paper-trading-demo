@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-07-21T15:01:30+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-21T18:06:26+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
@@ -18,34 +18,34 @@
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 73,
-    "triggers_detected": 271,
-    "escalations_created": 152,
+    "observation_runs": 74,
+    "triggers_detected": 272,
+    "escalations_created": 153,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 115,
+    "blocked_actions_from_triggers": 116,
     "emails_sent_total": 0,
-    "last_run": "2026-07-21T15:01:30+05:30",
+    "last_run": "2026-07-21T18:06:26+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "MARICO.NS",
-      "DIVISLAB.NS",
       "SUNPHARMA.NS",
+      "MARICO.NS",
       "ICICIBANK.NS",
-      "SAILIFE.NS",
       "ALKEM.NS",
+      "SAILIFE.NS",
       "APOLLOHOSP.NS",
-      "LUPIN.NS",
-      "ONESOURCE.NS",
+      "ANTHEM.NS",
       "LAURUSLABS.NS",
-      "RADICO.NS",
-      "DALBHARAT.NS",
-      "LENSKART.NS"
+      "LLOYDSME.NS",
+      "LUPIN.NS",
+      "BRITANNIA.NS",
+      "DIVISLAB.NS",
+      "DALBHARAT.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -60,7 +60,7 @@
         "company_name": "ICICI Bank Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1463.0,
+        "price_at_detection": 1463.0999755859375,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "NEUTRAL",
@@ -69,9 +69,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_2262c2c25f1a",
-        "trigger_id": "trg_3e647bcf6347",
-        "detected_at": "2026-07-21T15:00:12+05:30"
+        "created_escalation_id": "esc_670d73422250",
+        "trigger_id": "trg_b4fbd05c62e7",
+        "detected_at": "2026-07-21T18:05:00+05:30"
       }
     ],
     "throttled": [],
@@ -82,7 +82,7 @@
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_3e647bcf6347"
+          "trg_b4fbd05c62e7"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -90,9 +90,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_2262c2c25f1a",
-        "created_at": "2026-07-21T15:01:29+05:30",
-        "expires_at": "2026-07-21T15:01:29+05:30"
+        "escalation_id": "esc_670d73422250",
+        "created_at": "2026-07-21T18:06:26+05:30",
+        "expires_at": "2026-07-21T18:06:26+05:30"
       }
     ],
     "actions_taken": [],
@@ -104,6 +104,6 @@
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-07-21T14:59:30+05:30"
+    "as_of": "2026-07-21T18:04:25+05:30"
   }
 }
