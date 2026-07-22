@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-07-22T15:02:18+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-22T18:02:42+05:30",
+  "checkpoint": "close",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 1136,
+    "total_tracked_episodes": 1603,
     "matured_episodes": 1103,
     "paper_trades": 2,
     "distinct_days": 22,
@@ -13,7 +13,7 @@
     "decision_edge_pct": 0.71,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": 0.0,
-    "benchmark_outperformance_pct": 7.41,
+    "benchmark_outperformance_pct": 7.99,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
@@ -30,7 +30,7 @@
       },
       {
         "label": "Tracked episodes",
-        "current": 1136,
+        "current": 1603,
         "required": 20,
         "done": true
       },
@@ -45,9 +45,9 @@
       "Evidence maturity is 73.3% of the configured minimum sample.",
       "Decision edge is 0.71% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 7.41% vs NIFTY 50.",
-      "Blocks were protective on average (-0.38% forward return avoided).",
-      "Observer has run 75 time(s) with noise score 0.27."
+      "Paper portfolio outperformance is 7.99% vs NIFTY 50.",
+      "Blocks were protective on average (-0.37% forward return avoided).",
+      "Observer has run 76 time(s) with noise score 0.27."
     ],
     "watch_items": [
       "Only 2/10 paper trades so far.",
@@ -59,10 +59,10 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-07-22T15:02:18+05:30",
-    "open_episodes": 33,
+    "as_of": "2026-07-22T18:02:42+05:30",
+    "open_episodes": 500,
     "matured_episodes": 1103,
-    "total_episodes": 1136,
+    "total_episodes": 1603,
     "by_score_band": {
       "buy_grade": {
         "count": 0,
@@ -71,13 +71,13 @@
         "hit_rate_pct": 0.0
       },
       "watch_grade": {
-        "count": 170,
+        "count": 194,
         "rated": 170,
         "avg_return_pct": -0.73,
         "hit_rate_pct": 32.4
       },
       "low_grade": {
-        "count": 966,
+        "count": 1409,
         "rated": 966,
         "avg_return_pct": -0.33,
         "hit_rate_pct": 41.2
@@ -90,7 +90,7 @@
       "hit_rate_pct": 0.0
     },
     "not_acted": {
-      "count": 1136,
+      "count": 1603,
       "rated": 1136,
       "avg_return_pct": -0.39,
       "hit_rate_pct": 39.9
@@ -104,20 +104,20 @@
       "hit_rate_pct": 0.0
     },
     "shadow_candidates": {
-      "count": 198,
+      "count": 228,
       "rated": 198,
       "avg_return_pct": -0.71,
       "hit_rate_pct": 34.3
     },
     "blocked": {
-      "count": 43,
+      "count": 50,
       "rated": 43,
-      "avg_return_pct": -0.38,
+      "avg_return_pct": -0.37,
       "hit_rate_pct": 51.2
     },
     "acted_vs_shadow_edge_pct": 0.71,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
-    "block_note": "Blocks were protective on average (-0.38% forward return avoided).",
+    "block_note": "Blocks were protective on average (-0.37% forward return avoided).",
     "shadow_examples": [
       {
         "symbol": "ECLERX.NS",
@@ -358,25 +358,17 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-07-22T15:02:18+05:30",
+    "as_of": "2026-07-22T18:02:42+05:30",
     "ready": true,
-    "points": 75,
+    "points": 76,
     "from_date": "2026-06-23",
     "to_date": "2026-07-22",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.57,
-    "portfolio_return_pct": 0.84,
-    "outperformance_pct": 7.41,
+    "benchmark_return_pct": -6.53,
+    "portfolio_return_pct": 1.46,
+    "outperformance_pct": 7.99,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-06-25",
-        "ts": "2026-06-25T13:24:04+05:30",
-        "checkpoint": "mid",
-        "nifty_close": 24188.19921875,
-        "portfolio_total": 10091.5,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-06-25",
         "ts": "2026-06-25T14:24:27+05:30",
@@ -848,6 +840,14 @@
         "nifty_close": 23987.0,
         "portfolio_total": 10084.3,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-07-22",
+        "ts": "2026-07-22T18:02:42+05:30",
+        "checkpoint": "close",
+        "nifty_close": 23996.25,
+        "portfolio_total": 10145.5,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -952,7 +952,7 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 75,
+    "observation_runs": 76,
     "triggers_detected": 278,
     "escalations_created": 158,
     "paper_actions_from_triggers": 0,
@@ -960,8 +960,8 @@
     "useful_triggers": 116,
     "emails_sent_total": 0,
     "alert_noise_score": 0.27,
-    "avg_triggers_per_run": 3.71,
-    "last_run": "2026-07-22T13:22:51+05:30",
+    "avg_triggers_per_run": 3.66,
+    "last_run": "2026-07-22T15:04:28+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -979,7 +979,7 @@
     },
     "progress": {
       "paper_trades": 2,
-      "tracked_episodes": 1136,
+      "tracked_episodes": 1603,
       "distinct_days": 22
     },
     "reasons": [

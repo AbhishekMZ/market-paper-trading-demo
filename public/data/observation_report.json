@@ -1,56 +1,211 @@
 {
-  "as_of": "2026-07-22T15:04:28+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-22T18:04:51+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 0,
-  "escalations": 0,
+  "triggers_this_run": 3,
+  "escalations": 3,
   "actions_taken": [],
-  "blocked_actions": [],
+  "blocked_actions": [
+    {
+      "symbol": "INDUSINDBK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "FEDERALBNK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 76,
-    "triggers_detected": 278,
-    "escalations_created": 158,
+    "observation_runs": 77,
+    "triggers_detected": 281,
+    "escalations_created": 161,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 116,
+    "blocked_actions_from_triggers": 118,
     "emails_sent_total": 0,
-    "last_run": "2026-07-22T15:04:28+05:30",
+    "last_run": "2026-07-22T18:04:51+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "PIRAMALFIN.NS",
-      "GLAXO.NS",
+      "INDUSINDBK.NS",
+      "SHRIRAMFIN.NS",
+      "UBL.NS",
       "LENSKART.NS",
       "NYKAA.NS",
-      "INDUSINDBK.NS",
-      "BAYERCROP.NS",
-      "DALBHARAT.NS",
-      "BHARTIHEXA.NS",
-      "LAURUSLABS.NS",
+      "TITAN.NS",
+      "BALRAMCHIN.NS",
+      "FEDERALBNK.NS",
+      "ABBOTINDIA.NS",
+      "JSL.NS",
+      "GLAXO.NS",
       "APOLLOHOSP.NS",
-      "MEDANTA.NS",
-      "BRITANNIA.NS",
-      "BAJFINANCE.NS"
+      "ECLERX.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
       "COLPAL.NS"
     ],
-    "triggers": [],
+    "triggers": [
+      {
+        "symbol": "INDUSINDBK.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "IndusInd Bank Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1069.300048828125,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "RISK_OFF",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block any buy; review if held.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_0504a3c53b78",
+        "trigger_id": "trg_3654de3d7781",
+        "detected_at": "2026-07-22T18:03:09+05:30"
+      },
+      {
+        "symbol": "FEDERALBNK.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "Federal Bank Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 353.25,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "RISK_OFF",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block any buy; review if held.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_0c9eee677330",
+        "trigger_id": "trg_fb0867907c17",
+        "detected_at": "2026-07-22T18:04:08+05:30"
+      },
+      {
+        "symbol": "ABBOTINDIA.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +3.0% since last observation.",
+        "company_name": "Abbott India Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 28900.0,
+        "previous_price": null,
+        "change_pct": 3.01,
+        "market_regime": "RISK_OFF",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_0ff852c55a49",
+        "trigger_id": "trg_0676255bdb5d",
+        "detected_at": "2026-07-22T18:04:17+05:30"
+      }
+    ],
     "throttled": [],
-    "escalations": [],
+    "escalations": [
+      {
+        "symbol": "INDUSINDBK.NS",
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_3654de3d7781"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_0504a3c53b78",
+        "created_at": "2026-07-22T18:04:51+05:30",
+        "expires_at": "2026-07-22T18:04:51+05:30"
+      },
+      {
+        "symbol": "FEDERALBNK.NS",
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_fb0867907c17"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_0c9eee677330",
+        "created_at": "2026-07-22T18:04:51+05:30",
+        "expires_at": "2026-07-22T18:04:51+05:30"
+      },
+      {
+        "symbol": "ABBOTINDIA.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +3.0% since last observation.",
+        "trigger_ids": [
+          "trg_0676255bdb5d"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "ABBOTINDIA.NS",
+          "score": 58.2,
+          "label": "NO_ACTION",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "RISK_OFF",
+          "reason": "Final 58.2/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=93, breakout=70, news_event_risk=65. Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative.",
+          "strengthened": false
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+        "escalation_id": "esc_0ff852c55a49",
+        "created_at": "2026-07-22T18:04:51+05:30",
+        "expires_at": "2026-07-22T18:04:51+05:30"
+      }
+    ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "INDUSINDBK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      },
+      {
+        "symbol": "FEDERALBNK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-07-22T15:02:19+05:30"
+    "as_of": "2026-07-22T18:02:43+05:30"
   }
 }

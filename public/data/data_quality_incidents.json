@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-07-22T16:52:55+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 280.79998779296875,
+    "jump_pct": 47.9,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-07-22T13:52:39+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1053,22 +1062,6 @@
     "price_source": "history.close",
     "entry_price": 1363.0,
     "mtm_price": 1363.0,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: unknown -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-06-23T11:46:45+05:30",
-    "symbol": "BHARTIARTL.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 1919.800048828125,
-    "mtm_price": 1919.800048828125,
     "price_consistency_check": "PASSED",
     "anomaly_flags": [
       "quote_source_changed"

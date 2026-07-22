@@ -1,59 +1,5 @@
 [
   {
-    "symbol": "SBIN.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_68dd38e91298"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_6c0f7d7663db",
-    "created_at": "2026-06-30T17:21:54+05:30",
-    "expires_at": "2026-06-30T17:21:54+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_0e8ce1768b93"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_20d20ae0e6bc",
-    "created_at": "2026-07-01T13:51:31+05:30",
-    "expires_at": "2026-07-01T13:51:31+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_8e6f0d7aa3c9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_a99602f557eb",
-    "created_at": "2026-07-01T13:51:31+05:30",
-    "expires_at": "2026-07-01T13:51:31+05:30"
-  },
-  {
     "symbol": "HDFCBANK.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -1841,5 +1787,73 @@
     "escalation_id": "esc_e21b3cde9049",
     "created_at": "2026-07-22T13:22:51+05:30",
     "expires_at": "2026-07-22T13:22:51+05:30"
+  },
+  {
+    "symbol": "INDUSINDBK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_3654de3d7781"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_0504a3c53b78",
+    "created_at": "2026-07-22T18:04:51+05:30",
+    "expires_at": "2026-07-22T18:04:51+05:30"
+  },
+  {
+    "symbol": "FEDERALBNK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_fb0867907c17"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_0c9eee677330",
+    "created_at": "2026-07-22T18:04:51+05:30",
+    "expires_at": "2026-07-22T18:04:51+05:30"
+  },
+  {
+    "symbol": "ABBOTINDIA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.0% since last observation.",
+    "trigger_ids": [
+      "trg_0676255bdb5d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ABBOTINDIA.NS",
+      "score": 58.2,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_OFF",
+      "reason": "Final 58.2/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=93, breakout=70, news_event_risk=65. Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_0ff852c55a49",
+    "created_at": "2026-07-22T18:04:51+05:30",
+    "expires_at": "2026-07-22T18:04:51+05:30"
   }
 ]
