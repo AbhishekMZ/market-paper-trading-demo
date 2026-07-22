@@ -1,19 +1,19 @@
 # Strategy Evaluation
 
-_As of 2026-07-22T13:20:37+05:30_
+_As of 2026-07-22T15:02:18+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **2**
-- Portfolio max drawdown: **-0.47%**
+- Portfolio max drawdown: **-0.13%**
 
 > Indicative only. One month of paper data is not enough to conclude a strategy works. No weights were changed automatically during the month.
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 51.7 | Insufficient sample to judge; continue paper testing. |
-| mean_reversion | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1042 | 45.9 | Insufficient sample to judge; continue paper testing. |
-| news_event_risk | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 21 | 65.1 | Insufficient sample to judge; continue paper testing. |
-| portfolio_fit | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 64 | 77.6 | Insufficient sample to judge; continue paper testing. |
-| relative_strength | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 598 | 56.2 | Insufficient sample to judge; continue paper testing. |
-| trend_following | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1004 | 42.0 | Insufficient sample to judge; continue paper testing. |
-| volatility_risk | 2000 | 1 | 0 | 0 | 0.0 | 0.0 | 0.0 | 997 | 29.3 | Insufficient sample to judge; continue paper testing. |
+| breakout | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 51.2 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1076 | 45.7 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 22 | 65.1 | No paper trades yet attributed; acting mainly as a filter. |
+| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 66 | 77.5 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 694 | 52.9 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1033 | 41.1 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1066 | 29.2 | No paper trades yet attributed; acting mainly as a filter. |
