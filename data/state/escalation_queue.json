@@ -5,42 +5,6 @@
     "action_type": "BLOCKED_BY_NEWS",
     "reason": "High-risk adverse news.",
     "trigger_ids": [
-      "trg_6d1b44d4be9b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_30b239cf9f6a",
-    "created_at": "2026-07-01T17:48:26+05:30",
-    "expires_at": "2026-07-01T17:48:26+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_1f0405a47616"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_3d6aa430e5f9",
-    "created_at": "2026-07-01T17:48:26+05:30",
-    "expires_at": "2026-07-01T17:48:26+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
       "trg_c0f21821422c"
     ],
     "action_status": "OPEN",
@@ -1855,5 +1819,41 @@
     "escalation_id": "esc_0ff852c55a49",
     "created_at": "2026-07-22T18:04:51+05:30",
     "expires_at": "2026-07-22T18:04:51+05:30"
+  },
+  {
+    "symbol": "MEDANTA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_e271299d98e6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b2de9f9aa7aa",
+    "created_at": "2026-07-23T13:21:26+05:30",
+    "expires_at": "2026-07-23T13:21:26+05:30"
+  },
+  {
+    "symbol": "CRISIL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_8070bf228894"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_af22f11c972e",
+    "created_at": "2026-07-23T13:21:26+05:30",
+    "expires_at": "2026-07-23T13:21:26+05:30"
   }
 ]

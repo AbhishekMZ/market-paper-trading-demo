@@ -1,56 +1,45 @@
 {
-  "as_of": "2026-07-22T18:04:51+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-23T13:21:26+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 3,
-  "escalations": 3,
+  "triggers_this_run": 2,
+  "escalations": 2,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "INDUSINDBK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "FEDERALBNK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
+  "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 77,
-    "triggers_detected": 281,
-    "escalations_created": 161,
+    "observation_runs": 78,
+    "triggers_detected": 283,
+    "escalations_created": 163,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 118,
     "emails_sent_total": 0,
-    "last_run": "2026-07-22T18:04:51+05:30",
+    "last_run": "2026-07-23T13:21:26+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "INDUSINDBK.NS",
-      "SHRIRAMFIN.NS",
-      "UBL.NS",
       "LENSKART.NS",
-      "NYKAA.NS",
-      "TITAN.NS",
-      "BALRAMCHIN.NS",
-      "FEDERALBNK.NS",
-      "ABBOTINDIA.NS",
-      "JSL.NS",
+      "MEDANTA.NS",
       "GLAXO.NS",
-      "APOLLOHOSP.NS",
-      "ECLERX.NS"
+      "EMCURE.NS",
+      "DIVISLAB.NS",
+      "TITAN.NS",
+      "INDIACEM.NS",
+      "BALRAMCHIN.NS",
+      "ABBOTINDIA.NS",
+      "CRISIL.NS",
+      "JSL.NS",
+      "POONAWALLA.NS",
+      "OIL.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -58,154 +47,90 @@
     ],
     "triggers": [
       {
-        "symbol": "INDUSINDBK.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
-        "company_name": "IndusInd Bank Ltd.",
+        "symbol": "MEDANTA.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.0% vs previous close.",
+        "company_name": "Global Health Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1069.300048828125,
+        "price_at_detection": 1383.300048828125,
         "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_0504a3c53b78",
-        "trigger_id": "trg_3654de3d7781",
-        "detected_at": "2026-07-22T18:03:09+05:30"
-      },
-      {
-        "symbol": "FEDERALBNK.NS",
-        "trigger_type": "HIGH_RISK_NEWS",
-        "severity": "HIGH",
-        "reason": "High-risk adverse news.",
-        "company_name": "Federal Bank Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 353.25,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block any buy; review if held.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_0c9eee677330",
-        "trigger_id": "trg_fb0867907c17",
-        "detected_at": "2026-07-22T18:04:08+05:30"
-      },
-      {
-        "symbol": "ABBOTINDIA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.0% since last observation.",
-        "company_name": "Abbott India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 28900.0,
-        "previous_price": null,
-        "change_pct": 3.01,
-        "market_regime": "RISK_OFF",
+        "change_pct": 3.0314,
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
-        "requires_focused_analysis": true,
+        "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_0ff852c55a49",
-        "trigger_id": "trg_0676255bdb5d",
-        "detected_at": "2026-07-22T18:04:17+05:30"
+        "created_escalation_id": "esc_b2de9f9aa7aa",
+        "trigger_id": "trg_e271299d98e6",
+        "detected_at": "2026-07-23T13:19:54+05:30"
+      },
+      {
+        "symbol": "CRISIL.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.1% vs previous close.",
+        "company_name": "CRISIL Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 4437.7998046875,
+        "previous_price": null,
+        "change_pct": 3.1471,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_af22f11c972e",
+        "trigger_id": "trg_8070bf228894",
+        "detected_at": "2026-07-23T13:21:00+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
-        "symbol": "INDUSINDBK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_3654de3d7781"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_0504a3c53b78",
-        "created_at": "2026-07-22T18:04:51+05:30",
-        "expires_at": "2026-07-22T18:04:51+05:30"
-      },
-      {
-        "symbol": "FEDERALBNK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_fb0867907c17"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_0c9eee677330",
-        "created_at": "2026-07-22T18:04:51+05:30",
-        "expires_at": "2026-07-22T18:04:51+05:30"
-      },
-      {
-        "symbol": "ABBOTINDIA.NS",
-        "severity": "MEDIUM",
+        "symbol": "MEDANTA.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.0% since last observation.",
+        "reason": "Gap +3.0% vs previous close.",
         "trigger_ids": [
-          "trg_0676255bdb5d"
+          "trg_e271299d98e6"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "ABBOTINDIA.NS",
-          "score": 58.2,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "RISK_OFF",
-          "reason": "Final 58.2/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=93, breakout=70, news_event_risk=65. Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative.",
-          "strengthened": false
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_0ff852c55a49",
-        "created_at": "2026-07-22T18:04:51+05:30",
-        "expires_at": "2026-07-22T18:04:51+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b2de9f9aa7aa",
+        "created_at": "2026-07-23T13:21:26+05:30",
+        "expires_at": "2026-07-23T13:21:26+05:30"
+      },
+      {
+        "symbol": "CRISIL.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.1% vs previous close.",
+        "trigger_ids": [
+          "trg_8070bf228894"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_af22f11c972e",
+        "created_at": "2026-07-23T13:21:26+05:30",
+        "expires_at": "2026-07-23T13:21:26+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "INDUSINDBK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      },
-      {
-        "symbol": "FEDERALBNK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-22T18:02:43+05:30"
+    "as_of": "2026-07-23T13:19:20+05:30"
   }
 }
