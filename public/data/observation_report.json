@@ -1,51 +1,45 @@
 {
-  "as_of": "2026-07-23T15:07:35+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-23T18:04:32+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 4,
-  "escalations": 2,
+  "triggers_this_run": 2,
+  "escalations": 0,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "INDUSINDBK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
-  "throttled": 0,
+  "blocked_actions": [],
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 79,
-    "triggers_detected": 287,
+    "observation_runs": 80,
+    "triggers_detected": 289,
     "escalations_created": 165,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 119,
     "emails_sent_total": 0,
-    "last_run": "2026-07-23T15:07:35+05:30",
+    "last_run": "2026-07-23T18:04:32+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "MEDANTA.NS",
-      "GLAXO.NS",
       "LENSKART.NS",
-      "DALBHARAT.NS",
-      "TITAN.NS",
-      "PFIZER.NS",
+      "OIL.NS",
       "DIVISLAB.NS",
+      "MEDANTA.NS",
+      "TITAN.NS",
+      "APOLLOHOSP.NS",
+      "INDIACEM.NS",
+      "PFIZER.NS",
+      "UNITDSPR.NS",
       "INDUSINDBK.NS",
       "ONGC.NS",
-      "CRISIL.NS",
-      "OIL.NS",
-      "BALRAMCHIN.NS",
-      "TVSMOTOR.NS"
+      "TVSMOTOR.NS",
+      "JBCHEPHARM.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -60,133 +54,52 @@
         "company_name": "IndusInd Bank Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1004.5,
+        "price_at_detection": 1005.5,
         "previous_price": null,
         "change_pct": null,
-        "market_regime": "RISK_OFF",
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_0bcae81078a5",
-        "trigger_id": "trg_57706c4e915c",
-        "detected_at": "2026-07-23T15:06:52+05:30"
-      },
-      {
-        "symbol": "INDUSINDBK.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved -6.1% since last observation.",
-        "company_name": "IndusInd Bank Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1004.5,
-        "previous_price": null,
-        "change_pct": -6.06,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_0bcae81078a5",
-        "trigger_id": "trg_6b66e49a58f1",
-        "detected_at": "2026-07-23T15:06:52+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_b550a20fb0a4",
+        "detected_at": "2026-07-23T18:04:07+05:30"
       },
       {
         "symbol": "INDUSINDBK.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
-        "reason": "Gap -6.1% vs previous close.",
+        "reason": "Gap -6.0% vs previous close.",
         "company_name": "IndusInd Bank Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1004.5,
+        "price_at_detection": 1005.5,
         "previous_price": null,
-        "change_pct": -6.06,
-        "market_regime": "RISK_OFF",
+        "change_pct": -5.9665,
+        "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_0bcae81078a5",
-        "trigger_id": "trg_aea92caabb20",
-        "detected_at": "2026-07-23T15:06:52+05:30"
-      },
-      {
-        "symbol": "_MARKET_",
-        "trigger_type": "MARKET_REGIME_SHIFT",
-        "severity": "HIGH",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
-        "company_name": null,
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": null,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block new buys; review open positions.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_6ab695fba911",
-        "trigger_id": "trg_053b918aa992",
-        "detected_at": "2026-07-23T15:07:34+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_8a32bb912de5",
+        "detected_at": "2026-07-23T18:04:07+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "INDUSINDBK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_57706c4e915c",
-          "trg_6b66e49a58f1",
-          "trg_aea92caabb20"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_0bcae81078a5",
-        "created_at": "2026-07-23T15:07:34+05:30",
-        "expires_at": "2026-07-23T15:07:34+05:30"
-      },
-      {
-        "symbol": "_MARKET_",
-        "severity": "HIGH",
-        "action_type": "MANUAL_REVIEW",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
-        "trigger_ids": [
-          "trg_053b918aa992"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-        "escalation_id": "esc_6ab695fba911",
-        "created_at": "2026-07-23T15:07:34+05:30",
-        "expires_at": "2026-07-23T15:07:34+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       }
     ],
+    "escalations": [],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "INDUSINDBK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-23T15:05:35+05:30"
+    "as_of": "2026-07-23T18:02:35+05:30"
   }
 }
