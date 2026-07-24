@@ -1,22 +1,21 @@
 {
-  "as_of": "2026-07-24T13:22:22+05:30",
+  "as_of": "2026-07-24T15:00:54+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "UNITDSPR.NS",
-      "severity": "MEDIUM",
+      "symbol": "HCLTECH.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.2% since last observation.",
+      "reason": "Moved +8.7% since last observation.",
       "trigger_ids": [
-        "trg_17579e04a7dc",
-        "trg_6128bcb99624"
+        "trg_8a7a4d95d077"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "UNITDSPR.NS",
-        "score": 51.8,
-        "label": "NO_ACTION",
+        "symbol": "HCLTECH.NS",
+        "score": 65.1,
+        "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
         "action_allowed": false,
@@ -25,33 +24,15 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 51.8/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "reason": "Final 65.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-      "escalation_id": "esc_edeca2453bc3",
-      "created_at": "2026-07-24T13:22:22+05:30",
-      "expires_at": "2026-07-24T13:22:22+05:30"
-    },
-    {
-      "symbol": "MAPMYINDIA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.4% vs previous close.",
-      "trigger_ids": [
-        "trg_e818c0849799"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3e7b7d3f9209",
-      "created_at": "2026-07-24T13:22:22+05:30",
-      "expires_at": "2026-07-24T13:22:22+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_9b1c71a4e1aa",
+      "created_at": "2026-07-24T15:00:54+05:30",
+      "expires_at": "2026-07-24T15:00:54+05:30"
     }
   ],
   "actions_taken": [],

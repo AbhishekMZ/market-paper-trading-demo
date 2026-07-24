@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "HCLTECH.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "HIGH",
+    "reason": "Moved +8.7% since last observation.",
+    "company_name": "HCL Technologies Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1269.699951171875,
+    "previous_price": null,
+    "change_pct": 8.71,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": true,
+    "blocks_action": false,
+    "created_escalation_id": "esc_9b1c71a4e1aa",
+    "trigger_id": "trg_8a7a4d95d077",
+    "detected_at": "2026-07-24T15:00:54+05:30"
+  },
+  {
     "symbol": "MAPMYINDIA.NS",
     "trigger_type": "GAP_MOVE",
     "severity": "LOW",
