@@ -1,11 +1,11 @@
 {
   "symbols": {
     "ITC.NS": {
-      "last_price": 283.6000061035156,
-      "change_pct": 0.8176,
+      "last_price": 283.45001220703125,
+      "change_pct": 0.7643,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T14:58:49+05:30"
+      "updated_at": "2026-07-24T17:56:07+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -64,18 +64,18 @@
       "updated_at": "2026-07-16T16:46:00+05:30"
     },
     "TCS.NS": {
-      "last_price": 2255.10009765625,
-      "change_pct": 0.5439,
+      "last_price": 2254.300048828125,
+      "change_pct": 0.5083,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T14:59:34+05:30"
+      "updated_at": "2026-07-24T17:56:45+05:30"
     },
     "SUNPHARMA.NS": {
-      "last_price": 1961.9000244140625,
-      "change_pct": 0.2811,
+      "last_price": 1941.0999755859375,
+      "change_pct": -0.6602,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-21T18:04:43+05:30"
+      "updated_at": "2026-07-24T17:56:34+05:30"
     },
     "TECHM.NS": {
       "last_price": 1576.4000244140625,
@@ -99,11 +99,11 @@
       "updated_at": "2026-07-16T12:03:50+05:30"
     },
     "TITAN.NS": {
-      "last_price": 4683.7998046875,
-      "change_pct": -0.2874,
+      "last_price": 4677.0,
+      "change_pct": -0.4322,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T15:00:29+05:30"
+      "updated_at": "2026-07-24T17:58:12+05:30"
     },
     "ONGC.NS": {
       "last_price": 249.75,
@@ -197,11 +197,11 @@
       "updated_at": "2026-07-20T18:41:50+05:30"
     },
     "BAJAJFINSV.NS": {
-      "last_price": 1856.0999755859375,
-      "change_pct": 0.9518,
+      "last_price": 1876.699951171875,
+      "change_pct": -0.6722,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-17T14:47:57+05:30"
+      "updated_at": "2026-07-24T17:57:22+05:30"
     },
     "WIPRO.NS": {
       "last_price": 175.8699951171875,
@@ -253,11 +253,11 @@
       "updated_at": "2026-07-20T18:42:33+05:30"
     },
     "PPLPHARMA.NS": {
-      "last_price": 180.9600067138672,
-      "change_pct": 0.0719,
+      "last_price": 181.27000427246094,
+      "change_pct": 0.2433,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T15:00:10+05:30"
+      "updated_at": "2026-07-24T17:57:44+05:30"
     },
     "INDUSINDBK.NS": {
       "last_price": 1005.5,
@@ -274,11 +274,11 @@
       "updated_at": "2026-07-23T13:20:52+05:30"
     },
     "FEDERALBNK.NS": {
-      "last_price": 353.8999938964844,
-      "change_pct": -0.1411,
+      "last_price": 354.29998779296875,
+      "change_pct": -0.0282,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T15:00:46+05:30"
+      "updated_at": "2026-07-24T17:57:54+05:30"
     },
     "BHARATFORG.NS": {
       "last_price": 2209.0,
@@ -358,11 +358,11 @@
       "updated_at": "2026-07-24T14:59:43+05:30"
     },
     "COLPAL.NS": {
-      "last_price": 2088.800048828125,
-      "change_pct": 0.1438,
+      "last_price": 2086.10009765625,
+      "change_pct": 0.0144,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T14:58:57+05:30"
+      "updated_at": "2026-07-24T17:56:16+05:30"
     },
     "APOLLOHOSP.NS": {
       "last_price": 8862.0,
@@ -449,11 +449,11 @@
       "updated_at": "2026-07-24T15:00:38+05:30"
     },
     "LLOYDSME.NS": {
-      "last_price": 1936.4000244140625,
-      "change_pct": 1.4938,
+      "last_price": 1940.5,
+      "change_pct": 0.5128,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-21T18:05:51+05:30"
+      "updated_at": "2026-07-24T17:57:03+05:30"
     },
     "PIRAMALFIN.NS": {
       "last_price": 2157.199951171875,
@@ -470,11 +470,11 @@
       "updated_at": "2026-07-22T15:03:46+05:30"
     },
     "MEDANTA.NS": {
-      "last_price": 1378.199951171875,
-      "change_pct": 1.8324,
+      "last_price": 1371.0,
+      "change_pct": -0.5224,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-23T18:03:25+05:30"
+      "updated_at": "2026-07-24T17:56:24+05:30"
     },
     "HAVELLS.NS": {
       "last_price": 1206.800048828125,
@@ -554,25 +554,25 @@
       "updated_at": "2026-07-23T18:04:24+05:30"
     },
     "UNITDSPR.NS": {
-      "last_price": 1477.5999755859375,
-      "change_pct": 5.2272,
+      "last_price": 1467.199951171875,
+      "change_pct": 3.4697,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T13:21:04+05:30"
+      "updated_at": "2026-07-24T17:56:55+05:30"
     },
     "JBCHEPHARM.NS": {
       "last_price": 2408.89990234375,
       "change_pct": 0.0,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T15:00:02+05:30"
+      "updated_at": "2026-07-24T17:58:21+05:30"
     },
     "NUVAMA.NS": {
-      "last_price": 1986.0,
-      "change_pct": 1.9926,
+      "last_price": 1980.0999755859375,
+      "change_pct": 1.6896,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T14:59:52+05:30"
+      "updated_at": "2026-07-24T17:58:04+05:30"
     },
     "ABB.NS": {
       "last_price": 7476.5,
@@ -582,11 +582,11 @@
       "updated_at": "2026-07-24T13:21:21+05:30"
     },
     "HEG.NS": {
-      "last_price": 635.0,
-      "change_pct": 1.7873,
+      "last_price": 643.1500244140625,
+      "change_pct": 3.0937,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T13:21:30+05:30"
+      "updated_at": "2026-07-24T17:57:33+05:30"
     },
     "BOSCHLTD.NS": {
       "last_price": 41790.0,
@@ -617,11 +617,11 @@
       "updated_at": "2026-07-24T13:22:22+05:30"
     },
     "SBILIFE.NS": {
-      "last_price": 1858.699951171875,
-      "change_pct": 0.2806,
+      "last_price": 1858.5999755859375,
+      "change_pct": 0.2752,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-07-24T14:59:26+05:30"
+      "updated_at": "2026-07-24T17:57:12+05:30"
     },
     "SHYAMMETL.NS": {
       "last_price": 1027.6500244140625,
@@ -631,6 +631,6 @@
       "updated_at": "2026-07-24T15:00:19+05:30"
     }
   },
-  "last_observation_at": "2026-07-24T15:00:54+05:30",
+  "last_observation_at": "2026-07-24T17:58:21+05:30",
   "last_regime": "NEUTRAL"
 }
