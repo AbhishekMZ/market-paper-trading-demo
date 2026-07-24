@@ -1,5 +1,56 @@
 [
   {
+    "symbol": "MAPMYINDIA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.4% vs previous close.",
+    "trigger_ids": [
+      "trg_e818c0849799"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_3e7b7d3f9209",
+    "created_at": "2026-07-24T13:22:22+05:30",
+    "expires_at": "2026-07-24T13:22:22+05:30"
+  },
+  {
+    "symbol": "UNITDSPR.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.2% since last observation.",
+    "trigger_ids": [
+      "trg_17579e04a7dc",
+      "trg_6128bcb99624"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "UNITDSPR.NS",
+      "score": 51.8,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 51.8/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_edeca2453bc3",
+    "created_at": "2026-07-24T13:22:22+05:30",
+    "expires_at": "2026-07-24T13:22:22+05:30"
+  },
+  {
     "symbol": "_MARKET_",
     "severity": "HIGH",
     "action_type": "MANUAL_REVIEW",
@@ -1819,43 +1870,5 @@
     "escalation_id": "esc_119847e957e4",
     "created_at": "2026-07-02T14:19:39+05:30",
     "expires_at": "2026-07-02T14:19:39+05:30"
-  },
-  {
-    "symbol": "TCS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_965325b3c46d",
-      "trg_c40e6f2cb2ae"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a641cd9cb104",
-    "created_at": "2026-07-02T13:10:53+05:30",
-    "expires_at": "2026-07-02T13:10:53+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.4% since last observation.",
-    "trigger_ids": [
-      "trg_9946c7428409",
-      "trg_2875982e4fe3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b953a382dc70",
-    "created_at": "2026-07-02T13:10:53+05:30",
-    "expires_at": "2026-07-02T13:10:53+05:30"
   }
 ]

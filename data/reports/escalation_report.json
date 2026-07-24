@@ -1,7 +1,59 @@
 {
-  "as_of": "2026-07-23T18:04:32+05:30",
-  "checkpoint": "close",
-  "open_escalations": [],
+  "as_of": "2026-07-24T13:22:22+05:30",
+  "checkpoint": "mid",
+  "open_escalations": [
+    {
+      "symbol": "UNITDSPR.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.2% since last observation.",
+      "trigger_ids": [
+        "trg_17579e04a7dc",
+        "trg_6128bcb99624"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "UNITDSPR.NS",
+        "score": 51.8,
+        "label": "NO_ACTION",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 51.8/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_edeca2453bc3",
+      "created_at": "2026-07-24T13:22:22+05:30",
+      "expires_at": "2026-07-24T13:22:22+05:30"
+    },
+    {
+      "symbol": "MAPMYINDIA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +5.4% vs previous close.",
+      "trigger_ids": [
+        "trg_e818c0849799"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_3e7b7d3f9209",
+      "created_at": "2026-07-24T13:22:22+05:30",
+      "expires_at": "2026-07-24T13:22:22+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }

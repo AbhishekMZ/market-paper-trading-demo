@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-07-23T18:02:34+05:30",
+  "as_of": "2026-07-24T13:20:11+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-07-23T18:02:34+05:30",
+  "last_successful_run": "2026-07-24T13:20:11+05:30",
   "symbols_assessed": 500,
   "usable_symbols": 500,
   "rejected_symbols": 0,
@@ -12,6 +12,6 @@
   "rejected_symbol_list": [],
   "overall": "HEALTHY",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
+  "checkpoint": "mid",
   "mtm_incidents": 1
 }
