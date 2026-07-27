@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-07-27T16:26:45+05:30",
+  "as_of": "2026-07-27T19:20:33+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 4,
-  "escalations": 3,
+  "triggers_this_run": 3,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 85,
-    "triggers_detected": 302,
-    "escalations_created": 175,
+    "observation_runs": 86,
+    "triggers_detected": 305,
+    "escalations_created": 176,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 119,
     "emails_sent_total": 0,
-    "last_run": "2026-07-27T16:26:45+05:30",
+    "last_run": "2026-07-27T19:20:33+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +27,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
+      "UNITDSPR.NS",
+      "LALPATHLAB.NS",
       "HAVELLS.NS",
-      "SBILIFE.NS",
       "HCLTECH.NS",
       "LTM.NS",
+      "PERSISTENT.NS",
       "HEG.NS",
-      "TITAN.NS",
-      "SIEMENS.NS",
-      "HAL.NS",
+      "GLAXO.NS",
+      "SBILIFE.NS",
+      "RADICO.NS",
       "LLOYDSME.NS",
-      "LALPATHLAB.NS",
-      "SAREGAMA.NS",
-      "BAJAJFINSV.NS",
-      "STARHEALTH.NS"
+      "HEXT.NS",
+      "SAREGAMA.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -47,25 +47,25 @@
     ],
     "triggers": [
       {
-        "symbol": "LLOYDSME.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.8% since last observation.",
-        "company_name": "Lloyds Metals And Energy Ltd.",
+        "symbol": "LALPATHLAB.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.9% vs previous close.",
+        "company_name": "Dr. Lal Path Labs Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 2014.9000244140625,
+        "price_at_detection": 1827.199951171875,
         "previous_price": null,
-        "change_pct": 3.83,
+        "change_pct": 3.8654,
         "market_regime": "RISK_ON",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
-        "requires_focused_analysis": true,
+        "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2adfb794456b",
-        "trigger_id": "trg_6d223a1d4cda",
-        "detected_at": "2026-07-27T16:26:11+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_411ebc73d31a",
+        "detected_at": "2026-07-27T19:18:59+05:30"
       },
       {
         "symbol": "LLOYDSME.NS",
@@ -84,30 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2adfb794456b",
-        "trigger_id": "trg_555c9b35462c",
-        "detected_at": "2026-07-27T16:26:11+05:30"
-      },
-      {
-        "symbol": "LALPATHLAB.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +3.9% vs previous close.",
-        "company_name": "Dr. Lal Path Labs Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1827.199951171875,
-        "previous_price": null,
-        "change_pct": 3.8654,
-        "market_regime": "RISK_ON",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_56f92fe12e9d",
-        "trigger_id": "trg_351bb8b81522",
-        "detected_at": "2026-07-27T16:26:19+05:30"
+        "created_escalation_id": "esc_f0b75c85d672",
+        "trigger_id": "trg_af3d7393ce30",
+        "detected_at": "2026-07-27T19:20:16+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -126,71 +105,31 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_328b650b1b4d",
-        "trigger_id": "trg_016cb0c0834b",
-        "detected_at": "2026-07-27T16:26:28+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_a2f2723eb4e7",
+        "detected_at": "2026-07-27T19:20:33+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
-      {
-        "symbol": "LLOYDSME.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.8% since last observation.",
-        "trigger_ids": [
-          "trg_6d223a1d4cda",
-          "trg_555c9b35462c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "LLOYDSME.NS",
-          "score": 71.7,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "RISK_ON",
-          "reason": "Final 71.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_2adfb794456b",
-        "created_at": "2026-07-27T16:26:45+05:30",
-        "expires_at": "2026-07-27T16:26:45+05:30"
-      },
+    "throttled": [
       {
         "symbol": "LALPATHLAB.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.9% vs previous close.",
-        "trigger_ids": [
-          "trg_351bb8b81522"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_56f92fe12e9d",
-        "created_at": "2026-07-27T16:26:45+05:30",
-        "expires_at": "2026-07-27T16:26:45+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       },
       {
         "symbol": "SAREGAMA.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "LLOYDSME.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.7% vs previous close.",
+        "reason": "Gap +3.8% vs previous close.",
         "trigger_ids": [
-          "trg_016cb0c0834b"
+          "trg_af3d7393ce30"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -198,14 +137,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_328b650b1b4d",
-        "created_at": "2026-07-27T16:26:45+05:30",
-        "expires_at": "2026-07-27T16:26:45+05:30"
+        "escalation_id": "esc_f0b75c85d672",
+        "created_at": "2026-07-27T19:20:33+05:30",
+        "expires_at": "2026-07-27T19:20:33+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-07-27T16:24:44+05:30"
+    "as_of": "2026-07-27T19:18:33+05:30"
   }
 }

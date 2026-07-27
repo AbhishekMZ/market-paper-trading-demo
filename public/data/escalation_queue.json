@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "LLOYDSME.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.8% vs previous close.",
+    "trigger_ids": [
+      "trg_af3d7393ce30"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f0b75c85d672",
+    "created_at": "2026-07-27T19:20:33+05:30",
+    "expires_at": "2026-07-27T19:20:33+05:30"
+  },
+  {
     "symbol": "SAREGAMA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1908,24 +1926,6 @@
     "email_sent": false,
     "final_decision": "Adverse news — buy blocked.",
     "escalation_id": "esc_289d523e6b96",
-    "created_at": "2026-07-03T17:12:41+05:30",
-    "expires_at": "2026-07-03T17:12:41+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_26ba0b79c6ce"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_0512628f675a",
     "created_at": "2026-07-03T17:12:41+05:30",
     "expires_at": "2026-07-03T17:12:41+05:30"
   }

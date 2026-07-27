@@ -1,47 +1,14 @@
 {
-  "as_of": "2026-07-27T16:26:45+05:30",
+  "as_of": "2026-07-27T19:20:33+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "LLOYDSME.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.8% since last observation.",
-      "trigger_ids": [
-        "trg_6d223a1d4cda",
-        "trg_555c9b35462c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "LLOYDSME.NS",
-        "score": 71.7,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "RISK_ON",
-        "reason": "Final 71.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_2adfb794456b",
-      "created_at": "2026-07-27T16:26:45+05:30",
-      "expires_at": "2026-07-27T16:26:45+05:30"
-    },
-    {
-      "symbol": "LALPATHLAB.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.9% vs previous close.",
+      "reason": "Gap +3.8% vs previous close.",
       "trigger_ids": [
-        "trg_351bb8b81522"
+        "trg_af3d7393ce30"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -49,27 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_56f92fe12e9d",
-      "created_at": "2026-07-27T16:26:45+05:30",
-      "expires_at": "2026-07-27T16:26:45+05:30"
-    },
-    {
-      "symbol": "SAREGAMA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.7% vs previous close.",
-      "trigger_ids": [
-        "trg_016cb0c0834b"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_328b650b1b4d",
-      "created_at": "2026-07-27T16:26:45+05:30",
-      "expires_at": "2026-07-27T16:26:45+05:30"
+      "escalation_id": "esc_f0b75c85d672",
+      "created_at": "2026-07-27T19:20:33+05:30",
+      "expires_at": "2026-07-27T19:20:33+05:30"
     }
   ],
   "actions_taken": [],
