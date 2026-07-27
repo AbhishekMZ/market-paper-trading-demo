@@ -1,5 +1,70 @@
 [
   {
+    "symbol": "MAPMYINDIA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.2% since last observation.",
+    "trigger_ids": [
+      "trg_6764cb5a65a5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "MAPMYINDIA.NS",
+      "score": 63.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 63.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=78. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_8bfbf8dd1e69",
+    "created_at": "2026-07-27T14:29:33+05:30",
+    "expires_at": "2026-07-27T14:29:33+05:30"
+  },
+  {
+    "symbol": "PPLPHARMA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +6.0% since last observation.",
+    "trigger_ids": [
+      "trg_ad9c4a3514fb",
+      "trg_81c366c4f7a5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PPLPHARMA.NS",
+      "score": 52.4,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 52.4/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_0322e9067434",
+    "created_at": "2026-07-27T14:29:33+05:30",
+    "expires_at": "2026-07-27T14:29:33+05:30"
+  },
+  {
     "symbol": "HEG.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1848,41 +1913,5 @@
     "escalation_id": "esc_f88867eadb6b",
     "created_at": "2026-07-03T13:04:20+05:30",
     "expires_at": "2026-07-03T13:04:20+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_9da76ab83a7f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_1d580e0d9897",
-    "created_at": "2026-07-03T13:04:20+05:30",
-    "expires_at": "2026-07-03T13:04:20+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_0eaf091b5ee9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_a485a6f1a260",
-    "created_at": "2026-07-02T17:14:14+05:30",
-    "expires_at": "2026-07-02T17:14:14+05:30"
   }
 ]

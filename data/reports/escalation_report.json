@@ -1,42 +1,71 @@
 {
-  "as_of": "2026-07-24T17:58:21+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-27T14:29:33+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "UNITDSPR.NS",
-      "severity": "LOW",
+      "symbol": "PPLPHARMA.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.5% vs previous close.",
+      "reason": "Moved +6.0% since last observation.",
       "trigger_ids": [
-        "trg_3bd1814b653c"
+        "trg_ad9c4a3514fb",
+        "trg_81c366c4f7a5"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "PPLPHARMA.NS",
+        "score": 52.4,
+        "label": "NO_ACTION",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 52.4/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ecd6cf86d84a",
-      "created_at": "2026-07-24T17:58:21+05:30",
-      "expires_at": "2026-07-24T17:58:21+05:30"
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_0322e9067434",
+      "created_at": "2026-07-27T14:29:33+05:30",
+      "expires_at": "2026-07-27T14:29:33+05:30"
     },
     {
-      "symbol": "HEG.NS",
-      "severity": "LOW",
+      "symbol": "MAPMYINDIA.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.1% vs previous close.",
+      "reason": "Moved +3.2% since last observation.",
       "trigger_ids": [
-        "trg_055aba088d8f"
+        "trg_6764cb5a65a5"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "MAPMYINDIA.NS",
+        "score": 63.3,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 63.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=78. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_67b908c3444b",
-      "created_at": "2026-07-24T17:58:21+05:30",
-      "expires_at": "2026-07-24T17:58:21+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_8bfbf8dd1e69",
+      "created_at": "2026-07-27T14:29:33+05:30",
+      "expires_at": "2026-07-27T14:29:33+05:30"
     }
   ],
   "actions_taken": [],
