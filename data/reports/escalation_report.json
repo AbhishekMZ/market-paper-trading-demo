@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-07-27T19:20:33+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-28T13:19:59+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "LLOYDSME.NS",
+      "symbol": "UBL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.8% vs previous close.",
+      "reason": "Gap +2.5% vs previous close.",
       "trigger_ids": [
-        "trg_af3d7393ce30"
+        "trg_57512a763e6f"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,63 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_f0b75c85d672",
-      "created_at": "2026-07-27T19:20:33+05:30",
-      "expires_at": "2026-07-27T19:20:33+05:30"
+      "escalation_id": "esc_a585e5b6a6e1",
+      "created_at": "2026-07-28T13:19:59+05:30",
+      "expires_at": "2026-07-28T13:19:59+05:30"
+    },
+    {
+      "symbol": "BAJAJFINSV.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.8% vs previous close.",
+      "trigger_ids": [
+        "trg_98389e9bd7b4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4a15fe7027b5",
+      "created_at": "2026-07-28T13:19:59+05:30",
+      "expires_at": "2026-07-28T13:19:59+05:30"
+    },
+    {
+      "symbol": "BPCL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.2% vs previous close.",
+      "trigger_ids": [
+        "trg_021a2d44e711"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_fa399857be4f",
+      "created_at": "2026-07-28T13:19:59+05:30",
+      "expires_at": "2026-07-28T13:19:59+05:30"
+    },
+    {
+      "symbol": "LTM.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.6% vs previous close.",
+      "trigger_ids": [
+        "trg_6e17e76b4c9e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b93d670cd46e",
+      "created_at": "2026-07-28T13:19:59+05:30",
+      "expires_at": "2026-07-28T13:19:59+05:30"
     }
   ],
   "actions_taken": [],

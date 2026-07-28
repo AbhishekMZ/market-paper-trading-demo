@@ -593,5 +593,39 @@
     "signal_id": "sig_512d7103abbd",
     "timestamp": "2026-07-27T19:18:31+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_b43389acd867",
+    "symbol": "PFIZER.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4716.5,
+    "amount": 9433.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9433.00, have 100.34.",
+    "reason": "Final 73.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=99, trend_following=90, portfolio_fit=80.",
+    "signal_id": "sig_9cf8bc49592b",
+    "timestamp": "2026-07-28T13:18:00+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_3b1c508bd2bc",
+    "symbol": "UNOMINDA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 8,
+    "filled_quantity": 0,
+    "price": 1163.3,
+    "amount": 9306.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9306.40, have 100.34.",
+    "reason": "Final 72.1/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80.",
+    "signal_id": "sig_525de1462f5d",
+    "timestamp": "2026-07-28T13:18:00+05:30",
+    "realized_pnl": 0.0
   }
 ]
