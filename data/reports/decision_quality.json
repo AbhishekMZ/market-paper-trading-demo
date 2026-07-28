@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-07-28T13:18:02+05:30",
+  "as_of": "2026-07-28T15:06:34+05:30",
   "checkpoint": "mid",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 2116,
-    "matured_episodes": 1616,
+    "matured_episodes": 2083,
     "paper_trades": 2,
     "distinct_days": 26,
     "action_rate_pct": 0.0,
     "avg_forward_return_acted_pct": 0.0,
-    "avg_forward_return_not_acted_pct": -0.28,
-    "decision_edge_pct": 0.54,
+    "avg_forward_return_not_acted_pct": -0.27,
+    "decision_edge_pct": 0.55,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": 0.0,
-    "benchmark_outperformance_pct": 9.34,
+    "benchmark_outperformance_pct": 9.61,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
@@ -43,15 +43,15 @@
     ],
     "takeaways": [
       "Evidence maturity is 73.3% of the configured minimum sample.",
-      "Decision edge is 0.54% acted vs declined candidates.",
+      "Decision edge is 0.55% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 9.34% vs NIFTY 50.",
-      "Blocks were protective on average (-0.48% forward return avoided).",
-      "Observer has run 86 time(s) with noise score 0.32."
+      "Paper portfolio outperformance is 9.61% vs NIFTY 50.",
+      "Blocks were protective on average (-0.52% forward return avoided).",
+      "Observer has run 87 time(s) with noise score 0.34."
     ],
     "watch_items": [
       "Only 2/10 paper trades so far.",
-      "Top observed strategy so far: trend_following (-0.28% avg forward return).",
+      "Top observed strategy so far: trend_following (-0.27% avg forward return).",
       "Best observed score threshold so far: 70 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
     ],
@@ -59,9 +59,9 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-07-28T13:18:02+05:30",
-    "open_episodes": 500,
-    "matured_episodes": 1616,
+    "as_of": "2026-07-28T15:06:34+05:30",
+    "open_episodes": 33,
+    "matured_episodes": 2083,
     "total_episodes": 2116,
     "by_score_band": {
       "buy_grade": {
@@ -73,14 +73,14 @@
       "watch_grade": {
         "count": 228,
         "rated": 228,
-        "avg_return_pct": -0.54,
-        "hit_rate_pct": 36.4
+        "avg_return_pct": -0.55,
+        "hit_rate_pct": 36.8
       },
       "low_grade": {
         "count": 1888,
         "rated": 1888,
         "avg_return_pct": -0.24,
-        "hit_rate_pct": 42.3
+        "hit_rate_pct": 42.2
       }
     },
     "acted": {
@@ -92,8 +92,8 @@
     "not_acted": {
       "count": 2116,
       "rated": 2116,
-      "avg_return_pct": -0.28,
-      "hit_rate_pct": 41.7
+      "avg_return_pct": -0.27,
+      "hit_rate_pct": 41.6
     }
   },
   "shadow": {
@@ -106,18 +106,18 @@
     "shadow_candidates": {
       "count": 271,
       "rated": 271,
-      "avg_return_pct": -0.54,
-      "hit_rate_pct": 38.4
+      "avg_return_pct": -0.55,
+      "hit_rate_pct": 38.0
     },
     "blocked": {
       "count": 57,
       "rated": 57,
-      "avg_return_pct": -0.48,
-      "hit_rate_pct": 50.9
+      "avg_return_pct": -0.52,
+      "hit_rate_pct": 47.4
     },
-    "acted_vs_shadow_edge_pct": 0.54,
+    "acted_vs_shadow_edge_pct": 0.55,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
-    "block_note": "Blocks were protective on average (-0.48% forward return avoided).",
+    "block_note": "Blocks were protective on average (-0.52% forward return avoided).",
     "shadow_examples": [
       {
         "symbol": "ECLERX.NS",
@@ -171,13 +171,13 @@
         "acted": false,
         "entry_date": "2026-07-24",
         "entry_price": 1601.2,
-        "last_price": 1739.5,
+        "last_price": 1749.0,
         "last_update": "2026-07-28",
-        "runs_tracked": 4,
-        "forward_return_pct": 8.64,
-        "max_return_pct": 8.64,
+        "runs_tracked": 5,
+        "forward_return_pct": 9.23,
+        "max_return_pct": 9.23,
         "min_return_pct": 0.0,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "HEXT.NS",
@@ -201,43 +201,13 @@
         "acted": false,
         "entry_date": "2026-07-24",
         "entry_price": 551.85,
-        "last_price": 597.35,
+        "last_price": 591.45,
         "last_update": "2026-07-28",
-        "runs_tracked": 4,
-        "forward_return_pct": 8.24,
+        "runs_tracked": 5,
+        "forward_return_pct": 7.18,
         "max_return_pct": 8.24,
         "min_return_pct": 0.0,
-        "status": "OPEN"
-      },
-      {
-        "symbol": "LTM.NS",
-        "name": "LTM Ltd.",
-        "signal_id": "sig_c66ab88be1b6",
-        "label_at_open": "WATCH",
-        "score": 68.1,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-07-24",
-        "entry_price": 4091.8,
-        "last_price": 4341.3999,
-        "last_update": "2026-07-28",
-        "runs_tracked": 4,
-        "forward_return_pct": 6.1,
-        "max_return_pct": 6.1,
-        "min_return_pct": 0.0,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "FLUOROCHEM.NS",
@@ -270,11 +240,11 @@
         "status": "MATURED"
       },
       {
-        "symbol": "ZENSARTECH.NS",
-        "name": "Zensar Technolgies Ltd.",
-        "signal_id": "sig_e0352c56c675",
+        "symbol": "LTM.NS",
+        "name": "LTM Ltd.",
+        "signal_id": "sig_c66ab88be1b6",
         "label_at_open": "WATCH",
-        "score": 65.0,
+        "score": 68.1,
         "checkpoint": "close",
         "contributors": [
           "trend_following",
@@ -290,44 +260,14 @@
         "data_quality_verdict": "OK",
         "acted": false,
         "entry_date": "2026-07-24",
-        "entry_price": 505.9,
-        "last_price": 534.0,
+        "entry_price": 4091.8,
+        "last_price": 4323.0,
         "last_update": "2026-07-28",
-        "runs_tracked": 4,
-        "forward_return_pct": 5.55,
-        "max_return_pct": 5.55,
+        "runs_tracked": 5,
+        "forward_return_pct": 5.65,
+        "max_return_pct": 6.1,
         "min_return_pct": 0.0,
-        "status": "OPEN"
-      },
-      {
-        "symbol": "PERSISTENT.NS",
-        "name": "Persistent Systems Ltd.",
-        "signal_id": "sig_46491e142888",
-        "label_at_open": "WATCH",
-        "score": 68.0,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-07-24",
-        "entry_price": 5200.5,
-        "last_price": 5476.1001,
-        "last_update": "2026-07-28",
-        "runs_tracked": 4,
-        "forward_return_pct": 5.3,
-        "max_return_pct": 5.3,
-        "min_return_pct": 0.0,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "UNITDSPR.NS",
@@ -358,29 +298,79 @@
         "max_return_pct": 5.2,
         "min_return_pct": 0.0,
         "status": "MATURED"
+      },
+      {
+        "symbol": "TCS.NS",
+        "name": "Tata Consultancy Services",
+        "signal_id": "sig_bb8c54604534",
+        "label_at_open": "DO_NOT_BUY",
+        "score": 42.9,
+        "checkpoint": "mid",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "HIGH",
+        "news_blocked": true,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-07-10",
+        "entry_price": 2077.5,
+        "last_price": 2181.5,
+        "last_update": "2026-07-13",
+        "runs_tracked": 5,
+        "forward_return_pct": 5.01,
+        "max_return_pct": 5.75,
+        "min_return_pct": -0.41,
+        "status": "MATURED"
+      },
+      {
+        "symbol": "AEGISVOPAK.NS",
+        "name": "Aegis Vopak Terminals Ltd.",
+        "signal_id": "sig_8dba40742689",
+        "label_at_open": "WATCH",
+        "score": 66.1,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "mean_reversion",
+          "breakout",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-07-20",
+        "entry_price": 281.02,
+        "last_price": 295.11,
+        "last_update": "2026-07-22",
+        "runs_tracked": 5,
+        "forward_return_pct": 5.01,
+        "max_return_pct": 6.49,
+        "min_return_pct": 0.0,
+        "status": "MATURED"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-07-28T13:18:02+05:30",
+    "as_of": "2026-07-28T15:06:34+05:30",
     "ready": true,
-    "points": 86,
+    "points": 87,
     "from_date": "2026-06-23",
     "to_date": "2026-07-28",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -6.48,
-    "portfolio_return_pct": 2.86,
-    "outperformance_pct": 9.34,
+    "benchmark_return_pct": -6.49,
+    "portfolio_return_pct": 3.12,
+    "outperformance_pct": 9.61,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-06-30",
-        "ts": "2026-06-30T14:56:14+05:30",
-        "checkpoint": "close",
-        "nifty_close": 23939.0,
-        "portfolio_total": 10091.5,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-06-30",
         "ts": "2026-06-30T17:21:49+05:30",
@@ -852,6 +842,14 @@
         "nifty_close": 24008.400390625,
         "portfolio_total": 10285.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-07-28",
+        "ts": "2026-07-28T15:06:34+05:30",
+        "checkpoint": "mid",
+        "nifty_close": 24005.94921875,
+        "portfolio_total": 10312.3,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -860,57 +858,57 @@
       {
         "strategy": "trend_following",
         "episodes": 2116,
-        "wins": 882,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 881,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 1
       },
       {
         "strategy": "relative_strength",
         "episodes": 2116,
-        "wins": 882,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 881,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 2
       },
       {
         "strategy": "news_event_risk",
         "episodes": 2116,
-        "wins": 882,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 881,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 3
       },
       {
         "strategy": "volatility_risk",
         "episodes": 2116,
-        "wins": 882,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 881,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 4
       },
       {
         "strategy": "portfolio_fit",
         "episodes": 2116,
-        "wins": 882,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 881,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 5
       },
       {
         "strategy": "mean_reversion",
         "episodes": 2066,
-        "wins": 861,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 860,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 6
       },
       {
         "strategy": "breakout",
         "episodes": 2066,
-        "wins": 861,
-        "avg_forward_return_pct": -0.28,
-        "hit_rate_pct": 41.7,
+        "wins": 860,
+        "avg_forward_return_pct": -0.27,
+        "hit_rate_pct": 41.6,
         "rank": 7
       }
     ],
@@ -922,7 +920,7 @@
       {
         "threshold": 70,
         "would_buy_count": 51,
-        "avg_forward_return_pct": -0.27,
+        "avg_forward_return_pct": -0.24,
         "hit_rate_pct": 41.2
       },
       {
@@ -956,16 +954,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 86,
-    "triggers_detected": 305,
-    "escalations_created": 176,
+    "observation_runs": 87,
+    "triggers_detected": 309,
+    "escalations_created": 180,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 119,
     "useful_triggers": 119,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.32,
+    "alert_noise_score": 0.34,
     "avg_triggers_per_run": 3.55,
-    "last_run": "2026-07-27T19:20:33+05:30",
+    "last_run": "2026-07-28T13:19:59+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
