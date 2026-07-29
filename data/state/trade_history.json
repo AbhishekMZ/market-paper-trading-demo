@@ -729,5 +729,39 @@
     "signal_id": "sig_a61e4b20a61e",
     "timestamp": "2026-07-29T13:24:27+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_6805c4e075c0",
+    "symbol": "BHARTIARTL.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 5,
+    "filled_quantity": 0,
+    "price": 1956.0,
+    "amount": 9780.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9780.00, have 100.34.",
+    "reason": "Final 74.6/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: relative_strength=94, trend_following=89, portfolio_fit=80.",
+    "signal_id": "sig_a921690d9b8f",
+    "timestamp": "2026-07-29T15:12:28+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_05d7e7fe0c8d",
+    "symbol": "MEDANTA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 6,
+    "filled_quantity": 0,
+    "price": 1435.1,
+    "amount": 8610.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8610.60, have 100.34.",
+    "reason": "Final 71.6/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=88, relative_strength=84, portfolio_fit=80.",
+    "signal_id": "sig_6df4d69f4c9e",
+    "timestamp": "2026-07-29T15:12:28+05:30",
+    "realized_pnl": 0.0
   }
 ]
