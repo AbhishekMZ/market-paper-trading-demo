@@ -1,21 +1,20 @@
 {
-  "as_of": "2026-07-28T18:11:46+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-07-29T13:26:37+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "ONESOURCE.NS",
+      "symbol": "LLOYDSME.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.4% since last observation.",
+      "reason": "Moved +3.8% since last observation.",
       "trigger_ids": [
-        "trg_c8a3490b4121",
-        "trg_2817c55f7469"
+        "trg_e28ac18324ee"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "ONESOURCE.NS",
-        "score": 70.2,
+        "symbol": "LLOYDSME.NS",
+        "score": 70.4,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -24,16 +23,99 @@
         "blocked_by": null,
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=92, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "market_regime": "RISK_ON",
+        "reason": "Final 70.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, relative_strength=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_cb5f9c048fc5",
+      "created_at": "2026-07-29T13:26:37+05:30",
+      "expires_at": "2026-07-29T13:26:37+05:30"
+    },
+    {
+      "symbol": "LALPATHLAB.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.5% since last observation.",
+      "trigger_ids": [
+        "trg_7738dab9c729",
+        "trg_3da2d46b2670"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "LALPATHLAB.NS",
+        "score": 70.9,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 70.9/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_dc1ae0a4a382",
-      "created_at": "2026-07-28T18:11:46+05:30",
-      "expires_at": "2026-07-28T18:11:46+05:30"
+      "escalation_id": "esc_91a0c17b4c80",
+      "created_at": "2026-07-29T13:26:37+05:30",
+      "expires_at": "2026-07-29T13:26:37+05:30"
+    },
+    {
+      "symbol": "TVSMOTOR.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.5% since last observation.",
+      "trigger_ids": [
+        "trg_299add853a61"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "TVSMOTOR.NS",
+        "score": 68.3,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 68.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, relative_strength=77. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_d4627ee6a1c5",
+      "created_at": "2026-07-29T13:26:37+05:30",
+      "expires_at": "2026-07-29T13:26:37+05:30"
+    },
+    {
+      "symbol": "ONESOURCE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_f23abb02eb0e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_78284f2d6001",
+      "created_at": "2026-07-29T13:26:37+05:30",
+      "expires_at": "2026-07-29T13:26:37+05:30"
     }
   ],
   "actions_taken": [],

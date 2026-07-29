@@ -1,6 +1,121 @@
 [
   {
     "symbol": "ONESOURCE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_f23abb02eb0e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_78284f2d6001",
+    "created_at": "2026-07-29T13:26:37+05:30",
+    "expires_at": "2026-07-29T13:26:37+05:30"
+  },
+  {
+    "symbol": "TVSMOTOR.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.5% since last observation.",
+    "trigger_ids": [
+      "trg_299add853a61"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "TVSMOTOR.NS",
+      "score": 68.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 68.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, portfolio_fit=80, relative_strength=77. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_d4627ee6a1c5",
+    "created_at": "2026-07-29T13:26:37+05:30",
+    "expires_at": "2026-07-29T13:26:37+05:30"
+  },
+  {
+    "symbol": "LALPATHLAB.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.5% since last observation.",
+    "trigger_ids": [
+      "trg_7738dab9c729",
+      "trg_3da2d46b2670"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LALPATHLAB.NS",
+      "score": 70.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 70.9/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_91a0c17b4c80",
+    "created_at": "2026-07-29T13:26:37+05:30",
+    "expires_at": "2026-07-29T13:26:37+05:30"
+  },
+  {
+    "symbol": "LLOYDSME.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.8% since last observation.",
+    "trigger_ids": [
+      "trg_e28ac18324ee"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LLOYDSME.NS",
+      "score": 70.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 70.4/100 -> WATCH [regime RISK_ON]. Top: trend_following=90, relative_strength=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_cb5f9c048fc5",
+    "created_at": "2026-07-29T13:26:37+05:30",
+    "expires_at": "2026-07-29T13:26:37+05:30"
+  },
+  {
+    "symbol": "ONESOURCE.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved +4.4% since last observation.",
@@ -1867,78 +1982,5 @@
     "escalation_id": "esc_e0c1b07a48fa",
     "created_at": "2026-07-07T17:40:36+05:30",
     "expires_at": "2026-07-07T17:40:36+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.9% vs previous close.",
-    "trigger_ids": [
-      "trg_4d08fd4d6708"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b93232bd510a",
-    "created_at": "2026-07-07T15:03:54+05:30",
-    "expires_at": "2026-07-07T15:03:54+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.4% since last observation.",
-    "trigger_ids": [
-      "trg_19ef8ab31d50",
-      "trg_f2174a4d87f4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9a2d6097fea2",
-    "created_at": "2026-07-07T13:22:01+05:30",
-    "expires_at": "2026-07-07T13:22:01+05:30"
-  },
-  {
-    "symbol": "AXISBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_55808533c7d7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_b5d114d8c830",
-    "created_at": "2026-07-06T18:29:12+05:30",
-    "expires_at": "2026-07-06T18:29:12+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_a3fc727d51a9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_9167f9641e04",
-    "created_at": "2026-07-06T18:29:12+05:30",
-    "expires_at": "2026-07-06T18:29:12+05:30"
   }
 ]
