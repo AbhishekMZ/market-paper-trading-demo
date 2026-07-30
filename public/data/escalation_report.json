@@ -1,14 +1,79 @@
 {
-  "as_of": "2026-07-30T14:59:12+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-30T18:05:52+05:30",
+  "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "DIVISLAB.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +5.5% since last observation.",
+      "trigger_ids": [
+        "trg_4db166f8025b"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "DIVISLAB.NS",
+        "score": 65.7,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 65.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, portfolio_fit=80, breakout=70.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_ab322528feba",
+      "created_at": "2026-07-30T18:05:52+05:30",
+      "expires_at": "2026-07-30T18:05:52+05:30"
+    },
+    {
+      "symbol": "EXIDEIND.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.7% since last observation.",
+      "trigger_ids": [
+        "trg_1508399f69d5",
+        "trg_8770ae46b8cb"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "EXIDEIND.NS",
+        "score": 67.8,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_f6d0624ee102",
+      "created_at": "2026-07-30T18:05:52+05:30",
+      "expires_at": "2026-07-30T18:05:52+05:30"
+    },
     {
       "symbol": "COLPAL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.7% vs previous close.",
+      "reason": "Gap -3.8% vs previous close.",
       "trigger_ids": [
-        "trg_dddcafdae028"
+        "trg_c18f56fbd4f4"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +81,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d9659a6b0294",
-      "created_at": "2026-07-30T14:59:12+05:30",
-      "expires_at": "2026-07-30T14:59:12+05:30"
+      "escalation_id": "esc_678cea5acfd0",
+      "created_at": "2026-07-30T18:05:52+05:30",
+      "expires_at": "2026-07-30T18:05:52+05:30"
+    },
+    {
+      "symbol": "ARE&M.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.7% vs previous close.",
+      "trigger_ids": [
+        "trg_900c0d4cb257"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_f3dd0fd8ba45",
+      "created_at": "2026-07-30T18:05:52+05:30",
+      "expires_at": "2026-07-30T18:05:52+05:30"
     }
   ],
   "actions_taken": [],

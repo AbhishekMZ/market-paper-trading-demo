@@ -865,5 +865,22 @@
     "signal_id": "sig_4afed2cb7f71",
     "timestamp": "2026-07-30T14:57:07+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_aa59bf623332",
+    "symbol": "EICHERMOT.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 1,
+    "filled_quantity": 0,
+    "price": 7912.5,
+    "amount": 7912.5,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 7912.50, have 100.34.",
+    "reason": "Final 72.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80.",
+    "signal_id": "sig_3dc83ba60091",
+    "timestamp": "2026-07-30T18:03:48+05:30",
+    "realized_pnl": 0.0
   }
 ]
