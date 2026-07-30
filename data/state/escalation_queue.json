@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_bc1e82eeea5b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_3908d278ec13",
-    "created_at": "2026-07-09T17:56:40+05:30",
-    "expires_at": "2026-07-09T17:56:40+05:30"
-  },
-  {
     "symbol": "TCS.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -2053,5 +2035,23 @@
     "escalation_id": "esc_d3f1eb84ba54",
     "created_at": "2026-07-30T13:20:34+05:30",
     "expires_at": "2026-07-30T13:20:34+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_dddcafdae028"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d9659a6b0294",
+    "created_at": "2026-07-30T14:59:12+05:30",
+    "expires_at": "2026-07-30T14:59:12+05:30"
   }
 ]

@@ -6886,5 +6886,26 @@
     "created_escalation_id": "esc_5192472ba330",
     "trigger_id": "trg_6e6fe79b2025",
     "detected_at": "2026-07-30T13:20:34+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -3.7% vs previous close.",
+    "company_name": "COLPAL.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 2085.800048828125,
+    "previous_price": null,
+    "change_pct": -3.7205,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_d9659a6b0294",
+    "trigger_id": "trg_dddcafdae028",
+    "detected_at": "2026-07-30T14:57:19+05:30"
   }
 ]

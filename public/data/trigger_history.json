@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "COLPAL.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -3.7% vs previous close.",
+    "company_name": "COLPAL.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 2085.800048828125,
+    "previous_price": null,
+    "change_pct": -3.7205,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_d9659a6b0294",
+    "trigger_id": "trg_dddcafdae028",
+    "detected_at": "2026-07-30T14:57:19+05:30"
+  },
+  {
     "symbol": "INFY.NS",
     "trigger_type": "LARGE_MOVE",
     "severity": "HIGH",
@@ -6277,26 +6298,5 @@
     "created_escalation_id": "esc_1195693d36bb",
     "trigger_id": "trg_3d8bdc5dcfda",
     "detected_at": "2026-06-23T15:01:25+05:30"
-  },
-  {
-    "symbol": "_MARKET_",
-    "trigger_type": "MARKET_REGIME_SHIFT",
-    "severity": "HIGH",
-    "reason": "Market regime NEUTRAL -> RISK_OFF.",
-    "company_name": null,
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": null,
-    "previous_price": null,
-    "change_pct": null,
-    "market_regime": "RISK_OFF",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "Block new buys; review open positions.",
-    "requires_focused_analysis": false,
-    "blocks_action": true,
-    "created_escalation_id": "esc_7ae59958e6d9",
-    "trigger_id": "trg_8b27ef0f77bb",
-    "detected_at": "2026-06-23T13:28:13+05:30"
   }
 ]
