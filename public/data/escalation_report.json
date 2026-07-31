@@ -1,79 +1,33 @@
 {
-  "as_of": "2026-07-31T15:28:45+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-07-31T18:18:24+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SONACOMS.NS",
+      "symbol": "HYUNDAI.NS",
       "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +6.3% since last observation.",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_452664f74679"
+        "trg_bd69078aa5b2",
+        "trg_212dfdc74a59"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "SONACOMS.NS",
-        "score": 61.5,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_dbe5ce37493b",
-      "created_at": "2026-07-31T15:28:45+05:30",
-      "expires_at": "2026-07-31T15:28:45+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_6df523dca8b6",
+      "created_at": "2026-07-31T18:18:24+05:30",
+      "expires_at": "2026-07-31T18:18:24+05:30"
     },
     {
-      "symbol": "M&M.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.9% since last observation.",
-      "trigger_ids": [
-        "trg_bd53de5b33a6",
-        "trg_69f767097811"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "M&M.NS",
-        "score": 70.5,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_1eb9dfac4499",
-      "created_at": "2026-07-31T15:28:45+05:30",
-      "expires_at": "2026-07-31T15:28:45+05:30"
-    },
-    {
-      "symbol": "EMCURE.NS",
+      "symbol": "LTFOODS.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.6% vs previous close.",
+      "reason": "Gap +3.3% vs previous close.",
       "trigger_ids": [
-        "trg_2ecca4be3734"
+        "trg_485adb7495af"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -81,11 +35,35 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3a5d33235819",
-      "created_at": "2026-07-31T15:28:45+05:30",
-      "expires_at": "2026-07-31T15:28:45+05:30"
+      "escalation_id": "esc_232f3ff69643",
+      "created_at": "2026-07-31T18:18:24+05:30",
+      "expires_at": "2026-07-31T18:18:24+05:30"
+    },
+    {
+      "symbol": "M&M.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_18fd0e1cfed0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_cc96a1814441",
+      "created_at": "2026-07-31T18:18:24+05:30",
+      "expires_at": "2026-07-31T18:18:24+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "HYUNDAI.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

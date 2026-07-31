@@ -1,5 +1,60 @@
 [
   {
+    "symbol": "M&M.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_18fd0e1cfed0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_cc96a1814441",
+    "created_at": "2026-07-31T18:18:24+05:30",
+    "expires_at": "2026-07-31T18:18:24+05:30"
+  },
+  {
+    "symbol": "LTFOODS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_485adb7495af"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_232f3ff69643",
+    "created_at": "2026-07-31T18:18:24+05:30",
+    "expires_at": "2026-07-31T18:18:24+05:30"
+  },
+  {
+    "symbol": "HYUNDAI.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_bd69078aa5b2",
+      "trg_212dfdc74a59"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_6df523dca8b6",
+    "created_at": "2026-07-31T18:18:24+05:30",
+    "expires_at": "2026-07-31T18:18:24+05:30"
+  },
+  {
     "symbol": "EMCURE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2111,59 +2166,5 @@
     "escalation_id": "esc_fa5077a5937e",
     "created_at": "2026-07-14T11:56:11+05:30",
     "expires_at": "2026-07-14T11:56:11+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_b3d66662ba56"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_105856549959",
-    "created_at": "2026-07-14T11:56:11+05:30",
-    "expires_at": "2026-07-14T11:56:11+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_aaa768100ace"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_f419543c764a",
-    "created_at": "2026-07-14T11:56:11+05:30",
-    "expires_at": "2026-07-14T11:56:11+05:30"
-  },
-  {
-    "symbol": "INFY.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_3022ad7ea2cb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8d1e512d5aed",
-    "created_at": "2026-07-13T17:48:00+05:30",
-    "expires_at": "2026-07-13T17:48:00+05:30"
   }
 ]
