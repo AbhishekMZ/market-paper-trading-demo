@@ -882,5 +882,39 @@
     "signal_id": "sig_3dc83ba60091",
     "timestamp": "2026-07-30T18:03:48+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_deefe9bd9a4d",
+    "symbol": "NIVABUPA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 113,
+    "filled_quantity": 0,
+    "price": 88.29,
+    "amount": 9976.77,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9976.77, have 100.34.",
+    "reason": "Final 72.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=82, portfolio_fit=80.",
+    "signal_id": "sig_12f4d0a2f1b2",
+    "timestamp": "2026-07-31T13:34:11+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_c6d70bad14e2",
+    "symbol": "ANANDRATHI.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 4,
+    "filled_quantity": 0,
+    "price": 2081.0,
+    "amount": 8324.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8324.00, have 100.34.",
+    "reason": "Final 70.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80.",
+    "signal_id": "sig_7734d4ac5c5c",
+    "timestamp": "2026-07-31T13:34:11+05:30",
+    "realized_pnl": 0.0
   }
 ]
