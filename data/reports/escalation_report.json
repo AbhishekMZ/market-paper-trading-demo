@@ -1,20 +1,20 @@
 {
-  "as_of": "2026-07-31T13:36:04+05:30",
+  "as_of": "2026-07-31T15:28:45+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "HEROMOTOCO.NS",
-      "severity": "MEDIUM",
+      "symbol": "SONACOMS.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.2% since last observation.",
+      "reason": "Moved +6.3% since last observation.",
       "trigger_ids": [
-        "trg_045197b09e4b"
+        "trg_452664f74679"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "HEROMOTOCO.NS",
-        "score": 65.2,
+        "symbol": "SONACOMS.NS",
+        "score": 61.5,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -24,29 +24,30 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 65.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=91, portfolio_fit=80, breakout=70.",
+        "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_2c9740477576",
-      "created_at": "2026-07-31T13:36:04+05:30",
-      "expires_at": "2026-07-31T13:36:04+05:30"
+      "escalation_id": "esc_dbe5ce37493b",
+      "created_at": "2026-07-31T15:28:45+05:30",
+      "expires_at": "2026-07-31T15:28:45+05:30"
     },
     {
-      "symbol": "TVSMOTOR.NS",
+      "symbol": "M&M.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.7% since last observation.",
+      "reason": "Moved +3.9% since last observation.",
       "trigger_ids": [
-        "trg_57f7c4b6fea2"
+        "trg_bd53de5b33a6",
+        "trg_69f767097811"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "TVSMOTOR.NS",
-        "score": 69.1,
+        "symbol": "M&M.NS",
+        "score": 70.5,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -56,88 +57,23 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 69.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=91, relative_strength=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_097b0ba04e2d",
-      "created_at": "2026-07-31T13:36:04+05:30",
-      "expires_at": "2026-07-31T13:36:04+05:30"
-    },
-    {
-      "symbol": "EMCURE.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.1% since last observation.",
-      "trigger_ids": [
-        "trg_2ad955274f94",
-        "trg_41eea17a00eb"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "EMCURE.NS",
-        "score": 70.0,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "reason": "Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
         "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_031ada07dc97",
-      "created_at": "2026-07-31T13:36:04+05:30",
-      "expires_at": "2026-07-31T13:36:04+05:30"
+      "escalation_id": "esc_1eb9dfac4499",
+      "created_at": "2026-07-31T15:28:45+05:30",
+      "expires_at": "2026-07-31T15:28:45+05:30"
     },
     {
-      "symbol": "PERSISTENT.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.8% since last observation.",
-      "trigger_ids": [
-        "trg_5b8b95888405"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "PERSISTENT.NS",
-        "score": 60.5,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 60.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_0d7b9667e7cf",
-      "created_at": "2026-07-31T13:36:04+05:30",
-      "expires_at": "2026-07-31T13:36:04+05:30"
-    },
-    {
-      "symbol": "SUNPHARMA.NS",
+      "symbol": "EMCURE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.8% vs previous close.",
+      "reason": "Gap +2.6% vs previous close.",
       "trigger_ids": [
-        "trg_f1867c5fbbdb"
+        "trg_2ecca4be3734"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -145,9 +81,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d8d5be87045c",
-      "created_at": "2026-07-31T13:36:04+05:30",
-      "expires_at": "2026-07-31T13:36:04+05:30"
+      "escalation_id": "esc_3a5d33235819",
+      "created_at": "2026-07-31T15:28:45+05:30",
+      "expires_at": "2026-07-31T15:28:45+05:30"
     }
   ],
   "actions_taken": [],
