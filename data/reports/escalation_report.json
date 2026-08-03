@@ -1,22 +1,22 @@
 {
-  "as_of": "2026-08-03T14:24:05+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-03T16:18:37+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "BAJAJFINSV.NS",
+      "symbol": "DIVISLAB.NS",
       "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +7.9% since last observation.",
+      "reason": "Moved +9.6% since last observation.",
       "trigger_ids": [
-        "trg_3ce9237c222b",
-        "trg_e7f415ebcace"
+        "trg_2c59f9bc8f94",
+        "trg_e84415ac2c51"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "BAJAJFINSV.NS",
-        "score": 70.7,
-        "label": "WATCH",
+        "symbol": "DIVISLAB.NS",
+        "score": 53.3,
+        "label": "NO_ACTION",
         "previous_label": "WATCH",
         "valid_opportunity": false,
         "action_allowed": false,
@@ -25,88 +25,109 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "RISK_ON",
-        "reason": "Final 70.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=93, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_596379d4c8aa",
-      "created_at": "2026-08-03T14:24:05+05:30",
-      "expires_at": "2026-08-03T14:24:05+05:30"
-    },
-    {
-      "symbol": "ANTHEM.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.7% since last observation.",
-      "trigger_ids": [
-        "trg_722760c6a535",
-        "trg_68819611bbcf"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "ANTHEM.NS",
-        "score": 72.6,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "RISK_ON",
-        "reason": "Final 72.6/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_231891ddb4d7",
-      "created_at": "2026-08-03T14:24:05+05:30",
-      "expires_at": "2026-08-03T14:24:05+05:30"
-    },
-    {
-      "symbol": "ESCORTS.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.1% since last observation.",
-      "trigger_ids": [
-        "trg_0b0c1fa3e9cc"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "ESCORTS.NS",
-        "score": 67.8,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "RISK_ON",
-        "reason": "Final 67.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=83, portfolio_fit=80, breakout=70.",
+        "reason": "Final 53.3/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_0cdbc75f0635",
+      "created_at": "2026-08-03T16:18:37+05:30",
+      "expires_at": "2026-08-03T16:18:37+05:30"
+    },
+    {
+      "symbol": "ZEEL.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_090298318f30",
+        "trg_4e892a4cf473",
+        "trg_90cd9ee929c8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_74f238261314",
+      "created_at": "2026-08-03T16:18:37+05:30",
+      "expires_at": "2026-08-03T16:18:37+05:30"
+    },
+    {
+      "symbol": "JIOFIN.NS",
+      "severity": "HIGH",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +10.0% since last observation.",
+      "trigger_ids": [
+        "trg_efc88a9ff4e2",
+        "trg_47bd30910228"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "JIOFIN.NS",
+        "score": 68.8,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 68.8/100 -> WATCH [regime RISK_ON]. Top: relative_strength=92, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_128f126f8ae5",
-      "created_at": "2026-08-03T14:24:05+05:30",
-      "expires_at": "2026-08-03T14:24:05+05:30"
+      "escalation_id": "esc_a5e03f13ab10",
+      "created_at": "2026-08-03T16:18:37+05:30",
+      "expires_at": "2026-08-03T16:18:37+05:30"
     },
     {
-      "symbol": "RAINBOW.NS",
+      "symbol": "TITAN.NS",
+      "severity": "MEDIUM",
+      "action_type": "BLOCKED_BY_RISK",
+      "reason": "Moved +3.1% since last observation.",
+      "trigger_ids": [
+        "trg_405a557821f9",
+        "trg_3537e253a7c0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "TITAN.NS",
+        "score": 76.0,
+        "label": "BUY_SMALL_PAPER",
+        "previous_label": "WATCH",
+        "valid_opportunity": true,
+        "action_allowed": true,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 76.0/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: relative_strength=93, trend_following=91, portfolio_fit=80.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Qualified on score but blocked by risk/limits at execution.",
+      "escalation_id": "esc_e3f234640926",
+      "created_at": "2026-08-03T16:18:37+05:30",
+      "expires_at": "2026-08-03T16:18:37+05:30"
+    },
+    {
+      "symbol": "EMCURE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.0% vs previous close.",
+      "reason": "Gap +3.1% vs previous close.",
       "trigger_ids": [
-        "trg_e569765416a2"
+        "trg_6a45f54e908f"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -114,29 +135,22 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_670e876f69a3",
-      "created_at": "2026-08-03T14:24:05+05:30",
-      "expires_at": "2026-08-03T14:24:05+05:30"
-    },
-    {
-      "symbol": "TVSMOTOR.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.7% vs previous close.",
-      "trigger_ids": [
-        "trg_de00d45110cf"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_89cfa76b3daa",
-      "created_at": "2026-08-03T14:24:05+05:30",
-      "expires_at": "2026-08-03T14:24:05+05:30"
+      "escalation_id": "esc_b6cb41359a17",
+      "created_at": "2026-08-03T16:18:37+05:30",
+      "expires_at": "2026-08-03T16:18:37+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "ZEEL.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "TITAN.NS",
+      "blocked_by": "RISK_OR_LIMITS",
+      "trigger": "BUY_CANDIDATE_RECHECK"
+    }
+  ]
 }

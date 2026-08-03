@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_ce68d7c73406"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_808de272c57e",
-    "created_at": "2026-07-15T11:59:43+05:30",
-    "expires_at": "2026-07-15T11:59:43+05:30"
-  },
-  {
-    "symbol": "SBIN.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_69f983350f8d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_7ec07785e5a8",
-    "created_at": "2026-07-15T13:33:48+05:30",
-    "expires_at": "2026-07-15T13:33:48+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_159d5ee1c176"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_1412ff45db4a",
-    "created_at": "2026-07-15T16:36:32+05:30",
-    "expires_at": "2026-07-15T16:36:32+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_0e543223614d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_921d80053668",
-    "created_at": "2026-07-15T16:36:32+05:30",
-    "expires_at": "2026-07-15T16:36:32+05:30"
-  },
-  {
-    "symbol": "ULTRACEMCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_e867fbb1a7ea"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c7addfd83e79",
-    "created_at": "2026-07-15T16:36:32+05:30",
-    "expires_at": "2026-07-15T16:36:32+05:30"
-  },
-  {
     "symbol": "HDFCBANK.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -2210,5 +2120,142 @@
     "escalation_id": "esc_89cfa76b3daa",
     "created_at": "2026-08-03T14:24:05+05:30",
     "expires_at": "2026-08-03T14:24:05+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +9.6% since last observation.",
+    "trigger_ids": [
+      "trg_2c59f9bc8f94",
+      "trg_e84415ac2c51"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "DIVISLAB.NS",
+      "score": 53.3,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 53.3/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_0cdbc75f0635",
+    "created_at": "2026-08-03T16:18:37+05:30",
+    "expires_at": "2026-08-03T16:18:37+05:30"
+  },
+  {
+    "symbol": "ZEEL.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_090298318f30",
+      "trg_4e892a4cf473",
+      "trg_90cd9ee929c8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_74f238261314",
+    "created_at": "2026-08-03T16:18:37+05:30",
+    "expires_at": "2026-08-03T16:18:37+05:30"
+  },
+  {
+    "symbol": "JIOFIN.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +10.0% since last observation.",
+    "trigger_ids": [
+      "trg_efc88a9ff4e2",
+      "trg_47bd30910228"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "JIOFIN.NS",
+      "score": 68.8,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 68.8/100 -> WATCH [regime RISK_ON]. Top: relative_strength=92, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_a5e03f13ab10",
+    "created_at": "2026-08-03T16:18:37+05:30",
+    "expires_at": "2026-08-03T16:18:37+05:30"
+  },
+  {
+    "symbol": "TITAN.NS",
+    "severity": "MEDIUM",
+    "action_type": "BLOCKED_BY_RISK",
+    "reason": "Moved +3.1% since last observation.",
+    "trigger_ids": [
+      "trg_405a557821f9",
+      "trg_3537e253a7c0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "TITAN.NS",
+      "score": 76.0,
+      "label": "BUY_SMALL_PAPER",
+      "previous_label": "WATCH",
+      "valid_opportunity": true,
+      "action_allowed": true,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 76.0/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: relative_strength=93, trend_following=91, portfolio_fit=80.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Qualified on score but blocked by risk/limits at execution.",
+    "escalation_id": "esc_e3f234640926",
+    "created_at": "2026-08-03T16:18:37+05:30",
+    "expires_at": "2026-08-03T16:18:37+05:30"
+  },
+  {
+    "symbol": "EMCURE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_6a45f54e908f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b6cb41359a17",
+    "created_at": "2026-08-03T16:18:37+05:30",
+    "expires_at": "2026-08-03T16:18:37+05:30"
   }
 ]

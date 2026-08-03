@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-08-03T14:22:04+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-03T16:16:43+05:30",
+  "checkpoint": "close",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 3096,
-    "matured_episodes": 2596,
+    "matured_episodes": 3063,
     "paper_trades": 2,
     "distinct_days": 30,
     "action_rate_pct": 0.0,
     "avg_forward_return_acted_pct": 0.0,
     "avg_forward_return_not_acted_pct": 0.2,
-    "decision_edge_pct": 0.17,
+    "decision_edge_pct": 0.18,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": 0.0,
-    "benchmark_outperformance_pct": 4.43,
+    "benchmark_outperformance_pct": 3.75,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
@@ -43,11 +43,11 @@
     ],
     "takeaways": [
       "Evidence maturity is 73.3% of the configured minimum sample.",
-      "Decision edge is 0.17% acted vs declined candidates.",
+      "Decision edge is 0.18% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 4.43% vs NIFTY 50.",
-      "Blocks were protective on average (-0.25% forward return avoided).",
-      "Observer has run 98 time(s) with noise score 0.43."
+      "Paper portfolio outperformance is 3.75% vs NIFTY 50.",
+      "Blocks were protective on average (-0.27% forward return avoided).",
+      "Observer has run 99 time(s) with noise score 0.44."
     ],
     "watch_items": [
       "Only 2/10 paper trades so far.",
@@ -59,9 +59,9 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-08-03T14:22:04+05:30",
-    "open_episodes": 500,
-    "matured_episodes": 2596,
+    "as_of": "2026-08-03T16:16:43+05:30",
+    "open_episodes": 33,
+    "matured_episodes": 3063,
     "total_episodes": 3096,
     "by_score_band": {
       "buy_grade": {
@@ -74,13 +74,13 @@
         "count": 317,
         "rated": 317,
         "avg_return_pct": -0.15,
-        "hit_rate_pct": 42.9
+        "hit_rate_pct": 43.2
       },
       "low_grade": {
         "count": 2779,
         "rated": 2779,
         "avg_return_pct": 0.24,
-        "hit_rate_pct": 50.9
+        "hit_rate_pct": 51.2
       }
     },
     "acted": {
@@ -93,7 +93,7 @@
       "count": 3096,
       "rated": 3096,
       "avg_return_pct": 0.2,
-      "hit_rate_pct": 50.1
+      "hit_rate_pct": 50.4
     }
   },
   "shadow": {
@@ -106,18 +106,18 @@
     "shadow_candidates": {
       "count": 370,
       "rated": 370,
-      "avg_return_pct": -0.17,
-      "hit_rate_pct": 43.8
+      "avg_return_pct": -0.18,
+      "hit_rate_pct": 44.1
     },
     "blocked": {
       "count": 66,
       "rated": 66,
-      "avg_return_pct": -0.25,
+      "avg_return_pct": -0.27,
       "hit_rate_pct": 51.5
     },
-    "acted_vs_shadow_edge_pct": 0.17,
+    "acted_vs_shadow_edge_pct": 0.18,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
-    "block_note": "Blocks were protective on average (-0.25% forward return avoided).",
+    "block_note": "Blocks were protective on average (-0.27% forward return avoided).",
     "shadow_examples": [
       {
         "symbol": "ECLERX.NS",
@@ -146,6 +146,36 @@
         "runs_tracked": 5,
         "forward_return_pct": 9.77,
         "max_return_pct": 12.51,
+        "min_return_pct": 0.0,
+        "status": "MATURED"
+      },
+      {
+        "symbol": "HYUNDAI.NS",
+        "name": "Hyundai Motor India Ltd.",
+        "signal_id": "sig_53238af5b478",
+        "label_at_open": "WATCH",
+        "score": 67.7,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "mean_reversion",
+          "breakout",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-07-30",
+        "entry_price": 2018.2,
+        "last_price": 2214.3999,
+        "last_update": "2026-08-03",
+        "runs_tracked": 5,
+        "forward_return_pct": 9.72,
+        "max_return_pct": 9.72,
         "min_return_pct": 0.0,
         "status": "MATURED"
       },
@@ -180,36 +210,6 @@
         "status": "MATURED"
       },
       {
-        "symbol": "HYUNDAI.NS",
-        "name": "Hyundai Motor India Ltd.",
-        "signal_id": "sig_53238af5b478",
-        "label_at_open": "WATCH",
-        "score": 67.7,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-07-30",
-        "entry_price": 2018.2,
-        "last_price": 2206.3,
-        "last_update": "2026-08-03",
-        "runs_tracked": 4,
-        "forward_return_pct": 9.32,
-        "max_return_pct": 9.32,
-        "min_return_pct": 0.0,
-        "status": "OPEN"
-      },
-      {
         "symbol": "LAURUSLABS.NS",
         "name": "Laurus Labs Ltd.",
         "signal_id": "sig_b402c1e8a8c7",
@@ -240,36 +240,6 @@
         "status": "MATURED"
       },
       {
-        "symbol": "DIVISLAB.NS",
-        "name": "Divi's Laboratories Ltd.",
-        "signal_id": "sig_0696972ea6bd",
-        "label_at_open": "WATCH",
-        "score": 65.4,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-07-30",
-        "entry_price": 7835.0,
-        "last_price": 8469.0,
-        "last_update": "2026-08-03",
-        "runs_tracked": 4,
-        "forward_return_pct": 8.09,
-        "max_return_pct": 8.09,
-        "min_return_pct": 0.0,
-        "status": "OPEN"
-      },
-      {
         "symbol": "FSL.NS",
         "name": "Firstsource Solutions Ltd.",
         "signal_id": "sig_b412aca68b98",
@@ -291,13 +261,13 @@
         "acted": false,
         "entry_date": "2026-07-30",
         "entry_price": 299.62,
-        "last_price": 322.85,
+        "last_price": 323.5,
         "last_update": "2026-08-03",
-        "runs_tracked": 4,
-        "forward_return_pct": 7.75,
-        "max_return_pct": 7.75,
+        "runs_tracked": 5,
+        "forward_return_pct": 7.97,
+        "max_return_pct": 7.97,
         "min_return_pct": 0.0,
-        "status": "OPEN"
+        "status": "MATURED"
       },
       {
         "symbol": "SWIGGY.NS",
@@ -326,6 +296,36 @@
         "runs_tracked": 5,
         "forward_return_pct": 7.71,
         "max_return_pct": 7.85,
+        "min_return_pct": 0.0,
+        "status": "MATURED"
+      },
+      {
+        "symbol": "CHENNPETRO.NS",
+        "name": "Chennai Petroleum Corporation Ltd.",
+        "signal_id": "sig_7236967c2daf",
+        "label_at_open": "WATCH",
+        "score": 65.1,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "mean_reversion",
+          "breakout",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-07-30",
+        "entry_price": 1238.2,
+        "last_price": 1329.6,
+        "last_update": "2026-08-03",
+        "runs_tracked": 5,
+        "forward_return_pct": 7.38,
+        "max_return_pct": 7.38,
         "min_return_pct": 0.0,
         "status": "MATURED"
       },
@@ -362,25 +362,17 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-08-03T14:22:04+05:30",
+    "as_of": "2026-08-03T16:16:43+05:30",
     "ready": true,
-    "points": 98,
+    "points": 99,
     "from_date": "2026-06-23",
     "to_date": "2026-08-03",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -4.25,
-    "portfolio_return_pct": 0.18,
-    "outperformance_pct": 4.43,
+    "benchmark_return_pct": -4.21,
+    "portfolio_return_pct": -0.46,
+    "outperformance_pct": 3.75,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-07-06",
-        "ts": "2026-07-06T15:38:24+05:30",
-        "checkpoint": "close",
-        "nifty_close": 24430.349609375,
-        "portfolio_total": 10091.5,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-07-06",
         "ts": "2026-07-06T18:29:08+05:30",
@@ -852,6 +844,14 @@
         "nifty_close": 24581.30078125,
         "portfolio_total": 10017.9,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-08-03",
+        "ts": "2026-08-03T16:16:43+05:30",
+        "checkpoint": "close",
+        "nifty_close": 24593.150390625,
+        "portfolio_total": 9953.9,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -860,57 +860,57 @@
       {
         "strategy": "mean_reversion",
         "episodes": 3066,
-        "wins": 1539,
+        "wins": 1547,
         "avg_forward_return_pct": 0.21,
-        "hit_rate_pct": 50.2,
+        "hit_rate_pct": 50.5,
         "rank": 1
       },
       {
         "strategy": "breakout",
         "episodes": 3066,
-        "wins": 1539,
+        "wins": 1547,
         "avg_forward_return_pct": 0.21,
-        "hit_rate_pct": 50.2,
+        "hit_rate_pct": 50.5,
         "rank": 2
       },
       {
         "strategy": "trend_following",
         "episodes": 3096,
-        "wins": 1551,
+        "wins": 1559,
         "avg_forward_return_pct": 0.2,
-        "hit_rate_pct": 50.1,
+        "hit_rate_pct": 50.4,
         "rank": 3
       },
       {
         "strategy": "relative_strength",
         "episodes": 3096,
-        "wins": 1551,
+        "wins": 1559,
         "avg_forward_return_pct": 0.2,
-        "hit_rate_pct": 50.1,
+        "hit_rate_pct": 50.4,
         "rank": 4
       },
       {
         "strategy": "news_event_risk",
         "episodes": 3096,
-        "wins": 1551,
+        "wins": 1559,
         "avg_forward_return_pct": 0.2,
-        "hit_rate_pct": 50.1,
+        "hit_rate_pct": 50.4,
         "rank": 5
       },
       {
         "strategy": "volatility_risk",
         "episodes": 3096,
-        "wins": 1551,
+        "wins": 1559,
         "avg_forward_return_pct": 0.2,
-        "hit_rate_pct": 50.1,
+        "hit_rate_pct": 50.4,
         "rank": 6
       },
       {
         "strategy": "portfolio_fit",
         "episodes": 3096,
-        "wins": 1551,
+        "wins": 1559,
         "avg_forward_return_pct": 0.2,
-        "hit_rate_pct": 50.1,
+        "hit_rate_pct": 50.4,
         "rank": 7
       }
     ],
@@ -922,7 +922,7 @@
       {
         "threshold": 70,
         "would_buy_count": 71,
-        "avg_forward_return_pct": 0.04,
+        "avg_forward_return_pct": 0.03,
         "hit_rate_pct": 46.5
       },
       {
@@ -956,16 +956,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 98,
-    "triggers_detected": 349,
-    "escalations_created": 211,
+    "observation_runs": 99,
+    "triggers_detected": 358,
+    "escalations_created": 216,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 120,
     "useful_triggers": 120,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.43,
-    "avg_triggers_per_run": 3.56,
-    "last_run": "2026-07-31T18:18:24+05:30",
+    "alert_noise_score": 0.44,
+    "avg_triggers_per_run": 3.62,
+    "last_run": "2026-08-03T14:24:05+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
