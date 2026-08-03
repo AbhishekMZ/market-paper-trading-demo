@@ -1,33 +1,112 @@
 {
-  "as_of": "2026-07-31T18:18:24+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-03T14:24:05+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "HYUNDAI.NS",
+      "symbol": "BAJAJFINSV.NS",
       "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +7.9% since last observation.",
       "trigger_ids": [
-        "trg_bd69078aa5b2",
-        "trg_212dfdc74a59"
+        "trg_3ce9237c222b",
+        "trg_e7f415ebcace"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "BAJAJFINSV.NS",
+        "score": 70.7,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 70.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=93, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_6df523dca8b6",
-      "created_at": "2026-07-31T18:18:24+05:30",
-      "expires_at": "2026-07-31T18:18:24+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_596379d4c8aa",
+      "created_at": "2026-08-03T14:24:05+05:30",
+      "expires_at": "2026-08-03T14:24:05+05:30"
     },
     {
-      "symbol": "LTFOODS.NS",
+      "symbol": "ANTHEM.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.7% since last observation.",
+      "trigger_ids": [
+        "trg_722760c6a535",
+        "trg_68819611bbcf"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "ANTHEM.NS",
+        "score": 72.6,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 72.6/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_231891ddb4d7",
+      "created_at": "2026-08-03T14:24:05+05:30",
+      "expires_at": "2026-08-03T14:24:05+05:30"
+    },
+    {
+      "symbol": "ESCORTS.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.1% since last observation.",
+      "trigger_ids": [
+        "trg_0b0c1fa3e9cc"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "ESCORTS.NS",
+        "score": 67.8,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_ON",
+        "reason": "Final 67.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=83, portfolio_fit=80, breakout=70.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_128f126f8ae5",
+      "created_at": "2026-08-03T14:24:05+05:30",
+      "expires_at": "2026-08-03T14:24:05+05:30"
+    },
+    {
+      "symbol": "RAINBOW.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Gap +3.0% vs previous close.",
       "trigger_ids": [
-        "trg_485adb7495af"
+        "trg_e569765416a2"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -35,17 +114,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_232f3ff69643",
-      "created_at": "2026-07-31T18:18:24+05:30",
-      "expires_at": "2026-07-31T18:18:24+05:30"
+      "escalation_id": "esc_670e876f69a3",
+      "created_at": "2026-08-03T14:24:05+05:30",
+      "expires_at": "2026-08-03T14:24:05+05:30"
     },
     {
-      "symbol": "M&M.NS",
+      "symbol": "TVSMOTOR.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.5% vs previous close.",
+      "reason": "Gap +2.7% vs previous close.",
       "trigger_ids": [
-        "trg_18fd0e1cfed0"
+        "trg_de00d45110cf"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -53,17 +132,11 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_cc96a1814441",
-      "created_at": "2026-07-31T18:18:24+05:30",
-      "expires_at": "2026-07-31T18:18:24+05:30"
+      "escalation_id": "esc_89cfa76b3daa",
+      "created_at": "2026-08-03T14:24:05+05:30",
+      "expires_at": "2026-08-03T14:24:05+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "HYUNDAI.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }
