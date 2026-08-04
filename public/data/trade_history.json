@@ -1562,5 +1562,22 @@
     "signal_id": "sig_3d1325432a77",
     "timestamp": "2026-08-03T19:17:53+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_350245dac845",
+    "symbol": "UNOMINDA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 8,
+    "filled_quantity": 0,
+    "price": 1222.8,
+    "amount": 9782.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9782.40, have 100.34.",
+    "reason": "Final 72.1/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
+    "signal_id": "sig_071e60fd8b6a",
+    "timestamp": "2026-08-04T15:09:45+05:30",
+    "realized_pnl": 0.0
   }
 ]

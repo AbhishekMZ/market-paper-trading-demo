@@ -1,21 +1,20 @@
 {
-  "as_of": "2026-08-04T13:21:39+05:30",
+  "as_of": "2026-08-04T15:11:50+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "TCS.NS",
+      "symbol": "WIPRO.NS",
       "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +8.9% since last observation.",
+      "reason": "Moved +6.9% since last observation.",
       "trigger_ids": [
-        "trg_9cc722e8613e",
-        "trg_b129ada4afc9"
+        "trg_067ff0459869"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "TCS.NS",
-        "score": 68.6,
+        "symbol": "WIPRO.NS",
+        "score": 62.8,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -25,56 +24,23 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 68.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "reason": "Final 62.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, breakout=70.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_e9ba9ca506df",
-      "created_at": "2026-08-04T13:21:39+05:30",
-      "expires_at": "2026-08-04T13:21:39+05:30"
+      "escalation_id": "esc_3af299170699",
+      "created_at": "2026-08-04T15:11:50+05:30",
+      "expires_at": "2026-08-04T15:11:50+05:30"
     },
     {
-      "symbol": "UNOMINDA.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.2% since last observation.",
-      "trigger_ids": [
-        "trg_f867ecf04101",
-        "trg_9e7959c6c30c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "UNOMINDA.NS",
-        "score": 72.0,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 72.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_6304773eb926",
-      "created_at": "2026-08-04T13:21:39+05:30",
-      "expires_at": "2026-08-04T13:21:39+05:30"
-    },
-    {
-      "symbol": "COLPAL.NS",
+      "symbol": "DIVISLAB.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.9% vs previous close.",
+      "reason": "Gap +4.1% vs previous close.",
       "trigger_ids": [
-        "trg_68fc25f09bad"
+        "trg_faacf01c991d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -82,17 +48,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2f06765cc86a",
-      "created_at": "2026-08-04T13:21:39+05:30",
-      "expires_at": "2026-08-04T13:21:39+05:30"
+      "escalation_id": "esc_5382a24b42e9",
+      "created_at": "2026-08-04T15:11:50+05:30",
+      "expires_at": "2026-08-04T15:11:50+05:30"
     },
     {
-      "symbol": "RAINBOW.NS",
+      "symbol": "NYKAA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.6% vs previous close.",
+      "reason": "Gap -2.7% vs previous close.",
       "trigger_ids": [
-        "trg_150e45e9c3a5"
+        "trg_673b5fb3467a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -100,27 +66,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2e6a0c47dd96",
-      "created_at": "2026-08-04T13:21:39+05:30",
-      "expires_at": "2026-08-04T13:21:39+05:30"
-    },
-    {
-      "symbol": "EMCURE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
-      "trigger_ids": [
-        "trg_00dfb05c78ba"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1f44ee01c4ad",
-      "created_at": "2026-08-04T13:21:39+05:30",
-      "expires_at": "2026-08-04T13:21:39+05:30"
+      "escalation_id": "esc_28bed8751f2f",
+      "created_at": "2026-08-04T15:11:50+05:30",
+      "expires_at": "2026-08-04T15:11:50+05:30"
     }
   ],
   "actions_taken": [],
