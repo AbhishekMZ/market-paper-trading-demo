@@ -1,5 +1,109 @@
 [
   {
+    "symbol": "EMCURE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_94c25a4c8724"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_95ede9197c43",
+    "created_at": "2026-08-04T18:17:51+05:30",
+    "expires_at": "2026-08-04T18:17:51+05:30"
+  },
+  {
+    "symbol": "TVSMOTOR.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.6% vs previous close.",
+    "trigger_ids": [
+      "trg_e33229f60e4f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ffb331c8db57",
+    "created_at": "2026-08-04T18:17:51+05:30",
+    "expires_at": "2026-08-04T18:17:51+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_f88402032d76"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_dbfb8f7199aa",
+    "created_at": "2026-08-04T18:17:51+05:30",
+    "expires_at": "2026-08-04T18:17:51+05:30"
+  },
+  {
+    "symbol": "RKFORGE.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +17.5% since last observation.",
+    "trigger_ids": [
+      "trg_b0951a30de80"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "RKFORGE.NS",
+      "score": 63.0,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_ON",
+      "reason": "Final 63.0/100 -> WATCH [regime RISK_ON]. Top: trend_following=87, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_be8755b58068",
+    "created_at": "2026-08-04T18:17:51+05:30",
+    "expires_at": "2026-08-04T18:17:51+05:30"
+  },
+  {
+    "symbol": "FEDERALBNK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_76a6760473c9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_178decefcbf8",
+    "created_at": "2026-08-04T18:17:51+05:30",
+    "expires_at": "2026-08-04T18:17:51+05:30"
+  },
+  {
     "symbol": "NYKAA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2211,96 +2315,5 @@
     "escalation_id": "esc_4d68ddd5a2d0",
     "created_at": "2026-07-20T14:09:43+05:30",
     "expires_at": "2026-07-20T14:09:43+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_d79bb6a0a914"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_13c5ffbf3707",
-    "created_at": "2026-07-20T14:09:43+05:30",
-    "expires_at": "2026-07-20T14:09:43+05:30"
-  },
-  {
-    "symbol": "PPLPHARMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_1a072425c5f0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9bc209c3a272",
-    "created_at": "2026-07-17T17:42:48+05:30",
-    "expires_at": "2026-07-17T17:42:48+05:30"
-  },
-  {
-    "symbol": "INDIACEM.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_2b165bdb57f1"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_cf72080440d6",
-    "created_at": "2026-07-17T17:42:48+05:30",
-    "expires_at": "2026-07-17T17:42:48+05:30"
-  },
-  {
-    "symbol": "TECHM.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_552632b5a59d",
-      "trg_9a48cfaa7716"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_5ba41d663824",
-    "created_at": "2026-07-17T17:42:48+05:30",
-    "expires_at": "2026-07-17T17:42:48+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_636b9feebeae"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_6c6eacfc0477",
-    "created_at": "2026-07-17T17:42:48+05:30",
-    "expires_at": "2026-07-17T17:42:48+05:30"
   }
 ]
