@@ -1,53 +1,116 @@
 {
-  "as_of": "2026-08-03T19:19:46+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-04T13:21:39+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "FEDERALBNK.NS",
+      "symbol": "TCS.NS",
       "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +8.9% since last observation.",
       "trigger_ids": [
-        "trg_69ceb2c2ad5e",
-        "trg_585aad1a39c2",
-        "trg_6a0af24264d1"
+        "trg_9cc722e8613e",
+        "trg_b129ada4afc9"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "TCS.NS",
+        "score": 68.6,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_33c619ddf426",
-      "created_at": "2026-08-03T19:19:46+05:30",
-      "expires_at": "2026-08-03T19:19:46+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_e9ba9ca506df",
+      "created_at": "2026-08-04T13:21:39+05:30",
+      "expires_at": "2026-08-04T13:21:39+05:30"
     },
     {
-      "symbol": "ZEEL.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "symbol": "UNOMINDA.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.2% since last observation.",
       "trigger_ids": [
-        "trg_3fec09a15efd",
-        "trg_9a43e105b80a"
+        "trg_f867ecf04101",
+        "trg_9e7959c6c30c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "UNOMINDA.NS",
+        "score": 72.0,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 72.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_6304773eb926",
+      "created_at": "2026-08-04T13:21:39+05:30",
+      "expires_at": "2026-08-04T13:21:39+05:30"
+    },
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_68fc25f09bad"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_72486dfffd93",
-      "created_at": "2026-08-03T19:19:46+05:30",
-      "expires_at": "2026-08-03T19:19:46+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_2f06765cc86a",
+      "created_at": "2026-08-04T13:21:39+05:30",
+      "expires_at": "2026-08-04T13:21:39+05:30"
+    },
+    {
+      "symbol": "RAINBOW.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.6% vs previous close.",
+      "trigger_ids": [
+        "trg_150e45e9c3a5"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_2e6a0c47dd96",
+      "created_at": "2026-08-04T13:21:39+05:30",
+      "expires_at": "2026-08-04T13:21:39+05:30"
     },
     {
       "symbol": "EMCURE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.1% vs previous close.",
+      "reason": "Gap +3.3% vs previous close.",
       "trigger_ids": [
-        "trg_115fa4653fd2"
+        "trg_00dfb05c78ba"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -55,58 +118,11 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6d9eae45623d",
-      "created_at": "2026-08-03T19:19:46+05:30",
-      "expires_at": "2026-08-03T19:19:46+05:30"
-    },
-    {
-      "symbol": "TVSMOTOR.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.3% vs previous close.",
-      "trigger_ids": [
-        "trg_3465a6efbe98"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_9ceb0af0eaf6",
-      "created_at": "2026-08-03T19:19:46+05:30",
-      "expires_at": "2026-08-03T19:19:46+05:30"
-    },
-    {
-      "symbol": "BPCL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
-      "trigger_ids": [
-        "trg_ad9b3edbedea"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d0add08bf456",
-      "created_at": "2026-08-03T19:19:46+05:30",
-      "expires_at": "2026-08-03T19:19:46+05:30"
+      "escalation_id": "esc_1f44ee01c4ad",
+      "created_at": "2026-08-04T13:21:39+05:30",
+      "expires_at": "2026-08-04T13:21:39+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "FEDERALBNK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
-    {
-      "symbol": "ZEEL.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }
