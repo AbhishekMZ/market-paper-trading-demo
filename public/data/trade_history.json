@@ -1647,5 +1647,39 @@
     "signal_id": "sig_b5bfd0daa7a1",
     "timestamp": "2026-08-04T18:15:49+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_87dd5ee741c8",
+    "symbol": "UNOMINDA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 8,
+    "filled_quantity": 0,
+    "price": 1245.7,
+    "amount": 9965.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9965.60, have 100.34.",
+    "reason": "Final 72.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=92, trend_following=88, portfolio_fit=80.",
+    "signal_id": "sig_0fe685aad1f9",
+    "timestamp": "2026-08-05T13:22:00+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_3543ffb46961",
+    "symbol": "ASAHIINDIA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 10,
+    "filled_quantity": 0,
+    "price": 917.65,
+    "amount": 9176.5,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9176.50, have 100.34.",
+    "reason": "Final 70.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
+    "signal_id": "sig_b31261569aef",
+    "timestamp": "2026-08-05T13:22:00+05:30",
+    "realized_pnl": 0.0
   }
 ]

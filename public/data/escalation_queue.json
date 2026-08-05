@@ -1,5 +1,123 @@
 [
   {
+    "symbol": "BATAINDIA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_fbe31b643ae7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_9ecab7483d8a",
+    "created_at": "2026-08-05T13:23:56+05:30",
+    "expires_at": "2026-08-05T13:23:56+05:30"
+  },
+  {
+    "symbol": "ENDURANCE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_5609c76eeffd"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_dd24af2ba978",
+    "created_at": "2026-08-05T13:23:56+05:30",
+    "expires_at": "2026-08-05T13:23:56+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_aeb9fe296f44"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_8e5179d42fe3",
+    "created_at": "2026-08-05T13:23:56+05:30",
+    "expires_at": "2026-08-05T13:23:56+05:30"
+  },
+  {
+    "symbol": "HEROMOTOCO.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_49b17b862bc4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HEROMOTOCO.NS",
+      "score": 70.8,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, relative_strength=90, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_bf1567b196ce",
+    "created_at": "2026-08-05T13:23:56+05:30",
+    "expires_at": "2026-08-05T13:23:56+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.6% since last observation.",
+    "trigger_ids": [
+      "trg_54b6aaebdfc3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAILIFE.NS",
+      "score": 65.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=85, portfolio_fit=80, relative_strength=74. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_7e21147b87b7",
+    "created_at": "2026-08-05T13:23:56+05:30",
+    "expires_at": "2026-08-05T13:23:56+05:30"
+  },
+  {
     "symbol": "EMCURE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2223,97 +2341,5 @@
     "escalation_id": "esc_9da055a279fe",
     "created_at": "2026-07-20T15:34:15+05:30",
     "expires_at": "2026-07-20T15:34:15+05:30"
-  },
-  {
-    "symbol": "OIL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.2% vs previous close.",
-    "trigger_ids": [
-      "trg_ee653d4af8b5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_17674119181f",
-    "created_at": "2026-07-20T15:34:15+05:30",
-    "expires_at": "2026-07-20T15:34:15+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_7b387f5690fc",
-      "trg_f4b710c9bddd",
-      "trg_95e33eaea2f4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_0e33bba4ab53",
-    "created_at": "2026-07-20T14:09:43+05:30",
-    "expires_at": "2026-07-20T14:09:43+05:30"
-  },
-  {
-    "symbol": "JIOFIN.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_1384dc6d0b47"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_59b700c65df8",
-    "created_at": "2026-07-20T14:09:43+05:30",
-    "expires_at": "2026-07-20T14:09:43+05:30"
-  },
-  {
-    "symbol": "FEDERALBNK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_87a3f97f0776"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_d9547c06f6eb",
-    "created_at": "2026-07-20T14:09:43+05:30",
-    "expires_at": "2026-07-20T14:09:43+05:30"
-  },
-  {
-    "symbol": "TECHM.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_f2c508c339c8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_4d68ddd5a2d0",
-    "created_at": "2026-07-20T14:09:43+05:30",
-    "expires_at": "2026-07-20T14:09:43+05:30"
   }
 ]
