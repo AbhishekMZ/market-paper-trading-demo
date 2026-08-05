@@ -1,5 +1,152 @@
 [
   {
+    "symbol": "NETWEB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_551bebd04b34"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f773af6fea0b",
+    "created_at": "2026-08-05T18:12:12+05:30",
+    "expires_at": "2026-08-05T18:12:12+05:30"
+  },
+  {
+    "symbol": "DEVYANI.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.5% since last observation.",
+    "trigger_ids": [
+      "trg_74d70cbf8634",
+      "trg_cd6b4c4b2fd3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "DEVYANI.NS",
+      "score": 67.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_2acb3b1bd9b4",
+    "created_at": "2026-08-05T18:12:12+05:30",
+    "expires_at": "2026-08-05T18:12:12+05:30"
+  },
+  {
+    "symbol": "HEG.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.2% since last observation.",
+    "trigger_ids": [
+      "trg_5831ba2fbffb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HEG.NS",
+      "score": 61.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 61.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_a4bf783bbd1d",
+    "created_at": "2026-08-05T18:12:12+05:30",
+    "expires_at": "2026-08-05T18:12:12+05:30"
+  },
+  {
+    "symbol": "EXIDEIND.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.2% since last observation.",
+    "trigger_ids": [
+      "trg_855b6a981b64"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "EXIDEIND.NS",
+      "score": 67.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, relative_strength=82, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_033743d6ee98",
+    "created_at": "2026-08-05T18:12:12+05:30",
+    "expires_at": "2026-08-05T18:12:12+05:30"
+  },
+  {
+    "symbol": "SIEMENS.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.0% since last observation.",
+    "trigger_ids": [
+      "trg_0d91117dc7b0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SIEMENS.NS",
+      "score": 61.5,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_2b404824fcec",
+    "created_at": "2026-08-05T18:12:12+05:30",
+    "expires_at": "2026-08-05T18:12:12+05:30"
+  },
+  {
     "symbol": "SONACOMS.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2266,95 +2413,5 @@
     "escalation_id": "esc_1a95556aeede",
     "created_at": "2026-07-21T13:21:46+05:30",
     "expires_at": "2026-07-21T13:21:46+05:30"
-  },
-  {
-    "symbol": "OIL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.2% vs previous close.",
-    "trigger_ids": [
-      "trg_07b7fa847453"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_3051c32207b0",
-    "created_at": "2026-07-20T18:43:26+05:30",
-    "expires_at": "2026-07-20T18:43:26+05:30"
-  },
-  {
-    "symbol": "HSCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.8% vs previous close.",
-    "trigger_ids": [
-      "trg_b14814a4894c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b3e886752242",
-    "created_at": "2026-07-20T18:43:26+05:30",
-    "expires_at": "2026-07-20T18:43:26+05:30"
-  },
-  {
-    "symbol": "AEGISLOG.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_60c6043c6b8a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a6ef2e7415da",
-    "created_at": "2026-07-20T18:43:26+05:30",
-    "expires_at": "2026-07-20T18:43:26+05:30"
-  },
-  {
-    "symbol": "TECHM.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_1d81cdbf1ef5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_e49ee90ad3a3",
-    "created_at": "2026-07-20T18:43:26+05:30",
-    "expires_at": "2026-07-20T18:43:26+05:30"
-  },
-  {
-    "symbol": "ICICIBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_cca726a45abc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_440ab1952774",
-    "created_at": "2026-07-20T18:43:26+05:30",
-    "expires_at": "2026-07-20T18:43:26+05:30"
   }
 ]
