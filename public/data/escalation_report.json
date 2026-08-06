@@ -1,20 +1,20 @@
 {
-  "as_of": "2026-08-06T13:26:08+05:30",
+  "as_of": "2026-08-06T15:08:26+05:30",
   "checkpoint": "mid",
   "open_escalations": [
     {
-      "symbol": "UNOMINDA.NS",
-      "severity": "MEDIUM",
+      "symbol": "PPLPHARMA.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.2% since last observation.",
+      "reason": "Moved +8.4% since last observation.",
       "trigger_ids": [
-        "trg_b2fd42069e41"
+        "trg_0eee5868fae8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "UNOMINDA.NS",
-        "score": 68.3,
+        "symbol": "PPLPHARMA.NS",
+        "score": 61.5,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -24,65 +24,47 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 68.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, relative_strength=71.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_487c5d44a075",
-      "created_at": "2026-08-06T13:26:08+05:30",
-      "expires_at": "2026-08-06T13:26:08+05:30"
-    },
-    {
-      "symbol": "DEEPAKNTR.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.2% since last observation.",
-      "trigger_ids": [
-        "trg_c5947551fb44"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "DEEPAKNTR.NS",
-        "score": 64.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 64.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_562e3bdc545d",
-      "created_at": "2026-08-06T13:26:08+05:30",
-      "expires_at": "2026-08-06T13:26:08+05:30"
+      "escalation_id": "esc_00067d282263",
+      "created_at": "2026-08-06T15:08:26+05:30",
+      "expires_at": "2026-08-06T15:08:26+05:30"
     },
     {
-      "symbol": "ASTERDM.NS",
-      "severity": "LOW",
+      "symbol": "WELCORP.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Moved +4.6% since last observation.",
       "trigger_ids": [
-        "trg_baab0c543520"
+        "trg_cbf62f61ea15"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "WELCORP.NS",
+        "score": 64.4,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 64.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, relative_strength=77. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7fe1e3844c11",
-      "created_at": "2026-08-06T13:26:08+05:30",
-      "expires_at": "2026-08-06T13:26:08+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_120db1632459",
+      "created_at": "2026-08-06T15:08:26+05:30",
+      "expires_at": "2026-08-06T15:08:26+05:30"
     }
   ],
   "actions_taken": [],

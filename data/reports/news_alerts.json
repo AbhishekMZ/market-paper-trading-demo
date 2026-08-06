@@ -70,5 +70,13 @@
     "symbol": "ICICIBANK.NS",
     "level": "HIGH",
     "ts": "2026-07-17T17:40:50+05:30"
+  },
+  {
+    "key": "SBIN.NS:HIGH",
+    "subject": "[Paper News] HIGH news: SBIN.NS",
+    "body": "Symbol: SBIN.NS (State Bank of India)\nNews risk: HIGH   Sentiment: NEUTRAL\nEvents: REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: State Bank of India, HSBC and ICICI lead India's overseas deposit drive, data shows\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEUTRAL.; [HIGH] State Bank of India, HSBC and ICICI lead India's overseas deposit drive, data shows; [HIGH] State Bank of India's perpetual bond demand seen spurring more issuances, bankers say; [HIGH] Paytm Payments Bank set for winding up after RBI licence revocation; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "SBIN.NS",
+    "level": "HIGH",
+    "ts": "2026-08-06T15:06:33+05:30"
   }
 ]
