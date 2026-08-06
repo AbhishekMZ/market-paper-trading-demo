@@ -1749,5 +1749,22 @@
     "signal_id": "sig_33bfff0f116b",
     "timestamp": "2026-08-05T18:10:10+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_382e95efeeee",
+    "symbol": "TITAN.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4987.3,
+    "amount": 9974.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9974.60, have 100.34.",
+    "reason": "Final 72.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80.",
+    "signal_id": "sig_dbe451a4588c",
+    "timestamp": "2026-08-06T13:24:13+05:30",
+    "realized_pnl": 0.0
   }
 ]
