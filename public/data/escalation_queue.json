@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "TATACAP.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_003e9b9d30e6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_56e7599238fb",
+    "created_at": "2026-08-06T18:15:35+05:30",
+    "expires_at": "2026-08-06T18:15:35+05:30"
+  },
+  {
     "symbol": "WELCORP.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2420,39 +2438,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_9d8020170f23",
-    "created_at": "2026-07-22T13:22:51+05:30",
-    "expires_at": "2026-07-22T13:22:51+05:30"
-  },
-  {
-    "symbol": "NESTLEIND.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.4% since last observation.",
-    "trigger_ids": [
-      "trg_4682fb1b3a63",
-      "trg_c41205581408"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "NESTLEIND.NS",
-      "score": 69.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_OFF",
-      "reason": "Final 69.4/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=97, trend_following=86, portfolio_fit=80.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_b7a3d673f63b",
     "created_at": "2026-07-22T13:22:51+05:30",
     "expires_at": "2026-07-22T13:22:51+05:30"
   }

@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "TATACAP.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap +3.2% vs previous close.",
+    "company_name": "Tata Capital Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 383.79998779296875,
+    "previous_price": null,
+    "change_pct": 3.1998,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_56e7599238fb",
+    "trigger_id": "trg_003e9b9d30e6",
+    "detected_at": "2026-08-06T18:14:44+05:30"
+  },
+  {
     "symbol": "PPLPHARMA.NS",
     "trigger_type": "LARGE_MOVE",
     "severity": "HIGH",
@@ -6277,26 +6298,5 @@
     "created_escalation_id": "esc_3d6aa430e5f9",
     "trigger_id": "trg_1f0405a47616",
     "detected_at": "2026-07-01T17:48:25+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "trigger_type": "HIGH_RISK_NEWS",
-    "severity": "HIGH",
-    "reason": "High-risk adverse news.",
-    "company_name": "HDFC Bank",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 796.1500244140625,
-    "previous_price": null,
-    "change_pct": null,
-    "market_regime": "RISK_ON",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "Block any buy; review if held.",
-    "requires_focused_analysis": false,
-    "blocks_action": true,
-    "created_escalation_id": "esc_30b239cf9f6a",
-    "trigger_id": "trg_6d1b44d4be9b",
-    "detected_at": "2026-07-01T17:48:24+05:30"
   }
 ]

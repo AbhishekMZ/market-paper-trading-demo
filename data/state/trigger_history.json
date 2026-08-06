@@ -8860,5 +8860,26 @@
     "created_escalation_id": "esc_00067d282263",
     "trigger_id": "trg_0eee5868fae8",
     "detected_at": "2026-08-06T15:08:09+05:30"
+  },
+  {
+    "symbol": "TATACAP.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap +3.2% vs previous close.",
+    "company_name": "Tata Capital Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 383.79998779296875,
+    "previous_price": null,
+    "change_pct": 3.1998,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_56e7599238fb",
+    "trigger_id": "trg_003e9b9d30e6",
+    "detected_at": "2026-08-06T18:14:44+05:30"
   }
 ]
