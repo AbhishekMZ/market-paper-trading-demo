@@ -1,14 +1,47 @@
 {
-  "as_of": "2026-08-06T18:15:35+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-07T12:32:49+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
-      "symbol": "TATACAP.NS",
+      "symbol": "EXIDEIND.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.2% since last observation.",
+      "trigger_ids": [
+        "trg_df68d3491e33",
+        "trg_8f88eb34386f"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "EXIDEIND.NS",
+        "score": 69.2,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 69.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_3967bde6e0ef",
+      "created_at": "2026-08-07T12:32:49+05:30",
+      "expires_at": "2026-08-07T12:32:49+05:30"
+    },
+    {
+      "symbol": "DEEPAKNTR.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
+      "reason": "Gap +3.6% vs previous close.",
       "trigger_ids": [
-        "trg_003e9b9d30e6"
+        "trg_b7bfb11a1d06"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +49,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_56e7599238fb",
-      "created_at": "2026-08-06T18:15:35+05:30",
-      "expires_at": "2026-08-06T18:15:35+05:30"
+      "escalation_id": "esc_9aa2705a7840",
+      "created_at": "2026-08-07T12:32:49+05:30",
+      "expires_at": "2026-08-07T12:32:49+05:30"
     }
   ],
   "actions_taken": [],
