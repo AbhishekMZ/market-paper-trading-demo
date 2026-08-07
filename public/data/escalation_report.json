@@ -1,33 +1,14 @@
 {
-  "as_of": "2026-08-07T13:49:52+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-07T16:53:44+05:30",
+  "checkpoint": "close",
   "open_escalations": [
-    {
-      "symbol": "SBIN.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_bea2ed4eef8b",
-        "trg_45d1fa7cddf2"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_504b7e7ab013",
-      "created_at": "2026-08-07T13:49:52+05:30",
-      "expires_at": "2026-08-07T13:49:52+05:30"
-    },
     {
       "symbol": "ETERNAL.NS",
       "severity": "HIGH",
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_626fb438a266"
+        "trg_db4957741405"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -35,17 +16,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_71056009c1f0",
-      "created_at": "2026-08-07T13:49:52+05:30",
-      "expires_at": "2026-08-07T13:49:52+05:30"
+      "escalation_id": "esc_3aab4221fab1",
+      "created_at": "2026-08-07T16:53:44+05:30",
+      "expires_at": "2026-08-07T16:53:44+05:30"
     },
     {
       "symbol": "EXIDEIND.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.0% vs previous close.",
+      "reason": "Gap +3.3% vs previous close.",
       "trigger_ids": [
-        "trg_94d12bd05237"
+        "trg_ad4e2e907dd6"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -53,18 +34,31 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_19b36ac2cc69",
-      "created_at": "2026-08-07T13:49:52+05:30",
-      "expires_at": "2026-08-07T13:49:52+05:30"
+      "escalation_id": "esc_837dde3da81f",
+      "created_at": "2026-08-07T16:53:44+05:30",
+      "expires_at": "2026-08-07T16:53:44+05:30"
+    },
+    {
+      "symbol": "PTCIL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.7% vs previous close.",
+      "trigger_ids": [
+        "trg_b517a803587c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b086ab3fde1a",
+      "created_at": "2026-08-07T16:53:44+05:30",
+      "expires_at": "2026-08-07T16:53:44+05:30"
     }
   ],
   "actions_taken": [],
   "blocked_actions": [
-    {
-      "symbol": "SBIN.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    },
     {
       "symbol": "ETERNAL.NS",
       "blocked_by": "NEWS",

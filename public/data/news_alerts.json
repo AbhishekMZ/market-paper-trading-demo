@@ -1,5 +1,13 @@
 [
   {
+    "key": "SBIN.NS:HIGH",
+    "subject": "[Paper News] HIGH news: SBIN.NS",
+    "body": "Symbol: SBIN.NS (State Bank of India)\nNews risk: HIGH   Sentiment: POSITIVE\nEvents: REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: State Bank of India beats profit view on healthy loan growth, shares rise\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment POSITIVE.; [HIGH] State Bank of India beats profit view on healthy loan growth, shares rise; [HIGH] State Bank of India, HSBC and ICICI lead India's overseas deposit drive, data shows; [HIGH] State Bank of India's perpetual bond demand seen spurring more issuances, bankers say; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "SBIN.NS",
+    "level": "HIGH",
+    "ts": "2026-08-07T16:51:38+05:30"
+  },
+  {
     "key": "LENSKART.NS:HIGH",
     "subject": "[Paper News] HIGH news: LENSKART.NS",
     "body": "Symbol: LENSKART.NS (Lenskart Solutions Ltd.)\nNews risk: HIGH   Sentiment: NEUTRAL\nEvents: REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: Jefferies sees brighter India outlook as credit, capital flows ramp up; removes HDFC Bank in portfolio revamp\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEUTRAL.; [HIGH] Jefferies sees brighter India outlook as credit, capital flows ramp up; removes HDFC Bank in portfolio revamp; [HIGH] SoftBank sells 3% stake in India's Lenskart; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
