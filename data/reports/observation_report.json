@@ -1,34 +1,28 @@
 {
-  "as_of": "2026-08-10T12:25:52+05:30",
-  "checkpoint": "open",
+  "as_of": "2026-08-10T14:03:47+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 3,
-  "escalations": 3,
+  "triggers_this_run": 4,
+  "escalations": 1,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "LENSKART.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
-  "throttled": 0,
+  "blocked_actions": [],
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 114,
-    "triggers_detected": 436,
-    "escalations_created": 267,
+    "observation_runs": 115,
+    "triggers_detected": 440,
+    "escalations_created": 268,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 129,
     "emails_sent_total": 0,
-    "last_run": "2026-08-10T12:25:52+05:30",
+    "last_run": "2026-08-10T14:03:47+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "open",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
@@ -36,16 +30,16 @@
       "UNOMINDA.NS",
       "TITAN.NS",
       "ASTERDM.NS",
+      "ANTHEM.NS",
       "HEROMOTOCO.NS",
-      "BHARATFORG.NS",
-      "AWL.NS",
-      "EMCURE.NS",
-      "DEEPAKNTR.NS",
-      "BRITANNIA.NS",
       "M&M.NS",
+      "GLAXO.NS",
       "MEDANTA.NS",
       "LENSKART.NS",
-      "ANTHEM.NS"
+      "DEEPAKNTR.NS",
+      "TVSMOTOR.NS",
+      "AARTIIND.NS",
+      "LTM.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -60,18 +54,18 @@
         "company_name": "Titan Company Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 5075.0,
+        "price_at_detection": 5076.7001953125,
         "previous_price": null,
-        "change_pct": 2.712,
+        "change_pct": 2.7464,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_52c1e8d50077",
-        "trigger_id": "trg_32b4d5ee9e4a",
-        "detected_at": "2026-08-10T12:24:13+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_3ce33e708320",
+        "detected_at": "2026-08-10T14:02:15+05:30"
       },
       {
         "symbol": "LENSKART.NS",
@@ -81,7 +75,7 @@
         "company_name": "Lenskart Solutions Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 582.6500244140625,
+        "price_at_detection": 581.0,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "NEUTRAL",
@@ -90,65 +84,80 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_58e093afc20e",
-        "trigger_id": "trg_d0e2eac57b49",
-        "detected_at": "2026-08-10T12:25:44+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_2331c237c452",
+        "detected_at": "2026-08-10T14:03:13+05:30"
       },
       {
-        "symbol": "ANTHEM.NS",
+        "symbol": "LTM.NS",
         "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.8% since last observation.",
-        "company_name": "Anthem Biosciences Ltd.",
+        "severity": "HIGH",
+        "reason": "Moved +7.8% since last observation.",
+        "company_name": "LTM Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 859.0999755859375,
+        "price_at_detection": 4789.89990234375,
         "previous_price": null,
-        "change_pct": 4.77,
+        "change_pct": 7.85,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_2a97d97b89c4",
-        "trigger_id": "trg_9f62d4a7b393",
-        "detected_at": "2026-08-10T12:25:52+05:30"
-      }
-    ],
-    "throttled": [],
-    "escalations": [
-      {
-        "symbol": "LENSKART.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_d0e2eac57b49"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_58e093afc20e",
-        "created_at": "2026-08-10T12:25:52+05:30",
-        "expires_at": "2026-08-10T12:25:52+05:30"
+        "created_escalation_id": "esc_c4794442215d",
+        "trigger_id": "trg_44ce9b00bb2c",
+        "detected_at": "2026-08-10T14:03:47+05:30"
       },
       {
-        "symbol": "ANTHEM.NS",
-        "severity": "MEDIUM",
+        "symbol": "LTM.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.8% vs previous close.",
+        "company_name": "LTM Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 4789.89990234375,
+        "previous_price": null,
+        "change_pct": 2.8295,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_c4794442215d",
+        "trigger_id": "trg_c7656db21f1b",
+        "detected_at": "2026-08-10T14:03:47+05:30"
+      }
+    ],
+    "throttled": [
+      {
+        "symbol": "LENSKART.NS",
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "TITAN.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "LTM.NS",
+        "severity": "HIGH",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.8% since last observation.",
+        "reason": "Moved +7.8% since last observation.",
         "trigger_ids": [
-          "trg_9f62d4a7b393"
+          "trg_44ce9b00bb2c",
+          "trg_c7656db21f1b"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "ANTHEM.NS",
-          "score": 69.0,
+          "symbol": "LTM.NS",
+          "score": 68.3,
           "label": "WATCH",
           "previous_label": "WATCH",
           "valid_opportunity": false,
@@ -158,44 +167,20 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": true
+          "reason": "Final 68.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=97, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": false
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_2a97d97b89c4",
-        "created_at": "2026-08-10T12:25:52+05:30",
-        "expires_at": "2026-08-10T12:25:52+05:30"
-      },
-      {
-        "symbol": "TITAN.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.7% vs previous close.",
-        "trigger_ids": [
-          "trg_32b4d5ee9e4a"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_52c1e8d50077",
-        "created_at": "2026-08-10T12:25:52+05:30",
-        "expires_at": "2026-08-10T12:25:52+05:30"
+        "escalation_id": "esc_c4794442215d",
+        "created_at": "2026-08-10T14:03:47+05:30",
+        "expires_at": "2026-08-10T14:03:47+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "LENSKART.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-08-10T12:23:56+05:30"
+    "as_of": "2026-08-10T14:01:57+05:30"
   }
 }
