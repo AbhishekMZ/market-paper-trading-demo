@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-07T16:53:44+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-10T12:25:52+05:30",
+  "checkpoint": "open",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
@@ -10,7 +10,7 @@
   "actions_taken": [],
   "blocked_actions": [
     {
-      "symbol": "ETERNAL.NS",
+      "symbol": "LENSKART.NS",
       "blocked_by": "NEWS",
       "trigger": "HIGH_RISK_NEWS"
     }
@@ -18,34 +18,34 @@
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 113,
-    "triggers_detected": 433,
-    "escalations_created": 264,
+    "observation_runs": 114,
+    "triggers_detected": 436,
+    "escalations_created": 267,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 128,
+    "blocked_actions_from_triggers": 129,
     "emails_sent_total": 0,
-    "last_run": "2026-08-07T16:53:44+05:30",
+    "last_run": "2026-08-10T12:25:52+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "open",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "LALPATHLAB.NS",
-      "AWL.NS",
-      "MEDANTA.NS",
       "UNOMINDA.NS",
-      "WELCORP.NS",
-      "UNIONBANK.NS",
-      "ETERNAL.NS",
-      "EXIDEIND.NS",
-      "IRCTC.NS",
-      "CHOICEIN.NS",
-      "APLAPOLLO.NS",
-      "PTCIL.NS",
-      "AARTIIND.NS"
+      "TITAN.NS",
+      "ASTERDM.NS",
+      "HEROMOTOCO.NS",
+      "BHARATFORG.NS",
+      "AWL.NS",
+      "EMCURE.NS",
+      "DEEPAKNTR.NS",
+      "BRITANNIA.NS",
+      "M&M.NS",
+      "MEDANTA.NS",
+      "LENSKART.NS",
+      "ANTHEM.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -53,14 +53,35 @@
     ],
     "triggers": [
       {
-        "symbol": "ETERNAL.NS",
+        "symbol": "TITAN.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.7% vs previous close.",
+        "company_name": "Titan Company Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 5075.0,
+        "previous_price": null,
+        "change_pct": 2.712,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_52c1e8d50077",
+        "trigger_id": "trg_32b4d5ee9e4a",
+        "detected_at": "2026-08-10T12:24:13+05:30"
+      },
+      {
+        "symbol": "LENSKART.NS",
         "trigger_type": "HIGH_RISK_NEWS",
         "severity": "HIGH",
         "reason": "High-risk adverse news.",
-        "company_name": "Eternal Ltd.",
+        "company_name": "Lenskart Solutions Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 315.0,
+        "price_at_detection": 582.6500244140625,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "NEUTRAL",
@@ -69,62 +90,41 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_3aab4221fab1",
-        "trigger_id": "trg_db4957741405",
-        "detected_at": "2026-08-07T16:52:52+05:30"
+        "created_escalation_id": "esc_58e093afc20e",
+        "trigger_id": "trg_d0e2eac57b49",
+        "detected_at": "2026-08-10T12:25:44+05:30"
       },
       {
-        "symbol": "EXIDEIND.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +3.3% vs previous close.",
-        "company_name": "Exide Industries Ltd.",
+        "symbol": "ANTHEM.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +4.8% since last observation.",
+        "company_name": "Anthem Biosciences Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 490.0,
+        "price_at_detection": 859.0999755859375,
         "previous_price": null,
-        "change_pct": 3.321,
+        "change_pct": 4.77,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
-        "requires_focused_analysis": false,
+        "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_837dde3da81f",
-        "trigger_id": "trg_ad4e2e907dd6",
-        "detected_at": "2026-08-07T16:53:00+05:30"
-      },
-      {
-        "symbol": "PTCIL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +4.7% vs previous close.",
-        "company_name": "PTC Industries Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 19076.0,
-        "previous_price": null,
-        "change_pct": 4.6924,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_b086ab3fde1a",
-        "trigger_id": "trg_b517a803587c",
-        "detected_at": "2026-08-07T16:53:35+05:30"
+        "created_escalation_id": "esc_2a97d97b89c4",
+        "trigger_id": "trg_9f62d4a7b393",
+        "detected_at": "2026-08-10T12:25:52+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
-        "symbol": "ETERNAL.NS",
+        "symbol": "LENSKART.NS",
         "severity": "HIGH",
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_db4957741405"
+          "trg_d0e2eac57b49"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -132,17 +132,49 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_3aab4221fab1",
-        "created_at": "2026-08-07T16:53:44+05:30",
-        "expires_at": "2026-08-07T16:53:44+05:30"
+        "escalation_id": "esc_58e093afc20e",
+        "created_at": "2026-08-10T12:25:52+05:30",
+        "expires_at": "2026-08-10T12:25:52+05:30"
       },
       {
-        "symbol": "EXIDEIND.NS",
+        "symbol": "ANTHEM.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +4.8% since last observation.",
+        "trigger_ids": [
+          "trg_9f62d4a7b393"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "ANTHEM.NS",
+          "score": 69.0,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_2a97d97b89c4",
+        "created_at": "2026-08-10T12:25:52+05:30",
+        "expires_at": "2026-08-10T12:25:52+05:30"
+      },
+      {
+        "symbol": "TITAN.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.3% vs previous close.",
+        "reason": "Gap +2.7% vs previous close.",
         "trigger_ids": [
-          "trg_ad4e2e907dd6"
+          "trg_32b4d5ee9e4a"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -150,38 +182,20 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_837dde3da81f",
-        "created_at": "2026-08-07T16:53:44+05:30",
-        "expires_at": "2026-08-07T16:53:44+05:30"
-      },
-      {
-        "symbol": "PTCIL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.7% vs previous close.",
-        "trigger_ids": [
-          "trg_b517a803587c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_b086ab3fde1a",
-        "created_at": "2026-08-07T16:53:44+05:30",
-        "expires_at": "2026-08-07T16:53:44+05:30"
+        "escalation_id": "esc_52c1e8d50077",
+        "created_at": "2026-08-10T12:25:52+05:30",
+        "expires_at": "2026-08-10T12:25:52+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [
       {
-        "symbol": "ETERNAL.NS",
+        "symbol": "LENSKART.NS",
         "blocked_by": "NEWS",
         "trigger": "HIGH_RISK_NEWS"
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-08-07T16:51:39+05:30"
+    "as_of": "2026-08-10T12:23:56+05:30"
   }
 }

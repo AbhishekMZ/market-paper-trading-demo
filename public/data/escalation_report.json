@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-07T16:53:44+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-10T12:25:52+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
-      "symbol": "ETERNAL.NS",
+      "symbol": "LENSKART.NS",
       "severity": "HIGH",
       "action_type": "BLOCKED_BY_NEWS",
       "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_db4957741405"
+        "trg_d0e2eac57b49"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +16,49 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_3aab4221fab1",
-      "created_at": "2026-08-07T16:53:44+05:30",
-      "expires_at": "2026-08-07T16:53:44+05:30"
+      "escalation_id": "esc_58e093afc20e",
+      "created_at": "2026-08-10T12:25:52+05:30",
+      "expires_at": "2026-08-10T12:25:52+05:30"
     },
     {
-      "symbol": "EXIDEIND.NS",
+      "symbol": "ANTHEM.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.8% since last observation.",
+      "trigger_ids": [
+        "trg_9f62d4a7b393"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "ANTHEM.NS",
+        "score": 69.0,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_2a97d97b89c4",
+      "created_at": "2026-08-10T12:25:52+05:30",
+      "expires_at": "2026-08-10T12:25:52+05:30"
+    },
+    {
+      "symbol": "TITAN.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Gap +2.7% vs previous close.",
       "trigger_ids": [
-        "trg_ad4e2e907dd6"
+        "trg_32b4d5ee9e4a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,33 +66,15 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_837dde3da81f",
-      "created_at": "2026-08-07T16:53:44+05:30",
-      "expires_at": "2026-08-07T16:53:44+05:30"
-    },
-    {
-      "symbol": "PTCIL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.7% vs previous close.",
-      "trigger_ids": [
-        "trg_b517a803587c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b086ab3fde1a",
-      "created_at": "2026-08-07T16:53:44+05:30",
-      "expires_at": "2026-08-07T16:53:44+05:30"
+      "escalation_id": "esc_52c1e8d50077",
+      "created_at": "2026-08-10T12:25:52+05:30",
+      "expires_at": "2026-08-10T12:25:52+05:30"
     }
   ],
   "actions_taken": [],
   "blocked_actions": [
     {
-      "symbol": "ETERNAL.NS",
+      "symbol": "LENSKART.NS",
       "blocked_by": "NEWS",
       "trigger": "HIGH_RISK_NEWS"
     }
