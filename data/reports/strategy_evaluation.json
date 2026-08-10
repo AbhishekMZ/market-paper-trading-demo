@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-10T14:01:55+05:30",
-  "portfolio_max_drawdown_pct": -5.78,
+  "as_of": "2026-08-10T17:16:59+05:30",
+  "portfolio_max_drawdown_pct": -5.66,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 876,
-      "average_score_contribution": 47.3,
+      "avoided_bad_trade_count": 881,
+      "average_score_contribution": 47.0,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 661,
-      "average_score_contribution": 53.2,
+      "avoided_bad_trade_count": 734,
+      "average_score_contribution": 51.9,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 53.2,
+      "average_score_contribution": 53.1,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,8 +83,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1007,
-      "average_score_contribution": 28.4,
+      "avoided_bad_trade_count": 982,
+      "average_score_contribution": 29.0,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },

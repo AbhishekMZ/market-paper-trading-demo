@@ -2293,5 +2293,22 @@
     "signal_id": "sig_d13ed98e1906",
     "timestamp": "2026-08-10T14:01:55+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_09206e4df4af",
+    "symbol": "BELRISE.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 39,
+    "filled_quantity": 0,
+    "price": 252.77,
+    "amount": 9858.03,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9858.03, have 100.34.",
+    "reason": "Final 71.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=95, trend_following=89, portfolio_fit=80.",
+    "signal_id": "sig_bb3b3a5e5687",
+    "timestamp": "2026-08-10T17:16:58+05:30",
+    "realized_pnl": 0.0
   }
 ]
