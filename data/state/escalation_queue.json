@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "LLOYDSME.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.8% vs previous close.",
-    "trigger_ids": [
-      "trg_af3d7393ce30"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f0b75c85d672",
-    "created_at": "2026-07-27T19:20:33+05:30",
-    "expires_at": "2026-07-27T19:20:33+05:30"
-  },
-  {
-    "symbol": "UBL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_57512a763e6f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a585e5b6a6e1",
-    "created_at": "2026-07-28T13:19:59+05:30",
-    "expires_at": "2026-07-28T13:19:59+05:30"
-  },
-  {
     "symbol": "BAJAJFINSV.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2441,5 +2405,56 @@
     "escalation_id": "esc_0f0678539430",
     "created_at": "2026-08-11T12:02:08+05:30",
     "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
+    "symbol": "ANTHEM.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.0% since last observation.",
+    "trigger_ids": [
+      "trg_ddf4e2f46001",
+      "trg_ed578540533a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ANTHEM.NS",
+      "score": 71.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 71.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_7143971100c7",
+    "created_at": "2026-08-11T13:41:18+05:30",
+    "expires_at": "2026-08-11T13:41:18+05:30"
+  },
+  {
+    "symbol": "OIL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_29fd70864565"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e29a4c58d367",
+    "created_at": "2026-08-11T13:41:18+05:30",
+    "expires_at": "2026-08-11T13:41:18+05:30"
   }
 ]
