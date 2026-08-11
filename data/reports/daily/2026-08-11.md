@@ -1,14 +1,14 @@
-# 📄 Paper Trading Report — 2026-08-11 (mid)
+# 📄 Paper Trading Report — 2026-08-11 (close)
 
 > **PAPER TRADING ONLY — fake money. Live trading is DISABLED.**
 
-**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.65%) — neutral regime.
+**Market regime:** `NEUTRAL` — Benchmarks roughly flat (-0.44%) — neutral regime.
 
 ## 💰 Portfolio (fake money)
-- Total value: **INR9,734.30** (started INR10,000.00)
-- Cash: INR100.34 · Holdings: INR9,633.96
-- Realized P&L: INR0.00 · Unrealized: INR-265.70
-- Total return: -2.66% · Max drawdown: -6.25%
+- Total value: **INR9,749.10** (started INR10,000.00)
+- Cash: INR100.34 · Holdings: INR9,648.76
+- Realized P&L: INR0.00 · Unrealized: INR-250.90
+- Total return: -2.51% · Max drawdown: -6.10%
 - Monthly budget: deployed INR0.00 / INR100,000.00 · buys 0/250
 - **Cost-adjusted** net realized: INR0.00 (est. costs INR0.00)
 
@@ -16,471 +16,476 @@
 - None this checkpoint.
 
 ## 👀 Watchlist
-ESCORTS.NS(73.2), TITAN.NS(72.2), AJANTPHARM.NS(72.0), ANTHEM.NS(71.5), IIFL.NS(71.3), TECHM.NS(71.3), POLICYBZR.NS(71.2), ATUL.NS(70.6), DIVISLAB.NS(70.5), ENDURANCE.NS(70.4), UNIONBANK.NS(70.2), UNITDSPR.NS(70.1), BERGEPAINT.NS(70.0), LTTS.NS(69.8), HCLTECH.NS(69.6), OIL.NS(69.6), EMCURE.NS(69.2), NATIONALUM.NS(69.2), ANANDRATHI.NS(69.1), BELRISE.NS(68.9), MINDACORP.NS(68.9), LALPATHLAB.NS(68.8), PPLPHARMA.NS(68.7), BSOFT.NS(68.5), BRITANNIA.NS(68.5), INDGN.NS(68.5), PIDILITIND.NS(68.4), POLYMED.NS(68.4), CARBORUNIV.NS(68.3), SAILIFE.NS(68.3), BAJAJHLDNG.NS(68.2), CLEAN.NS(68.2), LENSKART.NS(68.2), EICHERMOT.NS(68.1), HEG.NS(68.1), RKFORGE.NS(68.1), ASHOKLEY.NS(67.8), ZYDUSLIFE.NS(67.8), CPPLUS.NS(67.7), AARTIIND.NS(67.6), ATHERENERG.NS(67.6), HINDALCO.NS(67.5), SAPPHIRE.NS(67.5), PAYTM.NS(67.4), BALKRISIND.NS(67.3), GRAPHITE.NS(67.2), PERSISTENT.NS(67.0), COHANCE.NS(66.7), INFY.NS(66.7), JINDALSAW.NS(66.7), GLAXO.NS(66.4), SAREGAMA.NS(66.2), MGL.NS(65.9), REDINGTON.NS(65.9), GABRIEL.NS(65.6), MPHASIS.NS(65.6), PNB.NS(65.6), LTM.NS(65.5), RHIM.NS(65.5), AFFLE.NS(65.4), HINDCOPPER.NS(65.4), ZFCVINDIA.NS(65.3), PFIZER.NS(65.1), ECLERX.NS(65.1), BOSCHLTD.NS(65.0), RADICO.NS(65.0), MOTHERSON.NS(65.0), SUMICHEM.NS(64.8), EXIDEIND.NS(64.7), DALBHARAT.NS(64.6), SONATSOFTW.NS(64.3), SCHAEFFLER.NS(64.2), VIJAYA.NS(64.2), AUROPHARMA.NS(64.0), COFORGE.NS(64.0), PARADEEP.NS(63.9), BLS.NS(63.7), TBOTEK.NS(63.7), TCS.NS(63.7), JWL.NS(63.6), FIRSTCRY.NS(63.4), HEROMOTOCO.NS(63.4), M&M.NS(63.3), PIIND.NS(63.0), UNOMINDA.NS(62.8), ASIANPAINT.NS(62.6), HYUNDAI.NS(62.6), BAJAJ-AUTO.NS(62.5), TRAVELFOOD.NS(62.5), BAJAJFINSV.NS(62.4), MCX.NS(62.4), NEULANDLAB.NS(62.4), UBL.NS(62.4), RRKABEL.NS(62.3), CONCOR.NS(62.1), FINCABLES.NS(62.1), IOB.NS(62.0), OLECTRA.NS(61.8), MARUTI.NS(61.7), KPITTECH.NS(61.6), KALYANKJIL.NS(61.6), SIEMENS.NS(61.6), CANBK.NS(61.5), AIAENG.NS(61.4), ITI.NS(61.3), RAMCOCEM.NS(61.2), GAIL.NS(61.1), RBLBANK.NS(61.1), SBICARD.NS(61.1), BRIGADE.NS(61.0), BEML.NS(60.9), HINDZINC.NS(60.8), JPPOWER.NS(60.8), LAURUSLABS.NS(60.8), KPRMILL.NS(60.7), DMART.NS(60.6), NAVINFLUOR.NS(60.5), ETERNAL.NS(60.4), TRENT.NS(60.3), APLAPOLLO.NS(60.2), PTCIL.NS(60.1), CREDITACC.NS(60.0), IDFCFIRSTB.NS(60.0)
+UNITDSPR.NS(74.6), SIEMENS.NS(73.4), ANTHEM.NS(71.6), TITAN.NS(70.8), PERSISTENT.NS(70.5), NATIONALUM.NS(70.1), LTTS.NS(69.8), OIL.NS(69.8), CARBORUNIV.NS(69.7), UBL.NS(69.5), ETERNAL.NS(69.3), DIVISLAB.NS(69.0), ANANDRATHI.NS(68.6), EICHERMOT.NS(68.4), JSWDULUX.NS(68.4), SAILIFE.NS(68.4), HCLTECH.NS(68.3), PNB.NS(68.2), RKFORGE.NS(68.2), LENSKART.NS(68.1), RRKABEL.NS(68.0), ESCORTS.NS(67.8), UNIONBANK.NS(67.8), ATHERENERG.NS(67.6), ENDURANCE.NS(67.6), VIJAYA.NS(67.5), BELRISE.NS(67.4), AARTIIND.NS(67.3), PINELABS.NS(67.2), LTM.NS(66.9), PFIZER.NS(66.9), AUROPHARMA.NS(66.8), COHANCE.NS(66.8), PIDILITIND.NS(66.4), DEEPAKNTR.NS(66.2), PVRINOX.NS(66.2), CLEAN.NS(66.1), MGL.NS(66.1), TCS.NS(66.1), MCX.NS(66.0), BSOFT.NS(65.8), CONCOR.NS(65.8), MPHASIS.NS(65.8), GABRIEL.NS(65.6), SONATSOFTW.NS(65.6), EMCURE.NS(65.5), INFY.NS(65.5), TBOTEK.NS(65.4), BOSCHLTD.NS(65.3), PPLPHARMA.NS(65.2), RADICO.NS(65.2), MOTHERSON.NS(65.2), SCHAEFFLER.NS(65.2), ASHOKLEY.NS(65.1), HINDCOPPER.NS(65.1), MMTC.NS(65.1), ECLERX.NS(65.1), GRAPHITE.NS(64.9), TECHM.NS(64.9), KPIL.NS(64.8), LAURUSLABS.NS(64.8), HEROMOTOCO.NS(64.7), CPPLUS.NS(64.5), ABBOTINDIA.NS(64.3), BAJAJHLDNG.NS(64.3), GLAXO.NS(64.3), BRITANNIA.NS(64.2), PARADEEP.NS(64.1), GAIL.NS(63.9), BLS.NS(63.8), APARINDS.NS(63.7), ZFCVINDIA.NS(63.7), BAJAJFINSV.NS(63.4), JWL.NS(63.4), HINDALCO.NS(63.1), CONCORDBIO.NS(62.7), PAYTM.NS(62.7), ATUL.NS(62.6), HAL.NS(62.4), THELEELA.NS(62.4), NEULANDLAB.NS(62.4), LALPATHLAB.NS(62.2), KARURVYSYA.NS(62.2), COFORGE.NS(61.9), IOB.NS(61.8), CANBK.NS(61.7), HAVELLS.NS(61.6), REDINGTON.NS(61.6), POONAWALLA.NS(61.5), UNOMINDA.NS(61.5), KAJARIACER.NS(61.4), OLECTRA.NS(61.4), INDGN.NS(61.3), APLAPOLLO.NS(61.1), BAJAJ-AUTO.NS(61.1), TMCV.NS(61.1), TMPV.NS(61.1), DALBHARAT.NS(60.9), SAIL.NS(60.8), EXIDEIND.NS(60.6), PIIND.NS(60.5), ASTRAL.NS(60.4), SWIGGY.NS(60.3), BPCL.NS(60.2), COCHINSHIP.NS(60.0)
 
 ## 🚫 Do-not-buy
-ABCAPITAL.NS(49.9), NAUKRI.NS(49.9), ADANIPOWER.NS(49.8), CEMPRO.NS(49.8), NUVAMA.NS(49.8), MAPMYINDIA.NS(49.7), COALINDIA.NS(49.7), IGIL.NS(49.7), USHAMART.NS(49.6), MAHABANK.NS(49.5), CONCORDBIO.NS(49.5), GVT&D.NS(49.5), RAINBOW.NS(49.4), GRSE.NS(49.3), IFCI.NS(49.3), PETRONET.NS(49.3), RAILTEL.NS(49.3), CRISIL.NS(49.2), ICICIAMC.NS(49.2), INOXWIND.NS(49.2), NAM-INDIA.NS(49.2), BBTC.NS(49.1), FACT.NS(49.1), NETWEB.NS(49.1), TATACHEM.NS(49.1), NYKAA.NS(49.0), MUTHOOTFIN.NS(49.0), RECLTD.NS(49.0), VMM.NS(49.0), ADANIENT.NS(48.9), IDBI.NS(48.9), JSWINFRA.NS(48.9), WHIRLPOOL.NS(48.9), IKS.NS(48.8), SUPREMEIND.NS(48.8), YESBANK.NS(48.8), TATASTEEL.NS(48.7), INDHOTEL.NS(48.6), PCBL.NS(48.4), LATENTVIEW.NS(48.3), HBLENGINE.NS(48.1), OFSS.NS(48.1), BATAINDIA.NS(48.0), AMBUJACEM.NS(47.8), TECHNOE.NS(47.8), LINDEINDIA.NS(47.7), CHAMBLFERT.NS(47.6), IRCON.NS(47.5), ANURAS.NS(47.4), APTUS.NS(47.3), GRAVITA.NS(47.3), INDUSINDBK.NS(47.3), WAAREEENER.NS(47.3), ACE.NS(47.2), AEGISVOPAK.NS(47.2), FLUOROCHEM.NS(47.2), IOC.NS(47.2), ZENSARTECH.NS(47.2), ACC.NS(47.0), BSE.NS(47.0), CASTROLIND.NS(47.0), VTL.NS(47.0), CGCL.NS(46.9), RITES.NS(46.9), DABUR.NS(46.8), SUNTV.NS(46.8), TITAGARH.NS(46.8), UPL.NS(46.8), ABREL.NS(46.6), NIACL.NS(46.5), HDFCBANK.NS(46.4), NHPC.NS(46.4), BLUEJET.NS(46.2), ULTRACEMCO.NS(46.2), INDIGO.NS(46.1), PRESTIGE.NS(46.1), PAGEIND.NS(46.0), AMBER.NS(45.9), CEATLTD.NS(45.9), NLCINDIA.NS(45.9), PWL.NS(45.9), BIKAJI.NS(45.8), GROWW.NS(45.7), CANHLIFE.NS(45.6), GODFRYPHLP.NS(45.6), ITCHOTELS.NS(45.6), AIIL.NS(45.5), DCMSHRIRAM.NS(45.5), LLOYDSME.NS(45.5), SOBHA.NS(45.5), IREDA.NS(45.4), VOLTAS.NS(45.4), WOCKPHARMA.NS(45.4), ADANIPORTS.NS(45.3), URBANCO.NS(45.2), ELGIEQUIP.NS(45.1), EMMVEE.NS(45.1), GMRAIRPORT.NS(45.1), ANGELONE.NS(45.0), J&KBANK.NS(45.0), SUNDARMFIN.NS(45.0), CUMMINSIND.NS(44.9), PREMIERENE.NS(44.9), NUVOCO.NS(44.7), TIMKEN.NS(44.6), ADANIGREEN.NS(44.5), APOLLOHOSP.NS(44.5), NTPC.NS(44.5), TTML.NS(44.4), CHOLAHLDNG.NS(44.3), TENNIND.NS(44.3), CRAFTSMAN.NS(44.2), HINDUNILVR.NS(44.2), MANKIND.NS(44.2), NIVABUPA.NS(44.2), AADHARHFC.NS(44.1), DELHIVERY.NS(44.1), HFCL.NS(44.1), HONAUT.NS(44.1), PHOENIXLTD.NS(44.1), RPOWER.NS(44.1), HDFCAMC.NS(44.0), ICICIPRULI.NS(44.0), VBL.NS(44.0), CIEINDIA.NS(43.9), DOMS.NS(43.9), ALKEM.NS(43.6), NBCC.NS(43.6), AAVAS.NS(43.4), HUDCO.NS(43.3), NAVA.NS(43.3), PATANJALI.NS(43.3), TARIL.NS(43.3), GALLANTT.NS(43.2), POWERGRID.NS(43.2), TORNTPOWER.NS(43.1), COLPAL.NS(43.0), FORTIS.NS(43.0), ICICIGI.NS(42.8), SBILIFE.NS(42.7), BHEL.NS(42.6), SPLPETRO.NS(42.6), ELECON.NS(42.5), SHYAMMETL.NS(42.5), JSWCEMENT.NS(42.4), HOMEFIRST.NS(42.3), LEMONTREE.NS(42.0), DLF.NS(41.9), TATACONSUM.NS(41.9), HDFCLIFE.NS(41.6), BANDHANBNK.NS(41.5), TORNTPHARM.NS(41.5), PFC.NS(41.4), SIGNATURE.NS(41.3), SCHNEIDER.NS(41.1), SUZLON.NS(41.1), POWERINDIA.NS(41.0), DEEPAKFERT.NS(40.9), MFSL.NS(40.8), BLUESTARCO.NS(40.6), CROMPTON.NS(40.6), AXISBANK.NS(40.4), JKTYRE.NS(40.3), CGPOWER.NS(40.2), INDIACEM.NS(40.1), LUPIN.NS(40.0), POLYCAB.NS(39.9), JUBLPHARMA.NS(39.5), TATACOMM.NS(39.4), NEWGEN.NS(38.8), THERMAX.NS(38.6), MRF.NS(38.5), WELSPUNLIV.NS(38.4), CUB.NS(38.2), GODREJIND.NS(38.0), TIINDIA.NS(38.0), EIHOTEL.NS(37.9), AEGISLOG.NS(37.7), GODREJPROP.NS(37.5), ACUTAAS.NS(37.3), KIRLOSENG.NS(37.3), NH.NS(37.3), ZYDUSWELL.NS(37.0), ABSLAMC.NS(36.8), EMAMILTD.NS(36.2), GPIL.NS(36.2), SHREECEM.NS(36.2), GODREJCP.NS(35.9), MAXHEALTH.NS(35.4), ABFRL.NS(35.0), CHALET.NS(35.0), BHARATFORG.NS(33.5), JAINREC.NS(33.3), SRF.NS(32.6), GESHIP.NS(32.2), KEC.NS(32.0), ZEEL.NS(31.5), GODIGIT.NS(29.7), TRITURBINE.NS(18.6)
+FLUOROCHEM.NS(49.9), NAUKRI.NS(49.9), NUVAMA.NS(49.8), TATACOMM.NS(49.8), TEGA.NS(49.8), MAPMYINDIA.NS(49.7), INDIGO.NS(49.7), SARDAEN.NS(49.7), TATAELXSI.NS(49.6), DATAPATTNS.NS(49.5), MEESHO.NS(49.4), AEGISVOPAK.NS(49.3), CCL.NS(49.3), IDBI.NS(49.2), IOC.NS(49.2), NCC.NS(49.2), ELGIEQUIP.NS(49.0), INDUSTOWER.NS(49.0), PETRONET.NS(49.0), NH.NS(48.9), CGCL.NS(48.8), ANURAS.NS(48.7), JMFINANCIL.NS(48.7), BANKBARODA.NS(48.6), GRSE.NS(48.5), BHARTIHEXA.NS(48.4), ALKEM.NS(48.3), IKS.NS(48.3), CARTRADE.NS(48.1), IFCI.NS(48.1), MAHABANK.NS(48.0), HSCL.NS(48.0), ABLBL.NS(47.9), FACT.NS(47.9), MOTILALOFS.NS(47.9), NTPC.NS(47.9), TATACHEM.NS(47.9), BLUEJET.NS(47.7), RAINBOW.NS(47.7), IDEA.NS(47.7), BIKAJI.NS(47.6), BBTC.NS(47.5), CRISIL.NS(47.5), JSWINFRA.NS(47.5), J&KBANK.NS(47.5), PREMIERENE.NS(47.5), USHAMART.NS(47.5), CGPOWER.NS(47.3), MINDACORP.NS(47.3), APOLLOHOSP.NS(47.2), DCMSHRIRAM.NS(47.2), NUVOCO.NS(47.2), OBEROIRLTY.NS(47.2), NIACL.NS(47.2), AADHARHFC.NS(47.1), TIMKEN.NS(47.1), ITC.NS(47.0), LLOYDSME.NS(47.0), NLCINDIA.NS(47.0), WAAREEENER.NS(47.0), AIIL.NS(46.9), BATAINDIA.NS(46.9), NATCOPHARM.NS(46.9), ERIS.NS(46.8), ABSLAMC.NS(46.7), INDIAMART.NS(46.7), PCBL.NS(46.7), SAGILITY.NS(46.7), TTML.NS(46.6), UPL.NS(46.6), CASTROLIND.NS(46.5), DABUR.NS(46.5), ENGINERSIN.NS(46.5), MUTHOOTFIN.NS(46.5), ABDL.NS(46.4), CIEINDIA.NS(46.4), PTCIL.NS(46.4), SUNTV.NS(46.3), BSE.NS(46.2), JUBLINGREA.NS(46.2), HDFCBANK.NS(46.1), LINDEINDIA.NS(46.1), NIVABUPA.NS(46.1), AFCONS.NS(46.0), BANDHANBNK.NS(46.0), COLPAL.NS(46.0), MANKIND.NS(45.9), ADANIENT.NS(45.8), FORTIS.NS(45.8), GODREJCP.NS(45.8), SJVN.NS(45.8), GODFRYPHLP.NS(45.6), TORNTPHARM.NS(45.6), ACE.NS(45.5), NAM-INDIA.NS(45.5), UTIAMC.NS(45.5), CEMPRO.NS(45.3), GRAVITA.NS(45.3), HBLENGINE.NS(45.3), JINDALSAW.NS(45.3), CHOLAHLDNG.NS(45.2), GODREJIND.NS(45.2), RHIM.NS(45.2), SCHNEIDER.NS(45.2), ZENSARTECH.NS(45.2), M&MFIN.NS(45.1), CHOICEIN.NS(45.0), CESC.NS(44.9), DOMS.NS(44.9), BLUEDART.NS(44.8), HEXT.NS(44.8), ACC.NS(44.7), ULTRACEMCO.NS(44.7), ADANIPOWER.NS(44.6), BALRAMCHIN.NS(44.6), GROWW.NS(44.5), ICICIAMC.NS(44.5), ADANIPORTS.NS(44.4), AMBER.NS(44.4), CUMMINSIND.NS(44.3), RAMCOCEM.NS(44.3), POWERGRID.NS(44.2), EIHOTEL.NS(44.1), JSWENERGY.NS(44.1), AMBUJACEM.NS(44.0), GALLANTT.NS(44.0), HONAUT.NS(44.0), HDFCLIFE.NS(43.9), HONASA.NS(43.7), IREDA.NS(43.7), INDUSINDBK.NS(43.7), VEDL.NS(43.7), BHEL.NS(43.6), HOMEFIRST.NS(43.6), IRCON.NS(43.5), IGIL.NS(43.4), ELECON.NS(43.3), MFSL.NS(43.3), SUZLON.NS(43.3), GMRAIRPORT.NS(43.2), INTELLECT.NS(43.2), POLYCAB.NS(43.2), INDIACEM.NS(43.1), SOBHA.NS(43.0), NBCC.NS(42.9), ADANIGREEN.NS(42.8), JSWCEMENT.NS(42.8), TORNTPOWER.NS(42.6), PAGEIND.NS(42.4), CHAMBLFERT.NS(42.3), LUPIN.NS(42.2), MRF.NS(42.0), PRESTIGE.NS(42.0), TARIL.NS(41.9), HINDUNILVR.NS(41.6), RAILTEL.NS(41.5), TENNIND.NS(41.4), BLUESTARCO.NS(41.1), DELHIVERY.NS(41.0), POWERINDIA.NS(41.0), LATENTVIEW.NS(41.0), RITES.NS(41.0), ZENTEC.NS(40.9), RPOWER.NS(40.8), ANGELONE.NS(40.6), ICICIGI.NS(40.4), TIINDIA.NS(40.4), SIGNATURE.NS(39.9), SPLPETRO.NS(39.8), CEATLTD.NS(39.7), AAVAS.NS(39.6), SHYAMMETL.NS(39.6), TATACONSUM.NS(39.6), AXISBANK.NS(39.3), PATANJALI.NS(39.3), THERMAX.NS(39.3), DEEPAKFERT.NS(39.2), PHOENIXLTD.NS(39.1), PFC.NS(39.0), SUNDARMFIN.NS(38.9), AEGISLOG.NS(38.8), ITCHOTELS.NS(38.8), CHALET.NS(38.7), DLF.NS(38.4), NAVA.NS(38.0), CROMPTON.NS(37.8), HUDCO.NS(37.2), EMAMILTD.NS(37.1), ACUTAAS.NS(36.7), HDFCAMC.NS(36.6), GPIL.NS(36.4), GODIGIT.NS(36.1), CUB.NS(35.9), KIRLOSENG.NS(35.7), PWL.NS(35.7), VTL.NS(35.7), MAXHEALTH.NS(35.4), JAINREC.NS(35.0), SRF.NS(35.0), NEWGEN.NS(34.8), BHARATFORG.NS(34.6), VBL.NS(34.4), EMMVEE.NS(33.8), SHREECEM.NS(33.1), ABFRL.NS(32.7), GESHIP.NS(32.3), ZYDUSWELL.NS(32.3), WELSPUNLIV.NS(32.1), GODREJPROP.NS(31.2), ZEEL.NS(29.7), TRITURBINE.NS(17.9), KEC.NS(14.7)
 
 ## 🧠 Strategy contribution summary
 - trend_following: avg 44/100 (weight 18)
-- relative_strength: avg 59/100 (weight 20)
-- mean_reversion: avg 47/100 (weight 4)
+- relative_strength: avg 55/100 (weight 20)
+- mean_reversion: avg 46/100 (weight 4)
 - breakout: avg 52/100 (weight 8)
 - news_event_risk: avg 65/100 (weight 14)
-- volatility_risk: avg 30/100 (weight 12)
+- volatility_risk: avg 29/100 (weight 12)
 - portfolio_fit: avg 77/100 (weight 8)
 
 ## ❗ Strategy conflicts
 - ANTHEM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- IIFL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- POLICYBZR.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ATUL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- DIVISLAB.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ENDURANCE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- UNIONBANK.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- NATIONALUM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - LTTS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - OIL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- EMCURE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NATIONALUM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MINDACORP.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LALPATHLAB.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- PPLPHARMA.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BSOFT.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- INDGN.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- POLYMED.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CARBORUNIV.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ETERNAL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- DIVISLAB.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JSWDULUX.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - SAILIFE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BAJAJHLDNG.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
-- CLEAN.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HEG.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - RKFORGE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ASHOKLEY.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- CPPLUS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- AARTIIND.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ATHERENERG.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SAPPHIRE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- PAYTM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BALKRISIND.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GRAPHITE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- COHANCE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- INFY.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JINDALSAW.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SAREGAMA.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- REDINGTON.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GABRIEL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MPHASIS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LTM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- RHIM.NS: Disagreement: ['relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- AFFLE.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HINDCOPPER.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ZFCVINDIA.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ECLERX.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BOSCHLTD.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- MOTHERSON.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SUMICHEM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- EXIDEIND.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SONATSOFTW.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- VIJAYA.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- COFORGE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- PARADEEP.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BLS.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TBOTEK.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TCS.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JWL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HEROMOTOCO.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HYUNDAI.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BAJAJ-AUTO.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- TRAVELFOOD.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BAJAJFINSV.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MCX.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NEULANDLAB.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
 - RRKABEL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- UNIONBANK.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ATHERENERG.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- VIJAYA.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- AARTIIND.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- PINELABS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- LTM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- COHANCE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- PVRINOX.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CLEAN.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TCS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MCX.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BSOFT.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CONCOR.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- FINCABLES.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MARUTI.NS: Disagreement: ['trend_following', 'relative_strength'] positive vs ['portfolio_fit'] negative.
-- KPITTECH.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- KALYANKJIL.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ITI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BRIGADE.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BEML.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HINDZINC.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JPPOWER.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LAURUSLABS.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- KPRMILL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NAVINFLUOR.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ETERNAL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- APLAPOLLO.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- PTCIL.NS: Disagreement: ['trend_following', 'breakout'] positive vs ['portfolio_fit'] negative.
-- CREDITACC.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- CAPLIPOINT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MAZDOCK.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HAVELLS.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- MEESHO.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TATACAP.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MPHASIS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GABRIEL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SONATSOFTW.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- EMCURE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- INFY.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TBOTEK.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BOSCHLTD.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- PPLPHARMA.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MOTHERSON.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ASHOKLEY.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- HINDCOPPER.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ECLERX.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GRAPHITE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- LAURUSLABS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- HEROMOTOCO.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CPPLUS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ABBOTINDIA.NS: Disagreement: ['relative_strength'] positive vs ['portfolio_fit'] negative.
+- BAJAJHLDNG.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
+- PARADEEP.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GAIL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BLS.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - APARINDS.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- KAJARIACER.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- IEX.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JYOTICNC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TMCV.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GRASIM.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GLENMARK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- 360ONE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TVSMOTOR.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ABBOTINDIA.NS: Disagreement: ['relative_strength', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
-- MANAPPURAM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- FIVESTAR.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ASTRAL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- CARTRADE.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ZFCVINDIA.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BAJAJFINSV.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CONCORDBIO.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- PAYTM.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ATUL.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- THELEELA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- NEULANDLAB.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- LALPATHLAB.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- KARURVYSYA.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- COFORGE.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- REDINGTON.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - POONAWALLA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BANKINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- JIOFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- DRREDDY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- FSL.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- INDGN.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- APLAPOLLO.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BAJAJ-AUTO.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- TMCV.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SAIL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- EXIDEIND.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SWIGGY.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- KALYANKJIL.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - GICRE.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- KPIL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ABDL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GMDCLTD.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LTFOODS.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- CHOLAFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ERIS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- PNBHOUSING.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- URBANCO.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BRIGADE.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- KEI.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- IEX.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - LGEINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ENRIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NESTLEIND.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- JSWSTEEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- JUBLFOOD.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MSUMI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- WELCORP.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ENGINERSIN.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GRANULES.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HDBFS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- MAZDOCK.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- DMART.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BEML.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GLENMARK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- FIRSTCRY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- WELCORP.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ANANTRAJ.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SUMICHEM.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SHRIRAMFIN.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BIOCON.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JPPOWER.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- HEG.NS: Disagreement: ['trend_following', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- IIFL.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- LTFOODS.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- STARHEALTH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- CHOLAFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- FSL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - SWANCORP.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- BANKINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- DRREDDY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JIOFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- KPITTECH.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- 360ONE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ABB.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MMTC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- SHRIRAMFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SYRMA.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ASTERDM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- FEDERALBNK.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- UCOBANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ASAHIINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- CANFINHOME.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- IDEA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- KARURVYSYA.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SWIGGY.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JBMA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- KFINTECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ITC.NS: Disagreement: ['mean_reversion', 'volatility_risk'] positive vs ['portfolio_fit'] negative.
-- KEI.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- JSL.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- LTF.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ONGC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- OLAELEC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SONACOMS.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- TRIDENT.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- AWL.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- OBEROIRLTY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- CDSL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- INDIAMART.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- IPCALAB.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- JUBLINGREA.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NATCOPHARM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BAJFINANCE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BIOCON.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MEDANTA.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- SAIL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- THELEELA.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ZENTEC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- IRB.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- TATATECH.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- NSLNISP.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- SYNGENE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- DIXON.NS: Disagreement: ['trend_following'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- M&MFIN.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- BALRAMCHIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- JBCHEPHARM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- JINDALSTEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- UTIAMC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- INDUSTOWER.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- RVNL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- IRFC.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- SCI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ATGL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- PVRINOX.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ANANTRAJ.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BAJAJHFL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- SAREGAMA.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GMDCLTD.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - NTPCGREEN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TEJASNET.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- VEDL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- KAYNES.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- PGEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- SJVN.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- KPRMILL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- HYUNDAI.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JYOTICNC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ASTERDM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- ENRIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - SOLARINDS.NS: Disagreement: ['trend_following', 'news_event_risk'] positive vs ['portfolio_fit'] negative.
-- AFCONS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- BEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- CENTRALBK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- MOTILALOFS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SAMMAANCAP.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- AUBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ONESOURCE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ACMESOLAR.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CREDITACC.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- HDBFS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TITAGARH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- AUBANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- BERGEPAINT.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- BEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TATACAP.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- FEDERALBNK.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- MSUMI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TVSMOTOR.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- SAMMAANCAP.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- NYKAA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- KAYNES.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CRAFTSMAN.NS: Disagreement: ['trend_following'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- GVT&D.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JSWSTEEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- NAVINFLUOR.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- PNBHOUSING.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- KFINTECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- M&M.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- FIVESTAR.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- VMM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- BALKRISIND.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CDSL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- SYNGENE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- BAJFINANCE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SCI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TRAVELFOOD.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CANHLIFE.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- HINDZINC.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- ABREL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- LTF.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- NSLNISP.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
 - PIRAMALFIN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- CESC.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- TEGA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- JSWENERGY.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- INTELLECT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TATAELXSI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- CCL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- 3MINDIA.NS: Disagreement: ['relative_strength'] positive vs ['trend_following', 'portfolio_fit'] negative.
-- BANKBARODA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- GLAND.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- HSCL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- SAGILITY.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BHARTIHEXA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HEXT.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CAPLIPOINT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JUBLFOOD.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- UCOBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- FORCEMOT.NS: Disagreement: ['relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- NETWEB.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SONACOMS.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- 3MINDIA.NS: Disagreement: ['relative_strength'] positive vs ['portfolio_fit'] negative.
+- ACMESOLAR.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- IPCALAB.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- LEMONTREE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- ONESOURCE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- PGEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JUBLPHARMA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- RVNL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- TRIDENT.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- JKTYRE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- WOCKPHARMA.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- HFCL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- COALINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- ITI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- VOLTAS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- IRB.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- JBCHEPHARM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ATGL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- BAJAJHFL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- RECLTD.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- GRASIM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- IRCTC.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- OLAELEC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- OFSS.NS: Disagreement: ['breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- JBMA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TATATECH.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- BHARTIARTL.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- CENTRALBK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- GILLETTE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- NESTLEIND.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- ABCAPITAL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- JINDALSTEL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- TEJASNET.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- SYRMA.NS: Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- APTUS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - LODHA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- CYIENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- IRFC.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- SUPREMEIND.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- DIXON.NS: Disagreement: ['trend_following', 'mean_reversion'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
+- TECHNOE.NS: Disagreement: ['breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- AWL.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- CANFINHOME.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- GLAND.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- POLICYBZR.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- INDHOTEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ZYDUSLIFE.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ARE&M.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CHENNPETRO.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- DATAPATTNS.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ABLBL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- GILLETTE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- CYIENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- JSWDULUX.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- STARHEALTH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BLUEDART.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- LICI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- MRPL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- PINELABS.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- DEVYANI.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- BAYERCROP.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- LICHSGFIN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ABCAPITAL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- NAUKRI.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- ADANIPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CEMPRO.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NUVAMA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- MAPMYINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- COALINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- IGIL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- MAHABANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- CONCORDBIO.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- GVT&D.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- RAINBOW.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- GRSE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- IFCI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- RAILTEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- CRISIL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ICICIAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- INOXWIND.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NAM-INDIA.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- BBTC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- FACT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- NETWEB.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- TATACHEM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- NYKAA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- MUTHOOTFIN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- RECLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- VMM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ADANIENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- IDBI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- JSWINFRA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- WHIRLPOOL.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- IKS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SUPREMEIND.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- MEDANTA.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- GRANULES.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - YESBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- TATASTEEL.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- INDHOTEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- PCBL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LATENTVIEW.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HBLENGINE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- OFSS.NS: Disagreement: ['breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- BATAINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- AMBUJACEM.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- TECHNOE.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
-- LINDEINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- CHAMBLFERT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- IRCON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- ANURAS.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- APTUS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- GRAVITA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- INDUSINDBK.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- WAAREEENER.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- ACE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- AEGISVOPAK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- FLUOROCHEM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- IOC.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- ZENSARTECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ACC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- BSE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CASTROLIND.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- VTL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CGCL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- RITES.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- DABUR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- SUNTV.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- TITAGARH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- UPL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ABREL.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- NIACL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HDFCBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ASAHIINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- POLYMED.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- FINCABLES.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MRPL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SAPPHIRE.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ADANIENSOL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ICICIPRULI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- INOXWIND.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- LICI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ONGC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- AFFLE.NS: Disagreement: ['trend_following', 'relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- DEVYANI.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MANAPPURAM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
 - NHPC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- BLUEJET.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ULTRACEMCO.NS: Disagreement: ['mean_reversion'] positive vs ['relative_strength', 'portfolio_fit'] negative.
-- INDIGO.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- PRESTIGE.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- AMBER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CEATLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NLCINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- PWL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- BIKAJI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- GROWW.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CANHLIFE.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- GODFRYPHLP.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ITCHOTELS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- AIIL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- DCMSHRIRAM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- LLOYDSME.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'mean_reversion', 'volatility_risk'] negative.
-- SOBHA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- IREDA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- VOLTAS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- WOCKPHARMA.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'mean_reversion', 'volatility_risk'] negative.
-- ADANIPORTS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- URBANCO.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- SBILIFE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- LICHSGFIN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- FLUOROCHEM.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- NAUKRI.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- NUVAMA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- TATACOMM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- TEGA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- MAPMYINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- INDIGO.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TATAELXSI.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- DATAPATTNS.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- MEESHO.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- AEGISVOPAK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CCL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- IDBI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- IOC.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- NCC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength'] negative.
 - ELGIEQUIP.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
-- EMMVEE.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- GMRAIRPORT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- ANGELONE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- INDUSTOWER.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- PETRONET.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- NH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CGCL.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ANURAS.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- JMFINANCIL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BANKBARODA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- GRSE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BHARTIHEXA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ALKEM.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- IKS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CARTRADE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- IFCI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- MAHABANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- HSCL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- ABLBL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- FACT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- MOTILALOFS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- NTPC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- TATACHEM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BLUEJET.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- RAINBOW.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
+- IDEA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BIKAJI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BBTC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- CRISIL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- JSWINFRA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - J&KBANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SUNDARMFIN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- CUMMINSIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- PREMIERENE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NUVOCO.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- TIMKEN.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- ADANIGREEN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- PREMIERENE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- USHAMART.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- CGPOWER.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- MINDACORP.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
 - APOLLOHOSP.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
-- NTPC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- TTML.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- CHOLAHLDNG.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TENNIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CRAFTSMAN.NS: Disagreement: ['trend_following'] positive vs ['relative_strength', 'volatility_risk', 'portfolio_fit'] negative.
-- HINDUNILVR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- MANKIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NIVABUPA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- DCMSHRIRAM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- NUVOCO.NS: Disagreement: ['trend_following', 'mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- OBEROIRLTY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- NIACL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - AADHARHFC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- DELHIVERY.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HFCL.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- PHOENIXLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- RPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- HDFCAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ICICIPRULI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- VBL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- TIMKEN.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- LLOYDSME.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- NLCINDIA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- WAAREEENER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- AIIL.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- BATAINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- NATCOPHARM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ERIS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ABSLAMC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- INDIAMART.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- PCBL.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- SAGILITY.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- TTML.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- UPL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CASTROLIND.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- DABUR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ENGINERSIN.NS: Disagreement: ['trend_following', 'news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- MUTHOOTFIN.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ABDL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - CIEINDIA.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- DOMS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- ALKEM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- NBCC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- AAVAS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- HUDCO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- NAVA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- PATANJALI.NS: Disagreement: ['relative_strength', 'news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TARIL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- GALLANTT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- POWERGRID.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- TORNTPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- FORTIS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- ICICIGI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SBILIFE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- BHEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- SPLPETRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ELECON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SHYAMMETL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- JSWCEMENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- HOMEFIRST.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- LEMONTREE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
-- DLF.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TATACONSUM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- HDFCLIFE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- BANDHANBNK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- TORNTPHARM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- PFC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- SIGNATURE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- PTCIL.NS: Disagreement: ['trend_following'] positive vs ['relative_strength', 'portfolio_fit'] negative.
+- SUNTV.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BSE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JUBLINGREA.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- HDFCBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- LINDEINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- NIVABUPA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- AFCONS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- BANDHANBNK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- MANKIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ADANIENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- FORTIS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- GODREJCP.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- SJVN.NS: Disagreement: ['news_event_risk', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- GODFRYPHLP.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- TORNTPHARM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ACE.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- NAM-INDIA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- UTIAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- CEMPRO.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- GRAVITA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- HBLENGINE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JINDALSAW.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- CHOLAHLDNG.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- GODREJIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- RHIM.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
 - SCHNEIDER.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- ZENSARTECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- M&MFIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- CHOICEIN.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- CESC.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- DOMS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- BLUEDART.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- HEXT.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
+- ACC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ULTRACEMCO.NS: Disagreement: ['mean_reversion'] positive vs ['relative_strength', 'portfolio_fit'] negative.
+- ADANIPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- BALRAMCHIN.NS: Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['relative_strength', 'mean_reversion', 'volatility_risk'] negative.
+- GROWW.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- ICICIAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- ADANIPORTS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- AMBER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- CUMMINSIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- RAMCOCEM.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- POWERGRID.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- EIHOTEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JSWENERGY.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- AMBUJACEM.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- GALLANTT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- HDFCLIFE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- HONASA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- IREDA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- INDUSINDBK.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- VEDL.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- BHEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- HOMEFIRST.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- IRCON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- IGIL.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- ELECON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- MFSL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - SUZLON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- POWERINDIA.NS: Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'volatility_risk', 'portfolio_fit'] negative.
-- DEEPAKFERT.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- MFSL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- GMRAIRPORT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- INTELLECT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- POLYCAB.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- INDIACEM.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- SOBHA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- NBCC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ADANIGREEN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- JSWCEMENT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- TORNTPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- CHAMBLFERT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- LUPIN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
+- PRESTIGE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- TARIL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- HINDUNILVR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- RAILTEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- TENNIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - BLUESTARCO.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CROMPTON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- AXISBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- JKTYRE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- CGPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- INDIACEM.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- LUPIN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- POLYCAB.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- JUBLPHARMA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- TATACOMM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- NEWGEN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- THERMAX.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- WELSPUNLIV.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- CUB.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- GODREJIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- DELHIVERY.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- POWERINDIA.NS: Disagreement: ['trend_following', 'news_event_risk'] positive vs ['relative_strength', 'volatility_risk', 'portfolio_fit'] negative.
+- LATENTVIEW.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- RITES.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
+- ZENTEC.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- RPOWER.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ANGELONE.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ICICIGI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - TIINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- EIHOTEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- SIGNATURE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- SPLPETRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- CEATLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- AAVAS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- SHYAMMETL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- TATACONSUM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- AXISBANK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- PATANJALI.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- THERMAX.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- DEEPAKFERT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- PHOENIXLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- PFC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- SUNDARMFIN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - AEGISLOG.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['relative_strength', 'volatility_risk'] negative.
-- GODREJPROP.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- ACUTAAS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- KIRLOSENG.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- NH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- ZYDUSWELL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- ABSLAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- EMAMILTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- GPIL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- GODREJCP.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- MAXHEALTH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- ABFRL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- ITCHOTELS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - CHALET.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- BHARATFORG.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- DLF.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- NAVA.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- CROMPTON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
+- HUDCO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- EMAMILTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- ACUTAAS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- HDFCAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- GPIL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- GODIGIT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- CUB.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- KIRLOSENG.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- PWL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- VTL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- MAXHEALTH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - JAINREC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - SRF.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- NEWGEN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- BHARATFORG.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- VBL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- EMMVEE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- ABFRL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - GESHIP.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- KEC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'mean_reversion', 'volatility_risk'] negative.
+- ZYDUSWELL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- WELSPUNLIV.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
+- GODREJPROP.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - ZEEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- GODIGIT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - TRITURBINE.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'mean_reversion', 'volatility_risk'] negative.
+- KEC.NS: Disagreement: ['news_event_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'mean_reversion', 'volatility_risk'] negative.
 
 ## 🤔 Why no trade (selected)
-- ESCORTS.NS (WATCH, 73.2): Final 73.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=99, trend_following=82, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- TITAN.NS (WATCH, 72.2): Final 72.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=88, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- AJANTPHARM.NS (WATCH, 72.0): Final 72.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- ANTHEM.NS (WATCH, 71.5): Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
-- IIFL.NS (WATCH, 71.3): Final 71.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
-- TECHM.NS (WATCH, 71.3): Final 71.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=91, trend_following=88, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
-- POLICYBZR.NS (WATCH, 71.2): Final 71.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
-- ATUL.NS (WATCH, 70.6): Final 70.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
+- UNITDSPR.NS (WATCH, 74.6): Final 74.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- SIEMENS.NS (WATCH, 73.4): Final 73.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- ANTHEM.NS (WATCH, 71.6): Final 71.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
+- TITAN.NS (WATCH, 70.8): Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=80, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- PERSISTENT.NS (WATCH, 70.5): Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=90, trend_following=89, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.
+- NATIONALUM.NS (WATCH, 70.1): Final 70.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
+- LTTS.NS (WATCH, 69.8): Final 69.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- OIL.NS (WATCH, 69.8): Final 69.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 10040 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 10542 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
 - No news data available; using a neutral assumption.
-- Share price ₹10256 exceeds per-trade cap ₹10000.
-- Share price ₹11541 exceeds per-trade cap ₹10000.
-- Share price ₹11734 exceeds per-trade cap ₹10000.
-- Share price ₹11794 exceeds per-trade cap ₹10000.
-- Share price ₹11820 exceeds per-trade cap ₹10000.
-- Share price ₹130395 exceeds per-trade cap ₹10000.
-- Share price ₹14061 exceeds per-trade cap ₹10000.
-- Share price ₹14124 exceeds per-trade cap ₹10000.
-- Share price ₹16537 exceeds per-trade cap ₹10000.
-- Share price ₹18280 exceeds per-trade cap ₹10000.
-- Share price ₹18635 exceeds per-trade cap ₹10000.
-- Share price ₹19028 exceeds per-trade cap ₹10000.
-- Share price ₹22766 exceeds per-trade cap ₹10000.
-- Share price ₹25540 exceeds per-trade cap ₹10000.
-- Share price ₹27690 exceeds per-trade cap ₹10000.
-- Share price ₹34915 exceeds per-trade cap ₹10000.
-- Share price ₹36100 exceeds per-trade cap ₹10000.
-- Share price ₹37810 exceeds per-trade cap ₹10000.
-- Share price ₹38610 exceeds per-trade cap ₹10000.
-- Share price ₹45600 exceeds per-trade cap ₹10000.
+- Share price ₹10294 exceeds per-trade cap ₹10000.
+- Share price ₹11550 exceeds per-trade cap ₹10000.
+- Share price ₹11717 exceeds per-trade cap ₹10000.
+- Share price ₹11780 exceeds per-trade cap ₹10000.
+- Share price ₹11896 exceeds per-trade cap ₹10000.
+- Share price ₹131125 exceeds per-trade cap ₹10000.
+- Share price ₹13990 exceeds per-trade cap ₹10000.
+- Share price ₹14023 exceeds per-trade cap ₹10000.
+- Share price ₹16748 exceeds per-trade cap ₹10000.
+- Share price ₹18330 exceeds per-trade cap ₹10000.
+- Share price ₹18770 exceeds per-trade cap ₹10000.
+- Share price ₹18906 exceeds per-trade cap ₹10000.
+- Share price ₹22955 exceeds per-trade cap ₹10000.
+- Share price ₹25510 exceeds per-trade cap ₹10000.
+- Share price ₹28020 exceeds per-trade cap ₹10000.
+- Share price ₹35000 exceeds per-trade cap ₹10000.
+- Share price ₹36115 exceeds per-trade cap ₹10000.
+- Share price ₹37935 exceeds per-trade cap ₹10000.
+- Share price ₹38440 exceeds per-trade cap ₹10000.
+- Share price ₹45185 exceeds per-trade cap ₹10000.
 - 1 data-quality incident(s) this run — see Data Health.
 
 ## 🔭 Future-readiness checklist
