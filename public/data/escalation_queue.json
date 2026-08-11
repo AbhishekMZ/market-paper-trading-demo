@@ -1,5 +1,138 @@
 [
   {
+    "symbol": "ENDURANCE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_7454e45ddbba"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_0f0678539430",
+    "created_at": "2026-08-11T12:02:08+05:30",
+    "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
+    "symbol": "TECHM.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.6% since last observation.",
+    "trigger_ids": [
+      "trg_00966c89d249"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "TECHM.NS",
+      "score": 64.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 64.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, news_event_risk=65.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_e4008672c346",
+    "created_at": "2026-08-11T12:02:08+05:30",
+    "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
+    "symbol": "PPLPHARMA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.5% since last observation.",
+    "trigger_ids": [
+      "trg_f24d7fec9d14"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PPLPHARMA.NS",
+      "score": 64.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 64.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=93, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_f56bbb3333b7",
+    "created_at": "2026-08-11T12:02:08+05:30",
+    "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
+    "symbol": "OIL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.4% since last observation.",
+    "trigger_ids": [
+      "trg_89eee9c04850",
+      "trg_0063d2e13a17"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "OIL.NS",
+      "score": 69.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_7afd163bdf9f",
+    "created_at": "2026-08-11T12:02:08+05:30",
+    "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
+    "symbol": "LENSKART.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_eebda691a05f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_4bf38399c077",
+    "created_at": "2026-08-11T12:02:08+05:30",
+    "expires_at": "2026-08-11T12:02:08+05:30"
+  },
+  {
     "symbol": "LENSKART.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -2308,139 +2441,5 @@
     "escalation_id": "esc_f0b75c85d672",
     "created_at": "2026-07-27T19:20:33+05:30",
     "expires_at": "2026-07-27T19:20:33+05:30"
-  },
-  {
-    "symbol": "SAREGAMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.7% vs previous close.",
-    "trigger_ids": [
-      "trg_016cb0c0834b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_328b650b1b4d",
-    "created_at": "2026-07-27T16:26:45+05:30",
-    "expires_at": "2026-07-27T16:26:45+05:30"
-  },
-  {
-    "symbol": "LALPATHLAB.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.9% vs previous close.",
-    "trigger_ids": [
-      "trg_351bb8b81522"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_56f92fe12e9d",
-    "created_at": "2026-07-27T16:26:45+05:30",
-    "expires_at": "2026-07-27T16:26:45+05:30"
-  },
-  {
-    "symbol": "LLOYDSME.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.8% since last observation.",
-    "trigger_ids": [
-      "trg_6d223a1d4cda",
-      "trg_555c9b35462c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "LLOYDSME.NS",
-      "score": 71.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 71.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_2adfb794456b",
-    "created_at": "2026-07-27T16:26:45+05:30",
-    "expires_at": "2026-07-27T16:26:45+05:30"
-  },
-  {
-    "symbol": "MAPMYINDIA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.2% since last observation.",
-    "trigger_ids": [
-      "trg_6764cb5a65a5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "MAPMYINDIA.NS",
-      "score": 63.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 63.3/100 -> WATCH [regime RISK_ON]. Top: trend_following=88, portfolio_fit=80, relative_strength=78. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_8bfbf8dd1e69",
-    "created_at": "2026-07-27T14:29:33+05:30",
-    "expires_at": "2026-07-27T14:29:33+05:30"
-  },
-  {
-    "symbol": "PPLPHARMA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.0% since last observation.",
-    "trigger_ids": [
-      "trg_ad9c4a3514fb",
-      "trg_81c366c4f7a5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "PPLPHARMA.NS",
-      "score": 52.4,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 52.4/100 -> NO_ACTION [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_0322e9067434",
-    "created_at": "2026-07-27T14:29:33+05:30",
-    "expires_at": "2026-07-27T14:29:33+05:30"
   }
 ]
