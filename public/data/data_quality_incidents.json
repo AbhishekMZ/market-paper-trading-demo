@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-08-12T11:16:36+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 276.79998779296875,
+    "jump_pct": 48.64,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-08-11T15:44:00+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1019,20 +1028,6 @@
   {
     "ts": "2026-07-08T12:06:36+05:30",
     "symbol": "SBIN.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
-  },
-  {
-    "ts": "2026-07-08T12:06:34+05:30",
-    "symbol": "ICICIBANK.NS",
     "issue": "data_insufficient",
     "price_source": "fallback",
     "entry_price": null,

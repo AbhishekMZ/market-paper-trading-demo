@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-08-11T16:52:44+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-12T12:25:08+05:30",
+  "checkpoint": "open",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 5033,
     "matured_episodes": 4533,
     "paper_trades": 2,
-    "distinct_days": 36,
+    "distinct_days": 37,
     "action_rate_pct": 0.0,
     "avg_forward_return_acted_pct": 0.0,
-    "avg_forward_return_not_acted_pct": 0.15,
-    "decision_edge_pct": 0.16,
+    "avg_forward_return_not_acted_pct": 0.09,
+    "decision_edge_pct": 0.13,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": 0.0,
-    "benchmark_outperformance_pct": 2.17,
+    "benchmark_outperformance_pct": 2.52,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
@@ -36,22 +36,22 @@
       },
       {
         "label": "Distinct days",
-        "current": 36,
+        "current": 37,
         "required": 20,
         "done": true
       }
     ],
     "takeaways": [
       "Evidence maturity is 73.3% of the configured minimum sample.",
-      "Decision edge is 0.16% acted vs declined candidates.",
+      "Decision edge is 0.13% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 2.17% vs NIFTY 50.",
-      "Blocks were protective on average (-0.37% forward return avoided).",
-      "Observer has run 118 time(s) with noise score 0.52."
+      "Paper portfolio outperformance is 2.52% vs NIFTY 50.",
+      "Blocks were protective on average (-0.31% forward return avoided).",
+      "Observer has run 119 time(s) with noise score 0.53."
     ],
     "watch_items": [
       "Only 2/10 paper trades so far.",
-      "Top observed strategy so far: trend_following (0.15% avg forward return).",
+      "Top observed strategy so far: trend_following (0.09% avg forward return).",
       "Best observed score threshold so far: 70 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
     ],
@@ -59,7 +59,7 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-08-11T16:52:44+05:30",
+    "as_of": "2026-08-12T12:25:08+05:30",
     "open_episodes": 500,
     "matured_episodes": 4533,
     "total_episodes": 5033,
@@ -72,15 +72,15 @@
       },
       "watch_grade": {
         "count": 564,
-        "rated": 511,
-        "avg_return_pct": -0.13,
+        "rated": 564,
+        "avg_return_pct": -0.11,
         "hit_rate_pct": 42.7
       },
       "low_grade": {
         "count": 4469,
-        "rated": 4055,
-        "avg_return_pct": 0.18,
-        "hit_rate_pct": 48.7
+        "rated": 4469,
+        "avg_return_pct": 0.12,
+        "hit_rate_pct": 47.1
       }
     },
     "acted": {
@@ -91,9 +91,9 @@
     },
     "not_acted": {
       "count": 5033,
-      "rated": 4566,
-      "avg_return_pct": 0.15,
-      "hit_rate_pct": 48.1
+      "rated": 5033,
+      "avg_return_pct": 0.09,
+      "hit_rate_pct": 46.6
     }
   },
   "shadow": {
@@ -105,19 +105,19 @@
     },
     "shadow_candidates": {
       "count": 634,
-      "rated": 579,
-      "avg_return_pct": -0.16,
-      "hit_rate_pct": 42.5
+      "rated": 634,
+      "avg_return_pct": -0.13,
+      "hit_rate_pct": 42.9
     },
     "blocked": {
       "count": 82,
-      "rated": 80,
-      "avg_return_pct": -0.37,
-      "hit_rate_pct": 42.5
+      "rated": 82,
+      "avg_return_pct": -0.31,
+      "hit_rate_pct": 45.1
     },
-    "acted_vs_shadow_edge_pct": 0.16,
+    "acted_vs_shadow_edge_pct": 0.13,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
-    "block_note": "Blocks were protective on average (-0.37% forward return avoided).",
+    "block_note": "Blocks were protective on average (-0.31% forward return avoided).",
     "shadow_examples": [
       {
         "symbol": "ECLERX.NS",
@@ -330,11 +330,11 @@
         "status": "MATURED"
       },
       {
-        "symbol": "CHENNPETRO.NS",
-        "name": "Chennai Petroleum Corporation Ltd.",
-        "signal_id": "sig_7236967c2daf",
+        "symbol": "NATIONALUM.NS",
+        "name": "National Aluminium Co. Ltd.",
+        "signal_id": "sig_5dbd7629e3a5",
         "label_at_open": "WATCH",
-        "score": 65.1,
+        "score": 70.1,
         "checkpoint": "close",
         "contributors": [
           "trend_following",
@@ -349,38 +349,30 @@
         "news_blocked": false,
         "data_quality_verdict": "OK",
         "acted": false,
-        "entry_date": "2026-07-30",
-        "entry_price": 1238.2,
-        "last_price": 1329.6,
-        "last_update": "2026-08-03",
-        "runs_tracked": 5,
-        "forward_return_pct": 7.38,
-        "max_return_pct": 7.38,
+        "entry_date": "2026-08-11",
+        "entry_price": 388.0,
+        "last_price": 417.6,
+        "last_update": "2026-08-12",
+        "runs_tracked": 1,
+        "forward_return_pct": 7.63,
+        "max_return_pct": 7.63,
         "min_return_pct": 0.0,
-        "status": "MATURED"
+        "status": "OPEN"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-08-11T16:52:44+05:30",
+    "as_of": "2026-08-12T12:25:08+05:30",
     "ready": true,
-    "points": 118,
+    "points": 119,
     "from_date": "2026-06-23",
-    "to_date": "2026-08-11",
+    "to_date": "2026-08-12",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -4.68,
-    "portfolio_return_pct": -2.51,
-    "outperformance_pct": 2.17,
+    "benchmark_return_pct": -5.34,
+    "portfolio_return_pct": -2.82,
+    "outperformance_pct": 2.52,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-07-15",
-        "ts": "2026-07-15T13:33:39+05:30",
-        "checkpoint": "mid",
-        "nifty_close": 24069.400390625,
-        "portfolio_total": 10091.5,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-07-15",
         "ts": "2026-07-15T16:36:26+05:30",
@@ -852,6 +844,14 @@
         "nifty_close": 24471.69921875,
         "portfolio_total": 9749.1,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-08-12",
+        "ts": "2026-08-12T12:25:08+05:30",
+        "checkpoint": "open",
+        "nifty_close": 24301.599609375,
+        "portfolio_total": 9718.3,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -859,71 +859,71 @@
     "leaderboard": [
       {
         "strategy": "trend_following",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 1
       },
       {
         "strategy": "relative_strength",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 2
       },
       {
         "strategy": "mean_reversion",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 3
       },
       {
         "strategy": "breakout",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 4
       },
       {
         "strategy": "news_event_risk",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 5
       },
       {
         "strategy": "volatility_risk",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 6
       },
       {
         "strategy": "portfolio_fit",
-        "episodes": 4566,
-        "wins": 2194,
-        "avg_forward_return_pct": 0.15,
-        "hit_rate_pct": 48.1,
+        "episodes": 5033,
+        "wins": 2345,
+        "avg_forward_return_pct": 0.09,
+        "hit_rate_pct": 46.6,
         "rank": 7
       }
     ],
-    "rated_episodes": 4566,
+    "rated_episodes": 5033,
     "note": "Ranked by average forward return of contributing signals. Indicative only; small sample."
   },
   "threshold_analysis": {
     "table": [
       {
         "threshold": 70,
-        "would_buy_count": 138,
-        "avg_forward_return_pct": -0.16,
-        "hit_rate_pct": 40.6
+        "would_buy_count": 143,
+        "avg_forward_return_pct": -0.15,
+        "hit_rate_pct": 39.2
       },
       {
         "threshold": 75,
@@ -951,21 +951,21 @@
       }
     ],
     "best_threshold_observed": 70,
-    "rated_episodes": 4566,
+    "rated_episodes": 5033,
     "auto_tuning": "DISABLED",
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 118,
-    "triggers_detected": 455,
-    "escalations_created": 277,
+    "observation_runs": 119,
+    "triggers_detected": 457,
+    "escalations_created": 279,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 132,
     "useful_triggers": 132,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.52,
-    "avg_triggers_per_run": 3.86,
-    "last_run": "2026-08-11T13:41:18+05:30",
+    "alert_noise_score": 0.53,
+    "avg_triggers_per_run": 3.84,
+    "last_run": "2026-08-11T16:54:37+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -984,7 +984,7 @@
     "progress": {
       "paper_trades": 2,
       "tracked_episodes": 5033,
-      "distinct_days": 36
+      "distinct_days": 37
     },
     "reasons": [
       "Only 2/10 paper trades so far."
