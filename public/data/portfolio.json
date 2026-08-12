@@ -1,12 +1,12 @@
 {
-  "as_of": "2026-08-12T12:25:07+05:30",
+  "as_of": "2026-08-12T13:59:10+05:30",
   "starting_capital": 10000.0,
   "monthly_capital": 10000.0,
   "cash": 100.34,
-  "holdings_value": 9617.96,
-  "total_value": 9718.3,
+  "holdings_value": 9623.56,
+  "total_value": 9723.9,
   "realized_pnl": 0.0,
-  "unrealized_pnl": -281.7,
+  "unrealized_pnl": -276.1,
   "positions": [
     {
       "symbol": "ITC.NS",
@@ -32,10 +32,10 @@
       "quantity": 4,
       "avg_price": 2093.6,
       "invested": 8374.4,
-      "last_price": 2000.3,
-      "current_value": 8001.2,
-      "unrealized_pnl": -373.2,
-      "unrealized_pnl_pct": -4.46,
+      "last_price": 2001.7,
+      "current_value": 8006.8,
+      "unrealized_pnl": -367.6,
+      "unrealized_pnl_pct": -4.39,
       "bot_owned": true,
       "opened_at": "2026-07-21T13:19:43+05:30",
       "signal_id": "sig_bdb083d1d500",
@@ -45,5 +45,5 @@
   ],
   "closed_positions": [],
   "peak_total_value": 10382.7,
-  "max_drawdown_pct": -6.4
+  "max_drawdown_pct": -6.35
 }
