@@ -1,14 +1,32 @@
 {
-  "as_of": "2026-08-12T14:01:35+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-12T17:03:24+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "BERGEPAINT.NS",
+      "symbol": "UNITDSPR.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_797267ab0af5"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_6b678e5d65af",
+      "created_at": "2026-08-12T17:03:24+05:30",
+      "expires_at": "2026-08-12T17:03:24+05:30"
+    },
+    {
+      "symbol": "PNB.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.9% vs previous close.",
+      "reason": "Gap +4.3% vs previous close.",
       "trigger_ids": [
-        "trg_b066916809ca"
+        "trg_fc9519bcfaf3"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,11 +34,35 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_34b9f5eb87a5",
-      "created_at": "2026-08-12T14:01:35+05:30",
-      "expires_at": "2026-08-12T14:01:35+05:30"
+      "escalation_id": "esc_818e84af564f",
+      "created_at": "2026-08-12T17:03:24+05:30",
+      "expires_at": "2026-08-12T17:03:24+05:30"
+    },
+    {
+      "symbol": "ATHERENERG.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_dced45f90203"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_25938a0e4073",
+      "created_at": "2026-08-12T17:03:24+05:30",
+      "expires_at": "2026-08-12T17:03:24+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "UNITDSPR.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
