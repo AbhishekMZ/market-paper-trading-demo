@@ -2429,5 +2429,22 @@
     "signal_id": "sig_c29133a637ee",
     "timestamp": "2026-08-12T17:01:27+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_ab06d44a0016",
+    "symbol": "BATAINDIA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 13,
+    "filled_quantity": 0,
+    "price": 733.45,
+    "amount": 9534.85,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9534.85, have 100.34.",
+    "reason": "Final 71.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, portfolio_fit=80.",
+    "signal_id": "sig_fedb465c71de",
+    "timestamp": "2026-08-13T12:27:58+05:30",
+    "realized_pnl": 0.0
   }
 ]

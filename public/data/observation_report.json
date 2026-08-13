@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-12T17:03:24+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-13T12:29:59+05:30",
+  "checkpoint": "open",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
@@ -10,7 +10,7 @@
   "actions_taken": [],
   "blocked_actions": [
     {
-      "symbol": "UNITDSPR.NS",
+      "symbol": "SBIN.NS",
       "blocked_by": "NEWS",
       "trigger": "HIGH_RISK_NEWS"
     }
@@ -18,34 +18,34 @@
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 122,
-    "triggers_detected": 466,
-    "escalations_created": 287,
+    "observation_runs": 123,
+    "triggers_detected": 469,
+    "escalations_created": 290,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 134,
+    "blocked_actions_from_triggers": 135,
     "emails_sent_total": 0,
-    "last_run": "2026-08-12T17:03:24+05:30",
+    "last_run": "2026-08-13T12:29:59+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "close",
+    "checkpoint": "open",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "UNITDSPR.NS",
-      "SIEMENS.NS",
-      "TITAN.NS",
-      "OIL.NS",
-      "DIVISLAB.NS",
-      "EICHERMOT.NS",
-      "SAILIFE.NS",
-      "HCLTECH.NS",
+      "INDIANB.NS",
       "PNB.NS",
-      "LENSKART.NS",
-      "ESCORTS.NS",
+      "PFIZER.NS",
       "UNIONBANK.NS",
-      "ATHERENERG.NS"
+      "AARTIIND.NS",
+      "UBL.NS",
+      "SAILIFE.NS",
+      "MINDACORP.NS",
+      "SBIN.NS",
+      "EMCURE.NS",
+      "HEROMOTOCO.NS",
+      "AUROPHARMA.NS",
+      "PIDILITIND.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -53,14 +53,56 @@
     ],
     "triggers": [
       {
-        "symbol": "UNITDSPR.NS",
+        "symbol": "AARTIIND.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved +6.5% since last observation.",
+        "company_name": "Aarti Industries Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 536.7000122070312,
+        "previous_price": null,
+        "change_pct": 6.48,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_c7753e8dfd68",
+        "trigger_id": "trg_d41af4ff0eb0",
+        "detected_at": "2026-08-13T12:28:51+05:30"
+      },
+      {
+        "symbol": "UBL.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved -3.3% since last observation.",
+        "company_name": "United Breweries Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1391.699951171875,
+        "previous_price": null,
+        "change_pct": -3.29,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_fd93c2a5a130",
+        "trigger_id": "trg_590b6a25ac30",
+        "detected_at": "2026-08-13T12:29:00+05:30"
+      },
+      {
+        "symbol": "SBIN.NS",
         "trigger_type": "HIGH_RISK_NEWS",
         "severity": "HIGH",
         "reason": "High-risk adverse news.",
-        "company_name": "United Spirits Ltd.",
+        "company_name": "State Bank of India",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1535.0,
+        "price_at_detection": 1082.800048828125,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "NEUTRAL",
@@ -69,62 +111,52 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_6b678e5d65af",
-        "trigger_id": "trg_797267ab0af5",
-        "detected_at": "2026-08-12T17:01:41+05:30"
-      },
-      {
-        "symbol": "PNB.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +4.3% vs previous close.",
-        "company_name": "Punjab National Bank",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 118.9800033569336,
-        "previous_price": null,
-        "change_pct": 4.341,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_818e84af564f",
-        "trigger_id": "trg_fc9519bcfaf3",
-        "detected_at": "2026-08-12T17:02:51+05:30"
-      },
-      {
-        "symbol": "ATHERENERG.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.9% vs previous close.",
-        "company_name": "Ather Energy Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1569.4000244140625,
-        "previous_price": null,
-        "change_pct": 2.8845,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_25938a0e4073",
-        "trigger_id": "trg_dced45f90203",
-        "detected_at": "2026-08-12T17:03:24+05:30"
+        "created_escalation_id": "esc_6ee37110fdfe",
+        "trigger_id": "trg_aeed551630f4",
+        "detected_at": "2026-08-13T12:29:25+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
-        "symbol": "UNITDSPR.NS",
+        "symbol": "AARTIIND.NS",
+        "severity": "HIGH",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +6.5% since last observation.",
+        "trigger_ids": [
+          "trg_d41af4ff0eb0"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "AARTIIND.NS",
+          "score": 64.2,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 64.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_c7753e8dfd68",
+        "created_at": "2026-08-13T12:29:59+05:30",
+        "expires_at": "2026-08-13T12:29:59+05:30"
+      },
+      {
+        "symbol": "SBIN.NS",
         "severity": "HIGH",
         "action_type": "BLOCKED_BY_NEWS",
         "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_797267ab0af5"
+          "trg_aeed551630f4"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -132,17 +164,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_6b678e5d65af",
-        "created_at": "2026-08-12T17:03:24+05:30",
-        "expires_at": "2026-08-12T17:03:24+05:30"
+        "escalation_id": "esc_6ee37110fdfe",
+        "created_at": "2026-08-13T12:29:59+05:30",
+        "expires_at": "2026-08-13T12:29:59+05:30"
       },
       {
-        "symbol": "PNB.NS",
-        "severity": "LOW",
+        "symbol": "UBL.NS",
+        "severity": "MEDIUM",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.3% vs previous close.",
+        "reason": "Moved -3.3% since last observation.",
         "trigger_ids": [
-          "trg_fc9519bcfaf3"
+          "trg_590b6a25ac30"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -150,38 +182,20 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_818e84af564f",
-        "created_at": "2026-08-12T17:03:24+05:30",
-        "expires_at": "2026-08-12T17:03:24+05:30"
-      },
-      {
-        "symbol": "ATHERENERG.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.9% vs previous close.",
-        "trigger_ids": [
-          "trg_dced45f90203"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_25938a0e4073",
-        "created_at": "2026-08-12T17:03:24+05:30",
-        "expires_at": "2026-08-12T17:03:24+05:30"
+        "escalation_id": "esc_fd93c2a5a130",
+        "created_at": "2026-08-13T12:29:59+05:30",
+        "expires_at": "2026-08-13T12:29:59+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [
       {
-        "symbol": "UNITDSPR.NS",
+        "symbol": "SBIN.NS",
         "blocked_by": "NEWS",
         "trigger": "HIGH_RISK_NEWS"
       }
     ],
     "emails_sent": 0,
-    "as_of": "2026-08-12T17:01:29+05:30"
+    "as_of": "2026-08-13T12:28:00+05:30"
   }
 }
