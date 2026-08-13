@@ -1,5 +1,14 @@
 [
   {
+    "ts": "2026-08-13T15:52:57+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 278.5,
+    "jump_pct": 48.32,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
     "ts": "2026-08-13T12:51:05+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1004,19 +1013,5 @@
       "price source changed today: fallback -> history.close."
     ],
     "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-07-08T12:06:44+05:30",
-    "symbol": "AXISBANK.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
   }
 ]
