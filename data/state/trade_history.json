@@ -2446,5 +2446,39 @@
     "signal_id": "sig_fedb465c71de",
     "timestamp": "2026-08-13T12:27:58+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_adc1a4f34500",
+    "symbol": "BDL.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1369.5,
+    "amount": 9586.5,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9586.50, have 100.34.",
+    "reason": "Final 72.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
+    "signal_id": "sig_fe15c745620a",
+    "timestamp": "2026-08-13T13:59:26+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_b21123677c2e",
+    "symbol": "TECHM.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 6,
+    "filled_quantity": 0,
+    "price": 1650.2,
+    "amount": 9901.2,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9901.20, have 100.34.",
+    "reason": "Final 70.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=95, trend_following=88, portfolio_fit=80.",
+    "signal_id": "sig_a0f8afc67642",
+    "timestamp": "2026-08-13T13:59:26+05:30",
+    "realized_pnl": 0.0
   }
 ]
