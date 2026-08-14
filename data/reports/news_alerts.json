@@ -102,5 +102,13 @@
     "symbol": "UNITDSPR.NS",
     "level": "HIGH",
     "ts": "2026-08-14T13:57:47+05:30"
+  },
+  {
+    "key": "UNITDSPR.NS:HIGH",
+    "subject": "[Paper News] HIGH news: UNITDSPR.NS",
+    "body": "Symbol: UNITDSPR.NS (United Spirits Ltd.)\nNews risk: HIGH   Sentiment: NEGATIVE\nEvents: REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: Diageo challenges India rum ban, arguing lack of due process\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.; [HIGH] Diageo challenges India rum ban, arguing lack of due process; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "UNITDSPR.NS",
+    "level": "HIGH",
+    "ts": "2026-08-14T16:56:52+05:30"
   }
 ]
