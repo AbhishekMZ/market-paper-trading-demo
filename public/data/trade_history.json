@@ -2888,5 +2888,39 @@
     "signal_id": "sig_59c9545fc80b",
     "timestamp": "2026-08-17T13:23:19+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_a024ac98b635",
+    "symbol": "UNOMINDA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1264.0,
+    "amount": 8848.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8848.00, have 100.34.",
+    "reason": "Final 71.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80.",
+    "signal_id": "sig_f4602ea55c46",
+    "timestamp": "2026-08-17T16:38:08+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_1f73300c46fe",
+    "symbol": "POLYCAB.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 1,
+    "filled_quantity": 0,
+    "price": 9339.5,
+    "amount": 9339.5,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9339.50, have 100.34.",
+    "reason": "Final 71.2/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, relative_strength=80.",
+    "signal_id": "sig_f39824cbda4f",
+    "timestamp": "2026-08-17T16:38:08+05:30",
+    "realized_pnl": 0.0
   }
 ]

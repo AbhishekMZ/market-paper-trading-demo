@@ -1,5 +1,69 @@
 [
   {
+    "symbol": "SUPREMEIND.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.8% since last observation.",
+    "trigger_ids": [
+      "trg_fdf421025029"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SUPREMEIND.NS",
+      "score": 64.6,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 64.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, breakout=70.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_a0f6c672bc87",
+    "created_at": "2026-08-17T16:40:01+05:30",
+    "expires_at": "2026-08-17T16:40:01+05:30"
+  },
+  {
+    "symbol": "HAL.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.9% since last observation.",
+    "trigger_ids": [
+      "trg_8814b9194149"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HAL.NS",
+      "score": 64.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 64.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, breakout=70.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_81c29f413a0d",
+    "created_at": "2026-08-17T16:40:01+05:30",
+    "expires_at": "2026-08-17T16:40:01+05:30"
+  },
+  {
     "symbol": "LENSKART.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2347,55 +2411,5 @@
     "escalation_id": "esc_1eb9dfac4499",
     "created_at": "2026-07-31T15:28:45+05:30",
     "expires_at": "2026-07-31T15:28:45+05:30"
-  },
-  {
-    "symbol": "SONACOMS.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.3% since last observation.",
-    "trigger_ids": [
-      "trg_452664f74679"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SONACOMS.NS",
-      "score": 61.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_dbe5ce37493b",
-    "created_at": "2026-07-31T15:28:45+05:30",
-    "expires_at": "2026-07-31T15:28:45+05:30"
-  },
-  {
-    "symbol": "SUNPHARMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_f1867c5fbbdb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d8d5be87045c",
-    "created_at": "2026-07-31T13:36:04+05:30",
-    "expires_at": "2026-07-31T13:36:04+05:30"
   }
 ]
