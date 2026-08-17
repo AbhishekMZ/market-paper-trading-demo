@@ -1,111 +1,56 @@
 {
-  "as_of": "2026-08-17T11:36:22+05:30",
-  "checkpoint": "open",
+  "as_of": "2026-08-17T13:25:14+05:30",
+  "checkpoint": "mid",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 1,
-  "escalations": 1,
+  "triggers_this_run": 0,
+  "escalations": 0,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 129,
+    "observation_runs": 130,
     "triggers_detected": 489,
     "escalations_created": 304,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 136,
     "emails_sent_total": 0,
-    "last_run": "2026-08-17T11:36:22+05:30",
+    "last_run": "2026-08-17T13:25:14+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "open",
+    "checkpoint": "mid",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
+      "HAVELLS.NS",
+      "UNITDSPR.NS",
       "LENSKART.NS",
-      "AJANTPHARM.NS",
-      "CESC.NS",
+      "PERSISTENT.NS",
+      "TIMKEN.NS",
       "BHARTIARTL.NS",
+      "CESC.NS",
+      "HEG.NS",
+      "AJANTPHARM.NS",
       "EICHERMOT.NS",
       "MINDACORP.NS",
-      "ELGIEQUIP.NS",
-      "HEG.NS",
-      "GLAND.NS",
       "ASHOKLEY.NS",
-      "JUBLFOOD.NS",
-      "TITAN.NS",
-      "ANANDRATHI.NS"
+      "ESCORTS.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
       "COLPAL.NS"
     ],
-    "triggers": [
-      {
-        "symbol": "LENSKART.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.0% since last observation.",
-        "company_name": "Lenskart Solutions Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 609.9000244140625,
-        "previous_price": null,
-        "change_pct": 4.0,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_bb9717c49312",
-        "trigger_id": "trg_15e325a65e42",
-        "detected_at": "2026-08-17T11:34:41+05:30"
-      }
-    ],
+    "triggers": [],
     "throttled": [],
-    "escalations": [
-      {
-        "symbol": "LENSKART.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.0% since last observation.",
-        "trigger_ids": [
-          "trg_15e325a65e42"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "LENSKART.NS",
-          "score": 62.2,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_bb9717c49312",
-        "created_at": "2026-08-17T11:36:22+05:30",
-        "expires_at": "2026-08-17T11:36:22+05:30"
-      }
-    ],
+    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-08-17T11:34:32+05:30"
+    "as_of": "2026-08-17T13:23:21+05:30"
   }
 }

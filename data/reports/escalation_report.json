@@ -1,40 +1,7 @@
 {
-  "as_of": "2026-08-17T11:36:22+05:30",
-  "checkpoint": "open",
-  "open_escalations": [
-    {
-      "symbol": "LENSKART.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.0% since last observation.",
-      "trigger_ids": [
-        "trg_15e325a65e42"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "LENSKART.NS",
-        "score": 62.2,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_bb9717c49312",
-      "created_at": "2026-08-17T11:36:22+05:30",
-      "expires_at": "2026-08-17T11:36:22+05:30"
-    }
-  ],
+  "as_of": "2026-08-17T13:25:14+05:30",
+  "checkpoint": "mid",
+  "open_escalations": [],
   "actions_taken": [],
   "blocked_actions": []
 }

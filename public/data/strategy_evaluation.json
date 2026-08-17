@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-08-17T11:34:30+05:30",
-  "portfolio_max_drawdown_pct": -7.78,
+  "as_of": "2026-08-17T13:23:20+05:30",
+  "portfolio_max_drawdown_pct": -7.82,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 919,
-      "average_score_contribution": 45.4,
+      "avoided_bad_trade_count": 931,
+      "average_score_contribution": 45.1,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 813,
-      "average_score_contribution": 47.7,
+      "avoided_bad_trade_count": 767,
+      "average_score_contribution": 49.3,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 947,
+      "avoided_bad_trade_count": 955,
       "average_score_contribution": 46.7,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -83,8 +83,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1095,
-      "average_score_contribution": 28.6,
+      "avoided_bad_trade_count": 1081,
+      "average_score_contribution": 28.5,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -97,7 +97,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 74,
+      "avoided_bad_trade_count": 72,
       "average_score_contribution": 77.4,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
