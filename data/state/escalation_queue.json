@@ -1,37 +1,5 @@
 [
   {
-    "symbol": "PERSISTENT.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.8% since last observation.",
-    "trigger_ids": [
-      "trg_5b8b95888405"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "PERSISTENT.NS",
-      "score": 60.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 60.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_0d7b9667e7cf",
-    "created_at": "2026-07-31T13:36:04+05:30",
-    "expires_at": "2026-07-31T13:36:04+05:30"
-  },
-  {
     "symbol": "SUNPHARMA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2397,5 +2365,37 @@
     "escalation_id": "esc_2966a6a00e16",
     "created_at": "2026-08-14T16:58:51+05:30",
     "expires_at": "2026-08-14T16:58:51+05:30"
+  },
+  {
+    "symbol": "LENSKART.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_15e325a65e42"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LENSKART.NS",
+      "score": 62.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_bb9717c49312",
+    "created_at": "2026-08-17T11:36:22+05:30",
+    "expires_at": "2026-08-17T11:36:22+05:30"
   }
 ]

@@ -10246,5 +10246,26 @@
     "created_escalation_id": "esc_2966a6a00e16",
     "trigger_id": "trg_21010d1aced7",
     "detected_at": "2026-08-14T16:58:51+05:30"
+  },
+  {
+    "symbol": "LENSKART.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "MEDIUM",
+    "reason": "Moved +4.0% since last observation.",
+    "company_name": "Lenskart Solutions Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 609.9000244140625,
+    "previous_price": null,
+    "change_pct": 4.0,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": true,
+    "blocks_action": false,
+    "created_escalation_id": "esc_bb9717c49312",
+    "trigger_id": "trg_15e325a65e42",
+    "detected_at": "2026-08-17T11:34:41+05:30"
   }
 ]

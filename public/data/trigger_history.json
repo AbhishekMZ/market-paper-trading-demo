@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "LENSKART.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "MEDIUM",
+    "reason": "Moved +4.0% since last observation.",
+    "company_name": "Lenskart Solutions Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 609.9000244140625,
+    "previous_price": null,
+    "change_pct": 4.0,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": true,
+    "blocks_action": false,
+    "created_escalation_id": "esc_bb9717c49312",
+    "trigger_id": "trg_15e325a65e42",
+    "detected_at": "2026-08-17T11:34:41+05:30"
+  },
+  {
     "symbol": "HONASA.NS",
     "trigger_type": "GAP_MOVE",
     "severity": "LOW",
@@ -6277,26 +6298,5 @@
     "created_escalation_id": "esc_0262bbcf8ba4",
     "trigger_id": "trg_fc06c43a9bad",
     "detected_at": "2026-07-13T13:04:06+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "trigger_type": "HIGH_RISK_NEWS",
-    "severity": "HIGH",
-    "reason": "High-risk adverse news.",
-    "company_name": "HDFC Bank",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 818.9000244140625,
-    "previous_price": null,
-    "change_pct": null,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "Block any buy; review if held.",
-    "requires_focused_analysis": false,
-    "blocks_action": true,
-    "created_escalation_id": "esc_e58b3106c63a",
-    "trigger_id": "trg_82243aed45f4",
-    "detected_at": "2026-07-13T13:04:05+05:30"
   }
 ]
