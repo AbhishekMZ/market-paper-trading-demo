@@ -1,56 +1,5 @@
 [
   {
-    "symbol": "M&M.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.9% since last observation.",
-    "trigger_ids": [
-      "trg_bd53de5b33a6",
-      "trg_69f767097811"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "M&M.NS",
-      "score": 70.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_1eb9dfac4499",
-    "created_at": "2026-07-31T15:28:45+05:30",
-    "expires_at": "2026-07-31T15:28:45+05:30"
-  },
-  {
-    "symbol": "EMCURE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_2ecca4be3734"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_3a5d33235819",
-    "created_at": "2026-07-31T15:28:45+05:30",
-    "expires_at": "2026-07-31T15:28:45+05:30"
-  },
-  {
     "symbol": "HYUNDAI.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -2411,5 +2360,57 @@
     "escalation_id": "esc_a0f6c672bc87",
     "created_at": "2026-08-17T16:40:01+05:30",
     "expires_at": "2026-08-17T16:40:01+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +20.5% since last observation.",
+    "trigger_ids": [
+      "trg_9dab61d93570",
+      "trg_ea97d6f66529"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 67.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_1ac9a11d9df6",
+    "created_at": "2026-08-18T11:30:26+05:30",
+    "expires_at": "2026-08-18T11:30:26+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -8.8% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_712d7c330bb2",
+      "trg_a94b01cc8059"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_22b2e0bf32e7",
+    "created_at": "2026-08-18T11:30:26+05:30",
+    "expires_at": "2026-08-18T11:30:26+05:30"
   }
 ]
