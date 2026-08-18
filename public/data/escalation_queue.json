@@ -1,5 +1,74 @@
 [
   {
+    "symbol": "IFCI.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_48c325f8590d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_461b9a3bbe1c",
+    "created_at": "2026-08-18T16:32:14+05:30",
+    "expires_at": "2026-08-18T16:32:14+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.1% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_7c08d87f718e",
+      "trg_0ca2ffbaacae"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_dbd4e296e1d0",
+    "created_at": "2026-08-18T16:32:14+05:30",
+    "expires_at": "2026-08-18T16:32:14+05:30"
+  },
+  {
+    "symbol": "RKFORGE.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +9.5% since last observation.",
+    "trigger_ids": [
+      "trg_eadf8425332b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "RKFORGE.NS",
+      "score": 58.2,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 58.2/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_348be32e6239",
+    "created_at": "2026-08-18T16:32:14+05:30",
+    "expires_at": "2026-08-18T16:32:14+05:30"
+  },
+  {
     "symbol": "MFSL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2342,74 +2411,5 @@
     "escalation_id": "esc_231891ddb4d7",
     "created_at": "2026-08-03T14:24:05+05:30",
     "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
-    "symbol": "BAJAJFINSV.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.9% since last observation.",
-    "trigger_ids": [
-      "trg_3ce9237c222b",
-      "trg_e7f415ebcace"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "BAJAJFINSV.NS",
-      "score": 70.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 70.7/100 -> WATCH [regime RISK_ON]. Top: relative_strength=93, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_596379d4c8aa",
-    "created_at": "2026-08-03T14:24:05+05:30",
-    "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
-    "symbol": "M&M.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_18fd0e1cfed0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_cc96a1814441",
-    "created_at": "2026-07-31T18:18:24+05:30",
-    "expires_at": "2026-07-31T18:18:24+05:30"
-  },
-  {
-    "symbol": "LTFOODS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_485adb7495af"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_232f3ff69643",
-    "created_at": "2026-07-31T18:18:24+05:30",
-    "expires_at": "2026-07-31T18:18:24+05:30"
   }
 ]
