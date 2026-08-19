@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "RAINBOW.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_e569765416a2"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_670e876f69a3",
-    "created_at": "2026-08-03T14:24:05+05:30",
-    "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
-    "symbol": "TVSMOTOR.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_de00d45110cf"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_89cfa76b3daa",
-    "created_at": "2026-08-03T14:24:05+05:30",
-    "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
     "symbol": "DIVISLAB.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2396,5 +2360,41 @@
     "escalation_id": "esc_d3c5a465b289",
     "created_at": "2026-08-19T11:30:35+05:30",
     "expires_at": "2026-08-19T11:30:35+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -10.1% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_3a11a93b736b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_4569b245075d",
+    "created_at": "2026-08-19T13:16:52+05:30",
+    "expires_at": "2026-08-19T13:16:52+05:30"
+  },
+  {
+    "symbol": "POLICYBZR.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_aa309e1c63bc"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_94edd002c521",
+    "created_at": "2026-08-19T13:16:52+05:30",
+    "expires_at": "2026-08-19T13:16:52+05:30"
   }
 ]

@@ -3109,5 +3109,39 @@
     "signal_id": "sig_4ffec3470ef5",
     "timestamp": "2026-08-19T11:28:37+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_1eeeb23fa18e",
+    "symbol": "WELCORP.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 5,
+    "filled_quantity": 0,
+    "price": 1964.7,
+    "amount": 9823.5,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9823.50, have 100.34.",
+    "reason": "Final 73.2/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80.",
+    "signal_id": "sig_3866231f3f6c",
+    "timestamp": "2026-08-19T13:15:00+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_6ae042f9bec3",
+    "symbol": "PFIZER.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4907.5,
+    "amount": 9815.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9815.00, have 100.34.",
+    "reason": "Final 72.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80.",
+    "signal_id": "sig_af5c20262ca1",
+    "timestamp": "2026-08-19T13:15:00+05:30",
+    "realized_pnl": 0.0
   }
 ]
