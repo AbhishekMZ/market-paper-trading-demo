@@ -1,70 +1,5 @@
 [
   {
-    "symbol": "ANTHEM.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.7% since last observation.",
-    "trigger_ids": [
-      "trg_722760c6a535",
-      "trg_68819611bbcf"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ANTHEM.NS",
-      "score": 72.6,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 72.6/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_231891ddb4d7",
-    "created_at": "2026-08-03T14:24:05+05:30",
-    "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
-    "symbol": "ESCORTS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.1% since last observation.",
-    "trigger_ids": [
-      "trg_0b0c1fa3e9cc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ESCORTS.NS",
-      "score": 67.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 67.8/100 -> WATCH [regime RISK_ON]. Top: trend_following=83, portfolio_fit=80, breakout=70.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_128f126f8ae5",
-    "created_at": "2026-08-03T14:24:05+05:30",
-    "expires_at": "2026-08-03T14:24:05+05:30"
-  },
-  {
     "symbol": "RAINBOW.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2411,5 +2346,55 @@
     "escalation_id": "esc_461b9a3bbe1c",
     "created_at": "2026-08-18T16:32:14+05:30",
     "expires_at": "2026-08-18T16:32:14+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.4% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_4f15827f7a20"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_cd651c1d554a",
+    "created_at": "2026-08-19T11:30:35+05:30",
+    "expires_at": "2026-08-19T11:30:35+05:30"
+  },
+  {
+    "symbol": "LENSKART.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.3% since last observation.",
+    "trigger_ids": [
+      "trg_a0da3267bc63"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LENSKART.NS",
+      "score": 68.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, relative_strength=79.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_d3c5a465b289",
+    "created_at": "2026-08-19T11:30:35+05:30",
+    "expires_at": "2026-08-19T11:30:35+05:30"
   }
 ]
