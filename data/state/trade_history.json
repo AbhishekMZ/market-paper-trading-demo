@@ -3143,5 +3143,22 @@
     "signal_id": "sig_af5c20262ca1",
     "timestamp": "2026-08-19T13:15:00+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_59541234c9e7",
+    "symbol": "PFIZER.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4923.8,
+    "amount": 9847.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9847.60, have 100.34.",
+    "reason": "Final 71.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
+    "signal_id": "sig_fe8bafc3d62d",
+    "timestamp": "2026-08-19T16:28:58+05:30",
+    "realized_pnl": 0.0
   }
 ]
