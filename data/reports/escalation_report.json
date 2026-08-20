@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-19T16:31:03+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-20T11:30:38+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
       "severity": "HIGH",
       "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.7% breaches strong-loss -10%.",
+      "reason": "Held position at -10.1% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_1c0e021bb3f3"
+        "trg_79e2ee8b9b85"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,83 +16,17 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_a450d9db27f1",
-      "created_at": "2026-08-19T16:31:03+05:30",
-      "expires_at": "2026-08-19T16:31:03+05:30"
+      "escalation_id": "esc_1cf1dd9e4d94",
+      "created_at": "2026-08-20T11:30:38+05:30",
+      "expires_at": "2026-08-20T11:30:38+05:30"
     },
     {
       "symbol": "WELCORP.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.6% since last observation.",
-      "trigger_ids": [
-        "trg_30c1000bee7e",
-        "trg_d6c25350dd18"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "WELCORP.NS",
-        "score": 72.8,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 72.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=99, trend_following=92, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_d3a312a4d11b",
-      "created_at": "2026-08-19T16:31:03+05:30",
-      "expires_at": "2026-08-19T16:31:03+05:30"
-    },
-    {
-      "symbol": "RRKABEL.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.0% since last observation.",
-      "trigger_ids": [
-        "trg_b409302dc725",
-        "trg_288cbc9e3c94"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "RRKABEL.NS",
-        "score": 68.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_b8b8d65a6e30",
-      "created_at": "2026-08-19T16:31:03+05:30",
-      "expires_at": "2026-08-19T16:31:03+05:30"
-    },
-    {
-      "symbol": "THELEELA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.6% vs previous close.",
+      "reason": "Gap +4.7% vs previous close.",
       "trigger_ids": [
-        "trg_8e77678a60a4"
+        "trg_8c3236eadc1c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -100,9 +34,45 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_075b04aeb9d0",
-      "created_at": "2026-08-19T16:31:03+05:30",
-      "expires_at": "2026-08-19T16:31:03+05:30"
+      "escalation_id": "esc_da8d3b27b35c",
+      "created_at": "2026-08-20T11:30:38+05:30",
+      "expires_at": "2026-08-20T11:30:38+05:30"
+    },
+    {
+      "symbol": "THELEELA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_bfc783055de6"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_88af6f6297dd",
+      "created_at": "2026-08-20T11:30:38+05:30",
+      "expires_at": "2026-08-20T11:30:38+05:30"
+    },
+    {
+      "symbol": "PERSISTENT.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.9% vs previous close.",
+      "trigger_ids": [
+        "trg_0e3039c934a0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_8bb3b1bca8d4",
+      "created_at": "2026-08-20T11:30:38+05:30",
+      "expires_at": "2026-08-20T11:30:38+05:30"
     }
   ],
   "actions_taken": [],

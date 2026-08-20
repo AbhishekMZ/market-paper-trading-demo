@@ -3160,5 +3160,39 @@
     "signal_id": "sig_fe8bafc3d62d",
     "timestamp": "2026-08-19T16:28:58+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_beb00bccfb8c",
+    "symbol": "LENSKART.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 15,
+    "filled_quantity": 0,
+    "price": 642.45,
+    "amount": 9636.75,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9636.75, have 100.34.",
+    "reason": "Final 72.5/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: relative_strength=91, trend_following=89, portfolio_fit=80.",
+    "signal_id": "sig_63b827d4a836",
+    "timestamp": "2026-08-20T11:28:45+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_edfe639e6825",
+    "symbol": "MGL.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 8,
+    "filled_quantity": 0,
+    "price": 1150.0,
+    "amount": 9200.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9200.00, have 100.34.",
+    "reason": "Final 72.0/100 -> BUY_SMALL_PAPER [regime RISK_ON]. Top: trend_following=88, relative_strength=84, portfolio_fit=80.",
+    "signal_id": "sig_ca35c303af98",
+    "timestamp": "2026-08-20T11:28:45+05:30",
+    "realized_pnl": 0.0
   }
 ]
