@@ -8,9 +8,9 @@
   "blocked_buys": 6,
   "critical_count": 0,
   "high_count": 6,
-  "alerts_this_run": 0,
+  "alerts_this_run": 1,
   "newsapi_enabled": false,
-  "last_run": "2026-08-20T11:28:45+05:30",
-  "checkpoint": "open",
+  "last_run": "2026-08-20T13:16:04+05:30",
+  "checkpoint": "mid",
   "overall": "ELEVATED"
 }

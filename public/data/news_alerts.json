@@ -1,5 +1,13 @@
 [
   {
+    "key": "KOTAKBANK.NS:HIGH",
+    "subject": "[Paper News] HIGH news: KOTAKBANK.NS",
+    "body": "Symbol: KOTAKBANK.NS (Kotak Mahindra Bank Ltd.)\nNews risk: HIGH   Sentiment: NEUTRAL\nEvents: MACRO, REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: Four Indian private lenders eye dollar debt before RBI swap window deadline, bankers say\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEUTRAL.; [HIGH] Four Indian private lenders eye dollar debt before RBI swap window deadline, bankers say; [HIGH] India's Kotak Investment Banking appoints co-CEOs; [HIGH] Kotak Mahindra Bank Ltd (BOM:500247) Q1 2027 Earnings Call Highlights: Strong Profit Growth ...; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
+    "symbol": "KOTAKBANK.NS",
+    "level": "HIGH",
+    "ts": "2026-08-20T13:16:05+05:30"
+  },
+  {
     "key": "UNITDSPR.NS:HIGH",
     "subject": "[Paper News] HIGH news: UNITDSPR.NS",
     "body": "Symbol: UNITDSPR.NS (United Spirits Ltd.)\nNews risk: HIGH   Sentiment: NEGATIVE\nEvents: REGULATORY\nHeld position: no   Blocked a would-be buy: yes\nTop headline: Diageo challenges India rum ban, arguing lack of due process\n\nWhy: 10 relevant item(s); worst risk HIGH, sentiment NEGATIVE.; [HIGH] Diageo challenges India rum ban, arguing lack of due process; HIGH/CRITICAL adverse news -> new paper buy blocked.\n\nReminder: PAPER TRADING ONLY. No real order was placed. News never triggers a buy — it can only block one.",
