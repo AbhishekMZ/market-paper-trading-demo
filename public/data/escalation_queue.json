@@ -3,6 +3,125 @@
     "symbol": "DCMSHRIRAM.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_7e447f463b48"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f29a6a95b241",
+    "created_at": "2026-08-21T11:34:04+05:30",
+    "expires_at": "2026-08-21T11:34:04+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.9% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_3be9577cd101"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_0272fe0e5b97",
+    "created_at": "2026-08-21T11:34:04+05:30",
+    "expires_at": "2026-08-21T11:34:04+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_364fda2ff56b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_a33ca5f3528a",
+    "created_at": "2026-08-21T11:34:04+05:30",
+    "expires_at": "2026-08-21T11:34:04+05:30"
+  },
+  {
+    "symbol": "NETWEB.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +14.7% since last observation.",
+    "trigger_ids": [
+      "trg_ebb51b12e3e3",
+      "trg_816707586dcb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "NETWEB.NS",
+      "score": 67.6,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_f5a329b774f4",
+    "created_at": "2026-08-21T11:34:04+05:30",
+    "expires_at": "2026-08-21T11:34:04+05:30"
+  },
+  {
+    "symbol": "SHRIRAMFIN.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +6.9% since last observation.",
+    "trigger_ids": [
+      "trg_03d0f5ad6f38"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SHRIRAMFIN.NS",
+      "score": 67.8,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=88, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_e2438ba6757e",
+    "created_at": "2026-08-21T11:34:04+05:30",
+    "expires_at": "2026-08-21T11:34:04+05:30"
+  },
+  {
+    "symbol": "DCMSHRIRAM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
     "reason": "Gap +2.9% vs previous close.",
     "trigger_ids": [
       "trg_35679cc8f080"
@@ -2256,109 +2375,5 @@
     "escalation_id": "esc_be8755b58068",
     "created_at": "2026-08-04T18:17:51+05:30",
     "expires_at": "2026-08-04T18:17:51+05:30"
-  },
-  {
-    "symbol": "FEDERALBNK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_76a6760473c9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_178decefcbf8",
-    "created_at": "2026-08-04T18:17:51+05:30",
-    "expires_at": "2026-08-04T18:17:51+05:30"
-  },
-  {
-    "symbol": "NYKAA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_673b5fb3467a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_28bed8751f2f",
-    "created_at": "2026-08-04T15:11:50+05:30",
-    "expires_at": "2026-08-04T15:11:50+05:30"
-  },
-  {
-    "symbol": "DIVISLAB.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.1% vs previous close.",
-    "trigger_ids": [
-      "trg_faacf01c991d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5382a24b42e9",
-    "created_at": "2026-08-04T15:11:50+05:30",
-    "expires_at": "2026-08-04T15:11:50+05:30"
-  },
-  {
-    "symbol": "WIPRO.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.9% since last observation.",
-    "trigger_ids": [
-      "trg_067ff0459869"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WIPRO.NS",
-      "score": 62.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 62.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, breakout=70.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_3af299170699",
-    "created_at": "2026-08-04T15:11:50+05:30",
-    "expires_at": "2026-08-04T15:11:50+05:30"
-  },
-  {
-    "symbol": "EMCURE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_00dfb05c78ba"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_1f44ee01c4ad",
-    "created_at": "2026-08-04T13:21:39+05:30",
-    "expires_at": "2026-08-04T13:21:39+05:30"
   }
 ]
