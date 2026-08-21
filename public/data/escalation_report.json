@@ -1,46 +1,50 @@
 {
-  "as_of": "2026-08-21T13:19:04+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-21T16:34:35+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "BRIGADE.NS",
+      "symbol": "KOTAKBANK.NS",
       "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +9.5% since last observation.",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_116c5685fba7"
+        "trg_dc5ff85c5cf7"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "BRIGADE.NS",
-        "score": 63.6,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 63.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_71a7a89cca16",
-      "created_at": "2026-08-21T13:19:04+05:30",
-      "expires_at": "2026-08-21T13:19:04+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_2619352a70c3",
+      "created_at": "2026-08-21T16:34:35+05:30",
+      "expires_at": "2026-08-21T16:34:35+05:30"
     },
     {
-      "symbol": "SAILIFE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.7% vs previous close.",
+      "symbol": "COLPAL.NS",
+      "severity": "MEDIUM",
+      "action_type": "SELL_REVIEW",
+      "reason": "Held position at -9.7% breaches soft-loss -7%.",
       "trigger_ids": [
-        "trg_90984e932f85"
+        "trg_042dc7711c57"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_33e3f65a7359",
+      "created_at": "2026-08-21T16:34:35+05:30",
+      "expires_at": "2026-08-21T16:34:35+05:30"
+    },
+    {
+      "symbol": "MANAPPURAM.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -3.8% since last observation.",
+      "trigger_ids": [
+        "trg_4aff82abaf5d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -48,17 +52,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_dd20e1e20d05",
-      "created_at": "2026-08-21T13:19:04+05:30",
-      "expires_at": "2026-08-21T13:19:04+05:30"
+      "escalation_id": "esc_960a3e76824a",
+      "created_at": "2026-08-21T16:34:35+05:30",
+      "expires_at": "2026-08-21T16:34:35+05:30"
     },
     {
-      "symbol": "THELEELA.NS",
+      "symbol": "HINDZINC.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +3.7% vs previous close.",
       "trigger_ids": [
-        "trg_50aab6c42781"
+        "trg_89683d23fca6"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -66,11 +70,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_95dd9e35a924",
-      "created_at": "2026-08-21T13:19:04+05:30",
-      "expires_at": "2026-08-21T13:19:04+05:30"
+      "escalation_id": "esc_c63d7a6b7ead",
+      "created_at": "2026-08-21T16:34:35+05:30",
+      "expires_at": "2026-08-21T16:34:35+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "KOTAKBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

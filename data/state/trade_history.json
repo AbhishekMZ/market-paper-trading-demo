@@ -3296,5 +3296,22 @@
     "signal_id": "sig_5fbe78aeed87",
     "timestamp": "2026-08-21T11:32:10+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_d7dc41bc4252",
+    "symbol": "ZFCVINDIA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 3,
+    "filled_quantity": 0,
+    "price": 2666.0,
+    "amount": 7998.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 7998.00, have 100.34.",
+    "reason": "Final 70.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=92, trend_following=87, portfolio_fit=80.",
+    "signal_id": "sig_eb38b27ef66e",
+    "timestamp": "2026-08-21T16:32:43+05:30",
+    "realized_pnl": 0.0
   }
 ]

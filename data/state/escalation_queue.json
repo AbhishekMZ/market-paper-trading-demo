@@ -1,105 +1,5 @@
 [
   {
-    "symbol": "EMCURE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_94c25a4c8724"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_95ede9197c43",
-    "created_at": "2026-08-04T18:17:51+05:30",
-    "expires_at": "2026-08-04T18:17:51+05:30"
-  },
-  {
-    "symbol": "SAILIFE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.6% since last observation.",
-    "trigger_ids": [
-      "trg_54b6aaebdfc3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAILIFE.NS",
-      "score": 65.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=85, portfolio_fit=80, relative_strength=74. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_7e21147b87b7",
-    "created_at": "2026-08-05T13:23:56+05:30",
-    "expires_at": "2026-08-05T13:23:56+05:30"
-  },
-  {
-    "symbol": "HEROMOTOCO.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_49b17b862bc4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "HEROMOTOCO.NS",
-      "score": 70.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=92, relative_strength=90, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_bf1567b196ce",
-    "created_at": "2026-08-05T13:23:56+05:30",
-    "expires_at": "2026-08-05T13:23:56+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_aeb9fe296f44"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8e5179d42fe3",
-    "created_at": "2026-08-05T13:23:56+05:30",
-    "expires_at": "2026-08-05T13:23:56+05:30"
-  },
-  {
     "symbol": "ENDURANCE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2375,5 +2275,77 @@
     "escalation_id": "esc_95dd9e35a924",
     "created_at": "2026-08-21T13:19:04+05:30",
     "expires_at": "2026-08-21T13:19:04+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_dc5ff85c5cf7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_2619352a70c3",
+    "created_at": "2026-08-21T16:34:35+05:30",
+    "expires_at": "2026-08-21T16:34:35+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.7% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_042dc7711c57"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_33e3f65a7359",
+    "created_at": "2026-08-21T16:34:35+05:30",
+    "expires_at": "2026-08-21T16:34:35+05:30"
+  },
+  {
+    "symbol": "MANAPPURAM.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.8% since last observation.",
+    "trigger_ids": [
+      "trg_4aff82abaf5d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_960a3e76824a",
+    "created_at": "2026-08-21T16:34:35+05:30",
+    "expires_at": "2026-08-21T16:34:35+05:30"
+  },
+  {
+    "symbol": "HINDZINC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_89683d23fca6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c63d7a6b7ead",
+    "created_at": "2026-08-21T16:34:35+05:30",
+    "expires_at": "2026-08-21T16:34:35+05:30"
   }
 ]
