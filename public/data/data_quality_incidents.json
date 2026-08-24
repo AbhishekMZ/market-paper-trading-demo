@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-08-24T15:35:14+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 269.70001220703125,
+    "jump_pct": 49.96,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-08-24T15:33:27+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
     "ts": "2026-08-24T12:18:33+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -924,29 +947,6 @@
     "prev_price": 538.92,
     "rejected_price": 276.8500061035156,
     "jump_pct": 48.63,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-07-14T13:23:39+05:30",
-    "symbol": "TATAMOTORS.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
-  },
-  {
-    "ts": "2026-07-14T11:51:25+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 277.1000061035156,
-    "jump_pct": 48.58,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]

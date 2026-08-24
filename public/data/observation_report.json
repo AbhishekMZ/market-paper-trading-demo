@@ -1,45 +1,45 @@
 {
-  "as_of": "2026-08-24T13:28:32+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-24T16:45:29+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 2,
-  "escalations": 2,
+  "triggers_this_run": 3,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 145,
-    "triggers_detected": 546,
-    "escalations_created": 346,
+    "observation_runs": 146,
+    "triggers_detected": 549,
+    "escalations_created": 349,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 139,
     "emails_sent_total": 0,
-    "last_run": "2026-08-24T13:28:32+05:30",
+    "last_run": "2026-08-24T16:45:29+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
       "KOTAKBANK.NS",
-      "UNITDSPR.NS",
-      "ACMESOLAR.NS",
-      "DCMSHRIRAM.NS",
-      "PVRINOX.NS",
-      "KPIL.NS",
-      "NAM-INDIA.NS",
       "ZFCVINDIA.NS",
+      "AUBANK.NS",
       "APOLLOTYRE.NS",
-      "CEATLTD.NS",
-      "MCX.NS",
+      "LENSKART.NS",
+      "BRIGADE.NS",
+      "HINDZINC.NS",
+      "ASAHIINDIA.NS",
+      "UNITDSPR.NS",
+      "BDL.NS",
       "CDSL.NS",
-      "HINDZINC.NS"
+      "MCX.NS",
+      "ENGINERSIN.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -50,22 +50,22 @@
         "symbol": "COLPAL.NS",
         "trigger_type": "STRONG_LOSS_REVIEW",
         "severity": "HIGH",
-        "reason": "Held position at -10.3% breaches strong-loss -10%.",
+        "reason": "Held position at -10.2% breaches strong-loss -10%.",
         "company_name": "COLPAL.NS",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1878.5999755859375,
+        "price_at_detection": 1879.0,
         "previous_price": null,
-        "change_pct": -10.32,
+        "change_pct": -10.25,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_e0a3930d9cbe",
-        "trigger_id": "trg_42b0dab8dcbb",
-        "detected_at": "2026-08-24T13:26:39+05:30"
+        "created_escalation_id": "esc_2595c46b7b3d",
+        "trigger_id": "trg_28ce51548165",
+        "detected_at": "2026-08-24T16:43:38+05:30"
       },
       {
         "symbol": "MCX.NS",
@@ -84,9 +84,30 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_874e4a57f705",
-        "trigger_id": "trg_9d98a4821c2b",
-        "detected_at": "2026-08-24T13:28:15+05:30"
+        "created_escalation_id": "esc_18813b4071a4",
+        "trigger_id": "trg_988d77883c2c",
+        "detected_at": "2026-08-24T16:45:20+05:30"
+      },
+      {
+        "symbol": "ENGINERSIN.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +4.1% vs previous close.",
+        "company_name": "Engineers India Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 254.8300018310547,
+        "previous_price": null,
+        "change_pct": 4.0505,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_b2d158a6eb53",
+        "trigger_id": "trg_0f8df3027c06",
+        "detected_at": "2026-08-24T16:45:28+05:30"
       }
     ],
     "throttled": [],
@@ -95,9 +116,9 @@
         "symbol": "COLPAL.NS",
         "severity": "HIGH",
         "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -10.3% breaches strong-loss -10%.",
+        "reason": "Held position at -10.2% breaches strong-loss -10%.",
         "trigger_ids": [
-          "trg_42b0dab8dcbb"
+          "trg_28ce51548165"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -105,9 +126,9 @@
         "manual_review_required": true,
         "email_sent": false,
         "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_e0a3930d9cbe",
-        "created_at": "2026-08-24T13:28:32+05:30",
-        "expires_at": "2026-08-24T13:28:32+05:30"
+        "escalation_id": "esc_2595c46b7b3d",
+        "created_at": "2026-08-24T16:45:28+05:30",
+        "expires_at": "2026-08-24T16:45:28+05:30"
       },
       {
         "symbol": "MCX.NS",
@@ -115,7 +136,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.6% vs previous close.",
         "trigger_ids": [
-          "trg_9d98a4821c2b"
+          "trg_988d77883c2c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -123,14 +144,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_874e4a57f705",
-        "created_at": "2026-08-24T13:28:32+05:30",
-        "expires_at": "2026-08-24T13:28:32+05:30"
+        "escalation_id": "esc_18813b4071a4",
+        "created_at": "2026-08-24T16:45:28+05:30",
+        "expires_at": "2026-08-24T16:45:28+05:30"
+      },
+      {
+        "symbol": "ENGINERSIN.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +4.1% vs previous close.",
+        "trigger_ids": [
+          "trg_0f8df3027c06"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b2d158a6eb53",
+        "created_at": "2026-08-24T16:45:28+05:30",
+        "expires_at": "2026-08-24T16:45:28+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-08-24T13:26:38+05:30"
+    "as_of": "2026-08-24T16:43:37+05:30"
   }
 }

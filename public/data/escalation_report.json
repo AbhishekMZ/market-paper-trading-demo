@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-24T13:28:32+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-24T16:45:29+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
       "severity": "HIGH",
       "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.3% breaches strong-loss -10%.",
+      "reason": "Held position at -10.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_42b0dab8dcbb"
+        "trg_28ce51548165"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,9 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_e0a3930d9cbe",
-      "created_at": "2026-08-24T13:28:32+05:30",
-      "expires_at": "2026-08-24T13:28:32+05:30"
+      "escalation_id": "esc_2595c46b7b3d",
+      "created_at": "2026-08-24T16:45:28+05:30",
+      "expires_at": "2026-08-24T16:45:28+05:30"
     },
     {
       "symbol": "MCX.NS",
@@ -26,7 +26,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +2.6% vs previous close.",
       "trigger_ids": [
-        "trg_9d98a4821c2b"
+        "trg_988d77883c2c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +34,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_874e4a57f705",
-      "created_at": "2026-08-24T13:28:32+05:30",
-      "expires_at": "2026-08-24T13:28:32+05:30"
+      "escalation_id": "esc_18813b4071a4",
+      "created_at": "2026-08-24T16:45:28+05:30",
+      "expires_at": "2026-08-24T16:45:28+05:30"
+    },
+    {
+      "symbol": "ENGINERSIN.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.1% vs previous close.",
+      "trigger_ids": [
+        "trg_0f8df3027c06"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b2d158a6eb53",
+      "created_at": "2026-08-24T16:45:28+05:30",
+      "expires_at": "2026-08-24T16:45:28+05:30"
     }
   ],
   "actions_taken": [],
