@@ -1,5 +1,41 @@
 [
   {
+    "symbol": "MCX.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_9d98a4821c2b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_874e4a57f705",
+    "created_at": "2026-08-24T13:28:32+05:30",
+    "expires_at": "2026-08-24T13:28:32+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -10.3% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_42b0dab8dcbb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_e0a3930d9cbe",
+    "created_at": "2026-08-24T13:28:32+05:30",
+    "expires_at": "2026-08-24T13:28:32+05:30"
+  },
+  {
     "symbol": "REDINGTON.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2297,70 +2333,5 @@
     "escalation_id": "esc_033743d6ee98",
     "created_at": "2026-08-05T18:12:12+05:30",
     "expires_at": "2026-08-05T18:12:12+05:30"
-  },
-  {
-    "symbol": "SIEMENS.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.0% since last observation.",
-    "trigger_ids": [
-      "trg_0d91117dc7b0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SIEMENS.NS",
-      "score": 61.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, breakout=70.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_2b404824fcec",
-    "created_at": "2026-08-05T18:12:12+05:30",
-    "expires_at": "2026-08-05T18:12:12+05:30"
-  },
-  {
-    "symbol": "SONACOMS.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.5% since last observation.",
-    "trigger_ids": [
-      "trg_cd66f57093cc",
-      "trg_3bbaa64a608b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SONACOMS.NS",
-      "score": 70.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_6a8b57e40325",
-    "created_at": "2026-08-05T15:12:34+05:30",
-    "expires_at": "2026-08-05T15:12:34+05:30"
   }
 ]
