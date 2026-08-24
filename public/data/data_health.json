@@ -1,17 +1,19 @@
 {
-  "as_of": "2026-08-21T16:32:45+05:30",
+  "as_of": "2026-08-24T11:37:50+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-08-21T16:32:45+05:30",
+  "last_successful_run": "2026-08-24T11:37:50+05:30",
   "symbols_assessed": 500,
-  "usable_symbols": 500,
-  "rejected_symbols": 0,
+  "usable_symbols": 499,
+  "rejected_symbols": 1,
   "price_anomalies": 0,
   "stale_quotes": 0,
   "missing_news": 51,
   "anomaly_symbols": [],
-  "rejected_symbol_list": [],
+  "rejected_symbol_list": [
+    "JBCHEPHARM.NS"
+  ],
   "overall": "HEALTHY",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
+  "checkpoint": "open",
   "mtm_incidents": 1
 }

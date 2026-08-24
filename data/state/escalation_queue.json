@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "ENDURANCE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_5609c76eeffd"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_dd24af2ba978",
-    "created_at": "2026-08-05T13:23:56+05:30",
-    "expires_at": "2026-08-05T13:23:56+05:30"
-  },
-  {
-    "symbol": "BATAINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_fbe31b643ae7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9ecab7483d8a",
-    "created_at": "2026-08-05T13:23:56+05:30",
-    "expires_at": "2026-08-05T13:23:56+05:30"
-  },
-  {
     "symbol": "SONACOMS.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2347,5 +2311,56 @@
     "escalation_id": "esc_c63d7a6b7ead",
     "created_at": "2026-08-21T16:34:35+05:30",
     "expires_at": "2026-08-21T16:34:35+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.8% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_ce2ac87e40d5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_353e9f74c0e3",
+    "created_at": "2026-08-24T11:39:41+05:30",
+    "expires_at": "2026-08-24T11:39:41+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.2% since last observation.",
+    "trigger_ids": [
+      "trg_cd63c41e0988",
+      "trg_70bea834f454"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "REDINGTON.NS",
+      "score": 68.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_813f403d6982",
+    "created_at": "2026-08-24T11:39:41+05:30",
+    "expires_at": "2026-08-24T11:39:41+05:30"
   }
 ]
