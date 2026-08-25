@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-08-24T16:45:29+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-08-25T11:32:12+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
       "severity": "HIGH",
       "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.2% breaches strong-loss -10%.",
+      "reason": "Held position at -10.4% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_28ce51548165"
+        "trg_cc3e32b45a8e"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,45 +16,106 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_2595c46b7b3d",
-      "created_at": "2026-08-24T16:45:28+05:30",
-      "expires_at": "2026-08-24T16:45:28+05:30"
+      "escalation_id": "esc_48701f66574c",
+      "created_at": "2026-08-25T11:32:12+05:30",
+      "expires_at": "2026-08-25T11:32:12+05:30"
     },
     {
-      "symbol": "MCX.NS",
-      "severity": "LOW",
+      "symbol": "DEVYANI.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.6% vs previous close.",
+      "reason": "Moved +17.7% since last observation.",
       "trigger_ids": [
-        "trg_988d77883c2c"
+        "trg_3166686b090b"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "DEVYANI.NS",
+        "score": 64.0,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 64.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, relative_strength=82, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_18813b4071a4",
-      "created_at": "2026-08-24T16:45:28+05:30",
-      "expires_at": "2026-08-24T16:45:28+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_f6d5778b9764",
+      "created_at": "2026-08-25T11:32:12+05:30",
+      "expires_at": "2026-08-25T11:32:12+05:30"
     },
     {
-      "symbol": "ENGINERSIN.NS",
-      "severity": "LOW",
+      "symbol": "SAIL.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.1% vs previous close.",
+      "reason": "Moved +5.9% since last observation.",
       "trigger_ids": [
-        "trg_0f8df3027c06"
+        "trg_dd1d234873ae",
+        "trg_6ecb18b38ca7"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAIL.NS",
+        "score": 68.6,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b2d158a6eb53",
-      "created_at": "2026-08-24T16:45:28+05:30",
-      "expires_at": "2026-08-24T16:45:28+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_bf7fe291bc6a",
+      "created_at": "2026-08-25T11:32:12+05:30",
+      "expires_at": "2026-08-25T11:32:12+05:30"
+    },
+    {
+      "symbol": "MANAPPURAM.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.2% since last observation.",
+      "trigger_ids": [
+        "trg_8a59f0477457"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "MANAPPURAM.NS",
+        "score": 61.5,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, breakout=70, relative_strength=68.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_7134fbec4401",
+      "created_at": "2026-08-25T11:32:12+05:30",
+      "expires_at": "2026-08-25T11:32:12+05:30"
     }
   ],
   "actions_taken": [],

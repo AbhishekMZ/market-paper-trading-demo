@@ -3,14 +3,14 @@
     "yfinance"
   ],
   "symbols_assessed": 500,
-  "symbols_with_news": 449,
-  "total_items": 2185,
-  "blocked_buys": 1,
+  "symbols_with_news": 450,
+  "total_items": 2188,
+  "blocked_buys": 3,
   "critical_count": 0,
-  "high_count": 1,
+  "high_count": 3,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-08-24T16:43:35+05:30",
-  "checkpoint": "close",
+  "last_run": "2026-08-25T11:29:59+05:30",
+  "checkpoint": "open",
   "overall": "ELEVATED"
 }
