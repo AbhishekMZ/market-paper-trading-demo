@@ -3347,5 +3347,22 @@
     "signal_id": "sig_8b7c0deb115d",
     "timestamp": "2026-08-25T11:29:59+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_74ebc600f41c",
+    "symbol": "ANURAS.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1264.0,
+    "amount": 8848.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8848.00, have 100.34.",
+    "reason": "Final 71.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=87, portfolio_fit=80, volatility_risk=74.",
+    "signal_id": "sig_05fb442696bd",
+    "timestamp": "2026-08-25T16:31:09+05:30",
+    "realized_pnl": 0.0
   }
 ]
