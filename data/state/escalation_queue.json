@@ -1,69 +1,5 @@
 [
   {
-    "symbol": "PPLPHARMA.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +8.4% since last observation.",
-    "trigger_ids": [
-      "trg_0eee5868fae8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "PPLPHARMA.NS",
-      "score": 61.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 61.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_00067d282263",
-    "created_at": "2026-08-06T15:08:26+05:30",
-    "expires_at": "2026-08-06T15:08:26+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.6% since last observation.",
-    "trigger_ids": [
-      "trg_cbf62f61ea15"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WELCORP.NS",
-      "score": 64.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, relative_strength=77. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_120db1632459",
-    "created_at": "2026-08-06T15:08:26+05:30",
-    "expires_at": "2026-08-06T15:08:26+05:30"
-  },
-  {
     "symbol": "TATACAP.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2305,5 +2241,41 @@
     "escalation_id": "esc_7134fbec4401",
     "created_at": "2026-08-25T11:32:12+05:30",
     "expires_at": "2026-08-25T11:32:12+05:30"
+  },
+  {
+    "symbol": "SAIL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_0875383841bc"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c6c83610c3be",
+    "created_at": "2026-08-25T13:19:19+05:30",
+    "expires_at": "2026-08-25T13:19:19+05:30"
+  },
+  {
+    "symbol": "DEVYANI.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_917c2382b8b3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f5b6b448c0f1",
+    "created_at": "2026-08-25T13:19:19+05:30",
+    "expires_at": "2026-08-25T13:19:19+05:30"
   }
 ]
