@@ -1,14 +1,32 @@
 {
-  "as_of": "2026-08-26T13:35:43+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-08-26T16:53:11+05:30",
+  "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -10.6% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_e34d0e4cfbd1"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_06955f61df72",
+      "created_at": "2026-08-26T16:53:11+05:30",
+      "expires_at": "2026-08-26T16:53:11+05:30"
+    },
     {
       "symbol": "MOTILALOFS.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.7% vs previous close.",
+      "reason": "Gap +2.8% vs previous close.",
       "trigger_ids": [
-        "trg_797d49bfc988"
+        "trg_d8b18701e34e"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,63 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3b05a2834dd8",
-      "created_at": "2026-08-26T13:35:43+05:30",
-      "expires_at": "2026-08-26T13:35:43+05:30"
-    },
-    {
-      "symbol": "PARADEEP.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
-      "trigger_ids": [
-        "trg_c7f6b6b923fd"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_8339adfdcf33",
-      "created_at": "2026-08-26T13:35:43+05:30",
-      "expires_at": "2026-08-26T13:35:43+05:30"
-    },
-    {
-      "symbol": "IFCI.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
-      "trigger_ids": [
-        "trg_84b097a84609"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_fa0f54ec4eba",
-      "created_at": "2026-08-26T13:35:43+05:30",
-      "expires_at": "2026-08-26T13:35:43+05:30"
-    },
-    {
-      "symbol": "KARURVYSYA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
-      "trigger_ids": [
-        "trg_c5b3cb3f956c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d4218174ba82",
-      "created_at": "2026-08-26T13:35:43+05:30",
-      "expires_at": "2026-08-26T13:35:43+05:30"
+      "escalation_id": "esc_95496828d24c",
+      "created_at": "2026-08-26T16:53:11+05:30",
+      "expires_at": "2026-08-26T16:53:11+05:30"
     }
   ],
   "actions_taken": [],
