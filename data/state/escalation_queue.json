@@ -1,107 +1,5 @@
 [
   {
-    "symbol": "ANTHEM.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.8% since last observation.",
-    "trigger_ids": [
-      "trg_9f62d4a7b393"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ANTHEM.NS",
-      "score": 69.0,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_2a97d97b89c4",
-    "created_at": "2026-08-10T12:25:52+05:30",
-    "expires_at": "2026-08-10T12:25:52+05:30"
-  },
-  {
-    "symbol": "TITAN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_32b4d5ee9e4a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_52c1e8d50077",
-    "created_at": "2026-08-10T12:25:52+05:30",
-    "expires_at": "2026-08-10T12:25:52+05:30"
-  },
-  {
-    "symbol": "LTM.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.8% since last observation.",
-    "trigger_ids": [
-      "trg_44ce9b00bb2c",
-      "trg_c7656db21f1b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "LTM.NS",
-      "score": 68.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=97, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_c4794442215d",
-    "created_at": "2026-08-10T14:03:47+05:30",
-    "expires_at": "2026-08-10T14:03:47+05:30"
-  },
-  {
-    "symbol": "SBIN.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_a927d81fb136",
-      "trg_02c3f9aa6c28"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_e8d4a000cbca",
-    "created_at": "2026-08-10T17:18:50+05:30",
-    "expires_at": "2026-08-10T17:18:50+05:30"
-  },
-  {
     "symbol": "LENSKART.NS",
     "severity": "HIGH",
     "action_type": "BLOCKED_BY_NEWS",
@@ -2335,5 +2233,77 @@
     "escalation_id": "esc_a701ece58900",
     "created_at": "2026-08-26T11:46:21+05:30",
     "expires_at": "2026-08-26T11:46:21+05:30"
+  },
+  {
+    "symbol": "MOTILALOFS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_797d49bfc988"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_3b05a2834dd8",
+    "created_at": "2026-08-26T13:35:43+05:30",
+    "expires_at": "2026-08-26T13:35:43+05:30"
+  },
+  {
+    "symbol": "PARADEEP.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_c7f6b6b923fd"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_8339adfdcf33",
+    "created_at": "2026-08-26T13:35:43+05:30",
+    "expires_at": "2026-08-26T13:35:43+05:30"
+  },
+  {
+    "symbol": "IFCI.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_84b097a84609"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_fa0f54ec4eba",
+    "created_at": "2026-08-26T13:35:43+05:30",
+    "expires_at": "2026-08-26T13:35:43+05:30"
+  },
+  {
+    "symbol": "KARURVYSYA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_c5b3cb3f956c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d4218174ba82",
+    "created_at": "2026-08-26T13:35:43+05:30",
+    "expires_at": "2026-08-26T13:35:43+05:30"
   }
 ]
