@@ -3840,5 +3840,22 @@
     "signal_id": "sig_b01fa792431b",
     "timestamp": "2026-08-28T00:08:19+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_694f2436e615",
+    "symbol": "KPRMILL.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 8,
+    "filled_quantity": 0,
+    "price": 1136.0,
+    "amount": 9088.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9088.00, have 100.34.",
+    "reason": "Final 70.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=99, trend_following=88, portfolio_fit=80.",
+    "signal_id": "sig_a86958a058a6",
+    "timestamp": "2026-08-28T02:42:17+05:30",
+    "realized_pnl": 0.0
   }
 ]

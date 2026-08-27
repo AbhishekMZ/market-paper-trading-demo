@@ -5,138 +5,6 @@
     "action_type": "BLOCKED_BY_NEWS",
     "reason": "High-risk adverse news.",
     "trigger_ids": [
-      "trg_11aa3030fbdd"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_a346058da600",
-    "created_at": "2026-08-12T12:27:07+05:30",
-    "expires_at": "2026-08-12T12:27:07+05:30"
-  },
-  {
-    "symbol": "BERGEPAINT.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.3% since last observation.",
-    "trigger_ids": [
-      "trg_237a3fc1df92"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "BERGEPAINT.NS",
-      "score": 70.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=91, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_da3e38f0879f",
-    "created_at": "2026-08-12T12:27:07+05:30",
-    "expires_at": "2026-08-12T12:27:07+05:30"
-  },
-  {
-    "symbol": "ANANDRATHI.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.1% since last observation.",
-    "trigger_ids": [
-      "trg_871365a6d52c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ANANDRATHI.NS",
-      "score": 64.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.3/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, breakout=70, trend_following=67.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_85180f48de69",
-    "created_at": "2026-08-12T12:27:07+05:30",
-    "expires_at": "2026-08-12T12:27:07+05:30"
-  },
-  {
-    "symbol": "SAILIFE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.1% since last observation.",
-    "trigger_ids": [
-      "trg_9d14deb0ff47"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAILIFE.NS",
-      "score": 64.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_11c3ef611f35",
-    "created_at": "2026-08-12T12:27:07+05:30",
-    "expires_at": "2026-08-12T12:27:07+05:30"
-  },
-  {
-    "symbol": "BERGEPAINT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.9% vs previous close.",
-    "trigger_ids": [
-      "trg_b066916809ca"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_34b9f5eb87a5",
-    "created_at": "2026-08-12T14:01:35+05:30",
-    "expires_at": "2026-08-12T14:01:35+05:30"
-  },
-  {
-    "symbol": "UNITDSPR.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
       "trg_797267ab0af5"
     ],
     "action_status": "OPEN",
@@ -2302,5 +2170,124 @@
     "escalation_id": "esc_aff3cbede009",
     "created_at": "2026-08-28T00:10:31+05:30",
     "expires_at": "2026-08-28T00:10:31+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.2% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_abfab7df3db3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_958fe7cea167",
+    "created_at": "2026-08-28T02:44:26+05:30",
+    "expires_at": "2026-08-28T02:44:26+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.8% since last observation.",
+    "trigger_ids": [
+      "trg_a5a8fd725895",
+      "trg_6a893929e9c9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "KOTAKBANK.NS",
+      "score": 73.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 73.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_47237a082d4a",
+    "created_at": "2026-08-28T02:44:26+05:30",
+    "expires_at": "2026-08-28T02:44:26+05:30"
+  },
+  {
+    "symbol": "JSWSTEEL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.8% since last observation.",
+    "trigger_ids": [
+      "trg_39a6cf456649"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "JSWSTEEL.NS",
+      "score": 68.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, relative_strength=76.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_473228a7f7f1",
+    "created_at": "2026-08-28T02:44:26+05:30",
+    "expires_at": "2026-08-28T02:44:26+05:30"
+  },
+  {
+    "symbol": "CDSL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_17975a2c85a6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_85da1920b0ff",
+    "created_at": "2026-08-28T02:44:26+05:30",
+    "expires_at": "2026-08-28T02:44:26+05:30"
+  },
+  {
+    "symbol": "NMDC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_0de7e463616f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1e538e4c7727",
+    "created_at": "2026-08-28T02:44:26+05:30",
+    "expires_at": "2026-08-28T02:44:26+05:30"
   }
 ]
