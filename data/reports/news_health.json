@@ -4,13 +4,13 @@
   ],
   "symbols_assessed": 500,
   "symbols_with_news": 450,
-  "total_items": 2186,
-  "blocked_buys": 5,
+  "total_items": 2193,
+  "blocked_buys": 7,
   "critical_count": 0,
-  "high_count": 5,
+  "high_count": 7,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-08-26T16:50:47+05:30",
+  "last_run": "2026-08-27T22:03:44+05:30",
   "checkpoint": "close",
   "overall": "ELEVATED"
 }
