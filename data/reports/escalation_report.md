@@ -1,7 +1,7 @@
 # Escalation Report
 
-_As of 2026-08-27T22:06:08+05:30_
+_As of 2026-08-28T00:10:31+05:30_
 
-- Open escalations: 5
+- Open escalations: 3
 - Paper actions: 0
 - Blocked actions: 0
