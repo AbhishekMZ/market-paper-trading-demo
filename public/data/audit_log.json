@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-08-29T01:02:03+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 1,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-08-29T00:59:37+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-08-29T00:59:34+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZEEL.NS",
@@ -14419,60 +14449,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 32.1,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-08-29T00:59:34+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "PERSISTENT.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 72.3,
-    "strategy_contributions": {
-      "trend_following": 88.3,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 36.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 72.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 20.7,
-    "warnings": [],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-08-29T00:59:34+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "OIL.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 72.8,
-    "strategy_contributions": {
-      "trend_following": 89.6,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.1,
-      "volatility_risk": 38.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 72.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.01,
     "warnings": [],
     "conflicts": []
   }
