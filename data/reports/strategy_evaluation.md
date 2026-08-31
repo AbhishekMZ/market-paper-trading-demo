@@ -1,6 +1,6 @@
 # Strategy Evaluation
 
-_As of 2026-08-31T19:19:05+05:30_
+_As of 2026-08-31T23:57:01+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **2**
@@ -11,9 +11,9 @@ _As of 2026-08-31T19:19:05+05:30_
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 | breakout | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 50.9 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 977 | 46.5 | No paper trades yet attributed; acting mainly as a filter. |
-| news_event_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 14 | 65.1 | No paper trades yet attributed; acting mainly as a filter. |
-| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 67 | 77.4 | No paper trades yet attributed; acting mainly as a filter. |
-| relative_strength | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1018 | 44.0 | No paper trades yet attributed; acting mainly as a filter. |
-| trend_following | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 955 | 44.8 | No paper trades yet attributed; acting mainly as a filter. |
-| volatility_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 909 | 32.8 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 997 | 46.1 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 13 | 65.1 | No paper trades yet attributed; acting mainly as a filter. |
+| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 63 | 77.4 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1012 | 45.1 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 974 | 43.2 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 908 | 32.7 | No paper trades yet attributed; acting mainly as a filter. |

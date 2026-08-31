@@ -481,7 +481,7 @@ BATAINDIA.NS(49.9), ENDURANCE.NS(49.9), SUPREMEIND.NS(49.8), ALKEM.NS(49.7), MAP
 - THELEELA.NS (WATCH, 71.8): Final 71.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 30622 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 31124 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

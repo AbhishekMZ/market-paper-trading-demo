@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-08-31T19:21:11+05:30",
+  "as_of": "2026-08-31T23:59:17+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 10,
+  "triggers_this_run": 8,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 4,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 159,
-    "triggers_detected": 619,
-    "escalations_created": 399,
+    "observation_runs": 160,
+    "triggers_detected": 627,
+    "escalations_created": 404,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 139,
     "emails_sent_total": 0,
-    "last_run": "2026-08-31T19:21:11+05:30",
+    "last_run": "2026-08-31T23:59:17+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_cc9f10022a3b",
-        "trigger_id": "trg_e81364b45046",
-        "detected_at": "2026-08-31T19:19:08+05:30"
+        "created_escalation_id": "esc_c796d57d0a77",
+        "trigger_id": "trg_c376434ae8dc",
+        "detected_at": "2026-08-31T23:57:03+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "SELL_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_9f6dde9fd1bc",
-        "detected_at": "2026-08-31T19:19:16+05:30"
+        "created_escalation_id": "esc_13adfbace09c",
+        "trigger_id": "trg_fb4cc360964a",
+        "detected_at": "2026-08-31T23:57:13+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -105,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_06415aad31fb",
-        "detected_at": "2026-08-31T19:19:16+05:30"
+        "created_escalation_id": "esc_13adfbace09c",
+        "trigger_id": "trg_0425971add57",
+        "detected_at": "2026-08-31T23:57:13+05:30"
       },
       {
         "symbol": "OIL.NS",
@@ -126,9 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_456978149d93",
-        "trigger_id": "trg_49bca285b435",
-        "detected_at": "2026-08-31T19:19:24+05:30"
+        "created_escalation_id": "esc_ae33db8ce614",
+        "trigger_id": "trg_0c89b37c5ddb",
+        "detected_at": "2026-08-31T23:57:24+05:30"
       },
       {
         "symbol": "RRKABEL.NS",
@@ -147,9 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_ed9d75c3d879",
-        "trigger_id": "trg_c54e9d5d1c50",
-        "detected_at": "2026-08-31T19:19:41+05:30"
+        "created_escalation_id": "esc_3be3f382b76f",
+        "trigger_id": "trg_6e45fd11be57",
+        "detected_at": "2026-08-31T23:57:43+05:30"
       },
       {
         "symbol": "ENGINERSIN.NS",
@@ -168,30 +168,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_6d272222cb30",
-        "detected_at": "2026-08-31T19:20:00+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.9% since last observation.",
-        "company_name": "Divi's Laboratories Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 9467.0,
-        "previous_price": null,
-        "change_pct": 4.9,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_5b2083af1cf6",
-        "trigger_id": "trg_3751f10347ad",
-        "detected_at": "2026-08-31T19:20:18+05:30"
+        "created_escalation_id": "esc_fd1151e40c4c",
+        "trigger_id": "trg_ee159b1a3471",
+        "detected_at": "2026-08-31T23:58:00+05:30"
       },
       {
         "symbol": "OFSS.NS",
@@ -211,8 +190,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_5d50cf79c701",
-        "detected_at": "2026-08-31T19:20:26+05:30"
+        "trigger_id": "trg_85aae49a4bf4",
+        "detected_at": "2026-08-31T23:58:34+05:30"
       },
       {
         "symbol": "ELGIEQUIP.NS",
@@ -232,42 +211,11 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_938c2e2f8595",
-        "detected_at": "2026-08-31T19:20:43+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.0% since last observation.",
-        "company_name": "Multi Commodity Exchange of India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3400.0,
-        "previous_price": null,
-        "change_pct": 4.04,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_8f6d26db0c2a",
-        "trigger_id": "trg_ea740377181b",
-        "detected_at": "2026-08-31T19:20:54+05:30"
+        "trigger_id": "trg_4e8cc5543d93",
+        "detected_at": "2026-08-31T23:58:52+05:30"
       }
     ],
     "throttled": [
-      {
-        "symbol": "COLPAL.NS",
-        "trigger": "SOFT_LOSS_REVIEW",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "ENGINERSIN.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
-      },
       {
         "symbol": "OFSS.NS",
         "trigger": "GAP_MOVE",
@@ -281,68 +229,23 @@
     ],
     "escalations": [
       {
-        "symbol": "DIVISLAB.NS",
+        "symbol": "COLPAL.NS",
         "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.9% since last observation.",
+        "action_type": "SELL_REVIEW",
+        "reason": "Held position at -9.4% breaches soft-loss -7%.",
         "trigger_ids": [
-          "trg_3751f10347ad"
+          "trg_fb4cc360964a",
+          "trg_0425971add57"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "DIVISLAB.NS",
-          "score": 68.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=91, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_5b2083af1cf6",
-        "created_at": "2026-08-31T19:21:11+05:30",
-        "expires_at": "2026-08-31T19:21:11+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.0% since last observation.",
-        "trigger_ids": [
-          "trg_ea740377181b"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "MCX.NS",
-          "score": 65.6,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 65.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_8f6d26db0c2a",
-        "created_at": "2026-08-31T19:21:11+05:30",
-        "expires_at": "2026-08-31T19:21:11+05:30"
+        "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_13adfbace09c",
+        "created_at": "2026-08-31T23:59:17+05:30",
+        "expires_at": "2026-08-31T23:59:17+05:30"
       },
       {
         "symbol": "ITC.NS",
@@ -350,7 +253,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap -3.9% vs previous close.",
         "trigger_ids": [
-          "trg_e81364b45046"
+          "trg_c376434ae8dc"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -358,9 +261,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_cc9f10022a3b",
-        "created_at": "2026-08-31T19:21:11+05:30",
-        "expires_at": "2026-08-31T19:21:11+05:30"
+        "escalation_id": "esc_c796d57d0a77",
+        "created_at": "2026-08-31T23:59:17+05:30",
+        "expires_at": "2026-08-31T23:59:17+05:30"
       },
       {
         "symbol": "OIL.NS",
@@ -368,7 +271,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.8% vs previous close.",
         "trigger_ids": [
-          "trg_49bca285b435"
+          "trg_0c89b37c5ddb"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -376,9 +279,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_456978149d93",
-        "created_at": "2026-08-31T19:21:11+05:30",
-        "expires_at": "2026-08-31T19:21:11+05:30"
+        "escalation_id": "esc_ae33db8ce614",
+        "created_at": "2026-08-31T23:59:17+05:30",
+        "expires_at": "2026-08-31T23:59:17+05:30"
       },
       {
         "symbol": "RRKABEL.NS",
@@ -386,7 +289,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +3.5% vs previous close.",
         "trigger_ids": [
-          "trg_c54e9d5d1c50"
+          "trg_6e45fd11be57"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -394,14 +297,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_ed9d75c3d879",
-        "created_at": "2026-08-31T19:21:11+05:30",
-        "expires_at": "2026-08-31T19:21:11+05:30"
+        "escalation_id": "esc_3be3f382b76f",
+        "created_at": "2026-08-31T23:59:17+05:30",
+        "expires_at": "2026-08-31T23:59:17+05:30"
+      },
+      {
+        "symbol": "ENGINERSIN.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.2% vs previous close.",
+        "trigger_ids": [
+          "trg_ee159b1a3471"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_fd1151e40c4c",
+        "created_at": "2026-08-31T23:59:17+05:30",
+        "expires_at": "2026-08-31T23:59:17+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-08-31T19:19:07+05:30"
+    "as_of": "2026-08-31T23:57:03+05:30"
   }
 }
