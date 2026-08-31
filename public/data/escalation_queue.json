@@ -1,5 +1,123 @@
 [
   {
+    "symbol": "RRKABEL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_c54e9d5d1c50"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ed9d75c3d879",
+    "created_at": "2026-08-31T19:21:11+05:30",
+    "expires_at": "2026-08-31T19:21:11+05:30"
+  },
+  {
+    "symbol": "OIL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_49bca285b435"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_456978149d93",
+    "created_at": "2026-08-31T19:21:11+05:30",
+    "expires_at": "2026-08-31T19:21:11+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.9% vs previous close.",
+    "trigger_ids": [
+      "trg_e81364b45046"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_cc9f10022a3b",
+    "created_at": "2026-08-31T19:21:11+05:30",
+    "expires_at": "2026-08-31T19:21:11+05:30"
+  },
+  {
+    "symbol": "MCX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_ea740377181b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "MCX.NS",
+      "score": 65.6,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=90, relative_strength=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_8f6d26db0c2a",
+    "created_at": "2026-08-31T19:21:11+05:30",
+    "expires_at": "2026-08-31T19:21:11+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.9% since last observation.",
+    "trigger_ids": [
+      "trg_3751f10347ad"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "DIVISLAB.NS",
+      "score": 68.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=91, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_5b2083af1cf6",
+    "created_at": "2026-08-31T19:21:11+05:30",
+    "expires_at": "2026-08-31T19:21:11+05:30"
+  },
+  {
     "symbol": "KPRMILL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2172,123 +2290,5 @@
     "escalation_id": "esc_6c9dc6c2c0dc",
     "created_at": "2026-08-14T16:58:51+05:30",
     "expires_at": "2026-08-14T16:58:51+05:30"
-  },
-  {
-    "symbol": "HEG.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_f6397f08e9fc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b56262407ba9",
-    "created_at": "2026-08-14T13:59:48+05:30",
-    "expires_at": "2026-08-14T13:59:48+05:30"
-  },
-  {
-    "symbol": "APLAPOLLO.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.9% since last observation.",
-    "trigger_ids": [
-      "trg_21fb33fb0850"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "APLAPOLLO.NS",
-      "score": 64.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, relative_strength=72. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_e6dc5fc948cb",
-    "created_at": "2026-08-14T13:59:48+05:30",
-    "expires_at": "2026-08-14T13:59:48+05:30"
-  },
-  {
-    "symbol": "BATAINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.8% vs previous close.",
-    "trigger_ids": [
-      "trg_c883c333fc9b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8acaf5e6190f",
-    "created_at": "2026-08-14T12:26:58+05:30",
-    "expires_at": "2026-08-14T12:26:58+05:30"
-  },
-  {
-    "symbol": "AJANTPHARM.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_c669958b7ca3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_35899cd2a006",
-    "created_at": "2026-08-14T12:26:58+05:30",
-    "expires_at": "2026-08-14T12:26:58+05:30"
-  },
-  {
-    "symbol": "KAJARIACER.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.1% since last observation.",
-    "trigger_ids": [
-      "trg_73b93b231e0e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "KAJARIACER.NS",
-      "score": 58.0,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 58.0/100 -> NO_ACTION [regime NEUTRAL]. Top: portfolio_fit=80, breakout=70, news_event_risk=65.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_9d07bad5c4be",
-    "created_at": "2026-08-14T12:26:58+05:30",
-    "expires_at": "2026-08-14T12:26:58+05:30"
   }
 ]
