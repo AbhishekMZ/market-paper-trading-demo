@@ -1,37 +1,5 @@
 [
   {
-    "symbol": "RKFORGE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +9.5% since last observation.",
-    "trigger_ids": [
-      "trg_eadf8425332b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "RKFORGE.NS",
-      "score": 58.2,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 58.2/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_348be32e6239",
-    "created_at": "2026-08-18T16:32:14+05:30",
-    "expires_at": "2026-08-18T16:32:14+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "MEDIUM",
     "action_type": "SELL_REVIEW",
@@ -2220,5 +2188,23 @@
     "escalation_id": "esc_329731e06aaa",
     "created_at": "2026-09-01T16:16:28+05:30",
     "expires_at": "2026-09-01T16:16:28+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.3% vs previous close.",
+    "trigger_ids": [
+      "trg_eb85ff98e20b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_2eea958e32ec",
+    "created_at": "2026-09-01T17:53:39+05:30",
+    "expires_at": "2026-09-01T17:53:39+05:30"
   }
 ]
