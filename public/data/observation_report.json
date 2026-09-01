@@ -1,24 +1,35 @@
 {
-  "as_of": "2026-09-01T17:53:39+05:30",
+  "as_of": "2026-09-01T21:03:07+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 4,
-  "escalations": 1,
+  "escalations": 4,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 3,
+  "blocked_actions": [
+    {
+      "symbol": "INDUSINDBK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 162,
-    "triggers_detected": 641,
-    "escalations_created": 410,
+    "observation_runs": 163,
+    "triggers_detected": 645,
+    "escalations_created": 414,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 142,
+    "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-01T17:53:39+05:30",
+    "last_run": "2026-09-01T21:03:07+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +74,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2eea958e32ec",
-        "trigger_id": "trg_eb85ff98e20b",
-        "detected_at": "2026-09-01T17:51:48+05:30"
+        "created_escalation_id": "esc_85096206d873",
+        "trigger_id": "trg_2849433868fa",
+        "detected_at": "2026-09-01T21:00:59+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +95,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_90d46ff1c0a2",
-        "detected_at": "2026-09-01T17:51:48+05:30"
+        "created_escalation_id": "esc_e99feeb381ce",
+        "trigger_id": "trg_11fce7ff1da4",
+        "detected_at": "2026-09-01T21:01:00+05:30"
       },
       {
         "symbol": "INDUSINDBK.NS",
@@ -105,9 +116,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ff4f64de82c0",
-        "detected_at": "2026-09-01T17:53:39+05:30"
+        "created_escalation_id": "esc_7f4802ecbbcc",
+        "trigger_id": "trg_090fe5f70585",
+        "detected_at": "2026-09-01T21:03:07+05:30"
       },
       {
         "symbol": "IDFCFIRSTB.NS",
@@ -126,36 +137,74 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_47a5046e754a",
-        "detected_at": "2026-09-01T17:53:39+05:30"
+        "created_escalation_id": "esc_f180af6ac419",
+        "trigger_id": "trg_65ec8dbb78a0",
+        "detected_at": "2026-09-01T21:03:07+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -11.2% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_11fce7ff1da4"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_e99feeb381ce",
+        "created_at": "2026-09-01T21:03:07+05:30",
+        "expires_at": "2026-09-01T21:03:07+05:30"
       },
       {
         "symbol": "INDUSINDBK.NS",
-        "trigger": "HIGH_RISK_NEWS",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_090fe5f70585"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_7f4802ecbbcc",
+        "created_at": "2026-09-01T21:03:07+05:30",
+        "expires_at": "2026-09-01T21:03:07+05:30"
       },
       {
         "symbol": "IDFCFIRSTB.NS",
-        "trigger": "HIGH_RISK_NEWS",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_65ec8dbb78a0"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_f180af6ac419",
+        "created_at": "2026-09-01T21:03:07+05:30",
+        "expires_at": "2026-09-01T21:03:07+05:30"
+      },
       {
         "symbol": "ITC.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +4.3% vs previous close.",
         "trigger_ids": [
-          "trg_eb85ff98e20b"
+          "trg_2849433868fa"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -163,14 +212,25 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_2eea958e32ec",
-        "created_at": "2026-09-01T17:53:39+05:30",
-        "expires_at": "2026-09-01T17:53:39+05:30"
+        "escalation_id": "esc_85096206d873",
+        "created_at": "2026-09-01T21:03:07+05:30",
+        "expires_at": "2026-09-01T21:03:07+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "INDUSINDBK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      },
+      {
+        "symbol": "IDFCFIRSTB.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-09-01T17:51:39+05:30"
+    "as_of": "2026-09-01T21:00:50+05:30"
   }
 }

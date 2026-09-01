@@ -1,14 +1,68 @@
 {
-  "as_of": "2026-09-01T17:53:39+05:30",
+  "as_of": "2026-09-01T21:03:07+05:30",
   "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.2% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_11fce7ff1da4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_e99feeb381ce",
+      "created_at": "2026-09-01T21:03:07+05:30",
+      "expires_at": "2026-09-01T21:03:07+05:30"
+    },
+    {
+      "symbol": "INDUSINDBK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_090fe5f70585"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_7f4802ecbbcc",
+      "created_at": "2026-09-01T21:03:07+05:30",
+      "expires_at": "2026-09-01T21:03:07+05:30"
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_65ec8dbb78a0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_f180af6ac419",
+      "created_at": "2026-09-01T21:03:07+05:30",
+      "expires_at": "2026-09-01T21:03:07+05:30"
+    },
     {
       "symbol": "ITC.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +4.3% vs previous close.",
       "trigger_ids": [
-        "trg_eb85ff98e20b"
+        "trg_2849433868fa"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,11 +70,22 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2eea958e32ec",
-      "created_at": "2026-09-01T17:53:39+05:30",
-      "expires_at": "2026-09-01T17:53:39+05:30"
+      "escalation_id": "esc_85096206d873",
+      "created_at": "2026-09-01T21:03:07+05:30",
+      "expires_at": "2026-09-01T21:03:07+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "INDUSINDBK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
