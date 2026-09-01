@@ -1,139 +1,5 @@
 [
   {
-    "symbol": "HAL.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.9% since last observation.",
-    "trigger_ids": [
-      "trg_8814b9194149"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "HAL.NS",
-      "score": 64.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, breakout=70.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_81c29f413a0d",
-    "created_at": "2026-08-17T16:40:01+05:30",
-    "expires_at": "2026-08-17T16:40:01+05:30"
-  },
-  {
-    "symbol": "SUPREMEIND.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.8% since last observation.",
-    "trigger_ids": [
-      "trg_fdf421025029"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SUPREMEIND.NS",
-      "score": 64.6,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, breakout=70.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_a0f6c672bc87",
-    "created_at": "2026-08-17T16:40:01+05:30",
-    "expires_at": "2026-08-17T16:40:01+05:30"
-  },
-  {
-    "symbol": "PVRINOX.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +20.5% since last observation.",
-    "trigger_ids": [
-      "trg_9dab61d93570",
-      "trg_ea97d6f66529"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "PVRINOX.NS",
-      "score": 67.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_1ac9a11d9df6",
-    "created_at": "2026-08-18T11:30:26+05:30",
-    "expires_at": "2026-08-18T11:30:26+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "SELL_REVIEW",
-    "reason": "Held position at -8.8% breaches soft-loss -7%.",
-    "trigger_ids": [
-      "trg_712d7c330bb2",
-      "trg_a94b01cc8059"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_22b2e0bf32e7",
-    "created_at": "2026-08-18T11:30:26+05:30",
-    "expires_at": "2026-08-18T11:30:26+05:30"
-  },
-  {
-    "symbol": "MFSL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_9236c3c892ec"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_0659f4d1d8fb",
-    "created_at": "2026-08-18T13:16:24+05:30",
-    "expires_at": "2026-08-18T13:16:24+05:30"
-  },
-  {
     "symbol": "RKFORGE.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2263,5 +2129,96 @@
     "escalation_id": "esc_fd1151e40c4c",
     "created_at": "2026-08-31T23:59:17+05:30",
     "expires_at": "2026-08-31T23:59:17+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.6% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_0820b101139a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_34b6f018c69d",
+    "created_at": "2026-09-01T16:16:28+05:30",
+    "expires_at": "2026-09-01T16:16:28+05:30"
+  },
+  {
+    "symbol": "INDUSINDBK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_d652a6a45b33"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_5606dcaf9df4",
+    "created_at": "2026-09-01T16:16:28+05:30",
+    "expires_at": "2026-09-01T16:16:28+05:30"
+  },
+  {
+    "symbol": "AUBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_957cc863a7a7",
+      "trg_1fbbd6e0519b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_15d3ad3bd0e5",
+    "created_at": "2026-09-01T16:16:28+05:30",
+    "expires_at": "2026-09-01T16:16:28+05:30"
+  },
+  {
+    "symbol": "IDFCFIRSTB.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_21964968f8a1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_c2409211e476",
+    "created_at": "2026-09-01T16:16:28+05:30",
+    "expires_at": "2026-09-01T16:16:28+05:30"
+  },
+  {
+    "symbol": "_MARKET_",
+    "severity": "HIGH",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
+    "trigger_ids": [
+      "trg_e1d16dfce661"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_329731e06aaa",
+    "created_at": "2026-09-01T16:16:28+05:30",
+    "expires_at": "2026-09-01T16:16:28+05:30"
   }
 ]

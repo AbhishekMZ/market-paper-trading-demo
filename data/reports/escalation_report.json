@@ -1,99 +1,115 @@
 {
-  "as_of": "2026-08-31T23:59:17+05:30",
+  "as_of": "2026-09-01T16:16:28+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "MEDIUM",
-      "action_type": "SELL_REVIEW",
-      "reason": "Held position at -9.4% breaches soft-loss -7%.",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.6% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_fb4cc360964a",
-        "trg_0425971add57"
+        "trg_0820b101139a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_13adfbace09c",
-      "created_at": "2026-08-31T23:59:17+05:30",
-      "expires_at": "2026-08-31T23:59:17+05:30"
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_34b6f018c69d",
+      "created_at": "2026-09-01T16:16:28+05:30",
+      "expires_at": "2026-09-01T16:16:28+05:30"
     },
     {
-      "symbol": "ITC.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.9% vs previous close.",
+      "symbol": "INDUSINDBK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_c376434ae8dc"
+        "trg_d652a6a45b33"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_c796d57d0a77",
-      "created_at": "2026-08-31T23:59:17+05:30",
-      "expires_at": "2026-08-31T23:59:17+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_5606dcaf9df4",
+      "created_at": "2026-09-01T16:16:28+05:30",
+      "expires_at": "2026-09-01T16:16:28+05:30"
     },
     {
-      "symbol": "OIL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.8% vs previous close.",
+      "symbol": "AUBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_0c89b37c5ddb"
+        "trg_957cc863a7a7",
+        "trg_1fbbd6e0519b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ae33db8ce614",
-      "created_at": "2026-08-31T23:59:17+05:30",
-      "expires_at": "2026-08-31T23:59:17+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_15d3ad3bd0e5",
+      "created_at": "2026-09-01T16:16:28+05:30",
+      "expires_at": "2026-09-01T16:16:28+05:30"
     },
     {
-      "symbol": "RRKABEL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.5% vs previous close.",
+      "symbol": "IDFCFIRSTB.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_6e45fd11be57"
+        "trg_21964968f8a1"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3be3f382b76f",
-      "created_at": "2026-08-31T23:59:17+05:30",
-      "expires_at": "2026-08-31T23:59:17+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_c2409211e476",
+      "created_at": "2026-09-01T16:16:28+05:30",
+      "expires_at": "2026-09-01T16:16:28+05:30"
     },
     {
-      "symbol": "ENGINERSIN.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
+      "symbol": "_MARKET_",
+      "severity": "HIGH",
+      "action_type": "MANUAL_REVIEW",
+      "reason": "Market regime NEUTRAL -> RISK_OFF.",
       "trigger_ids": [
-        "trg_ee159b1a3471"
+        "trg_e1d16dfce661"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
-      "manual_review_required": false,
+      "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_fd1151e40c4c",
-      "created_at": "2026-08-31T23:59:17+05:30",
-      "expires_at": "2026-08-31T23:59:17+05:30"
+      "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+      "escalation_id": "esc_329731e06aaa",
+      "created_at": "2026-09-01T16:16:28+05:30",
+      "expires_at": "2026-09-01T16:16:28+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "INDUSINDBK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "AUBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    },
+    {
+      "symbol": "IDFCFIRSTB.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
