@@ -1,5 +1,92 @@
 [
   {
+    "symbol": "CLEAN.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.4% vs previous close.",
+    "trigger_ids": [
+      "trg_f2038df24c8a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_752fb75160b9",
+    "created_at": "2026-09-02T15:38:47+05:30",
+    "expires_at": "2026-09-02T15:38:47+05:30"
+  },
+  {
+    "symbol": "BEML.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_12d43ebf369c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_446077df0fb9",
+    "created_at": "2026-09-02T15:38:47+05:30",
+    "expires_at": "2026-09-02T15:38:47+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +8.6% since last observation.",
+    "trigger_ids": [
+      "trg_b822c4ef585c",
+      "trg_ccc203a17c18"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAILIFE.NS",
+      "score": 68.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_2d70c181a6db",
+    "created_at": "2026-09-02T15:38:47+05:30",
+    "expires_at": "2026-09-02T15:38:47+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.4% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_c52e66f3a815"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_3f557ad8f89e",
+    "created_at": "2026-09-02T15:38:47+05:30",
+    "expires_at": "2026-09-02T15:38:47+05:30"
+  },
+  {
     "symbol": "ITC.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2104,92 +2191,5 @@
     "escalation_id": "esc_b8b8d65a6e30",
     "created_at": "2026-08-19T16:31:03+05:30",
     "expires_at": "2026-08-19T16:31:03+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.6% since last observation.",
-    "trigger_ids": [
-      "trg_30c1000bee7e",
-      "trg_d6c25350dd18"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WELCORP.NS",
-      "score": 72.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 72.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=99, trend_following=92, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_d3a312a4d11b",
-    "created_at": "2026-08-19T16:31:03+05:30",
-    "expires_at": "2026-08-19T16:31:03+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.7% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_1c0e021bb3f3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_a450d9db27f1",
-    "created_at": "2026-08-19T16:31:03+05:30",
-    "expires_at": "2026-08-19T16:31:03+05:30"
-  },
-  {
-    "symbol": "POLICYBZR.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_aa309e1c63bc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_94edd002c521",
-    "created_at": "2026-08-19T13:16:52+05:30",
-    "expires_at": "2026-08-19T13:16:52+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.1% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_3a11a93b736b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_4569b245075d",
-    "created_at": "2026-08-19T13:16:52+05:30",
-    "expires_at": "2026-08-19T13:16:52+05:30"
   }
 ]

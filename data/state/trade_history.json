@@ -4180,5 +4180,22 @@
     "signal_id": "sig_2c47cb5c6c39",
     "timestamp": "2026-08-31T23:57:00+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_4401188d944b",
+    "symbol": "ANANDRATHI.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 4,
+    "filled_quantity": 0,
+    "price": 2204.0,
+    "amount": 8816.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8816.00, have 100.34.",
+    "reason": "Final 71.1/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, relative_strength=76.",
+    "signal_id": "sig_6ca84a90674d",
+    "timestamp": "2026-09-02T15:36:46+05:30",
+    "realized_pnl": 0.0
   }
 ]
