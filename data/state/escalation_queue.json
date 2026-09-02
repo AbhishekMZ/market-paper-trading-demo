@@ -1,38 +1,5 @@
 [
   {
-    "symbol": "RRKABEL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_b409302dc725",
-      "trg_288cbc9e3c94"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "RRKABEL.NS",
-      "score": 68.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_b8b8d65a6e30",
-    "created_at": "2026-08-19T16:31:03+05:30",
-    "expires_at": "2026-08-19T16:31:03+05:30"
-  },
-  {
     "symbol": "THELEELA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2191,5 +2158,23 @@
     "escalation_id": "esc_752fb75160b9",
     "created_at": "2026-09-02T15:38:47+05:30",
     "expires_at": "2026-09-02T15:38:47+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.5% vs previous close.",
+    "trigger_ids": [
+      "trg_b846e10e4a6c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7b0b85d95da3",
+    "created_at": "2026-09-02T17:19:38+05:30",
+    "expires_at": "2026-09-02T17:19:38+05:30"
   }
 ]
