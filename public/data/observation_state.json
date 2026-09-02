@@ -5,7 +5,7 @@
       "change_pct": -0.1125,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:17:23+05:30"
+      "updated_at": "2026-09-02T20:30:16+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -166,7 +166,7 @@
       "change_pct": 4.5386,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:18:13+05:30"
+      "updated_at": "2026-09-02T20:31:06+05:30"
     },
     "SONACOMS.NS": {
       "last_price": 823.5,
@@ -306,7 +306,7 @@
       "change_pct": 1.0817,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:17:55+05:30"
+      "updated_at": "2026-09-02T20:30:49+05:30"
     },
     "JIOFIN.NS": {
       "last_price": 263.0,
@@ -327,7 +327,7 @@
       "change_pct": 1.6633,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:17:47+05:30"
+      "updated_at": "2026-09-02T20:30:38+05:30"
     },
     "EMCURE.NS": {
       "last_price": 2012.0,
@@ -362,7 +362,7 @@
       "change_pct": 0.0914,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:17:23+05:30"
+      "updated_at": "2026-09-02T20:30:17+05:30"
     },
     "APOLLOHOSP.NS": {
       "last_price": 8862.0,
@@ -446,7 +446,7 @@
       "change_pct": 0.7759,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:19:38+05:30"
+      "updated_at": "2026-09-02T20:32:29+05:30"
     },
     "LLOYDSME.NS": {
       "last_price": 2050.60009765625,
@@ -901,7 +901,7 @@
       "change_pct": 0.0592,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:19:21+05:30"
+      "updated_at": "2026-09-02T20:32:13+05:30"
     },
     "ASHOKLEY.NS": {
       "last_price": 175.63999938964844,
@@ -1160,7 +1160,7 @@
       "change_pct": 4.3586,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:19:29+05:30"
+      "updated_at": "2026-09-02T20:32:21+05:30"
     },
     "ATUL.NS": {
       "last_price": 6924.5,
@@ -1300,7 +1300,7 @@
       "change_pct": 0.1491,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:19:12+05:30"
+      "updated_at": "2026-09-02T20:32:05+05:30"
     },
     "MFSL.NS": {
       "last_price": 1584.5,
@@ -1356,7 +1356,7 @@
       "change_pct": -0.9472,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:18:28+05:30"
+      "updated_at": "2026-09-02T20:31:19+05:30"
     },
     "CYIENT.NS": {
       "last_price": 922.25,
@@ -1391,7 +1391,7 @@
       "change_pct": -0.3529,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:17:39+05:30"
+      "updated_at": "2026-09-02T20:30:25+05:30"
     },
     "PNBHOUSING.NS": {
       "last_price": 1185.0,
@@ -1636,7 +1636,7 @@
       "change_pct": -0.2616,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:18:38+05:30"
+      "updated_at": "2026-09-02T20:31:34+05:30"
     },
     "OFSS.NS": {
       "last_price": 12540.0,
@@ -1678,21 +1678,21 @@
       "change_pct": 0.8064,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:18:47+05:30"
+      "updated_at": "2026-09-02T20:31:43+05:30"
     },
     "BEML.NS": {
       "last_price": 2032.4000244140625,
       "change_pct": 3.157,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:18:05+05:30"
+      "updated_at": "2026-09-02T20:30:57+05:30"
     },
     "HOMEFIRST.NS": {
       "last_price": 1196.699951171875,
       "change_pct": 1.1752,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-02T17:19:00+05:30"
+      "updated_at": "2026-09-02T20:31:51+05:30"
     },
     "AFCONS.NS": {
       "last_price": 285.1000061035156,
@@ -1702,6 +1702,6 @@
       "updated_at": "2026-09-02T15:38:47+05:30"
     }
   },
-  "last_observation_at": "2026-09-02T17:19:38+05:30",
+  "last_observation_at": "2026-09-02T20:32:29+05:30",
   "last_regime": "NEUTRAL"
 }

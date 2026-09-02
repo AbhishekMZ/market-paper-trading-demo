@@ -474,7 +474,7 @@ ICICIBANK.NS(49.9), IEX.NS(49.9), SCHAEFFLER.NS(49.9), BAYERCROP.NS(49.8), FSL.N
 - JSWDULUX.NS (WATCH, 69.5): Final 69.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, relative_strength=80, portfolio_fit=80.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 2510 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 3012 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

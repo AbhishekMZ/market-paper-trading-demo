@@ -1,14 +1,32 @@
 {
-  "as_of": "2026-09-02T17:19:38+05:30",
+  "as_of": "2026-09-02T20:32:30+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SAILIFE.NS",
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.1% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_97fd85e60683"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_af376ac6cdce",
+      "created_at": "2026-09-02T20:32:29+05:30",
+      "expires_at": "2026-09-02T20:32:29+05:30"
+    },
+    {
+      "symbol": "BEML.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.5% vs previous close.",
+      "reason": "Gap +3.2% vs previous close.",
       "trigger_ids": [
-        "trg_b846e10e4a6c"
+        "trg_c7898db0de91"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +34,45 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7b0b85d95da3",
-      "created_at": "2026-09-02T17:19:38+05:30",
-      "expires_at": "2026-09-02T17:19:38+05:30"
+      "escalation_id": "esc_206460325696",
+      "created_at": "2026-09-02T20:32:29+05:30",
+      "expires_at": "2026-09-02T20:32:29+05:30"
+    },
+    {
+      "symbol": "SAILIFE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.5% vs previous close.",
+      "trigger_ids": [
+        "trg_d029a65434f9"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_edf349962070",
+      "created_at": "2026-09-02T20:32:29+05:30",
+      "expires_at": "2026-09-02T20:32:29+05:30"
+    },
+    {
+      "symbol": "CLEAN.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.4% vs previous close.",
+      "trigger_ids": [
+        "trg_9b922c2fb2e4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4b2f0bbc7859",
+      "created_at": "2026-09-02T20:32:29+05:30",
+      "expires_at": "2026-09-02T20:32:29+05:30"
     }
   ],
   "actions_taken": [],
