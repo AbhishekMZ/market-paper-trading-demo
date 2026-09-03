@@ -1,91 +1,5 @@
 [
   {
-    "symbol": "PERSISTENT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.9% vs previous close.",
-    "trigger_ids": [
-      "trg_0e3039c934a0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8bb3b1bca8d4",
-    "created_at": "2026-08-20T11:30:38+05:30",
-    "expires_at": "2026-08-20T11:30:38+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "SELL_REVIEW",
-    "reason": "Held position at -9.6% breaches soft-loss -7%.",
-    "trigger_ids": [
-      "trg_281fd82bea2f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_2bbb246cc143",
-    "created_at": "2026-08-20T13:17:55+05:30",
-    "expires_at": "2026-08-20T13:17:55+05:30"
-  },
-  {
-    "symbol": "ETERNAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.9% since last observation.",
-    "trigger_ids": [
-      "trg_c6d14c2ba691"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ETERNAL.NS",
-      "score": 69.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_ON",
-      "reason": "Final 69.1/100 -> WATCH [regime RISK_ON]. Top: relative_strength=88, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_7057d0262f47",
-    "created_at": "2026-08-20T13:17:55+05:30",
-    "expires_at": "2026-08-20T13:17:55+05:30"
-  },
-  {
-    "symbol": "KOTAKBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_d49bc76fa52f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_fde2acde10c1",
-    "created_at": "2026-08-20T16:31:55+05:30",
-    "expires_at": "2026-08-20T16:31:55+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "MEDIUM",
     "action_type": "SELL_REVIEW",
@@ -2176,5 +2090,92 @@
     "escalation_id": "esc_4b2f0bbc7859",
     "created_at": "2026-09-02T20:32:29+05:30",
     "expires_at": "2026-09-02T20:32:29+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.5% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_9cbf48b85af3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_48d8c965b712",
+    "created_at": "2026-09-03T15:50:06+05:30",
+    "expires_at": "2026-09-03T15:50:06+05:30"
+  },
+  {
+    "symbol": "JMFINANCIL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_002f879850e4",
+      "trg_6edb8c18bc7d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "JMFINANCIL.NS",
+      "score": 70.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_c3acc156ad05",
+    "created_at": "2026-09-03T15:50:06+05:30",
+    "expires_at": "2026-09-03T15:50:06+05:30"
+  },
+  {
+    "symbol": "URBANCO.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_1967be4a6f71"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_88b308baf370",
+    "created_at": "2026-09-03T15:50:06+05:30",
+    "expires_at": "2026-09-03T15:50:06+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_776817144c13"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_8ef3423fd724",
+    "created_at": "2026-09-03T15:50:06+05:30",
+    "expires_at": "2026-09-03T15:50:06+05:30"
   }
 ]
