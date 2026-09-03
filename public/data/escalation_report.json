@@ -1,71 +1,60 @@
 {
-  "as_of": "2026-09-03T17:29:25+05:30",
+  "as_of": "2026-09-03T20:29:45+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SAIL.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.9% since last observation.",
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.6% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_a77ad4503c9b"
+        "trg_1c745f3c846c"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "SAIL.NS",
-        "score": 59.9,
-        "label": "NO_ACTION",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 59.9/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-      "escalation_id": "esc_ec1f7a5d80bb",
-      "created_at": "2026-09-03T17:29:25+05:30",
-      "expires_at": "2026-09-03T17:29:25+05:30"
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_cc961cb5b402",
+      "created_at": "2026-09-03T20:29:45+05:30",
+      "expires_at": "2026-09-03T20:29:45+05:30"
     },
     {
       "symbol": "RBLBANK.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.0% since last observation.",
+      "reason": "Gap +4.8% vs previous close.",
       "trigger_ids": [
-        "trg_3eaa9fcebdfc",
-        "trg_328a7c232e90"
+        "trg_481c13efce2e"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "RBLBANK.NS",
-        "score": 71.4,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 71.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_8d47a07751b4",
-      "created_at": "2026-09-03T17:29:25+05:30",
-      "expires_at": "2026-09-03T17:29:25+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_25bd26c3d9a9",
+      "created_at": "2026-09-03T20:29:45+05:30",
+      "expires_at": "2026-09-03T20:29:45+05:30"
+    },
+    {
+      "symbol": "URBANCO.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.3% vs previous close.",
+      "trigger_ids": [
+        "trg_039058cbf105"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_bd9d345e8064",
+      "created_at": "2026-09-03T20:29:45+05:30",
+      "expires_at": "2026-09-03T20:29:45+05:30"
     }
   ],
   "actions_taken": [],

@@ -480,7 +480,7 @@ AMBUJACEM.NS(49.9), HDFCLIFE.NS(49.9), NEULANDLAB.NS(49.9), TATAPOWER.NS(49.9), 
 - TBOTEK.NS (WATCH, 69.5): Final 69.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 4016 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 4518 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
