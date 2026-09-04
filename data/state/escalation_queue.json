@@ -1,37 +1,5 @@
 [
   {
-    "symbol": "BRIGADE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +9.5% since last observation.",
-    "trigger_ids": [
-      "trg_116c5685fba7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "BRIGADE.NS",
-      "score": 63.6,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 63.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_71a7a89cca16",
-    "created_at": "2026-08-21T13:19:04+05:30",
-    "expires_at": "2026-08-21T13:19:04+05:30"
-  },
-  {
     "symbol": "SAILIFE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2192,5 +2160,23 @@
     "escalation_id": "esc_698b07180937",
     "created_at": "2026-09-04T17:06:56+05:30",
     "expires_at": "2026-09-04T17:06:56+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -12.6% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_fff4b4f7a641"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_9bad3a46ec1b",
+    "created_at": "2026-09-04T20:13:31+05:30",
+    "expires_at": "2026-09-04T20:13:31+05:30"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "observation_runs": 171,
-  "triggers_detected": 676,
-  "escalations_created": 435,
+  "observation_runs": 172,
+  "triggers_detected": 677,
+  "escalations_created": 436,
   "paper_actions_from_triggers": 0,
   "blocked_actions_from_triggers": 144,
   "emails_sent_total": 0,
-  "last_run": "2026-09-04T17:06:56+05:30",
+  "last_run": "2026-09-04T20:13:31+05:30",
   "last_watchlist_size": 15
 }

@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-04T17:06:56+05:30",
+  "as_of": "2026-09-04T20:13:31+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 2,
+  "triggers_this_run": 1,
   "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 171,
-    "triggers_detected": 676,
-    "escalations_created": 435,
+    "observation_runs": 172,
+    "triggers_detected": 677,
+    "escalations_created": 436,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-04T17:06:56+05:30",
+    "last_run": "2026-09-04T20:13:31+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -29,17 +29,17 @@
       "COLPAL.NS",
       "LICHSGFIN.NS",
       "RBLBANK.NS",
-      "UNOMINDA.NS",
-      "UNIONBANK.NS",
       "CUB.NS",
       "ANANDRATHI.NS",
-      "VIJAYA.NS",
-      "ASAHIINDIA.NS",
       "URBANCO.NS",
-      "CGPOWER.NS",
       "CRISIL.NS",
-      "ABSLAMC.NS",
-      "CHENNPETRO.NS"
+      "CHENNPETRO.NS",
+      "ELGIEQUIP.NS",
+      "KPRMILL.NS",
+      "CRAFTSMAN.NS",
+      "COCHINSHIP.NS",
+      "TATACAP.NS",
+      "JSWDULUX.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,62 +63,35 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_8d6727e806bb",
-        "detected_at": "2026-09-04T17:05:06+05:30"
-      },
-      {
-        "symbol": "ABSLAMC.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +3.9% vs previous close.",
-        "company_name": "Aditya Birla Sun Life AMC Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1062.300048828125,
-        "previous_price": null,
-        "change_pct": 3.9432,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_698b07180937",
-        "trigger_id": "trg_f2c0d41c27e2",
-        "detected_at": "2026-09-04T17:06:46+05:30"
+        "created_escalation_id": "esc_9bad3a46ec1b",
+        "trigger_id": "trg_fff4b4f7a641",
+        "detected_at": "2026-09-04T20:11:41+05:30"
       }
     ],
-    "throttled": [
-      {
-        "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
-      }
-    ],
+    "throttled": [],
     "escalations": [
       {
-        "symbol": "ABSLAMC.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.9% vs previous close.",
+        "symbol": "COLPAL.NS",
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -12.6% breaches strong-loss -10%.",
         "trigger_ids": [
-          "trg_f2c0d41c27e2"
+          "trg_fff4b4f7a641"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
-        "manual_review_required": false,
+        "manual_review_required": true,
         "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_698b07180937",
-        "created_at": "2026-09-04T17:06:56+05:30",
-        "expires_at": "2026-09-04T17:06:56+05:30"
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_9bad3a46ec1b",
+        "created_at": "2026-09-04T20:13:31+05:30",
+        "expires_at": "2026-09-04T20:13:31+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-04T17:05:05+05:30"
+    "as_of": "2026-09-04T20:11:40+05:30"
   }
 }

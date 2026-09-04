@@ -1,26 +1,5 @@
 [
   {
-    "symbol": "ITC.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap -2.8% vs previous close.",
-    "company_name": "ITC.NS",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 280.6499938964844,
-    "previous_price": null,
-    "change_pct": -2.8052,
-    "market_regime": "EVENT_RISK",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_835460ffb431",
-    "trigger_id": "trg_b6334341e5d7",
-    "detected_at": "2026-07-08T16:47:14+05:30"
-  },
-  {
     "symbol": "_MARKET_",
     "trigger_type": "MARKET_REGIME_SHIFT",
     "severity": "HIGH",
@@ -10498,5 +10477,26 @@
     "created_escalation_id": "esc_698b07180937",
     "trigger_id": "trg_f2c0d41c27e2",
     "detected_at": "2026-09-04T17:06:46+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "trigger_type": "STRONG_LOSS_REVIEW",
+    "severity": "HIGH",
+    "reason": "Held position at -12.6% breaches strong-loss -10%.",
+    "company_name": "COLPAL.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1829.199951171875,
+    "previous_price": null,
+    "change_pct": -12.63,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "TRIM_REVIEW.",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_9bad3a46ec1b",
+    "trigger_id": "trg_fff4b4f7a641",
+    "detected_at": "2026-09-04T20:11:41+05:30"
   }
 ]
