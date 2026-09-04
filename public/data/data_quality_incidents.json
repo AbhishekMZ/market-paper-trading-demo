@@ -1,5 +1,28 @@
 [
   {
+    "ts": "2026-09-04T15:56:04+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 264.1000061035156,
+    "jump_pct": 50.99,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-09-04T15:54:55+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
     "ts": "2026-09-04T14:21:29+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1014,24 +1037,6 @@
     "prev_price": 538.92,
     "rejected_price": 286.6000061035156,
     "jump_pct": 46.82,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-08-03T13:12:25+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 286.70001220703125,
-    "jump_pct": 46.8,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-07-31T17:07:34+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 281.0,
-    "jump_pct": 47.86,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]

@@ -4469,5 +4469,22 @@
     "signal_id": "sig_68737b6862ca",
     "timestamp": "2026-09-04T15:30:39+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_283457c85871",
+    "symbol": "LENSKART.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 14,
+    "filled_quantity": 0,
+    "price": 684.9,
+    "amount": 9588.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9588.60, have 100.34.",
+    "reason": "Final 71.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=94, trend_following=90, portfolio_fit=80.",
+    "signal_id": "sig_3e3ddc6b1af8",
+    "timestamp": "2026-09-04T17:05:03+05:30",
+    "realized_pnl": 0.0
   }
 ]

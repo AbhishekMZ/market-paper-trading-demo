@@ -1,57 +1,24 @@
 {
-  "as_of": "2026-09-04T15:32:36+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-04T17:06:56+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -12.1% breaches strong-loss -10%.",
+      "symbol": "ABSLAMC.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.9% vs previous close.",
       "trigger_ids": [
-        "trg_fcffb57e5b9c"
+        "trg_f2c0d41c27e2"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_aded9fd68bcf",
-      "created_at": "2026-09-04T15:32:36+05:30",
-      "expires_at": "2026-09-04T15:32:36+05:30"
-    },
-    {
-      "symbol": "ACMESOLAR.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.8% since last observation.",
-      "trigger_ids": [
-        "trg_4a7d9d70d144",
-        "trg_8906d79eaed4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "ACMESOLAR.NS",
-        "score": 69.4,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": true
-      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_524e2fa0353f",
-      "created_at": "2026-09-04T15:32:36+05:30",
-      "expires_at": "2026-09-04T15:32:36+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_698b07180937",
+      "created_at": "2026-09-04T17:06:56+05:30",
+      "expires_at": "2026-09-04T17:06:56+05:30"
     }
   ],
   "actions_taken": [],
