@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-03T20:27:35+05:30",
-  "portfolio_max_drawdown_pct": -12.19,
+  "as_of": "2026-09-04T15:30:40+05:30",
+  "portfolio_max_drawdown_pct": -12.56,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1237,
-      "average_score_contribution": 32.4,
+      "avoided_bad_trade_count": 1221,
+      "average_score_contribution": 33.2,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 542,
-      "average_score_contribution": 58.4,
+      "avoided_bad_trade_count": 602,
+      "average_score_contribution": 56.6,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,8 +41,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1257,
-      "average_score_contribution": 44.8,
+      "avoided_bad_trade_count": 1243,
+      "average_score_contribution": 44.9,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 49.8,
+      "average_score_contribution": 49.9,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,7 +83,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 868,
+      "avoided_bad_trade_count": 870,
       "average_score_contribution": 34.6,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -97,7 +97,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 77,
+      "avoided_bad_trade_count": 78,
       "average_score_contribution": 77.4,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
