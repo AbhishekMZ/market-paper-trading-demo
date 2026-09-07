@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "SAILIFE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_90984e932f85"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_dd20e1e20d05",
-    "created_at": "2026-08-21T13:19:04+05:30",
-    "expires_at": "2026-08-21T13:19:04+05:30"
-  },
-  {
-    "symbol": "THELEELA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.7% vs previous close.",
-    "trigger_ids": [
-      "trg_50aab6c42781"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_95dd9e35a924",
-    "created_at": "2026-08-21T13:19:04+05:30",
-    "expires_at": "2026-08-21T13:19:04+05:30"
-  },
-  {
-    "symbol": "KOTAKBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_dc5ff85c5cf7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_2619352a70c3",
-    "created_at": "2026-08-21T16:34:35+05:30",
-    "expires_at": "2026-08-21T16:34:35+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "SELL_REVIEW",
-    "reason": "Held position at -9.7% breaches soft-loss -7%.",
-    "trigger_ids": [
-      "trg_042dc7711c57"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_33e3f65a7359",
-    "created_at": "2026-08-21T16:34:35+05:30",
-    "expires_at": "2026-08-21T16:34:35+05:30"
-  },
-  {
-    "symbol": "MANAPPURAM.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.8% since last observation.",
-    "trigger_ids": [
-      "trg_4aff82abaf5d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_960a3e76824a",
-    "created_at": "2026-08-21T16:34:35+05:30",
-    "expires_at": "2026-08-21T16:34:35+05:30"
-  },
-  {
     "symbol": "HINDZINC.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2178,5 +2088,123 @@
     "escalation_id": "esc_9bad3a46ec1b",
     "created_at": "2026-09-04T20:13:31+05:30",
     "expires_at": "2026-09-04T20:13:31+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -13.4% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_c3f16d53ca3f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_60eadc39a328",
+    "created_at": "2026-09-07T16:00:26+05:30",
+    "expires_at": "2026-09-07T16:00:26+05:30"
+  },
+  {
+    "symbol": "MOTILALOFS.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.2% since last observation.",
+    "trigger_ids": [
+      "trg_4d5267664b66"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "MOTILALOFS.NS",
+      "score": 68.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=93, portfolio_fit=80, relative_strength=79. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_d3a2c4f94a29",
+    "created_at": "2026-09-07T16:00:26+05:30",
+    "expires_at": "2026-09-07T16:00:26+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +6.0% since last observation.",
+    "trigger_ids": [
+      "trg_b77965a77fbb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "WELSPUNLIV.NS",
+      "score": 66.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 66.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=94, portfolio_fit=80, relative_strength=78. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_506b07f7012a",
+    "created_at": "2026-09-07T16:00:26+05:30",
+    "expires_at": "2026-09-07T16:00:26+05:30"
+  },
+  {
+    "symbol": "PARADEEP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.1% since last observation.",
+    "trigger_ids": [
+      "trg_2d47f1116a54"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_fa540e71d6ec",
+    "created_at": "2026-09-07T16:00:26+05:30",
+    "expires_at": "2026-09-07T16:00:26+05:30"
+  },
+  {
+    "symbol": "IDEA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.9% vs previous close.",
+    "trigger_ids": [
+      "trg_4cc44f85caa2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_3655122011aa",
+    "created_at": "2026-09-07T16:00:26+05:30",
+    "expires_at": "2026-09-07T16:00:26+05:30"
   }
 ]
