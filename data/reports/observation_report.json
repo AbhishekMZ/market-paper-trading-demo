@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-07T18:06:46+05:30",
+  "as_of": "2026-09-07T21:44:43+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 2,
-  "escalations": 0,
+  "triggers_this_run": 3,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 174,
-    "triggers_detected": 686,
-    "escalations_created": 441,
+    "observation_runs": 175,
+    "triggers_detected": 689,
+    "escalations_created": 444,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-07T18:06:46+05:30",
+    "last_run": "2026-09-07T21:44:43+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +27,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "LENSKART.NS",
       "MOTILALOFS.NS",
+      "LENSKART.NS",
       "PNBHOUSING.NS",
       "RBLBANK.NS",
       "WELSPUNLIV.NS",
-      "HOMEFIRST.NS",
-      "PARADEEP.NS",
       "ELGIEQUIP.NS",
+      "PARADEEP.NS",
       "KOTAKBANK.NS",
-      "GLAND.NS",
       "NCC.NS",
       "CRISIL.NS",
-      "IDEA.NS"
+      "IDEA.NS",
+      "TITAGARH.NS",
+      "MCX.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_c7a204959b8d",
-        "detected_at": "2026-09-07T18:04:57+05:30"
+        "created_escalation_id": "esc_de781061d82b",
+        "trigger_id": "trg_03dab20e9008",
+        "detected_at": "2026-09-07T21:42:55+05:30"
       },
       {
         "symbol": "IDEA.NS",
@@ -84,27 +84,92 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_2ac2dbb20600",
-        "detected_at": "2026-09-07T18:06:46+05:30"
+        "created_escalation_id": "esc_d80cecb5a042",
+        "trigger_id": "trg_53127a96c457",
+        "detected_at": "2026-09-07T21:44:26+05:30"
+      },
+      {
+        "symbol": "TITAGARH.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.8% vs previous close.",
+        "company_name": "Titagarh Rail Systems Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 896.4500122070312,
+        "previous_price": null,
+        "change_pct": 2.8216,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_715c6aeabc64",
+        "trigger_id": "trg_66e4c5f3ac96",
+        "detected_at": "2026-09-07T21:44:35+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -13.4% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_03dab20e9008"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_de781061d82b",
+        "created_at": "2026-09-07T21:44:43+05:30",
+        "expires_at": "2026-09-07T21:44:43+05:30"
       },
       {
         "symbol": "IDEA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.9% vs previous close.",
+        "trigger_ids": [
+          "trg_53127a96c457"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_d80cecb5a042",
+        "created_at": "2026-09-07T21:44:43+05:30",
+        "expires_at": "2026-09-07T21:44:43+05:30"
+      },
+      {
+        "symbol": "TITAGARH.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.8% vs previous close.",
+        "trigger_ids": [
+          "trg_66e4c5f3ac96"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_715c6aeabc64",
+        "created_at": "2026-09-07T21:44:43+05:30",
+        "expires_at": "2026-09-07T21:44:43+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-07T18:04:56+05:30"
+    "as_of": "2026-09-07T21:42:54+05:30"
   }
 }

@@ -1,74 +1,5 @@
 [
   {
-    "symbol": "HINDZINC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.7% vs previous close.",
-    "trigger_ids": [
-      "trg_89683d23fca6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c63d7a6b7ead",
-    "created_at": "2026-08-21T16:34:35+05:30",
-    "expires_at": "2026-08-21T16:34:35+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "SELL_REVIEW",
-    "reason": "Held position at -9.8% breaches soft-loss -7%.",
-    "trigger_ids": [
-      "trg_ce2ac87e40d5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_353e9f74c0e3",
-    "created_at": "2026-08-24T11:39:41+05:30",
-    "expires_at": "2026-08-24T11:39:41+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.2% since last observation.",
-    "trigger_ids": [
-      "trg_cd63c41e0988",
-      "trg_70bea834f454"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "REDINGTON.NS",
-      "score": 68.2,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_813f403d6982",
-    "created_at": "2026-08-24T11:39:41+05:30",
-    "expires_at": "2026-08-24T11:39:41+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "HIGH",
     "action_type": "TRIM_REVIEW",
@@ -2206,5 +2137,59 @@
     "escalation_id": "esc_3655122011aa",
     "created_at": "2026-09-07T16:00:26+05:30",
     "expires_at": "2026-09-07T16:00:26+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -13.4% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_03dab20e9008"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_de781061d82b",
+    "created_at": "2026-09-07T21:44:43+05:30",
+    "expires_at": "2026-09-07T21:44:43+05:30"
+  },
+  {
+    "symbol": "IDEA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.9% vs previous close.",
+    "trigger_ids": [
+      "trg_53127a96c457"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d80cecb5a042",
+    "created_at": "2026-09-07T21:44:43+05:30",
+    "expires_at": "2026-09-07T21:44:43+05:30"
+  },
+  {
+    "symbol": "TITAGARH.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_66e4c5f3ac96"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_715c6aeabc64",
+    "created_at": "2026-09-07T21:44:43+05:30",
+    "expires_at": "2026-09-07T21:44:43+05:30"
   }
 ]
