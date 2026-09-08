@@ -4639,5 +4639,39 @@
     "signal_id": "sig_09bb579504d3",
     "timestamp": "2026-09-07T21:42:52+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_6f159d8a27e2",
+    "symbol": "ANANDRATHI.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 4,
+    "filled_quantity": 0,
+    "price": 2226.7,
+    "amount": 8906.8,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8906.80, have 100.34.",
+    "reason": "Final 71.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=85, portfolio_fit=80, relative_strength=75.",
+    "signal_id": "sig_06b5dd1a3435",
+    "timestamp": "2026-09-08T15:30:43+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_da450612d75f",
+    "symbol": "SUNDARMFIN.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4713.9,
+    "amount": 9427.8,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9427.80, have 100.34.",
+    "reason": "Final 70.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=98, portfolio_fit=80, trend_following=74.",
+    "signal_id": "sig_537c323ac38a",
+    "timestamp": "2026-09-08T15:30:43+05:30",
+    "realized_pnl": 0.0
   }
 ]
