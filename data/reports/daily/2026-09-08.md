@@ -483,7 +483,7 @@ ABB.NS(49.9), ERIS.NS(49.9), ASTERDM.NS(49.8), EMCURE.NS(49.8), GRAVITA.NS(49.8)
 - NUVAMA.NS (WATCH, 70.5): Final 70.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=94, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 8534 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 9036 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

@@ -5,6 +5,42 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap +2.8% vs previous close.",
     "trigger_ids": [
+      "trg_7041f4a3de7a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e7d318c05ef0",
+    "created_at": "2026-09-08T20:19:42+05:30",
+    "expires_at": "2026-09-08T20:19:42+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -13.1% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_a4e4fe8dbbc2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_ac063ef94694",
+    "created_at": "2026-09-08T20:19:42+05:30",
+    "expires_at": "2026-09-08T20:19:42+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
       "trg_8f792e08f847"
     ],
     "action_status": "OPEN",
@@ -2168,56 +2204,6 @@
     "email_sent": false,
     "final_decision": "Focused re-analysis: WATCH — not a buy.",
     "escalation_id": "esc_bf7fe291bc6a",
-    "created_at": "2026-08-25T11:32:12+05:30",
-    "expires_at": "2026-08-25T11:32:12+05:30"
-  },
-  {
-    "symbol": "DEVYANI.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +17.7% since last observation.",
-    "trigger_ids": [
-      "trg_3166686b090b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "DEVYANI.NS",
-      "score": 64.0,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 64.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, relative_strength=82, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_f6d5778b9764",
-    "created_at": "2026-08-25T11:32:12+05:30",
-    "expires_at": "2026-08-25T11:32:12+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.4% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_cc3e32b45a8e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_48701f66574c",
     "created_at": "2026-08-25T11:32:12+05:30",
     "expires_at": "2026-08-25T11:32:12+05:30"
   }

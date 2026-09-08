@@ -1,14 +1,32 @@
 {
-  "as_of": "2026-09-08T17:11:20+05:30",
+  "as_of": "2026-09-08T20:19:42+05:30",
   "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -13.1% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_a4e4fe8dbbc2"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_ac063ef94694",
+      "created_at": "2026-09-08T20:19:42+05:30",
+      "expires_at": "2026-09-08T20:19:42+05:30"
+    },
     {
       "symbol": "DIVISLAB.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +2.8% vs previous close.",
       "trigger_ids": [
-        "trg_8f792e08f847"
+        "trg_7041f4a3de7a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2d91c8dd2bf5",
-      "created_at": "2026-09-08T17:11:20+05:30",
-      "expires_at": "2026-09-08T17:11:20+05:30"
+      "escalation_id": "esc_e7d318c05ef0",
+      "created_at": "2026-09-08T20:19:42+05:30",
+      "expires_at": "2026-09-08T20:19:42+05:30"
     }
   ],
   "actions_taken": [],
