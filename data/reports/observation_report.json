@@ -1,28 +1,28 @@
 {
-  "as_of": "2026-09-08T15:32:43+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-08T17:11:20+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 5,
-  "escalations": 4,
+  "triggers_this_run": 2,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 176,
-    "triggers_detected": 694,
-    "escalations_created": 448,
+    "observation_runs": 177,
+    "triggers_detected": 696,
+    "escalations_created": 449,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-08T15:32:43+05:30",
+    "last_run": "2026-09-08T17:11:20+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
@@ -32,14 +32,14 @@
       "MOTILALOFS.NS",
       "PNBHOUSING.NS",
       "CDSL.NS",
-      "NUVAMA.NS",
+      "KPIL.NS",
       "DIVISLAB.NS",
+      "BEML.NS",
       "PIRAMALFIN.NS",
       "SHYAMMETL.NS",
       "JSWDULUX.NS",
       "SUPREMEIND.NS",
-      "GLENMARK.NS",
-      "BEML.NS"
+      "NUVAMA.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -54,60 +54,18 @@
         "company_name": "COLPAL.NS",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1819.5999755859375,
+        "price_at_detection": 1819.9000244140625,
         "previous_price": null,
-        "change_pct": -13.14,
+        "change_pct": -13.07,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_dfc67f271daf",
-        "trigger_id": "trg_be2f9d48ad63",
-        "detected_at": "2026-09-08T15:30:47+05:30"
-      },
-      {
-        "symbol": "NUVAMA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved -6.6% since last observation.",
-        "company_name": "Nuvama Wealth Management Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1837.800048828125,
-        "previous_price": null,
-        "change_pct": -6.59,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_0c0c1cdef559",
-        "trigger_id": "trg_bef832779648",
-        "detected_at": "2026-09-08T15:31:44+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "Divi's Laboratories Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 9575.0,
-        "previous_price": null,
-        "change_pct": 3.51,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_0cd34e41af5a",
-        "trigger_id": "trg_656902cc0296",
-        "detected_at": "2026-09-08T15:31:53+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_fc1dd83d8980",
+        "detected_at": "2026-09-08T17:09:30+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -126,59 +84,26 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_0cd34e41af5a",
-        "trigger_id": "trg_d3c1cb2c1e85",
-        "detected_at": "2026-09-08T15:31:53+05:30"
-      },
-      {
-        "symbol": "SHYAMMETL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +5.3% since last observation.",
-        "company_name": "Shyam Metalics and Energy Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1081.9000244140625,
-        "previous_price": null,
-        "change_pct": 5.28,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_ab170618f066",
-        "trigger_id": "trg_56dc82fbb014",
-        "detected_at": "2026-09-08T15:32:10+05:30"
+        "created_escalation_id": "esc_2d91c8dd2bf5",
+        "trigger_id": "trg_8f792e08f847",
+        "detected_at": "2026-09-08T17:10:30+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "COLPAL.NS",
-        "severity": "HIGH",
-        "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -13.1% breaches strong-loss -10%.",
-        "trigger_ids": [
-          "trg_be2f9d48ad63"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_dfc67f271daf",
-        "created_at": "2026-09-08T15:32:43+05:30",
-        "expires_at": "2026-09-08T15:32:43+05:30"
-      },
+        "trigger": "STRONG_LOSS_REVIEW",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
       {
-        "symbol": "NUVAMA.NS",
-        "severity": "HIGH",
+        "symbol": "DIVISLAB.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -6.6% since last observation.",
+        "reason": "Gap +2.8% vs previous close.",
         "trigger_ids": [
-          "trg_bef832779648"
+          "trg_8f792e08f847"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -186,79 +111,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_0c0c1cdef559",
-        "created_at": "2026-09-08T15:32:43+05:30",
-        "expires_at": "2026-09-08T15:32:43+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.5% since last observation.",
-        "trigger_ids": [
-          "trg_656902cc0296",
-          "trg_d3c1cb2c1e85"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "DIVISLAB.NS",
-          "score": 71.5,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, trend_following=91, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_0cd34e41af5a",
-        "created_at": "2026-09-08T15:32:43+05:30",
-        "expires_at": "2026-09-08T15:32:43+05:30"
-      },
-      {
-        "symbol": "SHYAMMETL.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +5.3% since last observation.",
-        "trigger_ids": [
-          "trg_56dc82fbb014"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SHYAMMETL.NS",
-          "score": 59.4,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 59.4/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_ab170618f066",
-        "created_at": "2026-09-08T15:32:43+05:30",
-        "expires_at": "2026-09-08T15:32:43+05:30"
+        "escalation_id": "esc_2d91c8dd2bf5",
+        "created_at": "2026-09-08T17:11:20+05:30",
+        "expires_at": "2026-09-08T17:11:20+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-08T15:30:46+05:30"
+    "as_of": "2026-09-08T17:09:30+05:30"
   }
 }

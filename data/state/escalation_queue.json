@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ENGINERSIN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.1% vs previous close.",
-    "trigger_ids": [
-      "trg_0f8df3027c06"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b2d158a6eb53",
-    "created_at": "2026-08-24T16:45:28+05:30",
-    "expires_at": "2026-08-24T16:45:28+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "HIGH",
     "action_type": "TRIM_REVIEW",
@@ -2220,5 +2202,23 @@
     "escalation_id": "esc_ab170618f066",
     "created_at": "2026-09-08T15:32:43+05:30",
     "expires_at": "2026-09-08T15:32:43+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_8f792e08f847"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_2d91c8dd2bf5",
+    "created_at": "2026-09-08T17:11:20+05:30",
+    "expires_at": "2026-09-08T17:11:20+05:30"
   }
 ]
