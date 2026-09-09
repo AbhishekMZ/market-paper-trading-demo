@@ -1,5 +1,44 @@
 [
   {
+    "ts": "2026-09-09T14:29:20+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 262.6000061035156,
+    "jump_pct": 51.27,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-09-09T14:27:52+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-09-09T14:27:28+05:30",
+    "symbol": "HEG.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 267.8999938964844,
+    "mtm_price": 267.8999938964844,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "split_or_ca_discontinuity"
+    ],
+    "reasons": [
+      "consecutive close gap 62.6% >= 25% (suspected split/corporate action)."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
     "ts": "2026-09-08T19:09:15+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -1087,33 +1126,6 @@
     "prev_price": 538.92,
     "rejected_price": 276.3999938964844,
     "jump_pct": 48.71,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-08-12T15:52:18+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 276.1499938964844,
-    "jump_pct": 48.76,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-08-12T12:51:02+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 277.0,
-    "jump_pct": 48.6,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-08-12T11:16:36+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 276.79998779296875,
-    "jump_pct": 48.64,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]

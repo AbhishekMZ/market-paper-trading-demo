@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-09-08T20:19:42+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-09-09T15:40:07+05:30",
+  "checkpoint": "mid",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
       "severity": "HIGH",
       "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -13.1% breaches strong-loss -10%.",
+      "reason": "Held position at -14.0% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_a4e4fe8dbbc2"
+        "trg_77a3abe766ec"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +16,17 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_ac063ef94694",
-      "created_at": "2026-09-08T20:19:42+05:30",
-      "expires_at": "2026-09-08T20:19:42+05:30"
+      "escalation_id": "esc_7d73a8b60dcf",
+      "created_at": "2026-09-09T15:40:07+05:30",
+      "expires_at": "2026-09-09T15:40:07+05:30"
     },
     {
-      "symbol": "DIVISLAB.NS",
-      "severity": "LOW",
+      "symbol": "NH.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.8% vs previous close.",
+      "reason": "Moved -8.8% since last observation.",
       "trigger_ids": [
-        "trg_7041f4a3de7a"
+        "trg_ad0ce74ddde3"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +34,59 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e7d318c05ef0",
-      "created_at": "2026-09-08T20:19:42+05:30",
-      "expires_at": "2026-09-08T20:19:42+05:30"
+      "escalation_id": "esc_428fcd2302a9",
+      "created_at": "2026-09-09T15:40:07+05:30",
+      "expires_at": "2026-09-09T15:40:07+05:30"
+    },
+    {
+      "symbol": "SAILIFE.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +5.8% since last observation.",
+      "trigger_ids": [
+        "trg_dc1aa5a7c643"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAILIFE.NS",
+        "score": 65.9,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, relative_strength=79. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_95874e729efa",
+      "created_at": "2026-09-09T15:40:07+05:30",
+      "expires_at": "2026-09-09T15:40:07+05:30"
+    },
+    {
+      "symbol": "PINELABS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.3% vs previous close.",
+      "trigger_ids": [
+        "trg_6406c1e977f2"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_3268d0bb442b",
+      "created_at": "2026-09-09T15:40:07+05:30",
+      "expires_at": "2026-09-09T15:40:07+05:30"
     }
   ],
   "actions_taken": [],

@@ -4741,5 +4741,22 @@
     "signal_id": "sig_788bf059dabc",
     "timestamp": "2026-09-08T20:17:49+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_3cbd691f70b6",
+    "symbol": "ASAHIINDIA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 10,
+    "filled_quantity": 0,
+    "price": 972.4,
+    "amount": 9724.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9724.00, have 100.34.",
+    "reason": "Final 72.1/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=81, portfolio_fit=80.",
+    "signal_id": "sig_1471bbc00646",
+    "timestamp": "2026-09-09T15:38:14+05:30",
+    "realized_pnl": 0.0
   }
 ]
