@@ -1,56 +1,38 @@
 {
-  "as_of": "2026-09-09T15:40:07+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-09T17:19:46+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
+      "symbol": "_MARKET_",
       "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -14.0% breaches strong-loss -10%.",
+      "action_type": "MANUAL_REVIEW",
+      "reason": "Market regime NEUTRAL -> RISK_OFF.",
       "trigger_ids": [
-        "trg_77a3abe766ec"
+        "trg_2d11781b4d96"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_7d73a8b60dcf",
-      "created_at": "2026-09-09T15:40:07+05:30",
-      "expires_at": "2026-09-09T15:40:07+05:30"
+      "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+      "escalation_id": "esc_ad56dc3a05f6",
+      "created_at": "2026-09-09T17:19:46+05:30",
+      "expires_at": "2026-09-09T17:19:46+05:30"
     },
     {
-      "symbol": "NH.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -8.8% since last observation.",
-      "trigger_ids": [
-        "trg_ad0ce74ddde3"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_428fcd2302a9",
-      "created_at": "2026-09-09T15:40:07+05:30",
-      "expires_at": "2026-09-09T15:40:07+05:30"
-    },
-    {
-      "symbol": "SAILIFE.NS",
+      "symbol": "CGPOWER.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.8% since last observation.",
+      "reason": "Moved +4.0% since last observation.",
       "trigger_ids": [
-        "trg_dc1aa5a7c643"
+        "trg_8d3b2d6e2c6d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "SAILIFE.NS",
-        "score": 65.9,
+        "symbol": "CGPOWER.NS",
+        "score": 64.1,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -59,34 +41,48 @@
         "blocked_by": null,
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, relative_strength=79. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "market_regime": "RISK_OFF",
+        "reason": "Final 64.1/100 -> WATCH [regime RISK_OFF]. Top: trend_following=88, portfolio_fit=80, relative_strength=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_95874e729efa",
-      "created_at": "2026-09-09T15:40:07+05:30",
-      "expires_at": "2026-09-09T15:40:07+05:30"
+      "escalation_id": "esc_e218d4096dc4",
+      "created_at": "2026-09-09T17:19:46+05:30",
+      "expires_at": "2026-09-09T17:19:46+05:30"
     },
     {
-      "symbol": "PINELABS.NS",
-      "severity": "LOW",
+      "symbol": "AUROPHARMA.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Moved +3.9% since last observation.",
       "trigger_ids": [
-        "trg_6406c1e977f2"
+        "trg_78ba84697190"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "AUROPHARMA.NS",
+        "score": 56.1,
+        "label": "NO_ACTION",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_OFF",
+        "reason": "Final 56.1/100 -> NO_ACTION [regime RISK_OFF]. Top: portfolio_fit=80, trend_following=72, news_event_risk=65.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3268d0bb442b",
-      "created_at": "2026-09-09T15:40:07+05:30",
-      "expires_at": "2026-09-09T15:40:07+05:30"
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_3cb7b1f87d54",
+      "created_at": "2026-09-09T17:19:46+05:30",
+      "expires_at": "2026-09-09T17:19:46+05:30"
     }
   ],
   "actions_taken": [],
