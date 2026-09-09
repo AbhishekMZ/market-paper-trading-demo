@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-09T17:19:46+05:30",
+  "as_of": "2026-09-09T20:25:15+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 4,
-  "escalations": 3,
+  "triggers_this_run": 1,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 180,
-    "triggers_detected": 706,
-    "escalations_created": 458,
+    "observation_runs": 181,
+    "triggers_detected": 707,
+    "escalations_created": 459,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-09T17:19:46+05:30",
+    "last_run": "2026-09-09T20:25:15+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,168 +63,35 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_bb6b229480c8",
-        "detected_at": "2026-09-09T17:17:58+05:30"
-      },
-      {
-        "symbol": "CGPOWER.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.0% since last observation.",
-        "company_name": "CG Power and Industrial Solutions Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 926.9500122070312,
-        "previous_price": null,
-        "change_pct": 4.03,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_e218d4096dc4",
-        "trigger_id": "trg_8d3b2d6e2c6d",
-        "detected_at": "2026-09-09T17:19:30+05:30"
-      },
-      {
-        "symbol": "AUROPHARMA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.9% since last observation.",
-        "company_name": "Aurobindo Pharma Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1698.9000244140625,
-        "previous_price": null,
-        "change_pct": 3.88,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_3cb7b1f87d54",
-        "trigger_id": "trg_78ba84697190",
-        "detected_at": "2026-09-09T17:19:46+05:30"
-      },
-      {
-        "symbol": "_MARKET_",
-        "trigger_type": "MARKET_REGIME_SHIFT",
-        "severity": "HIGH",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
-        "company_name": null,
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": null,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block new buys; review open positions.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_ad56dc3a05f6",
-        "trigger_id": "trg_2d11781b4d96",
-        "detected_at": "2026-09-09T17:19:46+05:30"
+        "created_escalation_id": "esc_b17620410645",
+        "trigger_id": "trg_ea0d67e41d2e",
+        "detected_at": "2026-09-09T20:23:26+05:30"
       }
     ],
-    "throttled": [
-      {
-        "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
-      }
-    ],
+    "throttled": [],
     "escalations": [
       {
-        "symbol": "_MARKET_",
+        "symbol": "COLPAL.NS",
         "severity": "HIGH",
-        "action_type": "MANUAL_REVIEW",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -14.0% breaches strong-loss -10%.",
         "trigger_ids": [
-          "trg_2d11781b4d96"
+          "trg_ea0d67e41d2e"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
         "manual_review_required": true,
         "email_sent": false,
-        "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-        "escalation_id": "esc_ad56dc3a05f6",
-        "created_at": "2026-09-09T17:19:46+05:30",
-        "expires_at": "2026-09-09T17:19:46+05:30"
-      },
-      {
-        "symbol": "CGPOWER.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.0% since last observation.",
-        "trigger_ids": [
-          "trg_8d3b2d6e2c6d"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "CGPOWER.NS",
-          "score": 64.1,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "RISK_OFF",
-          "reason": "Final 64.1/100 -> WATCH [regime RISK_OFF]. Top: trend_following=88, portfolio_fit=80, relative_strength=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_e218d4096dc4",
-        "created_at": "2026-09-09T17:19:46+05:30",
-        "expires_at": "2026-09-09T17:19:46+05:30"
-      },
-      {
-        "symbol": "AUROPHARMA.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.9% since last observation.",
-        "trigger_ids": [
-          "trg_78ba84697190"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "AUROPHARMA.NS",
-          "score": 56.1,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "RISK_OFF",
-          "reason": "Final 56.1/100 -> NO_ACTION [regime RISK_OFF]. Top: portfolio_fit=80, trend_following=72, news_event_risk=65.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_3cb7b1f87d54",
-        "created_at": "2026-09-09T17:19:46+05:30",
-        "expires_at": "2026-09-09T17:19:46+05:30"
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_b17620410645",
+        "created_at": "2026-09-09T20:25:15+05:30",
+        "expires_at": "2026-09-09T20:25:15+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-09T17:17:58+05:30"
+    "as_of": "2026-09-09T20:23:25+05:30"
   }
 }
