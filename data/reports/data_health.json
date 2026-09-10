@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-09T20:23:24+05:30",
+  "as_of": "2026-09-10T15:35:04+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-09-09T20:23:24+05:30",
+  "last_successful_run": "2026-09-10T15:35:04+05:30",
   "symbols_assessed": 500,
   "usable_symbols": 498,
   "rejected_symbols": 2,
   "price_anomalies": 1,
   "stale_quotes": 0,
-  "missing_news": 51,
+  "missing_news": 50,
   "anomaly_symbols": [
     "HEG.NS"
   ],
@@ -17,6 +17,6 @@
   ],
   "overall": "DEGRADED",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
+  "checkpoint": "mid",
   "mtm_incidents": 1
 }

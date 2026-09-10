@@ -1,5 +1,88 @@
 [
   {
+    "symbol": "REDINGTON.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.2% since last observation.",
+    "trigger_ids": [
+      "trg_d7b48d0cc594",
+      "trg_b4e83273d14f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "REDINGTON.NS",
+      "score": 67.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_1cd12a505282",
+    "created_at": "2026-09-10T15:36:54+05:30",
+    "expires_at": "2026-09-10T15:36:54+05:30"
+  },
+  {
+    "symbol": "CRAFTSMAN.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_23c2adf75c8b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "CRAFTSMAN.NS",
+      "score": 58.1,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 58.1/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=89, breakout=70, news_event_risk=65. Disagreement: ['trend_following', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_3feec99f6570",
+    "created_at": "2026-09-10T15:36:54+05:30",
+    "expires_at": "2026-09-10T15:36:54+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -13.8% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_9002ead74fd4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_49e4045f9d4b",
+    "created_at": "2026-09-10T15:36:54+05:30",
+    "expires_at": "2026-09-10T15:36:54+05:30"
+  },
+  {
     "symbol": "COLPAL.NS",
     "severity": "HIGH",
     "action_type": "TRIM_REVIEW",
@@ -2136,73 +2219,5 @@
     "escalation_id": "esc_55eff1551594",
     "created_at": "2026-08-26T11:46:21+05:30",
     "expires_at": "2026-08-26T11:46:21+05:30"
-  },
-  {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.1% since last observation.",
-    "trigger_ids": [
-      "trg_3d23cffed7a7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "LAURUSLABS.NS",
-      "score": 67.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, portfolio_fit=80, relative_strength=71.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_96f74855d5c9",
-    "created_at": "2026-08-26T11:46:21+05:30",
-    "expires_at": "2026-08-26T11:46:21+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.8% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_efece5316d46"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_35bfb8f9cb0a",
-    "created_at": "2026-08-26T11:46:21+05:30",
-    "expires_at": "2026-08-26T11:46:21+05:30"
-  },
-  {
-    "symbol": "AWL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_769d4d57587f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_acf30ea0a12d",
-    "created_at": "2026-08-25T16:33:05+05:30",
-    "expires_at": "2026-08-25T16:33:05+05:30"
   }
 ]
