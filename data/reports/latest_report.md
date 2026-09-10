@@ -495,7 +495,7 @@ NHPC.NS(49.9), SBFC.NS(49.9), BHARTIARTL.NS(49.7), DRREDDY.NS(49.5), AFFLE.NS(49
 - FINCABLES.NS (WATCH, 67.9): Final 67.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 11546 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 12048 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

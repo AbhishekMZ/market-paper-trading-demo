@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-10T17:10:01+05:30",
+  "as_of": "2026-09-10T20:17:08+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 3,
-  "escalations": 2,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 183,
-    "triggers_detected": 714,
-    "escalations_created": 464,
+    "observation_runs": 184,
+    "triggers_detected": 717,
+    "escalations_created": 467,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-10T17:10:01+05:30",
+    "last_run": "2026-09-10T20:17:08+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_a8028140c9f7",
-        "detected_at": "2026-09-10T17:08:11+05:30"
+        "created_escalation_id": "esc_f697ab74b1ff",
+        "trigger_id": "trg_d7282c1041c4",
+        "detected_at": "2026-09-10T20:15:19+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_6abd50a4b6f0",
-        "trigger_id": "trg_9f60182f1139",
-        "detected_at": "2026-09-10T17:09:44+05:30"
+        "created_escalation_id": "esc_14a5c43f2e01",
+        "trigger_id": "trg_2d33b9f8bd69",
+        "detected_at": "2026-09-10T20:16:51+05:30"
       },
       {
         "symbol": "FINCABLES.NS",
@@ -105,26 +105,38 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2ebee4680989",
-        "trigger_id": "trg_3375c0235013",
-        "detected_at": "2026-09-10T17:10:01+05:30"
+        "created_escalation_id": "esc_80206fdf0ce3",
+        "trigger_id": "trg_601f841cfd63",
+        "detected_at": "2026-09-10T20:17:08+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -13.6% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_d7282c1041c4"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_f697ab74b1ff",
+        "created_at": "2026-09-10T20:17:08+05:30",
+        "expires_at": "2026-09-10T20:17:08+05:30"
+      },
       {
         "symbol": "REDINGTON.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +3.7% vs previous close.",
         "trigger_ids": [
-          "trg_9f60182f1139"
+          "trg_2d33b9f8bd69"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -132,9 +144,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_6abd50a4b6f0",
-        "created_at": "2026-09-10T17:10:01+05:30",
-        "expires_at": "2026-09-10T17:10:01+05:30"
+        "escalation_id": "esc_14a5c43f2e01",
+        "created_at": "2026-09-10T20:17:08+05:30",
+        "expires_at": "2026-09-10T20:17:08+05:30"
       },
       {
         "symbol": "FINCABLES.NS",
@@ -142,7 +154,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +4.8% vs previous close.",
         "trigger_ids": [
-          "trg_3375c0235013"
+          "trg_601f841cfd63"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -150,14 +162,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_2ebee4680989",
-        "created_at": "2026-09-10T17:10:01+05:30",
-        "expires_at": "2026-09-10T17:10:01+05:30"
+        "escalation_id": "esc_80206fdf0ce3",
+        "created_at": "2026-09-10T20:17:08+05:30",
+        "expires_at": "2026-09-10T20:17:08+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-10T17:08:11+05:30"
+    "as_of": "2026-09-10T20:15:19+05:30"
   }
 }

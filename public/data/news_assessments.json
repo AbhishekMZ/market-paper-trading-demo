@@ -33,8 +33,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-sebi-imposes-penalty-14-163724831.html",
         "summary": "",
         "published_at": "2026-07-31T17:54:35+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937350+00:00",
-        "age_hours": 977.72,
+        "fetched_at": "2026-09-10T14:45:08.370469+00:00",
+        "age_hours": 980.84,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.38,
@@ -57,8 +57,8 @@
         "url": "https://finance.yahoo.com/media-advertising/articles/zee-entertainment-enterprises-ltd-bom-210144300.html",
         "summary": "",
         "published_at": "2026-08-10T21:01:44+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937316+00:00",
-        "age_hours": 734.6,
+        "fetched_at": "2026-09-10T14:45:08.370433+00:00",
+        "age_hours": 737.72,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -76,8 +76,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-zee-entertainment-quarterly-profit-112613667.html",
         "summary": "",
         "published_at": "2026-08-10T11:49:27+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937336+00:00",
-        "age_hours": 743.81,
+        "fetched_at": "2026-09-10T14:45:08.370452+00:00",
+        "age_hours": 746.93,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -95,8 +95,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-zee-entertainment-raise-241-121218003.html",
         "summary": "",
         "published_at": "2026-06-10T12:53:02+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937362+00:00",
-        "age_hours": 2206.75,
+        "fetched_at": "2026-09-10T14:45:08.370483+00:00",
+        "age_hours": 2209.87,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -114,8 +114,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/zee-entertainment-enterprises-ltd-bom-010150258.html",
         "summary": "",
         "published_at": "2026-05-22T01:01:50+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937376+00:00",
-        "age_hours": 2674.6,
+        "fetched_at": "2026-09-10T14:45:08.370500+00:00",
+        "age_hours": 2677.72,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -135,8 +135,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-sebi-imposes-penalty-14-163724831.html",
         "summary": "",
         "published_at": "2026-07-31T17:54:35+00:00",
-        "fetched_at": "2026-09-10T11:37:59.937350+00:00",
-        "age_hours": 977.72,
+        "fetched_at": "2026-09-10T14:45:08.370469+00:00",
+        "age_hours": 980.84,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.38,
@@ -152,7 +152,7 @@
         ]
       }
     ],
-    "assessed_at": "2026-09-10T17:08:08+05:30"
+    "assessed_at": "2026-09-10T20:15:16+05:30"
   },
   {
     "symbol": "HEG.NS",
@@ -187,8 +187,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/heg-ltd-bom-509631-q1-010224388.html",
         "summary": "",
         "published_at": "2026-07-28T01:02:24+00:00",
-        "fetched_at": "2026-09-10T11:37:51.879174+00:00",
-        "age_hours": 1066.59,
+        "fetched_at": "2026-09-10T14:45:00.124132+00:00",
+        "age_hours": 1069.71,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -206,8 +206,8 @@
         "url": "https://finance.yahoo.com/news/heg-ltd-bom-509631-q3-190102370.html",
         "summary": "",
         "published_at": "2026-02-11T19:01:02+00:00",
-        "fetched_at": "2026-09-10T11:37:51.879194+00:00",
-        "age_hours": 5056.61,
+        "fetched_at": "2026-09-10T14:45:00.124152+00:00",
+        "age_hours": 5059.73,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.762,
@@ -224,7 +224,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:59+05:30"
+    "assessed_at": "2026-09-10T20:15:08+05:30"
   },
   {
     "symbol": "SAILIFE.NS",
@@ -259,8 +259,8 @@
         "url": "https://finance.yahoo.com/healthcare/articles/sai-life-sciences-ltd-nse-010521304.html",
         "summary": "",
         "published_at": "2026-08-11T01:05:21+00:00",
-        "fetched_at": "2026-09-10T11:37:43.809512+00:00",
-        "age_hours": 730.54,
+        "fetched_at": "2026-09-10T14:44:52.045467+00:00",
+        "age_hours": 733.66,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -278,8 +278,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/sai-life-sciences-ltd-nse-010316537.html",
         "summary": "",
         "published_at": "2026-05-19T01:03:16+00:00",
-        "fetched_at": "2026-09-10T11:37:43.809532+00:00",
-        "age_hours": 2746.57,
+        "fetched_at": "2026-09-10T14:44:52.045487+00:00",
+        "age_hours": 2749.69,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -293,7 +293,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:51+05:30"
+    "assessed_at": "2026-09-10T20:15:00+05:30"
   },
   {
     "symbol": "KAYNES.NS",
@@ -328,8 +328,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/kaynes-technology-india-ltd-bom-010209501.html",
         "summary": "",
         "published_at": "2026-05-19T01:02:09+00:00",
-        "fetched_at": "2026-09-10T11:37:35.746406+00:00",
-        "age_hours": 2746.59,
+        "fetched_at": "2026-09-10T14:44:43.945016+00:00",
+        "age_hours": 2749.71,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -347,8 +347,8 @@
         "url": "https://finance.yahoo.com/news/mitsui-tse-8031-7-3-231605206.html",
         "summary": "",
         "published_at": "2026-03-11T23:16:05+00:00",
-        "fetched_at": "2026-09-10T11:37:35.746427+00:00",
-        "age_hours": 4380.36,
+        "fetched_at": "2026-09-10T14:44:43.945037+00:00",
+        "age_hours": 4383.48,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -366,8 +366,8 @@
         "url": "https://www.verdict.co.uk/mitsui-partners-with-kaynes/",
         "summary": "",
         "published_at": "2026-03-09T12:22:47+00:00",
-        "fetched_at": "2026-09-10T11:37:35.746441+00:00",
-        "age_hours": 4439.25,
+        "fetched_at": "2026-09-10T14:44:43.945052+00:00",
+        "age_hours": 4442.37,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -379,7 +379,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:43+05:30"
+    "assessed_at": "2026-09-10T20:14:52+05:30"
   },
   {
     "symbol": "ADANIENSOL.NS",
@@ -414,8 +414,8 @@
         "url": "https://www.energyglobal.com/other-renewables/26082026/aesl-wins-transmission-project-in-maharashtra/?yptr=yahoo",
         "summary": "",
         "published_at": "2026-08-26T15:00:00+00:00",
-        "fetched_at": "2026-09-10T11:37:27.649942+00:00",
-        "age_hours": 356.62,
+        "fetched_at": "2026-09-10T14:44:35.863477+00:00",
+        "age_hours": 359.74,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -433,8 +433,8 @@
         "url": "https://www.power-technology.com/news/adani-492m-transmission-project-maharashtra-india/",
         "summary": "",
         "published_at": "2026-08-26T14:49:28+00:00",
-        "fetched_at": "2026-09-10T11:37:27.649961+00:00",
-        "age_hours": 356.8,
+        "fetched_at": "2026-09-10T14:44:35.863496+00:00",
+        "age_hours": 359.92,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -452,8 +452,8 @@
         "url": "https://sg.finance.yahoo.com/news/adani-energy-solutions-wins-493-033946103.html",
         "summary": "",
         "published_at": "2026-08-26T03:39:46+00:00",
-        "fetched_at": "2026-09-10T11:37:27.649975+00:00",
-        "age_hours": 367.96,
+        "fetched_at": "2026-09-10T14:44:35.863511+00:00",
+        "age_hours": 371.08,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -471,8 +471,8 @@
         "url": "https://sg.finance.yahoo.com/news/four-indian-stocks-added-three-030004466.html",
         "summary": "",
         "published_at": "2026-08-13T03:00:04+00:00",
-        "fetched_at": "2026-09-10T11:37:27.649989+00:00",
-        "age_hours": 680.62,
+        "fetched_at": "2026-09-10T14:44:35.863527+00:00",
+        "age_hours": 683.74,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -490,8 +490,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-adani-energy-plans-another-035637124.html",
         "summary": "",
         "published_at": "2026-07-31T03:56:37+00:00",
-        "fetched_at": "2026-09-10T11:37:27.650001+00:00",
-        "age_hours": 991.68,
+        "fetched_at": "2026-09-10T14:44:35.863541+00:00",
+        "age_hours": 994.8,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -503,7 +503,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:35+05:30"
+    "assessed_at": "2026-09-10T20:14:43+05:30"
   },
   {
     "symbol": "DIXON.NS",
@@ -538,8 +538,8 @@
         "url": "https://finance.yahoo.com/technology/articles/apple-india-smartphone-manufacturing-boom-043620231.html",
         "summary": "",
         "published_at": "2026-07-10T04:36:20+00:00",
-        "fetched_at": "2026-09-10T11:37:19.589451+00:00",
-        "age_hours": 1495.02,
+        "fetched_at": "2026-09-10T14:44:27.772452+00:00",
+        "age_hours": 1498.14,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -557,8 +557,8 @@
         "url": "https://finance.yahoo.com/technology/articles/india-clears-dixon-vivo-jv-160116408.html",
         "summary": "",
         "published_at": "2026-07-09T16:01:16+00:00",
-        "fetched_at": "2026-09-10T11:37:19.589469+00:00",
-        "age_hours": 1507.6,
+        "fetched_at": "2026-09-10T14:44:27.772472+00:00",
+        "age_hours": 1510.72,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -576,8 +576,8 @@
         "url": "https://finance.yahoo.com/news/dixon-technologies-india-ltd-bom-210022224.html",
         "summary": "",
         "published_at": "2026-05-12T21:00:22+00:00",
-        "fetched_at": "2026-09-10T11:37:19.589483+00:00",
-        "age_hours": 2894.62,
+        "fetched_at": "2026-09-10T14:44:27.772487+00:00",
+        "age_hours": 2897.73,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -595,8 +595,8 @@
         "url": "https://finance.yahoo.com/sectors/technology/articles/india-approves-over-750-million-142758660.html",
         "summary": "",
         "published_at": "2026-03-30T14:27:58+00:00",
-        "fetched_at": "2026-09-10T11:37:19.589496+00:00",
-        "age_hours": 3933.16,
+        "fetched_at": "2026-09-10T14:44:27.772501+00:00",
+        "age_hours": 3936.27,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -608,7 +608,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:27+05:30"
+    "assessed_at": "2026-09-10T20:14:35+05:30"
   },
   {
     "symbol": "SONATSOFTW.NS",
@@ -643,8 +643,8 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/sonata-software-ltd-bom-532221-010545737.html",
         "summary": "",
         "published_at": "2026-08-11T01:05:45+00:00",
-        "fetched_at": "2026-09-10T11:37:11.528951+00:00",
-        "age_hours": 730.52,
+        "fetched_at": "2026-09-10T14:44:19.686633+00:00",
+        "age_hours": 733.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -662,8 +662,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/sonata-software-ltd-bom-532221-010045291.html",
         "summary": "",
         "published_at": "2026-05-19T01:00:45+00:00",
-        "fetched_at": "2026-09-10T11:37:11.528971+00:00",
-        "age_hours": 2746.61,
+        "fetched_at": "2026-09-10T14:44:19.686653+00:00",
+        "age_hours": 2749.73,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -675,7 +675,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:19+05:30"
+    "assessed_at": "2026-09-10T20:14:27+05:30"
   },
   {
     "symbol": "POWERINDIA.NS",
@@ -710,8 +710,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/hitachi-energy-india-ltd-bom-190050334.html",
         "summary": "",
         "published_at": "2026-08-07T19:00:50+00:00",
-        "fetched_at": "2026-09-10T11:37:03.461757+00:00",
-        "age_hours": 808.6,
+        "fetched_at": "2026-09-10T14:44:11.606106+00:00",
+        "age_hours": 811.72,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -731,8 +731,8 @@
         "url": "https://sg.finance.yahoo.com/news/hitachi-energy-india-eyes-bigger-114134671.html",
         "summary": "",
         "published_at": "2026-06-01T03:29:51+00:00",
-        "fetched_at": "2026-09-10T11:37:03.461778+00:00",
-        "age_hours": 2432.12,
+        "fetched_at": "2026-09-10T14:44:11.606130+00:00",
+        "age_hours": 2435.24,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -750,8 +750,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/hitachi-energy-india-ltd-bom-030143003.html",
         "summary": "",
         "published_at": "2026-05-28T03:01:43+00:00",
-        "fetched_at": "2026-09-10T11:37:03.461792+00:00",
-        "age_hours": 2528.59,
+        "fetched_at": "2026-09-10T14:44:11.606148+00:00",
+        "age_hours": 2531.71,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -765,7 +765,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:11+05:30"
+    "assessed_at": "2026-09-10T20:14:19+05:30"
   },
   {
     "symbol": "JBMA.NS",
@@ -791,7 +791,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:07:03+05:30"
+    "assessed_at": "2026-09-10T20:14:11+05:30"
   },
   {
     "symbol": "GABRIEL.NS",
@@ -826,8 +826,8 @@
         "url": "https://www.just-auto.com/news/sk-enmove-gabriel-india-to-form-lubricants-partnership/",
         "summary": "",
         "published_at": "2025-10-16T11:34:06+00:00",
-        "fetched_at": "2026-09-10T11:36:47.332289+00:00",
-        "age_hours": 7896.04,
+        "fetched_at": "2026-09-10T14:43:55.442232+00:00",
+        "age_hours": 7899.16,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -839,7 +839,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:55+05:30"
+    "assessed_at": "2026-09-10T20:14:03+05:30"
   },
   {
     "symbol": "EIDPARRY.NS",
@@ -865,7 +865,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:47+05:30"
+    "assessed_at": "2026-09-10T20:13:55+05:30"
   },
   {
     "symbol": "PFIZER.NS",
@@ -891,7 +891,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:39+05:30"
+    "assessed_at": "2026-09-10T20:13:47+05:30"
   },
   {
     "symbol": "BDL.NS",
@@ -917,7 +917,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:31+05:30"
+    "assessed_at": "2026-09-10T20:13:39+05:30"
   },
   {
     "symbol": "ARE&M.NS",
@@ -952,8 +952,8 @@
         "url": "https://finance.yahoo.com/energy/articles/amara-raja-energy-mobility-ltd-030141968.html",
         "summary": "",
         "published_at": "2026-08-12T03:01:41+00:00",
-        "fetched_at": "2026-09-10T11:36:14.985975+00:00",
-        "age_hours": 704.58,
+        "fetched_at": "2026-09-10T14:43:23.114168+00:00",
+        "age_hours": 707.7,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -971,8 +971,8 @@
         "url": "https://finance.yahoo.com/sectors/energy/articles/amara-raja-energy-mobility-ltd-190107813.html",
         "summary": "",
         "published_at": "2026-05-26T19:01:07+00:00",
-        "fetched_at": "2026-09-10T11:36:14.985994+00:00",
-        "age_hours": 2560.59,
+        "fetched_at": "2026-09-10T14:43:23.114190+00:00",
+        "age_hours": 2563.7,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -984,7 +984,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:23+05:30"
+    "assessed_at": "2026-09-10T20:13:31+05:30"
   },
   {
     "symbol": "MAPMYINDIA.NS",
@@ -1019,8 +1019,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/ce-systems-ltd-bom-543425-030120278.html",
         "summary": "",
         "published_at": "2026-08-06T03:01:20+00:00",
-        "fetched_at": "2026-09-10T11:36:06.922567+00:00",
-        "age_hours": 848.58,
+        "fetched_at": "2026-09-10T14:43:15.035223+00:00",
+        "age_hours": 851.7,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1038,8 +1038,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/ce-systems-ltd-bom-543425-030040947.html",
         "summary": "",
         "published_at": "2026-05-28T03:00:40+00:00",
-        "fetched_at": "2026-09-10T11:36:06.922587+00:00",
-        "age_hours": 2528.59,
+        "fetched_at": "2026-09-10T14:43:15.035244+00:00",
+        "age_hours": 2531.71,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1051,7 +1051,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:06:14+05:30"
+    "assessed_at": "2026-09-10T20:13:23+05:30"
   },
   {
     "symbol": "ADANIGREEN.NS",
@@ -1088,8 +1088,8 @@
         "url": "https://finance.yahoo.com/sectors/energy/articles/us-prosecutors-drop-fraud-charges-163657778.html",
         "summary": "",
         "published_at": "2026-05-18T16:36:57+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859655+00:00",
-        "age_hours": 2754.98,
+        "fetched_at": "2026-09-10T14:43:06.932883+00:00",
+        "age_hours": 2758.1,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.762,
@@ -1111,8 +1111,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/gautam-adani-seek-dismiss-us-161607897.html",
         "summary": "",
         "published_at": "2026-04-07T20:35:31+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859706+00:00",
-        "age_hours": 3735.01,
+        "fetched_at": "2026-09-10T14:43:06.932938+00:00",
+        "age_hours": 3738.13,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.762,
@@ -1134,8 +1134,8 @@
         "url": "https://finance.yahoo.com/energy/articles/adani-green-energy-ltd-bom-190021398.html",
         "summary": "",
         "published_at": "2026-07-22T19:00:21+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859604+00:00",
-        "age_hours": 1192.59,
+        "fetched_at": "2026-09-10T14:43:06.932809+00:00",
+        "age_hours": 1195.71,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -1155,8 +1155,8 @@
         "url": "https://www.energyglobal.com/energy-storage/22072026/emerson-supports-operations-for-indias-largest-bess-deployment/?yptr=yahoo",
         "summary": "",
         "published_at": "2026-07-22T14:00:00+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859627+00:00",
-        "age_hours": 1197.6,
+        "fetched_at": "2026-09-10T14:43:06.932831+00:00",
+        "age_hours": 1200.72,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1174,8 +1174,8 @@
         "url": "https://www.power-technology.com/news/agel-launches-bess-gujarats-khavda/",
         "summary": "",
         "published_at": "2026-05-26T13:54:57+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859641+00:00",
-        "age_hours": 2565.68,
+        "fetched_at": "2026-09-10T14:43:06.932846+00:00",
+        "age_hours": 2568.8,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1195,8 +1195,8 @@
         "url": "https://finance.yahoo.com/sectors/energy/articles/us-prosecutors-drop-fraud-charges-163657778.html",
         "summary": "",
         "published_at": "2026-05-18T16:36:57+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859655+00:00",
-        "age_hours": 2754.98,
+        "fetched_at": "2026-09-10T14:43:06.932883+00:00",
+        "age_hours": 2758.1,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.762,
@@ -1218,8 +1218,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/gautam-adani-seek-dismiss-us-161607897.html",
         "summary": "",
         "published_at": "2026-04-07T20:35:31+00:00",
-        "fetched_at": "2026-09-10T11:35:58.859706+00:00",
-        "age_hours": 3735.01,
+        "fetched_at": "2026-09-10T14:43:06.932938+00:00",
+        "age_hours": 3738.13,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.762,
@@ -1234,7 +1234,7 @@
         ]
       }
     ],
-    "assessed_at": "2026-09-10T17:06:06+05:30"
+    "assessed_at": "2026-09-10T20:13:15+05:30"
   },
   {
     "symbol": "NEWGEN.NS",
@@ -1269,8 +1269,8 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/newgen-software-technologies-ltd-nse-190054837.html",
         "summary": "",
         "published_at": "2026-07-16T19:00:54+00:00",
-        "fetched_at": "2026-09-10T11:35:50.799005+00:00",
-        "age_hours": 1336.58,
+        "fetched_at": "2026-09-10T14:42:58.853741+00:00",
+        "age_hours": 1339.7,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1288,8 +1288,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/newgen-software-technologies-ltd-nse-190037932.html",
         "summary": "",
         "published_at": "2026-05-01T19:00:37+00:00",
-        "fetched_at": "2026-09-10T11:35:50.799043+00:00",
-        "age_hours": 3160.59,
+        "fetched_at": "2026-09-10T14:42:58.853764+00:00",
+        "age_hours": 3163.71,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1301,7 +1301,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:58+05:30"
+    "assessed_at": "2026-09-10T20:13:06+05:30"
   },
   {
     "symbol": "BBTC.NS",
@@ -1327,7 +1327,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:50+05:30"
+    "assessed_at": "2026-09-10T20:12:58+05:30"
   },
   {
     "symbol": "HCLTECH.NS",
@@ -1362,8 +1362,8 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207347.html",
         "summary": "",
         "published_at": "2026-08-20T23:02:07+00:00",
-        "fetched_at": "2026-09-10T11:35:34.663277+00:00",
-        "age_hours": 492.56,
+        "fetched_at": "2026-09-10T14:42:42.684246+00:00",
+        "age_hours": 495.68,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1381,8 +1381,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hcltech-sarvam-set-1-065004954.html",
         "summary": "",
         "published_at": "2026-07-24T08:17:08+00:00",
-        "fetched_at": "2026-09-10T11:35:34.663296+00:00",
-        "age_hours": 1155.31,
+        "fetched_at": "2026-09-10T14:42:42.684269+00:00",
+        "age_hours": 1158.43,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1400,8 +1400,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-odisha-state-approves-corporate-141911177.html",
         "summary": "",
         "published_at": "2026-07-21T14:19:11+00:00",
-        "fetched_at": "2026-09-10T11:35:34.663309+00:00",
-        "age_hours": 1221.27,
+        "fetched_at": "2026-09-10T14:42:42.684287+00:00",
+        "age_hours": 1224.39,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1419,8 +1419,8 @@
         "url": "https://finance.yahoo.com/technology/articles/indias-wipro-misses-first-quarter-102301190.html",
         "summary": "",
         "published_at": "2026-07-16T10:23:01+00:00",
-        "fetched_at": "2026-09-10T11:35:34.663321+00:00",
-        "age_hours": 1345.21,
+        "fetched_at": "2026-09-10T14:42:42.684304+00:00",
+        "age_hours": 1348.33,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.38,
@@ -1440,8 +1440,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-hcltech-slips-unchanged-fy27-035529751.html",
         "summary": "",
         "published_at": "2026-07-14T10:13:11+00:00",
-        "fetched_at": "2026-09-10T11:35:34.663333+00:00",
-        "age_hours": 1393.37,
+        "fetched_at": "2026-09-10T14:42:42.684322+00:00",
+        "age_hours": 1396.49,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1453,7 +1453,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:42+05:30"
+    "assessed_at": "2026-09-10T20:12:50+05:30"
   },
   {
     "symbol": "ASTERDM.NS",
@@ -1488,8 +1488,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aster-dm-healthcare-nsei-asterdm-161427194.html",
         "summary": "",
         "published_at": "2026-05-21T16:14:27+00:00",
-        "fetched_at": "2026-09-10T11:35:26.605164+00:00",
-        "age_hours": 2683.35,
+        "fetched_at": "2026-09-10T14:42:34.596771+00:00",
+        "age_hours": 2686.47,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1507,8 +1507,8 @@
         "url": "https://finance.yahoo.com/news/aster-dm-healthcare-ltd-bom-010154314.html",
         "summary": "",
         "published_at": "2026-02-10T01:01:54+00:00",
-        "fetched_at": "2026-09-10T11:35:26.605185+00:00",
-        "age_hours": 5098.56,
+        "fetched_at": "2026-09-10T14:42:34.596792+00:00",
+        "age_hours": 5101.68,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1520,7 +1520,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:34+05:30"
+    "assessed_at": "2026-09-10T20:12:42+05:30"
   },
   {
     "symbol": "PIIND.NS",
@@ -1555,8 +1555,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/pi-industries-ltd-bom-523642-170104355.html",
         "summary": "",
         "published_at": "2026-05-20T17:01:04+00:00",
-        "fetched_at": "2026-09-10T11:35:18.545762+00:00",
-        "age_hours": 2706.57,
+        "fetched_at": "2026-09-10T14:42:26.517965+00:00",
+        "age_hours": 2709.69,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1568,7 +1568,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:26+05:30"
+    "assessed_at": "2026-09-10T20:12:34+05:30"
   },
   {
     "symbol": "NSLNISP.NS",
@@ -1594,7 +1594,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:18+05:30"
+    "assessed_at": "2026-09-10T20:12:26+05:30"
   },
   {
     "symbol": "SUZLON.NS",
@@ -1631,8 +1631,8 @@
         "url": "https://www.energymonitor.ai/news/suzlon-secures-turbine-order-ayana/",
         "summary": "",
         "published_at": "2026-09-08T10:51:12+00:00",
-        "fetched_at": "2026-09-10T11:35:02.420556+00:00",
-        "age_hours": 48.73,
+        "fetched_at": "2026-09-10T14:42:10.346155+00:00",
+        "age_hours": 51.85,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1654,8 +1654,8 @@
         "url": "https://www.power-technology.com/news/suzlon-250mw-wind-order-torrent-green-energy/",
         "summary": "",
         "published_at": "2026-08-26T08:45:03+00:00",
-        "fetched_at": "2026-09-10T11:35:02.420575+00:00",
-        "age_hours": 362.83,
+        "fetched_at": "2026-09-10T14:42:10.346174+00:00",
+        "age_hours": 365.95,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1673,8 +1673,8 @@
         "url": "https://www.power-technology.com/news/tata-power-construction-800mw-project/",
         "summary": "",
         "published_at": "2026-07-31T08:56:09+00:00",
-        "fetched_at": "2026-09-10T11:35:02.420589+00:00",
-        "age_hours": 986.65,
+        "fetched_at": "2026-09-10T14:42:10.346189+00:00",
+        "age_hours": 989.77,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1692,8 +1692,8 @@
         "url": "https://finance.yahoo.com/energy/articles/suzlon-energy-ltd-bom-532667-190150667.html",
         "summary": "",
         "published_at": "2026-07-28T19:01:50+00:00",
-        "fetched_at": "2026-09-10T11:35:02.420602+00:00",
-        "age_hours": 1048.55,
+        "fetched_at": "2026-09-10T14:42:10.346204+00:00",
+        "age_hours": 1051.67,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -1713,8 +1713,8 @@
         "url": "https://www.power-technology.com/news/suzlon-201-6mw-wind-project-waaree/",
         "summary": "",
         "published_at": "2026-07-24T08:36:44+00:00",
-        "fetched_at": "2026-09-10T11:35:02.420614+00:00",
-        "age_hours": 1154.97,
+        "fetched_at": "2026-09-10T14:42:10.346218+00:00",
+        "age_hours": 1158.09,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1726,7 +1726,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:10+05:30"
+    "assessed_at": "2026-09-10T20:12:18+05:30"
   },
   {
     "symbol": "KEC.NS",
@@ -1761,8 +1761,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/kec-international-ltd-bom-532714-130031326.html",
         "summary": "",
         "published_at": "2026-08-11T13:00:31+00:00",
-        "fetched_at": "2026-09-10T11:34:54.367233+00:00",
-        "age_hours": 718.57,
+        "fetched_at": "2026-09-10T14:42:02.265118+00:00",
+        "age_hours": 721.69,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1780,8 +1780,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/kec-international-ltd-bom-532714-010528693.html",
         "summary": "",
         "published_at": "2026-05-19T01:05:28+00:00",
-        "fetched_at": "2026-09-10T11:34:54.367253+00:00",
-        "age_hours": 2746.49,
+        "fetched_at": "2026-09-10T14:42:02.265140+00:00",
+        "age_hours": 2749.61,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -1795,7 +1795,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:05:02+05:30"
+    "assessed_at": "2026-09-10T20:12:10+05:30"
   },
   {
     "symbol": "DEEPAKFERT.NS",
@@ -1830,8 +1830,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-deepak-fertilisers-posts-quarterly-104308344.html",
         "summary": "",
         "published_at": "2026-01-29T10:43:08+00:00",
-        "fetched_at": "2026-09-10T11:34:46.307189+00:00",
-        "age_hours": 5376.86,
+        "fetched_at": "2026-09-10T14:41:54.168895+00:00",
+        "age_hours": 5379.98,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -1843,7 +1843,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:54+05:30"
+    "assessed_at": "2026-09-10T20:12:02+05:30"
   },
   {
     "symbol": "AEGISLOG.NS",
@@ -1878,8 +1878,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aegis-logistics-ltd-bom-500003-230312356.html",
         "summary": "",
         "published_at": "2026-08-14T23:03:12+00:00",
-        "fetched_at": "2026-09-10T11:34:38.208249+00:00",
-        "age_hours": 636.52,
+        "fetched_at": "2026-09-10T14:41:45.926879+00:00",
+        "age_hours": 639.64,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -1899,8 +1899,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aegis-logistics-ltd-bom-500003-190017145.html",
         "summary": "",
         "published_at": "2026-06-09T19:00:17+00:00",
-        "fetched_at": "2026-09-10T11:34:38.208268+00:00",
-        "age_hours": 2224.57,
+        "fetched_at": "2026-09-10T14:41:45.926901+00:00",
+        "age_hours": 2227.69,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.762,
@@ -1917,7 +1917,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:46+05:30"
+    "assessed_at": "2026-09-10T20:11:54+05:30"
   },
   {
     "symbol": "EIHOTEL.NS",
@@ -1952,8 +1952,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/eih-ltd-bom-500840-q4-010154869.html",
         "summary": "",
         "published_at": "2026-06-02T01:01:54+00:00",
-        "fetched_at": "2026-09-10T11:34:30.145255+00:00",
-        "age_hours": 2410.54,
+        "fetched_at": "2026-09-10T14:41:37.846655+00:00",
+        "age_hours": 2413.66,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -1967,7 +1967,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:38+05:30"
+    "assessed_at": "2026-09-10T20:11:45+05:30"
   },
   {
     "symbol": "ZENSARTECH.NS",
@@ -2002,8 +2002,8 @@
         "url": "https://finance.yahoo.com/news/zensar-technologies-ltd-bom-504067-010039052.html",
         "summary": "",
         "published_at": "2026-01-26T01:00:39+00:00",
-        "fetched_at": "2026-09-10T11:34:22.091849+00:00",
-        "age_hours": 5458.56,
+        "fetched_at": "2026-09-10T14:41:29.767587+00:00",
+        "age_hours": 5461.68,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2021,8 +2021,8 @@
         "url": "https://finance.yahoo.com/news/trumps-h-1b-visa-crackdown-150524963.html",
         "summary": "",
         "published_at": "2025-09-21T15:05:24+00:00",
-        "fetched_at": "2026-09-10T11:34:22.091868+00:00",
-        "age_hours": 8492.48,
+        "fetched_at": "2026-09-10T14:41:29.767606+00:00",
+        "age_hours": 8495.6,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2034,7 +2034,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:30+05:30"
+    "assessed_at": "2026-09-10T20:11:37+05:30"
   },
   {
     "symbol": "VEDL.NS",
@@ -2069,8 +2069,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/vedanta-ltd-bom-500295-q1-190340892.html",
         "summary": "",
         "published_at": "2026-07-30T19:03:40+00:00",
-        "fetched_at": "2026-09-10T11:34:14.035911+00:00",
-        "age_hours": 1000.51,
+        "fetched_at": "2026-09-10T14:41:21.676088+00:00",
+        "age_hours": 1003.63,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -2090,8 +2090,8 @@
         "url": "https://sg.finance.yahoo.com/news/indian-miner-vedanta-posts-higher-095129180.html",
         "summary": "",
         "published_at": "2026-07-30T10:38:47+00:00",
-        "fetched_at": "2026-09-10T11:34:14.035931+00:00",
-        "age_hours": 1008.92,
+        "fetched_at": "2026-09-10T14:41:21.676109+00:00",
+        "age_hours": 1012.04,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2109,8 +2109,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-vedanta-aluminium-posts-quarterly-094110659.html",
         "summary": "",
         "published_at": "2026-07-30T09:52:37+00:00",
-        "fetched_at": "2026-09-10T11:34:14.035946+00:00",
-        "age_hours": 1009.69,
+        "fetched_at": "2026-09-10T14:41:21.676125+00:00",
+        "age_hours": 1012.81,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2128,8 +2128,8 @@
         "url": "https://www.mining-technology.com/news/enervoxa-rare-earth-processing-project-india/",
         "summary": "",
         "published_at": "2026-07-24T14:00:53+00:00",
-        "fetched_at": "2026-09-10T11:34:14.035959+00:00",
-        "age_hours": 1149.56,
+        "fetched_at": "2026-09-10T14:41:21.676139+00:00",
+        "age_hours": 1152.67,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2147,8 +2147,8 @@
         "url": "https://sg.finance.yahoo.com/news/canadas-enervoxa-plans-india-rare-075333294.html",
         "summary": "",
         "published_at": "2026-07-24T07:53:33+00:00",
-        "fetched_at": "2026-09-10T11:34:14.035973+00:00",
-        "age_hours": 1155.68,
+        "fetched_at": "2026-09-10T14:41:21.676153+00:00",
+        "age_hours": 1158.8,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2160,7 +2160,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:22+05:30"
+    "assessed_at": "2026-09-10T20:11:29+05:30"
   },
   {
     "symbol": "JAINREC.NS",
@@ -2186,7 +2186,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:14+05:30"
+    "assessed_at": "2026-09-10T20:11:21+05:30"
   },
   {
     "symbol": "SIGNATURE.NS",
@@ -2221,8 +2221,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/signatureglobal-india-ltd-nse-signature-010256411.html",
         "summary": "",
         "published_at": "2026-05-15T01:02:56+00:00",
-        "fetched_at": "2026-09-10T11:33:57.910747+00:00",
-        "age_hours": 2842.52,
+        "fetched_at": "2026-09-10T14:41:05.517759+00:00",
+        "age_hours": 2845.64,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.762,
@@ -2239,7 +2239,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:04:05+05:30"
+    "assessed_at": "2026-09-10T20:11:13+05:30"
   },
   {
     "symbol": "LATENTVIEW.NS",
@@ -2265,7 +2265,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:57+05:30"
+    "assessed_at": "2026-09-10T20:11:05+05:30"
   },
   {
     "symbol": "KEI.NS",
@@ -2300,8 +2300,8 @@
         "url": "https://finance.yahoo.com/news/kei-industries-ltd-bom-517569-130106421.html",
         "summary": "",
         "published_at": "2026-01-22T13:01:06+00:00",
-        "fetched_at": "2026-09-10T11:33:41.621772+00:00",
-        "age_hours": 5542.54,
+        "fetched_at": "2026-09-10T14:40:49.329157+00:00",
+        "age_hours": 5545.66,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2313,7 +2313,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:49+05:30"
+    "assessed_at": "2026-09-10T20:10:57+05:30"
   },
   {
     "symbol": "TIINDIA.NS",
@@ -2348,8 +2348,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/tube-investments-india-ltd-nse-130029893.html",
         "summary": "",
         "published_at": "2026-08-17T13:00:29+00:00",
-        "fetched_at": "2026-09-10T11:33:33.535979+00:00",
-        "age_hours": 574.55,
+        "fetched_at": "2026-09-10T14:40:41.237332+00:00",
+        "age_hours": 577.67,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2367,8 +2367,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/tube-investments-india-nsei-tiindia-141053744.html",
         "summary": "",
         "published_at": "2026-06-13T14:10:53+00:00",
-        "fetched_at": "2026-09-10T11:33:33.536001+00:00",
-        "age_hours": 2133.38,
+        "fetched_at": "2026-09-10T14:40:41.237352+00:00",
+        "age_hours": 2136.5,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2386,8 +2386,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/tube-investments-india-ltd-nse-010230407.html",
         "summary": "",
         "published_at": "2026-05-15T01:02:30+00:00",
-        "fetched_at": "2026-09-10T11:33:33.536016+00:00",
-        "age_hours": 2842.52,
+        "fetched_at": "2026-09-10T14:40:41.237369+00:00",
+        "age_hours": 2845.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2405,8 +2405,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/tube-investments-india-nsei-tiindia-030916496.html",
         "summary": "",
         "published_at": "2026-04-07T03:09:16+00:00",
-        "fetched_at": "2026-09-10T11:33:33.536050+00:00",
-        "age_hours": 3752.4,
+        "fetched_at": "2026-09-10T14:40:41.237389+00:00",
+        "age_hours": 3755.52,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2424,8 +2424,8 @@
         "url": "https://finance.yahoo.com/news/latest-news-electric-vehicles-xpeng-123729647.html",
         "summary": "",
         "published_at": "2025-10-01T12:37:29+00:00",
-        "fetched_at": "2026-09-10T11:33:33.536092+00:00",
-        "age_hours": 8254.93,
+        "fetched_at": "2026-09-10T14:40:41.237434+00:00",
+        "age_hours": 8258.05,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -2439,7 +2439,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:41+05:30"
+    "assessed_at": "2026-09-10T20:10:49+05:30"
   },
   {
     "symbol": "AADHARHFC.NS",
@@ -2474,8 +2474,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aadhar-housing-finance-ltd-nse-010517215.html",
         "summary": "",
         "published_at": "2026-08-04T01:05:17+00:00",
-        "fetched_at": "2026-09-10T11:33:25.466584+00:00",
-        "age_hours": 898.47,
+        "fetched_at": "2026-09-10T14:40:33.145427+00:00",
+        "age_hours": 901.59,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2493,8 +2493,8 @@
         "url": "https://finance.yahoo.com/news/aadhar-housing-finance-ltd-nse-010541354.html",
         "summary": "",
         "published_at": "2026-02-03T01:05:41+00:00",
-        "fetched_at": "2026-09-10T11:33:25.466604+00:00",
-        "age_hours": 5266.46,
+        "fetched_at": "2026-09-10T14:40:33.145448+00:00",
+        "age_hours": 5269.58,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2506,7 +2506,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:33+05:30"
+    "assessed_at": "2026-09-10T20:10:41+05:30"
   },
   {
     "symbol": "VTL.NS",
@@ -2541,8 +2541,8 @@
         "url": "https://finance.yahoo.com/news/vardhman-textiles-ltd-bom-502986-170024378.html",
         "summary": "",
         "published_at": "2026-01-21T17:00:24+00:00",
-        "fetched_at": "2026-09-10T11:33:17.407177+00:00",
-        "age_hours": 5562.55,
+        "fetched_at": "2026-09-10T14:40:25.066390+00:00",
+        "age_hours": 5565.67,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2554,7 +2554,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:25+05:30"
+    "assessed_at": "2026-09-10T20:10:33+05:30"
   },
   {
     "symbol": "GRSE.NS",
@@ -2589,8 +2589,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/garden-reach-shipbuilders-engineers-ltd-030234864.html",
         "summary": "",
         "published_at": "2026-08-08T03:02:34+00:00",
-        "fetched_at": "2026-09-10T11:33:09.345884+00:00",
-        "age_hours": 800.51,
+        "fetched_at": "2026-09-10T14:40:16.987693+00:00",
+        "age_hours": 803.63,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2608,8 +2608,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/garden-reach-shipbuilders-engineers-ltd-010103664.html",
         "summary": "",
         "published_at": "2026-05-14T01:01:03+00:00",
-        "fetched_at": "2026-09-10T11:33:09.345907+00:00",
-        "age_hours": 2866.54,
+        "fetched_at": "2026-09-10T14:40:16.987719+00:00",
+        "age_hours": 2869.65,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2627,8 +2627,8 @@
         "url": "https://finance.yahoo.com/news/centum-electronics-ltd-bom-517544-050824441.html",
         "summary": "",
         "published_at": "2025-11-14T05:08:24+00:00",
-        "fetched_at": "2026-09-10T11:33:09.345921+00:00",
-        "age_hours": 7206.41,
+        "fetched_at": "2026-09-10T14:40:16.987737+00:00",
+        "age_hours": 7209.53,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2640,7 +2640,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:17+05:30"
+    "assessed_at": "2026-09-10T20:10:25+05:30"
   },
   {
     "symbol": "CESC.NS",
@@ -2666,7 +2666,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:09+05:30"
+    "assessed_at": "2026-09-10T20:10:16+05:30"
   },
   {
     "symbol": "SHREECEM.NS",
@@ -2701,8 +2701,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/shree-cement-ltd-bom-500387-190134146.html",
         "summary": "",
         "published_at": "2026-07-31T19:01:34+00:00",
-        "fetched_at": "2026-09-10T11:32:53.216141+00:00",
-        "age_hours": 976.52,
+        "fetched_at": "2026-09-10T14:40:00.826414+00:00",
+        "age_hours": 979.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2720,8 +2720,8 @@
         "url": "https://finance.yahoo.com/news/shree-cement-ltd-bom-500387-010056574.html",
         "summary": "",
         "published_at": "2026-02-17T01:00:56+00:00",
-        "fetched_at": "2026-09-10T11:32:53.216163+00:00",
-        "age_hours": 4930.53,
+        "fetched_at": "2026-09-10T14:40:00.826438+00:00",
+        "age_hours": 4933.65,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -2743,8 +2743,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-shree-cement-misses-quarterly-115125043.html",
         "summary": "",
         "published_at": "2026-02-06T11:51:25+00:00",
-        "fetched_at": "2026-09-10T11:32:53.216178+00:00",
-        "age_hours": 5183.69,
+        "fetched_at": "2026-09-10T14:40:00.826455+00:00",
+        "age_hours": 5186.81,
         "is_fresh": false,
         "sentiment": "NEGATIVE",
         "sentiment_score": -0.38,
@@ -2764,8 +2764,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-shree-cement-tops-revenue-122517475.html",
         "summary": "",
         "published_at": "2025-10-28T12:25:17+00:00",
-        "fetched_at": "2026-09-10T11:32:53.216190+00:00",
-        "age_hours": 7607.13,
+        "fetched_at": "2026-09-10T14:40:00.826470+00:00",
+        "age_hours": 7610.25,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2777,7 +2777,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:03:01+05:30"
+    "assessed_at": "2026-09-10T20:10:08+05:30"
   },
   {
     "symbol": "TARIL.NS",
@@ -2803,7 +2803,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:53+05:30"
+    "assessed_at": "2026-09-10T20:10:00+05:30"
   },
   {
     "symbol": "3MINDIA.NS",
@@ -2838,8 +2838,8 @@
         "url": "https://sg.finance.yahoo.com/news/3m-india-posts-quarterly-profit-135237512.html",
         "summary": "",
         "published_at": "2025-11-03T13:52:37+00:00",
-        "fetched_at": "2026-09-10T11:32:37.088767+00:00",
-        "age_hours": 7461.67,
+        "fetched_at": "2026-09-10T14:39:44.664753+00:00",
+        "age_hours": 7464.79,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2851,7 +2851,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:45+05:30"
+    "assessed_at": "2026-09-10T20:09:52+05:30"
   },
   {
     "symbol": "TECHNOE.NS",
@@ -2886,8 +2886,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/techno-electric-engineering-co-ltd-010608433.html",
         "summary": "",
         "published_at": "2026-08-14T01:06:08+00:00",
-        "fetched_at": "2026-09-10T11:32:29.027543+00:00",
-        "age_hours": 658.44,
+        "fetched_at": "2026-09-10T14:39:36.585316+00:00",
+        "age_hours": 661.56,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2905,8 +2905,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/techno-electric-engineering-co-ltd-222732992.html",
         "summary": "",
         "published_at": "2026-06-17T22:27:32+00:00",
-        "fetched_at": "2026-09-10T11:32:29.027562+00:00",
-        "age_hours": 2029.08,
+        "fetched_at": "2026-09-10T14:39:36.585337+00:00",
+        "age_hours": 2032.2,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -2920,7 +2920,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:37+05:30"
+    "assessed_at": "2026-09-10T20:09:44+05:30"
   },
   {
     "symbol": "HEXT.NS",
@@ -2955,8 +2955,8 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/ai-deflate-value-25-hexaware-013005383.html",
         "summary": "",
         "published_at": "2026-08-26T01:30:05+00:00",
-        "fetched_at": "2026-09-10T11:32:20.953099+00:00",
-        "age_hours": 370.04,
+        "fetched_at": "2026-09-10T14:39:28.505033+00:00",
+        "age_hours": 373.16,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2974,8 +2974,8 @@
         "url": "https://uk.finance.yahoo.com/news/starmer-unveils-1-billion-french-213024456.html",
         "summary": "",
         "published_at": "2026-06-17T01:18:39+00:00",
-        "fetched_at": "2026-09-10T11:32:20.953120+00:00",
-        "age_hours": 2050.23,
+        "fetched_at": "2026-09-10T14:39:28.505054+00:00",
+        "age_hours": 2053.35,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -2993,8 +2993,8 @@
         "url": "https://sg.finance.yahoo.com/news/uk-secures-1-7-billion-224209084.html",
         "summary": "",
         "published_at": "2026-06-16T22:42:09+00:00",
-        "fetched_at": "2026-09-10T11:32:20.953134+00:00",
-        "age_hours": 2052.84,
+        "fetched_at": "2026-09-10T14:39:28.505070+00:00",
+        "age_hours": 2055.96,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3012,8 +3012,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/hexaware-technologies-ltd-bom-544362-070108248.html",
         "summary": "",
         "published_at": "2026-05-08T07:01:08+00:00",
-        "fetched_at": "2026-09-10T11:32:20.953148+00:00",
-        "age_hours": 3004.52,
+        "fetched_at": "2026-09-10T14:39:28.505085+00:00",
+        "age_hours": 3007.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3031,8 +3031,8 @@
         "url": "https://www.verdict.co.uk/hexaware-adds-replit-integration-to-rapidx-platform/",
         "summary": "",
         "published_at": "2026-02-18T10:11:21+00:00",
-        "fetched_at": "2026-09-10T11:32:20.953160+00:00",
-        "age_hours": 4897.35,
+        "fetched_at": "2026-09-10T14:39:28.505098+00:00",
+        "age_hours": 4900.47,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3044,7 +3044,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:29+05:30"
+    "assessed_at": "2026-09-10T20:09:36+05:30"
   },
   {
     "symbol": "HSCL.NS",
@@ -3079,8 +3079,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/himadri-speciality-chemical-ltd-bom-190038809.html",
         "summary": "",
         "published_at": "2026-07-16T19:00:38+00:00",
-        "fetched_at": "2026-09-10T11:32:12.895155+00:00",
-        "age_hours": 1336.53,
+        "fetched_at": "2026-09-10T14:39:20.424584+00:00",
+        "age_hours": 1339.65,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3098,8 +3098,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/investment-story-himadri-speciality-chemical-091206406.html",
         "summary": "",
         "published_at": "2026-06-01T09:12:06+00:00",
-        "fetched_at": "2026-09-10T11:32:12.895176+00:00",
-        "age_hours": 2426.34,
+        "fetched_at": "2026-09-10T14:39:20.424605+00:00",
+        "age_hours": 2429.45,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3117,8 +3117,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/investment-story-shifting-himadri-speciality-043312636.html",
         "summary": "",
         "published_at": "2026-05-12T04:33:12+00:00",
-        "fetched_at": "2026-09-10T11:32:12.895191+00:00",
-        "age_hours": 2910.98,
+        "fetched_at": "2026-09-10T14:39:20.424621+00:00",
+        "age_hours": 2914.1,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3136,8 +3136,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/himadri-speciality-chemical-ltd-bom-130046791.html",
         "summary": "",
         "published_at": "2026-04-28T13:00:46+00:00",
-        "fetched_at": "2026-09-10T11:32:12.895205+00:00",
-        "age_hours": 3238.52,
+        "fetched_at": "2026-09-10T14:39:20.424636+00:00",
+        "age_hours": 3241.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3155,8 +3155,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/himadri-speciality-chemical-bse-500184-230832993.html",
         "summary": "",
         "published_at": "2026-04-27T23:08:32+00:00",
-        "fetched_at": "2026-09-10T11:32:12.895219+00:00",
-        "age_hours": 3252.39,
+        "fetched_at": "2026-09-10T14:39:20.424651+00:00",
+        "age_hours": 3255.51,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3168,7 +3168,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:20+05:30"
+    "assessed_at": "2026-09-10T20:09:28+05:30"
   },
   {
     "symbol": "BERGEPAINT.NS",
@@ -3203,8 +3203,8 @@
         "url": "https://sg.finance.yahoo.com/news/berger-paints-india-posts-surprise-110618791.html",
         "summary": "",
         "published_at": "2025-11-04T11:06:18+00:00",
-        "fetched_at": "2026-09-10T11:32:00.766791+00:00",
-        "age_hours": 7440.43,
+        "fetched_at": "2026-09-10T14:39:12.345368+00:00",
+        "age_hours": 7443.55,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3226,8 +3226,8 @@
         "url": "https://finance.yahoo.com/news/berger-paints-india-ltd-bom-190032483.html",
         "summary": "",
         "published_at": "2025-11-04T19:00:32+00:00",
-        "fetched_at": "2026-09-10T11:32:00.766772+00:00",
-        "age_hours": 7432.52,
+        "fetched_at": "2026-09-10T14:39:12.345348+00:00",
+        "age_hours": 7435.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3239,7 +3239,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:12+05:30"
+    "assessed_at": "2026-09-10T20:09:20+05:30"
   },
   {
     "symbol": "TATATECH.NS",
@@ -3274,8 +3274,8 @@
         "url": "https://www.just-auto.com/news/honda-outsources-vehicle-platform-development-tata-technologies/",
         "summary": "",
         "published_at": "2026-08-07T09:57:27+00:00",
-        "fetched_at": "2026-09-10T11:31:52.676462+00:00",
-        "age_hours": 817.57,
+        "fetched_at": "2026-09-10T14:39:04.264652+00:00",
+        "age_hours": 820.69,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3293,8 +3293,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/tata-technologies-ltd-bom-544028-210054603.html",
         "summary": "",
         "published_at": "2026-07-17T21:00:54+00:00",
-        "fetched_at": "2026-09-10T11:31:52.676483+00:00",
-        "age_hours": 1310.52,
+        "fetched_at": "2026-09-10T14:39:04.264673+00:00",
+        "age_hours": 1313.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3312,8 +3312,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-tata-technologies-posts-quarterly-120159631.html",
         "summary": "",
         "published_at": "2026-07-17T12:01:59+00:00",
-        "fetched_at": "2026-09-10T11:31:52.676497+00:00",
-        "age_hours": 1319.5,
+        "fetched_at": "2026-09-10T14:39:04.264689+00:00",
+        "age_hours": 1322.62,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3331,8 +3331,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-tata-technologies-quarterly-profit-121925238.html",
         "summary": "",
         "published_at": "2026-05-04T12:19:25+00:00",
-        "fetched_at": "2026-09-10T11:31:52.676510+00:00",
-        "age_hours": 3095.21,
+        "fetched_at": "2026-09-10T14:39:04.264704+00:00",
+        "age_hours": 3098.33,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3354,8 +3354,8 @@
         "url": "https://sg.finance.yahoo.com/news/indias-tata-tech-quarterly-profit-114617757.html",
         "summary": "",
         "published_at": "2026-01-16T11:46:17+00:00",
-        "fetched_at": "2026-09-10T11:31:52.676523+00:00",
-        "age_hours": 5687.76,
+        "fetched_at": "2026-09-10T14:39:04.264718+00:00",
+        "age_hours": 5690.88,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3367,7 +3367,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:02:00+05:30"
+    "assessed_at": "2026-09-10T20:09:12+05:30"
   },
   {
     "symbol": "AIAENG.NS",
@@ -3402,8 +3402,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aia-engineering-ltd-bom-532683-011220585.html",
         "summary": "",
         "published_at": "2026-08-13T01:12:20+00:00",
-        "fetched_at": "2026-09-10T11:31:43.570561+00:00",
-        "age_hours": 682.32,
+        "fetched_at": "2026-09-10T14:38:56.184380+00:00",
+        "age_hours": 685.44,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.38,
@@ -3423,8 +3423,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/aia-engineering-ltd-bom-532683-010214123.html",
         "summary": "",
         "published_at": "2026-05-29T01:02:14+00:00",
-        "fetched_at": "2026-09-10T11:31:43.570582+00:00",
-        "age_hours": 2506.49,
+        "fetched_at": "2026-09-10T14:38:56.184401+00:00",
+        "age_hours": 2509.61,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.762,
@@ -3441,7 +3441,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:01:52+05:30"
+    "assessed_at": "2026-09-10T20:09:04+05:30"
   },
   {
     "symbol": "ENDURANCE.NS",
@@ -3476,8 +3476,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/endurance-technologies-ltd-bom-540153-130032955.html",
         "summary": "",
         "published_at": "2026-08-14T13:00:32+00:00",
-        "fetched_at": "2026-09-10T11:31:35.519474+00:00",
-        "age_hours": 646.52,
+        "fetched_at": "2026-09-10T14:38:48.105267+00:00",
+        "age_hours": 649.64,
         "is_fresh": false,
         "sentiment": "POSITIVE",
         "sentiment_score": 0.664,
@@ -3500,8 +3500,8 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/endurance-technologies-ltd-bom-540153-170020919.html",
         "summary": "",
         "published_at": "2026-05-15T17:00:20+00:00",
-        "fetched_at": "2026-09-10T11:31:35.519494+00:00",
-        "age_hours": 2826.52,
+        "fetched_at": "2026-09-10T14:38:48.105289+00:00",
+        "age_hours": 2829.64,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3513,7 +3513,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:01:43+05:30"
+    "assessed_at": "2026-09-10T20:08:56+05:30"
   },
   {
     "symbol": "BHARATFORG.NS",
@@ -3548,8 +3548,8 @@
         "url": "https://sg.finance.yahoo.com/news/exclusive-top-indian-arms-makers-123431005.html",
         "summary": "",
         "published_at": "2025-12-16T06:06:16+00:00",
-        "fetched_at": "2026-09-10T11:31:24.383389+00:00",
-        "age_hours": 6437.42,
+        "fetched_at": "2026-09-10T14:38:40.025290+00:00",
+        "age_hours": 6440.54,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3567,8 +3567,8 @@
         "url": "https://finance.yahoo.com/news/bharat-forge-ltd-bom-500493-170125361.html",
         "summary": "",
         "published_at": "2025-11-11T17:01:25+00:00",
-        "fetched_at": "2026-09-10T11:31:24.383412+00:00",
-        "age_hours": 7266.5,
+        "fetched_at": "2026-09-10T14:38:40.025315+00:00",
+        "age_hours": 7269.62,
         "is_fresh": false,
         "sentiment": "NEUTRAL",
         "sentiment_score": 0.0,
@@ -3580,7 +3580,7 @@
       }
     ],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:01:35+05:30"
+    "assessed_at": "2026-09-10T20:08:48+05:30"
   },
   {
     "symbol": "BAJAJHLDNG.NS",
@@ -3606,6 +3606,6 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-09-10T17:01:24+05:30"
+    "assessed_at": "2026-09-10T20:08:40+05:30"
   }
 ]
