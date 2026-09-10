@@ -1,71 +1,5 @@
 [
   {
-    "symbol": "MOTILALOFS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.4% since last observation.",
-    "trigger_ids": [
-      "trg_04a2dce0d060",
-      "trg_30265a9a345b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "MOTILALOFS.NS",
-      "score": 70.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_55eff1551594",
-    "created_at": "2026-08-26T11:46:21+05:30",
-    "expires_at": "2026-08-26T11:46:21+05:30"
-  },
-  {
-    "symbol": "CDSL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_910494c05744",
-      "trg_11c14c333bd4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CDSL.NS",
-      "score": 72.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 72.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_20e83976d565",
-    "created_at": "2026-08-26T11:46:21+05:30",
-    "expires_at": "2026-08-26T11:46:21+05:30"
-  },
-  {
     "symbol": "IFCI.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2219,5 +2153,41 @@
     "escalation_id": "esc_1cd12a505282",
     "created_at": "2026-09-10T15:36:54+05:30",
     "expires_at": "2026-09-10T15:36:54+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_9f60182f1139"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_6abd50a4b6f0",
+    "created_at": "2026-09-10T17:10:01+05:30",
+    "expires_at": "2026-09-10T17:10:01+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.8% vs previous close.",
+    "trigger_ids": [
+      "trg_3375c0235013"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_2ebee4680989",
+    "created_at": "2026-09-10T17:10:01+05:30",
+    "expires_at": "2026-09-10T17:10:01+05:30"
   }
 ]

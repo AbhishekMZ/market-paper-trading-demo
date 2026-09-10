@@ -4775,5 +4775,22 @@
     "signal_id": "sig_5babf6e0b25a",
     "timestamp": "2026-09-10T15:35:03+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_255bec49b9e9",
+    "symbol": "GRANULES.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 11,
+    "filled_quantity": 0,
+    "price": 899.25,
+    "amount": 9891.75,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9891.75, have 100.34.",
+    "reason": "Final 70.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=87, relative_strength=86, portfolio_fit=80.",
+    "signal_id": "sig_ea1cd66c392a",
+    "timestamp": "2026-09-10T17:08:08+05:30",
+    "realized_pnl": 0.0
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-10T15:35:04+05:30",
-  "portfolio_max_drawdown_pct": -13.97,
+  "as_of": "2026-09-10T17:08:08+05:30",
+  "portfolio_max_drawdown_pct": -13.79,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1294,
-      "average_score_contribution": 30.6,
+      "avoided_bad_trade_count": 1298,
+      "average_score_contribution": 30.3,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 722,
-      "average_score_contribution": 51.7,
+      "avoided_bad_trade_count": 815,
+      "average_score_contribution": 48.8,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1315,
+      "avoided_bad_trade_count": 1328,
       "average_score_contribution": 44.5,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 50.0,
+      "average_score_contribution": 49.9,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,7 +83,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 878,
+      "avoided_bad_trade_count": 889,
       "average_score_contribution": 35.8,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
