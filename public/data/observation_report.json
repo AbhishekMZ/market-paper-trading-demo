@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-11T17:11:13+05:30",
+  "as_of": "2026-09-11T20:15:54+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 2,
-  "escalations": 1,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 186,
-    "triggers_detected": 721,
-    "escalations_created": 470,
+    "observation_runs": 187,
+    "triggers_detected": 723,
+    "escalations_created": 472,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-11T17:11:13+05:30",
+    "last_run": "2026-09-11T20:15:54+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_e80a4d73194d",
-        "detected_at": "2026-09-11T17:09:22+05:30"
+        "created_escalation_id": "esc_2ac143da9c27",
+        "trigger_id": "trg_3d5d716795d0",
+        "detected_at": "2026-09-11T20:14:00+05:30"
       },
       {
         "symbol": "BLUESTARCO.NS",
@@ -84,26 +84,38 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_503b318b6173",
-        "trigger_id": "trg_83db51ad1ec0",
-        "detected_at": "2026-09-11T17:11:13+05:30"
+        "created_escalation_id": "esc_fde7ae146982",
+        "trigger_id": "trg_844a6280627d",
+        "detected_at": "2026-09-11T20:15:54+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -14.2% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_3d5d716795d0"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_2ac143da9c27",
+        "created_at": "2026-09-11T20:15:54+05:30",
+        "expires_at": "2026-09-11T20:15:54+05:30"
+      },
       {
         "symbol": "BLUESTARCO.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.9% vs previous close.",
         "trigger_ids": [
-          "trg_83db51ad1ec0"
+          "trg_844a6280627d"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -111,14 +123,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_503b318b6173",
-        "created_at": "2026-09-11T17:11:13+05:30",
-        "expires_at": "2026-09-11T17:11:13+05:30"
+        "escalation_id": "esc_fde7ae146982",
+        "created_at": "2026-09-11T20:15:54+05:30",
+        "expires_at": "2026-09-11T20:15:54+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-11T17:09:21+05:30"
+    "as_of": "2026-09-11T20:13:59+05:30"
   }
 }

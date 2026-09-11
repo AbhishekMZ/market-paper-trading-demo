@@ -492,7 +492,7 @@ ABBOTINDIA.NS(49.9), CAPLIPOINT.NS(49.9), GLAND.NS(49.9), INDIANB.NS(49.9), LT.N
 - EMMVEE.NS (WATCH, 68.7): Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=83, relative_strength=83, portfolio_fit=80.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 13052 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 13554 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
