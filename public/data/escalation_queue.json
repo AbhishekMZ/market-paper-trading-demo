@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "BLUESTARCO.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_83db51ad1ec0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_503b318b6173",
+    "created_at": "2026-09-11T17:11:13+05:30",
+    "expires_at": "2026-09-11T17:11:13+05:30"
+  },
+  {
     "symbol": "ZYDUSWELL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2154,24 +2172,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_95496828d24c",
-    "created_at": "2026-08-26T16:53:11+05:30",
-    "expires_at": "2026-08-26T16:53:11+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.6% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_e34d0e4cfbd1"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_06955f61df72",
     "created_at": "2026-08-26T16:53:11+05:30",
     "expires_at": "2026-08-26T16:53:11+05:30"
   }

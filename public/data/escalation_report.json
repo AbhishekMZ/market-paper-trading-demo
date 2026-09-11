@@ -1,32 +1,14 @@
 {
-  "as_of": "2026-09-11T15:36:36+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-11T17:11:13+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -14.3% breaches strong-loss -10%.",
-      "trigger_ids": [
-        "trg_648f415bde48"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_39289c6364ff",
-      "created_at": "2026-09-11T15:36:36+05:30",
-      "expires_at": "2026-09-11T15:36:36+05:30"
-    },
-    {
-      "symbol": "ZYDUSWELL.NS",
+      "symbol": "BLUESTARCO.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.5% vs previous close.",
+      "reason": "Gap +2.9% vs previous close.",
       "trigger_ids": [
-        "trg_e3cc3d208ccc"
+        "trg_83db51ad1ec0"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_adbb25670632",
-      "created_at": "2026-09-11T15:36:36+05:30",
-      "expires_at": "2026-09-11T15:36:36+05:30"
+      "escalation_id": "esc_503b318b6173",
+      "created_at": "2026-09-11T17:11:13+05:30",
+      "expires_at": "2026-09-11T17:11:13+05:30"
     }
   ],
   "actions_taken": [],

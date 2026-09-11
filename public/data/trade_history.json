@@ -4843,5 +4843,39 @@
     "signal_id": "sig_4aed32dded49",
     "timestamp": "2026-09-11T15:34:36+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_0510f0b67cde",
+    "symbol": "SAGILITY.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 221,
+    "filled_quantity": 0,
+    "price": 45.2,
+    "amount": 9989.2,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9989.20, have 100.34.",
+    "reason": "Final 70.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80.",
+    "signal_id": "sig_b82fb45a2012",
+    "timestamp": "2026-09-11T17:09:19+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_bcc893a10bbe",
+    "symbol": "GRANULES.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 10,
+    "filled_quantity": 0,
+    "price": 909.3,
+    "amount": 9093.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9093.00, have 100.34.",
+    "reason": "Final 70.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=87, relative_strength=86, portfolio_fit=80.",
+    "signal_id": "sig_c07e1d6d231c",
+    "timestamp": "2026-09-11T17:09:19+05:30",
+    "realized_pnl": 0.0
   }
 ]
