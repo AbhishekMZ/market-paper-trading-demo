@@ -4809,5 +4809,39 @@
     "signal_id": "sig_fcd50e00f953",
     "timestamp": "2026-09-10T20:15:16+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_159301555dc7",
+    "symbol": "ASAHIINDIA.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 10,
+    "filled_quantity": 0,
+    "price": 986.0,
+    "amount": 9860.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9860.00, have 100.34.",
+    "reason": "Final 72.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, portfolio_fit=80.",
+    "signal_id": "sig_1d261ae11a1f",
+    "timestamp": "2026-09-11T15:34:36+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_8e8254895834",
+    "symbol": "GESHIP.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1409.2,
+    "amount": 9864.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9864.40, have 100.34.",
+    "reason": "Final 70.1/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=89, relative_strength=85, portfolio_fit=80.",
+    "signal_id": "sig_4aed32dded49",
+    "timestamp": "2026-09-11T15:34:36+05:30",
+    "realized_pnl": 0.0
   }
 ]
