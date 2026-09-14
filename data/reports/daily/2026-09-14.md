@@ -484,7 +484,7 @@ APLAPOLLO.NS(49.9), PERSISTENT.NS(49.8), SCHNEIDER.NS(49.8), BHARTIHEXA.NS(49.6)
 - LAURUSLABS.NS (WATCH, 68.8): Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=89, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 502 · total this month: 14056 (no API-key quota)
+- Provider: `yfinance` · calls today: 1004 · total this month: 14558 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

@@ -1,50 +1,47 @@
 {
-  "as_of": "2026-09-14T16:31:47+05:30",
+  "as_of": "2026-09-14T18:14:59+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
+      "symbol": "PAYTM.NS",
       "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -14.2% breaches strong-loss -10%.",
-      "trigger_ids": [
-        "trg_7840f2db6dac"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_2f438a1e35b5",
-      "created_at": "2026-09-14T16:31:47+05:30",
-      "expires_at": "2026-09-14T16:31:47+05:30"
-    },
-    {
-      "symbol": "SAGILITY.NS",
-      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.4% since last observation.",
+      "reason": "Moved +24.1% since last observation.",
       "trigger_ids": [
-        "trg_0556fb808ba5"
+        "trg_33a779634632",
+        "trg_482780dbc1b0"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "PAYTM.NS",
+        "score": 67.4,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ea9c8d955990",
-      "created_at": "2026-09-14T16:31:47+05:30",
-      "expires_at": "2026-09-14T16:31:47+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_89625d6b591f",
+      "created_at": "2026-09-14T18:14:59+05:30",
+      "expires_at": "2026-09-14T18:14:59+05:30"
     },
     {
-      "symbol": "BLUESTARCO.NS",
+      "symbol": "ANGELONE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
+      "reason": "Gap +2.6% vs previous close.",
       "trigger_ids": [
-        "trg_f3fcb3668d39"
+        "trg_17d11754736c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,27 +49,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_989bb139f8d2",
-      "created_at": "2026-09-14T16:31:47+05:30",
-      "expires_at": "2026-09-14T16:31:47+05:30"
-    },
-    {
-      "symbol": "INDUSTOWER.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.3% vs previous close.",
-      "trigger_ids": [
-        "trg_c61f52976733"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_9ce43cbf3e92",
-      "created_at": "2026-09-14T16:31:47+05:30",
-      "expires_at": "2026-09-14T16:31:47+05:30"
+      "escalation_id": "esc_72bbf5c4deca",
+      "created_at": "2026-09-14T18:14:59+05:30",
+      "expires_at": "2026-09-14T18:14:59+05:30"
     }
   ],
   "actions_taken": [],

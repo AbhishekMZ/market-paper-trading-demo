@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-14T16:31:47+05:30",
+  "as_of": "2026-09-14T18:14:59+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 4,
-  "escalations": 4,
+  "triggers_this_run": 6,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 3,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 188,
-    "triggers_detected": 727,
-    "escalations_created": 476,
+    "observation_runs": 189,
+    "triggers_detected": 733,
+    "escalations_created": 478,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-14T16:31:47+05:30",
+    "last_run": "2026-09-14T18:14:59+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +27,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "GRANULES.NS",
-      "ASAHIINDIA.NS",
       "LICHSGFIN.NS",
-      "MEESHO.NS",
       "ABSLAMC.NS",
-      "GESHIP.NS",
-      "BLUESTARCO.NS",
-      "INDUSTOWER.NS",
-      "EMMVEE.NS",
       "SAGILITY.NS",
+      "GRANULES.NS",
+      "BLUESTARCO.NS",
+      "ASAHIINDIA.NS",
+      "GESHIP.NS",
+      "INDUSTOWER.NS",
+      "ANGELONE.NS",
+      "EMMVEE.NS",
       "LAURUSLABS.NS",
-      "ANANDRATHI.NS",
-      "FINCABLES.NS"
+      "GROWW.NS",
+      "PAYTM.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2f438a1e35b5",
-        "trigger_id": "trg_7840f2db6dac",
-        "detected_at": "2026-09-14T16:29:36+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_cf04dae70395",
+        "detected_at": "2026-09-14T18:13:10+05:30"
       },
       {
         "symbol": "BLUESTARCO.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_989bb139f8d2",
-        "trigger_id": "trg_f3fcb3668d39",
-        "detected_at": "2026-09-14T16:30:48+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_64a9f2f0d3d8",
+        "detected_at": "2026-09-14T18:13:52+05:30"
       },
       {
         "symbol": "INDUSTOWER.NS",
@@ -105,95 +105,132 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_9ce43cbf3e92",
-        "trigger_id": "trg_c61f52976733",
-        "detected_at": "2026-09-14T16:30:58+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_ad6abf36f46e",
+        "detected_at": "2026-09-14T18:14:17+05:30"
       },
       {
-        "symbol": "SAGILITY.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.4% since last observation.",
-        "company_name": "Sagility Ltd.",
+        "symbol": "ANGELONE.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.6% vs previous close.",
+        "company_name": "Angel One Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 45.20000076293945,
+        "price_at_detection": 305.0,
         "previous_price": null,
-        "change_pct": -3.42,
+        "change_pct": 2.59,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_ea9c8d955990",
-        "trigger_id": "trg_0556fb808ba5",
-        "detected_at": "2026-09-14T16:31:20+05:30"
-      }
-    ],
-    "throttled": [],
-    "escalations": [
-      {
-        "symbol": "COLPAL.NS",
-        "severity": "HIGH",
-        "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -14.2% breaches strong-loss -10%.",
-        "trigger_ids": [
-          "trg_7840f2db6dac"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_2f438a1e35b5",
-        "created_at": "2026-09-14T16:31:47+05:30",
-        "expires_at": "2026-09-14T16:31:47+05:30"
+        "created_escalation_id": "esc_72bbf5c4deca",
+        "trigger_id": "trg_17d11754736c",
+        "detected_at": "2026-09-14T18:14:26+05:30"
       },
       {
-        "symbol": "SAGILITY.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.4% since last observation.",
-        "trigger_ids": [
-          "trg_0556fb808ba5"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_ea9c8d955990",
-        "created_at": "2026-09-14T16:31:47+05:30",
-        "expires_at": "2026-09-14T16:31:47+05:30"
+        "symbol": "PAYTM.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved +24.1% since last observation.",
+        "company_name": "One 97 Communications Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1807.5,
+        "previous_price": null,
+        "change_pct": 24.06,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_89625d6b591f",
+        "trigger_id": "trg_33a779634632",
+        "detected_at": "2026-09-14T18:14:59+05:30"
+      },
+      {
+        "symbol": "PAYTM.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.9% vs previous close.",
+        "company_name": "One 97 Communications Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1807.5,
+        "previous_price": null,
+        "change_pct": 3.939,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_89625d6b591f",
+        "trigger_id": "trg_482780dbc1b0",
+        "detected_at": "2026-09-14T18:14:59+05:30"
+      }
+    ],
+    "throttled": [
+      {
+        "symbol": "COLPAL.NS",
+        "trigger": "STRONG_LOSS_REVIEW",
+        "reason": "cooldown"
       },
       {
         "symbol": "BLUESTARCO.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.9% vs previous close.",
-        "trigger_ids": [
-          "trg_f3fcb3668d39"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_989bb139f8d2",
-        "created_at": "2026-09-14T16:31:47+05:30",
-        "expires_at": "2026-09-14T16:31:47+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       },
       {
         "symbol": "INDUSTOWER.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "PAYTM.NS",
+        "severity": "HIGH",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +24.1% since last observation.",
+        "trigger_ids": [
+          "trg_33a779634632",
+          "trg_482780dbc1b0"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "PAYTM.NS",
+          "score": 67.4,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 67.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_89625d6b591f",
+        "created_at": "2026-09-14T18:14:59+05:30",
+        "expires_at": "2026-09-14T18:14:59+05:30"
+      },
+      {
+        "symbol": "ANGELONE.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.3% vs previous close.",
+        "reason": "Gap +2.6% vs previous close.",
         "trigger_ids": [
-          "trg_c61f52976733"
+          "trg_17d11754736c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -201,14 +238,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_9ce43cbf3e92",
-        "created_at": "2026-09-14T16:31:47+05:30",
-        "expires_at": "2026-09-14T16:31:47+05:30"
+        "escalation_id": "esc_72bbf5c4deca",
+        "created_at": "2026-09-14T18:14:59+05:30",
+        "expires_at": "2026-09-14T18:14:59+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-14T16:29:36+05:30"
+    "as_of": "2026-09-14T18:13:09+05:30"
   }
 }
