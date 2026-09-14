@@ -1,124 +1,5 @@
 [
   {
-    "symbol": "DIVISLAB.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_5582e22882e8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_aff3cbede009",
-    "created_at": "2026-08-28T00:10:31+05:30",
-    "expires_at": "2026-08-28T00:10:31+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.2% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_abfab7df3db3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_958fe7cea167",
-    "created_at": "2026-08-28T02:44:26+05:30",
-    "expires_at": "2026-08-28T02:44:26+05:30"
-  },
-  {
-    "symbol": "KOTAKBANK.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.8% since last observation.",
-    "trigger_ids": [
-      "trg_a5a8fd725895",
-      "trg_6a893929e9c9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "KOTAKBANK.NS",
-      "score": 73.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 73.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. NEUTRAL regime + modest confidence -> downgraded to WATCH.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_47237a082d4a",
-    "created_at": "2026-08-28T02:44:26+05:30",
-    "expires_at": "2026-08-28T02:44:26+05:30"
-  },
-  {
-    "symbol": "JSWSTEEL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.8% since last observation.",
-    "trigger_ids": [
-      "trg_39a6cf456649"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "JSWSTEEL.NS",
-      "score": 68.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, relative_strength=76.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_473228a7f7f1",
-    "created_at": "2026-08-28T02:44:26+05:30",
-    "expires_at": "2026-08-28T02:44:26+05:30"
-  },
-  {
-    "symbol": "CDSL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_17975a2c85a6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_85da1920b0ff",
-    "created_at": "2026-08-28T02:44:26+05:30",
-    "expires_at": "2026-08-28T02:44:26+05:30"
-  },
-  {
     "symbol": "NMDC.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2133,5 +2014,95 @@
     "escalation_id": "esc_72bbf5c4deca",
     "created_at": "2026-09-14T18:14:59+05:30",
     "expires_at": "2026-09-14T18:14:59+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -14.2% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_9a33e2d1a3de"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_4c03c0dd0567",
+    "created_at": "2026-09-14T22:36:14+05:30",
+    "expires_at": "2026-09-14T22:36:14+05:30"
+  },
+  {
+    "symbol": "BLUESTARCO.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_2449ea3f918b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c824f0619344",
+    "created_at": "2026-09-14T22:36:14+05:30",
+    "expires_at": "2026-09-14T22:36:14+05:30"
+  },
+  {
+    "symbol": "INDUSTOWER.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.3% vs previous close.",
+    "trigger_ids": [
+      "trg_c47f8c4677b0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_9d00dc7db824",
+    "created_at": "2026-09-14T22:36:14+05:30",
+    "expires_at": "2026-09-14T22:36:14+05:30"
+  },
+  {
+    "symbol": "ANGELONE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_753ba4426b3b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_0f89d76e8f22",
+    "created_at": "2026-09-14T22:36:14+05:30",
+    "expires_at": "2026-09-14T22:36:14+05:30"
+  },
+  {
+    "symbol": "PAYTM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.9% vs previous close.",
+    "trigger_ids": [
+      "trg_45fed1f1898a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c30713cc6001",
+    "created_at": "2026-09-14T22:36:14+05:30",
+    "expires_at": "2026-09-14T22:36:14+05:30"
   }
 ]
