@@ -5,7 +5,7 @@
       "change_pct": -0.7119,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:05+05:30"
+      "updated_at": "2026-09-15T17:34:38+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -306,7 +306,7 @@
       "change_pct": 0.2072,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:28+05:30"
+      "updated_at": "2026-09-15T17:35:53+05:30"
     },
     "JIOFIN.NS": {
       "last_price": 263.0,
@@ -334,7 +334,7 @@
       "change_pct": 0.7125,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:11+05:30"
+      "updated_at": "2026-09-15T17:35:45+05:30"
     },
     "ANANTRAJ.NS": {
       "last_price": 642.3499755859375,
@@ -362,7 +362,7 @@
       "change_pct": 1.2741,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:13+05:30"
+      "updated_at": "2026-09-15T17:34:46+05:30"
     },
     "APOLLOHOSP.NS": {
       "last_price": 8862.0,
@@ -432,7 +432,7 @@
       "change_pct": 0.4648,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:55+05:30"
+      "updated_at": "2026-09-15T17:35:28+05:30"
     },
     "LAURUSLABS.NS": {
       "last_price": 1969.0,
@@ -446,7 +446,7 @@
       "change_pct": 0.5354,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:36+05:30"
+      "updated_at": "2026-09-15T17:36:02+05:30"
     },
     "LLOYDSME.NS": {
       "last_price": 2050.60009765625,
@@ -705,7 +705,7 @@
       "change_pct": 1.3749,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:53+05:30"
+      "updated_at": "2026-09-15T17:36:19+05:30"
     },
     "BLUEDART.NS": {
       "last_price": 5103.5,
@@ -824,7 +824,7 @@
       "change_pct": 0.885,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:22+05:30"
+      "updated_at": "2026-09-15T17:34:55+05:30"
     },
     "RAINBOW.NS": {
       "last_price": 1589.199951171875,
@@ -950,7 +950,7 @@
       "change_pct": -9.8371,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:53+05:30"
+      "updated_at": "2026-09-15T17:36:19+05:30"
     },
     "AFFLE.NS": {
       "last_price": 1683.300048828125,
@@ -1177,11 +1177,11 @@
       "updated_at": "2026-08-20T13:17:55+05:30"
     },
     "ATHERENERG.NS": {
-      "last_price": 1569.4000244140625,
-      "change_pct": 2.8845,
+      "last_price": 1568.5,
+      "change_pct": -5.2838,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-08-12T17:03:24+05:30"
+      "updated_at": "2026-09-15T17:36:19+05:30"
     },
     "INDIANB.NS": {
       "last_price": 898.75,
@@ -1363,7 +1363,7 @@
       "change_pct": 1.8407,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:45+05:30"
+      "updated_at": "2026-09-15T17:36:10+05:30"
     },
     "DCMSHRIRAM.NS": {
       "last_price": 1083.5999755859375,
@@ -1426,7 +1426,7 @@
       "change_pct": 4.4991,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:04:03+05:30"
+      "updated_at": "2026-09-15T17:35:37+05:30"
     },
     "REDINGTON.NS": {
       "last_price": 393.70001220703125,
@@ -1776,7 +1776,7 @@
       "change_pct": -0.3333,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:38+05:30"
+      "updated_at": "2026-09-15T17:35:12+05:30"
     },
     "PINELABS.NS": {
       "last_price": 175.0800018310547,
@@ -1790,7 +1790,7 @@
       "change_pct": 2.3382,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-15T16:03:47+05:30"
+      "updated_at": "2026-09-15T17:35:20+05:30"
     },
     "COALINDIA.NS": {
       "last_price": 432.0,
@@ -1931,8 +1931,15 @@
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
       "updated_at": "2026-09-15T16:04:20+05:30"
+    },
+    "ABDL.NS": {
+      "last_price": 631.5999755859375,
+      "change_pct": -0.1423,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "updated_at": "2026-09-15T17:35:03+05:30"
     }
   },
-  "last_observation_at": "2026-09-15T16:04:53+05:30",
+  "last_observation_at": "2026-09-15T17:36:19+05:30",
   "last_regime": "RISK_OFF"
 }
