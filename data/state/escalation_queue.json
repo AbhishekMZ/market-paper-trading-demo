@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.9% vs previous close.",
-    "trigger_ids": [
-      "trg_c376434ae8dc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c796d57d0a77",
-    "created_at": "2026-08-31T23:59:17+05:30",
-    "expires_at": "2026-08-31T23:59:17+05:30"
-  },
-  {
-    "symbol": "OIL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_0c89b37c5ddb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ae33db8ce614",
-    "created_at": "2026-08-31T23:59:17+05:30",
-    "expires_at": "2026-08-31T23:59:17+05:30"
-  },
-  {
     "symbol": "RRKABEL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2045,5 +2009,41 @@
     "escalation_id": "esc_9fef347415a8",
     "created_at": "2026-09-16T15:59:51+05:30",
     "expires_at": "2026-09-16T15:59:51+05:30"
+  },
+  {
+    "symbol": "CUB.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.7% since last observation.",
+    "trigger_ids": [
+      "trg_61624072943c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1c79f3f0615a",
+    "created_at": "2026-09-16T17:24:44+05:30",
+    "expires_at": "2026-09-16T17:24:44+05:30"
+  },
+  {
+    "symbol": "ABDL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_068de807ace8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1a4517496c1f",
+    "created_at": "2026-09-16T17:24:44+05:30",
+    "expires_at": "2026-09-16T17:24:44+05:30"
   }
 ]

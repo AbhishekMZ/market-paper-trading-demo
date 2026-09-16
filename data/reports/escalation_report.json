@@ -1,50 +1,14 @@
 {
-  "as_of": "2026-09-16T15:59:51+05:30",
+  "as_of": "2026-09-16T17:24:44+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.4% breaches strong-loss -10%.",
-      "trigger_ids": [
-        "trg_fbf8c5bee9c3"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_c806ca4edd6d",
-      "created_at": "2026-09-16T15:59:51+05:30",
-      "expires_at": "2026-09-16T15:59:51+05:30"
-    },
-    {
-      "symbol": "GLAXO.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -6.9% since last observation.",
-      "trigger_ids": [
-        "trg_9e06fa785ef5"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ecc017b40932",
-      "created_at": "2026-09-16T15:59:51+05:30",
-      "expires_at": "2026-09-16T15:59:51+05:30"
-    },
-    {
-      "symbol": "WELSPUNLIV.NS",
+      "symbol": "CUB.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.6% since last observation.",
+      "reason": "Moved -4.7% since last observation.",
       "trigger_ids": [
-        "trg_d0c42620ba5e"
+        "trg_61624072943c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,17 +16,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_116a2a16f3af",
-      "created_at": "2026-09-16T15:59:51+05:30",
-      "expires_at": "2026-09-16T15:59:51+05:30"
+      "escalation_id": "esc_1c79f3f0615a",
+      "created_at": "2026-09-16T17:24:44+05:30",
+      "expires_at": "2026-09-16T17:24:44+05:30"
     },
     {
-      "symbol": "ECLERX.NS",
+      "symbol": "ABDL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.5% vs previous close.",
+      "reason": "Gap +2.5% vs previous close.",
       "trigger_ids": [
-        "trg_7d9110c40434"
+        "trg_068de807ace8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -70,27 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3e7688a324dc",
-      "created_at": "2026-09-16T15:59:51+05:30",
-      "expires_at": "2026-09-16T15:59:51+05:30"
-    },
-    {
-      "symbol": "TATACOMM.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.9% vs previous close.",
-      "trigger_ids": [
-        "trg_9c68574a52e8"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_9fef347415a8",
-      "created_at": "2026-09-16T15:59:51+05:30",
-      "expires_at": "2026-09-16T15:59:51+05:30"
+      "escalation_id": "esc_1a4517496c1f",
+      "created_at": "2026-09-16T17:24:44+05:30",
+      "expires_at": "2026-09-16T17:24:44+05:30"
     }
   ],
   "actions_taken": [],
