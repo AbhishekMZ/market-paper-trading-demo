@@ -1,5 +1,77 @@
 [
   {
+    "symbol": "TATACOMM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_735e0e2261e0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d200363c6591",
+    "created_at": "2026-09-16T20:53:36+05:30",
+    "expires_at": "2026-09-16T20:53:36+05:30"
+  },
+  {
+    "symbol": "ECLERX.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_b859ffa961a5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_852c70daf65b",
+    "created_at": "2026-09-16T20:53:36+05:30",
+    "expires_at": "2026-09-16T20:53:36+05:30"
+  },
+  {
+    "symbol": "ABDL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_c1c34564080c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_3c793fae85a1",
+    "created_at": "2026-09-16T20:53:36+05:30",
+    "expires_at": "2026-09-16T20:53:36+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.2% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_214e01255c54"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_e5a83be1b218",
+    "created_at": "2026-09-16T20:53:36+05:30",
+    "expires_at": "2026-09-16T20:53:36+05:30"
+  },
+  {
     "symbol": "ABDL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1973,77 +2045,5 @@
     "escalation_id": "esc_15d3ad3bd0e5",
     "created_at": "2026-09-01T16:16:28+05:30",
     "expires_at": "2026-09-01T16:16:28+05:30"
-  },
-  {
-    "symbol": "INDUSINDBK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_d652a6a45b33"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_5606dcaf9df4",
-    "created_at": "2026-09-01T16:16:28+05:30",
-    "expires_at": "2026-09-01T16:16:28+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.6% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_0820b101139a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_34b6f018c69d",
-    "created_at": "2026-09-01T16:16:28+05:30",
-    "expires_at": "2026-09-01T16:16:28+05:30"
-  },
-  {
-    "symbol": "ENGINERSIN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_ee159b1a3471"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fd1151e40c4c",
-    "created_at": "2026-08-31T23:59:17+05:30",
-    "expires_at": "2026-08-31T23:59:17+05:30"
-  },
-  {
-    "symbol": "RRKABEL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_6e45fd11be57"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_3be3f382b76f",
-    "created_at": "2026-08-31T23:59:17+05:30",
-    "expires_at": "2026-08-31T23:59:17+05:30"
   }
 ]

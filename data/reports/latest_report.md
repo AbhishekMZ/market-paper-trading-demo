@@ -513,7 +513,7 @@ CIEINDIA.NS(49.9), CENTRALBK.NS(49.9), CEATLTD.NS(49.8), CIPLA.NS(49.8), JKCEMEN
 - URBANCO.NS (WATCH, 67.5): Final 67.5/100 -> WATCH [regime RISK_ON]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 17570 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 18072 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
