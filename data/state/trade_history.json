@@ -4928,5 +4928,22 @@
     "signal_id": "sig_bb90fa50150b",
     "timestamp": "2026-09-17T16:06:31+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_1d4eb6ab51ee",
+    "symbol": "GESHIP.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1425.1,
+    "amount": 9975.7,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9975.70, have 100.34.",
+    "reason": "Final 73.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80.",
+    "signal_id": "sig_a64cd576c57e",
+    "timestamp": "2026-09-17T17:32:23+05:30",
+    "realized_pnl": 0.0
   }
 ]

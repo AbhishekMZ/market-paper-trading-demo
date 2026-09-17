@@ -1,5 +1,92 @@
 [
   {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.6% vs previous close.",
+    "trigger_ids": [
+      "trg_8fbebef88005"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_34b1f8d11fcc",
+    "created_at": "2026-09-17T17:34:20+05:30",
+    "expires_at": "2026-09-17T17:34:20+05:30"
+  },
+  {
+    "symbol": "ABSLAMC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_6a65a2a78e6d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7abb8ade32e7",
+    "created_at": "2026-09-17T17:34:20+05:30",
+    "expires_at": "2026-09-17T17:34:20+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_b67c61d8dde2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_722756306f34",
+    "created_at": "2026-09-17T17:34:20+05:30",
+    "expires_at": "2026-09-17T17:34:20+05:30"
+  },
+  {
+    "symbol": "ACE.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.9% since last observation.",
+    "trigger_ids": [
+      "trg_ac45e16c3f08",
+      "trg_6889a4886135"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ACE.NS",
+      "score": 67.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_28386c7aa172",
+    "created_at": "2026-09-17T17:34:20+05:30",
+    "expires_at": "2026-09-17T17:34:20+05:30"
+  },
+  {
     "symbol": "LICHSGFIN.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2001,77 +2088,5 @@
     "escalation_id": "esc_2d70c181a6db",
     "created_at": "2026-09-02T15:38:47+05:30",
     "expires_at": "2026-09-02T15:38:47+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.4% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_c52e66f3a815"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_3f557ad8f89e",
-    "created_at": "2026-09-02T15:38:47+05:30",
-    "expires_at": "2026-09-02T15:38:47+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.3% vs previous close.",
-    "trigger_ids": [
-      "trg_2849433868fa"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_85096206d873",
-    "created_at": "2026-09-01T21:03:07+05:30",
-    "expires_at": "2026-09-01T21:03:07+05:30"
-  },
-  {
-    "symbol": "IDFCFIRSTB.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_65ec8dbb78a0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_f180af6ac419",
-    "created_at": "2026-09-01T21:03:07+05:30",
-    "expires_at": "2026-09-01T21:03:07+05:30"
-  },
-  {
-    "symbol": "INDUSINDBK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_090fe5f70585"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_7f4802ecbbcc",
-    "created_at": "2026-09-01T21:03:07+05:30",
-    "expires_at": "2026-09-01T21:03:07+05:30"
   }
 ]
