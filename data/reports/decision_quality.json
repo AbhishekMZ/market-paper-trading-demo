@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-18T15:41:11+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-18T17:08:18+05:30",
+  "checkpoint": "close",
   "enabled": true,
   "metrics": {
     "total_tracked_episodes": 5500,
@@ -9,11 +9,11 @@
     "distinct_days": 65,
     "action_rate_pct": 0.0,
     "avg_forward_return_acted_pct": 0.0,
-    "avg_forward_return_not_acted_pct": -0.01,
-    "decision_edge_pct": 0.14,
+    "avg_forward_return_not_acted_pct": 0.02,
+    "decision_edge_pct": 0.11,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": 0.0,
-    "benchmark_outperformance_pct": 1.23,
+    "benchmark_outperformance_pct": 2.94,
     "benchmark_verdict": "AHEAD"
   },
   "evidence_summary": {
@@ -43,15 +43,15 @@
     ],
     "takeaways": [
       "Evidence maturity is 73.3% of the configured minimum sample.",
-      "Decision edge is 0.14% acted vs declined candidates.",
+      "Decision edge is 0.11% acted vs declined candidates.",
       "Benchmark verdict is AHEAD.",
-      "Paper portfolio outperformance is 1.23% vs NIFTY 50.",
+      "Paper portfolio outperformance is 2.94% vs NIFTY 50.",
       "Blocks were protective on average (-0.45% forward return avoided).",
-      "Observer has run 199 time(s) with noise score 0.72."
+      "Observer has run 200 time(s) with noise score 0.73."
     ],
     "watch_items": [
       "Only 2/10 paper trades so far.",
-      "Top observed strategy so far: trend_following (-0.01% avg forward return).",
+      "Top observed strategy so far: trend_following (0.02% avg forward return).",
       "Best observed score threshold so far: 70 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
     ],
@@ -59,7 +59,7 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-09-18T15:41:11+05:30",
+    "as_of": "2026-09-18T17:08:18+05:30",
     "open_episodes": 500,
     "matured_episodes": 5000,
     "total_episodes": 5500,
@@ -72,15 +72,15 @@
       },
       "watch_grade": {
         "count": 405,
-        "rated": 402,
-        "avg_return_pct": -0.11,
+        "rated": 405,
+        "avg_return_pct": -0.08,
         "hit_rate_pct": 43.5
       },
       "low_grade": {
         "count": 5095,
-        "rated": 5064,
-        "avg_return_pct": -0.0,
-        "hit_rate_pct": 45.4
+        "rated": 5094,
+        "avg_return_pct": 0.03,
+        "hit_rate_pct": 45.3
       }
     },
     "acted": {
@@ -91,9 +91,9 @@
     },
     "not_acted": {
       "count": 5500,
-      "rated": 5466,
-      "avg_return_pct": -0.01,
-      "hit_rate_pct": 45.3
+      "rated": 5499,
+      "avg_return_pct": 0.02,
+      "hit_rate_pct": 45.1
     }
   },
   "shadow": {
@@ -105,9 +105,9 @@
     },
     "shadow_candidates": {
       "count": 436,
-      "rated": 433,
-      "avg_return_pct": -0.14,
-      "hit_rate_pct": 43.4
+      "rated": 436,
+      "avg_return_pct": -0.11,
+      "hit_rate_pct": 43.3
     },
     "blocked": {
       "count": 34,
@@ -115,7 +115,7 @@
       "avg_return_pct": -0.45,
       "hit_rate_pct": 44.1
     },
-    "acted_vs_shadow_edge_pct": 0.14,
+    "acted_vs_shadow_edge_pct": 0.11,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
     "block_note": "Blocks were protective on average (-0.45% forward return avoided).",
     "shadow_examples": [
@@ -300,6 +300,36 @@
         "status": "MATURED"
       },
       {
+        "symbol": "JUBLPHARMA.NS",
+        "name": "Jubilant Pharmova Ltd.",
+        "signal_id": "sig_b79955a3ed0e",
+        "label_at_open": "WATCH",
+        "score": 66.1,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "mean_reversion",
+          "breakout",
+          "news_event_risk",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-09-17",
+        "entry_price": 1013.65,
+        "last_price": 1065.4,
+        "last_update": "2026-09-18",
+        "runs_tracked": 4,
+        "forward_return_pct": 5.11,
+        "max_return_pct": 5.11,
+        "min_return_pct": -0.15,
+        "status": "OPEN"
+      },
+      {
         "symbol": "URBANCO.NS",
         "name": "Urban Company Ltd.",
         "signal_id": "sig_0b8162f153da",
@@ -328,59 +358,21 @@
         "max_return_pct": 5.1,
         "min_return_pct": -1.8,
         "status": "MATURED"
-      },
-      {
-        "symbol": "SHYAMMETL.NS",
-        "name": "Shyam Metalics and Energy Ltd.",
-        "signal_id": "sig_559db25c611f",
-        "label_at_open": "WATCH",
-        "score": 65.1,
-        "checkpoint": "open",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-08-28",
-        "entry_price": 1040.5,
-        "last_price": 1093.5,
-        "last_update": "2026-08-31",
-        "runs_tracked": 5,
-        "forward_return_pct": 5.09,
-        "max_return_pct": 5.7,
-        "min_return_pct": 0.0,
-        "status": "MATURED"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-09-18T15:41:11+05:30",
+    "as_of": "2026-09-18T17:08:18+05:30",
     "ready": true,
-    "points": 199,
+    "points": 200,
     "from_date": "2026-06-23",
     "to_date": "2026-09-18",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -9.01,
-    "portfolio_return_pct": -7.78,
-    "outperformance_pct": 1.23,
+    "benchmark_return_pct": -9.06,
+    "portfolio_return_pct": -6.12,
+    "outperformance_pct": 2.94,
     "verdict": "AHEAD",
     "history": [
-      {
-        "date": "2026-08-21",
-        "ts": "2026-08-21T11:32:11+05:30",
-        "checkpoint": "open",
-        "nifty_close": 24231.900390625,
-        "portfolio_total": 9260.3,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-08-21",
         "ts": "2026-08-21T13:17:13+05:30",
@@ -852,6 +844,14 @@
         "nifty_close": 23358.94921875,
         "portfolio_total": 9221.5,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-09-18",
+        "ts": "2026-09-18T17:08:18+05:30",
+        "checkpoint": "close",
+        "nifty_close": 23346.400390625,
+        "portfolio_total": 9388.3,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -859,62 +859,62 @@
     "leaderboard": [
       {
         "strategy": "trend_following",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 1
       },
       {
         "strategy": "relative_strength",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 2
       },
       {
         "strategy": "mean_reversion",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 3
       },
       {
         "strategy": "breakout",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 4
       },
       {
         "strategy": "news_event_risk",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 5
       },
       {
         "strategy": "volatility_risk",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 6
       },
       {
         "strategy": "portfolio_fit",
-        "episodes": 5466,
-        "wins": 2474,
-        "avg_forward_return_pct": -0.01,
-        "hit_rate_pct": 45.3,
+        "episodes": 5499,
+        "wins": 2482,
+        "avg_forward_return_pct": 0.02,
+        "hit_rate_pct": 45.1,
         "rank": 7
       }
     ],
-    "rated_episodes": 5466,
+    "rated_episodes": 5499,
     "note": "Ranked by average forward return of contributing signals. Indicative only; small sample."
   },
   "threshold_analysis": {
@@ -951,21 +951,21 @@
       }
     ],
     "best_threshold_observed": 70,
-    "rated_episodes": 5466,
+    "rated_episodes": 5499,
     "auto_tuning": "DISABLED",
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 199,
-    "triggers_detected": 786,
-    "escalations_created": 520,
+    "observation_runs": 200,
+    "triggers_detected": 796,
+    "escalations_created": 525,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "useful_triggers": 144,
     "emails_sent_total": 0,
-    "alert_noise_score": 0.72,
-    "avg_triggers_per_run": 3.95,
-    "last_run": "2026-09-17T20:59:17+05:30",
+    "alert_noise_score": 0.73,
+    "avg_triggers_per_run": 3.98,
+    "last_run": "2026-09-18T15:43:10+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {

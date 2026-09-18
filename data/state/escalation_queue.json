@@ -1,106 +1,5 @@
 [
   {
-    "symbol": "URBANCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_1967be4a6f71"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_88b308baf370",
-    "created_at": "2026-09-03T15:50:06+05:30",
-    "expires_at": "2026-09-03T15:50:06+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_776817144c13"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8ef3423fd724",
-    "created_at": "2026-09-03T15:50:06+05:30",
-    "expires_at": "2026-09-03T15:50:06+05:30"
-  },
-  {
-    "symbol": "SAIL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.9% since last observation.",
-    "trigger_ids": [
-      "trg_a77ad4503c9b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAIL.NS",
-      "score": 59.9,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 59.9/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_ec1f7a5d80bb",
-    "created_at": "2026-09-03T17:29:25+05:30",
-    "expires_at": "2026-09-03T17:29:25+05:30"
-  },
-  {
-    "symbol": "RBLBANK.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_3eaa9fcebdfc",
-      "trg_328a7c232e90"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "RBLBANK.NS",
-      "score": 71.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 71.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_8d47a07751b4",
-    "created_at": "2026-09-03T17:29:25+05:30",
-    "expires_at": "2026-09-03T17:29:25+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "HIGH",
     "action_type": "TRIM_REVIEW",
@@ -2088,5 +1987,92 @@
     "escalation_id": "esc_6a558cd8725e",
     "created_at": "2026-09-18T15:43:10+05:30",
     "expires_at": "2026-09-18T15:43:10+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -8.4% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_524a66de8420",
+      "trg_85d9d3803f4c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_2a1dc004fefc",
+    "created_at": "2026-09-18T17:10:18+05:30",
+    "expires_at": "2026-09-18T17:10:18+05:30"
+  },
+  {
+    "symbol": "AEGISVOPAK.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.3% since last observation.",
+    "trigger_ids": [
+      "trg_50637f793212"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "AEGISVOPAK.NS",
+      "score": 63.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 63.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=73. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_936bff267653",
+    "created_at": "2026-09-18T17:10:18+05:30",
+    "expires_at": "2026-09-18T17:10:18+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_73b106845173"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ca7acccad835",
+    "created_at": "2026-09-18T17:10:18+05:30",
+    "expires_at": "2026-09-18T17:10:18+05:30"
+  },
+  {
+    "symbol": "JINDALSAW.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_0b603f2ee19c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_77cc7f3eaf3c",
+    "created_at": "2026-09-18T17:10:18+05:30",
+    "expires_at": "2026-09-18T17:10:18+05:30"
   }
 ]

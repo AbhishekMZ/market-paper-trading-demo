@@ -1,90 +1,39 @@
 {
-  "as_of": "2026-09-18T15:43:10+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-09-18T17:10:18+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.4% breaches strong-loss -10%.",
+      "severity": "MEDIUM",
+      "action_type": "SELL_REVIEW",
+      "reason": "Held position at -8.4% breaches soft-loss -7%.",
       "trigger_ids": [
-        "trg_9c755e4d83c5",
-        "trg_aea9e8e026dc",
-        "trg_f8d004623156"
+        "trg_524a66de8420",
+        "trg_85d9d3803f4c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_9f3dfdbf6e00",
-      "created_at": "2026-09-18T15:43:10+05:30",
-      "expires_at": "2026-09-18T15:43:10+05:30"
+      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_2a1dc004fefc",
+      "created_at": "2026-09-18T17:10:18+05:30",
+      "expires_at": "2026-09-18T17:10:18+05:30"
     },
     {
-      "symbol": "INDGN.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +6.1% since last observation.",
-      "trigger_ids": [
-        "trg_273f004ce500"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "INDGN.NS",
-        "score": 64.7,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 64.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=86, portfolio_fit=80, relative_strength=74.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_7d42861ee899",
-      "created_at": "2026-09-18T15:43:10+05:30",
-      "expires_at": "2026-09-18T15:43:10+05:30"
-    },
-    {
-      "symbol": "JINDALSTEL.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -6.2% since last observation.",
-      "trigger_ids": [
-        "trg_b92701a5beba"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_98ee5e910315",
-      "created_at": "2026-09-18T15:43:10+05:30",
-      "expires_at": "2026-09-18T15:43:10+05:30"
-    },
-    {
-      "symbol": "CUB.NS",
+      "symbol": "AEGISVOPAK.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.8% since last observation.",
+      "reason": "Moved +4.3% since last observation.",
       "trigger_ids": [
-        "trg_ef042b95539f"
+        "trg_50637f793212"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "CUB.NS",
-        "score": 64.4,
+        "symbol": "AEGISVOPAK.NS",
+        "score": 63.9,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -94,23 +43,23 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 64.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=78. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "reason": "Final 63.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=73. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_1860e9c946da",
-      "created_at": "2026-09-18T15:43:10+05:30",
-      "expires_at": "2026-09-18T15:43:10+05:30"
+      "escalation_id": "esc_936bff267653",
+      "created_at": "2026-09-18T17:10:18+05:30",
+      "expires_at": "2026-09-18T17:10:18+05:30"
     },
     {
-      "symbol": "LAURUSLABS.NS",
+      "symbol": "SHYAMMETL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.5% vs previous close.",
+      "reason": "Gap +5.0% vs previous close.",
       "trigger_ids": [
-        "trg_ec98b633f8bc"
+        "trg_73b106845173"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -118,9 +67,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6a558cd8725e",
-      "created_at": "2026-09-18T15:43:10+05:30",
-      "expires_at": "2026-09-18T15:43:10+05:30"
+      "escalation_id": "esc_ca7acccad835",
+      "created_at": "2026-09-18T17:10:18+05:30",
+      "expires_at": "2026-09-18T17:10:18+05:30"
+    },
+    {
+      "symbol": "JINDALSAW.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_0b603f2ee19c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_77cc7f3eaf3c",
+      "created_at": "2026-09-18T17:10:18+05:30",
+      "expires_at": "2026-09-18T17:10:18+05:30"
     }
   ],
   "actions_taken": [],
