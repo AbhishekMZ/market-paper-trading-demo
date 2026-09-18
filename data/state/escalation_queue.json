@@ -1,77 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.6% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_1c745f3c846c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_cc961cb5b402",
-    "created_at": "2026-09-03T20:29:45+05:30",
-    "expires_at": "2026-09-03T20:29:45+05:30"
-  },
-  {
-    "symbol": "RBLBANK.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.8% vs previous close.",
-    "trigger_ids": [
-      "trg_481c13efce2e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_25bd26c3d9a9",
-    "created_at": "2026-09-03T20:29:45+05:30",
-    "expires_at": "2026-09-03T20:29:45+05:30"
-  },
-  {
-    "symbol": "URBANCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_039058cbf105"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_bd9d345e8064",
-    "created_at": "2026-09-03T20:29:45+05:30",
-    "expires_at": "2026-09-03T20:29:45+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -12.1% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_fcffb57e5b9c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_aded9fd68bcf",
-    "created_at": "2026-09-04T15:32:36+05:30",
-    "expires_at": "2026-09-04T15:32:36+05:30"
-  },
-  {
     "symbol": "ACMESOLAR.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2074,5 +2002,78 @@
     "escalation_id": "esc_77cc7f3eaf3c",
     "created_at": "2026-09-18T17:10:18+05:30",
     "expires_at": "2026-09-18T17:10:18+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -8.4% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_1104c8e6fd81",
+      "trg_1161b411cbf8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_1064bf8808fa",
+    "created_at": "2026-09-18T20:18:04+05:30",
+    "expires_at": "2026-09-18T20:18:04+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_c60a3d8b9e32"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_dbbd70bdc002",
+    "created_at": "2026-09-18T20:18:04+05:30",
+    "expires_at": "2026-09-18T20:18:04+05:30"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_021e3ebfd57d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b2f63dc675bb",
+    "created_at": "2026-09-18T20:18:04+05:30",
+    "expires_at": "2026-09-18T20:18:04+05:30"
+  },
+  {
+    "symbol": "JINDALSAW.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_4e53ca31edc7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_137bc3361108",
+    "created_at": "2026-09-18T20:18:04+05:30",
+    "expires_at": "2026-09-18T20:18:04+05:30"
   }
 ]

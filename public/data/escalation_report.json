@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-09-18T17:10:18+05:30",
+  "as_of": "2026-09-18T20:18:04+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
@@ -8,8 +8,8 @@
       "action_type": "SELL_REVIEW",
       "reason": "Held position at -8.4% breaches soft-loss -7%.",
       "trigger_ids": [
-        "trg_524a66de8420",
-        "trg_85d9d3803f4c"
+        "trg_1104c8e6fd81",
+        "trg_1161b411cbf8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -17,41 +17,9 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_2a1dc004fefc",
-      "created_at": "2026-09-18T17:10:18+05:30",
-      "expires_at": "2026-09-18T17:10:18+05:30"
-    },
-    {
-      "symbol": "AEGISVOPAK.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.3% since last observation.",
-      "trigger_ids": [
-        "trg_50637f793212"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "AEGISVOPAK.NS",
-        "score": 63.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 63.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=73. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_936bff267653",
-      "created_at": "2026-09-18T17:10:18+05:30",
-      "expires_at": "2026-09-18T17:10:18+05:30"
+      "escalation_id": "esc_1064bf8808fa",
+      "created_at": "2026-09-18T20:18:04+05:30",
+      "expires_at": "2026-09-18T20:18:04+05:30"
     },
     {
       "symbol": "SHYAMMETL.NS",
@@ -59,7 +27,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +5.0% vs previous close.",
       "trigger_ids": [
-        "trg_73b106845173"
+        "trg_c60a3d8b9e32"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -67,9 +35,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ca7acccad835",
-      "created_at": "2026-09-18T17:10:18+05:30",
-      "expires_at": "2026-09-18T17:10:18+05:30"
+      "escalation_id": "esc_dbbd70bdc002",
+      "created_at": "2026-09-18T20:18:04+05:30",
+      "expires_at": "2026-09-18T20:18:04+05:30"
+    },
+    {
+      "symbol": "LAURUSLABS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_021e3ebfd57d"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b2f63dc675bb",
+      "created_at": "2026-09-18T20:18:04+05:30",
+      "expires_at": "2026-09-18T20:18:04+05:30"
     },
     {
       "symbol": "JINDALSAW.NS",
@@ -77,7 +63,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +2.9% vs previous close.",
       "trigger_ids": [
-        "trg_0b603f2ee19c"
+        "trg_4e53ca31edc7"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -85,9 +71,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_77cc7f3eaf3c",
-      "created_at": "2026-09-18T17:10:18+05:30",
-      "expires_at": "2026-09-18T17:10:18+05:30"
+      "escalation_id": "esc_137bc3361108",
+      "created_at": "2026-09-18T20:18:04+05:30",
+      "expires_at": "2026-09-18T20:18:04+05:30"
     }
   ],
   "actions_taken": [],

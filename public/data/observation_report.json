@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-18T17:10:18+05:30",
+  "as_of": "2026-09-18T20:18:04+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 6,
+  "triggers_this_run": 5,
   "escalations": 4,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 201,
-    "triggers_detected": 802,
-    "escalations_created": 529,
+    "observation_runs": 202,
+    "triggers_detected": 807,
+    "escalations_created": 533,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 144,
     "emails_sent_total": 0,
-    "last_run": "2026-09-18T17:10:18+05:30",
+    "last_run": "2026-09-18T20:18:04+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "SELL_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2a1dc004fefc",
-        "trigger_id": "trg_524a66de8420",
-        "detected_at": "2026-09-18T17:08:28+05:30"
+        "created_escalation_id": "esc_1064bf8808fa",
+        "trigger_id": "trg_1104c8e6fd81",
+        "detected_at": "2026-09-18T20:16:15+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2a1dc004fefc",
-        "trigger_id": "trg_85d9d3803f4c",
-        "detected_at": "2026-09-18T17:08:28+05:30"
+        "created_escalation_id": "esc_1064bf8808fa",
+        "trigger_id": "trg_1161b411cbf8",
+        "detected_at": "2026-09-18T20:16:15+05:30"
       },
       {
         "symbol": "SHYAMMETL.NS",
@@ -105,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_ca7acccad835",
-        "trigger_id": "trg_73b106845173",
-        "detected_at": "2026-09-18T17:08:54+05:30"
+        "created_escalation_id": "esc_dbbd70bdc002",
+        "trigger_id": "trg_c60a3d8b9e32",
+        "detected_at": "2026-09-18T20:16:40+05:30"
       },
       {
         "symbol": "LAURUSLABS.NS",
@@ -126,30 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_b466a654086e",
-        "detected_at": "2026-09-18T17:09:02+05:30"
-      },
-      {
-        "symbol": "AEGISVOPAK.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.3% since last observation.",
-        "company_name": "Aegis Vopak Terminals Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 314.95001220703125,
-        "previous_price": null,
-        "change_pct": 4.29,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_936bff267653",
-        "trigger_id": "trg_50637f793212",
-        "detected_at": "2026-09-18T17:09:19+05:30"
+        "created_escalation_id": "esc_b2f63dc675bb",
+        "trigger_id": "trg_021e3ebfd57d",
+        "detected_at": "2026-09-18T20:16:48+05:30"
       },
       {
         "symbol": "JINDALSAW.NS",
@@ -168,18 +147,12 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_77cc7f3eaf3c",
-        "trigger_id": "trg_0b603f2ee19c",
-        "detected_at": "2026-09-18T17:10:10+05:30"
+        "created_escalation_id": "esc_137bc3361108",
+        "trigger_id": "trg_4e53ca31edc7",
+        "detected_at": "2026-09-18T20:17:56+05:30"
       }
     ],
-    "throttled": [
-      {
-        "symbol": "LAURUSLABS.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      }
-    ],
+    "throttled": [],
     "escalations": [
       {
         "symbol": "COLPAL.NS",
@@ -187,8 +160,8 @@
         "action_type": "SELL_REVIEW",
         "reason": "Held position at -8.4% breaches soft-loss -7%.",
         "trigger_ids": [
-          "trg_524a66de8420",
-          "trg_85d9d3803f4c"
+          "trg_1104c8e6fd81",
+          "trg_1161b411cbf8"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -196,41 +169,9 @@
         "manual_review_required": true,
         "email_sent": false,
         "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_2a1dc004fefc",
-        "created_at": "2026-09-18T17:10:18+05:30",
-        "expires_at": "2026-09-18T17:10:18+05:30"
-      },
-      {
-        "symbol": "AEGISVOPAK.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.3% since last observation.",
-        "trigger_ids": [
-          "trg_50637f793212"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "AEGISVOPAK.NS",
-          "score": 63.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 63.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, portfolio_fit=80, relative_strength=73. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_936bff267653",
-        "created_at": "2026-09-18T17:10:18+05:30",
-        "expires_at": "2026-09-18T17:10:18+05:30"
+        "escalation_id": "esc_1064bf8808fa",
+        "created_at": "2026-09-18T20:18:04+05:30",
+        "expires_at": "2026-09-18T20:18:04+05:30"
       },
       {
         "symbol": "SHYAMMETL.NS",
@@ -238,7 +179,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +5.0% vs previous close.",
         "trigger_ids": [
-          "trg_73b106845173"
+          "trg_c60a3d8b9e32"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -246,9 +187,27 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_ca7acccad835",
-        "created_at": "2026-09-18T17:10:18+05:30",
-        "expires_at": "2026-09-18T17:10:18+05:30"
+        "escalation_id": "esc_dbbd70bdc002",
+        "created_at": "2026-09-18T20:18:04+05:30",
+        "expires_at": "2026-09-18T20:18:04+05:30"
+      },
+      {
+        "symbol": "LAURUSLABS.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.5% vs previous close.",
+        "trigger_ids": [
+          "trg_021e3ebfd57d"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b2f63dc675bb",
+        "created_at": "2026-09-18T20:18:04+05:30",
+        "expires_at": "2026-09-18T20:18:04+05:30"
       },
       {
         "symbol": "JINDALSAW.NS",
@@ -256,7 +215,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.9% vs previous close.",
         "trigger_ids": [
-          "trg_0b603f2ee19c"
+          "trg_4e53ca31edc7"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -264,14 +223,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_77cc7f3eaf3c",
-        "created_at": "2026-09-18T17:10:18+05:30",
-        "expires_at": "2026-09-18T17:10:18+05:30"
+        "escalation_id": "esc_137bc3361108",
+        "created_at": "2026-09-18T20:18:04+05:30",
+        "expires_at": "2026-09-18T20:18:04+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-18T17:08:19+05:30"
+    "as_of": "2026-09-18T20:16:06+05:30"
   }
 }
