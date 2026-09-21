@@ -1,51 +1,33 @@
 {
-  "as_of": "2026-09-21T16:36:46+05:30",
+  "as_of": "2026-09-21T18:30:01+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.2% breaches strong-loss -10%.",
+      "severity": "MEDIUM",
+      "action_type": "SELL_REVIEW",
+      "reason": "Held position at -9.6% breaches soft-loss -7%.",
       "trigger_ids": [
-        "trg_1fc7d4b0bcda"
+        "trg_d03e228ba484"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_0fde8c60e82a",
-      "created_at": "2026-09-21T16:36:46+05:30",
-      "expires_at": "2026-09-21T16:36:46+05:30"
+      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_840de10eb7da",
+      "created_at": "2026-09-21T18:30:01+05:30",
+      "expires_at": "2026-09-21T18:30:01+05:30"
     },
     {
-      "symbol": "HDFCBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_43b1fada71bf",
-        "trg_7e9598b94803"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_00dabc989760",
-      "created_at": "2026-09-21T16:36:46+05:30",
-      "expires_at": "2026-09-21T16:36:46+05:30"
-    },
-    {
-      "symbol": "MOTILALOFS.NS",
+      "symbol": "URBANCO.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -5.2% since last observation.",
+      "reason": "Moved -4.2% since last observation.",
       "trigger_ids": [
-        "trg_7d2bfbbc6ca1"
+        "trg_3ce233defbf1",
+        "trg_5da9da7a5a56"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -53,82 +35,65 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_0d619dfe0d5d",
-      "created_at": "2026-09-21T16:36:46+05:30",
-      "expires_at": "2026-09-21T16:36:46+05:30"
+      "escalation_id": "esc_9006cc5bd4ad",
+      "created_at": "2026-09-21T18:30:01+05:30",
+      "expires_at": "2026-09-21T18:30:01+05:30"
+    },
+    {
+      "symbol": "BELRISE.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -4.8% since last observation.",
+      "trigger_ids": [
+        "trg_482764463a2f"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_6cedbc39317e",
+      "created_at": "2026-09-21T18:30:01+05:30",
+      "expires_at": "2026-09-21T18:30:01+05:30"
     },
     {
       "symbol": "LAURUSLABS.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.2% since last observation.",
+      "reason": "Gap +3.2% vs previous close.",
       "trigger_ids": [
-        "trg_8bd348743e84",
-        "trg_9c282621d381"
+        "trg_badfa4215310"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "LAURUSLABS.NS",
-        "score": 70.1,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_560ad81511e3",
-      "created_at": "2026-09-21T16:36:46+05:30",
-      "expires_at": "2026-09-21T16:36:46+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_2560bf1a3914",
+      "created_at": "2026-09-21T18:30:01+05:30",
+      "expires_at": "2026-09-21T18:30:01+05:30"
     },
     {
-      "symbol": "PVRINOX.NS",
-      "severity": "MEDIUM",
+      "symbol": "ETERNAL.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +6.0% since last observation.",
+      "reason": "Gap +2.8% vs previous close.",
       "trigger_ids": [
-        "trg_bb0cfcb333c9"
+        "trg_751c83fa62ad"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "PVRINOX.NS",
-        "score": 63.7,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 63.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=87, relative_strength=80, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_3fb68d7d3674",
-      "created_at": "2026-09-21T16:36:46+05:30",
-      "expires_at": "2026-09-21T16:36:46+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_03c4c345168b",
+      "created_at": "2026-09-21T18:30:01+05:30",
+      "expires_at": "2026-09-21T18:30:01+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }

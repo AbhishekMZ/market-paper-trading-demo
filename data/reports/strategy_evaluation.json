@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-21T16:34:39+05:30",
-  "portfolio_max_drawdown_pct": -11.03,
+  "as_of": "2026-09-21T18:28:00+05:30",
+  "portfolio_max_drawdown_pct": -10.57,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1303,
-      "average_score_contribution": 28.9,
+      "avoided_bad_trade_count": 1310,
+      "average_score_contribution": 29.0,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 596,
-      "average_score_contribution": 61.8,
+      "avoided_bad_trade_count": 748,
+      "average_score_contribution": 55.3,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1330,
+      "avoided_bad_trade_count": 1336,
       "average_score_contribution": 44.0,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 49.7,
+      "average_score_contribution": 49.8,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,7 +83,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 973,
+      "avoided_bad_trade_count": 1014,
       "average_score_contribution": 31.3,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
