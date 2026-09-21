@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-09-21T18:30:01+05:30",
+  "as_of": "2026-09-21T22:36:33+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 7,
+  "triggers_this_run": 5,
   "escalations": 5,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 1,
+  "blocked_actions": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 204,
-    "triggers_detected": 823,
-    "escalations_created": 543,
+    "observation_runs": 205,
+    "triggers_detected": 828,
+    "escalations_created": 548,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 145,
+    "blocked_actions_from_triggers": 146,
     "emails_sent_total": 0,
-    "last_run": "2026-09-21T18:30:01+05:30",
+    "last_run": "2026-09-21T22:36:33+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -28,17 +34,17 @@
       "ITC.NS",
       "COLPAL.NS",
       "IPCALAB.NS",
-      "SAGILITY.NS",
       "LAURUSLABS.NS",
+      "SAGILITY.NS",
       "EMCURE.NS",
       "HDFCBANK.NS",
       "PVRINOX.NS",
-      "MEESHO.NS",
       "PCBL.NS",
+      "MEESHO.NS",
+      "ETERNAL.NS",
       "INOXWIND.NS",
       "URBANCO.NS",
       "BELRISE.NS",
-      "ETERNAL.NS",
       "GLENMARK.NS"
     ],
     "open_positions_observed": [
@@ -63,9 +69,9 @@
         "recommended_next_step": "SELL_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_840de10eb7da",
-        "trigger_id": "trg_d03e228ba484",
-        "detected_at": "2026-09-21T18:28:10+05:30"
+        "created_escalation_id": "esc_dab2963e48eb",
+        "trigger_id": "trg_b28469a16a5b",
+        "detected_at": "2026-09-21T22:34:44+05:30"
       },
       {
         "symbol": "LAURUSLABS.NS",
@@ -84,9 +90,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2560bf1a3914",
-        "trigger_id": "trg_badfa4215310",
-        "detected_at": "2026-09-21T18:28:36+05:30"
+        "created_escalation_id": "esc_fe716843b4b4",
+        "trigger_id": "trg_4af457260cbc",
+        "detected_at": "2026-09-21T22:35:01+05:30"
       },
       {
         "symbol": "HDFCBANK.NS",
@@ -105,72 +111,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_8faf24e65e67",
-        "detected_at": "2026-09-21T18:28:52+05:30"
-      },
-      {
-        "symbol": "URBANCO.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -4.2% since last observation.",
-        "company_name": "Urban Company Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 173.39999389648438,
-        "previous_price": null,
-        "change_pct": -4.25,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_9006cc5bd4ad",
-        "trigger_id": "trg_3ce233defbf1",
-        "detected_at": "2026-09-21T18:29:34+05:30"
-      },
-      {
-        "symbol": "URBANCO.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.5% vs previous close.",
-        "company_name": "Urban Company Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 173.39999389648438,
-        "previous_price": null,
-        "change_pct": 2.5368,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_9006cc5bd4ad",
-        "trigger_id": "trg_5da9da7a5a56",
-        "detected_at": "2026-09-21T18:29:34+05:30"
-      },
-      {
-        "symbol": "BELRISE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -4.8% since last observation.",
-        "company_name": "Belrise Industries Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 241.88999938964844,
-        "previous_price": null,
-        "change_pct": -4.76,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_6cedbc39317e",
-        "trigger_id": "trg_482764463a2f",
-        "detected_at": "2026-09-21T18:29:44+05:30"
+        "created_escalation_id": "esc_7250dcc7b245",
+        "trigger_id": "trg_55b3ee4724a3",
+        "detected_at": "2026-09-21T22:35:26+05:30"
       },
       {
         "symbol": "ETERNAL.NS",
@@ -189,26 +132,59 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_03c4c345168b",
-        "trigger_id": "trg_751c83fa62ad",
-        "detected_at": "2026-09-21T18:29:52+05:30"
+        "created_escalation_id": "esc_e8dd7a5c23b4",
+        "trigger_id": "trg_f81709ab2535",
+        "detected_at": "2026-09-21T22:36:00+05:30"
+      },
+      {
+        "symbol": "URBANCO.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.5% vs previous close.",
+        "company_name": "Urban Company Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 173.39999389648438,
+        "previous_price": null,
+        "change_pct": 2.5368,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_6f43d144e688",
+        "trigger_id": "trg_89d40d258dd7",
+        "detected_at": "2026-09-21T22:36:16+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "HDFCBANK.NS",
-        "trigger": "HIGH_RISK_NEWS",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_55b3ee4724a3"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_7250dcc7b245",
+        "created_at": "2026-09-21T22:36:33+05:30",
+        "expires_at": "2026-09-21T22:36:33+05:30"
+      },
       {
         "symbol": "COLPAL.NS",
         "severity": "MEDIUM",
         "action_type": "SELL_REVIEW",
         "reason": "Held position at -9.6% breaches soft-loss -7%.",
         "trigger_ids": [
-          "trg_d03e228ba484"
+          "trg_b28469a16a5b"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -216,46 +192,9 @@
         "manual_review_required": true,
         "email_sent": false,
         "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_840de10eb7da",
-        "created_at": "2026-09-21T18:30:01+05:30",
-        "expires_at": "2026-09-21T18:30:01+05:30"
-      },
-      {
-        "symbol": "URBANCO.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -4.2% since last observation.",
-        "trigger_ids": [
-          "trg_3ce233defbf1",
-          "trg_5da9da7a5a56"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_9006cc5bd4ad",
-        "created_at": "2026-09-21T18:30:01+05:30",
-        "expires_at": "2026-09-21T18:30:01+05:30"
-      },
-      {
-        "symbol": "BELRISE.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -4.8% since last observation.",
-        "trigger_ids": [
-          "trg_482764463a2f"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_6cedbc39317e",
-        "created_at": "2026-09-21T18:30:01+05:30",
-        "expires_at": "2026-09-21T18:30:01+05:30"
+        "escalation_id": "esc_dab2963e48eb",
+        "created_at": "2026-09-21T22:36:33+05:30",
+        "expires_at": "2026-09-21T22:36:33+05:30"
       },
       {
         "symbol": "LAURUSLABS.NS",
@@ -263,7 +202,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +3.2% vs previous close.",
         "trigger_ids": [
-          "trg_badfa4215310"
+          "trg_4af457260cbc"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -271,9 +210,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_2560bf1a3914",
-        "created_at": "2026-09-21T18:30:01+05:30",
-        "expires_at": "2026-09-21T18:30:01+05:30"
+        "escalation_id": "esc_fe716843b4b4",
+        "created_at": "2026-09-21T22:36:33+05:30",
+        "expires_at": "2026-09-21T22:36:33+05:30"
       },
       {
         "symbol": "ETERNAL.NS",
@@ -281,7 +220,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.8% vs previous close.",
         "trigger_ids": [
-          "trg_751c83fa62ad"
+          "trg_f81709ab2535"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -289,14 +228,38 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_03c4c345168b",
-        "created_at": "2026-09-21T18:30:01+05:30",
-        "expires_at": "2026-09-21T18:30:01+05:30"
+        "escalation_id": "esc_e8dd7a5c23b4",
+        "created_at": "2026-09-21T22:36:33+05:30",
+        "expires_at": "2026-09-21T22:36:33+05:30"
+      },
+      {
+        "symbol": "URBANCO.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.5% vs previous close.",
+        "trigger_ids": [
+          "trg_89d40d258dd7"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_6f43d144e688",
+        "created_at": "2026-09-21T22:36:33+05:30",
+        "expires_at": "2026-09-21T22:36:33+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "HDFCBANK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-09-21T18:28:02+05:30"
+    "as_of": "2026-09-21T22:34:35+05:30"
   }
 }

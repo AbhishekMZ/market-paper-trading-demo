@@ -506,7 +506,7 @@ CENTRALBK.NS(49.8), HEG.NS(49.8), BLS.NS(49.7), CASTROLIND.NS(49.7), DIXON.NS(49
 - MAXHEALTH.NS (WATCH, 68.8): Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=89, relative_strength=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 22088 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 22590 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
