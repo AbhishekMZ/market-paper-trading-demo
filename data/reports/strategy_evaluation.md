@@ -1,6 +1,6 @@
 # Strategy Evaluation
 
-_As of 2026-09-22T17:32:34+05:30_
+_As of 2026-09-22T20:44:10+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **2**
@@ -10,10 +10,10 @@ _As of 2026-09-22T17:32:34+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 49.8 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1375 | 44.2 | No paper trades yet attributed; acting mainly as a filter. |
-| news_event_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 18 | 65.1 | No paper trades yet attributed; acting mainly as a filter. |
+| breakout | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 49.7 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1380 | 44.2 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 19 | 65.1 | No paper trades yet attributed; acting mainly as a filter. |
 | portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 81 | 77.4 | No paper trades yet attributed; acting mainly as a filter. |
-| relative_strength | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 890 | 45.8 | No paper trades yet attributed; acting mainly as a filter. |
-| trend_following | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1340 | 28.5 | No paper trades yet attributed; acting mainly as a filter. |
-| volatility_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1052 | 32.6 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 790 | 48.9 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 1996 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1337 | 28.5 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1047 | 32.7 | No paper trades yet attributed; acting mainly as a filter. |
