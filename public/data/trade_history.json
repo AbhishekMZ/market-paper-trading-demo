@@ -5200,5 +5200,39 @@
     "signal_id": "sig_6e94c3664b2f",
     "timestamp": "2026-09-22T15:57:17+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_8673bcd379ca",
+    "symbol": "SUNDARMFIN.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 2,
+    "filled_quantity": 0,
+    "price": 4751.9,
+    "amount": 9503.8,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9503.80, have 100.34.",
+    "reason": "Final 75.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=98, trend_following=90, portfolio_fit=80.",
+    "signal_id": "sig_8eebdabc940c",
+    "timestamp": "2026-09-22T17:32:33+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_d05a1577f86f",
+    "symbol": "BELRISE.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 40,
+    "filled_quantity": 0,
+    "price": 244.74,
+    "amount": 9789.6,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9789.60, have 100.34.",
+    "reason": "Final 70.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=89, trend_following=87, portfolio_fit=80.",
+    "signal_id": "sig_222ad18bdb5f",
+    "timestamp": "2026-09-22T17:32:33+05:30",
+    "realized_pnl": 0.0
   }
 ]

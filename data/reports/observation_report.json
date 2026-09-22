@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-09-22T15:59:26+05:30",
+  "as_of": "2026-09-22T17:34:26+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 6,
+  "triggers_this_run": 5,
   "escalations": 4,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 0,
+  "blocked_actions": [
+    {
+      "symbol": "HDFCBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 206,
-    "triggers_detected": 834,
-    "escalations_created": 552,
+    "observation_runs": 207,
+    "triggers_detected": 839,
+    "escalations_created": 556,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 146,
+    "blocked_actions_from_triggers": 147,
     "emails_sent_total": 0,
-    "last_run": "2026-09-22T15:59:26+05:30",
+    "last_run": "2026-09-22T17:34:26+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +33,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "IPCALAB.NS",
-      "GESHIP.NS",
-      "PCBL.NS",
       "UTIAMC.NS",
-      "ETERNAL.NS",
       "LAURUSLABS.NS",
+      "PCBL.NS",
+      "ETERNAL.NS",
       "LICHSGFIN.NS",
-      "GLENMARK.NS",
-      "EMMVEE.NS",
       "BANDHANBNK.NS",
       "INOXWIND.NS",
       "WELSPUNLIV.NS",
-      "DRREDDY.NS"
+      "PHOENIXLTD.NS",
+      "DRREDDY.NS",
+      "NTPCGREEN.NS",
+      "HDFCBANK.NS",
+      "COALINDIA.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -50,64 +56,22 @@
         "symbol": "COLPAL.NS",
         "trigger_type": "STRONG_LOSS_REVIEW",
         "severity": "HIGH",
-        "reason": "Held position at -10.9% breaches strong-loss -10%.",
+        "reason": "Held position at -10.7% breaches strong-loss -10%.",
         "company_name": "COLPAL.NS",
         "status": "DETECTED",
         "source": "observation",
         "price_at_detection": 1869.0,
         "previous_price": null,
-        "change_pct": -10.86,
+        "change_pct": -10.73,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_613d3ab3d4ae",
-        "trigger_id": "trg_4e357c715b74",
-        "detected_at": "2026-09-22T15:57:20+05:30"
-      },
-      {
-        "symbol": "LICHSGFIN.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "LIC Housing Finance Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 565.0,
-        "previous_price": null,
-        "change_pct": 3.5,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_036e7d09d74e",
-        "trigger_id": "trg_b46084d5796c",
-        "detected_at": "2026-09-22T15:58:24+05:30"
-      },
-      {
-        "symbol": "BANDHANBNK.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.3% since last observation.",
-        "company_name": "Bandhan Bank Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 184.6999969482422,
-        "previous_price": null,
-        "change_pct": 3.29,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_fdd266e8ac2b",
-        "trigger_id": "trg_8974733cc270",
-        "detected_at": "2026-09-22T15:58:56+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_0ad19c212360",
+        "detected_at": "2026-09-22T17:32:36+05:30"
       },
       {
         "symbol": "BANDHANBNK.NS",
@@ -126,30 +90,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_fdd266e8ac2b",
-        "trigger_id": "trg_458a2f78bf8b",
-        "detected_at": "2026-09-22T15:58:56+05:30"
-      },
-      {
-        "symbol": "WELSPUNLIV.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.4% since last observation.",
-        "company_name": "Welspun Living Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 221.50999450683594,
-        "previous_price": null,
-        "change_pct": 4.36,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_330d3dcd8bda",
-        "trigger_id": "trg_bacba7771be4",
-        "detected_at": "2026-09-22T15:59:17+05:30"
+        "created_escalation_id": "esc_749434144703",
+        "trigger_id": "trg_233334c8c006",
+        "detected_at": "2026-09-22T17:33:26+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -168,133 +111,143 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_330d3dcd8bda",
-        "trigger_id": "trg_a44211399f68",
-        "detected_at": "2026-09-22T15:59:17+05:30"
+        "created_escalation_id": "esc_ee027cc433c0",
+        "trigger_id": "trg_2d0cb22ad78a",
+        "detected_at": "2026-09-22T17:33:43+05:30"
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "trigger_type": "HIGH_RISK_NEWS",
+        "severity": "HIGH",
+        "reason": "High-risk adverse news.",
+        "company_name": "HDFC Bank Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 738.5999755859375,
+        "previous_price": null,
+        "change_pct": null,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "Block any buy; review if held.",
+        "requires_focused_analysis": false,
+        "blocks_action": true,
+        "created_escalation_id": "esc_f23d623c13f9",
+        "trigger_id": "trg_00ce786c15b0",
+        "detected_at": "2026-09-22T17:34:17+05:30"
+      },
+      {
+        "symbol": "COALINDIA.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.2% vs previous close.",
+        "company_name": "Coal India Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 428.0,
+        "previous_price": null,
+        "change_pct": 3.2071,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_d0ab4ef4e009",
+        "trigger_id": "trg_3842823b8b7d",
+        "detected_at": "2026-09-22T17:34:26+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "COLPAL.NS",
+        "trigger": "STRONG_LOSS_REVIEW",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "HDFCBANK.NS",
         "severity": "HIGH",
-        "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -10.9% breaches strong-loss -10%.",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
         "trigger_ids": [
-          "trg_4e357c715b74"
+          "trg_00ce786c15b0"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_613d3ab3d4ae",
-        "created_at": "2026-09-22T15:59:26+05:30",
-        "expires_at": "2026-09-22T15:59:26+05:30"
-      },
-      {
-        "symbol": "LICHSGFIN.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.5% since last observation.",
-        "trigger_ids": [
-          "trg_b46084d5796c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "LICHSGFIN.NS",
-          "score": 59.8,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 59.8/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_036e7d09d74e",
-        "created_at": "2026-09-22T15:59:26+05:30",
-        "expires_at": "2026-09-22T15:59:26+05:30"
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_f23d623c13f9",
+        "created_at": "2026-09-22T17:34:26+05:30",
+        "expires_at": "2026-09-22T17:34:26+05:30"
       },
       {
         "symbol": "BANDHANBNK.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.3% since last observation.",
+        "reason": "Gap +3.2% vs previous close.",
         "trigger_ids": [
-          "trg_8974733cc270",
-          "trg_458a2f78bf8b"
+          "trg_233334c8c006"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "BANDHANBNK.NS",
-          "score": 70.2,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": false
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_fdd266e8ac2b",
-        "created_at": "2026-09-22T15:59:26+05:30",
-        "expires_at": "2026-09-22T15:59:26+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_749434144703",
+        "created_at": "2026-09-22T17:34:26+05:30",
+        "expires_at": "2026-09-22T17:34:26+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.4% since last observation.",
+        "reason": "Gap +2.6% vs previous close.",
         "trigger_ids": [
-          "trg_bacba7771be4",
-          "trg_a44211399f68"
+          "trg_2d0cb22ad78a"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "WELSPUNLIV.NS",
-          "score": 70.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=94, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_330d3dcd8bda",
-        "created_at": "2026-09-22T15:59:26+05:30",
-        "expires_at": "2026-09-22T15:59:26+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_ee027cc433c0",
+        "created_at": "2026-09-22T17:34:26+05:30",
+        "expires_at": "2026-09-22T17:34:26+05:30"
+      },
+      {
+        "symbol": "COALINDIA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.2% vs previous close.",
+        "trigger_ids": [
+          "trg_3842823b8b7d"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_d0ab4ef4e009",
+        "created_at": "2026-09-22T17:34:26+05:30",
+        "expires_at": "2026-09-22T17:34:26+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "HDFCBANK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-09-22T15:57:20+05:30"
+    "as_of": "2026-09-22T17:32:35+05:30"
   }
 }
