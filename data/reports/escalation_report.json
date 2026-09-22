@@ -1,104 +1,124 @@
 {
-  "as_of": "2026-09-21T22:36:33+05:30",
+  "as_of": "2026-09-22T15:59:26+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "HDFCBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
-      "trigger_ids": [
-        "trg_55b3ee4724a3"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_7250dcc7b245",
-      "created_at": "2026-09-21T22:36:33+05:30",
-      "expires_at": "2026-09-21T22:36:33+05:30"
-    },
-    {
       "symbol": "COLPAL.NS",
-      "severity": "MEDIUM",
-      "action_type": "SELL_REVIEW",
-      "reason": "Held position at -9.6% breaches soft-loss -7%.",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -10.9% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_b28469a16a5b"
+        "trg_4e357c715b74"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_dab2963e48eb",
-      "created_at": "2026-09-21T22:36:33+05:30",
-      "expires_at": "2026-09-21T22:36:33+05:30"
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_613d3ab3d4ae",
+      "created_at": "2026-09-22T15:59:26+05:30",
+      "expires_at": "2026-09-22T15:59:26+05:30"
     },
     {
-      "symbol": "LAURUSLABS.NS",
-      "severity": "LOW",
+      "symbol": "LICHSGFIN.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.2% vs previous close.",
+      "reason": "Moved +3.5% since last observation.",
       "trigger_ids": [
-        "trg_4af457260cbc"
+        "trg_b46084d5796c"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "LICHSGFIN.NS",
+        "score": 59.8,
+        "label": "NO_ACTION",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 59.8/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_fe716843b4b4",
-      "created_at": "2026-09-21T22:36:33+05:30",
-      "expires_at": "2026-09-21T22:36:33+05:30"
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_036e7d09d74e",
+      "created_at": "2026-09-22T15:59:26+05:30",
+      "expires_at": "2026-09-22T15:59:26+05:30"
     },
     {
-      "symbol": "ETERNAL.NS",
-      "severity": "LOW",
+      "symbol": "BANDHANBNK.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.8% vs previous close.",
+      "reason": "Moved +3.3% since last observation.",
       "trigger_ids": [
-        "trg_f81709ab2535"
+        "trg_8974733cc270",
+        "trg_458a2f78bf8b"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "BANDHANBNK.NS",
+        "score": 70.2,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e8dd7a5c23b4",
-      "created_at": "2026-09-21T22:36:33+05:30",
-      "expires_at": "2026-09-21T22:36:33+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_fdd266e8ac2b",
+      "created_at": "2026-09-22T15:59:26+05:30",
+      "expires_at": "2026-09-22T15:59:26+05:30"
     },
     {
-      "symbol": "URBANCO.NS",
-      "severity": "LOW",
+      "symbol": "WELSPUNLIV.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.5% vs previous close.",
+      "reason": "Moved +4.4% since last observation.",
       "trigger_ids": [
-        "trg_89d40d258dd7"
+        "trg_bacba7771be4",
+        "trg_a44211399f68"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "WELSPUNLIV.NS",
+        "score": 70.9,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=94, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6f43d144e688",
-      "created_at": "2026-09-21T22:36:33+05:30",
-      "expires_at": "2026-09-21T22:36:33+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_330d3dcd8bda",
+      "created_at": "2026-09-22T15:59:26+05:30",
+      "expires_at": "2026-09-22T15:59:26+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "HDFCBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }
