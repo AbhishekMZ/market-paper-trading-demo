@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-09-22T20:44:10+05:30",
-  "portfolio_max_drawdown_pct": -11.46,
+  "as_of": "2026-09-23T15:57:57+05:30",
+  "portfolio_max_drawdown_pct": -11.0,
   "total_signals": 2000,
   "total_paper_trades": 2,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1337,
-      "average_score_contribution": 28.5,
+      "avoided_bad_trade_count": 1314,
+      "average_score_contribution": 29.4,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 790,
-      "average_score_contribution": 48.9,
+      "avoided_bad_trade_count": 658,
+      "average_score_contribution": 53.7,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1380,
+      "avoided_bad_trade_count": 1364,
       "average_score_contribution": 44.2,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 49.7,
+      "average_score_contribution": 49.9,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,8 +83,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1047,
-      "average_score_contribution": 32.7,
+      "avoided_bad_trade_count": 1030,
+      "average_score_contribution": 32.6,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
