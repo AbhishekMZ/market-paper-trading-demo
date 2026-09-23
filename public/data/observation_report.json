@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-23T17:22:26+05:30",
+  "as_of": "2026-09-23T20:58:34+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 3,
-  "escalations": 3,
+  "triggers_this_run": 7,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 210,
-    "triggers_detected": 855,
-    "escalations_created": 569,
+    "observation_runs": 211,
+    "triggers_detected": 862,
+    "escalations_created": 574,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 148,
     "emails_sent_total": 0,
-    "last_run": "2026-09-23T17:22:26+05:30",
+    "last_run": "2026-09-23T20:58:34+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -30,16 +30,16 @@
       "ETERNAL.NS",
       "WELSPUNLIV.NS",
       "BANDHANBNK.NS",
+      "IKS.NS",
       "NTPCGREEN.NS",
       "LLOYDSME.NS",
       "NUVOCO.NS",
       "PATANJALI.NS",
       "ACE.NS",
       "CARBORUNIV.NS",
-      "GRAPHITE.NS",
-      "CYIENT.NS",
       "PHOENIXLTD.NS",
-      "ASAHIINDIA.NS"
+      "CPPLUS.NS",
+      "KIRLOSENG.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,9 +63,9 @@
         "recommended_next_step": "SELL_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_ac11577e0b2b",
-        "trigger_id": "trg_179fd0e82dcc",
-        "detected_at": "2026-09-23T17:20:32+05:30"
+        "created_escalation_id": "esc_2523a22dc8ba",
+        "trigger_id": "trg_06e43801d932",
+        "detected_at": "2026-09-23T20:56:42+05:30"
       },
       {
         "symbol": "BANDHANBNK.NS",
@@ -84,9 +84,51 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_3bf755e9b5fe",
-        "trigger_id": "trg_4d1221dad171",
-        "detected_at": "2026-09-23T17:20:59+05:30"
+        "created_escalation_id": "esc_8a733415956d",
+        "trigger_id": "trg_c7273e6ae560",
+        "detected_at": "2026-09-23T20:57:08+05:30"
+      },
+      {
+        "symbol": "IKS.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved +8.6% since last observation.",
+        "company_name": "Inventurus Knowledge Solutions Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1937.800048828125,
+        "previous_price": null,
+        "change_pct": 8.64,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_ca76e3efaff0",
+        "trigger_id": "trg_91f3bdd2663d",
+        "detected_at": "2026-09-23T20:57:16+05:30"
+      },
+      {
+        "symbol": "IKS.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.7% vs previous close.",
+        "company_name": "Inventurus Knowledge Solutions Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1937.800048828125,
+        "previous_price": null,
+        "change_pct": 3.67,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_ca76e3efaff0",
+        "trigger_id": "trg_d8401d891ed5",
+        "detected_at": "2026-09-23T20:57:16+05:30"
       },
       {
         "symbol": "CARBORUNIV.NS",
@@ -105,20 +147,101 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_015a33c4cb7d",
-        "trigger_id": "trg_1cae5a2a9625",
-        "detected_at": "2026-09-23T17:21:53+05:30"
+        "created_escalation_id": "esc_f5221af04f62",
+        "trigger_id": "trg_f5fdcd94f1f4",
+        "detected_at": "2026-09-23T20:58:08+05:30"
+      },
+      {
+        "symbol": "CPPLUS.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +5.0% vs previous close.",
+        "company_name": "Aditya Infotech Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 3831.89990234375,
+        "previous_price": null,
+        "change_pct": 4.9979,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_788f91c7f87d",
+        "trigger_id": "trg_ca54ada08635",
+        "detected_at": "2026-09-23T20:58:26+05:30"
+      },
+      {
+        "symbol": "KIRLOSENG.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.5% vs previous close.",
+        "company_name": "Kirloskar Oil Eng Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 2219.5,
+        "previous_price": null,
+        "change_pct": 2.5173,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": null,
+        "trigger_id": "trg_818340d3d715",
+        "detected_at": "2026-09-23T20:58:34+05:30"
       }
     ],
-    "throttled": [],
+    "throttled": [
+      {
+        "symbol": "KIRLOSENG.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "max_escalations_per_run"
+      }
+    ],
     "escalations": [
+      {
+        "symbol": "IKS.NS",
+        "severity": "HIGH",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +8.6% since last observation.",
+        "trigger_ids": [
+          "trg_91f3bdd2663d",
+          "trg_d8401d891ed5"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "IKS.NS",
+          "score": 69.9,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_ca76e3efaff0",
+        "created_at": "2026-09-23T20:58:34+05:30",
+        "expires_at": "2026-09-23T20:58:34+05:30"
+      },
       {
         "symbol": "COLPAL.NS",
         "severity": "MEDIUM",
         "action_type": "SELL_REVIEW",
         "reason": "Held position at -9.9% breaches soft-loss -7%.",
         "trigger_ids": [
-          "trg_179fd0e82dcc"
+          "trg_06e43801d932"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -126,9 +249,9 @@
         "manual_review_required": true,
         "email_sent": false,
         "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_ac11577e0b2b",
-        "created_at": "2026-09-23T17:22:26+05:30",
-        "expires_at": "2026-09-23T17:22:26+05:30"
+        "escalation_id": "esc_2523a22dc8ba",
+        "created_at": "2026-09-23T20:58:34+05:30",
+        "expires_at": "2026-09-23T20:58:34+05:30"
       },
       {
         "symbol": "BANDHANBNK.NS",
@@ -136,7 +259,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +3.6% vs previous close.",
         "trigger_ids": [
-          "trg_4d1221dad171"
+          "trg_c7273e6ae560"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -144,9 +267,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_3bf755e9b5fe",
-        "created_at": "2026-09-23T17:22:26+05:30",
-        "expires_at": "2026-09-23T17:22:26+05:30"
+        "escalation_id": "esc_8a733415956d",
+        "created_at": "2026-09-23T20:58:34+05:30",
+        "expires_at": "2026-09-23T20:58:34+05:30"
       },
       {
         "symbol": "CARBORUNIV.NS",
@@ -154,7 +277,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +4.4% vs previous close.",
         "trigger_ids": [
-          "trg_1cae5a2a9625"
+          "trg_f5fdcd94f1f4"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -162,14 +285,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_015a33c4cb7d",
-        "created_at": "2026-09-23T17:22:26+05:30",
-        "expires_at": "2026-09-23T17:22:26+05:30"
+        "escalation_id": "esc_f5221af04f62",
+        "created_at": "2026-09-23T20:58:34+05:30",
+        "expires_at": "2026-09-23T20:58:34+05:30"
+      },
+      {
+        "symbol": "CPPLUS.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +5.0% vs previous close.",
+        "trigger_ids": [
+          "trg_ca54ada08635"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_788f91c7f87d",
+        "created_at": "2026-09-23T20:58:34+05:30",
+        "expires_at": "2026-09-23T20:58:34+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-23T17:20:24+05:30"
+    "as_of": "2026-09-23T20:56:25+05:30"
   }
 }

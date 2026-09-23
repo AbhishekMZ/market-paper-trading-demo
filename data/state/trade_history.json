@@ -5319,5 +5319,39 @@
     "signal_id": "sig_a4ee0eab419f",
     "timestamp": "2026-09-23T17:20:21+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_69c8db2a3b5d",
+    "symbol": "BELRISE.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 40,
+    "filled_quantity": 0,
+    "price": 249.78,
+    "amount": 9991.2,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9991.20, have 100.34.",
+    "reason": "Final 72.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=98, trend_following=88, portfolio_fit=80.",
+    "signal_id": "sig_480e87d67cfd",
+    "timestamp": "2026-09-23T20:56:22+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_a7d49f2f2d45",
+    "symbol": "RHIM.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 25,
+    "filled_quantity": 0,
+    "price": 388.85,
+    "amount": 9721.25,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9721.25, have 100.34.",
+    "reason": "Final 71.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=77.",
+    "signal_id": "sig_dc60d13dd09b",
+    "timestamp": "2026-09-23T20:56:22+05:30",
+    "realized_pnl": 0.0
   }
 ]

@@ -5,7 +5,7 @@
       "change_pct": 1.6366,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:20:32+05:30"
+      "updated_at": "2026-09-23T20:56:33+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -362,7 +362,7 @@
       "change_pct": 0.947,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:20:32+05:30"
+      "updated_at": "2026-09-23T20:56:42+05:30"
     },
     "APOLLOHOSP.NS": {
       "last_price": 8862.0,
@@ -453,7 +453,7 @@
       "change_pct": 1.8036,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:19+05:30"
+      "updated_at": "2026-09-23T20:57:33+05:30"
     },
     "PIRAMALFIN.NS": {
       "last_price": 2300.199951171875,
@@ -1097,7 +1097,7 @@
       "change_pct": 0.1901,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:20:41+05:30"
+      "updated_at": "2026-09-23T20:56:50+05:30"
     },
     "IRCTC.NS": {
       "last_price": 519.9500122070312,
@@ -1496,7 +1496,7 @@
       "change_pct": 3.6167,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:20:59+05:30"
+      "updated_at": "2026-09-23T20:57:08+05:30"
     },
     "MOTILALOFS.NS": {
       "last_price": 997.0,
@@ -1678,7 +1678,7 @@
       "change_pct": 1.0203,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:20:49+05:30"
+      "updated_at": "2026-09-23T20:57:00+05:30"
     },
     "BEML.NS": {
       "last_price": 2013.300048828125,
@@ -1828,11 +1828,11 @@
       "updated_at": "2026-09-16T20:53:11+05:30"
     },
     "IKS.NS": {
-      "last_price": 1783.699951171875,
-      "change_pct": -0.4687,
+      "last_price": 1937.800048828125,
+      "change_pct": 3.67,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-10T15:36:21+05:30"
+      "updated_at": "2026-09-23T20:57:16+05:30"
     },
     "SBFC.NS": {
       "last_price": 98.4800033569336,
@@ -1870,11 +1870,11 @@
       "updated_at": "2026-09-11T15:35:12+05:30"
     },
     "CPPLUS.NS": {
-      "last_price": 3825.5,
-      "change_pct": -0.094,
+      "last_price": 3831.89990234375,
+      "change_pct": 4.9979,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-11T15:36:11+05:30"
+      "updated_at": "2026-09-23T20:58:26+05:30"
     },
     "CANHLIFE.NS": {
       "last_price": 155.36000061035156,
@@ -1965,7 +1965,7 @@
       "change_pct": 0.9663,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:44+05:30"
+      "updated_at": "2026-09-23T20:57:58+05:30"
     },
     "TECHNOE.NS": {
       "last_price": 984.7000122070312,
@@ -2007,14 +2007,14 @@
       "change_pct": 2.0375,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:22:18+05:30"
+      "updated_at": "2026-09-23T20:58:18+05:30"
     },
     "NTPCGREEN.NS": {
       "last_price": 95.41999816894531,
       "change_pct": 2.2613,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:10+05:30"
+      "updated_at": "2026-09-23T20:57:25+05:30"
     },
     "HBLENGINE.NS": {
       "last_price": 764.3499755859375,
@@ -2028,30 +2028,30 @@
       "change_pct": 1.7412,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:28+05:30"
+      "updated_at": "2026-09-23T20:57:41+05:30"
     },
     "PATANJALI.NS": {
       "last_price": 409.45001220703125,
       "change_pct": 1.349,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:36+05:30"
+      "updated_at": "2026-09-23T20:57:50+05:30"
     },
     "CARBORUNIV.NS": {
       "last_price": 1264.5,
       "change_pct": 4.392,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T17:21:53+05:30"
+      "updated_at": "2026-09-23T20:58:08+05:30"
     },
     "KIRLOSENG.NS": {
       "last_price": 2219.5,
-      "change_pct": 4.0846,
+      "change_pct": 2.5173,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-23T15:59:55+05:30"
+      "updated_at": "2026-09-23T20:58:34+05:30"
     }
   },
-  "last_observation_at": "2026-09-23T17:22:26+05:30",
+  "last_observation_at": "2026-09-23T20:58:34+05:30",
   "last_regime": "NEUTRAL"
 }

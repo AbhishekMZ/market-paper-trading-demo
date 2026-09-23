@@ -5,96 +5,6 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap +2.9% vs previous close.",
     "trigger_ids": [
-      "trg_83db51ad1ec0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_503b318b6173",
-    "created_at": "2026-09-11T17:11:13+05:30",
-    "expires_at": "2026-09-11T17:11:13+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -14.2% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_3d5d716795d0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_2ac143da9c27",
-    "created_at": "2026-09-11T20:15:54+05:30",
-    "expires_at": "2026-09-11T20:15:54+05:30"
-  },
-  {
-    "symbol": "BLUESTARCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.9% vs previous close.",
-    "trigger_ids": [
-      "trg_844a6280627d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fde7ae146982",
-    "created_at": "2026-09-11T20:15:54+05:30",
-    "expires_at": "2026-09-11T20:15:54+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -14.2% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_7840f2db6dac"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_2f438a1e35b5",
-    "created_at": "2026-09-14T16:31:47+05:30",
-    "expires_at": "2026-09-14T16:31:47+05:30"
-  },
-  {
-    "symbol": "SAGILITY.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.4% since last observation.",
-    "trigger_ids": [
-      "trg_0556fb808ba5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ea9c8d955990",
-    "created_at": "2026-09-14T16:31:47+05:30",
-    "expires_at": "2026-09-14T16:31:47+05:30"
-  },
-  {
-    "symbol": "BLUESTARCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.9% vs previous close.",
-    "trigger_ids": [
       "trg_f3fcb3668d39"
     ],
     "action_status": "OPEN",
@@ -2022,5 +1932,110 @@
     "escalation_id": "esc_015a33c4cb7d",
     "created_at": "2026-09-23T17:22:26+05:30",
     "expires_at": "2026-09-23T17:22:26+05:30"
+  },
+  {
+    "symbol": "IKS.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +8.6% since last observation.",
+    "trigger_ids": [
+      "trg_91f3bdd2663d",
+      "trg_d8401d891ed5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "IKS.NS",
+      "score": 69.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_ca76e3efaff0",
+    "created_at": "2026-09-23T20:58:34+05:30",
+    "expires_at": "2026-09-23T20:58:34+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.9% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_06e43801d932"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_2523a22dc8ba",
+    "created_at": "2026-09-23T20:58:34+05:30",
+    "expires_at": "2026-09-23T20:58:34+05:30"
+  },
+  {
+    "symbol": "BANDHANBNK.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.6% vs previous close.",
+    "trigger_ids": [
+      "trg_c7273e6ae560"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_8a733415956d",
+    "created_at": "2026-09-23T20:58:34+05:30",
+    "expires_at": "2026-09-23T20:58:34+05:30"
+  },
+  {
+    "symbol": "CARBORUNIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.4% vs previous close.",
+    "trigger_ids": [
+      "trg_f5fdcd94f1f4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_f5221af04f62",
+    "created_at": "2026-09-23T20:58:34+05:30",
+    "expires_at": "2026-09-23T20:58:34+05:30"
+  },
+  {
+    "symbol": "CPPLUS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_ca54ada08635"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_788f91c7f87d",
+    "created_at": "2026-09-23T20:58:34+05:30",
+    "expires_at": "2026-09-23T20:58:34+05:30"
   }
 ]
