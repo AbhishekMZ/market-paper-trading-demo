@@ -1,83 +1,32 @@
 {
-  "as_of": "2026-09-23T16:00:07+05:30",
+  "as_of": "2026-09-23T17:22:26+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -10.2% breaches strong-loss -10%.",
+      "severity": "MEDIUM",
+      "action_type": "SELL_REVIEW",
+      "reason": "Held position at -9.9% breaches soft-loss -7%.",
       "trigger_ids": [
-        "trg_754c0840cd49"
+        "trg_179fd0e82dcc"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_eb226e05ac29",
-      "created_at": "2026-09-23T16:00:07+05:30",
-      "expires_at": "2026-09-23T16:00:07+05:30"
-    },
-    {
-      "symbol": "LLOYDSME.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -7.8% since last observation.",
-      "trigger_ids": [
-        "trg_781b0bfc2a75"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2f9890d3c379",
-      "created_at": "2026-09-23T16:00:07+05:30",
-      "expires_at": "2026-09-23T16:00:07+05:30"
+      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_ac11577e0b2b",
+      "created_at": "2026-09-23T17:22:26+05:30",
+      "expires_at": "2026-09-23T17:22:26+05:30"
     },
     {
       "symbol": "BANDHANBNK.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.6% since last observation.",
-      "trigger_ids": [
-        "trg_b3ab42b21b12",
-        "trg_d27fa5204907"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "BANDHANBNK.NS",
-        "score": 69.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_cb748fe3b1dd",
-      "created_at": "2026-09-23T16:00:07+05:30",
-      "expires_at": "2026-09-23T16:00:07+05:30"
-    },
-    {
-      "symbol": "NTPCGREEN.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.6% vs previous close.",
+      "reason": "Gap +3.6% vs previous close.",
       "trigger_ids": [
-        "trg_ccc6f2b5bd50"
+        "trg_4d1221dad171"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -85,17 +34,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6f529142290c",
-      "created_at": "2026-09-23T16:00:07+05:30",
-      "expires_at": "2026-09-23T16:00:07+05:30"
+      "escalation_id": "esc_3bf755e9b5fe",
+      "created_at": "2026-09-23T17:22:26+05:30",
+      "expires_at": "2026-09-23T17:22:26+05:30"
     },
     {
-      "symbol": "NUVOCO.NS",
+      "symbol": "CARBORUNIV.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.3% vs previous close.",
+      "reason": "Gap +4.4% vs previous close.",
       "trigger_ids": [
-        "trg_e01f90dc58a3"
+        "trg_1cae5a2a9625"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -103,9 +52,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5003ddba27ad",
-      "created_at": "2026-09-23T16:00:07+05:30",
-      "expires_at": "2026-09-23T16:00:07+05:30"
+      "escalation_id": "esc_015a33c4cb7d",
+      "created_at": "2026-09-23T17:22:26+05:30",
+      "expires_at": "2026-09-23T17:22:26+05:30"
     }
   ],
   "actions_taken": [],

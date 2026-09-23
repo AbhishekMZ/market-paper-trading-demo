@@ -1,5 +1,59 @@
 [
   {
+    "symbol": "CARBORUNIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.4% vs previous close.",
+    "trigger_ids": [
+      "trg_1cae5a2a9625"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_015a33c4cb7d",
+    "created_at": "2026-09-23T17:22:26+05:30",
+    "expires_at": "2026-09-23T17:22:26+05:30"
+  },
+  {
+    "symbol": "BANDHANBNK.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.6% vs previous close.",
+    "trigger_ids": [
+      "trg_4d1221dad171"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_3bf755e9b5fe",
+    "created_at": "2026-09-23T17:22:26+05:30",
+    "expires_at": "2026-09-23T17:22:26+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "MEDIUM",
+    "action_type": "SELL_REVIEW",
+    "reason": "Held position at -9.9% breaches soft-loss -7%.",
+    "trigger_ids": [
+      "trg_179fd0e82dcc"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_ac11577e0b2b",
+    "created_at": "2026-09-23T17:22:26+05:30",
+    "expires_at": "2026-09-23T17:22:26+05:30"
+  },
+  {
     "symbol": "NUVOCO.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1968,59 +2022,5 @@
     "escalation_id": "esc_503b318b6173",
     "created_at": "2026-09-11T17:11:13+05:30",
     "expires_at": "2026-09-11T17:11:13+05:30"
-  },
-  {
-    "symbol": "ZYDUSWELL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_e3cc3d208ccc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_adbb25670632",
-    "created_at": "2026-09-11T15:36:36+05:30",
-    "expires_at": "2026-09-11T15:36:36+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -14.3% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_648f415bde48"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_39289c6364ff",
-    "created_at": "2026-09-11T15:36:36+05:30",
-    "expires_at": "2026-09-11T15:36:36+05:30"
-  },
-  {
-    "symbol": "FINCABLES.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.8% vs previous close.",
-    "trigger_ids": [
-      "trg_601f841cfd63"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_80206fdf0ce3",
-    "created_at": "2026-09-10T20:17:08+05:30",
-    "expires_at": "2026-09-10T20:17:08+05:30"
   }
 ]
