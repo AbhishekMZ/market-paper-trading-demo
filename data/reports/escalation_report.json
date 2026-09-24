@@ -1,22 +1,77 @@
 {
-  "as_of": "2026-09-23T20:58:34+05:30",
+  "as_of": "2026-09-24T16:00:33+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "IKS.NS",
+      "symbol": "COLPAL.NS",
       "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +8.6% since last observation.",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_91f3bdd2663d",
-        "trg_d8401d891ed5"
+        "trg_e35663bc1722"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_ef17bc7b67bc",
+      "created_at": "2026-09-24T16:00:33+05:30",
+      "expires_at": "2026-09-24T16:00:33+05:30"
+    },
+    {
+      "symbol": "BANDHANBNK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_52d5188af276",
+        "trg_56a384fa438b",
+        "trg_78d2b0c9bb38"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_2d88221a9bdc",
+      "created_at": "2026-09-24T16:00:33+05:30",
+      "expires_at": "2026-09-24T16:00:33+05:30"
+    },
+    {
+      "symbol": "_MARKET_",
+      "severity": "HIGH",
+      "action_type": "MANUAL_REVIEW",
+      "reason": "Market regime NEUTRAL -> RISK_OFF.",
+      "trigger_ids": [
+        "trg_b51356b2de57"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+      "escalation_id": "esc_8bfe70b42147",
+      "created_at": "2026-09-24T16:00:33+05:30",
+      "expires_at": "2026-09-24T16:00:33+05:30"
+    },
+    {
+      "symbol": "MCX.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +5.0% since last observation.",
+      "trigger_ids": [
+        "trg_553841f5db96"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "IKS.NS",
-        "score": 69.9,
-        "label": "WATCH",
+        "symbol": "MCX.NS",
+        "score": 59.7,
+        "label": "NO_ACTION",
         "previous_label": "WATCH",
         "valid_opportunity": false,
         "action_allowed": false,
@@ -24,90 +79,56 @@
         "blocked_by": null,
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=89, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": true
+        "market_regime": "RISK_OFF",
+        "reason": "Final 59.7/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=87, portfolio_fit=80, relative_strength=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_ca76e3efaff0",
-      "created_at": "2026-09-23T20:58:34+05:30",
-      "expires_at": "2026-09-23T20:58:34+05:30"
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_ad2f0432a85e",
+      "created_at": "2026-09-24T16:00:33+05:30",
+      "expires_at": "2026-09-24T16:00:33+05:30"
     },
     {
-      "symbol": "COLPAL.NS",
+      "symbol": "ZYDUSLIFE.NS",
       "severity": "MEDIUM",
-      "action_type": "SELL_REVIEW",
-      "reason": "Held position at -9.9% breaches soft-loss -7%.",
-      "trigger_ids": [
-        "trg_06e43801d932"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_2523a22dc8ba",
-      "created_at": "2026-09-23T20:58:34+05:30",
-      "expires_at": "2026-09-23T20:58:34+05:30"
-    },
-    {
-      "symbol": "BANDHANBNK.NS",
-      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.6% vs previous close.",
+      "reason": "Moved +3.5% since last observation.",
       "trigger_ids": [
-        "trg_c7273e6ae560"
+        "trg_41206766efe4"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "ZYDUSLIFE.NS",
+        "score": 57.4,
+        "label": "NO_ACTION",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "RISK_OFF",
+        "reason": "Final 57.4/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_8a733415956d",
-      "created_at": "2026-09-23T20:58:34+05:30",
-      "expires_at": "2026-09-23T20:58:34+05:30"
-    },
-    {
-      "symbol": "CARBORUNIV.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.4% vs previous close.",
-      "trigger_ids": [
-        "trg_f5fdcd94f1f4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_f5221af04f62",
-      "created_at": "2026-09-23T20:58:34+05:30",
-      "expires_at": "2026-09-23T20:58:34+05:30"
-    },
-    {
-      "symbol": "CPPLUS.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.0% vs previous close.",
-      "trigger_ids": [
-        "trg_ca54ada08635"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_788f91c7f87d",
-      "created_at": "2026-09-23T20:58:34+05:30",
-      "expires_at": "2026-09-23T20:58:34+05:30"
+      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+      "escalation_id": "esc_a4a5d4e102aa",
+      "created_at": "2026-09-24T16:00:33+05:30",
+      "expires_at": "2026-09-24T16:00:33+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "BANDHANBNK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
