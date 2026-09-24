@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "BLUESTARCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.9% vs previous close.",
-    "trigger_ids": [
-      "trg_2449ea3f918b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c824f0619344",
-    "created_at": "2026-09-14T22:36:14+05:30",
-    "expires_at": "2026-09-14T22:36:14+05:30"
-  },
-  {
-    "symbol": "INDUSTOWER.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.3% vs previous close.",
-    "trigger_ids": [
-      "trg_c47f8c4677b0"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9d00dc7db824",
-    "created_at": "2026-09-14T22:36:14+05:30",
-    "expires_at": "2026-09-14T22:36:14+05:30"
-  },
-  {
     "symbol": "ANGELONE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2052,5 +2016,41 @@
     "escalation_id": "esc_a4a5d4e102aa",
     "created_at": "2026-09-24T16:00:33+05:30",
     "expires_at": "2026-09-24T16:00:33+05:30"
+  },
+  {
+    "symbol": "CARBORUNIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_912f6f54c154"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d93243a29c63",
+    "created_at": "2026-09-24T17:43:13+05:30",
+    "expires_at": "2026-09-24T17:43:13+05:30"
+  },
+  {
+    "symbol": "CAPLIPOINT.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_541b7ab81bb5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_fd819d1975ad",
+    "created_at": "2026-09-24T17:43:13+05:30",
+    "expires_at": "2026-09-24T17:43:13+05:30"
   }
 ]
