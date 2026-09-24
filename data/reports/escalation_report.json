@@ -1,14 +1,32 @@
 {
-  "as_of": "2026-09-24T17:43:13+05:30",
+  "as_of": "2026-09-24T20:57:38+05:30",
   "checkpoint": "close",
   "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.4% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_6a0c8c4707c2"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_104f076428dd",
+      "created_at": "2026-09-24T20:57:38+05:30",
+      "expires_at": "2026-09-24T20:57:38+05:30"
+    },
     {
       "symbol": "CARBORUNIV.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +2.5% vs previous close.",
       "trigger_ids": [
-        "trg_912f6f54c154"
+        "trg_d77d6a44485c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,27 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d93243a29c63",
-      "created_at": "2026-09-24T17:43:13+05:30",
-      "expires_at": "2026-09-24T17:43:13+05:30"
-    },
-    {
-      "symbol": "CAPLIPOINT.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.6% vs previous close.",
-      "trigger_ids": [
-        "trg_541b7ab81bb5"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_fd819d1975ad",
-      "created_at": "2026-09-24T17:43:13+05:30",
-      "expires_at": "2026-09-24T17:43:13+05:30"
+      "escalation_id": "esc_95c1ea6d6b0c",
+      "created_at": "2026-09-24T20:57:38+05:30",
+      "expires_at": "2026-09-24T20:57:38+05:30"
     }
   ],
   "actions_taken": [],

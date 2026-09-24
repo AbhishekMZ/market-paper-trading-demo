@@ -1,6 +1,6 @@
 {
   "month": "2026-09",
-  "calls_total": 26606,
+  "calls_total": 27108,
   "daily": {
     "2026-09-01": 1506,
     "2026-09-02": 1506,
@@ -19,12 +19,12 @@
     "2026-09-21": 1506,
     "2026-09-22": 1506,
     "2026-09-23": 1506,
-    "2026-09-24": 1004
+    "2026-09-24": 1506
   },
   "warnings": [],
   "provider": "yfinance",
   "budget_enabled": false,
   "note": "yfinance has no API key/quota; polite limits applied.",
-  "calls_today": 1004,
-  "last_updated": "2026-09-24T17:41:13+05:30"
+  "calls_today": 1506,
+  "last_updated": "2026-09-24T20:55:28+05:30"
 }

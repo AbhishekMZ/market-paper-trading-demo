@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-24T17:43:13+05:30",
+  "as_of": "2026-09-24T20:57:38+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 3,
+  "triggers_this_run": 2,
   "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 213,
-    "triggers_detected": 874,
-    "escalations_created": 581,
+    "observation_runs": 214,
+    "triggers_detected": 876,
+    "escalations_created": 583,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 149,
     "emails_sent_total": 0,
-    "last_run": "2026-09-24T17:43:13+05:30",
+    "last_run": "2026-09-24T20:57:38+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +27,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
-      "DIVISLAB.NS",
       "NTPCGREEN.NS",
+      "DIVISLAB.NS",
       "GESHIP.NS",
       "AUROPHARMA.NS",
       "LAURUSLABS.NS",
       "CARBORUNIV.NS",
       "LGEINDIA.NS",
       "WELSPUNLIV.NS",
-      "PAGEIND.NS",
-      "KIMS.NS",
       "MCX.NS",
+      "KIMS.NS",
+      "ONESOURCE.NS",
       "ZYDUSLIFE.NS",
-      "CAPLIPOINT.NS"
+      "LALPATHLAB.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_d89dac5ef125",
-        "detected_at": "2026-09-24T17:41:23+05:30"
+        "created_escalation_id": "esc_104f076428dd",
+        "trigger_id": "trg_6a0c8c4707c2",
+        "detected_at": "2026-09-24T20:55:39+05:30"
       },
       {
         "symbol": "CARBORUNIV.NS",
@@ -84,47 +84,38 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_d93243a29c63",
-        "trigger_id": "trg_912f6f54c154",
-        "detected_at": "2026-09-24T17:42:15+05:30"
-      },
-      {
-        "symbol": "CAPLIPOINT.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.6% vs previous close.",
-        "company_name": "Caplin Point Laboratories Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2867.39990234375,
-        "previous_price": null,
-        "change_pct": 2.6344,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_fd819d1975ad",
-        "trigger_id": "trg_541b7ab81bb5",
-        "detected_at": "2026-09-24T17:43:13+05:30"
+        "created_escalation_id": "esc_95c1ea6d6b0c",
+        "trigger_id": "trg_d77d6a44485c",
+        "detected_at": "2026-09-24T20:56:39+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -11.4% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_6a0c8c4707c2"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_104f076428dd",
+        "created_at": "2026-09-24T20:57:38+05:30",
+        "expires_at": "2026-09-24T20:57:38+05:30"
+      },
       {
         "symbol": "CARBORUNIV.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.5% vs previous close.",
         "trigger_ids": [
-          "trg_912f6f54c154"
+          "trg_d77d6a44485c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -132,32 +123,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_d93243a29c63",
-        "created_at": "2026-09-24T17:43:13+05:30",
-        "expires_at": "2026-09-24T17:43:13+05:30"
-      },
-      {
-        "symbol": "CAPLIPOINT.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.6% vs previous close.",
-        "trigger_ids": [
-          "trg_541b7ab81bb5"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_fd819d1975ad",
-        "created_at": "2026-09-24T17:43:13+05:30",
-        "expires_at": "2026-09-24T17:43:13+05:30"
+        "escalation_id": "esc_95c1ea6d6b0c",
+        "created_at": "2026-09-24T20:57:38+05:30",
+        "expires_at": "2026-09-24T20:57:38+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-24T17:41:14+05:30"
+    "as_of": "2026-09-24T20:55:30+05:30"
   }
 }
