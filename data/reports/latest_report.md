@@ -503,7 +503,7 @@ IDBI.NS(49.9), IOB.NS(49.9), PERSISTENT.NS(49.9), AEGISLOG.NS(49.8), TBOTEK.NS(4
 - BLUESTARCO.NS (WATCH, 66.2): Final 66.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=71. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 28112 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 28614 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
