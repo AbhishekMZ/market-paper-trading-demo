@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "_MARKET_",
-    "severity": "HIGH",
-    "action_type": "MANUAL_REVIEW",
-    "reason": "Market regime NEUTRAL -> RISK_OFF.",
-    "trigger_ids": [
-      "trg_431e40ad94cf"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-    "escalation_id": "esc_3645f1a90ecd",
-    "created_at": "2026-09-15T16:04:53+05:30",
-    "expires_at": "2026-09-15T16:04:53+05:30"
-  },
-  {
-    "symbol": "ACMESOLAR.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.5% vs previous close.",
-    "trigger_ids": [
-      "trg_3fdae3b3cd67"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_e1a97e28d05b",
-    "created_at": "2026-09-15T17:36:19+05:30",
-    "expires_at": "2026-09-15T17:36:19+05:30"
-  },
-  {
     "symbol": "WELCORP.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2066,5 +2030,55 @@
     "escalation_id": "esc_db3a717bd590",
     "created_at": "2026-09-25T16:18:16+05:30",
     "expires_at": "2026-09-25T16:18:16+05:30"
+  },
+  {
+    "symbol": "TEGA.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +21.0% since last observation.",
+    "trigger_ids": [
+      "trg_c8f497ef5adb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "TEGA.NS",
+      "score": 62.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 62.7/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, relative_strength=74. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_dc0c0cb62232",
+    "created_at": "2026-09-25T17:43:27+05:30",
+    "expires_at": "2026-09-25T17:43:27+05:30"
+  },
+  {
+    "symbol": "HBLENGINE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.0% vs previous close.",
+    "trigger_ids": [
+      "trg_319e9aa4a3db"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_38169b591cb2",
+    "created_at": "2026-09-25T17:43:27+05:30",
+    "expires_at": "2026-09-25T17:43:27+05:30"
   }
 ]

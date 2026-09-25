@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-25T16:16:17+05:30",
+  "as_of": "2026-09-25T17:41:20+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-09-25T16:16:17+05:30",
+  "last_successful_run": "2026-09-25T17:41:20+05:30",
   "symbols_assessed": 500,
   "usable_symbols": 497,
   "rejected_symbols": 3,

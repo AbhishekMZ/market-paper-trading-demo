@@ -5370,5 +5370,22 @@
     "signal_id": "sig_227380eefd61",
     "timestamp": "2026-09-25T16:16:16+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_36bdb566f13e",
+    "symbol": "CASTROLIND.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 49,
+    "filled_quantity": 0,
+    "price": 201.67,
+    "amount": 9881.83,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9881.83, have 100.34.",
+    "reason": "Final 72.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
+    "signal_id": "sig_ac6e10b77129",
+    "timestamp": "2026-09-25T17:41:19+05:30",
+    "realized_pnl": 0.0
   }
 ]
