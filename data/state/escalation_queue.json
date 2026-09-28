@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -13.1% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_a7418352b4a6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_2137d24c84c1",
-    "created_at": "2026-09-15T21:03:23+05:30",
-    "expires_at": "2026-09-15T21:03:23+05:30"
-  },
-  {
-    "symbol": "ACMESOLAR.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.5% vs previous close.",
-    "trigger_ids": [
-      "trg_1f4dd3c72ab9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d8f6845fe244",
-    "created_at": "2026-09-15T21:03:23+05:30",
-    "expires_at": "2026-09-15T21:03:23+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -9.8% vs previous close.",
-    "trigger_ids": [
-      "trg_204041ed5227"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_33d2a5e86898",
-    "created_at": "2026-09-15T21:03:23+05:30",
-    "expires_at": "2026-09-15T21:03:23+05:30"
-  },
-  {
-    "symbol": "ATHERENERG.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -5.3% vs previous close.",
-    "trigger_ids": [
-      "trg_def42dfd88ba"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_bae70c887e35",
-    "created_at": "2026-09-15T21:03:23+05:30",
-    "expires_at": "2026-09-15T21:03:23+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.4% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_fbf8c5bee9c3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_c806ca4edd6d",
-    "created_at": "2026-09-16T15:59:51+05:30",
-    "expires_at": "2026-09-16T15:59:51+05:30"
-  },
-  {
     "symbol": "GLAXO.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2080,5 +1990,123 @@
     "escalation_id": "esc_5686ff137886",
     "created_at": "2026-09-25T21:19:28+05:30",
     "expires_at": "2026-09-25T21:19:28+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -11.8% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_c835c25ac153"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_bbac4d563448",
+    "created_at": "2026-09-28T17:32:41+05:30",
+    "expires_at": "2026-09-28T17:32:41+05:30"
+  },
+  {
+    "symbol": "COALINDIA.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_a5e6ad644754"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_4fc5faf74171",
+    "created_at": "2026-09-28T17:32:41+05:30",
+    "expires_at": "2026-09-28T17:32:41+05:30"
+  },
+  {
+    "symbol": "ABDL.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +10.8% since last observation.",
+    "trigger_ids": [
+      "trg_1b28f28376cc"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ABDL.NS",
+      "score": 56.7,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_OFF",
+      "reason": "Final 56.7/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=90, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_34e3368641c0",
+    "created_at": "2026-09-28T17:32:41+05:30",
+    "expires_at": "2026-09-28T17:32:41+05:30"
+  },
+  {
+    "symbol": "_MARKET_",
+    "severity": "HIGH",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
+    "trigger_ids": [
+      "trg_abc69c4e2b04"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_41e18f5c553b",
+    "created_at": "2026-09-28T17:32:41+05:30",
+    "expires_at": "2026-09-28T17:32:41+05:30"
+  },
+  {
+    "symbol": "CASTROLIND.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.4% since last observation.",
+    "trigger_ids": [
+      "trg_afb074cc444f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "CASTROLIND.NS",
+      "score": 55.6,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "RISK_OFF",
+      "reason": "Final 55.6/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=87, portfolio_fit=80, breakout=70.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_1e3a5f45e972",
+    "created_at": "2026-09-28T17:32:41+05:30",
+    "expires_at": "2026-09-28T17:32:41+05:30"
   }
 ]
