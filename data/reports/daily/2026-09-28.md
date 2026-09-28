@@ -35,7 +35,7 @@ AJANTPHARM.NS(49.9), DMART.NS(49.9), RBLBANK.NS(49.6), NTPCGREEN.NS(49.5), SIGNA
 
 ## ❗ Strategy conflicts
 - WELSPUNLIV.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- INDGN.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- INDGN.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ABDL.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BLUESTARCO.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CAPLIPOINT.NS: Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
@@ -493,13 +493,13 @@ AJANTPHARM.NS(49.9), DMART.NS(49.9), RBLBANK.NS(49.6), NTPCGREEN.NS(49.5), SIGNA
 - WELSPUNLIV.NS (WATCH, 65.6): Final 65.6/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BELRISE.NS (WATCH, 64.5): Final 64.5/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=96, trend_following=89, portfolio_fit=80.
 - DRREDDY.NS (WATCH, 64.4): Final 64.4/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, portfolio_fit=80, trend_following=74.
-- INDGN.NS (WATCH, 64.3): Final 64.3/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'news_event_risk', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- INDGN.NS (WATCH, 64.3): Final 64.3/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - RHIM.NS (WATCH, 64.3): Final 64.3/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=90, trend_following=87, portfolio_fit=80.
 - CASTROLIND.NS (WATCH, 62.9): Final 62.9/100 -> WATCH [regime RISK_OFF]. Top: trend_following=87, relative_strength=81, portfolio_fit=80.
 - ABDL.NS (WATCH, 62.8): Final 62.8/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=90, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 502 · total this month: 29116 (no API-key quota)
+- Provider: `yfinance` · calls today: 1004 · total this month: 29618 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

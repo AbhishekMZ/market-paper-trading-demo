@@ -5,7 +5,7 @@
       "change_pct": -1.4126,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:30:24+05:30"
+      "updated_at": "2026-09-28T19:22:03+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -362,7 +362,7 @@
       "change_pct": -0.5335,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:30:34+05:30"
+      "updated_at": "2026-09-28T19:22:11+05:30"
     },
     "APOLLOHOSP.NS": {
       "last_price": 8862.0,
@@ -390,7 +390,7 @@
       "change_pct": 0.922,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:06+05:30"
+      "updated_at": "2026-09-28T19:22:37+05:30"
     },
     "MARICO.NS": {
       "last_price": 853.5499877929688,
@@ -999,7 +999,7 @@
       "change_pct": -0.3124,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:30:44+05:30"
+      "updated_at": "2026-09-28T19:22:20+05:30"
     },
     "TATACAP.NS": {
       "last_price": 375.04998779296875,
@@ -1132,7 +1132,7 @@
       "change_pct": 0.7143,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:30:53+05:30"
+      "updated_at": "2026-09-28T19:22:28+05:30"
     },
     "MINDACORP.NS": {
       "last_price": 727.0999755859375,
@@ -1153,7 +1153,7 @@
       "change_pct": 0.2823,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:17+05:30"
+      "updated_at": "2026-09-28T19:22:45+05:30"
     },
     "CLEAN.NS": {
       "last_price": 863.1500244140625,
@@ -1678,7 +1678,7 @@
       "change_pct": 1.4554,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:32:24+05:30"
+      "updated_at": "2026-09-28T19:22:53+05:30"
     },
     "BEML.NS": {
       "last_price": 2013.300048828125,
@@ -1797,7 +1797,7 @@
       "change_pct": -0.8449,
       "news_risk_level": "HIGH",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:32:11+05:30"
+      "updated_at": "2026-09-28T19:23:43+05:30"
     },
     "MEESHO.NS": {
       "last_price": 219.14999389648438,
@@ -1818,7 +1818,7 @@
       "change_pct": 2.4179,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:32:00+05:30"
+      "updated_at": "2026-09-28T19:23:10+05:30"
     },
     "TATACOMM.NS": {
       "last_price": 1799.300048828125,
@@ -1895,7 +1895,7 @@
       "change_pct": 0.6645,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:34+05:30"
+      "updated_at": "2026-09-28T19:23:01+05:30"
     },
     "GRANULES.NS": {
       "last_price": 909.2999877929688,
@@ -1937,7 +1937,7 @@
       "change_pct": 1.1747,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:32:32+05:30"
+      "updated_at": "2026-09-28T19:23:51+05:30"
     },
     "HDBFS.NS": {
       "last_price": 678.0,
@@ -2056,7 +2056,7 @@
       "change_pct": 0.3072,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:43+05:30"
+      "updated_at": "2026-09-28T19:23:26+05:30"
     },
     "PAGEIND.NS": {
       "last_price": 37500.0,
@@ -2084,23 +2084,23 @@
       "change_pct": 0.7965,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:26+05:30"
+      "updated_at": "2026-09-28T19:23:18+05:30"
     },
     "RHIM.NS": {
       "last_price": 386.6000061035156,
       "change_pct": 0.0388,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:31:52+05:30"
+      "updated_at": "2026-09-28T19:23:35+05:30"
     },
     "SUNTV.NS": {
       "last_price": 519.9000244140625,
       "change_pct": 1.3055,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-09-28T17:32:41+05:30"
+      "updated_at": "2026-09-28T19:24:00+05:30"
     }
   },
-  "last_observation_at": "2026-09-28T17:32:41+05:30",
+  "last_observation_at": "2026-09-28T19:24:00+05:30",
   "last_regime": "RISK_OFF"
 }
