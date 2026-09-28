@@ -1,7 +1,86 @@
 {
-  "as_of": "2026-09-28T19:24:00+05:30",
+  "as_of": "2026-09-29T00:23:29+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -11.8% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_bf7cecbebf87"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_2cb653dfaa8c",
+      "created_at": "2026-09-29T00:23:29+05:30",
+      "expires_at": "2026-09-29T00:23:29+05:30"
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
+      "trigger_ids": [
+        "trg_9978e9e713ce"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_edb284f55c25",
+      "created_at": "2026-09-29T00:23:29+05:30",
+      "expires_at": "2026-09-29T00:23:29+05:30"
+    },
+    {
+      "symbol": "CASTROLIND.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_8fca8cbf9ad4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_106142ea8f93",
+      "created_at": "2026-09-29T00:23:29+05:30",
+      "expires_at": "2026-09-29T00:23:29+05:30"
+    },
+    {
+      "symbol": "BLUESTARCO.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.6% vs previous close.",
+      "trigger_ids": [
+        "trg_479c6eeef199"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_1f31a6237fce",
+      "created_at": "2026-09-29T00:23:29+05:30",
+      "expires_at": "2026-09-29T00:23:29+05:30"
+    }
+  ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "COALINDIA.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

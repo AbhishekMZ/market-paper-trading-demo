@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-09-28T19:24:00+05:30",
+  "as_of": "2026-09-29T00:23:29+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 2,
-  "escalations": 0,
+  "triggers_this_run": 4,
+  "escalations": 4,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 2,
+  "blocked_actions": [
+    {
+      "symbol": "COALINDIA.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 219,
-    "triggers_detected": 893,
-    "escalations_created": 596,
+    "observation_runs": 220,
+    "triggers_detected": 897,
+    "escalations_created": 600,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 150,
+    "blocked_actions_from_triggers": 151,
     "emails_sent_total": 0,
-    "last_run": "2026-09-28T19:24:00+05:30",
+    "last_run": "2026-09-29T00:23:29+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -54,7 +60,7 @@
         "company_name": "COLPAL.NS",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1845.9000244140625,
+        "price_at_detection": 1855.800048828125,
         "previous_price": null,
         "change_pct": -11.83,
         "market_regime": "RISK_OFF",
@@ -63,9 +69,51 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_9ce14c294506",
-        "detected_at": "2026-09-28T19:22:11+05:30"
+        "created_escalation_id": "esc_2cb653dfaa8c",
+        "trigger_id": "trg_bf7cecbebf87",
+        "detected_at": "2026-09-29T00:21:38+05:30"
+      },
+      {
+        "symbol": "CASTROLIND.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +3.5% vs previous close.",
+        "company_name": "Castrol India Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 201.6699981689453,
+        "previous_price": null,
+        "change_pct": 3.5267,
+        "market_regime": "RISK_OFF",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_106142ea8f93",
+        "trigger_id": "trg_8fca8cbf9ad4",
+        "detected_at": "2026-09-29T00:21:49+05:30"
+      },
+      {
+        "symbol": "BLUESTARCO.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap +2.6% vs previous close.",
+        "company_name": "Blue Star Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1565.0,
+        "previous_price": null,
+        "change_pct": 2.623,
+        "market_regime": "RISK_OFF",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_1f31a6237fce",
+        "trigger_id": "trg_479c6eeef199",
+        "detected_at": "2026-09-29T00:22:30+05:30"
       },
       {
         "symbol": "COALINDIA.NS",
@@ -75,7 +123,7 @@
         "company_name": "Coal India Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 422.5,
+        "price_at_detection": 426.1000061035156,
         "previous_price": null,
         "change_pct": null,
         "market_regime": "RISK_OFF",
@@ -84,27 +132,95 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_68a0c670793d",
-        "detected_at": "2026-09-28T19:23:43+05:30"
+        "created_escalation_id": "esc_edb284f55c25",
+        "trigger_id": "trg_9978e9e713ce",
+        "detected_at": "2026-09-29T00:23:12+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -11.8% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_bf7cecbebf87"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_2cb653dfaa8c",
+        "created_at": "2026-09-29T00:23:29+05:30",
+        "expires_at": "2026-09-29T00:23:29+05:30"
       },
       {
         "symbol": "COALINDIA.NS",
-        "trigger": "HIGH_RISK_NEWS",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_9978e9e713ce"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_edb284f55c25",
+        "created_at": "2026-09-29T00:23:29+05:30",
+        "expires_at": "2026-09-29T00:23:29+05:30"
+      },
+      {
+        "symbol": "CASTROLIND.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.5% vs previous close.",
+        "trigger_ids": [
+          "trg_8fca8cbf9ad4"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_106142ea8f93",
+        "created_at": "2026-09-29T00:23:29+05:30",
+        "expires_at": "2026-09-29T00:23:29+05:30"
+      },
+      {
+        "symbol": "BLUESTARCO.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.6% vs previous close.",
+        "trigger_ids": [
+          "trg_479c6eeef199"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_1f31a6237fce",
+        "created_at": "2026-09-29T00:23:29+05:30",
+        "expires_at": "2026-09-29T00:23:29+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "COALINDIA.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-09-28T19:21:55+05:30"
+    "as_of": "2026-09-29T00:21:19+05:30"
   }
 }
