@@ -1,7 +1,99 @@
 {
-  "as_of": "2026-09-29T18:43:50+05:30",
+  "as_of": "2026-09-29T22:30:43+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -14.7% breaches strong-loss -10%.",
+      "trigger_ids": [
+        "trg_57f1dec762d4",
+        "trg_4c3c5172819e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_9edd8111b5bb",
+      "created_at": "2026-09-29T22:30:43+05:30",
+      "expires_at": "2026-09-29T22:30:43+05:30"
+    },
+    {
+      "symbol": "CPPLUS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_bbf4c9656822"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b02891231867",
+      "created_at": "2026-09-29T22:30:43+05:30",
+      "expires_at": "2026-09-29T22:30:43+05:30"
+    },
+    {
+      "symbol": "LLOYDSME.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.6% vs previous close.",
+      "trigger_ids": [
+        "trg_fe4d5bd1cc10"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_e5fc65caba40",
+      "created_at": "2026-09-29T22:30:43+05:30",
+      "expires_at": "2026-09-29T22:30:43+05:30"
+    },
+    {
+      "symbol": "MEESHO.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_fc1ad7e1c33b"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b544f35a5ea9",
+      "created_at": "2026-09-29T22:30:43+05:30",
+      "expires_at": "2026-09-29T22:30:43+05:30"
+    },
+    {
+      "symbol": "GLAND.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.2% vs previous close.",
+      "trigger_ids": [
+        "trg_73f2d3e3d800"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_7cf27e59f2af",
+      "created_at": "2026-09-29T22:30:43+05:30",
+      "expires_at": "2026-09-29T22:30:43+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }

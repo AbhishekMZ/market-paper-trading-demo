@@ -516,7 +516,7 @@ BHARTIARTL.NS(49.9), COCHINSHIP.NS(49.7), HFCL.NS(49.7), RRKABEL.NS(49.7), SCHNE
 - MANKIND.NS (WATCH, 67.9): Final 67.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 31124 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 31626 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

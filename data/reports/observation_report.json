@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-29T18:43:50+05:30",
+  "as_of": "2026-09-29T22:30:43+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 6,
-  "escalations": 0,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 5,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 222,
-    "triggers_detected": 910,
-    "escalations_created": 605,
+    "observation_runs": 223,
+    "triggers_detected": 916,
+    "escalations_created": 610,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 151,
     "emails_sent_total": 0,
-    "last_run": "2026-09-29T18:43:50+05:30",
+    "last_run": "2026-09-29T22:30:43+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_a27bb3caa8a0",
-        "detected_at": "2026-09-29T18:42:01+05:30"
+        "created_escalation_id": "esc_9edd8111b5bb",
+        "trigger_id": "trg_57f1dec762d4",
+        "detected_at": "2026-09-29T22:28:51+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_b8a0e27c1350",
-        "detected_at": "2026-09-29T18:42:01+05:30"
+        "created_escalation_id": "esc_9edd8111b5bb",
+        "trigger_id": "trg_4c3c5172819e",
+        "detected_at": "2026-09-29T22:28:51+05:30"
       },
       {
         "symbol": "CPPLUS.NS",
@@ -105,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_dc2ed6b7cef5",
-        "detected_at": "2026-09-29T18:43:00+05:30"
+        "created_escalation_id": "esc_b02891231867",
+        "trigger_id": "trg_bbf4c9656822",
+        "detected_at": "2026-09-29T22:29:49+05:30"
       },
       {
         "symbol": "LLOYDSME.NS",
@@ -126,9 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_96efd71796f5",
-        "detected_at": "2026-09-29T18:43:16+05:30"
+        "created_escalation_id": "esc_e5fc65caba40",
+        "trigger_id": "trg_fe4d5bd1cc10",
+        "detected_at": "2026-09-29T22:30:06+05:30"
       },
       {
         "symbol": "MEESHO.NS",
@@ -147,9 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_4939f933af15",
-        "detected_at": "2026-09-29T18:43:33+05:30"
+        "created_escalation_id": "esc_b544f35a5ea9",
+        "trigger_id": "trg_fc1ad7e1c33b",
+        "detected_at": "2026-09-29T22:30:25+05:30"
       },
       {
         "symbol": "GLAND.NS",
@@ -168,42 +168,108 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_cf04f36a7a83",
-        "detected_at": "2026-09-29T18:43:50+05:30"
+        "created_escalation_id": "esc_7cf27e59f2af",
+        "trigger_id": "trg_73f2d3e3d800",
+        "detected_at": "2026-09-29T22:30:43+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -14.7% breaches strong-loss -10%.",
+        "trigger_ids": [
+          "trg_57f1dec762d4",
+          "trg_4c3c5172819e"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_9edd8111b5bb",
+        "created_at": "2026-09-29T22:30:43+05:30",
+        "expires_at": "2026-09-29T22:30:43+05:30"
       },
       {
         "symbol": "CPPLUS.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.5% vs previous close.",
+        "trigger_ids": [
+          "trg_bbf4c9656822"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b02891231867",
+        "created_at": "2026-09-29T22:30:43+05:30",
+        "expires_at": "2026-09-29T22:30:43+05:30"
       },
       {
         "symbol": "LLOYDSME.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.6% vs previous close.",
+        "trigger_ids": [
+          "trg_fe4d5bd1cc10"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_e5fc65caba40",
+        "created_at": "2026-09-29T22:30:43+05:30",
+        "expires_at": "2026-09-29T22:30:43+05:30"
       },
       {
         "symbol": "MEESHO.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.9% vs previous close.",
+        "trigger_ids": [
+          "trg_fc1ad7e1c33b"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b544f35a5ea9",
+        "created_at": "2026-09-29T22:30:43+05:30",
+        "expires_at": "2026-09-29T22:30:43+05:30"
       },
       {
         "symbol": "GLAND.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.2% vs previous close.",
+        "trigger_ids": [
+          "trg_73f2d3e3d800"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_7cf27e59f2af",
+        "created_at": "2026-09-29T22:30:43+05:30",
+        "expires_at": "2026-09-29T22:30:43+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-29T18:41:52+05:30"
+    "as_of": "2026-09-29T22:28:42+05:30"
   }
 }
