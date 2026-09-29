@@ -5438,5 +5438,39 @@
     "signal_id": "sig_781b7e979880",
     "timestamp": "2026-09-29T17:22:38+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_6573c5503950",
+    "symbol": "DRREDDY.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 7,
+    "filled_quantity": 0,
+    "price": 1251.9,
+    "amount": 8763.3,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8763.30, have 100.34.",
+    "reason": "Final 73.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80.",
+    "signal_id": "sig_a8249fbe22d8",
+    "timestamp": "2026-09-29T18:41:49+05:30",
+    "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_0d8ed1066d2d",
+    "symbol": "RHIM.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 25,
+    "filled_quantity": 0,
+    "price": 393.2,
+    "amount": 9830.0,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 9830.00, have 100.34.",
+    "reason": "Final 73.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80.",
+    "signal_id": "sig_1701682c8e26",
+    "timestamp": "2026-09-29T18:41:49+05:30",
+    "realized_pnl": 0.0
   }
 ]
