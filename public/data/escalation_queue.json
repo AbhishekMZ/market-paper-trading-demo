@@ -1,5 +1,41 @@
 [
   {
+    "symbol": "SAREGAMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_cb01729d45d4"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_0b2861a1f447",
+    "created_at": "2026-09-30T17:10:52+05:30",
+    "expires_at": "2026-09-30T17:10:52+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "CRITICAL",
+    "action_type": "EXIT_REVIEW",
+    "reason": "Held position at -15.8% breaches hard-loss -15%.",
+    "trigger_ids": [
+      "trg_2b2464993b21"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_147feafc211d",
+    "created_at": "2026-09-30T17:10:52+05:30",
+    "expires_at": "2026-09-30T17:10:52+05:30"
+  },
+  {
     "symbol": "GLAND.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2031,56 +2067,5 @@
     "escalation_id": "esc_722756306f34",
     "created_at": "2026-09-17T17:34:20+05:30",
     "expires_at": "2026-09-17T17:34:20+05:30"
-  },
-  {
-    "symbol": "ACE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.9% since last observation.",
-    "trigger_ids": [
-      "trg_ac45e16c3f08",
-      "trg_6889a4886135"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ACE.NS",
-      "score": 67.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_28386c7aa172",
-    "created_at": "2026-09-17T17:34:20+05:30",
-    "expires_at": "2026-09-17T17:34:20+05:30"
-  },
-  {
-    "symbol": "LICHSGFIN.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.0% since last observation.",
-    "trigger_ids": [
-      "trg_9342caa6a54b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_de07063250d9",
-    "created_at": "2026-09-17T16:08:25+05:30",
-    "expires_at": "2026-09-17T16:08:25+05:30"
   }
 ]
