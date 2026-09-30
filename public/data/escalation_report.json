@@ -1,44 +1,7 @@
 {
-  "as_of": "2026-09-30T17:10:52+05:30",
+  "as_of": "2026-09-30T18:30:34+05:30",
   "checkpoint": "close",
-  "open_escalations": [
-    {
-      "symbol": "COLPAL.NS",
-      "severity": "CRITICAL",
-      "action_type": "EXIT_REVIEW",
-      "reason": "Held position at -15.8% breaches hard-loss -15%.",
-      "trigger_ids": [
-        "trg_2b2464993b21"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_147feafc211d",
-      "created_at": "2026-09-30T17:10:52+05:30",
-      "expires_at": "2026-09-30T17:10:52+05:30"
-    },
-    {
-      "symbol": "SAREGAMA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.7% vs previous close.",
-      "trigger_ids": [
-        "trg_cb01729d45d4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_0b2861a1f447",
-      "created_at": "2026-09-30T17:10:52+05:30",
-      "expires_at": "2026-09-30T17:10:52+05:30"
-    }
-  ],
+  "open_escalations": [],
   "actions_taken": [],
   "blocked_actions": []
 }
