@@ -1,13 +1,13 @@
 {
-  "as_of": "2026-09-30T18:28:22+05:30",
+  "as_of": "2026-09-30T22:38:29+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-09-30T18:28:22+05:30",
+  "last_successful_run": "2026-09-30T22:38:29+05:30",
   "symbols_assessed": 500,
   "usable_symbols": 497,
   "rejected_symbols": 3,
   "price_anomalies": 2,
   "stale_quotes": 0,
-  "missing_news": 53,
+  "missing_news": 52,
   "anomaly_symbols": [
     "HEG.NS",
     "POLICYBZR.NS"

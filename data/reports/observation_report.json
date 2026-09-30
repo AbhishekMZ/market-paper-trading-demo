@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-09-30T18:30:34+05:30",
+  "as_of": "2026-09-30T22:40:28+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 2,
-  "escalations": 0,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 225,
-    "triggers_detected": 920,
-    "escalations_created": 612,
+    "observation_runs": 226,
+    "triggers_detected": 922,
+    "escalations_created": 614,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 151,
     "emails_sent_total": 0,
-    "last_run": "2026-09-30T18:30:34+05:30",
+    "last_run": "2026-09-30T22:40:28+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_adb1b485eae9",
-        "detected_at": "2026-09-30T18:28:32+05:30"
+        "created_escalation_id": "esc_caa15cc05499",
+        "trigger_id": "trg_0e7c1a2fd064",
+        "detected_at": "2026-09-30T22:38:40+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -84,27 +84,53 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_df3262eb6e89",
-        "detected_at": "2026-09-30T18:30:21+05:30"
+        "created_escalation_id": "esc_b9d0b94900b0",
+        "trigger_id": "trg_8f9157c3dd80",
+        "detected_at": "2026-09-30T22:40:20+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "HARD_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "CRITICAL",
+        "action_type": "EXIT_REVIEW",
+        "reason": "Held position at -15.8% breaches hard-loss -15%.",
+        "trigger_ids": [
+          "trg_0e7c1a2fd064"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_caa15cc05499",
+        "created_at": "2026-09-30T22:40:28+05:30",
+        "expires_at": "2026-09-30T22:40:28+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.7% vs previous close.",
+        "trigger_ids": [
+          "trg_8f9157c3dd80"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b9d0b94900b0",
+        "created_at": "2026-09-30T22:40:28+05:30",
+        "expires_at": "2026-09-30T22:40:28+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-09-30T18:28:24+05:30"
+    "as_of": "2026-09-30T22:38:30+05:30"
   }
 }
