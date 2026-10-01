@@ -1,24 +1,30 @@
 {
-  "as_of": "2026-10-01T18:59:16+05:30",
+  "as_of": "2026-10-01T23:09:07+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 3,
-  "escalations": 0,
+  "escalations": 3,
   "actions_taken": [],
-  "blocked_actions": [],
-  "throttled": 3,
+  "blocked_actions": [
+    {
+      "symbol": "ICICIBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ],
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 228,
-    "triggers_detected": 931,
-    "escalations_created": 619,
+    "observation_runs": 229,
+    "triggers_detected": 934,
+    "escalations_created": 622,
     "paper_actions_from_triggers": 0,
-    "blocked_actions_from_triggers": 152,
+    "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-01T18:59:16+05:30",
+    "last_run": "2026-10-01T23:09:07+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +69,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_b4f996f0635d",
-        "detected_at": "2026-10-01T18:57:28+05:30"
+        "created_escalation_id": "esc_2ef0627f9c76",
+        "trigger_id": "trg_04d8082d1ee1",
+        "detected_at": "2026-10-01T23:07:11+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +90,9 @@
         "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_192b6acaa365",
-        "detected_at": "2026-10-01T18:57:28+05:30"
+        "created_escalation_id": "esc_52764ac13301",
+        "trigger_id": "trg_ae4e91fbc44b",
+        "detected_at": "2026-10-01T23:07:12+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
@@ -105,32 +111,77 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": null,
-        "trigger_id": "trg_6da6a295765e",
-        "detected_at": "2026-10-01T18:58:51+05:30"
+        "created_escalation_id": "esc_5c487e482088",
+        "trigger_id": "trg_b728bb092283",
+        "detected_at": "2026-10-01T23:08:38+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "trigger": "HARD_LOSS_REVIEW",
-        "reason": "cooldown"
+        "severity": "CRITICAL",
+        "action_type": "EXIT_REVIEW",
+        "reason": "Held position at -17.1% breaches hard-loss -15%.",
+        "trigger_ids": [
+          "trg_ae4e91fbc44b"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_52764ac13301",
+        "created_at": "2026-10-01T23:09:07+05:30",
+        "expires_at": "2026-10-01T23:09:07+05:30"
       },
       {
         "symbol": "ICICIBANK.NS",
-        "trigger": "HIGH_RISK_NEWS",
-        "reason": "cooldown"
+        "severity": "HIGH",
+        "action_type": "BLOCKED_BY_NEWS",
+        "reason": "High-risk adverse news.",
+        "trigger_ids": [
+          "trg_b728bb092283"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Adverse news — buy blocked.",
+        "escalation_id": "esc_5c487e482088",
+        "created_at": "2026-10-01T23:09:07+05:30",
+        "expires_at": "2026-10-01T23:09:07+05:30"
       },
       {
         "symbol": "ITC.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.6% vs previous close.",
+        "trigger_ids": [
+          "trg_04d8082d1ee1"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_2ef0627f9c76",
+        "created_at": "2026-10-01T23:09:07+05:30",
+        "expires_at": "2026-10-01T23:09:07+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
-    "blocked_actions": [],
+    "blocked_actions": [
+      {
+        "symbol": "ICICIBANK.NS",
+        "blocked_by": "NEWS",
+        "trigger": "HIGH_RISK_NEWS"
+      }
+    ],
     "emails_sent": 0,
-    "as_of": "2026-10-01T18:57:28+05:30"
+    "as_of": "2026-10-01T23:07:11+05:30"
   }
 }
