@@ -512,7 +512,7 @@ GLAXO.NS(49.9), NESTLEIND.NS(49.9), LINDEINDIA.NS(49.7), MFSL.NS(49.7), RITES.NS
 - LEMONTREE.NS (WATCH, 66.5): Final 66.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 502 · total this month: 502 (no API-key quota)
+- Provider: `yfinance` · calls today: 1004 · total this month: 1004 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

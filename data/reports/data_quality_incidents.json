@@ -4876,5 +4876,60 @@
     "rejected_price": 255.89999389648438,
     "jump_pct": 52.52,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-10-01T17:47:14+05:30",
+    "symbol": "HEG.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 237.64999389648438,
+    "mtm_price": 237.64999389648438,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "split_or_ca_discontinuity"
+    ],
+    "reasons": [
+      "consecutive close gap 62.6% >= 25% (suspected split/corporate action)."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
+    "ts": "2026-10-01T17:47:31+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-10-01T17:47:56+05:30",
+    "symbol": "POLICYBZR.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 980.0,
+    "mtm_price": 980.0,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "split_or_ca_discontinuity"
+    ],
+    "reasons": [
+      "consecutive close gap 36.0% >= 25% (suspected split/corporate action)."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
+    "ts": "2026-10-01T17:48:33+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 255.89999389648438,
+    "jump_pct": 52.52,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]
