@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.6% vs previous close.",
-    "trigger_ids": [
-      "trg_8fbebef88005"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_34b1f8d11fcc",
-    "created_at": "2026-09-17T17:34:20+05:30",
-    "expires_at": "2026-09-17T17:34:20+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -12.1% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_23386de155a7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_b3742df5ebb4",
-    "created_at": "2026-09-17T20:59:17+05:30",
-    "expires_at": "2026-09-17T20:59:17+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_b1558236b8fb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a58739dd0a47",
-    "created_at": "2026-09-17T20:59:17+05:30",
-    "expires_at": "2026-09-17T20:59:17+05:30"
-  },
-  {
-    "symbol": "ABSLAMC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_2f949c803c50"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_02901a7b01dd",
-    "created_at": "2026-09-17T20:59:17+05:30",
-    "expires_at": "2026-09-17T20:59:17+05:30"
-  },
-  {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.6% vs previous close.",
-    "trigger_ids": [
-      "trg_420dc586beea"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a455565f422d",
-    "created_at": "2026-09-17T20:59:17+05:30",
-    "expires_at": "2026-09-17T20:59:17+05:30"
-  },
-  {
     "symbol": "ACE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2067,5 +1977,110 @@
     "escalation_id": "esc_b9d0b94900b0",
     "created_at": "2026-09-30T22:40:28+05:30",
     "expires_at": "2026-09-30T22:40:28+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "CRITICAL",
+    "action_type": "EXIT_REVIEW",
+    "reason": "Held position at -17.1% breaches hard-loss -15%.",
+    "trigger_ids": [
+      "trg_aa7b56684f1e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_4855379cd4d1",
+    "created_at": "2026-10-01T17:38:23+05:30",
+    "expires_at": "2026-10-01T17:38:23+05:30"
+  },
+  {
+    "symbol": "ICICIBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_cad6db8edc81",
+      "trg_f91583a83566"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_2ec8e5a1d24a",
+    "created_at": "2026-10-01T17:38:23+05:30",
+    "expires_at": "2026-10-01T17:38:23+05:30"
+  },
+  {
+    "symbol": "ENGINERSIN.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +19.4% since last observation.",
+    "trigger_ids": [
+      "trg_d5468db47de9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ENGINERSIN.NS",
+      "score": 60.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 60.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_758e83da395e",
+    "created_at": "2026-10-01T17:38:23+05:30",
+    "expires_at": "2026-10-01T17:38:23+05:30"
+  },
+  {
+    "symbol": "UTIAMC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.9% since last observation.",
+    "trigger_ids": [
+      "trg_da79bdeee698"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_bab2c07a2af4",
+    "created_at": "2026-10-01T17:38:23+05:30",
+    "expires_at": "2026-10-01T17:38:23+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_b41565e32bd3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_89787df14807",
+    "created_at": "2026-10-01T17:38:23+05:30",
+    "expires_at": "2026-10-01T17:38:23+05:30"
   }
 ]
