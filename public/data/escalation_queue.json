@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "GRAPHITE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_50636a8f9c17"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d33129ecaef0",
+    "created_at": "2026-10-02T18:28:54+05:30",
+    "expires_at": "2026-10-02T18:28:54+05:30"
+  },
+  {
     "symbol": "LEMONTREE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2018,24 +2036,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_77cc7f3eaf3c",
-    "created_at": "2026-09-18T17:10:18+05:30",
-    "expires_at": "2026-09-18T17:10:18+05:30"
-  },
-  {
-    "symbol": "SHYAMMETL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_73b106845173"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ca7acccad835",
     "created_at": "2026-09-18T17:10:18+05:30",
     "expires_at": "2026-09-18T17:10:18+05:30"
   }

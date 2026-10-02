@@ -5574,5 +5574,22 @@
     "signal_id": "sig_0444b898681d",
     "timestamp": "2026-10-02T17:12:01+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_b2927839b3df",
+    "symbol": "LALPATHLAB.NS",
+    "side": "BUY",
+    "status": "REJECTED",
+    "quantity": 4,
+    "filled_quantity": 0,
+    "price": 2005.1,
+    "amount": 8020.4,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Insufficient fake cash: need 8020.40, have 100.34.",
+    "reason": "Final 73.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=95, trend_following=84, portfolio_fit=80.",
+    "signal_id": "sig_438a000075a8",
+    "timestamp": "2026-10-02T18:26:52+05:30",
+    "realized_pnl": 0.0
   }
 ]
