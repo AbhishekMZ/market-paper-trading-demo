@@ -515,7 +515,7 @@ HSCL.NS(49.9), KARURVYSYA.NS(49.9), PAYTM.NS(49.9), TATAELXSI.NS(49.9), GLAXO.NS
 - FINCABLES.NS (WATCH, 66.0): Final 66.0/100 -> WATCH [regime NEUTRAL]. Top: trend_following=93, relative_strength=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1004 · total this month: 2510 (no API-key quota)
+- Provider: `yfinance` · calls today: 1506 · total this month: 3012 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
