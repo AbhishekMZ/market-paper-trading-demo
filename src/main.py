@@ -177,8 +177,14 @@ def run(args: argparse.Namespace) -> int:
         return 1
 
     # --- market regime --------------------------------------------------- #
+    # One-day index move is an event flag. RISK_ON / RISK_OFF come from the
+    # 20-session return on the historical-context cache when that block exists.
     benchmarks, bench_change = fetch_benchmarks(provider, configs, usage, period, interval)
-    regime = MarketRegimeEngine().classify(benchmarks)
+    ctx_cfg = (configs.get("context") or {}).get("context", {})
+    hist_engine = HistoricalContextEngine(ctx_cfg, provider, usage=usage)
+    cached_hist = hist_engine.load()
+    cached_bench = cached_hist.get("benchmark") if isinstance(cached_hist, dict) else None
+    regime = MarketRegimeEngine().classify(benchmarks, trailing=cached_bench)
     print(f"[regime] {regime.regime} (score {regime.score}) — {regime.reason}")
 
     # --- observe-only / focused-symbol: skip the heavy universe scan ----- #
@@ -252,6 +258,21 @@ def run(args: argparse.Namespace) -> int:
     hybrid = HybridSignalEngine(configs, cost_model=cost_model)
     research = ResearchRegistry()
 
+    # Trailing 2y features BEFORE the score, so RS / trend / vol / regime read
+    # the same series the caution overlay uses. Refresh is TTL-cached.
+    hist_symbols: Dict[str, Any] = {}
+    try:
+        if ctx_cfg.get("enabled", True):
+            hist_ctx = hist_engine.refresh_if_stale(list(market_by_symbol.keys()))
+            hist_symbols = hist_ctx.get("symbols", {}) if isinstance(hist_ctx, dict) else {}
+            regime = MarketRegimeEngine().classify(
+                benchmarks, trailing=hist_ctx.get("benchmark") if isinstance(hist_ctx, dict) else None,
+            )
+            print(f"[regime] {regime.regime} (score {regime.score}) — {regime.reason}")
+    except Exception as exc:
+        storage.append_audit({"event": "HISTORICAL_CONTEXT_ERROR", "message": str(exc)})
+        print(f"[hist-context] error: {exc}", file=sys.stderr)
+
     news_cfg = (configs.get("news") or {}).get("news", {})
     news_engine = NewsRiskEngine(news_cfg)
     news_items_by_symbol: Dict[str, Any] = {}
@@ -264,6 +285,7 @@ def run(args: argparse.Namespace) -> int:
         "regime": regime,
         "news_cfg": news_cfg,
         "news_items_by_symbol": news_items_by_symbol,
+        "hist_by_symbol": hist_symbols,
         "benchmark_change_pct": bench_change if bench_change is not None else regime.inputs.get("avg_change_pct"),
         "held_symbols": held,
         "budget": budget,
@@ -324,17 +346,12 @@ def run(args: argparse.Namespace) -> int:
     news_health = _build_news_health(news_assessments, news_alerts, decision_at, cp_id)
 
     # --- historical-context overlay (post-strategy; can only ADD caution) --- #
-    # Trailing-only 2y price features. Like the news overlay, this can only
-    # downgrade a would-be buy or attach a flag — it never creates/upgrades a
-    # buy and never changes the score. Runs BEFORE buys so a context downgrade
-    # also prevents a paper buy. Wrapped so it can never break the deep run.
+    # Uses the features already computed for the score. Can only downgrade a
+    # would-be buy or attach a flag — never creates/upgrades a buy, never
+    # changes the score. Runs BEFORE buys.
     try:
-        ctx_cfg = (configs.get("context") or {}).get("context", {})
         if ctx_cfg.get("enabled", True):
-            hist_engine = HistoricalContextEngine(ctx_cfg, provider, usage=usage)
             hist_overlay = HistoricalContextOverlay(ctx_cfg)
-            hist_ctx = hist_engine.refresh_if_stale(list(market_by_symbol.keys()))
-            hist_symbols = hist_ctx.get("symbols", {}) if isinstance(hist_ctx, dict) else {}
             for sig in signals:
                 hist_overlay.apply_to_signal(sig, hist_symbols.get(sig.symbol))
     except Exception as exc:

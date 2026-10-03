@@ -58,6 +58,40 @@ def neutral_result(name: str, reason: str, warnings: Optional[List[str]] = None,
     )
 
 
+def trailing_features(context: Optional[Dict[str, Any]], symbol: str) -> Optional[Dict[str, Any]]:
+    """Price-feature dict from the historical-context cache or a point-in-time replay.
+
+    Returns None unless coverage is ok. Callers must not fall back to the
+    1-month snapshot graph.
+    """
+    if not isinstance(context, dict):
+        return None
+    direct = context.get("hist_features")
+    if isinstance(direct, dict) and direct.get("coverage") == "ok":
+        return direct
+    by_symbol = context.get("hist_by_symbol")
+    if isinstance(by_symbol, dict):
+        feats = by_symbol.get(symbol)
+        if isinstance(feats, dict) and feats.get("coverage") == "ok":
+            return feats
+    return None
+
+
+def unavailable_result(name: str, reason: str) -> StrategyResult:
+    """Trailing series missing — do not contribute a score from a shorter window."""
+    return StrategyResult(
+        strategy_name=name,
+        score_contribution=50.0,
+        confidence=0.0,
+        signal=NEUTRAL,
+        reason=reason,
+        warnings=[reason],
+        is_valid=False,
+        contributes_to_score=False,
+        display_only=True,
+    )
+
+
 def map_linear(value: Optional[float], lo: float, hi: float, default: float = 50.0) -> float:
     """Map value in [lo, hi] to [0, 100], clamped. Returns default if None."""
     if value is None:

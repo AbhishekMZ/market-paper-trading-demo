@@ -163,6 +163,88 @@ def avg_turnover(bars: Sequence[Any], window: int) -> Optional[float]:
     return round(sum(seg) / len(seg), 2)
 
 
+def trailing_return_pct(closes: Sequence[float], window: int) -> Optional[float]:
+    """Percent change over `window` sessions, trailing only. None if the series is short."""
+    if window <= 0 or len(closes) < window + 1:
+        return None
+    base = closes[-(window + 1)]
+    last = closes[-1]
+    if not base:
+        return None
+    return round((last / base - 1.0) * 100.0, 3)
+
+
+def excess_return_pct(
+    closes: Sequence[float], bench_closes: Optional[Sequence[float]], window: int
+) -> Optional[float]:
+    """Stock trailing return minus the benchmark's, same window. None if either side is short."""
+    if not bench_closes:
+        return None
+    stock = trailing_return_pct(closes, window)
+    bench = trailing_return_pct(bench_closes, window)
+    if stock is None or bench is None:
+        return None
+    return round(stock - bench, 3)
+
+
+def benchmark_trailing(closes: Sequence[float]) -> Dict[str, Any]:
+    """Index stats the regime engine gates on. One-day move is separate from the 20-session return."""
+    vol = realized_vol(closes, 20)
+    return {
+        "return_1d_pct": trailing_return_pct(closes, 1),
+        "return_20d_pct": trailing_return_pct(closes, 20),
+        "realized_vol_20d": None if vol is None else round(vol * 100.0, 3),
+    }
+
+
+def scoring_view(
+    bars: Sequence[Any],
+    bench_closes: Optional[Sequence[float]] = None,
+    cfg: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Trailing inputs for the price strategies.
+
+    Same functions as `compute_features`, without the 250-bar overlay gate, so a
+    point-in-time replay can score once the 50-session average exists. Fields
+    that still lack bars stay None — callers must not substitute a 1-day move.
+    """
+    cfg = cfg or {}
+    fcfg = cfg.get("features", {}) if isinstance(cfg.get("features"), dict) else {}
+    vol_window = int(fcfg.get("vol_window", 20))
+    sma50 = 50
+    sma_windows = list(fcfg.get("sma_windows", [50, 200]))
+    if sma_windows:
+        sma50 = int(sma_windows[0])
+    sma200 = int(sma_windows[1]) if len(sma_windows) > 1 else 200
+    trend_lookback = int(fcfg.get("trend_lookback", 50))
+    rs_window = int(fcfg.get("rs_window", 60))
+
+    closes = close_series(bars)
+    out: Dict[str, Any] = {
+        "n_bars": len(closes),
+        "coverage": "insufficient",
+        "vol_percentile": None,
+        "realized_vol_20d": None,
+        "range_position_2y": None,
+        "pct_above_50dma": None,
+        "pct_above_200dma": None,
+        "trend_persistence": None,
+        "excess_return_60d": None,
+    }
+    if len(closes) < sma50:
+        return out
+    vol = realized_vol(closes, vol_window)
+    out["coverage"] = "ok"
+    out["vol_percentile"] = vol_percentile(closes, vol_window)
+    out["realized_vol_20d"] = None if vol is None else round(vol * 100.0, 2)
+    out["range_position_2y"] = range_position(closes)
+    out["pct_above_50dma"] = pct_above_sma(closes, sma50)
+    out["pct_above_200dma"] = pct_above_sma(closes, sma200)
+    out["trend_persistence"] = trend_persistence(closes, sma50, trend_lookback)
+    out["excess_return_60d"] = excess_return_pct(closes, bench_closes, rs_window)
+    return out
+
+
 def trend_persistence(closes: Sequence[float], sma_window: int, lookback: int) -> Optional[float]:
     if len(closes) < sma_window + 1:
         return None
@@ -190,6 +272,7 @@ def compute_features(
     beta_window = int(fcfg.get("beta_window", 252))
     turnover_window = int(fcfg.get("turnover_window", 20))
     trend_lookback = int(fcfg.get("trend_lookback", 50))
+    rs_window = int(fcfg.get("rs_window", 60))
     min_bars = int(cfg.get("min_bars", 250))
     sma50 = int(sma_windows[0]) if len(sma_windows) > 0 else 50
     sma200 = int(sma_windows[1]) if len(sma_windows) > 1 else 200
@@ -209,11 +292,15 @@ def compute_features(
         "beta_vs_nifty": None,
         "avg_turnover_20d": None,
         "trend_persistence": None,
+        "excess_return_60d": None,
+        "realized_vol_20d": None,
     }
     if out["coverage"] == "insufficient":
         return out
 
+    vol = realized_vol(closes, vol_window)
     out["vol_percentile"] = vol_percentile(closes, vol_window)
+    out["realized_vol_20d"] = None if vol is None else round(vol * 100.0, 2)
     out["range_position_2y"] = range_position(closes)
     out["pct_above_50dma"] = pct_above_sma(closes, sma50)
     out["pct_above_200dma"] = pct_above_sma(closes, sma200)
@@ -223,4 +310,7 @@ def compute_features(
         out["beta_vs_nifty"] = beta(closes, list(bench_closes), beta_window)
     out["avg_turnover_20d"] = avg_turnover(bars, turnover_window)
     out["trend_persistence"] = trend_persistence(closes, sma50, trend_lookback)
+    out["excess_return_60d"] = (
+        excess_return_pct(closes, list(bench_closes), rs_window) if bench_closes else None
+    )
     return out

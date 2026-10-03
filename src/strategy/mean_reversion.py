@@ -5,10 +5,17 @@ config/scoring.yml). It must be explicitly enabled before it can affect buys.
 """
 from __future__ import annotations
 
-import statistics
 from typing import Any, Dict, List
 
-from strategy.base import NEGATIVE, NEUTRAL, POSITIVE, StrategyPlugin, StrategyResult
+from strategy.base import (
+    NEGATIVE,
+    NEUTRAL,
+    POSITIVE,
+    StrategyPlugin,
+    StrategyResult,
+    trailing_features,
+    unavailable_result,
+)
 
 
 class MeanReversionStrategy(StrategyPlugin):
@@ -24,44 +31,39 @@ class MeanReversionStrategy(StrategyPlugin):
         return ["graph", "change_pct"]
 
     def evaluate(self, symbol, market_data, portfolio_state, context) -> StrategyResult:
-        prices = self._prices(market_data)
-        change_pct = market_data.get("change_pct")
-        warnings: List[str] = []
+        feats = trailing_features(context, symbol)
+        above50 = None if not feats else feats.get("pct_above_50dma")
+        if above50 is None:
+            return unavailable_result(
+                self.name(),
+                "Trailing averages unavailable; a short pullback on the 1-month graph is not used.",
+            )
 
-        if len(prices) < 4 or change_pct is None:
-            return StrategyResult(self.name(), 50.0, 0.15, NEUTRAL,
-                                  "Insufficient data for mean-reversion assessment.",
-                                  warnings=["insufficient_data"], display_only=True,
-                                  contributes_to_score=False)
+        above200 = feats.get("pct_above_200dma")
+        change_pct = market_data.get("change_pct") if isinstance(market_data, dict) else None
+        above50_f = float(above50)
 
-        mean = statistics.fmean(prices)
-        last = prices[-1]
-        broader_trend = (prices[-1] - prices[0]) / prices[0] * 100.0 if prices[0] else 0.0
-        below_mean_pct = (last - mean) / mean * 100.0 if mean else 0.0
-
-        # A pullback is only constructive when the broader trend is healthy.
-        if change_pct <= -4.0:
+        if change_pct is not None and float(change_pct) <= -4.0:
             score, signal = 25.0, NEGATIVE
-            reason = f"Sharp fall {change_pct:.2f}% — treated as risk, not a buyable dip."
-        elif broader_trend > 0 and -2.5 <= change_pct <= -0.3 and below_mean_pct < 0:
+            reason = f"Sharp fall {float(change_pct):.2f}% — treated as risk, not a buyable dip."
+        elif above200 is not None and float(above200) > 0 and -8.0 <= above50_f <= -1.0:
             score, signal = 68.0, POSITIVE
-            reason = f"Controlled pullback ({change_pct:.2f}%) within an up-trend ({broader_trend:+.2f}%)."
-        elif broader_trend <= 0:
+            reason = (
+                f"Pullback to {above50_f:+.2f}% vs the 50-session average "
+                f"while still {float(above200):+.2f}% above the 200-session average."
+            )
+        elif above200 is not None and float(above200) <= 0:
             score, signal = 40.0, NEGATIVE
-            reason = f"Pullback inside a flat/down trend ({broader_trend:+.2f}%) — not constructive."
+            reason = f"Below the 200-session average ({float(above200):+.2f}%) — not a constructive dip."
         else:
             score, signal = 52.0, NEUTRAL
-            reason = "No clear mean-reversion setup."
+            reason = "No clear mean-reversion setup on the trailing averages."
 
         return StrategyResult(
             strategy_name=self.name(),
             score_contribution=score,
-            confidence=0.4,
+            confidence=0.55,
             signal=signal,
             reason=reason,
-            data_used={"broader_trend_pct": round(broader_trend, 2),
-                       "below_mean_pct": round(below_mean_pct, 2), "change_pct": change_pct},
-            warnings=warnings,
-            display_only=True,
-            contributes_to_score=False,
+            data_used={"pct_above_50dma": above50, "pct_above_200dma": above200, "change_pct": change_pct},
         )

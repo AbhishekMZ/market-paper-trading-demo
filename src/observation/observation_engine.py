@@ -142,9 +142,19 @@ class ObservationEngine:
         cap = self.configs.get("settings", {}).get("capital", {})
         budget = storage.load_state("monthly_budget", {})
         exec_state = storage.load_state("execution_state", {})
+        ctx_cfg = (self.configs.get("context") or {}).get("context", {})
+        hist_by_symbol: Dict[str, Any] = {}
+        try:
+            from context.engine import HistoricalContextEngine
+            cached = HistoricalContextEngine(ctx_cfg, self.provider).load()
+            if isinstance(cached, dict) and isinstance(cached.get("symbols"), dict):
+                hist_by_symbol = cached["symbols"]
+        except Exception:
+            hist_by_symbol = {}
         return {
             "regime": self.regime,
             "news_cfg": (self.configs.get("news") or {}).get("news", {}),
+            "hist_by_symbol": hist_by_symbol,
             "held_symbols": held,
             "portfolio": portfolio,
             "budget": budget,

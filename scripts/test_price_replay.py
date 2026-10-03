@@ -68,8 +68,8 @@ def test_no_look_ahead():
     """Score at index t must not change when FUTURE bars are mutated."""
     replay = PriceOnlyReplay(CONFIGS, _FakeProvider(), window=22, horizon=20, step=5)
     closes = [{"date": f"2025-{(i // 27) + 1:02d}-{(i % 27) + 1:02d}", "close": 100.0 + i}
-              for i in range(60)]
-    idx = 40
+              for i in range(90)]
+    idx = 70
     baseline = replay._score_at("TEST.NS", closes, idx, bench_change_pct=0.5)
 
     mutated = [dict(c) for c in closes]
