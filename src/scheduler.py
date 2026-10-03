@@ -7,11 +7,12 @@ Supports:
   * GitHub Actions mode   (cron passes --checkpoint or we infer from time)
 
 The system does NOT scan continuously — it acts only at discrete checkpoints.
+NSE holidays (config/nse_holidays.yml) are skipped unless --force / --manual.
 """
 from __future__ import annotations
 
 import datetime as dt
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 from utils import IST, is_weekday, now_ist
 
@@ -53,7 +54,31 @@ def resolve_checkpoint(settings: Dict[str, Any], forced: Optional[str] = None) -
             "is_last": chosen["id"] == cps[-1]["id"], "matched_by": "time"}
 
 
-def is_trading_day(settings: Dict[str, Any]) -> bool:
-    # Weekdays only. (NSE holidays are not modeled in v1; a holiday simply
-    # produces a low-data run that declines to trade — which is safe.)
-    return is_weekday()
+def _holiday_dates() -> Set[str]:
+    """Load YYYY-MM-DD closed dates from config/nse_holidays.yml (best-effort)."""
+    try:
+        import storage  # local import — available when running from src/
+
+        cfg = storage.load_config("nse_holidays.yml") or {}
+        out: Set[str] = set()
+        for row in cfg.get("nse_holidays") or []:
+            if isinstance(row, dict) and row.get("date"):
+                out.add(str(row["date"]).strip()[:10])
+            elif isinstance(row, str):
+                out.add(row.strip()[:10])
+        return out
+    except Exception:
+        return set()
+
+
+def is_nse_holiday(day: Optional[dt.date] = None) -> bool:
+    """True if *day* (IST today by default) is on the NSE holiday list."""
+    d = day or now_ist().date()
+    return d.isoformat() in _holiday_dates()
+
+
+def is_trading_day(settings: Dict[str, Any] = None) -> bool:
+    """Weekdays that are not on the NSE holiday calendar."""
+    if not is_weekday():
+        return False
+    return not is_nse_holiday()

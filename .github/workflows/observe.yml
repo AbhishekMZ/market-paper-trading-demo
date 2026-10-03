@@ -22,11 +22,12 @@ on:
         required: false
         default: "false"
 
-  # OPTIONAL hourly observation during Indian market hours (UTC). Left COMMENTED
-  # OUT on purpose — uncomment ONLY if you accept the noise/cost and understand
-  # GitHub Actions is not real-time. Keep within the configured min interval.
-  # schedule:
-  #   - cron: "30 4-9 * * 1-5"   # ~10:00-15:00 IST, top of each hour (approx)
+  # Low-noise between-checkpoint observation during Indian market hours (UTC).
+  # ~10:30 IST (05:00 UTC) and ~13:00 IST (07:30 UTC), weekdays only.
+  # Deep analysis still owns 09:35 / 11:30 / 14:45. Not real-time — cron jitter applies.
+  schedule:
+    - cron: "0 5 * * 1-5"
+    - cron: "30 7 * * 1-5"
 
 permissions:
   contents: write
