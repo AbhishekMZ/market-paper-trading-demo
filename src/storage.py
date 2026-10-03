@@ -50,6 +50,25 @@ def ensure_dirs() -> None:
         os.makedirs(d, exist_ok=True)
 
 
+def redirect_runtime_dirs(tmp_root: str) -> None:
+    """Point data/state/reports/public at a temp tree (offline tests only).
+
+    Prevents scripts/test_*.py from wiping the live paper ledger under data/state.
+    CONFIG_DIR stays on the real repo so YAML loads still work.
+    """
+    global DATA_DIR, RAW_DIR, PROCESSED_DIR, STATE_DIR, REPORTS_DIR
+    global DAILY_REPORTS_DIR, PUBLIC_DATA_DIR, AUDIT_LOG_PATH
+    DATA_DIR = os.path.join(tmp_root, "data")
+    RAW_DIR = os.path.join(DATA_DIR, "raw")
+    PROCESSED_DIR = os.path.join(DATA_DIR, "processed")
+    STATE_DIR = os.path.join(DATA_DIR, "state")
+    REPORTS_DIR = os.path.join(DATA_DIR, "reports")
+    DAILY_REPORTS_DIR = os.path.join(REPORTS_DIR, "daily")
+    PUBLIC_DATA_DIR = os.path.join(tmp_root, "public", "data")
+    AUDIT_LOG_PATH = os.path.join(STATE_DIR, "audit_log.jsonl")
+    ensure_dirs()
+
+
 # --------------------------------------------------------------------------- #
 # Config
 # --------------------------------------------------------------------------- #
@@ -74,6 +93,7 @@ def load_all_configs() -> dict:
         "news": _load_optional("news.yml"),
         "evaluation": _load_optional("evaluation.yml"),
         "observation": _load_optional("observation.yml"),
+        "context": _load_optional("context.yml"),
     }
 
 
