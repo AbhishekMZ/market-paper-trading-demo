@@ -239,6 +239,14 @@ class TradeSignal:
     news_item_count: int = 0
     news_top_headline: Optional[str] = None
     news_reasons: List[str] = field(default_factory=list)
+    # Historical-context overlay (HistoricalContextOverlay). Context only ADDS caution.
+    hist_context_available: bool = False
+    hist_vol_percentile: Optional[float] = None
+    hist_range_position: Optional[float] = None
+    hist_pct_above_200dma: Optional[float] = None
+    hist_beta: Optional[float] = None
+    hist_context_flags: List[str] = field(default_factory=list)
+    hist_context_note: str = ""
     created_at: str = field(default_factory=now_ist_iso)
 
     def to_dict(self) -> Dict[str, Any]:

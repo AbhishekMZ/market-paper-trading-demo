@@ -16,7 +16,7 @@ import subprocess
 import sys
 from copy import deepcopy
 from pathlib import Path
-from typing import Any
+from typing import Any, Dict
 
 import yaml
 
@@ -152,6 +152,7 @@ PROFILES: dict[str, dict[str, Any]] = {
             "hybrid_scoring": {
                 "buy_threshold": 70,
                 "watch_threshold": 60,
+                "neutral_min_confidence": 0.50,
                 "weights": {
                     "trend_following": 18,
                     "relative_strength": 20,
@@ -167,6 +168,74 @@ PROFILES: dict[str, dict[str, Any]] = {
                     "breakout": {"enabled": True, "contributes_to_score": True, "display_only": False},
                 },
             },
+        },
+        "observation": {
+            "observation": {
+                "escalation": {"allow_paper_sell_after_trigger": False},
+            }
+        },
+    },
+    "evidence": {
+        "description": (
+            "Paper evidence collection: NIFTY 500, buy threshold 70, NEUTRAL confidence "
+            "floor 0.50, optional paper exits so trade count / realized P&L can grow. "
+            "Still paper-only — never enables live trading."
+        ),
+        "settings": {
+            "capital": {
+                "monthly_fake_capital": 100000,
+                "max_amount_per_trade": 10000,
+                "max_buys_per_day": 50,
+                "max_buys_per_month": 250,
+            },
+            "market_data": {"max_symbols_per_run": 500, "fetch_company_info": False},
+            "rate_limits": {"sleep_seconds_between_symbols": 0.25},
+        },
+        "risk": {
+            "risk": {
+                "max_trade_amount": 10000,
+                "monthly_capital_cap": 100000,
+                "max_buys_per_day": 50,
+                "max_buys_per_month": 250,
+                "max_position_allocation_pct": 25,
+                "allow_real_orders": False,
+            }
+        },
+        "scoring": {
+            "scoring": {
+                "decision_bands": {"buy_small_paper": 70, "watch": 60},
+                "buy_candidate_min_score": 70,
+            },
+            "hybrid_scoring": {
+                "buy_threshold": 70,
+                "watch_threshold": 60,
+                "neutral_min_confidence": 0.50,
+                "weights": {
+                    "trend_following": 18,
+                    "relative_strength": 20,
+                    "market_regime": 16,
+                    "volatility_risk": 12,
+                    "news_event_risk": 14,
+                    "portfolio_fit": 8,
+                    "mean_reversion": 4,
+                    "breakout": 8,
+                },
+                "experimental_strategies": {
+                    "mean_reversion": {"enabled": True, "contributes_to_score": True, "display_only": False},
+                    "breakout": {"enabled": True, "contributes_to_score": True, "display_only": False},
+                },
+            },
+        },
+        "observation": {
+            "observation": {
+                "escalation": {
+                    "allow_paper_sell_after_trigger": True,
+                    "reason": (
+                        "Evidence profile may create paper SELLs after review triggers "
+                        "so round-trips accumulate; still paper-only."
+                    ),
+                },
+            }
         },
     },
 }
@@ -281,12 +350,19 @@ def cmd_status(_: argparse.Namespace) -> int:
     settings = read_yaml(CONFIG / "settings.yml")
     risk = read_yaml(CONFIG / "risk.yml")
     scoring = read_yaml(CONFIG / "scoring.yml")
-    universe = read_yaml(CONFIG / "universe.yml")
     portfolio = read_json(STATE / "portfolio.json", {})
     budget = read_json(STATE / "monthly_budget.json", {})
     execution = read_json(STATE / "execution_state.json", {})
     trades = read_json(STATE / "trade_history.json", [])
     signals = read_json(STATE / "signal_history.json", [])
+
+    # Resolve the real scanned universe (CSV via active_source when configured),
+    # not the inline active_symbols fallback list length.
+    sys.path.insert(0, str(SRC))
+    from universe_loader import load_universe  # type: ignore
+
+    max_symbols = int(settings.get("market_data", {}).get("max_symbols_per_run", 10))
+    universe = load_universe(max_active=max_symbols)
 
     labels: dict[str, int] = {}
     for sig in signals if isinstance(signals, list) else []:
@@ -302,8 +378,9 @@ def cmd_status(_: argparse.Namespace) -> int:
           f"risk_cap={risk.get('risk', {}).get('monthly_capital_cap')}")
     print(f"  buy_threshold={scoring.get('hybrid_scoring', {}).get('buy_threshold')} "
           f"watch_threshold={scoring.get('hybrid_scoring', {}).get('watch_threshold')} "
-          f"scan={settings.get('market_data', {}).get('max_symbols_per_run')}/"
-          f"{len(universe.get('active_symbols', []))}")
+          f"scan={universe.get('symbols_requested')}/{universe.get('symbols_available')} "
+          f"source={universe.get('source_used')}"
+          + (f"({universe.get('source_file')})" if universe.get("source_file") else ""))
     print("Portfolio")
     print(f"  cash={portfolio.get('cash')} holdings={portfolio.get('holdings_value')} "
           f"total={portfolio.get('total_value')} unrealized={portfolio.get('unrealized_pnl')} "
@@ -319,16 +396,30 @@ def cmd_status(_: argparse.Namespace) -> int:
 
 
 def detect_profile(settings: dict[str, Any], risk: dict[str, Any], scoring: dict[str, Any]) -> str:
-    for name, profile in PROFILES.items():
+    # Prefer more-specific profiles first (evidence shares capital/threshold with max-paper).
+    order = ["evidence", "max-paper", "balanced", "conservative"]
+    observation = read_yaml(CONFIG / "observation.yml")
+    for name in order:
+        profile = PROFILES[name]
         expected = profile
-        if (
+        if not (
             settings.get("capital", {}).get("monthly_fake_capital")
             == expected["settings"]["capital"]["monthly_fake_capital"]
             and risk.get("risk", {}).get("max_trade_amount") == expected["risk"]["risk"]["max_trade_amount"]
             and scoring.get("hybrid_scoring", {}).get("buy_threshold")
             == expected["scoring"]["hybrid_scoring"]["buy_threshold"]
         ):
-            return name
+            continue
+        if name == "evidence":
+            sell = (
+                observation.get("observation", {})
+                .get("escalation", {})
+                .get("allow_paper_sell_after_trigger", False)
+            )
+            if sell:
+                return "evidence"
+            continue
+        return name
     return "custom"
 
 
@@ -342,7 +433,9 @@ def cmd_profile(args: argparse.Namespace) -> int:
         return 0
     if args.profile_command == "apply":
         profile = PROFILES[args.name]
-        for cfg_name in ("settings", "risk", "scoring"):
+        for cfg_name in ("settings", "risk", "scoring", "observation"):
+            if cfg_name not in profile:
+                continue
             path = CONFIG / f"{cfg_name}.yml"
             current = read_yaml(path)
             updated = deep_merge(current, profile[cfg_name])
@@ -396,6 +489,124 @@ def cmd_history(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_backfill(args: argparse.Namespace) -> int:
+    sys.path.insert(0, str(SRC))
+    import storage  # type: ignore
+    from backtesting.price_replay import PriceOnlyReplay  # type: ignore
+    from market_data.provider_factory import build_market_data_provider  # type: ignore
+    from universe_loader import load_universe  # type: ignore
+
+    configs = storage.load_all_configs()
+    provider = build_market_data_provider(
+        "yfinance", configs["settings"].get("rate_limits", {}), fetch_company_info=False
+    )
+    universe = load_universe(max_active=args.limit)
+    symbols = universe["active"]
+    print(f"[backfill] price-only replay over {len(symbols)} symbol(s), lookback={args.lookback} "
+          f"(window={args.window}, horizon={args.horizon}, step={args.step})")
+    print("[backfill] DESCRIPTIVE ONLY — price signals, no news/costs, not a profitability claim.")
+
+    replay = PriceOnlyReplay(configs, provider, window=args.window, horizon=args.horizon, step=args.step)
+    report = replay.run(symbols, lookback=args.lookback)
+
+    reports_dir = ROOT / "data" / "reports"
+    public_dir = ROOT / "public" / "data"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    public_dir.mkdir(parents=True, exist_ok=True)
+    (reports_dir / "price_replay.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    (public_dir / "price_replay.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    (reports_dir / "price_replay.md").write_text(_backfill_markdown(report), encoding="utf-8")
+
+    cov = report["coverage"]
+    print(f"[backfill] scored={cov['symbols_scored']} skipped={cov['symbols_skipped_insufficient_data']} "
+          f"episodes={cov['total_episodes']}")
+    for band, m in report["by_score_band"].items():
+        print(f"  {band:12} n={m['count']:5} avg_fwd={m['avg_forward_return_pct']:+.2f}% "
+              f"hit={m['hit_rate_pct']:.0f}%")
+    print(f"[backfill] buy-grade vs rest edge = {report['buy_grade_vs_rest_edge_pct']:+.2f}%")
+    print("[backfill] wrote data/reports/price_replay.{json,md} and public/data/price_replay.json")
+    return 0
+
+
+def _backfill_markdown(r: Dict[str, Any]) -> str:
+    p = r["params"]
+    cov = r["coverage"]
+    lines = [
+        "# Price-Only Historical Replay",
+        "",
+        f"> **{r['disclaimer']}**",
+        "",
+        f"- As of: {r['as_of']}",
+        f"- Lookback: {p['lookback']}  |  window: {p['window_bars']} bars  |  "
+        f"forward horizon: {p['forward_horizon_bars']} bars  |  step: {p['step_bars']} bars",
+        f"- Buy threshold: {p['buy_threshold']}  |  strategies: {', '.join(p['strategies_used'])}",
+        f"- Symbols scored: {cov['symbols_scored']}  |  skipped (insufficient data): "
+        f"{cov['symbols_skipped_insufficient_data']}  |  episodes: {cov['total_episodes']}",
+        "",
+        "## Forward returns by score band",
+        "",
+        "| Band | Episodes | Avg forward return | Hit rate | Best | Worst |",
+        "|---|---:|---:|---:|---:|---:|",
+    ]
+    for band, m in r["by_score_band"].items():
+        lines.append(
+            f"| {band} | {m['count']} | {m['avg_forward_return_pct']:+.2f}% | "
+            f"{m['hit_rate_pct']:.0f}% | {m['best_pct']:+.2f}% | {m['worst_pct']:+.2f}% |"
+        )
+    lines += [
+        "",
+        f"**Buy-grade vs rest edge:** {r['buy_grade_vs_rest_edge_pct']:+.2f}%",
+        "",
+        "_A positive edge means higher-scoring names tended to have higher forward "
+        "returns over the horizon — descriptive of the price signals only._",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def cmd_learn(args: argparse.Namespace) -> int:
+    """Phase 3 L1: propose-only learning. Never mutates scoring.yml / live flags."""
+    sys.path.insert(0, str(SRC))
+    from evaluation.proposal_engine import ProposalEngine  # type: ignore
+    from utils import read_json  # type: ignore
+
+    if args.learn_command == "propose":
+        engine = ProposalEngine()
+        payload = engine.propose()
+        n = len(payload.get("proposals") or [])
+        skipped = len(payload.get("skipped") or [])
+        print(f"[learn] {payload.get('status')} - {n} proposal(s), {skipped} skipped")
+        print(f"[learn] live_trading={payload.get('live_trading')} auto_apply={payload.get('auto_apply')}")
+        for p in payload.get("proposals") or []:
+            print(f"  PROPOSAL  {p.get('key')}: {p.get('current')} -> {p.get('proposed')}")
+        for s in payload.get("skipped") or []:
+            print(f"  skip      {s.get('key')}: {s.get('reason')}")
+        print("[learn] wrote data/reports/learning_proposal.{json,md} and public/data/learning_proposal.json")
+        print("[learn] scoring.yml was NOT modified. Apply manually via profile/config if desired.")
+        return 0
+
+    if args.learn_command == "show":
+        path = ROOT / "data" / "reports" / "learning_proposal.json"
+        payload = read_json(str(path), {})
+        if not payload:
+            payload = read_json(str(ROOT / "public" / "data" / "learning_proposal.json"), {})
+        if not payload:
+            print("[learn] no learning_proposal.json yet — run: py -3 mmg.py learn propose")
+            return 1
+        print(f"[learn] as_of={payload.get('as_of')}  status={payload.get('status')}")
+        print(f"[learn] applied={payload.get('applied')} auto_apply={payload.get('auto_apply')} "
+              f"live_trading={payload.get('live_trading')}")
+        for p in payload.get("proposals") or []:
+            print(f"  {p.get('key')}: {p.get('current')} -> {p.get('proposed')}")
+            if p.get("rationale"):
+                print(f"    {p.get('rationale')}")
+        if not payload.get("proposals"):
+            print("  (no proposals)")
+        return 0
+
+    print(f"Unknown learn command: {args.learn_command}", file=sys.stderr)
+    return 2
+
+
 def cmd_safety(_: argparse.Namespace) -> int:
     sys.path.insert(0, str(SRC))
     import storage  # type: ignore
@@ -439,6 +650,14 @@ def build_parser() -> argparse.ArgumentParser:
     p = sub.add_parser("safety", help="Run the execution safety gate")
     p.set_defaults(func=cmd_safety)
 
+    p = sub.add_parser("backfill", help="Price-only historical replay (descriptive, not a profitability claim)")
+    p.add_argument("--limit", type=int, default=50, help="Max symbols to replay (from the active universe)")
+    p.add_argument("--lookback", default="2y", help="yfinance history period, e.g. 1y, 2y, 5y")
+    p.add_argument("--window", type=int, default=22, help="Trailing bars visible to strategies at each date")
+    p.add_argument("--horizon", type=int, default=20, help="Forward-return horizon in trading days")
+    p.add_argument("--step", type=int, default=5, help="Days between evaluation points")
+    p.set_defaults(func=cmd_backfill)
+
     p = sub.add_parser("analyze", help="Run the engine without creating paper orders")
     add_run_args(p)
     p.set_defaults(func=cmd_analyze)
@@ -480,6 +699,13 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--label")
     p.add_argument("--json", action="store_true")
     p.set_defaults(func=cmd_history)
+
+    p = sub.add_parser("learn", help="Learning proposals (suggest-only; never mutates scoring.yml)")
+    lsub = p.add_subparsers(dest="learn_command", required=True)
+    p_propose = lsub.add_parser("propose", help="Write PROPOSAL-ONLY learning_proposal report")
+    p_propose.set_defaults(func=cmd_learn)
+    p_show = lsub.add_parser("show", help="Show the latest learning proposal")
+    p_show.set_defaults(func=cmd_learn)
 
     return parser
 

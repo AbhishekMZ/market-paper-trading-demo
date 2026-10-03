@@ -26,10 +26,25 @@ export default function DataHealth() {
                   label="Overall"
                   value={<Pill tone={overallTone(h.overall)}>{h.overall || '—'}</Pill>}
                 />
-                <Stat label="Symbols assessed" value={h.symbols_assessed ?? 0} />
+                <Stat label="Requested" value={h.symbols_requested ?? h.symbols_assessed ?? 0} />
+                <Stat label="Scored" value={h.symbols_scored ?? h.symbols_assessed ?? 0} />
+                <Stat label="Assessed" value={h.symbols_assessed ?? 0} />
                 <Stat label="Usable" value={h.usable_symbols ?? 0} tone="pos" />
                 <Stat label="Rejected" value={h.rejected_symbols ?? 0} tone={h.rejected_symbols ? 'neg' : ''} />
               </div>
+              {h.partial_scan ? (
+                <div className="muted small" style={{ marginTop: 8 }}>
+                  Partial scan
+                  {h.universe_source ? ` · source ${h.universe_source}` : ''}
+                  {h.universe_source_file ? ` (${h.universe_source_file})` : ''}
+                  {h.partial_scan_note ? ` — ${h.partial_scan_note}` : ''}
+                </div>
+              ) : h.universe_source ? (
+                <div className="muted small" style={{ marginTop: 8 }}>
+                  Universe source: {h.universe_source}
+                  {h.universe_source_file ? ` (${h.universe_source_file})` : ''}
+                </div>
+              ) : null}
               <div className="stat-row">
                 <Stat label="Price anomalies" value={h.price_anomalies ?? 0} tone={h.price_anomalies ? 'neg' : ''} />
                 <Stat label="Stale quotes" value={h.stale_quotes ?? 0} />

@@ -44,6 +44,9 @@ concurrency:
 jobs:
   analyze:
     runs-on: ubuntu-latest
+    # Full NIFTY 500 scans are slow (yfinance + polite sleeps). Fail loudly
+    # instead of hanging near the GitHub Actions hard ceiling.
+    timeout-minutes: 120
     steps:
       - name: Checkout
         uses: actions/checkout@v4

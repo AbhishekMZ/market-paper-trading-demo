@@ -179,7 +179,18 @@ class ReportGenerator:
         L.append(f"> **{p['mode_banner']}**")
         L.append("")
         L.append(f"**Market regime:** `{rg.get('regime','?')}` — {rg.get('reason','')}")
-        L.append("")
+        cov = p.get("universe_coverage") or {}
+        if cov:
+            L.append(
+                f"**Universe coverage:** requested **{cov.get('symbols_requested', '?')}** / "
+                f"available {cov.get('symbols_available', '?')} · "
+                f"scored **{cov.get('symbols_scored', '?')}** · "
+                f"source `{cov.get('universe_source', '?')}`"
+                + (f" (`{cov.get('universe_source_file')}`)" if cov.get("universe_source_file") else "")
+            )
+            if cov.get("partial_scan"):
+                L.append(f"> ⚠️ **Partial scan:** {cov.get('partial_scan_note', 'not all requested symbols were scored.')}")
+            L.append("")
         L.append("## 💰 Portfolio (fake money)")
         L.append(f"- Total value: **{money(pf.get('total_value',0), self.currency)}** "
                  f"(started {money(pf.get('starting_capital',0), self.currency)})")

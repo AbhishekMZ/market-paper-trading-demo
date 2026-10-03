@@ -1,8 +1,8 @@
 # =====================================================================
-# Observation & Escalation Engine — configuration
+# Observation & Escalation Engine â€” configuration
 # v1 MODE: PAPER TRADING ONLY. Observation watches a small active watchlist
 # between deep-analysis checkpoints, detects meaningful changes, and escalates.
-# It can take SWIFT PAPER action or raise a manual-review alert — but every
+# It can take SWIFT PAPER action or raise a manual-review alert â€” but every
 # paper action still goes through ExecutionEngine + Risk + News + DataQuality.
 # No real orders. No Angel One. Email-only alerts.
 # =====================================================================
@@ -20,8 +20,8 @@ observation:
     deep_analysis_checkpoints: ["09:35", "11:30", "14:45"]
     observation_interval_minutes: 60
     min_observation_interval_minutes: 30
-    enable_extra_observation_schedule: false
-    reason: "GitHub Actions is not a precision real-time engine; keep v1 low-noise and zero-cost."
+    enable_extra_observation_schedule: true
+    reason: "GitHub Actions is not real-time; 2x/day observe between deep checkpoints is enough for v1."
 
   watchlist:
     max_active_symbols: 15

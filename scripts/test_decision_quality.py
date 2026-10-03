@@ -12,6 +12,7 @@ from __future__ import annotations
 
 import os
 import sys
+import tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
@@ -39,6 +40,8 @@ def _sig(symbol, score, price, acted, contributors=("trend_following",)):
 
 
 def main() -> int:
+    # Isolate ledgers so this script cannot wipe the live paper state.
+    storage.redirect_runtime_dirs(tempfile.mkdtemp(prefix="mmg_dq_test_"))
     cfg = storage.load_config("evaluation.yml").get("evaluation", {})
     _reset_ledgers()
 

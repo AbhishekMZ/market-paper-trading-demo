@@ -12,18 +12,23 @@ results.
 - **`backtest_engine.py` → `PaperTradeReplay` (real)** — replays the trades the
   system *actually* made on paper and applies estimated costs. It only
   summarizes recorded paper activity — no simulated history.
+- **`price_replay.py` → `PriceOnlyReplay` (real, descriptive)** — point-in-time
+  replay of *price-based* strategies over ~2y yfinance bars. **No news, no
+  regime/portfolio gating, no costs.** CLI: `py -3 mmg.py backfill`. Output is
+  labeled **not a profitability claim** (survivorship bias: current index
+  membership). Feeds learning proposals as one input among several.
 
 ## What is a documented placeholder (intentionally)
 
-- **`backtest_engine.py` → `replay_full_history()`** — a true historical
-  backtest. Not implemented because doing it badly (survivorship bias,
-  look-ahead bias, unrealistic fills) is worse than not doing it.
+- **`backtest_engine.py` → `replay_full_history()`** — a true full-pipeline
+  historical backtest. Not implemented because doing it badly (survivorship
+  bias, look-ahead bias, unrealistic fills, fabricated news) is worse than not
+  doing it.
 - **`walk_forward_validator.py`** — the correct anti-overfitting tool. Shipped as
   a skeleton so the project is structured for it.
 
 ## Before implementing the placeholders
 
 Read [`docs/strategy_validation_principles.md`](../../docs/strategy_validation_principles.md).
-You need a clean, point-in-time, survivorship-bias-free price history (the
-SerpApi free tier does not provide one). Until then, the **one-month live paper
-run is the validation** — slow, real, and unbiased.
+Until a clean full-pipeline history exists, the **live paper run** plus
+**price-only replay** are the validation tools — slow, explicit about limits.

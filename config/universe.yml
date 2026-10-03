@@ -2,7 +2,8 @@
 # Equity universe (India / NSE) — manually editable
 # =====================================================================
 # HOW THIS WORKS
-#   * active_symbols    -> scanned every checkpoint (keep to 8-10).
+#   * active_source     -> when type: csv, THIS is the scanned universe (e.g. nifty500.csv).
+#   * active_symbols    -> fallback only if the CSV source is missing/unreadable.
 #   * candidate_symbols -> a larger pool to ROTATE into active_symbols by hand.
 #                          NOT scanned automatically.
 #

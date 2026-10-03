@@ -1,8 +1,8 @@
 # 📈 Market Paper-Trading Demo (India) — v1: **paper trading only**
 
 A production-minded, **broker-ready** stock analyzer for Indian equities that runs
-a **one-month fake-money paper-trading experiment** at **₹0 cost**. It scores a
-small universe of large-cap NSE stocks with an explainable **hybrid strategy
+a **fake-money paper-trading experiment** at **₹0 cost**. It scores the **NIFTY 500**
+universe (capped by `max_symbols_per_run`) with an explainable **hybrid strategy
 engine**, simulates buy/sell/hold decisions through a `PaperBrokerAdapter`,
 tracks fake P&L, emails daily reports, and publishes a static dashboard to
 GitHub Pages.
@@ -17,8 +17,10 @@ clean, localized, and *safe* change — but **v1 cannot place a real order**.
 
 ## 1. What this project does
 
-- Pulls market data for ~10 large-cap NSE stocks at up to 3 daily **checkpoints**
-  (09:35 / 11:30 / 14:45 IST) — it does **not** scan continuously.
+- Pulls market data for the **NIFTY 500** (via `config/nifty500.csv`, capped by
+  `market_data.max_symbols_per_run`, default 500) at up to 3 daily **checkpoints**
+  (09:35 / 11:30 / 14:45 IST) — it does **not** scan continuously. NSE holidays
+  are skipped. Lightweight **observe** runs can fire between checkpoints.
 - Classifies the **market regime** (RISK_ON / NEUTRAL / RISK_OFF / EVENT_RISK /
   DATA_INSUFFICIENT) from NIFTY 50 / NIFTY Bank.
 - Scores each stock 0–100 with a **hybrid of modular strategy plugins**
@@ -39,9 +41,11 @@ Most local operations can be run without an LLM through the repo CLI:
 
 ```powershell
 py -3 mmg.py status
-py -3 mmg.py profile apply max-paper
+py -3 mmg.py profile apply evidence
 py -3 mmg.py analyze --checkpoint close --force
 py -3 mmg.py execute --checkpoint close --force
+py -3 mmg.py backfill --symbols-limit 8
+py -3 mmg.py learn propose
 ```
 
 See [`docs/CLI.md`](docs/CLI.md) for profiles, config edits, history inspection,
@@ -52,7 +56,8 @@ and timeout options.
 - ❌ No real orders. ❌ No Angel One credentials. ❌ No live broker execution.
 - ❌ No intraday / margin / F&O / options / short selling / market orders.
 - ❌ No WhatsApp / Telegram (email only). ❌ No paid services. ❌ No database.
-- ❌ No machine learning, no automatic strategy optimization.
+- ❌ No machine learning that auto-enables live trading. Learning proposals are
+  **suggest-only** (`mmg.py learn propose`) until a human applies a paper profile.
 
 ## 3. Why v1 is ₹0 cost
 
@@ -209,8 +214,10 @@ position entered on one price basis and marked on another can show a fake −40%
 - Every signal stores `price_source`, `entry_price_used`, `mtm_price_used`,
   `price_consistency_check`, and `data_quality_verdict`.
 - Incidents → `data/reports/data_quality_incidents.json` (+ public, capped);
-  a per-run **Data Health** snapshot → `data_health.json` (shown on the dashboard's
-  Data Health tab). Tune thresholds in `config/settings.yml → data_quality`.
+  a per-run **Data Health** snapshot → `data_health.json` (includes
+  `symbols_requested` / `symbols_scored` / `partial_scan`). The simplified
+  dashboard surfaces coverage under **Track Record** / archived Data Health
+  components. Tune thresholds in `config/settings.yml → data_quality`.
 
 **Reset the demo:** if state ever gets corrupted, run
 `python scripts/reset_demo.py --confirm RESET_PAPER_DEMO` (or the **reset-demo**
@@ -271,8 +278,21 @@ trading**. v1 stays paper regardless.
   `python scripts/seed_sample_data.py --days 6`.
 
 Config keys live in `config/evaluation.yml`; the engine publishes
-`decision_quality.json` to the dashboard's **Decision Quality** tab. Full design
-reference: [`docs/decision_quality_engine.md`](docs/decision_quality_engine.md).
+`decision_quality.json` for the dashboard **Track Record** view (evidence
+summary, benchmark, readiness). Full design reference:
+[`docs/decision_quality_engine.md`](docs/decision_quality_engine.md).
+
+### Price-only historical replay (important)
+`mmg.py backfill` runs `PriceOnlyReplay` (`src/backtesting/price_replay.py`) —
+a **descriptive**, point-in-time replay of price-based strategies only (no news,
+no regime/portfolio gating, no costs). It writes `price_replay.{json,md}` and
+must never be presented as a profitability claim. See
+[`src/backtesting/README.md`](src/backtesting/README.md).
+
+### Learning proposals (suggest-only)
+`mmg.py learn propose` reads decision-quality metrics and writes a labeled
+**PROPOSAL — not applied** report. Humans apply paper profiles via
+`mmg.py profile apply …`. Nothing in this path enables live trading.
 
 ### Observation & Escalation Engine (important)
 A **lightweight, between-checkpoint monitoring layer** (`src/observation/`) that
@@ -411,26 +431,33 @@ strategy placing real orders is how people lose money. The transition path,
 required safety checks, the strategy-eligibility gate, and the note that real
 execution may need a static IP / non–GitHub-Actions deployment are all in
 [`docs/future_real_trading_transition.md`](docs/future_real_trading_transition.md).
-Regulatory/safety considerations for retail algo trading in India are summarized
-there and in the validation-principles doc.
+Before even discussing that path, see the human-only checklist in
+[`docs/LIVE_READINESS.md`](docs/LIVE_READINESS.md). Regulatory/safety
+considerations for retail algo trading in India are summarized there and in the
+validation-principles doc.
 
 ---
 
 ## Project layout
 ```
-config/      settings.yml, universe.yml, scoring.yml, broker.yml, risk.yml, costs.yml, research_hypotheses.yml
-src/         main.py, execution_engine.py, risk_engine.py, portfolio_manager.py, report_generator.py,
-             email_sender.py, static_exporter.py, scheduler.py, storage.py, utils.py, order_models.py
-src/broker/      base.py, paper_broker.py, angel_one_stub.py
-src/market_data/ base.py, yahoo_finance_provider.py, yahooquery_provider.py, serpapi_provider.py, provider_factory.py
-src/strategy/    base, market_regime, trend_following, relative_strength, mean_reversion, breakout,
-                 news_event_risk, volatility_risk, portfolio_fit, hybrid_signal_engine, strategy_evaluator, research_registry
-src/backtesting/ cost_model.py, backtest_engine.py, walk_forward_validator.py
-data/        raw/ processed/ reports/ state/   (JSON/JSONL state + reports)
+mmg.py       Local CLI (status, profile, analyze, execute, backfill, learn, …)
+config/      settings.yml, universe.yml, nifty500.csv, scoring.yml, broker.yml,
+             risk.yml, costs.yml, news.yml, evaluation.yml, observation.yml,
+             nse_holidays.yml, learning.yml, research_hypotheses.yml
+src/         main.py, execution_engine.py, risk_engine.py, portfolio_manager.py, …
+src/broker/      paper + angel_one stub
+src/market_data/ yfinance (+ disabled stubs)
+src/strategy/    hybrid plugins + regime
+src/news/        caution-only news overlay
+src/data_quality/ anomaly / provider health
+src/evaluation/  decision quality, forward returns, proposals
+src/observation/ between-checkpoint watchlist observer
+src/backtesting/ cost_model, paper replay, price_replay, walk-forward stub
+data/        raw/ processed/ reports/ state/
 public/data/ JSON the dashboard reads
-frontend/    React + Vite dashboard
-docs/        future_real_trading_transition.md, strategy_validation_principles.md
-.github/workflows/ analyze.yml, deploy-pages.yml
+frontend/    React + Vite (Today / Why / Track Record)
+docs/        CLI, ROADMAP, engine design docs, superpowers specs/plans
+.github/workflows/ analyze.yml, observe.yml, cli.yml, reset-demo.yml, deploy-pages.yml
 ```
 
 ## Disclaimer

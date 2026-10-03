@@ -13,11 +13,16 @@ from __future__ import annotations
 
 import os
 import sys
+import tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(ROOT, "src"))
 
 import storage  # noqa: E402
+
+# Isolate cooldowns / observation state from the live paper ledger.
+storage.redirect_runtime_dirs(tempfile.mkdtemp(prefix="mmg_obs_test_"))
+
 from utils import write_json  # noqa: E402
 from observation.alert_throttle import AlertThrottle  # noqa: E402
 from observation.cooldown_manager import CooldownManager  # noqa: E402
