@@ -28,7 +28,7 @@ from news.cache import NewsCache
 from news.deduper import dedupe
 from news.event_classifier import classify_events
 from news.providers import build_news_providers
-from news.relevance import company_tokens, relevance_score
+from news.relevance import company_tokens, relevance_score, source_trust
 from news.sentiment import aggregate, score_text
 from order_models import SignalLabel
 from utils import now_ist_iso
@@ -68,21 +68,32 @@ class NewsRiskEngine:
         self.max_alerts_per_run = int(alert.get("max_alerts_per_run", 5))
 
     # ------------------------------------------------------------------ #
+    def collect_items(
+        self,
+        symbol: str,
+        company_name: Optional[str] = None,
+        prefetched_news: Optional[List[Dict[str, Any]]] = None,
+    ) -> List[NewsItem]:
+        """Gather, dedupe, enrich, and relevance-filter. Shared by the score and the overlay."""
+        if not self.enabled:
+            return []
+        items = dedupe(self._gather(symbol, company_name, prefetched_news))
+        for it in items:
+            self._enrich(it, symbol, company_name)
+        return [it for it in items if self._is_relevant(it)]
+
     def assess(
         self,
         symbol: str,
         company_name: Optional[str] = None,
         prefetched_news: Optional[List[Dict[str, Any]]] = None,
         held: bool = False,
+        items: Optional[List[NewsItem]] = None,
     ) -> NewsRiskAssessment:
         if not self.enabled:
             return NewsRiskAssessment(symbol=symbol, company_name=company_name, assessed_at=now_ist_iso())
 
-        items = self._gather(symbol, company_name, prefetched_news)
-        items = dedupe(items)
-        for it in items:
-            self._enrich(it, symbol, company_name)
-        kept = [it for it in items if self._is_relevant(it)]
+        kept = items if items is not None else self.collect_items(symbol, company_name, prefetched_news)
 
         # Only reasonably-fresh items influence the verdict; older = context only.
         blocking_pool = [it for it in kept if (it.age_hours is None or it.age_hours <= self.max_age_hours)]
@@ -227,14 +238,16 @@ class NewsRiskEngine:
 
     def _enrich(self, item: NewsItem, symbol, company_name) -> None:
         text = f"{item.title} {item.summary}".strip()
-        item.relevance = (
-            1.0 if item.provider == "yfinance" else relevance_score(text, symbol, company_name)
-        )
+        scored = relevance_score(text, symbol, company_name, self.cfg)
+        if item.provider == "yfinance" and self.keep_yf_unfiltered:
+            item.relevance = 1.0
+        else:
+            item.relevance = min(1.0, scored * source_trust(item.source, self.cfg))
         score = score_text(
             text, self.cfg,
             relevance=item.relevance,
             age_hours=item.age_hours,
-            company_tokens=company_tokens(symbol, company_name),
+            company_tokens=company_tokens(symbol, company_name, self.cfg),
         )
         item.sentiment = score.label
         item.sentiment_score = score.polarity
@@ -254,7 +267,7 @@ class NewsRiskEngine:
     def _reasons(self, items, worst, sentiment, blocks_buy, manual_review, exit_review) -> List[str]:
         reasons: List[str] = []
         if not items:
-            reasons.append("No relevant news found (treated as neutral).")
+            reasons.append("No relevant news found (overlay stays neutral; the score excludes news).")
             return reasons
         reasons.append(f"{len(items)} relevant item(s); worst risk {worst.value}, sentiment {sentiment.value}.")
         flagged = [i for i in items if risk_rank(i.risk_level) >= risk_rank(NewsRiskLevel.MEDIUM)]
@@ -267,3 +280,18 @@ class NewsRiskEngine:
         if manual_review:
             reasons.append("MEDIUM adverse news -> manual review before any buy.")
         return reasons
+
+
+def stamp_for_archive(items: List[Any], checkpoint: str, decision_at: str) -> List[Dict[str, Any]]:
+    """Decision-time copies of the articles the score and the overlay both used.
+
+    Appended to data/reports/news_items.json. A later replay can read this
+    point-in-time set. It stays JSON; it is not a database row.
+    """
+    rows: List[Dict[str, Any]] = []
+    for it in items or []:
+        row = it.to_dict() if hasattr(it, "to_dict") else dict(it)
+        row["checkpoint"] = checkpoint
+        row["decision_at"] = decision_at
+        rows.append(row)
+    return rows

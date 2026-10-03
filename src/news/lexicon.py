@@ -11,8 +11,8 @@ from typing import Any, Dict, List
 
 _DEFAULT_TIERS = {
     "critical_negative": (-1.0, ["fraud", "scam", "ponzi", "embezzle", "siphon", "forensic audit"]),
-    "strong_negative": (-0.7, ["probe", "investigation", "default", "lawsuit", "downgrade", "insolvency", "bankruptcy"]),
-    "mild_negative": (-0.4, ["miss", "weak results", "profit warning", "recall", "fine", "penalty"]),
+    "strong_negative": (-0.7, ["probe", "investigation", "default", "lawsuit", "downgrade", "insolvency", "bankruptcy", "share pledge", "promoter pledge", "tax raid", "whistleblower"]),
+    "mild_negative": (-0.4, ["miss", "weak results", "profit warning", "recall", "fine", "penalty", "promoter selling", "promoter stake sale", "gst demand"]),
     "mild_positive": (0.4, ["order win", "upgrade", "expansion", "new contract", "wins order"]),
     "strong_positive": (0.6, ["strong results", "record profit", "debt reduction", "beats"]),
 }

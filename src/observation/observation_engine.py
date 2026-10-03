@@ -144,6 +144,7 @@ class ObservationEngine:
         exec_state = storage.load_state("execution_state", {})
         return {
             "regime": self.regime,
+            "news_cfg": (self.configs.get("news") or {}).get("news", {}),
             "held_symbols": held,
             "portfolio": portfolio,
             "budget": budget,

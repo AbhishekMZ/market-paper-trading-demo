@@ -19,9 +19,11 @@ One cardinal rule governs the whole layer, and it is enforced in code
 A buy that the strategy engine already proposed can be downgraded to `WATCH`,
 `MANUAL_REVIEW`, or `NO_ACTION`. A non-buy can never be lifted into a buy by news.
 Positive news is recorded only as an informational `sentiment_boost` and is **not
-added to the score** here. (The scoring layer's existing `news_event_risk` plugin
-already grants a small positive nudge upstream; the risk overlay does not stack a
-second one.) So **news alone can never trigger a buy.**
+added to the score** here. The scoring plugin reads the **same enriched items**
+this engine collected (not a second yfinance title list) and may grant a small
+positive nudge. If there are no relevant items, the plugin **does not
+contribute** — missing news is not a neutral 65. So **news alone can never
+trigger a buy.**
 
 ## Architecture (the `src/news/` module map)
 
@@ -70,6 +72,10 @@ Per symbol, the engine runs these steps:
    and `top_items`.
 5. **Apply** — `apply_to_signal` maps the assessment to an action, adding caution
    only (see the table below).
+
+`collect_items` is called once per symbol, before scoring. `NewsEventRiskStrategy`
+and `assess` both use that list. The decision-time rows are appended to
+`data/reports/news_items.json`.
 
 ## Providers
 
@@ -203,9 +209,15 @@ All behaviour is in `config/news.yml` (loaded by `storage.load_all_configs()`):
   fraud"), or nuance, and it leans negative on purpose. It is a safety screen, not
   a sentiment model.
 - **English-only, headline-only.** It reads titles, not full articles, and does
-  not handle vernacular coverage.
-- **GDELT is global and noisy.** The relevance threshold helps, but some
-  off-topic items can still slip through (treated as caution, never as a buy).
+  not handle vernacular coverage. The lexicon includes Indian corporate-action
+  phrases (pledge, promoter sale, SEBI/tax orders); it is still keyword matching.
+- **GDELT is global and noisy.** Relevance requires a company-name phrase or a
+  distinctive whole word. Shared group names (`tata`, `hdfc`, …) do not match a
+  subsidiary on their own. Known desks get a small relevance boost. Off-topic
+  items that still pass are caution, never a buy.
+- **Decision-time archive.** The articles used for a run are appended to
+  `data/reports/news_items.json` with `checkpoint` and `decision_at`, as JSON.
+  That is the point-in-time set a later replay can read.
 
 Future, still **paper-only**, directions: per-source confidence weighting; an
 India-focused news API once a free/affordable one is available; richer event
