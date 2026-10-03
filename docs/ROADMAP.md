@@ -45,13 +45,14 @@ say so explicitly.
 ## Sequencing at a glance
 
 ```
-NOW  ──► A. Historical-context overlay      (🚧 / 📦 docs ready)
+NOW  ──► News robustness + trailing price windows (same JSON store)
          G. Learning proposals (suggest-only)
-         Pipeline hardening (universe coverage, holidays, observe, evidence profile)
-NEXT ──► C. Sentiment line on DecisionTrace (small FE)
-         B. Backend + DB migration          (🧭 needs its own spec)
-LATER─► E. Honest price-only validation      (🚧 partial — PriceOnlyReplay shipped)
+         A. Historical-context overlay      (caution-only; features reused by the score)
+LATER─► C. Sentiment line on DecisionTrace (small FE)
+         E. Honest price-only validation      (🚧 partial — PriceOnlyReplay shipped)
          F. Dashboard polish                 (opportunistic)
+PARKED ► B. Backend + Postgres             (triggers below; not Phase 4)
+         Phase 4 live automation            (evidence + controls, not storage)
 ```
 
 ---
@@ -66,9 +67,20 @@ Trailing-only 2-year price features fed into the live pipeline as a
 - **Plan:** `docs/superpowers/plans/2026-06-27-historical-context-overlay.md`
 - **Depends on:** nothing. **Blocks:** D (dashboard hist line).
 
-### B. Backend + database migration  🧭 needs spec
-Move off static Pages + committed JSON to a live backend + DB. Depends on A
-merged first (user sequencing). I/O funnels through `src/storage.py`.
+### B. Backend + Postgres  💤 parked
+Move off static Pages + committed JSON only when a trigger below is true.
+I/O already funnels through `src/storage.py`, so the swap stays local.
+**Postgres** is the engine if this starts. A later live path reads the same
+store for quotes, the decision-time news archive, signals, and orders. It does
+not make a feature more accurate, and it is not a step toward Phase 4.
+
+Triggers (any one):
+
+- An always-on observer and the dashboard must read and write the same state.
+- News and signal history must be queried by symbol and time, not shipped as
+  committed JSON.
+- The git-committed `data/` and `public/data/` copies become too large or too
+  easy to corrupt.
 
 ### C. Sentiment line on the `Why` / `DecisionTrace` view  🚧
 Surface `sentiment · confidence · sources-agree` on the decision-trace UI.
@@ -92,6 +104,11 @@ Refresh button / extra cron slots as needed. Auto-refresh poll already shipped.
 
 ## Parked (revisit only on a trigger)
 
+- **Phase 4 — limited live automation with a kill switch.** 💤 Not justified
+  while paper evidence is thin (learning proposal: not enough matured episodes;
+  see `docs/LIVE_READINESS.md`). Blocked on evidence, manual-approval history,
+  and the controls in `docs/future_real_trading_transition.md`. A database does
+  not clear that bar.
 - **Vercel/Render live deployment.** 💤 Trigger: starting item B.
 - **WhatsApp / Telegram / SMS alerts.** 💤 Email-only constraint.
 - **Real-broker / Angel One execution.** 💤 Safety gate / v1.
