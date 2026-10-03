@@ -13,10 +13,12 @@ results.
   system *actually* made on paper and applies estimated costs. It only
   summarizes recorded paper activity — no simulated history.
 - **`price_replay.py` → `PriceOnlyReplay` (real, descriptive)** — point-in-time
-  replay of *price-based* strategies over ~2y yfinance bars. **No news, no
-  regime/portfolio gating, no costs.** CLI: `py -3 mmg.py backfill`. Output is
-  labeled **not a profitability claim** (survivorship bias: current index
-  membership). Feeds learning proposals as one input among several.
+  replay of *price-based* strategies over ~2y yfinance bars. Each date is scored
+  with `context.features.scoring_view` on bars up to that date (same math as the
+  live trailing windows). **No news, no regime/portfolio gating, no costs.**
+  CLI: `py -3 mmg.py backfill`. Output is labeled **not a profitability claim**
+  (survivorship bias: current index membership). Feeds learning proposals as one
+  input among several.
 
 ## What is a documented placeholder (intentionally)
 

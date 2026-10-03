@@ -7,7 +7,14 @@ from __future__ import annotations
 
 from typing import Any, Dict, List
 
-from strategy.base import NEGATIVE, NEUTRAL, POSITIVE, StrategyPlugin, StrategyResult
+from strategy.base import (
+    NEUTRAL,
+    POSITIVE,
+    StrategyPlugin,
+    StrategyResult,
+    trailing_features,
+    unavailable_result,
+)
 
 
 class BreakoutStrategy(StrategyPlugin):
@@ -23,44 +30,37 @@ class BreakoutStrategy(StrategyPlugin):
         return ["graph"]
 
     def evaluate(self, symbol, market_data, portfolio_state, context) -> StrategyResult:
-        prices = self._prices(market_data)
-        change_pct = market_data.get("change_pct")
-        warnings: List[str] = []
+        feats = trailing_features(context, symbol)
+        pos = None if not feats else feats.get("range_position_2y")
+        if pos is None:
+            return unavailable_result(
+                self.name(),
+                "Trailing range position unavailable; the 1-month graph is not used.",
+            )
 
-        if len(prices) < 5:
-            return StrategyResult(self.name(), 50.0, 0.15, NEUTRAL,
-                                  "Insufficient data for breakout assessment.",
-                                  warnings=["insufficient_data"], display_only=True,
-                                  contributes_to_score=False)
+        change_pct = market_data.get("change_pct") if isinstance(market_data, dict) else None
+        persist = float(feats.get("trend_persistence") or 0.0)
+        above200 = feats.get("pct_above_200dma")
+        trend_up = persist >= 0.55 and (above200 is None or float(above200) > 0)
 
-        hi = max(prices)
-        lo = min(prices)
-        last = prices[-1]
-        rng = hi - lo
-        pos_in_range = (last - lo) / rng if rng else 0.0
-        trend_up = prices[-1] >= prices[0]
-
-        if change_pct is not None and change_pct >= 5.0:
+        if change_pct is not None and float(change_pct) >= 5.0:
             score, signal = 45.0, NEUTRAL
-            reason = f"Already up {change_pct:.2f}% today — avoid chasing an extended move."
-        elif pos_in_range >= 0.9 and trend_up:
+            reason = f"Already up {float(change_pct):.2f}% today — avoid chasing an extended move."
+        elif float(pos) >= 0.9 and trend_up:
             score, signal = 70.0, POSITIVE
-            reason = f"Near range high ({pos_in_range:.0%}) with up-trend confirmation — breakout setup."
-        elif pos_in_range >= 0.9 and not trend_up:
+            reason = f"Near the trailing range high ({float(pos):.0%}) with trend persistence {persist:.0%}."
+        elif float(pos) >= 0.9:
             score, signal = 50.0, NEUTRAL
-            reason = "Near range high but trend not confirmed."
+            reason = "Near the trailing range high but the longer trend is not confirmed."
         else:
             score, signal = 48.0, NEUTRAL
-            reason = f"No breakout ({pos_in_range:.0%} of range)."
+            reason = f"No breakout ({float(pos):.0%} of the trailing range)."
 
         return StrategyResult(
             strategy_name=self.name(),
             score_contribution=score,
-            confidence=0.4,
+            confidence=0.55,
             signal=signal,
             reason=reason,
-            data_used={"pos_in_range": round(pos_in_range, 2), "trend_up": trend_up, "change_pct": change_pct},
-            warnings=warnings,
-            display_only=True,
-            contributes_to_score=False,
+            data_used={"range_position_2y": pos, "trend_persistence": persist, "change_pct": change_pct},
         )

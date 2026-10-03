@@ -221,7 +221,14 @@ class HybridSignalEngine:
                 notes.append("DATA_INSUFFICIENT regime -> no new buys.")
             elif regime.regime == EVENT_RISK and is_buy:
                 label = SignalLabel.MANUAL_REVIEW
+                is_buy = False
                 notes.append("EVENT_RISK regime -> requires manual review before any buy.")
+            elif getattr(regime, "event_spike", False) and is_buy:
+                label = SignalLabel.MANUAL_REVIEW
+                is_buy = False
+                notes.append(
+                    "One-day index spike -> manual review. Regime score stays on the 20-session read."
+                )
             elif regime.regime == REGIME_NEUTRAL and is_buy and confidence < self.neutral_min_confidence:
                 label = SignalLabel.WATCH
                 notes.append(

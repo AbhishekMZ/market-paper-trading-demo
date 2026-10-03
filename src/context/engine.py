@@ -11,7 +11,7 @@ import datetime as dt
 from typing import Any, Dict, List, Optional
 
 import storage
-from context.features import close_series, compute_features
+from context.features import benchmark_trailing, close_series, compute_features
 from utils import now_ist_iso
 
 
@@ -58,8 +58,22 @@ class HistoricalContextEngine:
             return {"as_of": now_iso, "ttl_hours": self.ttl_hours, "symbols": {}, "disabled": True}
         cached = self.load()
         if self._is_fresh(cached, now_iso):
+            bench = cached.get("benchmark") if isinstance(cached, dict) else None
+            if not (isinstance(bench, dict) and bench.get("return_20d_pct") is not None):
+                return self._attach_benchmark(cached, now_iso)
             return cached
         return self._refresh(symbols, now_iso)
+
+    def _attach_benchmark(self, cached: Dict[str, Any], now_iso: str) -> Dict[str, Any]:
+        """Fill the index block on an otherwise-fresh cache. One benchmark fetch."""
+        try:
+            closes = close_series(self._fetch_bars(self.benchmark_symbol))
+            cached = dict(cached or {})
+            cached["benchmark"] = benchmark_trailing(closes)
+            storage.write_json(self._cache_path(), cached)
+        except Exception:
+            return cached if isinstance(cached, dict) else {"as_of": now_iso, "symbols": {}}
+        return cached
 
     def _fetch_bars(self, symbol: str) -> List[Any]:
         snap = self.provider.get_snapshot(symbol, period=self.period, interval=self.interval)
@@ -82,7 +96,12 @@ class HistoricalContextEngine:
             except Exception as exc:
                 out_symbols[sym] = {"coverage": "insufficient", "n_bars": 0,
                                     "as_of": now_iso, "error": str(exc)}
-        snapshot = {"as_of": now_iso, "ttl_hours": self.ttl_hours, "symbols": out_symbols}
+        snapshot = {
+            "as_of": now_iso,
+            "ttl_hours": self.ttl_hours,
+            "benchmark": benchmark_trailing(bench_closes),
+            "symbols": out_symbols,
+        }
         storage.write_json(self._cache_path(), snapshot)
         storage.append_audit({"event": "HISTORICAL_CONTEXT_REFRESH",
                               "symbols": len(out_symbols), "as_of": now_iso})

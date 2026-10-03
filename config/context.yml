@@ -18,6 +18,7 @@ context:
     beta_window: 252
     turnover_window: 20
     trend_lookback: 50
+    rs_window: 60             # sessions for excess return vs the benchmark
   caution:
     elevated_volatility:
       enabled: true

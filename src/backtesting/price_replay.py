@@ -23,6 +23,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
+from context.features import scoring_view
 from strategy.breakout import BreakoutStrategy
 from strategy.mean_reversion import MeanReversionStrategy
 from strategy.relative_strength import RelativeStrengthStrategy
@@ -92,26 +93,30 @@ class PriceOnlyReplay:
         symbol: str,
         closes: List[Dict[str, Any]],
         idx: int,
-        bench_change_pct: Optional[float],
+        bench_change_pct: Optional[float] = None,
+        bench_closes: Optional[List[Dict[str, Any]]] = None,
     ) -> Optional[float]:
         """Point-in-time price-only score at bar index idx (uses closes[:idx+1])."""
         if idx < 1:
             return None
-        start = max(0, idx - self.window + 1)
-        window_bars = closes[start : idx + 1]
-        graph = [{"price": b["close"], "date": b["date"]} for b in window_bars]
+        trail = closes[: idx + 1]
         prev_close = closes[idx - 1]["close"]
         last_close = closes[idx]["close"]
         change_pct = ((last_close - prev_close) / prev_close * 100.0) if prev_close else 0.0
+        as_of = closes[idx]["date"]
+        bench_series = None
+        if bench_closes:
+            bench_series = [b["close"] for b in bench_closes if b["date"] <= as_of]
+        feats = scoring_view([{"close": b["close"]} for b in trail], bench_closes=bench_series)
         market_data = {
             "symbol": symbol,
             "price": last_close,
             "change_pct": change_pct,
-            "graph": graph,
-            "graph_points": len(graph),
+            "graph": [{"price": b["close"], "date": b["date"]} for b in trail[-self.window:]],
+            "graph_points": len(trail),
             "headlines": [],
         }
-        context = {"benchmark_change_pct": bench_change_pct}
+        context = {"benchmark_change_pct": bench_change_pct, "hist_features": feats}
 
         weighted_sum = 0.0
         total_weight = 0.0
@@ -137,6 +142,10 @@ class PriceOnlyReplay:
     # ------------------------------------------------------------------ #
     def run(self, symbols: List[Dict[str, str]], lookback: str = "2y") -> Dict[str, Any]:
         bench = self._bench_change_by_date(lookback)
+        try:
+            bench_rows = self._closes("^NSEI", lookback)
+        except Exception:
+            bench_rows = []
         episodes: List[Dict[str, Any]] = []
         symbols_ok = 0
         symbols_skipped = 0
@@ -155,7 +164,7 @@ class PriceOnlyReplay:
             last_scoreable = len(closes) - 1 - self.horizon
             for idx in range(self.window, last_scoreable + 1, self.step):
                 date = closes[idx]["date"]
-                score = self._score_at(symbol, closes, idx, bench.get(date))
+                score = self._score_at(symbol, closes, idx, bench.get(date), bench_rows)
                 if score is None:
                     continue
                 entry = closes[idx]["close"]
