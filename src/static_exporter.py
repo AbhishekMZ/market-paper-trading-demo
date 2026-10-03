@@ -57,4 +57,10 @@ def export_all() -> Dict[str, Any]:
         write_json(os.path.join(storage.PUBLIC_DATA_DIR, fname), data)
         exported.append(fname)
 
+    # 5) Historical-context overlay snapshot (state -> public).
+    hist = storage.read_json(storage.state_file("historical_context.json"), {})
+    if hist:
+        write_json(os.path.join(storage.PUBLIC_DATA_DIR, "historical_context.json"), hist)
+        exported.append("historical_context.json")
+
     return {"exported": exported, "dir": storage.PUBLIC_DATA_DIR}
