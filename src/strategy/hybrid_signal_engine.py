@@ -59,6 +59,9 @@ class HybridSignalEngine:
         self.conflict_behavior = scoring.get("conflict_behavior", "prefer_no_action")
         self.risk_off_blocks = bool(scoring.get("risk_off_blocks_new_buys", True))
         self.data_insufficient_blocks = bool(scoring.get("data_insufficient_blocks_new_buys", True))
+        # NEUTRAL buys need at least this confidence. Default 0.50 (was hard-coded
+        # 0.55) so borderline buy-grade scores are not starved for paper evidence.
+        self.neutral_min_confidence = float(scoring.get("neutral_min_confidence", 0.50))
         self.experimental = scoring.get("experimental_strategies", {})
         self.penalties = configs["scoring"].get("scoring", {}).get("risk_penalties", {})
         self.data_quality_cfg = configs["settings"].get("data_quality", {})
@@ -208,9 +211,12 @@ class HybridSignalEngine:
             elif regime.regime == EVENT_RISK and is_buy:
                 label = SignalLabel.MANUAL_REVIEW
                 notes.append("EVENT_RISK regime -> requires manual review before any buy.")
-            elif regime.regime == REGIME_NEUTRAL and is_buy and confidence < 0.55:
+            elif regime.regime == REGIME_NEUTRAL and is_buy and confidence < self.neutral_min_confidence:
                 label = SignalLabel.WATCH
-                notes.append("NEUTRAL regime + modest confidence -> downgraded to WATCH.")
+                notes.append(
+                    f"NEUTRAL regime + modest confidence ({confidence:.2f} < {self.neutral_min_confidence:.2f}) "
+                    "-> downgraded to WATCH."
+                )
 
         # Weak data never becomes a buy.
         if label == SignalLabel.BUY_SMALL_PAPER and quality in (DataQuality.WEAK, DataQuality.MISSING):
