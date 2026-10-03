@@ -40,6 +40,7 @@ from evaluation import DecisionQualityEngine  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
 from news import NewsRiskEngine  # noqa: E402
+from news.news_risk_engine import stamp_for_archive  # noqa: E402
 from context import HistoricalContextEngine, HistoricalContextOverlay  # noqa: E402
 from observation import ObservationEngine  # noqa: E402
 from order_models import SignalLabel  # noqa: E402
@@ -250,9 +251,19 @@ def run(args: argparse.Namespace) -> int:
 
     hybrid = HybridSignalEngine(configs, cost_model=cost_model)
     research = ResearchRegistry()
+
+    news_cfg = (configs.get("news") or {}).get("news", {})
+    news_engine = NewsRiskEngine(news_cfg)
+    news_items_by_symbol: Dict[str, Any] = {}
+    for symbol, (_md, meta) in market_by_symbol.items():
+        news_items_by_symbol[symbol] = news_engine.collect_items(
+            symbol, meta.get("name"), prefetched_news=news_raw_by_symbol.get(symbol),
+        )
+
     context = {
         "regime": regime,
-        "news_cfg": (configs.get("news") or {}).get("news", {}),
+        "news_cfg": news_cfg,
+        "news_items_by_symbol": news_items_by_symbol,
         "benchmark_change_pct": bench_change if bench_change is not None else regime.inputs.get("avg_change_pct"),
         "held_symbols": held,
         "budget": budget,
@@ -290,27 +301,27 @@ def run(args: argparse.Namespace) -> int:
     # Runs BEFORE buys so adverse news blocks a would-be paper buy. News never
     # creates or upgrades a buy — it only downgrades/blocks. Degrades to a
     # no-op when news is disabled or unavailable.
-    news_cfg = (configs.get("news") or {}).get("news", {})
-    news_engine = NewsRiskEngine(news_cfg)
     news_assessments: List[Dict[str, Any]] = []
     news_items_run: List[Dict[str, Any]] = []
     news_alerts: List[Dict[str, Any]] = []
+    decision_at = now_ist_iso()
     for sig in signals:
         was_buy = sig.label == SignalLabel.BUY_SMALL_PAPER
         is_held = sig.symbol in held
+        shared_items = news_items_by_symbol.get(sig.symbol) or []
         assessment = news_engine.assess(
             sig.symbol, sig.name,
-            prefetched_news=news_raw_by_symbol.get(sig.symbol),
             held=is_held,
+            items=shared_items,
         )
         news_engine.apply_to_signal(sig, assessment)
         news_assessments.append(assessment.to_dict())
-        news_items_run.extend(assessment.top_items)
+        news_items_run.extend(stamp_for_archive(shared_items, cp_id, decision_at))
         alert = news_engine.build_alert(assessment, was_buy_candidate=was_buy, held=is_held)
         if alert:
             news_alerts.append(alert)
     news_engine.cache.save()
-    news_health = _build_news_health(news_assessments, news_alerts, now_ist_iso(), cp_id)
+    news_health = _build_news_health(news_assessments, news_alerts, decision_at, cp_id)
 
     # --- historical-context overlay (post-strategy; can only ADD caution) --- #
     # Trailing-only 2y price features. Like the news overlay, this can only
@@ -603,7 +614,7 @@ def _write_news_artifacts(assessments, items, alerts, health) -> None:
     if not isinstance(item_log, list):
         item_log = []
     item_log.extend(items)
-    write_json(storage.report_file("news_items.json"), item_log[-500:])
+    write_json(storage.report_file("news_items.json"), item_log[-2000:])
 
     alert_log = storage.read_json(storage.report_file("news_alerts.json"), [])
     if not isinstance(alert_log, list):

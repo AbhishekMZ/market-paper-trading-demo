@@ -13,8 +13,10 @@ from news.base import NewsRiskLevel, coerce_risk, max_risk
 # Built-in fallback if config is missing, so the engine never depends on YAML.
 _DEFAULT_RULES = [
     {"type": "FRAUD", "risk": "CRITICAL", "keywords": ["fraud", "scam", "embezzle", "ponzi", "forensic audit"]},
-    {"type": "REGULATORY", "risk": "HIGH", "keywords": ["sebi", "regulatory action", "probe", "investigation", "raid", "ban", "show cause", "sfio"]},
-    {"type": "LEGAL", "risk": "HIGH", "keywords": ["lawsuit", "litigation", "insolvency", "bankruptcy", "default", "nclt", "arrest"]},
+    {"type": "REGULATORY", "risk": "HIGH", "keywords": ["sebi", "sebi order", "regulatory action", "probe", "investigation", "raid", "ban", "show cause", "sfio", "adjudication order", "consent order", "gst demand", "tax raid"]},
+    {"type": "LEGAL", "risk": "HIGH", "keywords": ["lawsuit", "litigation", "insolvency", "bankruptcy", "default", "nclt", "arrest", "whistleblower"]},
+    {"type": "PLEDGE", "risk": "HIGH", "keywords": ["share pledge", "promoter pledge", "pledged shares", "invocation of pledge", "pledge invocation"]},
+    {"type": "PROMOTER_SALE", "risk": "MEDIUM", "keywords": ["promoter selling", "promoter stake sale", "promoter offload", "block deal"]},
     {"type": "RATING_DOWNGRADE", "risk": "HIGH", "keywords": ["downgrade", "rating cut", "outlook negative", "credit concern"]},
     {"type": "MANAGEMENT_CHANGE", "risk": "MEDIUM", "keywords": ["resignation", "steps down", "resigns", "auditor resigns"]},
     {"type": "EARNINGS_MISS", "risk": "MEDIUM", "keywords": ["profit falls", "loss widens", "misses estimates", "weak results", "margin pressure", "profit warning"]},

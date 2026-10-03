@@ -36,6 +36,17 @@ from utils import clamp, gen_id, minutes_since
 
 # Plugin classes registered by name. market_regime is handled separately
 # (it is an engine, not a per-symbol plugin) but still carries a weight.
+def _news_item_count(context: Dict[str, Any], symbol: str, market_data: Dict[str, Any]) -> int:
+    """Count the shared news items when the run supplied them."""
+    if isinstance(context, dict):
+        if "news_items" in context:
+            return len(context.get("news_items") or [])
+        by_symbol = context.get("news_items_by_symbol")
+        if isinstance(by_symbol, dict) and symbol in by_symbol:
+            return len(by_symbol.get(symbol) or [])
+    return len(market_data.get("headlines", []) or [])
+
+
 PLUGIN_CLASSES = {
     "trend_following": TrendFollowingStrategy,
     "relative_strength": RelativeStrengthStrategy,
@@ -172,7 +183,7 @@ class HybridSignalEngine:
                 "change_pct": market_data.get("change_pct"),
                 "graph_points": market_data.get("graph_points", 0),
                 "extracted_at": market_data.get("extracted_at"),
-                "headlines_count": len(market_data.get("headlines", []) or []),
+                "headlines_count": _news_item_count(context, symbol, market_data),
             },
         )
 

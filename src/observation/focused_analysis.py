@@ -34,7 +34,15 @@ class FocusedAnalysis:
 
         portfolio = context.get("portfolio", {})
         res = self.dq.assess(symbol, market_data)
-        sig = self.hybrid.evaluate(symbol, market_data, portfolio, context, meta)
+        # Same articles for the score and the overlay. Do not score a second title list.
+        held = symbol in context.get("held_symbols", [])
+        shared_items = self.news_engine.collect_items(
+            symbol, meta.get("name"), prefetched_news=prefetched_news,
+        )
+        ctx = dict(context)
+        ctx["news_items"] = shared_items
+        ctx.setdefault("news_cfg", (self.configs.get("news") or {}).get("news", {}))
+        sig = self.hybrid.evaluate(symbol, market_data, portfolio, ctx, meta)
 
         # Data-quality gate (identical to the deep pipeline).
         sig.price_source = res.price_source
@@ -45,9 +53,8 @@ class FocusedAnalysis:
         if res.verdict != "OK" and sig.label == SignalLabel.BUY_SMALL_PAPER:
             sig.label = SignalLabel.NO_ACTION
 
-        # News overlay (can only add caution).
-        held = symbol in context.get("held_symbols", [])
-        assessment = self.news_engine.assess(symbol, sig.name, prefetched_news=prefetched_news, held=held)
+        # News overlay (can only add caution) on the items already scored.
+        assessment = self.news_engine.assess(symbol, sig.name, held=held, items=shared_items)
         self.news_engine.apply_to_signal(sig, assessment)
 
         blocked_by = None

@@ -35,6 +35,25 @@ news:
     min_score: 0.30            # below this an item is treated as noise
     require_relevance_for_gdelt: true   # GDELT is keyword-broad; insist on a symbol/company match
     keep_yfinance_unfiltered: true      # yfinance items are already symbol-tagged
+    # Shared first names do not count as a company hit on their own.
+    group_name_rejects: [tata, adani, bajaj, birla, mahindra, godrej, hdfc, icici]
+    aliases:
+      TATAMOTORS.NS: ["tata motors", "tatamotors"]
+      TATASTEEL.NS: ["tata steel", "tatasteel"]
+      HDFCBANK.NS: ["hdfc bank"]
+      ICICIBANK.NS: ["icici bank"]
+      SBIN.NS: ["state bank of india", "state bank", "sbi"]
+      BHARTIARTL.NS: ["bharti airtel", "airtel"]
+      LT.NS: ["larsen & toubro", "larsen and toubro"]
+    # Known desks outrank an unknown blog. Applied as a relevance multiplier, capped at 1.
+    source_trust:
+      nseindia.com: 1.15
+      bseindia.com: 1.15
+      economictimes: 1.10
+      livemint: 1.10
+      moneycontrol: 1.10
+      business-standard: 1.10
+      reuters: 1.10
 
   # How news verdicts map to action. The engine can only ADD caution.
   blocking:
@@ -49,8 +68,8 @@ news:
     # --- finance-aware scorer (deterministic). Values mirror code defaults. ---
     weighted_terms:
       critical_negative: { weight: -1.0, terms: [fraud, scam, ponzi, embezzle, siphon, forensic audit] }
-      strong_negative:   { weight: -0.7, terms: [probe, investigation, default, lawsuit, downgrade, insolvency, bankruptcy] }
-      mild_negative:     { weight: -0.4, terms: [miss, weak results, profit warning, recall, fine, penalty] }
+      strong_negative:   { weight: -0.7, terms: [probe, investigation, default, lawsuit, downgrade, insolvency, bankruptcy, share pledge, promoter pledge, tax raid, whistleblower] }
+      mild_negative:     { weight: -0.4, terms: [miss, weak results, profit warning, recall, fine, penalty, promoter selling, promoter stake sale, gst demand] }
       mild_positive:     { weight:  0.4, terms: [order win, upgrade, expansion, new contract, wins order] }
       strong_positive:   { weight:  0.6, terms: [strong results, record profit, debt reduction, beats] }
     negators: [denies, denied, deny, "no", "not", cleared of, rejects, rejected, dismisses, dismissed, refutes, unfounded, "false", without merit]
@@ -80,6 +99,12 @@ news:
       - debt concern
       - raid
       - ban
+      - share pledge
+      - promoter pledge
+      - promoter selling
+      - tax raid
+      - whistleblower
+      - gst demand
       - fine
       - recall
       - miss
@@ -106,13 +131,19 @@ news:
       keywords: [fraud, scam, embezzle, siphon, ponzi, forensic audit]
     - type: REGULATORY
       risk: HIGH
-      keywords: [sebi, regulatory action, probe, investigation, raid, ban, show cause, penalty notice, sfio]
+      keywords: [sebi, sebi order, regulatory action, probe, investigation, raid, ban, show cause, penalty notice, sfio, adjudication order, consent order, gst demand, tax raid, income-tax raid, income tax raid]
     - type: LEGAL
       risk: HIGH
-      keywords: [lawsuit, litigation, insolvency, bankruptcy, default, nclt, arrest]
+      keywords: [lawsuit, litigation, insolvency, bankruptcy, default, nclt, arrest, whistleblower]
     - type: RATING_DOWNGRADE
       risk: HIGH
       keywords: [downgrade, rating cut, outlook negative, credit concern]
+    - type: PLEDGE
+      risk: HIGH
+      keywords: [share pledge, promoter pledge, pledged shares, invocation of pledge, pledge invocation]
+    - type: PROMOTER_SALE
+      risk: MEDIUM
+      keywords: [promoter selling, promoter stake sale, promoter offload, block deal]
     - type: MANAGEMENT_CHANGE
       risk: MEDIUM
       keywords: [resignation, steps down, resigns, auditor resigns, ceo exit, cfo exit]
