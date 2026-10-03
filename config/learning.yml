@@ -1,0 +1,62 @@
+# =====================================================================
+# Learning proposals — Phase 3 L1 (PROPOSE ONLY)
+# =====================================================================
+# Deterministic suggestions from decision-quality / forward-return /
+# threshold / attribution evidence. NEVER auto-mutates scoring.yml.
+# NEVER enables live trading / Angel One / allow_real_orders.
+#
+# Apply path (human only): mmg.py profile apply …  or  config set …
+# =====================================================================
+learning:
+  auto_apply: false
+
+  # Keys that MAY appear in a proposal. Anything else is rejected.
+  allowlisted_keys:
+    - hybrid_scoring.buy_threshold
+    - hybrid_scoring.watch_threshold
+    - hybrid_scoring.neutral_min_confidence
+    - hybrid_scoring.weights.trend_following
+    - hybrid_scoring.weights.relative_strength
+    - hybrid_scoring.weights.market_regime
+    - hybrid_scoring.weights.volatility_risk
+    - hybrid_scoring.weights.news_event_risk
+    - hybrid_scoring.weights.portfolio_fit
+    - hybrid_scoring.weights.mean_reversion
+    - hybrid_scoring.weights.breakout
+
+  # Hard clamps applied when forming a proposed value.
+  clamps:
+    hybrid_scoring.buy_threshold:
+      min: 65
+      max: 90
+    hybrid_scoring.watch_threshold:
+      min: 50
+      max: 80
+    hybrid_scoring.neutral_min_confidence:
+      min: 0.40
+      max: 0.70
+    weight_delta_per_strategy: 5
+    weights_must_sum_to: 100
+
+  # Minimum evidence before a proposal is emitted (else skipped with reason).
+  min_sample:
+    matured_episodes: 20
+    would_buy_count: 5
+    strategy_episodes: 15
+    # Do not propose lowering buy_threshold when price-replay buy-grade
+    # edge is at or below this (descriptive replay, still a safety brake).
+    min_replay_buy_grade_edge_pct_to_lower: 0.0
+
+  # Explicit denylist — proposals mentioning these are always dropped.
+  forbidden_keys:
+    - allow_real_orders
+    - live_trading
+    - broker.active_adapter
+    - angel_one_safety_confirmations
+    - enable_live
+    - real_orders
+
+  disclaimer: >
+    PROPOSAL — not applied. Suggest-only paper feedback from measured
+    decision quality. Humans apply via profile/config. Live trading remains
+    DISABLED. This engine cannot set live_trading or allow_real_orders.

@@ -13,5 +13,11 @@ from __future__ import annotations
 from evaluation.benchmark_comparator import BenchmarkComparator
 from evaluation.decision_quality_engine import DecisionQualityEngine
 from evaluation.forward_return_tracker import ForwardReturnTracker
+from evaluation.proposal_engine import ProposalEngine
 
-__all__ = ["DecisionQualityEngine", "ForwardReturnTracker", "BenchmarkComparator"]
+__all__ = [
+    "DecisionQualityEngine",
+    "ForwardReturnTracker",
+    "BenchmarkComparator",
+    "ProposalEngine",
+]
