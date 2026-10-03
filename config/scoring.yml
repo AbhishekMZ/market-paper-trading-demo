@@ -41,6 +41,9 @@ hybrid_scoring:
   conflict_behavior: "prefer_no_action"
   risk_off_blocks_new_buys: true
   data_insufficient_blocks_new_buys: true
+  # Min confidence to keep a BUY under NEUTRAL regime (below -> WATCH).
+  # 0.50 allows borderline buy-grade paper evidence; raise toward 0.55–0.60 for caution.
+  neutral_min_confidence: 0.50
 
   weights:
     trend_following: 18
