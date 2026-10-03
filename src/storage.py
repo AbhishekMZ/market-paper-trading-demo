@@ -3,7 +3,12 @@
 Everything that touches disk goes through here so paths stay consistent
 across the engines, the report generator, and the static exporter.
 
-State layout (all plain JSON/JSONL — no database in v1):
+State layout (all plain JSON/JSONL — no database client in this process).
+PostgreSQL is the engine to use if a live backend is ever started; it is not
+wired up. Phase 4 live automation stays parked until paper evidence and the
+safety gates in docs/future_real_trading_transition.md are met. A database
+does not unlock that.
+
     data/state/portfolio.json         current fake portfolio
     data/state/monthly_budget.json    monthly capital + buy counters
     data/state/trade_history.json     list of executed paper trades
