@@ -1,0 +1,38 @@
+# =====================================================================
+# Historical-context overlay configuration
+# =====================================================================
+# Trailing-only 2y price features, computed once/day (TTL-cached) and applied
+# as a CAUTION-ONLY overlay. The overlay may downgrade a BUY to WATCH or attach
+# a flag; it NEVER creates/upgrades a buy and NEVER changes the 0-100 score.
+# This is NOT a backtest and makes no profitability claim.
+context:
+  enabled: true
+  lookback_period: "2y"        # yfinance period for the history fetch
+  interval: "1d"
+  refresh_ttl_hours: 20         # reuse the cached snapshot within this window
+  min_bars: 250                 # ~1y; below this, features are 'insufficient'
+  benchmark_symbol: "^NSEI"     # for beta
+  features:
+    vol_window: 20
+    sma_windows: [50, 200]
+    beta_window: 252
+    turnover_window: 20
+    trend_lookback: 50
+  caution:
+    elevated_volatility:
+      enabled: true
+      vol_percentile_gte: 90
+      action: "downgrade"        # downgrade | flag
+    thin_liquidity:
+      enabled: true
+      min_avg_turnover: 50000000 # ₹5 cr/day floor; large caps clear this easily
+      action: "downgrade"
+    overextended:
+      enabled: true
+      pct_above_200dma_gte: 15
+      range_position_gte: 0.95
+      action: "flag"
+    deep_drawdown:
+      enabled: false
+      current_drawdown_lte: -25
+      action: "flag"

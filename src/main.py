@@ -40,6 +40,7 @@ from evaluation import DecisionQualityEngine  # noqa: E402
 from execution_engine import ExecutionEngine, ExecutionHaltError  # noqa: E402
 from market_data import build_market_data_provider  # noqa: E402
 from news import NewsRiskEngine  # noqa: E402
+from context import HistoricalContextEngine, HistoricalContextOverlay  # noqa: E402
 from observation import ObservationEngine  # noqa: E402
 from order_models import SignalLabel  # noqa: E402
 from portfolio_manager import PortfolioManager  # noqa: E402
@@ -155,7 +156,11 @@ def run(args: argparse.Namespace) -> int:
         return 0
 
     if not is_trading_day(settings) and not (args.manual or args.force):
-        report.write_warning(cp_id, "Not a weekday trading day — skipping scan.", usage.save())
+        report.write_warning(
+            cp_id,
+            "Not an NSE trading day (weekend or holiday) — skipping scan.",
+            usage.save(),
+        )
         static_exporter.export_all()
         return 0
 
@@ -197,6 +202,15 @@ def run(args: argparse.Namespace) -> int:
     # --- market data for the active universe ----------------------------- #
     max_symbols = int(md_cfg.get("max_symbols_per_run", 10))
     universe = load_universe(max_active=max_symbols)
+    symbols_requested = int(universe.get("symbols_requested", len(universe["active"])))
+    print(
+        f"[universe] source={universe.get('source_used')} "
+        f"file={universe.get('source_file') or '-'} "
+        f"available={universe.get('symbols_available', symbols_requested)} "
+        f"requested={symbols_requested} max_per_run={max_symbols} "
+        f"partial_scan={universe.get('partial_scan', False)}"
+        + (f" fallback={universe.get('fallback_reason')}" if universe.get("source_fallback") else "")
+    )
     dq = DataQualityEngine(settings.get("data_quality", {}))
     market_by_symbol: Dict[str, Tuple[Dict[str, Any], Dict[str, str]]] = {}
     news_raw_by_symbol: Dict[str, Any] = {}
@@ -298,6 +312,24 @@ def run(args: argparse.Namespace) -> int:
     news_engine.cache.save()
     news_health = _build_news_health(news_assessments, news_alerts, now_ist_iso(), cp_id)
 
+    # --- historical-context overlay (post-strategy; can only ADD caution) --- #
+    # Trailing-only 2y price features. Like the news overlay, this can only
+    # downgrade a would-be buy or attach a flag — it never creates/upgrades a
+    # buy and never changes the score. Runs BEFORE buys so a context downgrade
+    # also prevents a paper buy. Wrapped so it can never break the deep run.
+    try:
+        ctx_cfg = (configs.get("context") or {}).get("context", {})
+        if ctx_cfg.get("enabled", True):
+            hist_engine = HistoricalContextEngine(ctx_cfg, provider, usage=usage)
+            hist_overlay = HistoricalContextOverlay(ctx_cfg)
+            hist_ctx = hist_engine.refresh_if_stale(list(market_by_symbol.keys()))
+            hist_symbols = hist_ctx.get("symbols", {}) if isinstance(hist_ctx, dict) else {}
+            for sig in signals:
+                hist_overlay.apply_to_signal(sig, hist_symbols.get(sig.symbol))
+    except Exception as exc:
+        storage.append_audit({"event": "HISTORICAL_CONTEXT_ERROR", "message": str(exc)})
+        print(f"[hist-context] error: {exc}", file=sys.stderr)
+
     # --- process paper buys (risk engine enforces all hard limits) ------- #
     executed: List[Dict[str, Any]] = []
     max_trade = float(capital.get("max_amount_per_trade", 2000))
@@ -368,15 +400,46 @@ def run(args: argparse.Namespace) -> int:
                    and dq_by_symbol.get(sym) and dq_by_symbol[sym].verdict == "OK"]
     rejected_syms = [sym for sym in market_by_symbol
                      if dq_by_symbol.get(sym) and dq_by_symbol[sym].verdict != "OK"]
+    symbols_scored = len(signals)
+    symbols_assessed = len(dq_results)
+    partial_scan = bool(universe.get("partial_scan")) or symbols_assessed < symbols_requested
+    coverage = {
+        "universe_source": universe.get("source_used"),
+        "universe_source_file": universe.get("source_file") or None,
+        "symbols_available": int(universe.get("symbols_available", symbols_requested)),
+        "symbols_requested": symbols_requested,
+        "symbols_assessed": symbols_assessed,
+        "symbols_scored": symbols_scored,
+        "max_symbols_per_run": max_symbols,
+        "partial_scan": partial_scan,
+        "truncated_to_max_active": bool(universe.get("truncated_to_max_active")),
+        "source_fallback": bool(universe.get("source_fallback")),
+    }
+    if partial_scan:
+        coverage["partial_scan_note"] = (
+            f"Partial scan: scored/assessed {symbols_scored}/{symbols_assessed} of "
+            f"{symbols_requested} requested "
+            f"(available={coverage['symbols_available']}, max_per_run={max_symbols})."
+        )
+        print(f"[universe] {coverage['partial_scan_note']}", file=sys.stderr)
+
     data_health = dq.health(
         provider=usage.u.get("provider", "yfinance"),
         results=dq_results,
         usable=usable_syms,
         rejected=rejected_syms,
         last_run=now_ist_iso(),
-        extra={"latest_workflow": "analyze", "checkpoint": cp_id, "mtm_incidents": len(getattr(pm, "last_mtm_incidents", []))},
+        extra={
+            "latest_workflow": "analyze",
+            "checkpoint": cp_id,
+            "mtm_incidents": len(getattr(pm, "last_mtm_incidents", [])),
+            **coverage,
+        },
     )
     _write_data_quality_artifacts(incidents, data_health)
+    payload["universe_coverage"] = coverage
+    if partial_scan:
+        payload["data_quality_warnings"].append(coverage["partial_scan_note"])
     if incidents:
         payload["data_quality_warnings"].append(f"{len(incidents)} data-quality incident(s) this run — see Data Health.")
 
@@ -455,8 +518,11 @@ def run(args: argparse.Namespace) -> int:
         if es.should_send("daily_report"):
             es.send(f"[Paper] Monthly report {monthly['month']}", report.render_monthly_markdown(monthly))
 
-    print(f"[done] signals={len(signals)} executed={len(executed)} reviews={len(reviews)} "
-          f"calls_today={usage.calls_today()} provider={usage.u['provider']}")
+    print(
+        f"[done] signals={len(signals)} executed={len(executed)} reviews={len(reviews)} "
+        f"symbols_requested={symbols_requested} symbols_scored={len(signals)} "
+        f"calls_today={usage.calls_today()} provider={usage.u['provider']}"
+    )
     return 0
 
 
