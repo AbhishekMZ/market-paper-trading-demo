@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-10-02T22:31:14+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 5,
+    "escalations": 5,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-02T22:29:03+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-02T22:29:00+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJAJ-AUTO.NS",
@@ -15402,65 +15432,5 @@
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
-  },
-  {
-    "ts": "2026-10-02T22:29:00+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "MANKIND.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 69.3,
-    "strategy_contributions": {
-      "trend_following": 84.3,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 18.3,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 69.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 26.78,
-    "warnings": [
-      "No news data available; using a neutral assumption."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-10-02T22:29:00+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LALPATHLAB.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 73.0,
-    "strategy_contributions": {
-      "trend_following": 84.0,
-      "relative_strength": 94.7,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 65.0,
-      "volatility_risk": 57.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 73.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=95, trend_following=84, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 28.25,
-    "warnings": [
-      "No news data available; using a neutral assumption."
-    ],
-    "conflicts": []
   }
 ]
