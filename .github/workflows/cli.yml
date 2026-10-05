@@ -82,5 +82,5 @@ jobs:
             echo "No config/report changes to commit."
           else
             git commit -m "chore(cli): mmg.py ${{ github.event.inputs.subcommand }} [skip ci]"
-            git push
+            bash .github/scripts/push_with_rebase.sh
           fi

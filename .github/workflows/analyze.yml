@@ -111,5 +111,5 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore(data): update paper-trading state & reports [skip ci]"
-            git push
+            bash .github/scripts/push_with_rebase.sh
           fi
