@@ -1,6 +1,6 @@
 # Strategy Evaluation
 
-_As of 2026-10-05T20:05:52+05:30_
+_As of 2026-10-06T01:04:37+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **2**
@@ -10,10 +10,10 @@ _As of 2026-10-05T20:05:52+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 1985 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.6 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 1985 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1550 | 43.0 | No paper trades yet attributed; acting mainly as a filter. |
-| news_event_risk | 1500 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 65.0 | No paper trades yet attributed; acting mainly as a filter. |
-| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 82 | 77.4 | No paper trades yet attributed; acting mainly as a filter. |
-| relative_strength | 1982 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1058 | 42.4 | No paper trades yet attributed; acting mainly as a filter. |
-| trend_following | 1982 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1578 | 18.8 | No paper trades yet attributed; acting mainly as a filter. |
-| volatility_risk | 1985 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1068 | 36.1 | No paper trades yet attributed; acting mainly as a filter. |
+| breakout | 1970 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.8 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 1970 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1440 | 44.3 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 1000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 65.0 | No paper trades yet attributed; acting mainly as a filter. |
+| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 80 | 77.4 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 1968 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1040 | 43.3 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 1968 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1516 | 21.0 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 1970 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 860 | 42.9 | No paper trades yet attributed; acting mainly as a filter. |
