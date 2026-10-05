@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-10-05T20:07:53+05:30",
+  "as_of": "2026-10-05T21:49:59+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "_MARKET_",
-      "severity": "HIGH",
-      "action_type": "MANUAL_REVIEW",
-      "reason": "Market regime NEUTRAL -> RISK_OFF.",
+      "symbol": "COLPAL.NS",
+      "severity": "CRITICAL",
+      "action_type": "EXIT_REVIEW",
+      "reason": "Held position at -15.2% breaches hard-loss -15%.",
       "trigger_ids": [
-        "trg_78100216e121"
+        "trg_b4031dcbf5c6"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-      "escalation_id": "esc_1b714a471e1a",
-      "created_at": "2026-10-05T20:07:53+05:30",
-      "expires_at": "2026-10-05T20:07:53+05:30"
+      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_9b04db057028",
+      "created_at": "2026-10-05T21:49:59+05:30",
+      "expires_at": "2026-10-05T21:49:59+05:30"
     },
     {
-      "symbol": "ITC.NS",
+      "symbol": "AEGISLOG.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.1% vs previous close.",
+      "reason": "Gap -3.0% vs previous close.",
       "trigger_ids": [
-        "trg_31430a82df7b"
+        "trg_a7896aa4c7aa"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,45 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_99776052db36",
-      "created_at": "2026-10-05T20:07:53+05:30",
-      "expires_at": "2026-10-05T20:07:53+05:30"
-    },
-    {
-      "symbol": "GRAPHITE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.8% vs previous close.",
-      "trigger_ids": [
-        "trg_9b74c7d8c8c5"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_26f3775fb329",
-      "created_at": "2026-10-05T20:07:53+05:30",
-      "expires_at": "2026-10-05T20:07:53+05:30"
-    },
-    {
-      "symbol": "HFCL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.0% vs previous close.",
-      "trigger_ids": [
-        "trg_af9bdf486ba8"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_73a6df897e02",
-      "created_at": "2026-10-05T20:07:53+05:30",
-      "expires_at": "2026-10-05T20:07:53+05:30"
+      "escalation_id": "esc_37a387b8b531",
+      "created_at": "2026-10-05T21:49:59+05:30",
+      "expires_at": "2026-10-05T21:49:59+05:30"
     }
   ],
   "actions_taken": [],

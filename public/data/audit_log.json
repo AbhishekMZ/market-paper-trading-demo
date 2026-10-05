@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-10-05T20:07:53+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 6,
+    "escalations": 4,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-05T20:05:54+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-05T20:05:52+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DMART.NS",
@@ -15780,66 +15805,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 32.96,
-    "warnings": [
-      "No relevant news; strategy does not contribute.",
-      "Market regime: RISK_OFF."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-05T20:05:52+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "WELSPUNLIV.NS",
-    "market_regime": "RISK_OFF",
-    "final_recommendation": "WATCH",
-    "final_score": 74.8,
-    "strategy_contributions": {
-      "trend_following": 98.2,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 58.3,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 74.8/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=98, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.88,
-    "warnings": [
-      "No relevant news; strategy does not contribute.",
-      "Market regime: RISK_OFF."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-05T20:05:52+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "REDINGTON.NS",
-    "market_regime": "RISK_OFF",
-    "final_recommendation": "WATCH",
-    "final_score": 75.8,
-    "strategy_contributions": {
-      "trend_following": 100.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 62.7,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 75.8/100 -> WATCH [regime RISK_OFF]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.89,
     "warnings": [
       "No relevant news; strategy does not contribute.",
       "Market regime: RISK_OFF."
