@@ -95,5 +95,5 @@ jobs:
             echo "No observation changes to commit."
           else
             git commit -m "chore(data): observation update [skip ci]"
-            git push
+            bash .github/scripts/push_with_rebase.sh
           fi
