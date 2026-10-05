@@ -1,78 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "SELL_REVIEW",
-    "reason": "Held position at -9.6% breaches soft-loss -7%.",
-    "trigger_ids": [
-      "trg_d03e228ba484"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "SELL_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_840de10eb7da",
-    "created_at": "2026-09-21T18:30:01+05:30",
-    "expires_at": "2026-09-21T18:30:01+05:30"
-  },
-  {
-    "symbol": "URBANCO.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.2% since last observation.",
-    "trigger_ids": [
-      "trg_3ce233defbf1",
-      "trg_5da9da7a5a56"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9006cc5bd4ad",
-    "created_at": "2026-09-21T18:30:01+05:30",
-    "expires_at": "2026-09-21T18:30:01+05:30"
-  },
-  {
-    "symbol": "BELRISE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.8% since last observation.",
-    "trigger_ids": [
-      "trg_482764463a2f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_6cedbc39317e",
-    "created_at": "2026-09-21T18:30:01+05:30",
-    "expires_at": "2026-09-21T18:30:01+05:30"
-  },
-  {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_badfa4215310"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_2560bf1a3914",
-    "created_at": "2026-09-21T18:30:01+05:30",
-    "expires_at": "2026-09-21T18:30:01+05:30"
-  },
-  {
     "symbol": "ETERNAL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2024,5 +1951,77 @@
     "escalation_id": "esc_a6c874e56711",
     "created_at": "2026-10-05T17:38:15+05:30",
     "expires_at": "2026-10-05T17:38:15+05:30"
+  },
+  {
+    "symbol": "_MARKET_",
+    "severity": "HIGH",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
+    "trigger_ids": [
+      "trg_78100216e121"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_1b714a471e1a",
+    "created_at": "2026-10-05T20:07:53+05:30",
+    "expires_at": "2026-10-05T20:07:53+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.1% vs previous close.",
+    "trigger_ids": [
+      "trg_31430a82df7b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_99776052db36",
+    "created_at": "2026-10-05T20:07:53+05:30",
+    "expires_at": "2026-10-05T20:07:53+05:30"
+  },
+  {
+    "symbol": "GRAPHITE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.8% vs previous close.",
+    "trigger_ids": [
+      "trg_9b74c7d8c8c5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_26f3775fb329",
+    "created_at": "2026-10-05T20:07:53+05:30",
+    "expires_at": "2026-10-05T20:07:53+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_af9bdf486ba8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_73a6df897e02",
+    "created_at": "2026-10-05T20:07:53+05:30",
+    "expires_at": "2026-10-05T20:07:53+05:30"
   }
 ]
