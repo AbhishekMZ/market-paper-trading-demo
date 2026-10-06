@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-10-06T19:21:13+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 7,
+    "escalations": 5,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-06T19:19:22+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-06T19:19:19+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POLICYBZR.NS",
@@ -15281,64 +15311,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 35.19,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-06T19:19:19+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ACE.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 79.7,
-    "strategy_contributions": {
-      "trend_following": 95.4,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 85.2,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 79.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=95, volatility_risk=85.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 30.88,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-06T19:19:19+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "REDINGTON.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 80.9,
-    "strategy_contributions": {
-      "trend_following": 100.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 72.3,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 80.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.3,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],
