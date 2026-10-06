@@ -5,96 +5,6 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap +2.6% vs previous close.",
     "trigger_ids": [
-      "trg_2d0cb22ad78a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ee027cc433c0",
-    "created_at": "2026-09-22T17:34:26+05:30",
-    "expires_at": "2026-09-22T17:34:26+05:30"
-  },
-  {
-    "symbol": "COALINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_3842823b8b7d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d0ab4ef4e009",
-    "created_at": "2026-09-22T17:34:26+05:30",
-    "expires_at": "2026-09-22T17:34:26+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -10.7% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_75c6302be8ac"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_96e2855fa286",
-    "created_at": "2026-09-22T20:46:00+05:30",
-    "expires_at": "2026-09-22T20:46:00+05:30"
-  },
-  {
-    "symbol": "HDFCBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_cb1c6a5a986d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_21807e3c3d3f",
-    "created_at": "2026-09-22T20:46:00+05:30",
-    "expires_at": "2026-09-22T20:46:00+05:30"
-  },
-  {
-    "symbol": "BANDHANBNK.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_22798277f0ce"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_3828ef3ac44b",
-    "created_at": "2026-09-22T20:46:00+05:30",
-    "expires_at": "2026-09-22T20:46:00+05:30"
-  },
-  {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
       "trg_2a29b57b696b"
     ],
     "action_status": "OPEN",
@@ -2027,5 +1937,109 @@
     "escalation_id": "esc_f2799ceafb99",
     "created_at": "2026-10-06T17:59:46+05:30",
     "expires_at": "2026-10-06T17:59:46+05:30"
+  },
+  {
+    "symbol": "TVSMOTOR.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -8.3% since last observation.",
+    "trigger_ids": [
+      "trg_588defb01b8f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c053a7824908",
+    "created_at": "2026-10-06T19:21:13+05:30",
+    "expires_at": "2026-10-06T19:21:13+05:30"
+  },
+  {
+    "symbol": "CPPLUS.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.4% since last observation.",
+    "trigger_ids": [
+      "trg_801f7fb6bb7c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "CPPLUS.NS",
+      "score": 72.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 72.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_a6692c73ffef",
+    "created_at": "2026-10-06T19:21:13+05:30",
+    "expires_at": "2026-10-06T19:21:13+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_382df3f4b696"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e258c4ab70f6",
+    "created_at": "2026-10-06T19:21:13+05:30",
+    "expires_at": "2026-10-06T19:21:13+05:30"
+  },
+  {
+    "symbol": "GRAPHITE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.3% vs previous close.",
+    "trigger_ids": [
+      "trg_2f83da0ab09b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_40eb90882e96",
+    "created_at": "2026-10-06T19:21:13+05:30",
+    "expires_at": "2026-10-06T19:21:13+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_6aee2c1951f6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b788952dde42",
+    "created_at": "2026-10-06T19:21:13+05:30",
+    "expires_at": "2026-10-06T19:21:13+05:30"
   }
 ]
