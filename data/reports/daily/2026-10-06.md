@@ -466,7 +466,7 @@ KPIL.NS(49.7), CIPLA.NS(49.5), BEL.NS(49.4), EICHERMOT.NS(49.4), FORCEMOT.NS(49.
 - GRAPHITE.NS (WATCH, 70.8): Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 6026 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 6530 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

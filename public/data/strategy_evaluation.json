@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-06T19:19:19+05:30",
+  "as_of": "2026-10-06T22:39:08+05:30",
   "portfolio_max_drawdown_pct": -13.75,
   "total_signals": 2000,
   "total_paper_trades": 2,
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1332,
-      "average_score_contribution": 27.4,
+      "avoided_bad_trade_count": 1302,
+      "average_score_contribution": 28.2,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 940,
-      "average_score_contribution": 47.2,
+      "avoided_bad_trade_count": 908,
+      "average_score_contribution": 48.2,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1196,
+      "avoided_bad_trade_count": 1184,
       "average_score_contribution": 46.7,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
@@ -69,8 +69,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 434,
-      "average_score_contribution": 55.7,
+      "avoided_bad_trade_count": 429,
+      "average_score_contribution": 55.3,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,7 +83,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 74,
+      "avoided_bad_trade_count": 73,
       "average_score_contribution": 77.4,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
