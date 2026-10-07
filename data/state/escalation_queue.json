@@ -1,125 +1,5 @@
 [
   {
-    "symbol": "BANDHANBNK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_52d5188af276",
-      "trg_56a384fa438b",
-      "trg_78d2b0c9bb38"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_2d88221a9bdc",
-    "created_at": "2026-09-24T16:00:33+05:30",
-    "expires_at": "2026-09-24T16:00:33+05:30"
-  },
-  {
-    "symbol": "_MARKET_",
-    "severity": "HIGH",
-    "action_type": "MANUAL_REVIEW",
-    "reason": "Market regime NEUTRAL -> RISK_OFF.",
-    "trigger_ids": [
-      "trg_b51356b2de57"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-    "escalation_id": "esc_8bfe70b42147",
-    "created_at": "2026-09-24T16:00:33+05:30",
-    "expires_at": "2026-09-24T16:00:33+05:30"
-  },
-  {
-    "symbol": "MCX.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.0% since last observation.",
-    "trigger_ids": [
-      "trg_553841f5db96"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "MCX.NS",
-      "score": 59.7,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_OFF",
-      "reason": "Final 59.7/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=87, portfolio_fit=80, relative_strength=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_ad2f0432a85e",
-    "created_at": "2026-09-24T16:00:33+05:30",
-    "expires_at": "2026-09-24T16:00:33+05:30"
-  },
-  {
-    "symbol": "ZYDUSLIFE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.5% since last observation.",
-    "trigger_ids": [
-      "trg_41206766efe4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ZYDUSLIFE.NS",
-      "score": 57.4,
-      "label": "NO_ACTION",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_OFF",
-      "reason": "Final 57.4/100 -> NO_ACTION [regime RISK_OFF]. Top: trend_following=90, portfolio_fit=80, news_event_risk=65. Disagreement: ['trend_following', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_a4a5d4e102aa",
-    "created_at": "2026-09-24T16:00:33+05:30",
-    "expires_at": "2026-09-24T16:00:33+05:30"
-  },
-  {
-    "symbol": "CARBORUNIV.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_912f6f54c154"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d93243a29c63",
-    "created_at": "2026-09-24T17:43:13+05:30",
-    "expires_at": "2026-09-24T17:43:13+05:30"
-  },
-  {
     "symbol": "CAPLIPOINT.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2057,5 +1937,96 @@
     "escalation_id": "esc_74b026844568",
     "created_at": "2026-10-07T20:12:05+05:30",
     "expires_at": "2026-10-07T20:12:05+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "CRITICAL",
+    "action_type": "EXIT_REVIEW",
+    "reason": "Held position at -16.1% breaches hard-loss -15%.",
+    "trigger_ids": [
+      "trg_0339d714e93e",
+      "trg_3d728a95db14"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_430967f345f9",
+    "created_at": "2026-10-07T23:10:50+05:30",
+    "expires_at": "2026-10-07T23:10:50+05:30"
+  },
+  {
+    "symbol": "SYRMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.7% vs previous close.",
+    "trigger_ids": [
+      "trg_6472b74abeb9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_40ca7a811f30",
+    "created_at": "2026-10-07T23:10:50+05:30",
+    "expires_at": "2026-10-07T23:10:50+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.8% vs previous close.",
+    "trigger_ids": [
+      "trg_e2dc73511e86"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ab60f50697a8",
+    "created_at": "2026-10-07T23:10:50+05:30",
+    "expires_at": "2026-10-07T23:10:50+05:30"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.4% vs previous close.",
+    "trigger_ids": [
+      "trg_35298f7ad302"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_202327eb4cd9",
+    "created_at": "2026-10-07T23:10:50+05:30",
+    "expires_at": "2026-10-07T23:10:50+05:30"
+  },
+  {
+    "symbol": "JSWINFRA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_4939abb0b7f8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e33de43012c8",
+    "created_at": "2026-10-07T23:10:50+05:30",
+    "expires_at": "2026-10-07T23:10:50+05:30"
   }
 ]

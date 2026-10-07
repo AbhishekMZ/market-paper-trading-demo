@@ -1,14 +1,33 @@
 {
-  "as_of": "2026-10-07T20:12:05+05:30",
+  "as_of": "2026-10-07T23:10:50+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "ABDL.NS",
+      "symbol": "COLPAL.NS",
+      "severity": "CRITICAL",
+      "action_type": "EXIT_REVIEW",
+      "reason": "Held position at -16.1% breaches hard-loss -15%.",
+      "trigger_ids": [
+        "trg_0339d714e93e",
+        "trg_3d728a95db14"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": true,
+      "email_sent": false,
+      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_430967f345f9",
+      "created_at": "2026-10-07T23:10:50+05:30",
+      "expires_at": "2026-10-07T23:10:50+05:30"
+    },
+    {
+      "symbol": "SYRMA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.9% vs previous close.",
+      "reason": "Gap +3.7% vs previous close.",
       "trigger_ids": [
-        "trg_ccc1d1483ef5"
+        "trg_6472b74abeb9"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +35,63 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_74b026844568",
-      "created_at": "2026-10-07T20:12:05+05:30",
-      "expires_at": "2026-10-07T20:12:05+05:30"
+      "escalation_id": "esc_40ca7a811f30",
+      "created_at": "2026-10-07T23:10:50+05:30",
+      "expires_at": "2026-10-07T23:10:50+05:30"
+    },
+    {
+      "symbol": "GLAND.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.8% vs previous close.",
+      "trigger_ids": [
+        "trg_e2dc73511e86"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_ab60f50697a8",
+      "created_at": "2026-10-07T23:10:50+05:30",
+      "expires_at": "2026-10-07T23:10:50+05:30"
+    },
+    {
+      "symbol": "THELEELA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.4% vs previous close.",
+      "trigger_ids": [
+        "trg_35298f7ad302"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_202327eb4cd9",
+      "created_at": "2026-10-07T23:10:50+05:30",
+      "expires_at": "2026-10-07T23:10:50+05:30"
+    },
+    {
+      "symbol": "JSWINFRA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_4939abb0b7f8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_e33de43012c8",
+      "created_at": "2026-10-07T23:10:50+05:30",
+      "expires_at": "2026-10-07T23:10:50+05:30"
     }
   ],
   "actions_taken": [],

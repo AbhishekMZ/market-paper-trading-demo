@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-07T20:12:05+05:30",
+  "as_of": "2026-10-07T23:10:50+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 8,
-  "escalations": 1,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 6,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 243,
-    "triggers_detected": 1035,
-    "escalations_created": 675,
+    "observation_runs": 244,
+    "triggers_detected": 1043,
+    "escalations_created": 680,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-07T20:12:05+05:30",
+    "last_run": "2026-10-07T23:10:50+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_d9870c367c33",
-        "detected_at": "2026-10-07T20:10:13+05:30"
+        "created_escalation_id": "esc_430967f345f9",
+        "trigger_id": "trg_0339d714e93e",
+        "detected_at": "2026-10-07T23:09:25+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_bbcb1d54607f",
-        "detected_at": "2026-10-07T20:10:13+05:30"
+        "created_escalation_id": "esc_430967f345f9",
+        "trigger_id": "trg_3d728a95db14",
+        "detected_at": "2026-10-07T23:09:25+05:30"
       },
       {
         "symbol": "SYRMA.NS",
@@ -105,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_5d9a1d195b82",
-        "detected_at": "2026-10-07T20:10:22+05:30"
+        "created_escalation_id": "esc_40ca7a811f30",
+        "trigger_id": "trg_6472b74abeb9",
+        "detected_at": "2026-10-07T23:09:26+05:30"
       },
       {
         "symbol": "GLAND.NS",
@@ -126,9 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_6bac4977d42f",
-        "detected_at": "2026-10-07T20:10:47+05:30"
+        "created_escalation_id": "esc_ab60f50697a8",
+        "trigger_id": "trg_e2dc73511e86",
+        "detected_at": "2026-10-07T23:09:51+05:30"
       },
       {
         "symbol": "THELEELA.NS",
@@ -147,9 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_c3456caabfb9",
-        "detected_at": "2026-10-07T20:10:56+05:30"
+        "created_escalation_id": "esc_202327eb4cd9",
+        "trigger_id": "trg_35298f7ad302",
+        "detected_at": "2026-10-07T23:09:59+05:30"
       },
       {
         "symbol": "JSWINFRA.NS",
@@ -168,9 +168,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_a38cf86a6ebf",
-        "detected_at": "2026-10-07T20:11:05+05:30"
+        "created_escalation_id": "esc_e33de43012c8",
+        "trigger_id": "trg_4939abb0b7f8",
+        "detected_at": "2026-10-07T23:10:07+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -190,8 +190,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_865e56b7c442",
-        "detected_at": "2026-10-07T20:11:13+05:30"
+        "trigger_id": "trg_b611abf01a34",
+        "detected_at": "2026-10-07T23:10:16+05:30"
       },
       {
         "symbol": "ABDL.NS",
@@ -210,51 +210,50 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_74b026844568",
-        "trigger_id": "trg_ccc1d1483ef5",
-        "detected_at": "2026-10-07T20:11:30+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_e102b333738b",
+        "detected_at": "2026-10-07T23:10:24+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "COLPAL.NS",
-        "trigger": "HARD_LOSS_REVIEW",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "SYRMA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "GLAND.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "THELEELA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "JSWINFRA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      },
-      {
         "symbol": "HFCL.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "ABDL.NS",
         "trigger": "GAP_MOVE",
         "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "ABDL.NS",
+        "symbol": "COLPAL.NS",
+        "severity": "CRITICAL",
+        "action_type": "EXIT_REVIEW",
+        "reason": "Held position at -16.1% breaches hard-loss -15%.",
+        "trigger_ids": [
+          "trg_0339d714e93e",
+          "trg_3d728a95db14"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": true,
+        "email_sent": false,
+        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_430967f345f9",
+        "created_at": "2026-10-07T23:10:50+05:30",
+        "expires_at": "2026-10-07T23:10:50+05:30"
+      },
+      {
+        "symbol": "SYRMA.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -2.9% vs previous close.",
+        "reason": "Gap +3.7% vs previous close.",
         "trigger_ids": [
-          "trg_ccc1d1483ef5"
+          "trg_6472b74abeb9"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -262,14 +261,68 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_74b026844568",
-        "created_at": "2026-10-07T20:12:05+05:30",
-        "expires_at": "2026-10-07T20:12:05+05:30"
+        "escalation_id": "esc_40ca7a811f30",
+        "created_at": "2026-10-07T23:10:50+05:30",
+        "expires_at": "2026-10-07T23:10:50+05:30"
+      },
+      {
+        "symbol": "GLAND.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +4.8% vs previous close.",
+        "trigger_ids": [
+          "trg_e2dc73511e86"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_ab60f50697a8",
+        "created_at": "2026-10-07T23:10:50+05:30",
+        "expires_at": "2026-10-07T23:10:50+05:30"
+      },
+      {
+        "symbol": "THELEELA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.4% vs previous close.",
+        "trigger_ids": [
+          "trg_35298f7ad302"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_202327eb4cd9",
+        "created_at": "2026-10-07T23:10:50+05:30",
+        "expires_at": "2026-10-07T23:10:50+05:30"
+      },
+      {
+        "symbol": "JSWINFRA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.5% vs previous close.",
+        "trigger_ids": [
+          "trg_4939abb0b7f8"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_e33de43012c8",
+        "created_at": "2026-10-07T23:10:50+05:30",
+        "expires_at": "2026-10-07T23:10:50+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-07T20:09:55+05:30"
+    "as_of": "2026-10-07T23:09:08+05:30"
   }
 }
