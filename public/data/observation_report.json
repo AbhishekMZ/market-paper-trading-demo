@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-07T17:50:32+05:30",
+  "as_of": "2026-10-07T19:15:05+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 15,
+  "triggers_this_run": 8,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 5,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 241,
-    "triggers_detected": 1019,
-    "escalations_created": 669,
+    "observation_runs": 242,
+    "triggers_detected": 1027,
+    "escalations_created": 674,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-07T17:50:32+05:30",
+    "last_run": "2026-10-07T19:15:05+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_3d78e08b4834",
-        "trigger_id": "trg_5544c22e203c",
-        "detected_at": "2026-10-07T17:49:06+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_513c6a124afc",
+        "detected_at": "2026-10-07T19:13:39+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,30 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_3d78e08b4834",
-        "trigger_id": "trg_fe5abff4555e",
-        "detected_at": "2026-10-07T17:49:06+05:30"
-      },
-      {
-        "symbol": "SYRMA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.7% since last observation.",
-        "company_name": "Syrma SGS Technology Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1746.699951171875,
-        "previous_price": null,
-        "change_pct": 3.66,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_8bf50b72ea7c",
-        "trigger_id": "trg_bfbb481d0621",
-        "detected_at": "2026-10-07T17:49:06+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_0a8107d6e00b",
+        "detected_at": "2026-10-07T19:13:39+05:30"
       },
       {
         "symbol": "SYRMA.NS",
@@ -126,30 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_8bf50b72ea7c",
-        "trigger_id": "trg_d6fac4bc0003",
-        "detected_at": "2026-10-07T17:49:06+05:30"
-      },
-      {
-        "symbol": "GLAND.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.8% since last observation.",
-        "company_name": "Gland Pharma Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3150.60009765625,
-        "previous_price": null,
-        "change_pct": 4.81,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_b93e31580aff",
-        "trigger_id": "trg_59481ce07d11",
-        "detected_at": "2026-10-07T17:49:32+05:30"
+        "created_escalation_id": "esc_90c471361c49",
+        "trigger_id": "trg_4e2b4eca2b18",
+        "detected_at": "2026-10-07T19:13:39+05:30"
       },
       {
         "symbol": "GLAND.NS",
@@ -168,30 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_b93e31580aff",
-        "trigger_id": "trg_686a74d0967d",
-        "detected_at": "2026-10-07T17:49:32+05:30"
-      },
-      {
-        "symbol": "THELEELA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.4% since last observation.",
-        "company_name": "Leela Palaces Hotels & Resorts Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 602.4500122070312,
-        "previous_price": null,
-        "change_pct": 3.39,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_bd15af05b2d5",
-        "trigger_id": "trg_420939c0640b",
-        "detected_at": "2026-10-07T17:49:40+05:30"
+        "created_escalation_id": "esc_1584527756b7",
+        "trigger_id": "trg_bf5c98ef4fe7",
+        "detected_at": "2026-10-07T19:14:05+05:30"
       },
       {
         "symbol": "THELEELA.NS",
@@ -210,9 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_bd15af05b2d5",
-        "trigger_id": "trg_dec2b0815d17",
-        "detected_at": "2026-10-07T17:49:40+05:30"
+        "created_escalation_id": "esc_6b9544dffac8",
+        "trigger_id": "trg_9bcc16da77da",
+        "detected_at": "2026-10-07T19:14:13+05:30"
       },
       {
         "symbol": "JSWINFRA.NS",
@@ -231,30 +168,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_f2bfe01bc42c",
-        "detected_at": "2026-10-07T17:49:49+05:30"
-      },
-      {
-        "symbol": "HFCL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "HFCL Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 271.8999938964844,
-        "previous_price": null,
-        "change_pct": 3.47,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_5eda2d926a39",
-        "detected_at": "2026-10-07T17:49:57+05:30"
+        "created_escalation_id": "esc_4e97c7da70b8",
+        "trigger_id": "trg_abc04231622c",
+        "detected_at": "2026-10-07T19:14:22+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -273,30 +189,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_39a2c155a712",
-        "detected_at": "2026-10-07T17:49:57+05:30"
-      },
-      {
-        "symbol": "ECLERX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.3% since last observation.",
-        "company_name": "eClerx Services Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1896.0,
-        "previous_price": null,
-        "change_pct": -3.32,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_75ec3484daf9",
-        "detected_at": "2026-10-07T17:49:58+05:30"
+        "created_escalation_id": "esc_f833b89e5f07",
+        "trigger_id": "trg_98f90016d695",
+        "detected_at": "2026-10-07T19:14:30+05:30"
       },
       {
         "symbol": "ABDL.NS",
@@ -316,72 +211,15 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_463bd1f62a73",
-        "detected_at": "2026-10-07T17:50:06+05:30"
-      },
-      {
-        "symbol": "HBLENGINE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.4% since last observation.",
-        "company_name": "HBL Engineering Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 762.4500122070312,
-        "previous_price": null,
-        "change_pct": -5.4,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_dc53a1ab285a",
-        "detected_at": "2026-10-07T17:50:23+05:30"
-      },
-      {
-        "symbol": "SAGILITY.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved -6.2% since last observation.",
-        "company_name": "Sagility Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 43.11000061035156,
-        "previous_price": null,
-        "change_pct": -6.18,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_2117c121108e",
-        "trigger_id": "trg_68f579f60290",
-        "detected_at": "2026-10-07T17:50:32+05:30"
+        "trigger_id": "trg_b77168fd7f2c",
+        "detected_at": "2026-10-07T19:14:39+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "HFCL.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "ECLERX.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "HBLENGINE.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "JSWINFRA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
+        "symbol": "COLPAL.NS",
+        "trigger": "HARD_LOSS_REVIEW",
+        "reason": "cooldown"
       },
       {
         "symbol": "ABDL.NS",
@@ -391,31 +229,12 @@
     ],
     "escalations": [
       {
-        "symbol": "COLPAL.NS",
-        "severity": "CRITICAL",
-        "action_type": "EXIT_REVIEW",
-        "reason": "Held position at -16.1% breaches hard-loss -15%.",
-        "trigger_ids": [
-          "trg_5544c22e203c",
-          "trg_fe5abff4555e"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_3d78e08b4834",
-        "created_at": "2026-10-07T17:50:32+05:30",
-        "expires_at": "2026-10-07T17:50:32+05:30"
-      },
-      {
-        "symbol": "SAGILITY.NS",
-        "severity": "HIGH",
+        "symbol": "SYRMA.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -6.2% since last observation.",
+        "reason": "Gap +3.7% vs previous close.",
         "trigger_ids": [
-          "trg_68f579f60290"
+          "trg_4e2b4eca2b18"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -423,113 +242,86 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_2117c121108e",
-        "created_at": "2026-10-07T17:50:32+05:30",
-        "expires_at": "2026-10-07T17:50:32+05:30"
-      },
-      {
-        "symbol": "SYRMA.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.7% since last observation.",
-        "trigger_ids": [
-          "trg_bfbb481d0621",
-          "trg_d6fac4bc0003"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SYRMA.NS",
-          "score": 73.6,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 73.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_8bf50b72ea7c",
-        "created_at": "2026-10-07T17:50:32+05:30",
-        "expires_at": "2026-10-07T17:50:32+05:30"
+        "escalation_id": "esc_90c471361c49",
+        "created_at": "2026-10-07T19:15:05+05:30",
+        "expires_at": "2026-10-07T19:15:05+05:30"
       },
       {
         "symbol": "GLAND.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.8% since last observation.",
+        "reason": "Gap +4.8% vs previous close.",
         "trigger_ids": [
-          "trg_59481ce07d11",
-          "trg_686a74d0967d"
+          "trg_bf5c98ef4fe7"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "GLAND.NS",
-          "score": 73.4,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 73.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_b93e31580aff",
-        "created_at": "2026-10-07T17:50:32+05:30",
-        "expires_at": "2026-10-07T17:50:32+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_1584527756b7",
+        "created_at": "2026-10-07T19:15:05+05:30",
+        "expires_at": "2026-10-07T19:15:05+05:30"
       },
       {
         "symbol": "THELEELA.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.4% since last observation.",
+        "reason": "Gap +3.4% vs previous close.",
         "trigger_ids": [
-          "trg_420939c0640b",
-          "trg_dec2b0815d17"
+          "trg_9bcc16da77da"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "THELEELA.NS",
-          "score": 70.8,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_bd15af05b2d5",
-        "created_at": "2026-10-07T17:50:32+05:30",
-        "expires_at": "2026-10-07T17:50:32+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_6b9544dffac8",
+        "created_at": "2026-10-07T19:15:05+05:30",
+        "expires_at": "2026-10-07T19:15:05+05:30"
+      },
+      {
+        "symbol": "JSWINFRA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.5% vs previous close.",
+        "trigger_ids": [
+          "trg_abc04231622c"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_4e97c7da70b8",
+        "created_at": "2026-10-07T19:15:05+05:30",
+        "expires_at": "2026-10-07T19:15:05+05:30"
+      },
+      {
+        "symbol": "HFCL.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.5% vs previous close.",
+        "trigger_ids": [
+          "trg_98f90016d695"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_f833b89e5f07",
+        "created_at": "2026-10-07T19:15:05+05:30",
+        "expires_at": "2026-10-07T19:15:05+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-07T17:48:49+05:30"
+    "as_of": "2026-10-07T19:13:22+05:30"
   }
 }

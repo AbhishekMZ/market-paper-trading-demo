@@ -475,7 +475,7 @@ FSL.NS(49.9), AFFLE.NS(49.7), ANGELONE.NS(49.7), BLS.NS(49.7), NSLNISP.NS(49.7),
 - THELEELA.NS (WATCH, 70.8): Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 7533 (no API-key quota)
+- Provider: `yfinance` · calls today: 1505 · total this month: 8035 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

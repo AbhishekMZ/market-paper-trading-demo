@@ -1,33 +1,14 @@
 {
-  "as_of": "2026-10-07T17:50:32+05:30",
+  "as_of": "2026-10-07T19:15:05+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
-      "severity": "CRITICAL",
-      "action_type": "EXIT_REVIEW",
-      "reason": "Held position at -16.1% breaches hard-loss -15%.",
-      "trigger_ids": [
-        "trg_5544c22e203c",
-        "trg_fe5abff4555e"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_3d78e08b4834",
-      "created_at": "2026-10-07T17:50:32+05:30",
-      "expires_at": "2026-10-07T17:50:32+05:30"
-    },
-    {
-      "symbol": "SAGILITY.NS",
-      "severity": "HIGH",
+      "symbol": "SYRMA.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -6.2% since last observation.",
+      "reason": "Gap +3.7% vs previous close.",
       "trigger_ids": [
-        "trg_68f579f60290"
+        "trg_4e2b4eca2b18"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -35,108 +16,81 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2117c121108e",
-      "created_at": "2026-10-07T17:50:32+05:30",
-      "expires_at": "2026-10-07T17:50:32+05:30"
-    },
-    {
-      "symbol": "SYRMA.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.7% since last observation.",
-      "trigger_ids": [
-        "trg_bfbb481d0621",
-        "trg_d6fac4bc0003"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "SYRMA.NS",
-        "score": 73.6,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 73.6/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_8bf50b72ea7c",
-      "created_at": "2026-10-07T17:50:32+05:30",
-      "expires_at": "2026-10-07T17:50:32+05:30"
+      "escalation_id": "esc_90c471361c49",
+      "created_at": "2026-10-07T19:15:05+05:30",
+      "expires_at": "2026-10-07T19:15:05+05:30"
     },
     {
       "symbol": "GLAND.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.8% since last observation.",
+      "reason": "Gap +4.8% vs previous close.",
       "trigger_ids": [
-        "trg_59481ce07d11",
-        "trg_686a74d0967d"
+        "trg_bf5c98ef4fe7"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "GLAND.NS",
-        "score": 73.4,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 73.4/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_b93e31580aff",
-      "created_at": "2026-10-07T17:50:32+05:30",
-      "expires_at": "2026-10-07T17:50:32+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_1584527756b7",
+      "created_at": "2026-10-07T19:15:05+05:30",
+      "expires_at": "2026-10-07T19:15:05+05:30"
     },
     {
       "symbol": "THELEELA.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.4% since last observation.",
+      "reason": "Gap +3.4% vs previous close.",
       "trigger_ids": [
-        "trg_420939c0640b",
-        "trg_dec2b0815d17"
+        "trg_9bcc16da77da"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "THELEELA.NS",
-        "score": 70.8,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_bd15af05b2d5",
-      "created_at": "2026-10-07T17:50:32+05:30",
-      "expires_at": "2026-10-07T17:50:32+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_6b9544dffac8",
+      "created_at": "2026-10-07T19:15:05+05:30",
+      "expires_at": "2026-10-07T19:15:05+05:30"
+    },
+    {
+      "symbol": "JSWINFRA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_abc04231622c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4e97c7da70b8",
+      "created_at": "2026-10-07T19:15:05+05:30",
+      "expires_at": "2026-10-07T19:15:05+05:30"
+    },
+    {
+      "symbol": "HFCL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_98f90016d695"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_f833b89e5f07",
+      "created_at": "2026-10-07T19:15:05+05:30",
+      "expires_at": "2026-10-07T19:15:05+05:30"
     }
   ],
   "actions_taken": [],
