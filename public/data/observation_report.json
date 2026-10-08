@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-08T18:05:11+05:30",
+  "as_of": "2026-10-08T19:26:09+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 18,
+  "triggers_this_run": 10,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 7,
+  "throttled": 5,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 245,
-    "triggers_detected": 1061,
-    "escalations_created": 685,
+    "observation_runs": 246,
+    "triggers_detected": 1071,
+    "escalations_created": 690,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-08T18:05:11+05:30",
+    "last_run": "2026-10-08T19:26:09+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -48,27 +48,6 @@
     "triggers": [
       {
         "symbol": "ITC.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -4.0% since last observation.",
-        "company_name": "ITC.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 255.0,
-        "previous_price": null,
-        "change_pct": -4.03,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_98ed4833e009",
-        "trigger_id": "trg_d5cf37a6a547",
-        "detected_at": "2026-10-08T18:03:37+05:30"
-      },
-      {
-        "symbol": "ITC.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap -4.0% vs previous close.",
@@ -84,9 +63,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_98ed4833e009",
-        "trigger_id": "trg_411697522988",
-        "detected_at": "2026-10-08T18:03:37+05:30"
+        "created_escalation_id": "esc_188dc737b4ae",
+        "trigger_id": "trg_07402183d995",
+        "detected_at": "2026-10-08T19:24:29+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -105,30 +84,9 @@
         "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_1d2998f1b74d",
-        "trigger_id": "trg_b4eee2ee704d",
-        "detected_at": "2026-10-08T18:03:45+05:30"
-      },
-      {
-        "symbol": "REDINGTON.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -4.7% since last observation.",
-        "company_name": "Redington Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 388.0,
-        "previous_price": null,
-        "change_pct": -4.67,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_55939a734f30",
-        "trigger_id": "trg_ab056792a497",
-        "detected_at": "2026-10-08T18:03:46+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_41c25b2dfe89",
+        "detected_at": "2026-10-08T19:24:40+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -147,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_55939a734f30",
-        "trigger_id": "trg_2ea6e1f91a56",
-        "detected_at": "2026-10-08T18:03:46+05:30"
+        "created_escalation_id": "esc_52ff826bd0a9",
+        "trigger_id": "trg_5b29fc4aeb18",
+        "detected_at": "2026-10-08T19:24:40+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -168,9 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ae787a41a36b",
-        "detected_at": "2026-10-08T18:03:46+05:30"
+        "created_escalation_id": "esc_e1711fda7b4c",
+        "trigger_id": "trg_75f70b326d81",
+        "detected_at": "2026-10-08T19:24:41+05:30"
       },
       {
         "symbol": "LAURUSLABS.NS",
@@ -189,30 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_7f925d4fc62e",
-        "detected_at": "2026-10-08T18:03:54+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.0% since last observation.",
-        "company_name": "Multi Commodity Exchange of India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3255.60009765625,
-        "previous_price": null,
-        "change_pct": -5.02,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_8541afd12165",
-        "trigger_id": "trg_25ccd7e52fd9",
-        "detected_at": "2026-10-08T18:03:55+05:30"
+        "created_escalation_id": "esc_437d7ac5ba37",
+        "trigger_id": "trg_2ebcaa46467d",
+        "detected_at": "2026-10-08T19:24:49+05:30"
       },
       {
         "symbol": "MCX.NS",
@@ -231,30 +168,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_8541afd12165",
-        "trigger_id": "trg_767d671fabe3",
-        "detected_at": "2026-10-08T18:03:55+05:30"
-      },
-      {
-        "symbol": "GRAPHITE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.8% since last observation.",
-        "company_name": "Graphite India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 802.1500244140625,
-        "previous_price": null,
-        "change_pct": -3.82,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_9dca78ea5ad2",
-        "detected_at": "2026-10-08T18:04:03+05:30"
+        "created_escalation_id": "esc_047877d3b6f3",
+        "trigger_id": "trg_d150d07a4de3",
+        "detected_at": "2026-10-08T19:24:50+05:30"
       },
       {
         "symbol": "GRAPHITE.NS",
@@ -274,29 +190,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_e3cb1f496ddd",
-        "detected_at": "2026-10-08T18:04:03+05:30"
-      },
-      {
-        "symbol": "LALPATHLAB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.3% since last observation.",
-        "company_name": "Dr. Lal Path Labs Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1898.9000244140625,
-        "previous_price": null,
-        "change_pct": -3.32,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ea22625dd4e7",
-        "detected_at": "2026-10-08T18:04:29+05:30"
+        "trigger_id": "trg_42d5aa1fc1a0",
+        "detected_at": "2026-10-08T19:24:59+05:30"
       },
       {
         "symbol": "ACMESOLAR.NS",
@@ -316,29 +211,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_7382eece486f",
-        "detected_at": "2026-10-08T18:04:37+05:30"
-      },
-      {
-        "symbol": "ASAHIINDIA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.3% since last observation.",
-        "company_name": "Asahi India Glass Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 938.7999877929688,
-        "previous_price": null,
-        "change_pct": -3.35,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_c19bf21f8bc0",
-        "detected_at": "2026-10-08T18:04:46+05:30"
+        "trigger_id": "trg_81363cb42907",
+        "detected_at": "2026-10-08T19:25:35+05:30"
       },
       {
         "symbol": "ASAHIINDIA.NS",
@@ -358,29 +232,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_37610496aeda",
-        "detected_at": "2026-10-08T18:04:46+05:30"
-      },
-      {
-        "symbol": "INDGN.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.7% since last observation.",
-        "company_name": "Indegene Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 586.1500244140625,
-        "previous_price": null,
-        "change_pct": -3.74,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ebcffa62a2ae",
-        "detected_at": "2026-10-08T18:05:11+05:30"
+        "trigger_id": "trg_42bced192adf",
+        "detected_at": "2026-10-08T19:25:43+05:30"
       },
       {
         "symbol": "INDGN.NS",
@@ -400,59 +253,18 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_99df9757240e",
-        "detected_at": "2026-10-08T18:05:11+05:30"
-      },
-      {
-        "symbol": "_MARKET_",
-        "trigger_type": "MARKET_REGIME_SHIFT",
-        "severity": "HIGH",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
-        "company_name": null,
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": null,
-        "previous_price": null,
-        "change_pct": null,
-        "market_regime": "RISK_OFF",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Block new buys; review open positions.",
-        "requires_focused_analysis": false,
-        "blocks_action": true,
-        "created_escalation_id": "esc_f2969496cefd",
-        "trigger_id": "trg_973de7907a52",
-        "detected_at": "2026-10-08T18:05:11+05:30"
+        "trigger_id": "trg_0fee11defe0a",
+        "detected_at": "2026-10-08T19:26:09+05:30"
       }
     ],
     "throttled": [
       {
+        "symbol": "COLPAL.NS",
+        "trigger": "HARD_LOSS_REVIEW",
+        "reason": "cooldown"
+      },
+      {
         "symbol": "GRAPHITE.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "LALPATHLAB.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "ASAHIINDIA.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "INDGN.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "WELSPUNLIV.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "LAURUSLABS.NS",
         "trigger": "GAP_MOVE",
         "reason": "max_escalations_per_run"
       },
@@ -460,53 +272,26 @@
         "symbol": "ACMESOLAR.NS",
         "trigger": "GAP_MOVE",
         "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "ASAHIINDIA.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "INDGN.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "max_escalations_per_run"
       }
     ],
     "escalations": [
       {
-        "symbol": "COLPAL.NS",
-        "severity": "CRITICAL",
-        "action_type": "EXIT_REVIEW",
-        "reason": "Held position at -17.1% breaches hard-loss -15%.",
-        "trigger_ids": [
-          "trg_b4eee2ee704d"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_1d2998f1b74d",
-        "created_at": "2026-10-08T18:05:11+05:30",
-        "expires_at": "2026-10-08T18:05:11+05:30"
-      },
-      {
-        "symbol": "_MARKET_",
-        "severity": "HIGH",
-        "action_type": "MANUAL_REVIEW",
-        "reason": "Market regime NEUTRAL -> RISK_OFF.",
-        "trigger_ids": [
-          "trg_973de7907a52"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
-        "escalation_id": "esc_f2969496cefd",
-        "created_at": "2026-10-08T18:05:11+05:30",
-        "expires_at": "2026-10-08T18:05:11+05:30"
-      },
-      {
         "symbol": "ITC.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -4.0% since last observation.",
+        "reason": "Gap -4.0% vs previous close.",
         "trigger_ids": [
-          "trg_d5cf37a6a547",
-          "trg_411697522988"
+          "trg_07402183d995"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -514,18 +299,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_98ed4833e009",
-        "created_at": "2026-10-08T18:05:11+05:30",
-        "expires_at": "2026-10-08T18:05:11+05:30"
+        "escalation_id": "esc_188dc737b4ae",
+        "created_at": "2026-10-08T19:26:09+05:30",
+        "expires_at": "2026-10-08T19:26:09+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -4.7% since last observation.",
+        "reason": "Gap -4.6% vs previous close.",
         "trigger_ids": [
-          "trg_ab056792a497",
-          "trg_2ea6e1f91a56"
+          "trg_5b29fc4aeb18"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -533,18 +317,53 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_55939a734f30",
-        "created_at": "2026-10-08T18:05:11+05:30",
-        "expires_at": "2026-10-08T18:05:11+05:30"
+        "escalation_id": "esc_52ff826bd0a9",
+        "created_at": "2026-10-08T19:26:09+05:30",
+        "expires_at": "2026-10-08T19:26:09+05:30"
+      },
+      {
+        "symbol": "WELSPUNLIV.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -4.6% vs previous close.",
+        "trigger_ids": [
+          "trg_75f70b326d81"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_e1711fda7b4c",
+        "created_at": "2026-10-08T19:26:09+05:30",
+        "expires_at": "2026-10-08T19:26:09+05:30"
+      },
+      {
+        "symbol": "LAURUSLABS.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.7% vs previous close.",
+        "trigger_ids": [
+          "trg_2ebcaa46467d"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_437d7ac5ba37",
+        "created_at": "2026-10-08T19:26:09+05:30",
+        "expires_at": "2026-10-08T19:26:09+05:30"
       },
       {
         "symbol": "MCX.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -5.0% since last observation.",
+        "reason": "Gap -3.2% vs previous close.",
         "trigger_ids": [
-          "trg_25ccd7e52fd9",
-          "trg_767d671fabe3"
+          "trg_d150d07a4de3"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -552,14 +371,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_8541afd12165",
-        "created_at": "2026-10-08T18:05:11+05:30",
-        "expires_at": "2026-10-08T18:05:11+05:30"
+        "escalation_id": "esc_047877d3b6f3",
+        "created_at": "2026-10-08T19:26:09+05:30",
+        "expires_at": "2026-10-08T19:26:09+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-08T18:03:29+05:30"
+    "as_of": "2026-10-08T19:24:20+05:30"
   }
 }
