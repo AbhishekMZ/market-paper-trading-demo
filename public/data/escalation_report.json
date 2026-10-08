@@ -1,32 +1,32 @@
 {
-  "as_of": "2026-10-08T20:19:24+05:30",
+  "as_of": "2026-10-08T23:14:14+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "GRAPHITE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.8% vs previous close.",
+      "symbol": "COLPAL.NS",
+      "severity": "CRITICAL",
+      "action_type": "EXIT_REVIEW",
+      "reason": "Held position at -17.1% breaches hard-loss -15%.",
       "trigger_ids": [
-        "trg_d266645b6c7d"
+        "trg_bba1e51d78f0"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
-      "manual_review_required": false,
+      "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e869dc808901",
-      "created_at": "2026-10-08T20:19:24+05:30",
-      "expires_at": "2026-10-08T20:19:24+05:30"
+      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_017319ea4b22",
+      "created_at": "2026-10-08T23:14:14+05:30",
+      "expires_at": "2026-10-08T23:14:14+05:30"
     },
     {
-      "symbol": "ACMESOLAR.NS",
+      "symbol": "ITC.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.6% vs previous close.",
+      "reason": "Gap -4.0% vs previous close.",
       "trigger_ids": [
-        "trg_e4961d42440a"
+        "trg_de6ad6e7dfcb"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,17 +34,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_31ca27859ad1",
-      "created_at": "2026-10-08T20:19:24+05:30",
-      "expires_at": "2026-10-08T20:19:24+05:30"
+      "escalation_id": "esc_4cc057395a5f",
+      "created_at": "2026-10-08T23:14:14+05:30",
+      "expires_at": "2026-10-08T23:14:14+05:30"
     },
     {
-      "symbol": "ASAHIINDIA.NS",
+      "symbol": "REDINGTON.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.8% vs previous close.",
+      "reason": "Gap -4.6% vs previous close.",
       "trigger_ids": [
-        "trg_f68861a7ac78"
+        "trg_b041403881cb"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,17 +52,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_34ac208a0b06",
-      "created_at": "2026-10-08T20:19:24+05:30",
-      "expires_at": "2026-10-08T20:19:24+05:30"
+      "escalation_id": "esc_e70176bccdfb",
+      "created_at": "2026-10-08T23:14:14+05:30",
+      "expires_at": "2026-10-08T23:14:14+05:30"
     },
     {
-      "symbol": "INDGN.NS",
+      "symbol": "WELSPUNLIV.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.5% vs previous close.",
+      "reason": "Gap -4.6% vs previous close.",
       "trigger_ids": [
-        "trg_e27ab37b6cbd"
+        "trg_50c8da50a769"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -70,9 +70,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b9531a6f231a",
-      "created_at": "2026-10-08T20:19:24+05:30",
-      "expires_at": "2026-10-08T20:19:24+05:30"
+      "escalation_id": "esc_c51f00299934",
+      "created_at": "2026-10-08T23:14:14+05:30",
+      "expires_at": "2026-10-08T23:14:14+05:30"
+    },
+    {
+      "symbol": "LAURUSLABS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.7% vs previous close.",
+      "trigger_ids": [
+        "trg_a92da8fc62ad"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_70ca9f058f6c",
+      "created_at": "2026-10-08T23:14:14+05:30",
+      "expires_at": "2026-10-08T23:14:14+05:30"
     }
   ],
   "actions_taken": [],

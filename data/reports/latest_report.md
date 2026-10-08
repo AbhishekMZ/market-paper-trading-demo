@@ -459,7 +459,7 @@ HSCL.NS(49.8), HEROMOTOCO.NS(49.5), HINDCOPPER.NS(49.5), CHENNPETRO.NS(49.4), IC
 - SHYAMMETL.NS (WATCH, 67.7): Final 67.7/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, portfolio_fit=80, breakout=70.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 10044 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 10548 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
