@@ -1,6 +1,100 @@
 [
   {
     "symbol": "JSWINFRA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.7% since last observation.",
+    "trigger_ids": [
+      "trg_eb0ecb8063c6",
+      "trg_58030883bbd7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_24f0a1bbd735",
+    "created_at": "2026-10-08T17:22:46+05:30",
+    "expires_at": "2026-10-08T17:22:46+05:30"
+  },
+  {
+    "symbol": "SYRMA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.8% since last observation.",
+    "trigger_ids": [
+      "trg_2399ff10051b",
+      "trg_08e0339880f3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_62b9c6ce6603",
+    "created_at": "2026-10-08T17:22:46+05:30",
+    "expires_at": "2026-10-08T17:22:46+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.0% since last observation.",
+    "trigger_ids": [
+      "trg_ebf2b6eb287d",
+      "trg_0acadf1d5cd2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_465177ff5439",
+    "created_at": "2026-10-08T17:22:46+05:30",
+    "expires_at": "2026-10-08T17:22:46+05:30"
+  },
+  {
+    "symbol": "ENGINERSIN.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -6.3% since last observation.",
+    "trigger_ids": [
+      "trg_0f5e9ae27abd",
+      "trg_53efc1ac7aab"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c2080eb77d07",
+    "created_at": "2026-10-08T17:22:46+05:30",
+    "expires_at": "2026-10-08T17:22:46+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "CRITICAL",
+    "action_type": "EXIT_REVIEW",
+    "reason": "Held position at -16.1% breaches hard-loss -15%.",
+    "trigger_ids": [
+      "trg_9f881a8af3c3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_f866f49993c6",
+    "created_at": "2026-10-08T17:22:46+05:30",
+    "expires_at": "2026-10-08T17:22:46+05:30"
+  },
+  {
+    "symbol": "JSWINFRA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap -2.5% vs previous close.",
@@ -1924,109 +2018,5 @@
     "escalation_id": "esc_dfcb198c354c",
     "created_at": "2026-09-25T16:18:16+05:30",
     "expires_at": "2026-09-25T16:18:16+05:30"
-  },
-  {
-    "symbol": "JUBLPHARMA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.5% since last observation.",
-    "trigger_ids": [
-      "trg_05801c88c211"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "JUBLPHARMA.NS",
-      "score": 63.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 63.5/100 -> WATCH [regime NEUTRAL]. Top: trend_following=88, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_24e1a097b081",
-    "created_at": "2026-09-25T16:18:16+05:30",
-    "expires_at": "2026-09-25T16:18:16+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.6% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_ce67890eb670"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_6e3c8731584a",
-    "created_at": "2026-09-25T16:18:16+05:30",
-    "expires_at": "2026-09-25T16:18:16+05:30"
-  },
-  {
-    "symbol": "CARBORUNIV.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_d77d6a44485c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_95c1ea6d6b0c",
-    "created_at": "2026-09-24T20:57:38+05:30",
-    "expires_at": "2026-09-24T20:57:38+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -11.4% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_6a0c8c4707c2"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_104f076428dd",
-    "created_at": "2026-09-24T20:57:38+05:30",
-    "expires_at": "2026-09-24T20:57:38+05:30"
-  },
-  {
-    "symbol": "CAPLIPOINT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_541b7ab81bb5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fd819d1975ad",
-    "created_at": "2026-09-24T17:43:13+05:30",
-    "expires_at": "2026-09-24T17:43:13+05:30"
   }
 ]
