@@ -1929,9 +1929,9 @@
     "symbol": "COLPAL.NS",
     "severity": "CRITICAL",
     "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -16.1% breaches hard-loss -15%.",
+    "reason": "Held position at -17.1% breaches hard-loss -15%.",
     "trigger_ids": [
-      "trg_9f881a8af3c3"
+      "trg_b4eee2ee704d"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -1939,28 +1939,27 @@
     "manual_review_required": true,
     "email_sent": false,
     "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_f866f49993c6",
-    "created_at": "2026-10-08T17:22:46+05:30",
-    "expires_at": "2026-10-08T17:22:46+05:30"
+    "escalation_id": "esc_1d2998f1b74d",
+    "created_at": "2026-10-08T18:05:11+05:30",
+    "expires_at": "2026-10-08T18:05:11+05:30"
   },
   {
-    "symbol": "ENGINERSIN.NS",
+    "symbol": "_MARKET_",
     "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -6.3% since last observation.",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Market regime NEUTRAL -> RISK_OFF.",
     "trigger_ids": [
-      "trg_0f5e9ae27abd",
-      "trg_53efc1ac7aab"
+      "trg_973de7907a52"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
     "focused_analysis_result": null,
-    "manual_review_required": false,
+    "manual_review_required": true,
     "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c2080eb77d07",
-    "created_at": "2026-10-08T17:22:46+05:30",
-    "expires_at": "2026-10-08T17:22:46+05:30"
+    "final_decision": "Regime shift (RISK_OFF) — new buys blocked; review holdings.",
+    "escalation_id": "esc_f2969496cefd",
+    "created_at": "2026-10-08T18:05:11+05:30",
+    "expires_at": "2026-10-08T18:05:11+05:30"
   },
   {
     "symbol": "ITC.NS",
@@ -1968,8 +1967,8 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved -4.0% since last observation.",
     "trigger_ids": [
-      "trg_ebf2b6eb287d",
-      "trg_0acadf1d5cd2"
+      "trg_d5cf37a6a547",
+      "trg_411697522988"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -1977,18 +1976,18 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_465177ff5439",
-    "created_at": "2026-10-08T17:22:46+05:30",
-    "expires_at": "2026-10-08T17:22:46+05:30"
+    "escalation_id": "esc_98ed4833e009",
+    "created_at": "2026-10-08T18:05:11+05:30",
+    "expires_at": "2026-10-08T18:05:11+05:30"
   },
   {
-    "symbol": "SYRMA.NS",
+    "symbol": "REDINGTON.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.8% since last observation.",
+    "reason": "Moved -4.7% since last observation.",
     "trigger_ids": [
-      "trg_2399ff10051b",
-      "trg_08e0339880f3"
+      "trg_ab056792a497",
+      "trg_2ea6e1f91a56"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -1996,18 +1995,18 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_62b9c6ce6603",
-    "created_at": "2026-10-08T17:22:46+05:30",
-    "expires_at": "2026-10-08T17:22:46+05:30"
+    "escalation_id": "esc_55939a734f30",
+    "created_at": "2026-10-08T18:05:11+05:30",
+    "expires_at": "2026-10-08T18:05:11+05:30"
   },
   {
-    "symbol": "JSWINFRA.NS",
+    "symbol": "MCX.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.7% since last observation.",
+    "reason": "Moved -5.0% since last observation.",
     "trigger_ids": [
-      "trg_eb0ecb8063c6",
-      "trg_58030883bbd7"
+      "trg_25ccd7e52fd9",
+      "trg_767d671fabe3"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -2015,8 +2014,8 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_24f0a1bbd735",
-    "created_at": "2026-10-08T17:22:46+05:30",
-    "expires_at": "2026-10-08T17:22:46+05:30"
+    "escalation_id": "esc_8541afd12165",
+    "created_at": "2026-10-08T18:05:11+05:30",
+    "expires_at": "2026-10-08T18:05:11+05:30"
   }
 ]
