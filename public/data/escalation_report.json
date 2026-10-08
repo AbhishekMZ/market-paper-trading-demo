@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-10-08T19:26:09+05:30",
+  "as_of": "2026-10-08T20:19:24+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "ITC.NS",
+      "symbol": "GRAPHITE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.0% vs previous close.",
+      "reason": "Gap -3.8% vs previous close.",
       "trigger_ids": [
-        "trg_07402183d995"
+        "trg_d266645b6c7d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +16,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_188dc737b4ae",
-      "created_at": "2026-10-08T19:26:09+05:30",
-      "expires_at": "2026-10-08T19:26:09+05:30"
+      "escalation_id": "esc_e869dc808901",
+      "created_at": "2026-10-08T20:19:24+05:30",
+      "expires_at": "2026-10-08T20:19:24+05:30"
     },
     {
-      "symbol": "REDINGTON.NS",
+      "symbol": "ACMESOLAR.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.6% vs previous close.",
+      "reason": "Gap -3.6% vs previous close.",
       "trigger_ids": [
-        "trg_5b29fc4aeb18"
+        "trg_e4961d42440a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,17 +34,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_52ff826bd0a9",
-      "created_at": "2026-10-08T19:26:09+05:30",
-      "expires_at": "2026-10-08T19:26:09+05:30"
+      "escalation_id": "esc_31ca27859ad1",
+      "created_at": "2026-10-08T20:19:24+05:30",
+      "expires_at": "2026-10-08T20:19:24+05:30"
     },
     {
-      "symbol": "WELSPUNLIV.NS",
+      "symbol": "ASAHIINDIA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.6% vs previous close.",
+      "reason": "Gap -3.8% vs previous close.",
       "trigger_ids": [
-        "trg_75f70b326d81"
+        "trg_f68861a7ac78"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,17 +52,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e1711fda7b4c",
-      "created_at": "2026-10-08T19:26:09+05:30",
-      "expires_at": "2026-10-08T19:26:09+05:30"
+      "escalation_id": "esc_34ac208a0b06",
+      "created_at": "2026-10-08T20:19:24+05:30",
+      "expires_at": "2026-10-08T20:19:24+05:30"
     },
     {
-      "symbol": "LAURUSLABS.NS",
+      "symbol": "INDGN.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
+      "reason": "Gap -3.5% vs previous close.",
       "trigger_ids": [
-        "trg_2ebcaa46467d"
+        "trg_e27ab37b6cbd"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -70,27 +70,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_437d7ac5ba37",
-      "created_at": "2026-10-08T19:26:09+05:30",
-      "expires_at": "2026-10-08T19:26:09+05:30"
-    },
-    {
-      "symbol": "MCX.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.2% vs previous close.",
-      "trigger_ids": [
-        "trg_d150d07a4de3"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_047877d3b6f3",
-      "created_at": "2026-10-08T19:26:09+05:30",
-      "expires_at": "2026-10-08T19:26:09+05:30"
+      "escalation_id": "esc_b9531a6f231a",
+      "created_at": "2026-10-08T20:19:24+05:30",
+      "expires_at": "2026-10-08T20:19:24+05:30"
     }
   ],
   "actions_taken": [],
