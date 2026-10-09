@@ -1,61 +1,5 @@
 [
   {
-    "symbol": "BLUESTARCO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_479c6eeef199"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_1f31a6237fce",
-    "created_at": "2026-09-29T00:23:29+05:30",
-    "expires_at": "2026-09-29T00:23:29+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -14.7% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_6f460aa4288d",
-      "trg_f776f65abd34",
-      "trg_367d48934949"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_c4cf0a327af7",
-    "created_at": "2026-09-29T17:24:42+05:30",
-    "expires_at": "2026-09-29T17:24:42+05:30"
-  },
-  {
-    "symbol": "CPPLUS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_f747ac8179f8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_21cd234e5635",
-    "created_at": "2026-09-29T17:24:42+05:30",
-    "expires_at": "2026-09-29T17:24:42+05:30"
-  },
-  {
     "symbol": "LLOYDSME.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1946,5 +1890,62 @@
     "escalation_id": "esc_70ca9f058f6c",
     "created_at": "2026-10-08T23:14:14+05:30",
     "expires_at": "2026-10-08T23:14:14+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "CRITICAL",
+    "action_type": "EXIT_REVIEW",
+    "reason": "Held position at -17.1% breaches hard-loss -15%.",
+    "trigger_ids": [
+      "trg_259f733097da",
+      "trg_8097a4147fe0",
+      "trg_8611e994673b"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_ac82803d6baa",
+    "created_at": "2026-10-09T17:14:45+05:30",
+    "expires_at": "2026-10-09T17:14:45+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.3% since last observation.",
+    "trigger_ids": [
+      "trg_1991102db675",
+      "trg_a9047a0847d7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_4e8c8bd0dd17",
+    "created_at": "2026-10-09T17:14:45+05:30",
+    "expires_at": "2026-10-09T17:14:45+05:30"
+  },
+  {
+    "symbol": "AUROPHARMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_bf18ed152708"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_bff0ef03ef29",
+    "created_at": "2026-10-09T17:14:45+05:30",
+    "expires_at": "2026-10-09T17:14:45+05:30"
   }
 ]

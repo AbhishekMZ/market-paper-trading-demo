@@ -1,5 +1,30 @@
 [
   {
+    "ts": "2026-10-08T23:14:14+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 10,
+    "escalations": 5,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-08T23:12:13+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-08T23:12:09+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TIINDIA.NS",
@@ -15852,66 +15877,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 35.18,
-    "warnings": [
-      "No relevant news; strategy does not contribute.",
-      "Market regime: RISK_OFF."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-08T23:12:09+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "IPCALAB.NS",
-    "market_regime": "RISK_OFF",
-    "final_recommendation": "WATCH",
-    "final_score": 71.5,
-    "strategy_contributions": {
-      "trend_following": 58.6,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 93.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 71.5/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, volatility_risk=94, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.14,
-    "warnings": [
-      "No relevant news; strategy does not contribute.",
-      "Market regime: RISK_OFF."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-08T23:12:09+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "GESHIP.NS",
-    "market_regime": "RISK_OFF",
-    "final_recommendation": "WATCH",
-    "final_score": 71.6,
-    "strategy_contributions": {
-      "trend_following": 83.1,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 72.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "HIGH",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 71.6/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, trend_following=83, portfolio_fit=80. RISK_OFF regime -> new buys blocked; downgraded to WATCH.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 32.33,
     "warnings": [
       "No relevant news; strategy does not contribute.",
       "Market regime: RISK_OFF."
