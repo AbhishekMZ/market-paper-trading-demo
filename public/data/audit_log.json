@@ -1,36 +1,6 @@
 [
   {
-    "ts": "2026-10-09T19:27:32+05:30",
-    "event": "OBSERVATION_RUN",
-    "checkpoint": "close",
-    "triggers": 13,
-    "escalations": 5,
-    "actions": 0,
-    "blocked": 0
-  },
-  {
-    "ts": "2026-10-09T19:26:02+05:30",
-    "event": "EMAIL",
-    "details": {
-      "daily": {
-        "sent": false,
-        "reason": "Email disabled or credentials/recipient missing.",
-        "recipient": "sahabhi115@gmail.com"
-      },
-      "trades": {
-        "sent": false,
-        "reason": "Email disabled or credentials/recipient missing.",
-        "recipient": "sahabhi115@gmail.com"
-      },
-      "risk": {
-        "sent": false,
-        "reason": "Email disabled or credentials/recipient missing.",
-        "recipient": "sahabhi115@gmail.com"
-      }
-    }
-  },
-  {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INOXWIND.NS",
     "market_regime": "NEUTRAL",
@@ -61,7 +31,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GMRAIRPORT.NS",
     "market_regime": "NEUTRAL",
@@ -92,7 +62,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KEC.NS",
     "market_regime": "NEUTRAL",
@@ -123,7 +93,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "3MINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -153,7 +123,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MARUTI.NS",
     "market_regime": "NEUTRAL",
@@ -183,7 +153,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POLICYBZR.NS",
     "market_regime": "NEUTRAL",
@@ -216,7 +186,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SHREECEM.NS",
     "market_regime": "NEUTRAL",
@@ -246,7 +216,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MFSL.NS",
     "market_regime": "NEUTRAL",
@@ -277,7 +247,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATACHEM.NS",
     "market_regime": "NEUTRAL",
@@ -308,7 +278,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BIKAJI.NS",
     "market_regime": "NEUTRAL",
@@ -339,7 +309,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HONAUT.NS",
     "market_regime": "NEUTRAL",
@@ -369,7 +339,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AMBUJACEM.NS",
     "market_regime": "NEUTRAL",
@@ -400,7 +370,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IRCON.NS",
     "market_regime": "NEUTRAL",
@@ -431,7 +401,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FORTIS.NS",
     "market_regime": "NEUTRAL",
@@ -462,7 +432,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PIIND.NS",
     "market_regime": "NEUTRAL",
@@ -493,7 +463,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LTF.NS",
     "market_regime": "NEUTRAL",
@@ -524,7 +494,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UBL.NS",
     "market_regime": "NEUTRAL",
@@ -555,7 +525,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BANDHANBNK.NS",
     "market_regime": "NEUTRAL",
@@ -586,7 +556,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ATGL.NS",
     "market_regime": "NEUTRAL",
@@ -617,7 +587,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AIAENG.NS",
     "market_regime": "NEUTRAL",
@@ -648,7 +618,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TIINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -679,7 +649,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDBFS.NS",
     "market_regime": "NEUTRAL",
@@ -710,7 +680,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UPL.NS",
     "market_regime": "NEUTRAL",
@@ -741,7 +711,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BBTC.NS",
     "market_regime": "NEUTRAL",
@@ -772,7 +742,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TMPV.NS",
     "market_regime": "NEUTRAL",
@@ -803,7 +773,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COROMANDEL.NS",
     "market_regime": "NEUTRAL",
@@ -834,7 +804,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VTL.NS",
     "market_regime": "NEUTRAL",
@@ -865,7 +835,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RVNL.NS",
     "market_regime": "NEUTRAL",
@@ -896,7 +866,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ASTERDM.NS",
     "market_regime": "NEUTRAL",
@@ -927,7 +897,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GICRE.NS",
     "market_regime": "NEUTRAL",
@@ -958,7 +928,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDUSINDBK.NS",
     "market_regime": "NEUTRAL",
@@ -989,7 +959,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBICARD.NS",
     "market_regime": "NEUTRAL",
@@ -1020,7 +990,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "YESBANK.NS",
     "market_regime": "NEUTRAL",
@@ -1051,7 +1021,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COCHINSHIP.NS",
     "market_regime": "NEUTRAL",
@@ -1082,7 +1052,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RAINBOW.NS",
     "market_regime": "NEUTRAL",
@@ -1113,7 +1083,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VOLTAS.NS",
     "market_regime": "NEUTRAL",
@@ -1144,7 +1114,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AFCONS.NS",
     "market_regime": "NEUTRAL",
@@ -1175,7 +1145,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MAXHEALTH.NS",
     "market_regime": "NEUTRAL",
@@ -1206,7 +1176,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CROMPTON.NS",
     "market_regime": "NEUTRAL",
@@ -1237,7 +1207,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "THERMAX.NS",
     "market_regime": "NEUTRAL",
@@ -1268,7 +1238,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SYNGENE.NS",
     "market_regime": "NEUTRAL",
@@ -1299,7 +1269,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PRESTIGE.NS",
     "market_regime": "NEUTRAL",
@@ -1330,7 +1300,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LUPIN.NS",
     "market_regime": "NEUTRAL",
@@ -1361,7 +1331,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDIACEM.NS",
     "market_regime": "NEUTRAL",
@@ -1392,7 +1362,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GODREJPROP.NS",
     "market_regime": "NEUTRAL",
@@ -1423,7 +1393,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAYERCROP.NS",
     "market_regime": "NEUTRAL",
@@ -1454,7 +1424,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DALBHARAT.NS",
     "market_regime": "NEUTRAL",
@@ -1485,7 +1455,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUZLON.NS",
     "market_regime": "NEUTRAL",
@@ -1516,7 +1486,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "OLAELEC.NS",
     "market_regime": "NEUTRAL",
@@ -1547,7 +1517,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AMBER.NS",
     "market_regime": "NEUTRAL",
@@ -1578,7 +1548,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VMM.NS",
     "market_regime": "NEUTRAL",
@@ -1609,7 +1579,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JWL.NS",
     "market_regime": "NEUTRAL",
@@ -1640,7 +1610,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARATFORG.NS",
     "market_regime": "NEUTRAL",
@@ -1671,7 +1641,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ASIANPAINT.NS",
     "market_regime": "NEUTRAL",
@@ -1702,7 +1672,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SWANCORP.NS",
     "market_regime": "NEUTRAL",
@@ -1733,7 +1703,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HAVELLS.NS",
     "market_regime": "NEUTRAL",
@@ -1764,7 +1734,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COLPAL.NS",
     "market_regime": "NEUTRAL",
@@ -1794,7 +1764,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ADANIENSOL.NS",
     "market_regime": "NEUTRAL",
@@ -1825,7 +1795,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "APTUS.NS",
     "market_regime": "NEUTRAL",
@@ -1856,7 +1826,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ACC.NS",
     "market_regime": "NEUTRAL",
@@ -1887,7 +1857,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HINDPETRO.NS",
     "market_regime": "NEUTRAL",
@@ -1918,7 +1888,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AAVAS.NS",
     "market_regime": "NEUTRAL",
@@ -1949,7 +1919,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TTML.NS",
     "market_regime": "NEUTRAL",
@@ -1980,7 +1950,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RECLTD.NS",
     "market_regime": "NEUTRAL",
@@ -2011,7 +1981,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATAINVEST.NS",
     "market_regime": "NEUTRAL",
@@ -2042,7 +2012,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SONATSOFTW.NS",
     "market_regime": "NEUTRAL",
@@ -2073,7 +2043,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IRB.NS",
     "market_regime": "NEUTRAL",
@@ -2104,7 +2074,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NCC.NS",
     "market_regime": "NEUTRAL",
@@ -2135,7 +2105,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MAPMYINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -2166,7 +2136,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "APOLLOHOSP.NS",
     "market_regime": "NEUTRAL",
@@ -2197,7 +2167,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABFRL.NS",
     "market_regime": "NEUTRAL",
@@ -2228,7 +2198,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ULTRACEMCO.NS",
     "market_regime": "NEUTRAL",
@@ -2258,7 +2228,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PGEL.NS",
     "market_regime": "NEUTRAL",
@@ -2289,7 +2259,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MAZDOCK.NS",
     "market_regime": "NEUTRAL",
@@ -2320,7 +2290,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSWENERGY.NS",
     "market_regime": "NEUTRAL",
@@ -2351,7 +2321,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IRFC.NS",
     "market_regime": "NEUTRAL",
@@ -2382,7 +2352,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NMDC.NS",
     "market_regime": "NEUTRAL",
@@ -2413,7 +2383,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DELHIVERY.NS",
     "market_regime": "NEUTRAL",
@@ -2444,7 +2414,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IREDA.NS",
     "market_regime": "NEUTRAL",
@@ -2475,7 +2445,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCAMC.NS",
     "market_regime": "NEUTRAL",
@@ -2506,7 +2476,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "OLECTRA.NS",
     "market_regime": "NEUTRAL",
@@ -2537,7 +2507,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BIOCON.NS",
     "market_regime": "NEUTRAL",
@@ -2568,7 +2538,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KIMS.NS",
     "market_regime": "NEUTRAL",
@@ -2599,7 +2569,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CREDITACC.NS",
     "market_regime": "NEUTRAL",
@@ -2630,7 +2600,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HUDCO.NS",
     "market_regime": "NEUTRAL",
@@ -2661,7 +2631,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CESC.NS",
     "market_regime": "NEUTRAL",
@@ -2692,7 +2662,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NUVOCO.NS",
     "market_regime": "NEUTRAL",
@@ -2723,7 +2693,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TRITURBINE.NS",
     "market_regime": "NEUTRAL",
@@ -2754,7 +2724,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUMICHEM.NS",
     "market_regime": "NEUTRAL",
@@ -2785,7 +2755,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PREMIERENE.NS",
     "market_regime": "NEUTRAL",
@@ -2816,7 +2786,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDIAMART.NS",
     "market_regime": "NEUTRAL",
@@ -2847,7 +2817,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FIRSTCRY.NS",
     "market_regime": "NEUTRAL",
@@ -2878,7 +2848,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ANURAS.NS",
     "market_regime": "NEUTRAL",
@@ -2909,7 +2879,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITI.NS",
     "market_regime": "NEUTRAL",
@@ -2940,7 +2910,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BDL.NS",
     "market_regime": "NEUTRAL",
@@ -2971,7 +2941,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIPRULI.NS",
     "market_regime": "NEUTRAL",
@@ -3002,7 +2972,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZEEL.NS",
     "market_regime": "NEUTRAL",
@@ -3033,7 +3003,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCBANK.NS",
     "market_regime": "NEUTRAL",
@@ -3064,7 +3034,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DMART.NS",
     "market_regime": "NEUTRAL",
@@ -3095,7 +3065,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ADANIENT.NS",
     "market_regime": "NEUTRAL",
@@ -3126,7 +3096,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WAAREEENER.NS",
     "market_regime": "NEUTRAL",
@@ -3157,7 +3127,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABREL.NS",
     "market_regime": "NEUTRAL",
@@ -3188,7 +3158,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NIACL.NS",
     "market_regime": "NEUTRAL",
@@ -3219,7 +3189,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SJVN.NS",
     "market_regime": "NEUTRAL",
@@ -3250,7 +3220,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATAELXSI.NS",
     "market_regime": "NEUTRAL",
@@ -3281,7 +3251,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NLCINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -3312,7 +3282,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HOMEFIRST.NS",
     "market_regime": "NEUTRAL",
@@ -3343,7 +3313,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHAMBLFERT.NS",
     "market_regime": "NEUTRAL",
@@ -3374,7 +3344,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NH.NS",
     "market_regime": "NEUTRAL",
@@ -3405,7 +3375,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GPIL.NS",
     "market_regime": "NEUTRAL",
@@ -3436,7 +3406,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TEJASNET.NS",
     "market_regime": "NEUTRAL",
@@ -3467,7 +3437,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POWERGRID.NS",
     "market_regime": "NEUTRAL",
@@ -3498,7 +3468,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PHOENIXLTD.NS",
     "market_regime": "NEUTRAL",
@@ -3529,7 +3499,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JAINREC.NS",
     "market_regime": "NEUTRAL",
@@ -3560,7 +3530,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JBMA.NS",
     "market_regime": "NEUTRAL",
@@ -3591,7 +3561,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ELECON.NS",
     "market_regime": "NEUTRAL",
@@ -3622,7 +3592,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHOICEIN.NS",
     "market_regime": "NEUTRAL",
@@ -3653,7 +3623,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SWIGGY.NS",
     "market_regime": "NEUTRAL",
@@ -3684,7 +3654,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MSUMI.NS",
     "market_regime": "NEUTRAL",
@@ -3715,7 +3685,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JUBLINGREA.NS",
     "market_regime": "NEUTRAL",
@@ -3746,7 +3716,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FACT.NS",
     "market_regime": "NEUTRAL",
@@ -3777,7 +3747,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ARE&M.NS",
     "market_regime": "NEUTRAL",
@@ -3808,7 +3778,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ERIS.NS",
     "market_regime": "NEUTRAL",
@@ -3839,7 +3809,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RAILTEL.NS",
     "market_regime": "NEUTRAL",
@@ -3870,7 +3840,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JKCEMENT.NS",
     "market_regime": "NEUTRAL",
@@ -3901,7 +3871,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GRAVITA.NS",
     "market_regime": "NEUTRAL",
@@ -3932,7 +3902,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SIGNATURE.NS",
     "market_regime": "NEUTRAL",
@@ -3963,7 +3933,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MMTC.NS",
     "market_regime": "NEUTRAL",
@@ -3994,7 +3964,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JKTYRE.NS",
     "market_regime": "NEUTRAL",
@@ -4025,7 +3995,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INTELLECT.NS",
     "market_regime": "NEUTRAL",
@@ -4056,7 +4026,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LINDEINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -4087,7 +4057,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KPITTECH.NS",
     "market_regime": "NEUTRAL",
@@ -4118,7 +4088,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHOLAFIN.NS",
     "market_regime": "NEUTRAL",
@@ -4149,7 +4119,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JPPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -4180,7 +4150,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NBCC.NS",
     "market_regime": "NEUTRAL",
@@ -4211,7 +4181,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GODFRYPHLP.NS",
     "market_regime": "NEUTRAL",
@@ -4242,7 +4212,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GRSE.NS",
     "market_regime": "NEUTRAL",
@@ -4273,7 +4243,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZENTEC.NS",
     "market_regime": "NEUTRAL",
@@ -4304,7 +4274,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "OFSS.NS",
     "market_regime": "NEUTRAL",
@@ -4334,7 +4304,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GODREJIND.NS",
     "market_regime": "NEUTRAL",
@@ -4365,7 +4335,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZYDUSWELL.NS",
     "market_regime": "NEUTRAL",
@@ -4396,7 +4366,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EIHOTEL.NS",
     "market_regime": "NEUTRAL",
@@ -4427,7 +4397,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NIVABUPA.NS",
     "market_regime": "NEUTRAL",
@@ -4458,7 +4428,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CUMMINSIND.NS",
     "market_regime": "NEUTRAL",
@@ -4489,7 +4459,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITCHOTELS.NS",
     "market_regime": "NEUTRAL",
@@ -4520,7 +4490,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CONCOR.NS",
     "market_regime": "NEUTRAL",
@@ -4551,7 +4521,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CAMS.NS",
     "market_regime": "NEUTRAL",
@@ -4582,7 +4552,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CIEINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -4613,7 +4583,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RELIANCE.NS",
     "market_regime": "NEUTRAL",
@@ -4644,7 +4614,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PFC.NS",
     "market_regime": "NEUTRAL",
@@ -4675,7 +4645,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GMDCLTD.NS",
     "market_regime": "NEUTRAL",
@@ -4706,7 +4676,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AADHARHFC.NS",
     "market_regime": "NEUTRAL",
@@ -4737,7 +4707,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RITES.NS",
     "market_regime": "NEUTRAL",
@@ -4768,7 +4738,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HINDUNILVR.NS",
     "market_regime": "NEUTRAL",
@@ -4799,7 +4769,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GODREJCP.NS",
     "market_regime": "NEUTRAL",
@@ -4830,7 +4800,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MUTHOOTFIN.NS",
     "market_regime": "NEUTRAL",
@@ -4861,7 +4831,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GALLANTT.NS",
     "market_regime": "NEUTRAL",
@@ -4892,7 +4862,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PFIZER.NS",
     "market_regime": "NEUTRAL",
@@ -4923,7 +4893,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BEL.NS",
     "market_regime": "NEUTRAL",
@@ -4954,7 +4924,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SCHAEFFLER.NS",
     "market_regime": "NEUTRAL",
@@ -4985,7 +4955,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NATIONALUM.NS",
     "market_regime": "NEUTRAL",
@@ -5016,7 +4986,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IEX.NS",
     "market_regime": "NEUTRAL",
@@ -5047,7 +5017,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ENDURANCE.NS",
     "market_regime": "NEUTRAL",
@@ -5078,7 +5048,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RAMCOCEM.NS",
     "market_regime": "NEUTRAL",
@@ -5109,7 +5079,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZFCVINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -5140,7 +5110,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TRIDENT.NS",
     "market_regime": "NEUTRAL",
@@ -5171,7 +5141,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBILIFE.NS",
     "market_regime": "NEUTRAL",
@@ -5202,7 +5172,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LATENTVIEW.NS",
     "market_regime": "NEUTRAL",
@@ -5233,7 +5203,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSWCEMENT.NS",
     "market_regime": "NEUTRAL",
@@ -5264,7 +5234,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATACONSUM.NS",
     "market_regime": "NEUTRAL",
@@ -5295,7 +5265,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CANFINHOME.NS",
     "market_regime": "NEUTRAL",
@@ -5326,7 +5296,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NEWGEN.NS",
     "market_regime": "NEUTRAL",
@@ -5357,7 +5327,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PAGEIND.NS",
     "market_regime": "NEUTRAL",
@@ -5387,7 +5357,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABLBL.NS",
     "market_regime": "NEUTRAL",
@@ -5418,7 +5388,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAMMAANCAP.NS",
     "market_regime": "NEUTRAL",
@@ -5449,7 +5419,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -5480,7 +5450,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ADANIPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -5511,7 +5481,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LICI.NS",
     "market_regime": "NEUTRAL",
@@ -5542,7 +5512,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ADANIGREEN.NS",
     "market_regime": "NEUTRAL",
@@ -5573,7 +5543,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SHRIRAMFIN.NS",
     "market_regime": "NEUTRAL",
@@ -5604,7 +5574,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NATCOPHARM.NS",
     "market_regime": "NEUTRAL",
@@ -5635,7 +5605,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IGIL.NS",
     "market_regime": "NEUTRAL",
@@ -5666,7 +5636,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IOC.NS",
     "market_regime": "NEUTRAL",
@@ -5697,7 +5667,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATAPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -5728,7 +5698,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SOBHA.NS",
     "market_regime": "NEUTRAL",
@@ -5759,7 +5729,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EIDPARRY.NS",
     "market_regime": "NEUTRAL",
@@ -5790,7 +5760,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABSLAMC.NS",
     "market_regime": "NEUTRAL",
@@ -5821,7 +5791,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CDSL.NS",
     "market_regime": "NEUTRAL",
@@ -5852,7 +5822,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DCMSHRIRAM.NS",
     "market_regime": "NEUTRAL",
@@ -5883,7 +5853,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TORNTPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -5914,7 +5884,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJAJ-AUTO.NS",
     "market_regime": "NEUTRAL",
@@ -5945,7 +5915,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DABUR.NS",
     "market_regime": "NEUTRAL",
@@ -5976,7 +5946,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABBOTINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -6006,7 +5976,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KEI.NS",
     "market_regime": "NEUTRAL",
@@ -6037,7 +6007,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CEATLTD.NS",
     "market_regime": "NEUTRAL",
@@ -6068,7 +6038,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HEXT.NS",
     "market_regime": "NEUTRAL",
@@ -6097,7 +6067,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CEMPRO.NS",
     "market_regime": "NEUTRAL",
@@ -6128,7 +6098,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUNPHARMA.NS",
     "market_regime": "NEUTRAL",
@@ -6159,7 +6129,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBFC.NS",
     "market_regime": "NEUTRAL",
@@ -6190,7 +6160,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TIMKEN.NS",
     "market_regime": "NEUTRAL",
@@ -6221,7 +6191,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ONGC.NS",
     "market_regime": "NEUTRAL",
@@ -6252,7 +6222,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZENSARTECH.NS",
     "market_regime": "NEUTRAL",
@@ -6283,7 +6253,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PIDILITIND.NS",
     "market_regime": "NEUTRAL",
@@ -6314,7 +6284,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NESTLEIND.NS",
     "market_regime": "NEUTRAL",
@@ -6345,7 +6315,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ENRIN.NS",
     "market_regime": "NEUTRAL",
@@ -6376,7 +6346,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJFINANCE.NS",
     "market_regime": "NEUTRAL",
@@ -6407,7 +6377,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NAM-INDIA.NS",
     "market_regime": "NEUTRAL",
@@ -6438,7 +6408,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BLUESTARCO.NS",
     "market_regime": "NEUTRAL",
@@ -6469,7 +6439,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BSE.NS",
     "market_regime": "NEUTRAL",
@@ -6500,7 +6470,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ONESOURCE.NS",
     "market_regime": "NEUTRAL",
@@ -6531,7 +6501,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "M&M.NS",
     "market_regime": "NEUTRAL",
@@ -6562,7 +6532,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSWSTEEL.NS",
     "market_regime": "NEUTRAL",
@@ -6593,7 +6563,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ASHOKLEY.NS",
     "market_regime": "NEUTRAL",
@@ -6624,7 +6594,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JIOFIN.NS",
     "market_regime": "NEUTRAL",
@@ -6655,7 +6625,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CCL.NS",
     "market_regime": "NEUTRAL",
@@ -6686,7 +6656,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BRITANNIA.NS",
     "market_regime": "NEUTRAL",
@@ -6717,7 +6687,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NTPC.NS",
     "market_regime": "NEUTRAL",
@@ -6748,7 +6718,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ITC.NS",
     "market_regime": "NEUTRAL",
@@ -6780,7 +6750,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHOLAHLDNG.NS",
     "market_regime": "NEUTRAL",
@@ -6811,7 +6781,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ACUTAAS.NS",
     "market_regime": "NEUTRAL",
@@ -6842,7 +6812,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GRASIM.NS",
     "market_regime": "NEUTRAL",
@@ -6873,7 +6843,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EMAMILTD.NS",
     "market_regime": "NEUTRAL",
@@ -6904,7 +6874,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NSLNISP.NS",
     "market_regime": "NEUTRAL",
@@ -6935,7 +6905,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJAJFINSV.NS",
     "market_regime": "NEUTRAL",
@@ -6966,7 +6936,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "OBEROIRLTY.NS",
     "market_regime": "NEUTRAL",
@@ -6997,7 +6967,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UNOMINDA.NS",
     "market_regime": "NEUTRAL",
@@ -7028,7 +6998,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TARIL.NS",
     "market_regime": "NEUTRAL",
@@ -7059,7 +7029,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUNDARMFIN.NS",
     "market_regime": "NEUTRAL",
@@ -7090,7 +7060,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UCOBANK.NS",
     "market_regime": "NEUTRAL",
@@ -7121,7 +7091,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ANGELONE.NS",
     "market_regime": "NEUTRAL",
@@ -7152,7 +7122,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TITAN.NS",
     "market_regime": "NEUTRAL",
@@ -7183,7 +7153,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JBCHEPHARM.NS",
     "market_regime": "NEUTRAL",
@@ -7219,7 +7189,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IFCI.NS",
     "market_regime": "NEUTRAL",
@@ -7250,7 +7220,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BATAINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -7281,7 +7251,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BLUEJET.NS",
     "market_regime": "NEUTRAL",
@@ -7312,7 +7282,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POLYCAB.NS",
     "market_regime": "NEUTRAL",
@@ -7343,7 +7313,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MARICO.NS",
     "market_regime": "NEUTRAL",
@@ -7374,7 +7344,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AUBANK.NS",
     "market_regime": "NEUTRAL",
@@ -7405,7 +7375,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "J&KBANK.NS",
     "market_regime": "NEUTRAL",
@@ -7436,7 +7406,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HINDALCO.NS",
     "market_regime": "NEUTRAL",
@@ -7467,7 +7437,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EICHERMOT.NS",
     "market_regime": "NEUTRAL",
@@ -7498,7 +7468,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SCHNEIDER.NS",
     "market_regime": "NEUTRAL",
@@ -7529,7 +7499,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ESCORTS.NS",
     "market_regime": "NEUTRAL",
@@ -7560,7 +7530,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BALKRISIND.NS",
     "market_regime": "NEUTRAL",
@@ -7591,7 +7561,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TITAGARH.NS",
     "market_regime": "NEUTRAL",
@@ -7622,7 +7592,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FORCEMOT.NS",
     "market_regime": "NEUTRAL",
@@ -7654,7 +7624,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SBIN.NS",
     "market_regime": "NEUTRAL",
@@ -7685,7 +7655,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CIPLA.NS",
     "market_regime": "NEUTRAL",
@@ -7716,7 +7686,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IRCTC.NS",
     "market_regime": "NEUTRAL",
@@ -7747,7 +7717,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DEEPAKFERT.NS",
     "market_regime": "NEUTRAL",
@@ -7778,7 +7748,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CAPLIPOINT.NS",
     "market_regime": "NEUTRAL",
@@ -7809,7 +7779,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BLS.NS",
     "market_regime": "NEUTRAL",
@@ -7840,7 +7810,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AARTIIND.NS",
     "market_regime": "NEUTRAL",
@@ -7871,7 +7841,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IOB.NS",
     "market_regime": "NEUTRAL",
@@ -7902,7 +7872,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GODIGIT.NS",
     "market_regime": "NEUTRAL",
@@ -7933,7 +7903,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BPCL.NS",
     "market_regime": "NEUTRAL",
@@ -7964,7 +7934,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KIRLOSENG.NS",
     "market_regime": "NEUTRAL",
@@ -7995,7 +7965,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JUBLFOOD.NS",
     "market_regime": "NEUTRAL",
@@ -8026,7 +7996,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LODHA.NS",
     "market_regime": "NEUTRAL",
@@ -8057,7 +8027,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JUBLPHARMA.NS",
     "market_regime": "NEUTRAL",
@@ -8088,7 +8058,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATASTEEL.NS",
     "market_regime": "NEUTRAL",
@@ -8119,7 +8089,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POWERINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -8151,7 +8121,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GRANULES.NS",
     "market_regime": "NEUTRAL",
@@ -8182,7 +8152,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DOMS.NS",
     "market_regime": "NEUTRAL",
@@ -8213,7 +8183,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KFINTECH.NS",
     "market_regime": "NEUTRAL",
@@ -8244,7 +8214,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIARTL.NS",
     "market_regime": "NEUTRAL",
@@ -8275,7 +8245,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JINDALSTEL.NS",
     "market_regime": "NEUTRAL",
@@ -8306,7 +8276,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TECHNOE.NS",
     "market_regime": "NEUTRAL",
@@ -8337,7 +8307,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MRF.NS",
     "market_regime": "NEUTRAL",
@@ -8369,7 +8339,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ALKEM.NS",
     "market_regime": "NEUTRAL",
@@ -8400,7 +8370,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATACOMM.NS",
     "market_regime": "NEUTRAL",
@@ -8431,7 +8401,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GILLETTE.NS",
     "market_regime": "NEUTRAL",
@@ -8462,7 +8432,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDUSTOWER.NS",
     "market_regime": "NEUTRAL",
@@ -8493,7 +8463,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HYUNDAI.NS",
     "market_regime": "NEUTRAL",
@@ -8524,7 +8494,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CUB.NS",
     "market_regime": "NEUTRAL",
@@ -8555,7 +8525,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJAJHFL.NS",
     "market_regime": "NEUTRAL",
@@ -8586,7 +8556,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WIPRO.NS",
     "market_regime": "NEUTRAL",
@@ -8617,7 +8587,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MANKIND.NS",
     "market_regime": "NEUTRAL",
@@ -8648,7 +8618,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIGI.NS",
     "market_regime": "NEUTRAL",
@@ -8679,7 +8649,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHARTIHEXA.NS",
     "market_regime": "NEUTRAL",
@@ -8710,7 +8680,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AFFLE.NS",
     "market_regime": "NEUTRAL",
@@ -8741,7 +8711,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "STARHEALTH.NS",
     "market_regime": "NEUTRAL",
@@ -8772,7 +8742,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POONAWALLA.NS",
     "market_regime": "NEUTRAL",
@@ -8803,7 +8773,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INFY.NS",
     "market_regime": "NEUTRAL",
@@ -8834,7 +8804,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DIXON.NS",
     "market_regime": "NEUTRAL",
@@ -8866,7 +8836,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BANKINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -8897,7 +8867,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RHIM.NS",
     "market_regime": "NEUTRAL",
@@ -8928,7 +8898,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TRAVELFOOD.NS",
     "market_regime": "NEUTRAL",
@@ -8959,7 +8929,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SRF.NS",
     "market_regime": "NEUTRAL",
@@ -8990,7 +8960,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "APOLLOTYRE.NS",
     "market_regime": "NEUTRAL",
@@ -9021,7 +8991,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LTTS.NS",
     "market_regime": "NEUTRAL",
@@ -9052,7 +9022,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BLUEDART.NS",
     "market_regime": "NEUTRAL",
@@ -9083,7 +9053,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IKS.NS",
     "market_regime": "NEUTRAL",
@@ -9112,7 +9082,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UTIAMC.NS",
     "market_regime": "NEUTRAL",
@@ -9143,7 +9113,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATATECH.NS",
     "market_regime": "NEUTRAL",
@@ -9174,7 +9144,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NUVAMA.NS",
     "market_regime": "NEUTRAL",
@@ -9203,7 +9173,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABCAPITAL.NS",
     "market_regime": "NEUTRAL",
@@ -9234,7 +9204,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UNITDSPR.NS",
     "market_regime": "NEUTRAL",
@@ -9265,7 +9235,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHALET.NS",
     "market_regime": "NEUTRAL",
@@ -9296,7 +9266,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CENTRALBK.NS",
     "market_regime": "NEUTRAL",
@@ -9327,7 +9297,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CGPOWER.NS",
     "market_regime": "NEUTRAL",
@@ -9356,7 +9326,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DEEPAKNTR.NS",
     "market_regime": "NEUTRAL",
@@ -9387,7 +9357,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NHPC.NS",
     "market_regime": "NEUTRAL",
@@ -9418,7 +9388,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KAYNES.NS",
     "market_regime": "NEUTRAL",
@@ -9449,7 +9419,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BERGEPAINT.NS",
     "market_regime": "NEUTRAL",
@@ -9480,7 +9450,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FIVESTAR.NS",
     "market_regime": "NEUTRAL",
@@ -9511,7 +9481,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LT.NS",
     "market_regime": "NEUTRAL",
@@ -9542,7 +9512,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GVT&D.NS",
     "market_regime": "NEUTRAL",
@@ -9573,7 +9543,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NAVA.NS",
     "market_regime": "NEUTRAL",
@@ -9604,7 +9574,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABB.NS",
     "market_regime": "NEUTRAL",
@@ -9635,7 +9605,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MANAPPURAM.NS",
     "market_regime": "NEUTRAL",
@@ -9666,7 +9636,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JMFINANCIL.NS",
     "market_regime": "NEUTRAL",
@@ -9697,7 +9667,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDIGO.NS",
     "market_regime": "NEUTRAL",
@@ -9728,7 +9698,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HINDCOPPER.NS",
     "market_regime": "NEUTRAL",
@@ -9759,7 +9729,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TCS.NS",
     "market_regime": "NEUTRAL",
@@ -9790,7 +9760,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EXIDEIND.NS",
     "market_regime": "NEUTRAL",
@@ -9821,7 +9791,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TORNTPHARM.NS",
     "market_regime": "NEUTRAL",
@@ -9850,7 +9820,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MINDACORP.NS",
     "market_regime": "NEUTRAL",
@@ -9881,7 +9851,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KPRMILL.NS",
     "market_regime": "NEUTRAL",
@@ -9910,7 +9880,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "M&MFIN.NS",
     "market_regime": "NEUTRAL",
@@ -9941,7 +9911,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PERSISTENT.NS",
     "market_regime": "NEUTRAL",
@@ -9972,7 +9942,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "360ONE.NS",
     "market_regime": "NEUTRAL",
@@ -10003,7 +9973,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CPPLUS.NS",
     "market_regime": "NEUTRAL",
@@ -10034,7 +10004,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ADANIPORTS.NS",
     "market_regime": "NEUTRAL",
@@ -10065,7 +10035,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CYIENT.NS",
     "market_regime": "NEUTRAL",
@@ -10096,7 +10066,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ATUL.NS",
     "market_regime": "NEUTRAL",
@@ -10127,7 +10097,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HEROMOTOCO.NS",
     "market_regime": "NEUTRAL",
@@ -10158,7 +10128,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BRIGADE.NS",
     "market_regime": "NEUTRAL",
@@ -10189,7 +10159,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AXISBANK.NS",
     "market_regime": "NEUTRAL",
@@ -10220,7 +10190,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HDFCLIFE.NS",
     "market_regime": "NEUTRAL",
@@ -10251,7 +10221,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SOLARINDS.NS",
     "market_regime": "NEUTRAL",
@@ -10283,7 +10253,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AWL.NS",
     "market_regime": "NEUTRAL",
@@ -10314,7 +10284,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HBLENGINE.NS",
     "market_regime": "NEUTRAL",
@@ -10343,7 +10313,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COALINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -10372,7 +10342,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CANBK.NS",
     "market_regime": "NEUTRAL",
@@ -10403,7 +10373,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MEDANTA.NS",
     "market_regime": "NEUTRAL",
@@ -10434,7 +10404,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LTM.NS",
     "market_regime": "NEUTRAL",
@@ -10465,7 +10435,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HCLTECH.NS",
     "market_regime": "NEUTRAL",
@@ -10496,7 +10466,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POLYMED.NS",
     "market_regime": "NEUTRAL",
@@ -10527,7 +10497,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BOSCHLTD.NS",
     "market_regime": "NEUTRAL",
@@ -10559,7 +10529,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MGL.NS",
     "market_regime": "NEUTRAL",
@@ -10590,7 +10560,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CGCL.NS",
     "market_regime": "NEUTRAL",
@@ -10619,7 +10589,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BANKBARODA.NS",
     "market_regime": "NEUTRAL",
@@ -10650,7 +10620,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ZYDUSLIFE.NS",
     "market_regime": "NEUTRAL",
@@ -10679,7 +10649,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VEDL.NS",
     "market_regime": "NEUTRAL",
@@ -10710,7 +10680,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IGL.NS",
     "market_regime": "NEUTRAL",
@@ -10741,7 +10711,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ANANDRATHI.NS",
     "market_regime": "NEUTRAL",
@@ -10772,7 +10742,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GLENMARK.NS",
     "market_regime": "NEUTRAL",
@@ -10803,7 +10773,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DRREDDY.NS",
     "market_regime": "NEUTRAL",
@@ -10834,7 +10804,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSL.NS",
     "market_regime": "NEUTRAL",
@@ -10865,7 +10835,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIBANK.NS",
     "market_regime": "NEUTRAL",
@@ -10894,7 +10864,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IDEA.NS",
     "market_regime": "NEUTRAL",
@@ -10925,7 +10895,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUPREMEIND.NS",
     "market_regime": "NEUTRAL",
@@ -10956,7 +10926,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PATANJALI.NS",
     "market_regime": "NEUTRAL",
@@ -10987,7 +10957,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HONASA.NS",
     "market_regime": "NEUTRAL",
@@ -11018,7 +10988,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SCI.NS",
     "market_regime": "NEUTRAL",
@@ -11047,7 +11017,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LLOYDSME.NS",
     "market_regime": "NEUTRAL",
@@ -11076,7 +11046,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SARDAEN.NS",
     "market_regime": "NEUTRAL",
@@ -11107,7 +11077,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DATAPATTNS.NS",
     "market_regime": "NEUTRAL",
@@ -11138,7 +11108,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SIEMENS.NS",
     "market_regime": "NEUTRAL",
@@ -11169,7 +11139,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IDFCFIRSTB.NS",
     "market_regime": "NEUTRAL",
@@ -11200,7 +11170,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IDBI.NS",
     "market_regime": "NEUTRAL",
@@ -11231,7 +11201,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WHIRLPOOL.NS",
     "market_regime": "NEUTRAL",
@@ -11262,7 +11232,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSWINFRA.NS",
     "market_regime": "NEUTRAL",
@@ -11293,7 +11263,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GABRIEL.NS",
     "market_regime": "NEUTRAL",
@@ -11324,7 +11294,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DLF.NS",
     "market_regime": "NEUTRAL",
@@ -11355,7 +11325,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BAJAJHLDNG.NS",
     "market_regime": "NEUTRAL",
@@ -11387,7 +11357,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UNIONBANK.NS",
     "market_regime": "NEUTRAL",
@@ -11418,7 +11388,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAIL.NS",
     "market_regime": "NEUTRAL",
@@ -11449,7 +11419,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NAUKRI.NS",
     "market_regime": "NEUTRAL",
@@ -11480,7 +11450,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GLAXO.NS",
     "market_regime": "NEUTRAL",
@@ -11511,7 +11481,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "APLAPOLLO.NS",
     "market_regime": "NEUTRAL",
@@ -11542,7 +11512,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDHOTEL.NS",
     "market_regime": "NEUTRAL",
@@ -11571,7 +11541,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CONCORDBIO.NS",
     "market_regime": "NEUTRAL",
@@ -11602,7 +11572,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LICHSGFIN.NS",
     "market_regime": "NEUTRAL",
@@ -11633,7 +11603,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HSCL.NS",
     "market_regime": "NEUTRAL",
@@ -11664,7 +11634,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TRENT.NS",
     "market_regime": "NEUTRAL",
@@ -11695,7 +11665,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FSL.NS",
     "market_regime": "NEUTRAL",
@@ -11726,7 +11696,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BSOFT.NS",
     "market_regime": "NEUTRAL",
@@ -11757,7 +11727,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PCBL.NS",
     "market_regime": "NEUTRAL",
@@ -11786,7 +11756,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NTPCGREEN.NS",
     "market_regime": "NEUTRAL",
@@ -11815,7 +11785,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VBL.NS",
     "market_regime": "NEUTRAL",
@@ -11844,7 +11814,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "URBANCO.NS",
     "market_regime": "NEUTRAL",
@@ -11875,7 +11845,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MPHASIS.NS",
     "market_regime": "NEUTRAL",
@@ -11904,7 +11874,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HINDZINC.NS",
     "market_regime": "NEUTRAL",
@@ -11935,7 +11905,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LEMONTREE.NS",
     "market_regime": "NEUTRAL",
@@ -11964,7 +11934,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JSWDULUX.NS",
     "market_regime": "NEUTRAL",
@@ -11995,7 +11965,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ASTRAL.NS",
     "market_regime": "NEUTRAL",
@@ -12026,7 +11996,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KAJARIACER.NS",
     "market_regime": "NEUTRAL",
@@ -12055,7 +12025,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAREGAMA.NS",
     "market_regime": "NEUTRAL",
@@ -12084,7 +12054,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDIANB.NS",
     "market_regime": "NEUTRAL",
@@ -12115,7 +12085,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GAIL.NS",
     "market_regime": "NEUTRAL",
@@ -12144,7 +12114,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FEDERALBNK.NS",
     "market_regime": "NEUTRAL",
@@ -12173,7 +12143,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CRAFTSMAN.NS",
     "market_regime": "NEUTRAL",
@@ -12205,7 +12175,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MAHABANK.NS",
     "market_regime": "NEUTRAL",
@@ -12236,7 +12206,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "USHAMART.NS",
     "market_regime": "NEUTRAL",
@@ -12265,7 +12235,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DEVYANI.NS",
     "market_regime": "NEUTRAL",
@@ -12296,7 +12266,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BELRISE.NS",
     "market_regime": "NEUTRAL",
@@ -12325,7 +12295,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ANANTRAJ.NS",
     "market_regime": "NEUTRAL",
@@ -12356,7 +12326,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HAL.NS",
     "market_regime": "NEUTRAL",
@@ -12385,7 +12355,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JINDALSAW.NS",
     "market_regime": "NEUTRAL",
@@ -12414,7 +12384,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAPPHIRE.NS",
     "market_regime": "NEUTRAL",
@@ -12445,7 +12415,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PAYTM.NS",
     "market_regime": "NEUTRAL",
@@ -12474,7 +12444,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KALYANKJIL.NS",
     "market_regime": "NEUTRAL",
@@ -12505,7 +12475,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SONACOMS.NS",
     "market_regime": "NEUTRAL",
@@ -12534,7 +12504,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PPLPHARMA.NS",
     "market_regime": "NEUTRAL",
@@ -12563,7 +12533,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AJANTPHARM.NS",
     "market_regime": "NEUTRAL",
@@ -12592,7 +12562,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NYKAA.NS",
     "market_regime": "NEUTRAL",
@@ -12623,7 +12593,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CARBORUNIV.NS",
     "market_regime": "NEUTRAL",
@@ -12654,7 +12624,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BEML.NS",
     "market_regime": "NEUTRAL",
@@ -12683,7 +12653,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TECHM.NS",
     "market_regime": "NEUTRAL",
@@ -12714,7 +12684,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RADICO.NS",
     "market_regime": "NEUTRAL",
@@ -12745,7 +12715,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TENNIND.NS",
     "market_regime": "NEUTRAL",
@@ -12779,7 +12749,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TMCV.NS",
     "market_regime": "NEUTRAL",
@@ -12813,7 +12783,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TATACAP.NS",
     "market_regime": "NEUTRAL",
@@ -12847,7 +12817,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PIRAMALFIN.NS",
     "market_regime": "NEUTRAL",
@@ -12881,7 +12851,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PINELABS.NS",
     "market_regime": "NEUTRAL",
@@ -12915,7 +12885,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PWL.NS",
     "market_regime": "NEUTRAL",
@@ -12949,7 +12919,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MEESHO.NS",
     "market_regime": "NEUTRAL",
@@ -12983,7 +12953,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LENSKART.NS",
     "market_regime": "NEUTRAL",
@@ -13017,7 +12987,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LGEINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -13051,7 +13021,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KPIL.NS",
     "market_regime": "NEUTRAL",
@@ -13080,7 +13050,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ICICIAMC.NS",
     "market_regime": "NEUTRAL",
@@ -13114,7 +13084,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HEG.NS",
     "market_regime": "NEUTRAL",
@@ -13148,7 +13118,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EMMVEE.NS",
     "market_regime": "NEUTRAL",
@@ -13182,7 +13152,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CANHLIFE.NS",
     "market_regime": "NEUTRAL",
@@ -13216,7 +13186,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GROWW.NS",
     "market_regime": "NEUTRAL",
@@ -13250,7 +13220,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MOTHERSON.NS",
     "market_regime": "NEUTRAL",
@@ -13281,7 +13251,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "OIL.NS",
     "market_regime": "NEUTRAL",
@@ -13312,7 +13282,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NEULANDLAB.NS",
     "market_regime": "NEUTRAL",
@@ -13344,7 +13314,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WOCKPHARMA.NS",
     "market_regime": "NEUTRAL",
@@ -13373,7 +13343,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ANTHEM.NS",
     "market_regime": "NEUTRAL",
@@ -13402,7 +13372,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "VIJAYA.NS",
     "market_regime": "NEUTRAL",
@@ -13431,7 +13401,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SPLPETRO.NS",
     "market_regime": "NEUTRAL",
@@ -13462,7 +13432,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SUNTV.NS",
     "market_regime": "NEUTRAL",
@@ -13493,7 +13463,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "EMCURE.NS",
     "market_regime": "NEUTRAL",
@@ -13522,7 +13492,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AEGISVOPAK.NS",
     "market_regime": "NEUTRAL",
@@ -13551,7 +13521,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IIFL.NS",
     "market_regime": "NEUTRAL",
@@ -13580,7 +13550,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MRPL.NS",
     "market_regime": "NEUTRAL",
@@ -13609,7 +13579,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RKFORGE.NS",
     "market_regime": "NEUTRAL",
@@ -13638,7 +13608,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ATHERENERG.NS",
     "market_regime": "NEUTRAL",
@@ -13667,7 +13637,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PETRONET.NS",
     "market_regime": "NEUTRAL",
@@ -13696,7 +13666,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CHENNPETRO.NS",
     "market_regime": "NEUTRAL",
@@ -13727,7 +13697,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TVSMOTOR.NS",
     "market_regime": "NEUTRAL",
@@ -13758,7 +13728,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COHANCE.NS",
     "market_regime": "NEUTRAL",
@@ -13787,7 +13757,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AEGISLOG.NS",
     "market_regime": "NEUTRAL",
@@ -13818,7 +13788,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAILIFE.NS",
     "market_regime": "NEUTRAL",
@@ -13847,7 +13817,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RRKABEL.NS",
     "market_regime": "NEUTRAL",
@@ -13876,7 +13846,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TEGA.NS",
     "market_regime": "NEUTRAL",
@@ -13907,7 +13877,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CASTROLIND.NS",
     "market_regime": "NEUTRAL",
@@ -13936,7 +13906,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LTFOODS.NS",
     "market_regime": "NEUTRAL",
@@ -13965,7 +13935,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ELGIEQUIP.NS",
     "market_regime": "NEUTRAL",
@@ -13994,7 +13964,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CLEAN.NS",
     "market_regime": "NEUTRAL",
@@ -14023,7 +13993,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "APARINDS.NS",
     "market_regime": "NEUTRAL",
@@ -14055,7 +14025,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ACMESOLAR.NS",
     "market_regime": "NEUTRAL",
@@ -14084,7 +14054,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PNB.NS",
     "market_regime": "NEUTRAL",
@@ -14113,7 +14083,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NETWEB.NS",
     "market_regime": "NEUTRAL",
@@ -14142,7 +14112,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "JYOTICNC.NS",
     "market_regime": "NEUTRAL",
@@ -14171,7 +14141,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FLUOROCHEM.NS",
     "market_regime": "NEUTRAL",
@@ -14200,7 +14170,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AIIL.NS",
     "market_regime": "NEUTRAL",
@@ -14229,7 +14199,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "NAVINFLUOR.NS",
     "market_regime": "NEUTRAL",
@@ -14258,7 +14228,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ECLERX.NS",
     "market_regime": "NEUTRAL",
@@ -14287,7 +14257,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "INDGN.NS",
     "market_regime": "NEUTRAL",
@@ -14316,7 +14286,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BHEL.NS",
     "market_regime": "NEUTRAL",
@@ -14347,7 +14317,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PNBHOUSING.NS",
     "market_regime": "NEUTRAL",
@@ -14376,7 +14346,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CRISIL.NS",
     "market_regime": "NEUTRAL",
@@ -14405,7 +14375,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MOTILALOFS.NS",
     "market_regime": "NEUTRAL",
@@ -14434,7 +14404,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PVRINOX.NS",
     "market_regime": "NEUTRAL",
@@ -14465,7 +14435,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "BALRAMCHIN.NS",
     "market_regime": "NEUTRAL",
@@ -14494,7 +14464,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ETERNAL.NS",
     "market_regime": "NEUTRAL",
@@ -14523,7 +14493,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SHYAMMETL.NS",
     "market_regime": "NEUTRAL",
@@ -14552,7 +14522,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KARURVYSYA.NS",
     "market_regime": "NEUTRAL",
@@ -14581,7 +14551,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "COFORGE.NS",
     "market_regime": "NEUTRAL",
@@ -14610,7 +14580,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SAGILITY.NS",
     "market_regime": "NEUTRAL",
@@ -14639,7 +14609,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "REDINGTON.NS",
     "market_regime": "NEUTRAL",
@@ -14668,7 +14638,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PARADEEP.NS",
     "market_regime": "NEUTRAL",
@@ -14697,7 +14667,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ACE.NS",
     "market_regime": "NEUTRAL",
@@ -14726,7 +14696,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ABDL.NS",
     "market_regime": "NEUTRAL",
@@ -14757,7 +14727,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "CARTRADE.NS",
     "market_regime": "NEUTRAL",
@@ -14786,7 +14756,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "RBLBANK.NS",
     "market_regime": "NEUTRAL",
@@ -14817,7 +14787,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "PTCIL.NS",
     "market_regime": "NEUTRAL",
@@ -14849,7 +14819,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "FINCABLES.NS",
     "market_regime": "NEUTRAL",
@@ -14880,7 +14850,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "KOTAKBANK.NS",
     "market_regime": "NEUTRAL",
@@ -14911,7 +14881,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ASAHIINDIA.NS",
     "market_regime": "NEUTRAL",
@@ -14940,7 +14910,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "THELEELA.NS",
     "market_regime": "NEUTRAL",
@@ -14971,7 +14941,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GLAND.NS",
     "market_regime": "NEUTRAL",
@@ -15002,7 +14972,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "ENGINERSIN.NS",
     "market_regime": "NEUTRAL",
@@ -15033,7 +15003,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "HFCL.NS",
     "market_regime": "NEUTRAL",
@@ -15064,7 +15034,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DIVISLAB.NS",
     "market_regime": "NEUTRAL",
@@ -15093,7 +15063,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WELCORP.NS",
     "market_regime": "NEUTRAL",
@@ -15124,7 +15094,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "TBOTEK.NS",
     "market_regime": "NEUTRAL",
@@ -15153,7 +15123,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "AUROPHARMA.NS",
     "market_regime": "NEUTRAL",
@@ -15182,7 +15152,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "IPCALAB.NS",
     "market_regime": "NEUTRAL",
@@ -15211,7 +15181,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "LALPATHLAB.NS",
     "market_regime": "NEUTRAL",
@@ -15240,7 +15210,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "GRAPHITE.NS",
     "market_regime": "NEUTRAL",
@@ -15269,7 +15239,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "MCX.NS",
     "market_regime": "NEUTRAL",
@@ -15298,7 +15268,7 @@
     "conflicts": []
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SYRMA.NS",
     "market_regime": "NEUTRAL",
@@ -15329,7 +15299,7 @@
     ]
   },
   {
-    "ts": "2026-10-09T19:25:59+05:30",
+    "ts": "2026-10-09T22:55:07+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "WELSPUNLIV.NS",
     "market_regime": "NEUTRAL",
@@ -15352,6 +15322,64 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 34.68,
+    "warnings": [
+      "No relevant news; strategy does not contribute."
+    ],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-10-09T22:55:07+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "GESHIP.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "BUY_SMALL_PAPER",
+    "final_score": 75.6,
+    "strategy_contributions": {
+      "trend_following": 84.0,
+      "relative_strength": 100.0,
+      "mean_reversion": 52.0,
+      "breakout": 48.0,
+      "news_event_risk": 50.0,
+      "volatility_risk": 73.2,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "BUY_SMALL_PAPER",
+    "reason": "Final 75.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 32.42,
+    "warnings": [
+      "No relevant news; strategy does not contribute."
+    ],
+    "conflicts": []
+  },
+  {
+    "ts": "2026-10-09T22:55:07+05:30",
+    "event": "SIGNAL_EVALUATED",
+    "symbol": "LAURUSLABS.NS",
+    "market_regime": "NEUTRAL",
+    "final_recommendation": "BUY_SMALL_PAPER",
+    "final_score": 76.4,
+    "strategy_contributions": {
+      "trend_following": 83.9,
+      "relative_strength": 100.0,
+      "mean_reversion": 52.0,
+      "breakout": 70.0,
+      "news_event_risk": 50.0,
+      "volatility_risk": 64.4,
+      "portfolio_fit": 80.0
+    },
+    "risk_level": "LOW",
+    "data_quality_status": "GOOD",
+    "decision_taken": "BUY_SMALL_PAPER",
+    "reason": "Final 76.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
+    "paper_order_created": false,
+    "broker_adapter": "paper",
+    "execution_mode": "paper",
+    "estimated_costs": 28.7,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],

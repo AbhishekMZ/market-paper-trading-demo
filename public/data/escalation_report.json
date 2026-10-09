@@ -1,78 +1,25 @@
 {
-  "as_of": "2026-10-09T20:02:14+05:30",
+  "as_of": "2026-10-09T22:56:28+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "ITC.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.3% vs previous close.",
+      "symbol": "COLPAL.NS",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -13.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_81d40ef6adb4"
+        "trg_11e07b83c6b2",
+        "trg_28653234cf6b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
-      "manual_review_required": false,
+      "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1bc0d49ee7ec",
-      "created_at": "2026-10-09T20:02:14+05:30",
-      "expires_at": "2026-10-09T20:02:14+05:30"
-    },
-    {
-      "symbol": "CARTRADE.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.0% vs previous close.",
-      "trigger_ids": [
-        "trg_40ccc94485d5"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5789cd335af9",
-      "created_at": "2026-10-09T20:02:14+05:30",
-      "expires_at": "2026-10-09T20:02:14+05:30"
-    },
-    {
-      "symbol": "PARADEEP.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.5% vs previous close.",
-      "trigger_ids": [
-        "trg_ed1fdb40caba"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6dd4b58d8515",
-      "created_at": "2026-10-09T20:02:14+05:30",
-      "expires_at": "2026-10-09T20:02:14+05:30"
-    },
-    {
-      "symbol": "KARURVYSYA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
-      "trigger_ids": [
-        "trg_c769f3c9cff4"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_4c30591a53d7",
-      "created_at": "2026-10-09T20:02:14+05:30",
-      "expires_at": "2026-10-09T20:02:14+05:30"
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_257da8115486",
+      "created_at": "2026-10-09T22:56:28+05:30",
+      "expires_at": "2026-10-09T22:56:28+05:30"
     }
   ],
   "actions_taken": [],

@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-09T20:02:14+05:30",
+  "as_of": "2026-10-09T22:56:28+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
   "triggers_this_run": 6,
-  "escalations": 4,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 4,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 251,
-    "triggers_detected": 1116,
-    "escalations_created": 711,
+    "observation_runs": 252,
+    "triggers_detected": 1122,
+    "escalations_created": 712,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-09T20:02:14+05:30",
+    "last_run": "2026-10-09T22:56:28+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,9 +63,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_1bc0d49ee7ec",
-        "trigger_id": "trg_81d40ef6adb4",
-        "detected_at": "2026-10-09T20:00:08+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_a9ef87f6086c",
+        "detected_at": "2026-10-09T22:55:19+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -84,9 +84,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_e6844e466857",
-        "detected_at": "2026-10-09T20:00:17+05:30"
+        "created_escalation_id": "esc_257da8115486",
+        "trigger_id": "trg_11e07b83c6b2",
+        "detected_at": "2026-10-09T22:55:27+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -105,9 +105,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_5f8594bac93f",
-        "detected_at": "2026-10-09T20:00:17+05:30"
+        "created_escalation_id": "esc_257da8115486",
+        "trigger_id": "trg_28653234cf6b",
+        "detected_at": "2026-10-09T22:55:27+05:30"
       },
       {
         "symbol": "CARTRADE.NS",
@@ -126,9 +126,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_5789cd335af9",
-        "trigger_id": "trg_40ccc94485d5",
-        "detected_at": "2026-10-09T20:01:23+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_9c152a91c766",
+        "detected_at": "2026-10-09T22:55:54+05:30"
       },
       {
         "symbol": "PARADEEP.NS",
@@ -147,9 +147,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_6dd4b58d8515",
-        "trigger_id": "trg_ed1fdb40caba",
-        "detected_at": "2026-10-09T20:01:57+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_7dd38e66220c",
+        "detected_at": "2026-10-09T22:56:11+05:30"
       },
       {
         "symbol": "KARURVYSYA.NS",
@@ -168,95 +168,57 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_4c30591a53d7",
-        "trigger_id": "trg_c769f3c9cff4",
-        "detected_at": "2026-10-09T20:02:06+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_09a4b330ae55",
+        "detected_at": "2026-10-09T22:56:19+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "COLPAL.NS",
-        "trigger": "STRONG_LOSS_REVIEW",
+        "symbol": "ITC.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "CARTRADE.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "PARADEEP.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "KARURVYSYA.NS",
+        "trigger": "GAP_MOVE",
         "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "ITC.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.3% vs previous close.",
+        "symbol": "COLPAL.NS",
+        "severity": "HIGH",
+        "action_type": "TRIM_REVIEW",
+        "reason": "Held position at -13.2% breaches strong-loss -10%.",
         "trigger_ids": [
-          "trg_81d40ef6adb4"
+          "trg_11e07b83c6b2",
+          "trg_28653234cf6b"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
-        "manual_review_required": false,
+        "manual_review_required": true,
         "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_1bc0d49ee7ec",
-        "created_at": "2026-10-09T20:02:14+05:30",
-        "expires_at": "2026-10-09T20:02:14+05:30"
-      },
-      {
-        "symbol": "CARTRADE.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.0% vs previous close.",
-        "trigger_ids": [
-          "trg_40ccc94485d5"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_5789cd335af9",
-        "created_at": "2026-10-09T20:02:14+05:30",
-        "expires_at": "2026-10-09T20:02:14+05:30"
-      },
-      {
-        "symbol": "PARADEEP.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -2.5% vs previous close.",
-        "trigger_ids": [
-          "trg_ed1fdb40caba"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_6dd4b58d8515",
-        "created_at": "2026-10-09T20:02:14+05:30",
-        "expires_at": "2026-10-09T20:02:14+05:30"
-      },
-      {
-        "symbol": "KARURVYSYA.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.3% vs previous close.",
-        "trigger_ids": [
-          "trg_c769f3c9cff4"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_4c30591a53d7",
-        "created_at": "2026-10-09T20:02:14+05:30",
-        "expires_at": "2026-10-09T20:02:14+05:30"
+        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_257da8115486",
+        "created_at": "2026-10-09T22:56:28+05:30",
+        "expires_at": "2026-10-09T22:56:28+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-09T19:59:57+05:30"
+    "as_of": "2026-10-09T22:55:10+05:30"
   }
 }
