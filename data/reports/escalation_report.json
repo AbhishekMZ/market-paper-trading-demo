@@ -1,66 +1,14 @@
 {
-  "as_of": "2026-10-09T19:27:32+05:30",
+  "as_of": "2026-10-09T20:02:14+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -13.2% breaches strong-loss -10%.",
-      "trigger_ids": [
-        "trg_e5ebf6f44f46",
-        "trg_09e8506f65cc"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_63cd1ab98427",
-      "created_at": "2026-10-09T19:27:32+05:30",
-      "expires_at": "2026-10-09T19:27:32+05:30"
-    },
-    {
-      "symbol": "WELCORP.NS",
-      "severity": "HIGH",
+      "symbol": "ITC.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +9.4% since last observation.",
+      "reason": "Gap +4.3% vs previous close.",
       "trigger_ids": [
-        "trg_8cf0dca5f398"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "WELCORP.NS",
-        "score": 70.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_0bff6c984e69",
-      "created_at": "2026-10-09T19:27:32+05:30",
-      "expires_at": "2026-10-09T19:27:32+05:30"
-    },
-    {
-      "symbol": "CARTRADE.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -6.2% since last observation.",
-      "trigger_ids": [
-        "trg_b42bd39da01b",
-        "trg_659c58bf3bfa"
+        "trg_81d40ef6adb4"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -68,73 +16,63 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_49018374146e",
-      "created_at": "2026-10-09T19:27:32+05:30",
-      "expires_at": "2026-10-09T19:27:32+05:30"
+      "escalation_id": "esc_1bc0d49ee7ec",
+      "created_at": "2026-10-09T20:02:14+05:30",
+      "expires_at": "2026-10-09T20:02:14+05:30"
     },
     {
-      "symbol": "BALRAMCHIN.NS",
-      "severity": "HIGH",
+      "symbol": "CARTRADE.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +10.8% since last observation.",
+      "reason": "Gap +4.0% vs previous close.",
       "trigger_ids": [
-        "trg_09f0730de922"
+        "trg_40ccc94485d5"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "BALRAMCHIN.NS",
-        "score": 68.3,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 68.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=61.",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_47b3c9a5b355",
-      "created_at": "2026-10-09T19:27:32+05:30",
-      "expires_at": "2026-10-09T19:27:32+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_5789cd335af9",
+      "created_at": "2026-10-09T20:02:14+05:30",
+      "expires_at": "2026-10-09T20:02:14+05:30"
     },
     {
-      "symbol": "PTCIL.NS",
-      "severity": "HIGH",
+      "symbol": "PARADEEP.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +28.6% since last observation.",
+      "reason": "Gap -2.5% vs previous close.",
       "trigger_ids": [
-        "trg_4d022050b50d"
+        "trg_ed1fdb40caba"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "PTCIL.NS",
-        "score": 69.9,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_88d3e0006836",
-      "created_at": "2026-10-09T19:27:32+05:30",
-      "expires_at": "2026-10-09T19:27:32+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_6dd4b58d8515",
+      "created_at": "2026-10-09T20:02:14+05:30",
+      "expires_at": "2026-10-09T20:02:14+05:30"
+    },
+    {
+      "symbol": "KARURVYSYA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.3% vs previous close.",
+      "trigger_ids": [
+        "trg_c769f3c9cff4"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4c30591a53d7",
+      "created_at": "2026-10-09T20:02:14+05:30",
+      "expires_at": "2026-10-09T20:02:14+05:30"
     }
   ],
   "actions_taken": [],
