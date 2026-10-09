@@ -1,89 +1,5 @@
 [
   {
-    "symbol": "PIRAMALFIN.NS",
-    "trigger_type": "LARGE_MOVE",
-    "severity": "HIGH",
-    "reason": "Moved +6.6% since last observation.",
-    "company_name": "Piramal Finance Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 2300.39990234375,
-    "previous_price": null,
-    "change_pct": 6.64,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": true,
-    "blocks_action": false,
-    "created_escalation_id": "esc_e9acbf801c1c",
-    "trigger_id": "trg_8b35c1527eee",
-    "detected_at": "2026-08-31T17:42:21+05:30"
-  },
-  {
-    "symbol": "POLICYBZR.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap +3.5% vs previous close.",
-    "company_name": "PB Fintech Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 1875.0,
-    "previous_price": null,
-    "change_pct": 3.5054,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_79b7d2fdabc3",
-    "trigger_id": "trg_6f55deb0d45c",
-    "detected_at": "2026-08-31T17:42:38+05:30"
-  },
-  {
-    "symbol": "KPRMILL.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap +4.2% vs previous close.",
-    "company_name": "K.P.R. Mill Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 1177.5999755859375,
-    "previous_price": null,
-    "change_pct": 4.1939,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_7c94cbe4e6eb",
-    "trigger_id": "trg_d0009bf4e568",
-    "detected_at": "2026-08-31T17:43:23+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap -3.9% vs previous close.",
-    "company_name": "ITC.NS",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 255.5,
-    "previous_price": null,
-    "change_pct": -3.9474,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_cc9f10022a3b",
-    "trigger_id": "trg_e81364b45046",
-    "detected_at": "2026-08-31T19:19:08+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "trigger_type": "SOFT_LOSS_REVIEW",
     "severity": "MEDIUM",
@@ -10306,9 +10222,93 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
+    "created_escalation_id": "esc_bff0ef03ef29",
+    "trigger_id": "trg_bf18ed152708",
+    "detected_at": "2026-10-09T17:14:36+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap +4.3% vs previous close.",
+    "company_name": "ITC.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 266.0,
+    "previous_price": null,
+    "change_pct": 4.3137,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
     "created_escalation_id": null,
-    "trigger_id": "trg_e640011fc5e2",
-    "detected_at": "2026-10-09T18:05:58+05:30"
+    "trigger_id": "trg_51092e2d72af",
+    "detected_at": "2026-10-09T19:26:11+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "trigger_type": "STRONG_LOSS_REVIEW",
+    "severity": "HIGH",
+    "reason": "Held position at -13.2% breaches strong-loss -10%.",
+    "company_name": "COLPAL.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1817.800048828125,
+    "previous_price": null,
+    "change_pct": -13.17,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "TRIM_REVIEW.",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_63cd1ab98427",
+    "trigger_id": "trg_e5ebf6f44f46",
+    "detected_at": "2026-10-09T19:26:19+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap +4.7% vs previous close.",
+    "company_name": "COLPAL.NS",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1817.800048828125,
+    "previous_price": null,
+    "change_pct": 4.7301,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_63cd1ab98427",
+    "trigger_id": "trg_09e8506f65cc",
+    "detected_at": "2026-10-09T19:26:19+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "MEDIUM",
+    "reason": "Moved -3.6% since last observation.",
+    "company_name": "Shyam Metalics and Energy Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1060.0999755859375,
+    "previous_price": null,
+    "change_pct": -3.63,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": null,
+    "trigger_id": "trg_52978b9eee78",
+    "detected_at": "2026-10-09T19:26:28+05:30"
   },
   {
     "symbol": "WELCORP.NS",
@@ -10327,9 +10327,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": true,
     "blocks_action": false,
-    "created_escalation_id": "esc_376fa9daa47a",
-    "trigger_id": "trg_2d3d3a04e025",
-    "detected_at": "2026-10-09T18:06:00+05:30"
+    "created_escalation_id": "esc_0bff6c984e69",
+    "trigger_id": "trg_8cf0dca5f398",
+    "detected_at": "2026-10-09T19:26:29+05:30"
   },
   {
     "symbol": "CARTRADE.NS",
@@ -10348,9 +10348,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
-    "created_escalation_id": "esc_804d28680831",
-    "trigger_id": "trg_6bea54140015",
-    "detected_at": "2026-10-09T18:06:16+05:30"
+    "created_escalation_id": "esc_49018374146e",
+    "trigger_id": "trg_b42bd39da01b",
+    "detected_at": "2026-10-09T19:26:48+05:30"
   },
   {
     "symbol": "CARTRADE.NS",
@@ -10369,9 +10369,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
-    "created_escalation_id": "esc_804d28680831",
-    "trigger_id": "trg_4ebfffbc2ba6",
-    "detected_at": "2026-10-09T18:06:16+05:30"
+    "created_escalation_id": "esc_49018374146e",
+    "trigger_id": "trg_659c58bf3bfa",
+    "detected_at": "2026-10-09T19:26:48+05:30"
   },
   {
     "symbol": "BALRAMCHIN.NS",
@@ -10390,9 +10390,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": true,
     "blocks_action": false,
-    "created_escalation_id": "esc_7c078e7d3777",
-    "trigger_id": "trg_4a95365c47d7",
-    "detected_at": "2026-10-09T18:06:25+05:30"
+    "created_escalation_id": "esc_47b3c9a5b355",
+    "trigger_id": "trg_09f0730de922",
+    "detected_at": "2026-10-09T19:26:58+05:30"
   },
   {
     "symbol": "PTCIL.NS",
@@ -10411,9 +10411,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": true,
     "blocks_action": false,
-    "created_escalation_id": "esc_a7af873468c7",
-    "trigger_id": "trg_acb21d5e79cb",
-    "detected_at": "2026-10-09T18:06:25+05:30"
+    "created_escalation_id": "esc_88d3e0006836",
+    "trigger_id": "trg_4d022050b50d",
+    "detected_at": "2026-10-09T19:26:58+05:30"
   },
   {
     "symbol": "PARADEEP.NS",
@@ -10433,8 +10433,8 @@
     "requires_focused_analysis": false,
     "blocks_action": false,
     "created_escalation_id": null,
-    "trigger_id": "trg_8b410ad077e5",
-    "detected_at": "2026-10-09T18:06:34+05:30"
+    "trigger_id": "trg_3d15b9246bc0",
+    "detected_at": "2026-10-09T19:27:08+05:30"
   },
   {
     "symbol": "PARADEEP.NS",
@@ -10454,8 +10454,8 @@
     "requires_focused_analysis": false,
     "blocks_action": false,
     "created_escalation_id": null,
-    "trigger_id": "trg_1a34e9065094",
-    "detected_at": "2026-10-09T18:06:34+05:30"
+    "trigger_id": "trg_29fc382859e8",
+    "detected_at": "2026-10-09T19:27:08+05:30"
   },
   {
     "symbol": "KARURVYSYA.NS",
@@ -10475,8 +10475,8 @@
     "requires_focused_analysis": false,
     "blocks_action": false,
     "created_escalation_id": null,
-    "trigger_id": "trg_ba416e510dec",
-    "detected_at": "2026-10-09T18:06:43+05:30"
+    "trigger_id": "trg_6cc45fd4960c",
+    "detected_at": "2026-10-09T19:27:19+05:30"
   },
   {
     "symbol": "KOTAKBANK.NS",
@@ -10496,7 +10496,7 @@
     "requires_focused_analysis": true,
     "blocks_action": false,
     "created_escalation_id": null,
-    "trigger_id": "trg_29bdff9ae92f",
-    "detected_at": "2026-10-09T18:06:51+05:30"
+    "trigger_id": "trg_8f429dfb1d6f",
+    "detected_at": "2026-10-09T19:27:32+05:30"
   }
 ]

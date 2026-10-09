@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-09T18:06:52+05:30",
+  "as_of": "2026-10-09T19:27:32+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
@@ -8,9 +8,8 @@
       "action_type": "TRIM_REVIEW",
       "reason": "Held position at -13.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_5bc0c7c859cf",
-        "trg_8c770a536e2d",
-        "trg_15f93c7dc48c"
+        "trg_e5ebf6f44f46",
+        "trg_09e8506f65cc"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -18,9 +17,9 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_f431108d0b96",
-      "created_at": "2026-10-09T18:06:52+05:30",
-      "expires_at": "2026-10-09T18:06:52+05:30"
+      "escalation_id": "esc_63cd1ab98427",
+      "created_at": "2026-10-09T19:27:32+05:30",
+      "expires_at": "2026-10-09T19:27:32+05:30"
     },
     {
       "symbol": "WELCORP.NS",
@@ -28,7 +27,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Moved +9.4% since last observation.",
       "trigger_ids": [
-        "trg_2d3d3a04e025"
+        "trg_8cf0dca5f398"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -50,9 +49,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_376fa9daa47a",
-      "created_at": "2026-10-09T18:06:52+05:30",
-      "expires_at": "2026-10-09T18:06:52+05:30"
+      "escalation_id": "esc_0bff6c984e69",
+      "created_at": "2026-10-09T19:27:32+05:30",
+      "expires_at": "2026-10-09T19:27:32+05:30"
     },
     {
       "symbol": "CARTRADE.NS",
@@ -60,8 +59,8 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Moved -6.2% since last observation.",
       "trigger_ids": [
-        "trg_6bea54140015",
-        "trg_4ebfffbc2ba6"
+        "trg_b42bd39da01b",
+        "trg_659c58bf3bfa"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -69,9 +68,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_804d28680831",
-      "created_at": "2026-10-09T18:06:52+05:30",
-      "expires_at": "2026-10-09T18:06:52+05:30"
+      "escalation_id": "esc_49018374146e",
+      "created_at": "2026-10-09T19:27:32+05:30",
+      "expires_at": "2026-10-09T19:27:32+05:30"
     },
     {
       "symbol": "BALRAMCHIN.NS",
@@ -79,7 +78,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Moved +10.8% since last observation.",
       "trigger_ids": [
-        "trg_4a95365c47d7"
+        "trg_09f0730de922"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -101,9 +100,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_7c078e7d3777",
-      "created_at": "2026-10-09T18:06:52+05:30",
-      "expires_at": "2026-10-09T18:06:52+05:30"
+      "escalation_id": "esc_47b3c9a5b355",
+      "created_at": "2026-10-09T19:27:32+05:30",
+      "expires_at": "2026-10-09T19:27:32+05:30"
     },
     {
       "symbol": "PTCIL.NS",
@@ -111,7 +110,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Moved +28.6% since last observation.",
       "trigger_ids": [
-        "trg_acb21d5e79cb"
+        "trg_4d022050b50d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -133,9 +132,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_a7af873468c7",
-      "created_at": "2026-10-09T18:06:52+05:30",
-      "expires_at": "2026-10-09T18:06:52+05:30"
+      "escalation_id": "esc_88d3e0006836",
+      "created_at": "2026-10-09T19:27:32+05:30",
+      "expires_at": "2026-10-09T19:27:32+05:30"
     }
   ],
   "actions_taken": [],

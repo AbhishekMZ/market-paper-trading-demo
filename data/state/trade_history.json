@@ -8415,7 +8415,7 @@
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_8e0685c1c52f",
+    "order_id": "ord_232102408f99",
     "symbol": "LAURUSLABS.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8427,12 +8427,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 8146.40, have 100.34.",
     "reason": "Final 76.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
-    "signal_id": "sig_398d7f384848",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_6cbce50da14f",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_445a9580f239",
+    "order_id": "ord_4f9932d78fdf",
     "symbol": "GESHIP.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8444,12 +8444,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9202.20, have 100.34.",
     "reason": "Final 75.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
-    "signal_id": "sig_215d8f6402b9",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_2087e39d58c0",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_3ff64df1e0d8",
+    "order_id": "ord_1ef4fd5f9542",
     "symbol": "WELSPUNLIV.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8461,12 +8461,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9845.00, have 100.34.",
     "reason": "Final 75.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80.",
-    "signal_id": "sig_1017aa03e060",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_be4e248774ac",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_3b68ac7a46a7",
+    "order_id": "ord_ede80bd3aa97",
     "symbol": "MCX.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8478,12 +8478,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9954.60, have 100.34.",
     "reason": "Final 73.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=75.",
-    "signal_id": "sig_680ca2736e7d",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_11198c410498",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_8e08af7af618",
+    "order_id": "ord_72f0da6dacb6",
     "symbol": "GRAPHITE.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8495,12 +8495,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9679.20, have 100.34.",
     "reason": "Final 73.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
-    "signal_id": "sig_b766c016942e",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_f1b1c0b914bf",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_2493b1e653f8",
+    "order_id": "ord_1d837ab864f6",
     "symbol": "LALPATHLAB.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8512,12 +8512,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9668.00, have 100.34.",
     "reason": "Final 72.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=84, portfolio_fit=80.",
-    "signal_id": "sig_896d3fdccfed",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_2d98e6277de5",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_6ddb609610e9",
+    "order_id": "ord_006a81c81cdf",
     "symbol": "IPCALAB.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8529,12 +8529,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9577.00, have 100.34.",
     "reason": "Final 72.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=92, portfolio_fit=80.",
-    "signal_id": "sig_10f3a4add537",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_26ac70cf8baa",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_0121687bf365",
+    "order_id": "ord_9cfdd113357c",
     "symbol": "AUROPHARMA.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8546,12 +8546,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 8465.00, have 100.34.",
     "reason": "Final 71.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.",
-    "signal_id": "sig_3d7d0a8a7080",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_b0c58e1bc637",
+    "timestamp": "2026-10-09T19:25:58+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_475af6698ddb",
+    "order_id": "ord_8c6f979898f2",
     "symbol": "TBOTEK.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8563,12 +8563,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9998.40, have 100.34.",
     "reason": "Final 71.2/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=95, portfolio_fit=80.",
-    "signal_id": "sig_5b84721b9ad9",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_ab34b610d380",
+    "timestamp": "2026-10-09T19:25:59+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_99b467e41846",
+    "order_id": "ord_f9ed32afc67d",
     "symbol": "DIVISLAB.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8580,12 +8580,12 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9340.00, have 100.34.",
     "reason": "Final 70.8/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.",
-    "signal_id": "sig_2cb8de10b336",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_6393abe08367",
+    "timestamp": "2026-10-09T19:25:59+05:30",
     "realized_pnl": 0.0
   },
   {
-    "order_id": "ord_9b01ec8606f7",
+    "order_id": "ord_9d78fbc198bf",
     "symbol": "ASAHIINDIA.NS",
     "side": "BUY",
     "status": "REJECTED",
@@ -8597,8 +8597,8 @@
     "broker_adapter": "paper",
     "message": "Insufficient fake cash: need 9459.50, have 100.34.",
     "reason": "Final 70.2/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=85, portfolio_fit=80.",
-    "signal_id": "sig_6d8321c821c4",
-    "timestamp": "2026-10-09T18:05:29+05:30",
+    "signal_id": "sig_3c8f4776e3f0",
+    "timestamp": "2026-10-09T19:25:59+05:30",
     "realized_pnl": 0.0
   }
 ]

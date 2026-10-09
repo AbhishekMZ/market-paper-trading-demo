@@ -1,6 +1,6 @@
 [
   {
-    "ts": "2026-10-09T16:50:49+05:30",
+    "ts": "2026-10-09T18:12:31+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
     "prev_price": 538.92,
@@ -9,7 +9,7 @@
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   },
   {
-    "ts": "2026-10-09T16:49:42+05:30",
+    "ts": "2026-10-09T18:11:32+05:30",
     "symbol": "POLICYBZR.NS",
     "issue": "data_anomaly",
     "price_source": "history.close",
@@ -25,7 +25,7 @@
     "action": "blocked_buy_and_excluded_from_marking"
   },
   {
-    "ts": "2026-10-09T16:48:56+05:30",
+    "ts": "2026-10-09T18:10:52+05:30",
     "symbol": "JBCHEPHARM.NS",
     "issue": "data_insufficient",
     "price_source": "fallback",

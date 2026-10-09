@@ -463,7 +463,7 @@ FIVESTAR.NS(49.7), BERGEPAINT.NS(49.5), KAYNES.NS(49.5), NHPC.NS(49.4), DEEPAKNT
 - FINCABLES.NS (WATCH, 70.1): Final 70.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 11551 (no API-key quota)
+- Provider: `yfinance` · calls today: 1005 · total this month: 11553 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
