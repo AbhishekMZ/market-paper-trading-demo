@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-12T18:21:52+05:30",
+  "as_of": "2026-10-12T18:39:50+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 14,
+  "triggers_this_run": 12,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
@@ -13,12 +13,12 @@
   "emails_sent": 0,
   "metrics": {
     "observation_runs": 253,
-    "triggers_detected": 1136,
+    "triggers_detected": 1134,
     "escalations_created": 717,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-12T18:21:52+05:30",
+    "last_run": "2026-10-12T18:39:50+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -27,19 +27,19 @@
     "observed_symbols": [
       "ITC.NS",
       "COLPAL.NS",
+      "ANANDRATHI.NS",
       "GLAND.NS",
-      "SHYAMMETL.NS",
-      "REDINGTON.NS",
+      "CPPLUS.NS",
       "SYRMA.NS",
-      "WELCORP.NS",
       "THELEELA.NS",
-      "CARTRADE.NS",
+      "CYIENT.NS",
       "BALRAMCHIN.NS",
       "PTCIL.NS",
       "HFCL.NS",
       "PARADEEP.NS",
-      "KARURVYSYA.NS",
-      "KOTAKBANK.NS"
+      "KOTAKBANK.NS",
+      "ETERNAL.NS",
+      "ECLERX.NS"
     ],
     "open_positions_observed": [
       "ITC.NS",
@@ -63,9 +63,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_d3c5e4af164c",
-        "trigger_id": "trg_af5a88260630",
-        "detected_at": "2026-10-12T18:19:52+05:30"
+        "created_escalation_id": "esc_aa8a712710cb",
+        "trigger_id": "trg_a52d033813a2",
+        "detected_at": "2026-10-12T18:38:24+05:30"
       },
       {
         "symbol": "ITC.NS",
@@ -84,30 +84,30 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_d3c5e4af164c",
-        "trigger_id": "trg_851cd3711949",
-        "detected_at": "2026-10-12T18:19:52+05:30"
+        "created_escalation_id": "esc_aa8a712710cb",
+        "trigger_id": "trg_1f7489d5f6c8",
+        "detected_at": "2026-10-12T18:38:24+05:30"
       },
       {
         "symbol": "COLPAL.NS",
-        "trigger_type": "STRONG_LOSS_REVIEW",
-        "severity": "HIGH",
-        "reason": "Held position at -13.2% breaches strong-loss -10%.",
+        "trigger_type": "HARD_LOSS_REVIEW",
+        "severity": "CRITICAL",
+        "reason": "Held position at -15.6% breaches hard-loss -15%.",
         "company_name": "COLPAL.NS",
         "status": "DETECTED",
         "source": "observation",
         "price_at_detection": 1767.0,
         "previous_price": null,
-        "change_pct": -13.17,
+        "change_pct": -15.6,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
-        "recommended_next_step": "TRIM_REVIEW.",
+        "recommended_next_step": "EXIT_REVIEW (never auto-sells).",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_30b9aae21cca",
-        "trigger_id": "trg_f929c5d55f8a",
-        "detected_at": "2026-10-12T18:20:00+05:30"
+        "created_escalation_id": "esc_772e40c20096",
+        "trigger_id": "trg_2aa2e0e92f86",
+        "detected_at": "2026-10-12T18:38:33+05:30"
       },
       {
         "symbol": "COLPAL.NS",
@@ -126,135 +126,72 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_30b9aae21cca",
-        "trigger_id": "trg_6e05a65debb8",
-        "detected_at": "2026-10-12T18:20:00+05:30"
+        "created_escalation_id": "esc_772e40c20096",
+        "trigger_id": "trg_58b4545504d7",
+        "detected_at": "2026-10-12T18:38:33+05:30"
       },
       {
-        "symbol": "SHYAMMETL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.7% vs previous close.",
-        "company_name": "Shyam Metalics and Energy Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1088.5,
-        "previous_price": null,
-        "change_pct": 2.679,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_3cf2cc58ff62",
-        "detected_at": "2026-10-12T18:20:17+05:30"
-      },
-      {
-        "symbol": "REDINGTON.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +2.7% vs previous close.",
-        "company_name": "Redington Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 390.20001220703125,
-        "previous_price": null,
-        "change_pct": 2.6842,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_e752b9ea1909",
-        "detected_at": "2026-10-12T18:20:26+05:30"
-      },
-      {
-        "symbol": "WELCORP.NS",
+        "symbol": "ANANDRATHI.NS",
         "trigger_type": "LARGE_MOVE",
         "severity": "MEDIUM",
-        "reason": "Moved +5.8% since last observation.",
-        "company_name": "Welspun Corp Ltd.",
+        "reason": "Moved -5.4% since last observation.",
+        "company_name": "Anand Rathi Wealth Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 2793.89990234375,
+        "price_at_detection": 2087.0,
         "previous_price": null,
-        "change_pct": 5.81,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_755c141cb175",
-        "trigger_id": "trg_e38fe2d85bc8",
-        "detected_at": "2026-10-12T18:20:43+05:30"
-      },
-      {
-        "symbol": "WELCORP.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +5.8% vs previous close.",
-        "company_name": "Welspun Corp Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2793.89990234375,
-        "previous_price": null,
-        "change_pct": 5.8135,
+        "change_pct": -5.4,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_755c141cb175",
-        "trigger_id": "trg_abe2353c3ff8",
-        "detected_at": "2026-10-12T18:20:43+05:30"
+        "created_escalation_id": "esc_d7c2edff4d49",
+        "trigger_id": "trg_cdb33d79499e",
+        "detected_at": "2026-10-12T18:38:41+05:30"
       },
       {
-        "symbol": "CARTRADE.NS",
+        "symbol": "CPPLUS.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +4.1% since last observation.",
+        "company_name": "Aditya Infotech Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 4134.10009765625,
+        "previous_price": null,
+        "change_pct": 4.08,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_55c744bb4ef0",
+        "trigger_id": "trg_39461896a6b9",
+        "detected_at": "2026-10-12T18:38:58+05:30"
+      },
+      {
+        "symbol": "CYIENT.NS",
         "trigger_type": "LARGE_MOVE",
         "severity": "HIGH",
-        "reason": "Moved +8.1% since last observation.",
-        "company_name": "Cartrade Tech Ltd.",
+        "reason": "Moved +7.6% since last observation.",
+        "company_name": "Cyient Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 3191.300048828125,
+        "price_at_detection": 1153.800048828125,
         "previous_price": null,
-        "change_pct": 8.14,
+        "change_pct": 7.61,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_3f7780b8f325",
-        "trigger_id": "trg_fe418a03f7d2",
-        "detected_at": "2026-10-12T18:21:00+05:30"
-      },
-      {
-        "symbol": "CARTRADE.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +8.1% vs previous close.",
-        "company_name": "Cartrade Tech Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3191.300048828125,
-        "previous_price": null,
-        "change_pct": 8.143,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_3f7780b8f325",
-        "trigger_id": "trg_3c6b9fa2e4cb",
-        "detected_at": "2026-10-12T18:21:00+05:30"
+        "created_escalation_id": "esc_69da61428ca2",
+        "trigger_id": "trg_02adfe1aa377",
+        "detected_at": "2026-10-12T18:39:15+05:30"
       },
       {
         "symbol": "BALRAMCHIN.NS",
@@ -273,9 +210,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_19aab79e9eb2",
-        "trigger_id": "trg_7f74ef6affdc",
-        "detected_at": "2026-10-12T18:21:09+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_67f47b0e3e76",
+        "detected_at": "2026-10-12T18:39:23+05:30"
       },
       {
         "symbol": "BALRAMCHIN.NS",
@@ -294,9 +231,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_19aab79e9eb2",
-        "trigger_id": "trg_626cfba2fb0d",
-        "detected_at": "2026-10-12T18:21:09+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_f9038331fa93",
+        "detected_at": "2026-10-12T18:39:23+05:30"
       },
       {
         "symbol": "PTCIL.NS",
@@ -316,8 +253,8 @@
         "requires_focused_analysis": true,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_0639d0f7ce21",
-        "detected_at": "2026-10-12T18:21:17+05:30"
+        "trigger_id": "trg_488add1b7e08",
+        "detected_at": "2026-10-12T18:39:24+05:30"
       },
       {
         "symbol": "PTCIL.NS",
@@ -337,146 +274,81 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_44f39294635d",
-        "detected_at": "2026-10-12T18:21:17+05:30"
+        "trigger_id": "trg_6e14cd50013c",
+        "detected_at": "2026-10-12T18:39:24+05:30"
+      },
+      {
+        "symbol": "ETERNAL.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved -5.7% since last observation.",
+        "company_name": "Eternal Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 323.0,
+        "previous_price": null,
+        "change_pct": -5.73,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": null,
+        "trigger_id": "trg_23b7affbe07c",
+        "detected_at": "2026-10-12T18:39:49+05:30"
       }
     ],
     "throttled": [
+      {
+        "symbol": "BALRAMCHIN.NS",
+        "trigger": "LARGE_MOVE",
+        "reason": "max_escalations_per_run"
+      },
       {
         "symbol": "PTCIL.NS",
         "trigger": "LARGE_MOVE",
         "reason": "max_escalations_per_run"
       },
       {
-        "symbol": "SHYAMMETL.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "REDINGTON.NS",
-        "trigger": "GAP_MOVE",
+        "symbol": "ETERNAL.NS",
+        "trigger": "LARGE_MOVE",
         "reason": "max_escalations_per_run"
       }
     ],
     "escalations": [
       {
         "symbol": "COLPAL.NS",
-        "severity": "HIGH",
-        "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -13.2% breaches strong-loss -10%.",
+        "severity": "CRITICAL",
+        "action_type": "EXIT_REVIEW",
+        "reason": "Held position at -15.6% breaches hard-loss -15%.",
         "trigger_ids": [
-          "trg_f929c5d55f8a",
-          "trg_6e05a65debb8"
+          "trg_2aa2e0e92f86",
+          "trg_58b4545504d7"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
         "manual_review_required": true,
         "email_sent": false,
-        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_30b9aae21cca",
-        "created_at": "2026-10-12T18:21:52+05:30",
-        "expires_at": "2026-10-12T18:21:52+05:30"
+        "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+        "escalation_id": "esc_772e40c20096",
+        "created_at": "2026-10-12T18:39:50+05:30",
+        "expires_at": "2026-10-12T18:39:50+05:30"
       },
       {
-        "symbol": "CARTRADE.NS",
+        "symbol": "CYIENT.NS",
         "severity": "HIGH",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +8.1% since last observation.",
+        "reason": "Moved +7.6% since last observation.",
         "trigger_ids": [
-          "trg_fe418a03f7d2",
-          "trg_3c6b9fa2e4cb"
+          "trg_02adfe1aa377"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "CARTRADE.NS",
-          "score": 51.9,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 51.9/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=61. Penalties: extreme_daily_move.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_3f7780b8f325",
-        "created_at": "2026-10-12T18:21:52+05:30",
-        "expires_at": "2026-10-12T18:21:52+05:30"
-      },
-      {
-        "symbol": "ITC.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.0% since last observation.",
-        "trigger_ids": [
-          "trg_af5a88260630",
-          "trg_851cd3711949"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_d3c5e4af164c",
-        "created_at": "2026-10-12T18:21:52+05:30",
-        "expires_at": "2026-10-12T18:21:52+05:30"
-      },
-      {
-        "symbol": "WELCORP.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +5.8% since last observation.",
-        "trigger_ids": [
-          "trg_e38fe2d85bc8",
-          "trg_abe2353c3ff8"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "WELCORP.NS",
-          "score": 53.5,
-          "label": "NO_ACTION",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 53.5/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-        "escalation_id": "esc_755c141cb175",
-        "created_at": "2026-10-12T18:21:52+05:30",
-        "expires_at": "2026-10-12T18:21:52+05:30"
-      },
-      {
-        "symbol": "BALRAMCHIN.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.3% since last observation.",
-        "trigger_ids": [
-          "trg_7f74ef6affdc",
-          "trg_626cfba2fb0d"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "BALRAMCHIN.NS",
-          "score": 66.9,
+          "symbol": "CYIENT.NS",
+          "score": 70.2,
           "label": "WATCH",
           "previous_label": "WATCH",
           "valid_opportunity": false,
@@ -486,20 +358,89 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 66.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=57.",
-          "strengthened": false
+          "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+          "strengthened": true
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_19aab79e9eb2",
-        "created_at": "2026-10-12T18:21:52+05:30",
-        "expires_at": "2026-10-12T18:21:52+05:30"
+        "escalation_id": "esc_69da61428ca2",
+        "created_at": "2026-10-12T18:39:50+05:30",
+        "expires_at": "2026-10-12T18:39:50+05:30"
+      },
+      {
+        "symbol": "ITC.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved -3.0% since last observation.",
+        "trigger_ids": [
+          "trg_a52d033813a2",
+          "trg_1f7489d5f6c8"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_aa8a712710cb",
+        "created_at": "2026-10-12T18:39:50+05:30",
+        "expires_at": "2026-10-12T18:39:50+05:30"
+      },
+      {
+        "symbol": "ANANDRATHI.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved -5.4% since last observation.",
+        "trigger_ids": [
+          "trg_cdb33d79499e"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_d7c2edff4d49",
+        "created_at": "2026-10-12T18:39:50+05:30",
+        "expires_at": "2026-10-12T18:39:50+05:30"
+      },
+      {
+        "symbol": "CPPLUS.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +4.1% since last observation.",
+        "trigger_ids": [
+          "trg_39461896a6b9"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "CPPLUS.NS",
+          "score": 71.5,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_55c744bb4ef0",
+        "created_at": "2026-10-12T18:39:50+05:30",
+        "expires_at": "2026-10-12T18:39:50+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-12T18:19:43+05:30"
+    "as_of": "2026-10-12T18:38:16+05:30"
   }
 }

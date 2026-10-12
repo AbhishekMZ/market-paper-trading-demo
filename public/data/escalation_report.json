@@ -1,125 +1,39 @@
 {
-  "as_of": "2026-10-12T18:21:52+05:30",
+  "as_of": "2026-10-12T18:39:50+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -13.2% breaches strong-loss -10%.",
+      "severity": "CRITICAL",
+      "action_type": "EXIT_REVIEW",
+      "reason": "Held position at -15.6% breaches hard-loss -15%.",
       "trigger_ids": [
-        "trg_f929c5d55f8a",
-        "trg_6e05a65debb8"
+        "trg_2aa2e0e92f86",
+        "trg_58b4545504d7"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_30b9aae21cca",
-      "created_at": "2026-10-12T18:21:52+05:30",
-      "expires_at": "2026-10-12T18:21:52+05:30"
+      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_772e40c20096",
+      "created_at": "2026-10-12T18:39:50+05:30",
+      "expires_at": "2026-10-12T18:39:50+05:30"
     },
     {
-      "symbol": "CARTRADE.NS",
+      "symbol": "CYIENT.NS",
       "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +8.1% since last observation.",
+      "reason": "Moved +7.6% since last observation.",
       "trigger_ids": [
-        "trg_fe418a03f7d2",
-        "trg_3c6b9fa2e4cb"
+        "trg_02adfe1aa377"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "CARTRADE.NS",
-        "score": 51.9,
-        "label": "NO_ACTION",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 51.9/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=61. Penalties: extreme_daily_move.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-      "escalation_id": "esc_3f7780b8f325",
-      "created_at": "2026-10-12T18:21:52+05:30",
-      "expires_at": "2026-10-12T18:21:52+05:30"
-    },
-    {
-      "symbol": "ITC.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.0% since last observation.",
-      "trigger_ids": [
-        "trg_af5a88260630",
-        "trg_851cd3711949"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d3c5e4af164c",
-      "created_at": "2026-10-12T18:21:52+05:30",
-      "expires_at": "2026-10-12T18:21:52+05:30"
-    },
-    {
-      "symbol": "WELCORP.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.8% since last observation.",
-      "trigger_ids": [
-        "trg_e38fe2d85bc8",
-        "trg_abe2353c3ff8"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "WELCORP.NS",
-        "score": 53.5,
-        "label": "NO_ACTION",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 53.5/100 -> NO_ACTION [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-      "escalation_id": "esc_755c141cb175",
-      "created_at": "2026-10-12T18:21:52+05:30",
-      "expires_at": "2026-10-12T18:21:52+05:30"
-    },
-    {
-      "symbol": "BALRAMCHIN.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.3% since last observation.",
-      "trigger_ids": [
-        "trg_7f74ef6affdc",
-        "trg_626cfba2fb0d"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "BALRAMCHIN.NS",
-        "score": 66.9,
+        "symbol": "CYIENT.NS",
+        "score": 70.2,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -129,15 +43,84 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 66.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=57.",
-        "strengthened": false
+        "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_19aab79e9eb2",
-      "created_at": "2026-10-12T18:21:52+05:30",
-      "expires_at": "2026-10-12T18:21:52+05:30"
+      "escalation_id": "esc_69da61428ca2",
+      "created_at": "2026-10-12T18:39:50+05:30",
+      "expires_at": "2026-10-12T18:39:50+05:30"
+    },
+    {
+      "symbol": "ITC.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -3.0% since last observation.",
+      "trigger_ids": [
+        "trg_a52d033813a2",
+        "trg_1f7489d5f6c8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_aa8a712710cb",
+      "created_at": "2026-10-12T18:39:50+05:30",
+      "expires_at": "2026-10-12T18:39:50+05:30"
+    },
+    {
+      "symbol": "ANANDRATHI.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -5.4% since last observation.",
+      "trigger_ids": [
+        "trg_cdb33d79499e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_d7c2edff4d49",
+      "created_at": "2026-10-12T18:39:50+05:30",
+      "expires_at": "2026-10-12T18:39:50+05:30"
+    },
+    {
+      "symbol": "CPPLUS.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.1% since last observation.",
+      "trigger_ids": [
+        "trg_39461896a6b9"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "CPPLUS.NS",
+        "score": 71.5,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_55c744bb4ef0",
+      "created_at": "2026-10-12T18:39:50+05:30",
+      "expires_at": "2026-10-12T18:39:50+05:30"
     }
   ],
   "actions_taken": [],
