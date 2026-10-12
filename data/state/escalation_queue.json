@@ -1,96 +1,5 @@
 [
   {
-    "symbol": "GRAPHITE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.2% since last observation.",
-    "trigger_ids": [
-      "trg_3cf4e1bd2bf0",
-      "trg_333b0d1f95cb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_2dbd2c811fa5",
-    "created_at": "2026-10-02T17:13:58+05:30",
-    "expires_at": "2026-10-02T17:13:58+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_a7b48877f1c1"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_190b9693aef3",
-    "created_at": "2026-10-02T17:13:58+05:30",
-    "expires_at": "2026-10-02T17:13:58+05:30"
-  },
-  {
-    "symbol": "ENRIN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.2% vs previous close.",
-    "trigger_ids": [
-      "trg_65eddbde5340"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ee1ace05d24c",
-    "created_at": "2026-10-02T17:13:58+05:30",
-    "expires_at": "2026-10-02T17:13:58+05:30"
-  },
-  {
-    "symbol": "LEMONTREE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_fbd93ff282c2"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_4998cbd669f6",
-    "created_at": "2026-10-02T17:13:58+05:30",
-    "expires_at": "2026-10-02T17:13:58+05:30"
-  },
-  {
-    "symbol": "GRAPHITE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_50636a8f9c17"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d33129ecaef0",
-    "created_at": "2026-10-02T18:28:54+05:30",
-    "expires_at": "2026-10-02T18:28:54+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "severity": "CRITICAL",
     "action_type": "EXIT_REVIEW",
@@ -2036,5 +1945,97 @@
     "escalation_id": "esc_e3f45dd36e5b",
     "created_at": "2026-10-12T22:26:48+05:30",
     "expires_at": "2026-10-12T22:26:48+05:30"
+  },
+  {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -13.2% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_6993ce9d1c6a",
+      "trg_41431cac203f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_0759aecf3043",
+    "created_at": "2026-10-13T01:46:04+05:30",
+    "expires_at": "2026-10-13T01:46:04+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.1% since last observation.",
+    "trigger_ids": [
+      "trg_98e42905b04d",
+      "trg_7857c9595f84"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_169cbcd88214",
+    "created_at": "2026-10-13T01:46:04+05:30",
+    "expires_at": "2026-10-13T01:46:04+05:30"
+  },
+  {
+    "symbol": "WELCORP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.5% since last observation.",
+    "trigger_ids": [
+      "trg_d4260a31b7d0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_cfeafa07db0b",
+    "created_at": "2026-10-13T01:46:04+05:30",
+    "expires_at": "2026-10-13T01:46:04+05:30"
+  },
+  {
+    "symbol": "PTCIL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.6% since last observation.",
+    "trigger_ids": [
+      "trg_103845706b23"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a01c21adf685",
+    "created_at": "2026-10-13T01:46:04+05:30",
+    "expires_at": "2026-10-13T01:46:04+05:30"
+  },
+  {
+    "symbol": "RBLBANK.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.3% vs previous close.",
+    "trigger_ids": [
+      "trg_2d41f026753e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_4b3792233449",
+    "created_at": "2026-10-13T01:46:04+05:30",
+    "expires_at": "2026-10-13T01:46:04+05:30"
   }
 ]

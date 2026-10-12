@@ -1,33 +1,34 @@
 {
-  "as_of": "2026-10-12T22:26:48+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-10-13T01:46:04+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
-      "severity": "CRITICAL",
-      "action_type": "EXIT_REVIEW",
-      "reason": "Held position at -15.6% breaches hard-loss -15%.",
+      "severity": "HIGH",
+      "action_type": "TRIM_REVIEW",
+      "reason": "Held position at -13.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_05e2bb1aed99",
-        "trg_e52eb6fae685"
+        "trg_6993ce9d1c6a",
+        "trg_41431cac203f"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": true,
       "email_sent": false,
-      "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_f4e645b7d3f2",
-      "created_at": "2026-10-12T22:26:48+05:30",
-      "expires_at": "2026-10-12T22:26:48+05:30"
+      "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+      "escalation_id": "esc_0759aecf3043",
+      "created_at": "2026-10-13T01:46:04+05:30",
+      "expires_at": "2026-10-13T01:46:04+05:30"
     },
     {
-      "symbol": "FINCABLES.NS",
-      "severity": "LOW",
+      "symbol": "ITC.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.6% vs previous close.",
+      "reason": "Moved +3.1% since last observation.",
       "trigger_ids": [
-        "trg_29d7b3457416"
+        "trg_98e42905b04d",
+        "trg_7857c9595f84"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -35,9 +36,63 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e3f45dd36e5b",
-      "created_at": "2026-10-12T22:26:48+05:30",
-      "expires_at": "2026-10-12T22:26:48+05:30"
+      "escalation_id": "esc_169cbcd88214",
+      "created_at": "2026-10-13T01:46:04+05:30",
+      "expires_at": "2026-10-13T01:46:04+05:30"
+    },
+    {
+      "symbol": "WELCORP.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -5.5% since last observation.",
+      "trigger_ids": [
+        "trg_d4260a31b7d0"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_cfeafa07db0b",
+      "created_at": "2026-10-13T01:46:04+05:30",
+      "expires_at": "2026-10-13T01:46:04+05:30"
+    },
+    {
+      "symbol": "PTCIL.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -4.6% since last observation.",
+      "trigger_ids": [
+        "trg_103845706b23"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a01c21adf685",
+      "created_at": "2026-10-13T01:46:04+05:30",
+      "expires_at": "2026-10-13T01:46:04+05:30"
+    },
+    {
+      "symbol": "RBLBANK.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.3% vs previous close.",
+      "trigger_ids": [
+        "trg_2d41f026753e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4b3792233449",
+      "created_at": "2026-10-13T01:46:04+05:30",
+      "expires_at": "2026-10-13T01:46:04+05:30"
     }
   ],
   "actions_taken": [],
