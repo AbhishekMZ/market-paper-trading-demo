@@ -1,5 +1,35 @@
 [
   {
+    "ts": "2026-10-12T20:56:12+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 6,
+    "escalations": 3,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-12T20:54:38+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-12T20:54:35+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "UPL.NS",
@@ -15323,64 +15353,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 32.77,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-12T20:54:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "WELSPUNLIV.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 77.6,
-    "strategy_contributions": {
-      "trend_following": 98.8,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 50.3,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 77.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 35.14,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-12T20:54:35+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LAURUSLABS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 77.7,
-    "strategy_contributions": {
-      "trend_following": 90.9,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 63.2,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 77.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 29.16,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],
