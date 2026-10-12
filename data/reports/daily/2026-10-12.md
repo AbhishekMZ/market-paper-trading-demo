@@ -475,7 +475,7 @@ POONAWALLA.NS(49.9), BLUEDART.NS(49.7), BAJAJHFL.NS(49.6), NAM-INDIA.NS(49.5), I
 - ENGINERSIN.NS (WATCH, 71.1): Final 71.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=98, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 13060 (no API-key quota)
+- Provider: `yfinance` · calls today: 1505 · total this month: 13562 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
