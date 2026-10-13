@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-13T18:33:40+05:30",
+  "as_of": "2026-10-13T20:10:32+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 2,
-  "triggers_this_run": 5,
-  "escalations": 3,
+  "triggers_this_run": 3,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 257,
-    "triggers_detected": 1159,
-    "escalations_created": 730,
+    "observation_runs": 258,
+    "triggers_detected": 1162,
+    "escalations_created": 732,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-13T18:33:40+05:30",
+    "last_run": "2026-10-13T20:10:32+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,30 +63,9 @@
         "recommended_next_step": "TRIM_REVIEW.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_ef2b86492313",
-        "trigger_id": "trg_8995a53b8186",
-        "detected_at": "2026-10-13T18:32:06+05:30"
-      },
-      {
-        "symbol": "MOTILALOFS.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +7.2% since last observation.",
-        "company_name": "Motilal Oswal Financial Services Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1068.9000244140625,
-        "previous_price": null,
-        "change_pct": 7.21,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_daa6e98e4ed0",
-        "trigger_id": "trg_e2913567c5b9",
-        "detected_at": "2026-10-13T18:32:49+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_be63b633f68d",
+        "detected_at": "2026-10-13T20:08:55+05:30"
       },
       {
         "symbol": "MOTILALOFS.NS",
@@ -105,30 +84,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_daa6e98e4ed0",
-        "trigger_id": "trg_f085fbbb841d",
-        "detected_at": "2026-10-13T18:32:49+05:30"
-      },
-      {
-        "symbol": "CPPLUS.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +5.9% since last observation.",
-        "company_name": "Aditya Infotech Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 4376.5,
-        "previous_price": null,
-        "change_pct": 5.86,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_c142bb4775f0",
-        "trigger_id": "trg_0ac7de51a9d1",
-        "detected_at": "2026-10-13T18:33:06+05:30"
+        "created_escalation_id": "esc_ca4148286c01",
+        "trigger_id": "trg_5d7f4379893b",
+        "detected_at": "2026-10-13T20:09:41+05:30"
       },
       {
         "symbol": "CPPLUS.NS",
@@ -147,101 +105,59 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_c142bb4775f0",
-        "trigger_id": "trg_565e2b30f492",
-        "detected_at": "2026-10-13T18:33:06+05:30"
+        "created_escalation_id": "esc_b67afece88fa",
+        "trigger_id": "trg_b9b9817c8702",
+        "detected_at": "2026-10-13T20:09:58+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "COLPAL.NS",
-        "severity": "HIGH",
-        "action_type": "TRIM_REVIEW",
-        "reason": "Held position at -14.0% breaches strong-loss -10%.",
+        "trigger": "STRONG_LOSS_REVIEW",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "MOTILALOFS.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +4.2% vs previous close.",
         "trigger_ids": [
-          "trg_8995a53b8186"
+          "trg_5d7f4379893b"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
         "focused_analysis_result": null,
-        "manual_review_required": true,
-        "email_sent": false,
-        "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-        "escalation_id": "esc_ef2b86492313",
-        "created_at": "2026-10-13T18:33:40+05:30",
-        "expires_at": "2026-10-13T18:33:40+05:30"
-      },
-      {
-        "symbol": "MOTILALOFS.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +7.2% since last observation.",
-        "trigger_ids": [
-          "trg_e2913567c5b9",
-          "trg_f085fbbb841d"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "MOTILALOFS.NS",
-          "score": 71.5,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_daa6e98e4ed0",
-        "created_at": "2026-10-13T18:33:40+05:30",
-        "expires_at": "2026-10-13T18:33:40+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_ca4148286c01",
+        "created_at": "2026-10-13T20:10:32+05:30",
+        "expires_at": "2026-10-13T20:10:32+05:30"
       },
       {
         "symbol": "CPPLUS.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +5.9% since last observation.",
+        "reason": "Gap +4.6% vs previous close.",
         "trigger_ids": [
-          "trg_0ac7de51a9d1",
-          "trg_565e2b30f492"
+          "trg_b9b9817c8702"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "CPPLUS.NS",
-          "score": 69.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_c142bb4775f0",
-        "created_at": "2026-10-13T18:33:40+05:30",
-        "expires_at": "2026-10-13T18:33:40+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_b67afece88fa",
+        "created_at": "2026-10-13T20:10:32+05:30",
+        "expires_at": "2026-10-13T20:10:32+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-13T18:31:48+05:30"
+    "as_of": "2026-10-13T20:08:36+05:30"
   }
 }
