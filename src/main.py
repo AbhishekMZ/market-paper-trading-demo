@@ -358,9 +358,35 @@ def run(args: argparse.Namespace) -> int:
         storage.append_audit({"event": "HISTORICAL_CONTEXT_ERROR", "message": str(exc)})
         print(f"[hist-context] error: {exc}", file=sys.stderr)
 
-    # --- process paper buys (risk engine enforces all hard limits) ------- #
+    # --- paper exits first so freed cash can fund new buys this run ------ #
     executed: List[Dict[str, Any]] = []
     max_trade = float(capital.get("max_amount_per_trade", 2000))
+    allow_paper_sell = bool(
+        ((configs.get("observation") or {}).get("observation") or {})
+        .get("escalation", {})
+        .get("allow_paper_sell_after_trigger", False)
+    )
+    pm.mark_to_market(prices, anomalous_symbols=anomalous_symbols, mtm_jump_pct=mtm_jump)
+    if not args.no_action and allow_paper_sell and adapter.is_paper:
+        portfolio = storage.load_state("portfolio", {})
+        for review in risk.review_positions(portfolio):
+            if review.get("label") not in ("TRIM_REVIEW", "EXIT_REVIEW"):
+                continue
+            pos = next((p for p in portfolio.get("positions", []) if p.get("symbol") == review["symbol"]), None)
+            if not pos or not pos.get("bot_owned"):
+                continue
+            price = prices.get(review["symbol"]) or pos.get("last_price")
+            qty = int(pos.get("quantity") or 0)
+            if not price or qty < 1:
+                continue
+            result = engine.process_sell(
+                review["symbol"], qty, float(price),
+                f"Paper exit: {review['reason']}",
+            )
+            if result is not None:
+                executed.append(result.to_dict())
+
+    # --- process paper buys (risk engine enforces all hard limits) ------- #
     if args.no_action:
         storage.append_audit({"event": "NO_ACTION_MODE",
                               "message": "Buys suppressed (--no-action); analysis only."})
