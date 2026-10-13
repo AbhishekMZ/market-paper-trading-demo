@@ -472,7 +472,7 @@ BSE.NS(49.7), IRCTC.NS(49.7), TATACOMM.NS(49.6), BANKINDIA.NS(49.3), LT.NS(49.3)
 - CPPLUS.NS (WATCH, 69.9): Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 2007 · total this month: 15571 (no API-key quota)
+- Provider: `yfinance` · calls today: 2511 · total this month: 16075 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
