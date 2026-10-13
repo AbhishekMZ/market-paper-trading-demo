@@ -64,8 +64,8 @@ observation:
     run_focused_analysis_on_trigger: true
     create_manual_review_items: true
     allow_paper_buy_after_trigger: true
-    allow_paper_sell_after_trigger: false
-    reason: "v1 may create paper BUYS after all checks pass, but SELL stays review-only."
+    allow_paper_sell_after_trigger: true
+    reason: "Paper BUYS and paper SELLs on trim/exit review so capital recycles and the learning loop gets round-trips. Still paper-only."
     max_escalations_per_run: 5
     max_email_alerts_per_run: 5
 

@@ -173,8 +173,15 @@ class ExecutionEngine:
             self._audit_no_trade(signal, "No usable price to size the order.")
             return None
 
-        # Size the order under the per-trade cap.
-        qty = int(amount_cap // price)
+        portfolio = storage.load_state("portfolio", {})
+        cash = float(portfolio.get("cash") or 0.0)
+        total = float(portfolio.get("total_value") or 0.0)
+        alloc_base = total if total > 0 else float(self.risk.monthly_cap)
+        existing = self.risk._existing_allocation(portfolio, signal.symbol)
+        room = max(0.0, alloc_base * self.risk.max_alloc_pct / 100.0 - existing)
+        affordable = min(float(amount_cap), self.max_trade_amount, cash, room)
+        # Size to free cash and the allocation slot so one name cannot lock the book.
+        qty = int(affordable // price)
         if qty < 1:
             self._audit_no_trade(
                 signal, f"Price {price:.2f} exceeds per-trade cap {amount_cap:.0f}; cannot buy 1 share."
@@ -182,7 +189,6 @@ class ExecutionEngine:
             return None
         amount = round(qty * price, 2)
 
-        portfolio = storage.load_state("portfolio", {})
         budget = self.pm.load_budget()
         state = self.load_state()
 

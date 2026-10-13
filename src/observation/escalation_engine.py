@@ -112,11 +112,18 @@ class EscalationEngine:
             esc.final_decision = f"Regime shift ({dominant.market_regime}) — new buys blocked; review holdings."
             return esc
 
-        # 2) Held-position loss / profit reviews (advisory; never auto-sells).
+        # 2) Held-position loss reviews. Trim/exit may paper-sell when enabled.
         if dominant.trigger_type in _LOSS_TYPES:
             esc.action_type = _LOSS_TYPES[dominant.trigger_type]
+            if (
+                self.allow_paper_sell
+                and not self.no_action
+                and dominant.trigger_type in (TriggerType.STRONG_LOSS_REVIEW, TriggerType.HARD_LOSS_REVIEW)
+                and self._try_paper_sell(symbol, dominant, context, esc, actions_taken, blocked_actions)
+            ):
+                return esc
             esc.manual_review_required = True
-            esc.final_decision = f"{esc.action_type.value} — manual only (v1 never auto-sells)."
+            esc.final_decision = f"{esc.action_type.value} — manual review (paper sell not taken)."
             return esc
         if dominant.trigger_type == TriggerType.PROFIT_REVIEW:
             esc.action_type = ActionType.TRIM_REVIEW
@@ -180,6 +187,34 @@ class EscalationEngine:
         blocked_actions.append({"symbol": symbol, "blocked_by": "RISK_OR_LIMITS", "trigger": "BUY_CANDIDATE_RECHECK"})
         esc.final_decision = "Qualified on score but blocked by risk/limits at execution."
         return ActionType.BLOCKED_BY_RISK
+
+    def _try_paper_sell(self, symbol, dominant, context, esc, actions_taken, blocked_actions) -> bool:
+        """Paper-only full exit. Returns True when a sell filled."""
+        adapter = getattr(self.engine, "adapter", None)
+        if adapter is not None and not getattr(adapter, "is_paper", False):
+            return False
+        portfolio = context.get("portfolio") or {}
+        pos = next((p for p in portfolio.get("positions", []) if p.get("symbol") == symbol), None)
+        if not pos or not pos.get("bot_owned", False) or int(pos.get("quantity") or 0) < 1:
+            return False
+        md = (context.get("market_data_by_symbol") or {}).get(symbol) or {}
+        price = md.get("price") or pos.get("last_price") or dominant.price_at_detection
+        if not price or float(price) <= 0:
+            return False
+        result = self.engine.process_sell(
+            symbol, int(pos["quantity"]), float(price),
+            f"Paper exit on {dominant.trigger_type.value}: {dominant.reason}",
+        )
+        if result is not None and result.status == OrderState.FILLED:
+            actions_taken.append({
+                "symbol": symbol, "action": "PAPER_SELL", "qty": result.quantity,
+                "price": result.price, "order_id": result.order_id,
+            })
+            esc.final_decision = f"Paper sell: {result.quantity} @ ₹{result.price} (trim/exit review)."
+            esc.manual_review_required = False
+            return True
+        blocked_actions.append({"symbol": symbol, "blocked_by": "RISK_OR_LIMITS", "trigger": dominant.trigger_type.value})
+        return False
 
     # ------------------------------------------------------------------ #
     def _maybe_email(self, esc: EscalationItem, dominant, context) -> None:
