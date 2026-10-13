@@ -1,44 +1,7 @@
 {
-  "as_of": "2026-10-13T20:10:32+05:30",
+  "as_of": "2026-10-13T20:45:10+05:30",
   "checkpoint": "close",
-  "open_escalations": [
-    {
-      "symbol": "MOTILALOFS.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.2% vs previous close.",
-      "trigger_ids": [
-        "trg_5d7f4379893b"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ca4148286c01",
-      "created_at": "2026-10-13T20:10:32+05:30",
-      "expires_at": "2026-10-13T20:10:32+05:30"
-    },
-    {
-      "symbol": "CPPLUS.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.6% vs previous close.",
-      "trigger_ids": [
-        "trg_b9b9817c8702"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b67afece88fa",
-      "created_at": "2026-10-13T20:10:32+05:30",
-      "expires_at": "2026-10-13T20:10:32+05:30"
-    }
-  ],
+  "open_escalations": [],
   "actions_taken": [],
   "blocked_actions": []
 }
