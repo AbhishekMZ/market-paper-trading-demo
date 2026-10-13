@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-10-13T18:02:47+05:30",
+  "as_of": "2026-10-13T18:33:40+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
       "severity": "HIGH",
       "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -13.2% breaches strong-loss -10%.",
+      "reason": "Held position at -14.0% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_1908397c19a1"
+        "trg_8995a53b8186"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,43 +16,24 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_e71965e8128c",
-      "created_at": "2026-10-13T18:02:47+05:30",
-      "expires_at": "2026-10-13T18:02:47+05:30"
+      "escalation_id": "esc_ef2b86492313",
+      "created_at": "2026-10-13T18:33:40+05:30",
+      "expires_at": "2026-10-13T18:33:40+05:30"
     },
     {
-      "symbol": "RBLBANK.NS",
+      "symbol": "MOTILALOFS.NS",
       "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -7.2% since last observation.",
+      "reason": "Moved +7.2% since last observation.",
       "trigger_ids": [
-        "trg_3e49339cbc2b",
-        "trg_3ce534ae128b"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_95e1ac3f2668",
-      "created_at": "2026-10-13T18:02:47+05:30",
-      "expires_at": "2026-10-13T18:02:47+05:30"
-    },
-    {
-      "symbol": "WELCORP.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.4% since last observation.",
-      "trigger_ids": [
-        "trg_a8dff7a5665a",
-        "trg_37f8cf857c58"
+        "trg_e2913567c5b9",
+        "trg_f085fbbb841d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "WELCORP.NS",
-        "score": 70.8,
+        "symbol": "MOTILALOFS.NS",
+        "score": 71.5,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -62,30 +43,30 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": false
+        "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_0cdabfa4ae50",
-      "created_at": "2026-10-13T18:02:47+05:30",
-      "expires_at": "2026-10-13T18:02:47+05:30"
+      "escalation_id": "esc_daa6e98e4ed0",
+      "created_at": "2026-10-13T18:33:40+05:30",
+      "expires_at": "2026-10-13T18:33:40+05:30"
     },
     {
-      "symbol": "PTCIL.NS",
+      "symbol": "CPPLUS.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.9% since last observation.",
+      "reason": "Moved +5.9% since last observation.",
       "trigger_ids": [
-        "trg_ee1bcc3a5fd5",
-        "trg_ac4a1e3c1ad5"
+        "trg_0ac7de51a9d1",
+        "trg_565e2b30f492"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "PTCIL.NS",
-        "score": 68.1,
+        "symbol": "CPPLUS.NS",
+        "score": 69.9,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -95,34 +76,15 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 68.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": false
+        "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_4786d70958a6",
-      "created_at": "2026-10-13T18:02:47+05:30",
-      "expires_at": "2026-10-13T18:02:47+05:30"
-    },
-    {
-      "symbol": "PARADEEP.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.4% since last observation.",
-      "trigger_ids": [
-        "trg_bdf3f02b28dd",
-        "trg_9f9cd743d1a5"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1d055b9f80f2",
-      "created_at": "2026-10-13T18:02:47+05:30",
-      "expires_at": "2026-10-13T18:02:47+05:30"
+      "escalation_id": "esc_c142bb4775f0",
+      "created_at": "2026-10-13T18:33:40+05:30",
+      "expires_at": "2026-10-13T18:33:40+05:30"
     }
   ],
   "actions_taken": [],
