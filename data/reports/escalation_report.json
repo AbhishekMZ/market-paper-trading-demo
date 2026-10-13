@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-13T01:46:04+05:30",
-  "checkpoint": "open",
+  "as_of": "2026-10-13T18:02:47+05:30",
+  "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "COLPAL.NS",
@@ -8,8 +8,7 @@
       "action_type": "TRIM_REVIEW",
       "reason": "Held position at -13.2% breaches strong-loss -10%.",
       "trigger_ids": [
-        "trg_6993ce9d1c6a",
-        "trg_41431cac203f"
+        "trg_1908397c19a1"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -17,18 +16,18 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-      "escalation_id": "esc_0759aecf3043",
-      "created_at": "2026-10-13T01:46:04+05:30",
-      "expires_at": "2026-10-13T01:46:04+05:30"
+      "escalation_id": "esc_e71965e8128c",
+      "created_at": "2026-10-13T18:02:47+05:30",
+      "expires_at": "2026-10-13T18:02:47+05:30"
     },
     {
-      "symbol": "ITC.NS",
-      "severity": "MEDIUM",
+      "symbol": "RBLBANK.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.1% since last observation.",
+      "reason": "Moved -7.2% since last observation.",
       "trigger_ids": [
-        "trg_98e42905b04d",
-        "trg_7857c9595f84"
+        "trg_3e49339cbc2b",
+        "trg_3ce534ae128b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -36,53 +35,84 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_169cbcd88214",
-      "created_at": "2026-10-13T01:46:04+05:30",
-      "expires_at": "2026-10-13T01:46:04+05:30"
+      "escalation_id": "esc_95e1ac3f2668",
+      "created_at": "2026-10-13T18:02:47+05:30",
+      "expires_at": "2026-10-13T18:02:47+05:30"
     },
     {
       "symbol": "WELCORP.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -5.5% since last observation.",
+      "reason": "Moved +3.4% since last observation.",
       "trigger_ids": [
-        "trg_d4260a31b7d0"
+        "trg_a8dff7a5665a",
+        "trg_37f8cf857c58"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "WELCORP.NS",
+        "score": 70.8,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_cfeafa07db0b",
-      "created_at": "2026-10-13T01:46:04+05:30",
-      "expires_at": "2026-10-13T01:46:04+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_0cdabfa4ae50",
+      "created_at": "2026-10-13T18:02:47+05:30",
+      "expires_at": "2026-10-13T18:02:47+05:30"
     },
     {
       "symbol": "PTCIL.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -4.6% since last observation.",
+      "reason": "Moved +3.9% since last observation.",
       "trigger_ids": [
-        "trg_103845706b23"
+        "trg_ee1bcc3a5fd5",
+        "trg_ac4a1e3c1ad5"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "PTCIL.NS",
+        "score": 68.1,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.1/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a01c21adf685",
-      "created_at": "2026-10-13T01:46:04+05:30",
-      "expires_at": "2026-10-13T01:46:04+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_4786d70958a6",
+      "created_at": "2026-10-13T18:02:47+05:30",
+      "expires_at": "2026-10-13T18:02:47+05:30"
     },
     {
-      "symbol": "RBLBANK.NS",
-      "severity": "LOW",
+      "symbol": "PARADEEP.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.3% vs previous close.",
+      "reason": "Moved -3.4% since last observation.",
       "trigger_ids": [
-        "trg_2d41f026753e"
+        "trg_bdf3f02b28dd",
+        "trg_9f9cd743d1a5"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -90,9 +120,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_4b3792233449",
-      "created_at": "2026-10-13T01:46:04+05:30",
-      "expires_at": "2026-10-13T01:46:04+05:30"
+      "escalation_id": "esc_1d055b9f80f2",
+      "created_at": "2026-10-13T18:02:47+05:30",
+      "expires_at": "2026-10-13T18:02:47+05:30"
     }
   ],
   "actions_taken": [],
