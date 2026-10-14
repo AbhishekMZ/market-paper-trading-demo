@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-14T17:49:17+05:30",
+  "as_of": "2026-10-14T18:32:05+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 7,
-  "escalations": 4,
+  "triggers_this_run": 5,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 262,
-    "triggers_detected": 1178,
-    "escalations_created": 741,
+    "observation_runs": 263,
+    "triggers_detected": 1183,
+    "escalations_created": 744,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-14T17:49:17+05:30",
+    "last_run": "2026-10-14T18:32:05+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_89b77d1a4d43",
-        "trigger_id": "trg_6328a4a6f1fc",
-        "detected_at": "2026-10-14T17:48:09+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_b1a36957f73a",
+        "detected_at": "2026-10-14T18:30:51+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -83,30 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_27ff17636c42",
-        "detected_at": "2026-10-14T17:48:43+05:30"
-      },
-      {
-        "symbol": "ABDL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "Allied Blenders and Distillers Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 743.4500122070312,
-        "previous_price": null,
-        "change_pct": 3.48,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_8867dfb0c7c7",
-        "trigger_id": "trg_5f601f823727",
-        "detected_at": "2026-10-14T17:49:00+05:30"
+        "created_escalation_id": "esc_7ba4caf726fb",
+        "trigger_id": "trg_3e4e56ece805",
+        "detected_at": "2026-10-14T18:31:29+05:30"
       },
       {
         "symbol": "ABDL.NS",
@@ -125,9 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_8867dfb0c7c7",
-        "trigger_id": "trg_827ac92a55ca",
-        "detected_at": "2026-10-14T17:49:00+05:30"
+        "created_escalation_id": "esc_39818eea87d0",
+        "trigger_id": "trg_2774cfe5daaa",
+        "detected_at": "2026-10-14T18:31:48+05:30"
       },
       {
         "symbol": "BHEL.NS",
@@ -146,30 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_2d7921d2f866",
-        "trigger_id": "trg_1a840e8d4b35",
-        "detected_at": "2026-10-14T17:49:09+05:30"
-      },
-      {
-        "symbol": "CUB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.3% since last observation.",
-        "company_name": "City Union Bank Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 227.99000549316406,
-        "previous_price": null,
-        "change_pct": -3.31,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_42ec4b28637a",
-        "trigger_id": "trg_ebd1d9c3917b",
-        "detected_at": "2026-10-14T17:49:17+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_ac23169a1f90",
+        "detected_at": "2026-10-14T18:31:56+05:30"
       },
       {
         "symbol": "CUB.NS",
@@ -188,78 +146,67 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_42ec4b28637a",
-        "trigger_id": "trg_1e0809dd591f",
-        "detected_at": "2026-10-14T17:49:17+05:30"
+        "created_escalation_id": "esc_a710dd6e982b",
+        "trigger_id": "trg_1c3387e2eb96",
+        "detected_at": "2026-10-14T18:32:05+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "DIVISLAB.NS",
+        "symbol": "WELCORP.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "BHEL.NS",
         "trigger": "GAP_MOVE",
         "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "ABDL.NS",
-        "severity": "MEDIUM",
+        "symbol": "DIVISLAB.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.5% since last observation.",
+        "reason": "Gap -2.8% vs previous close.",
         "trigger_ids": [
-          "trg_5f601f823727",
-          "trg_827ac92a55ca"
+          "trg_3e4e56ece805"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "ABDL.NS",
-          "score": 67.5,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 67.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_8867dfb0c7c7",
-        "created_at": "2026-10-14T17:49:17+05:30",
-        "expires_at": "2026-10-14T17:49:17+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_7ba4caf726fb",
+        "created_at": "2026-10-14T18:32:05+05:30",
+        "expires_at": "2026-10-14T18:32:05+05:30"
+      },
+      {
+        "symbol": "ABDL.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.5% vs previous close.",
+        "trigger_ids": [
+          "trg_2774cfe5daaa"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_39818eea87d0",
+        "created_at": "2026-10-14T18:32:05+05:30",
+        "expires_at": "2026-10-14T18:32:05+05:30"
       },
       {
         "symbol": "CUB.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.3% since last observation.",
-        "trigger_ids": [
-          "trg_ebd1d9c3917b",
-          "trg_1e0809dd591f"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_42ec4b28637a",
-        "created_at": "2026-10-14T17:49:17+05:30",
-        "expires_at": "2026-10-14T17:49:17+05:30"
-      },
-      {
-        "symbol": "WELCORP.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.5% vs previous close.",
+        "reason": "Gap -2.8% vs previous close.",
         "trigger_ids": [
-          "trg_6328a4a6f1fc"
+          "trg_1c3387e2eb96"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -267,32 +214,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_89b77d1a4d43",
-        "created_at": "2026-10-14T17:49:17+05:30",
-        "expires_at": "2026-10-14T17:49:17+05:30"
-      },
-      {
-        "symbol": "BHEL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.9% vs previous close.",
-        "trigger_ids": [
-          "trg_1a840e8d4b35"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_2d7921d2f866",
-        "created_at": "2026-10-14T17:49:17+05:30",
-        "expires_at": "2026-10-14T17:49:17+05:30"
+        "escalation_id": "esc_a710dd6e982b",
+        "created_at": "2026-10-14T18:32:05+05:30",
+        "expires_at": "2026-10-14T18:32:05+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-14T17:47:25+05:30"
+    "as_of": "2026-10-14T18:29:35+05:30"
   }
 }

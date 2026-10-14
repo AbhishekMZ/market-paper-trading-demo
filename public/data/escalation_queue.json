@@ -1,5 +1,59 @@
 [
   {
+    "symbol": "CUB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_1c3387e2eb96"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a710dd6e982b",
+    "created_at": "2026-10-14T18:32:05+05:30",
+    "expires_at": "2026-10-14T18:32:05+05:30"
+  },
+  {
+    "symbol": "ABDL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_2774cfe5daaa"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_39818eea87d0",
+    "created_at": "2026-10-14T18:32:05+05:30",
+    "expires_at": "2026-10-14T18:32:05+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_3e4e56ece805"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7ba4caf726fb",
+    "created_at": "2026-10-14T18:32:05+05:30",
+    "expires_at": "2026-10-14T18:32:05+05:30"
+  },
+  {
     "symbol": "BHEL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2013,59 +2067,5 @@
     "escalation_id": "esc_2087290a91b1",
     "created_at": "2026-10-06T01:06:36+05:30",
     "expires_at": "2026-10-06T01:06:36+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "CRITICAL",
-    "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -15.2% breaches hard-loss -15%.",
-    "trigger_ids": [
-      "trg_d6ddd81b5112"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_cce8efa7fa10",
-    "created_at": "2026-10-06T01:06:36+05:30",
-    "expires_at": "2026-10-06T01:06:36+05:30"
-  },
-  {
-    "symbol": "AEGISLOG.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_a7896aa4c7aa"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_37a387b8b531",
-    "created_at": "2026-10-05T21:49:59+05:30",
-    "expires_at": "2026-10-05T21:49:59+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "CRITICAL",
-    "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -15.2% breaches hard-loss -15%.",
-    "trigger_ids": [
-      "trg_b4031dcbf5c6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_9b04db057028",
-    "created_at": "2026-10-05T21:49:59+05:30",
-    "expires_at": "2026-10-05T21:49:59+05:30"
   }
 ]
