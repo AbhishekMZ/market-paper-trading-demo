@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-14T17:47:23+05:30",
+  "as_of": "2026-10-14T21:13:51+05:30",
   "portfolio_max_drawdown_pct": -84.35,
   "total_signals": 2000,
   "total_paper_trades": 8,
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1298,
-      "average_score_contribution": 28.9,
+      "avoided_bad_trade_count": 1289,
+      "average_score_contribution": 29.3,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 872,
-      "average_score_contribution": 50.4,
+      "avoided_bad_trade_count": 868,
+      "average_score_contribution": 50.5,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -41,7 +41,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1150,
+      "avoided_bad_trade_count": 1137,
       "average_score_contribution": 47.1,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
@@ -56,7 +56,7 @@
       "average_loss": 0.0,
       "false_positive_count": 0,
       "avoided_bad_trade_count": 0,
-      "average_score_contribution": 49.1,
+      "average_score_contribution": 49.2,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -69,8 +69,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 615,
-      "average_score_contribution": 46.2,
+      "avoided_bad_trade_count": 567,
+      "average_score_contribution": 47.7,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -83,8 +83,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 73,
-      "average_score_contribution": 77.4,
+      "avoided_bad_trade_count": 71,
+      "average_score_contribution": 77.5,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     }

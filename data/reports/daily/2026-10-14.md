@@ -430,7 +430,7 @@ CDSL.NS(49.9), TORNTPHARM.NS(49.9), IKS.NS(49.7), MEDANTA.NS(49.6), POWERINDIA.N
 - WELCORP.NS (WATCH, 70.3): Final 70.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=98, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 17580 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 18084 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
