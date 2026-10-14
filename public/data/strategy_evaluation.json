@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-10-14T16:15:47+05:30",
-  "portfolio_max_drawdown_pct": -13.64,
+  "as_of": "2026-10-14T17:47:23+05:30",
+  "portfolio_max_drawdown_pct": -84.35,
   "total_signals": 2000,
   "total_paper_trades": 8,
   "strategies": {
@@ -13,8 +13,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1307,
-      "average_score_contribution": 28.6,
+      "avoided_bad_trade_count": 1298,
+      "average_score_contribution": 28.9,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -27,8 +27,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 876,
-      "average_score_contribution": 50.2,
+      "avoided_bad_trade_count": 872,
+      "average_score_contribution": 50.4,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -41,8 +41,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1163,
-      "average_score_contribution": 47.0,
+      "avoided_bad_trade_count": 1150,
+      "average_score_contribution": 47.1,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -69,8 +69,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 663,
-      "average_score_contribution": 44.7,
+      "avoided_bad_trade_count": 615,
+      "average_score_contribution": 46.2,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
     },
@@ -83,7 +83,7 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 75,
+      "avoided_bad_trade_count": 73,
       "average_score_contribution": 77.4,
       "confidence_accuracy": null,
       "notes": "Insufficient sample to judge; continue paper testing."
