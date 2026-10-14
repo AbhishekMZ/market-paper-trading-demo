@@ -1,9 +1,9 @@
 {
   "month": "2026-10",
   "monthly_capital": 100000.0,
-  "capital_deployed": 0.0,
-  "capital_remaining": 100000.0,
-  "buys_this_month": 0,
+  "capital_deployed": 7341.53,
+  "capital_remaining": 92658.47,
+  "buys_this_month": 5,
   "max_buys_per_month": 250,
-  "realized_pnl_month": -1117.6
+  "realized_pnl_month": -1124.8
 }

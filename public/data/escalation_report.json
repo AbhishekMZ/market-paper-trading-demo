@@ -1,66 +1,15 @@
 {
-  "as_of": "2026-10-14T15:30:37+05:30",
+  "as_of": "2026-10-14T16:17:23+05:30",
   "checkpoint": "close",
   "open_escalations": [
-    {
-      "symbol": "COLPAL.NS",
-      "severity": "HIGH",
-      "action_type": "TRIM_REVIEW",
-      "reason": "Held position at -14.0% breaches strong-loss -10%.",
-      "trigger_ids": [
-        "trg_5d010201c207"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Paper sell: 4 @ ₹1814.2 (trim/exit review).",
-      "escalation_id": "esc_0cfbda692a89",
-      "created_at": "2026-10-14T15:30:37+05:30",
-      "expires_at": "2026-10-14T15:30:37+05:30"
-    },
-    {
-      "symbol": "AEGISLOG.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +6.9% since last observation.",
-      "trigger_ids": [
-        "trg_12248d5500a2",
-        "trg_e7bacdd492c8"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "AEGISLOG.NS",
-        "score": 47.0,
-        "label": "DO_NOT_BUY",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 47.0/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=65. Penalties: extreme_daily_move. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_f8991ac63c9f",
-      "created_at": "2026-10-14T15:30:37+05:30",
-      "expires_at": "2026-10-14T15:30:37+05:30"
-    },
     {
       "symbol": "WELCORP.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.3% since last observation.",
+      "reason": "Moved -3.5% since last observation.",
       "trigger_ids": [
-        "trg_b3c385328a61",
-        "trg_429730cd0ab8"
+        "trg_bf3cfd966f88",
+        "trg_cea543f4b9b4"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -68,17 +17,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_92ad18e69ef4",
-      "created_at": "2026-10-14T15:30:37+05:30",
-      "expires_at": "2026-10-14T15:30:37+05:30"
+      "escalation_id": "esc_29d8b0741968",
+      "created_at": "2026-10-14T16:17:23+05:30",
+      "expires_at": "2026-10-14T16:17:23+05:30"
     },
     {
-      "symbol": "MOTILALOFS.NS",
-      "severity": "LOW",
+      "symbol": "ACE.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.6% vs previous close.",
+      "reason": "Moved -4.5% since last observation.",
       "trigger_ids": [
-        "trg_d297660797b5"
+        "trg_5082187bccf8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -86,36 +35,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1a43940c7586",
-      "created_at": "2026-10-14T15:30:37+05:30",
-      "expires_at": "2026-10-14T15:30:37+05:30"
-    },
-    {
-      "symbol": "DIVISLAB.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.9% vs previous close.",
-      "trigger_ids": [
-        "trg_837772f32d7b"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_09a316bfd1d0",
-      "created_at": "2026-10-14T15:30:37+05:30",
-      "expires_at": "2026-10-14T15:30:37+05:30"
-    }
-  ],
-  "actions_taken": [
-    {
-      "symbol": "COLPAL.NS",
-      "action": "PAPER_SELL",
-      "qty": 4,
-      "price": 1814.2,
-      "order_id": "ord_171c6fb37412"
+      "escalation_id": "esc_f90505020b92",
+      "created_at": "2026-10-14T16:17:23+05:30",
+      "expires_at": "2026-10-14T16:17:23+05:30"
     }
   ],
   "blocked_actions": []
