@@ -1,5 +1,46 @@
 [
   {
+    "ts": "2026-10-14T15:30:37+05:30",
+    "event": "PAPER_SELL_FILLED",
+    "symbol": "COLPAL.NS",
+    "message": "Sold 4 @ ₹1814.20. Paper exit on STRONG_LOSS_REVIEW: Held position at -14.0% breaches strong-loss -10%.",
+    "mode": "paper",
+    "broker_adapter": "paper",
+    "is_paper": true,
+    "order_id": "ord_171c6fb37412",
+    "realized_pnl": -1117.6
+  },
+  {
+    "ts": "2026-10-13T23:43:30+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 3,
+    "escalations": 3,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-13T23:41:47+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "trades": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      },
+      "risk": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-13T23:41:44+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "POLICYBZR.NS",
@@ -15300,93 +15341,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 34.95,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-13T23:41:44+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "GESHIP.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 75.9,
-    "strategy_contributions": {
-      "trend_following": 85.6,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 72.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 75.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 32.59,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-13T23:41:44+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LAURUSLABS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 77.2,
-    "strategy_contributions": {
-      "trend_following": 88.4,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 63.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 77.2/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 29.02,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-13T23:41:44+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "WELSPUNLIV.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 77.6,
-    "strategy_contributions": {
-      "trend_following": 98.8,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 50.5,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 77.6/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 35.05,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],

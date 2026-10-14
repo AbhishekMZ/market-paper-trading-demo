@@ -10368,5 +10368,22 @@
     "signal_id": "sig_64dea5340cc4",
     "timestamp": "2026-10-13T23:41:44+05:30",
     "realized_pnl": 0.0
+  },
+  {
+    "order_id": "ord_171c6fb37412",
+    "symbol": "COLPAL.NS",
+    "side": "SELL",
+    "status": "FILLED",
+    "quantity": 4,
+    "filled_quantity": 4,
+    "price": 1814.2,
+    "amount": 7256.8,
+    "is_paper": true,
+    "broker_adapter": "paper",
+    "message": "Paper EXIT filled.",
+    "reason": "Paper exit on STRONG_LOSS_REVIEW: Held position at -14.0% breaches strong-loss -10%.",
+    "signal_id": null,
+    "timestamp": "2026-10-14T15:30:37+05:30",
+    "realized_pnl": -1117.6
   }
 ]

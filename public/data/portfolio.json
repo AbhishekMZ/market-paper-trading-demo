@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-13T23:41:44+05:30",
+  "as_of": "2026-10-14T15:30:37+05:30",
   "starting_capital": 10000.0,
   "monthly_capital": 10000.0,
-  "cash": 100.34,
+  "cash": 7357.14,
   "holdings_value": 8820.76,
   "total_value": 8921.1,
-  "realized_pnl": 0.0,
+  "realized_pnl": -1117.6,
   "unrealized_pnl": -1078.9,
   "positions": [
     {
@@ -24,26 +24,23 @@
       "signal_id": "sig_77555c9bddbe",
       "risk_status": "OK",
       "data_status": "DATA_ANOMALY"
-    },
+    }
+  ],
+  "closed_positions": [
     {
       "symbol": "COLPAL.NS",
       "exchange": "NSE",
-      "name": "COLPAL.NS",
       "quantity": 4,
       "avg_price": 2093.6,
-      "invested": 8374.4,
-      "last_price": 1801.0,
-      "current_value": 7204.0,
-      "unrealized_pnl": -1170.4,
-      "unrealized_pnl_pct": -13.98,
-      "bot_owned": true,
+      "exit_price": 1814.2,
+      "realized_pnl": -1117.6,
+      "realized_pnl_pct": -13.35,
       "opened_at": "2026-07-21T13:19:43+05:30",
-      "signal_id": "sig_bdb083d1d500",
-      "risk_status": "TRIM_REVIEW",
-      "data_status": "OK"
+      "closed_at": "2026-10-14T15:30:37+05:30",
+      "bot_owned": true,
+      "reason": "Paper exit on STRONG_LOSS_REVIEW: Held position at -14.0% breaches strong-loss -10%."
     }
   ],
-  "closed_positions": [],
   "peak_total_value": 10382.7,
   "max_drawdown_pct": -14.08
 }
