@@ -1,14 +1,15 @@
 {
-  "as_of": "2026-10-14T21:15:47+05:30",
+  "as_of": "2026-10-15T15:12:09+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "WELCORP.NS",
-      "severity": "LOW",
+      "symbol": "CPPLUS.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.5% vs previous close.",
+      "reason": "Moved -6.8% since last observation.",
       "trigger_ids": [
-        "trg_f40a474ad89d"
+        "trg_7a76e6437d84",
+        "trg_7a4e646ef4d8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +17,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_cae1fc3d1c24",
-      "created_at": "2026-10-14T21:15:47+05:30",
-      "expires_at": "2026-10-14T21:15:47+05:30"
+      "escalation_id": "esc_760b87b7b805",
+      "created_at": "2026-10-15T15:12:09+05:30",
+      "expires_at": "2026-10-15T15:12:09+05:30"
     },
     {
       "symbol": "BHEL.NS",
-      "severity": "LOW",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.9% vs previous close.",
+      "reason": "Moved -6.5% since last observation.",
       "trigger_ids": [
-        "trg_bd4c463db006"
+        "trg_4def1d8df962",
+        "trg_32bb3ab00e9a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +36,66 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_318d326fdfde",
-      "created_at": "2026-10-14T21:15:47+05:30",
-      "expires_at": "2026-10-14T21:15:47+05:30"
+      "escalation_id": "esc_03f1a1dac37e",
+      "created_at": "2026-10-15T15:12:09+05:30",
+      "expires_at": "2026-10-15T15:12:09+05:30"
+    },
+    {
+      "symbol": "HFCL.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -5.0% since last observation.",
+      "trigger_ids": [
+        "trg_b4d85715a2d9",
+        "trg_79d924be48e5"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_23afa9962bfd",
+      "created_at": "2026-10-15T15:12:09+05:30",
+      "expires_at": "2026-10-15T15:12:09+05:30"
+    },
+    {
+      "symbol": "WELCORP.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -5.1% since last observation.",
+      "trigger_ids": [
+        "trg_55e5548636c2",
+        "trg_aeef846f8daa"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_4e09fd6bf463",
+      "created_at": "2026-10-15T15:12:09+05:30",
+      "expires_at": "2026-10-15T15:12:09+05:30"
+    },
+    {
+      "symbol": "ACE.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -3.7% since last observation.",
+      "trigger_ids": [
+        "trg_52a2d95a66c8",
+        "trg_9cbbf7125fc9"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_d2d5403fc9cb",
+      "created_at": "2026-10-15T15:12:09+05:30",
+      "expires_at": "2026-10-15T15:12:09+05:30"
     }
   ],
   "actions_taken": [],

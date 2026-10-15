@@ -1,5 +1,100 @@
 [
   {
+    "symbol": "ACE.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.7% since last observation.",
+    "trigger_ids": [
+      "trg_52a2d95a66c8",
+      "trg_9cbbf7125fc9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d2d5403fc9cb",
+    "created_at": "2026-10-15T15:12:09+05:30",
+    "expires_at": "2026-10-15T15:12:09+05:30"
+  },
+  {
+    "symbol": "WELCORP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.1% since last observation.",
+    "trigger_ids": [
+      "trg_55e5548636c2",
+      "trg_aeef846f8daa"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_4e09fd6bf463",
+    "created_at": "2026-10-15T15:12:09+05:30",
+    "expires_at": "2026-10-15T15:12:09+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.0% since last observation.",
+    "trigger_ids": [
+      "trg_b4d85715a2d9",
+      "trg_79d924be48e5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_23afa9962bfd",
+    "created_at": "2026-10-15T15:12:09+05:30",
+    "expires_at": "2026-10-15T15:12:09+05:30"
+  },
+  {
+    "symbol": "BHEL.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -6.5% since last observation.",
+    "trigger_ids": [
+      "trg_4def1d8df962",
+      "trg_32bb3ab00e9a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_03f1a1dac37e",
+    "created_at": "2026-10-15T15:12:09+05:30",
+    "expires_at": "2026-10-15T15:12:09+05:30"
+  },
+  {
+    "symbol": "CPPLUS.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -6.8% since last observation.",
+    "trigger_ids": [
+      "trg_7a76e6437d84",
+      "trg_7a4e646ef4d8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_760b87b7b805",
+    "created_at": "2026-10-15T15:12:09+05:30",
+    "expires_at": "2026-10-15T15:12:09+05:30"
+  },
+  {
     "symbol": "BHEL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1929,141 +2024,5 @@
     "escalation_id": "esc_c77596386cbc",
     "created_at": "2026-10-06T17:59:46+05:30",
     "expires_at": "2026-10-06T17:59:46+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +10.2% since last observation.",
-    "trigger_ids": [
-      "trg_e55db4b122e3",
-      "trg_0d1e5a1c418a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "HFCL.NS",
-      "score": 70.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_fef92c0c74c4",
-    "created_at": "2026-10-06T17:59:46+05:30",
-    "expires_at": "2026-10-06T17:59:46+05:30"
-  },
-  {
-    "symbol": "GRAPHITE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +8.3% since last observation.",
-    "trigger_ids": [
-      "trg_5f767328b2a7",
-      "trg_2f8ad42211e9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "GRAPHITE.NS",
-      "score": 70.8,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_8d5fcf9b3623",
-    "created_at": "2026-10-06T17:59:46+05:30",
-    "expires_at": "2026-10-06T17:59:46+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -13.6% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_6178c943229b",
-      "trg_5063608a425c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_928cfd885832",
-    "created_at": "2026-10-06T17:59:46+05:30",
-    "expires_at": "2026-10-06T17:59:46+05:30"
-  },
-  {
-    "symbol": "AEGISLOG.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.1% since last observation.",
-    "trigger_ids": [
-      "trg_0ca41e746bb3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "AEGISLOG.NS",
-      "score": 60.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "RISK_OFF",
-      "reason": "Final 60.7/100 -> WATCH [regime RISK_OFF]. Top: relative_strength=100, portfolio_fit=80, trend_following=57. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_b7a58171645b",
-    "created_at": "2026-10-06T01:06:36+05:30",
-    "expires_at": "2026-10-06T01:06:36+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.8% since last observation.",
-    "trigger_ids": [
-      "trg_bc6e1974ed2c",
-      "trg_d4179022875f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c25124a7aa92",
-    "created_at": "2026-10-06T01:06:36+05:30",
-    "expires_at": "2026-10-06T01:06:36+05:30"
   }
 ]
