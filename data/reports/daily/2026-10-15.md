@@ -442,7 +442,7 @@ FEDERALBNK.NS(49.6), VBL.NS(49.4), LICHSGFIN.NS(49.3), ABCAPITAL.NS(49.0), ZENTE
 - LTFOODS.NS (WATCH, 69.7): Final 69.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=86, portfolio_fit=80.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 19589 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 20093 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-10-15T18:18:38+05:30",
+  "as_of": "2026-10-15T20:56:05+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "FINCABLES.NS",
+      "symbol": "GESHIP.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.6% vs previous close.",
+      "reason": "Gap -3.8% vs previous close.",
       "trigger_ids": [
-        "trg_38721c9e41fe"
+        "trg_d3e73bddc0bc"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,63 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_bcd4cb8d4420",
-      "created_at": "2026-10-15T18:18:38+05:30",
-      "expires_at": "2026-10-15T18:18:38+05:30"
+      "escalation_id": "esc_6f070f4918c4",
+      "created_at": "2026-10-15T20:56:05+05:30",
+      "expires_at": "2026-10-15T20:56:05+05:30"
+    },
+    {
+      "symbol": "GRAPHITE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -4.7% vs previous close.",
+      "trigger_ids": [
+        "trg_9968cdc8dfc7"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_964eaf0ed2bc",
+      "created_at": "2026-10-15T20:56:05+05:30",
+      "expires_at": "2026-10-15T20:56:05+05:30"
+    },
+    {
+      "symbol": "HFCL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -5.0% vs previous close.",
+      "trigger_ids": [
+        "trg_dcf69ea370bc"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_37a3f26edc33",
+      "created_at": "2026-10-15T20:56:05+05:30",
+      "expires_at": "2026-10-15T20:56:05+05:30"
+    },
+    {
+      "symbol": "ACE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_47a72e309e71"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_f81885bd64dd",
+      "created_at": "2026-10-15T20:56:05+05:30",
+      "expires_at": "2026-10-15T20:56:05+05:30"
     }
   ],
   "actions_taken": [],

@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-10-15T17:29:55+05:30",
+  "as_of": "2026-10-15T20:54:34+05:30",
   "checkpoint": "close",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 5034,
+    "total_tracked_episodes": 5500,
     "matured_episodes": 5000,
     "paper_trades": 8,
     "distinct_days": 84,
@@ -30,7 +30,7 @@
       },
       {
         "label": "Tracked episodes",
-        "current": 5034,
+        "current": 5500,
         "required": 20,
         "done": true
       },
@@ -47,7 +47,7 @@
       "Benchmark verdict is BEHIND.",
       "Paper portfolio outperformance is -73.33% vs NIFTY 50.",
       "Blocked names rose 1.07% on average — blocking had a cost (still paper-safe).",
-      "Observer has run 265 time(s) with noise score 0.8."
+      "Observer has run 267 time(s) with noise score 0.8."
     ],
     "watch_items": [
       "Only 8/10 paper trades so far.",
@@ -59,10 +59,10 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-10-15T17:29:55+05:30",
-    "open_episodes": 34,
+    "as_of": "2026-10-15T20:54:34+05:30",
+    "open_episodes": 500,
     "matured_episodes": 5000,
-    "total_episodes": 5034,
+    "total_episodes": 5500,
     "by_score_band": {
       "buy_grade": {
         "count": 1,
@@ -71,13 +71,13 @@
         "hit_rate_pct": 0.0
       },
       "watch_grade": {
-        "count": 392,
+        "count": 444,
         "rated": 392,
         "avg_return_pct": -0.58,
         "hit_rate_pct": 36.5
       },
       "low_grade": {
-        "count": 4641,
+        "count": 5055,
         "rated": 4640,
         "avg_return_pct": -0.09,
         "hit_rate_pct": 40.5
@@ -90,7 +90,7 @@
       "hit_rate_pct": 0.0
     },
     "not_acted": {
-      "count": 5034,
+      "count": 5500,
       "rated": 5033,
       "avg_return_pct": -0.13,
       "hit_rate_pct": 40.2
@@ -104,13 +104,13 @@
       "hit_rate_pct": 0.0
     },
     "shadow_candidates": {
-      "count": 414,
+      "count": 467,
       "rated": 414,
       "avg_return_pct": -0.51,
       "hit_rate_pct": 37.2
     },
     "blocked": {
-      "count": 21,
+      "count": 22,
       "rated": 21,
       "avg_return_pct": 1.07,
       "hit_rate_pct": 52.4
@@ -356,9 +356,9 @@
     ]
   },
   "benchmark": {
-    "as_of": "2026-10-15T17:29:55+05:30",
+    "as_of": "2026-10-15T20:54:34+05:30",
     "ready": true,
-    "points": 255,
+    "points": 256,
     "from_date": "2026-06-23",
     "to_date": "2026-10-15",
     "benchmark_name": "NIFTY 50",
@@ -367,14 +367,6 @@
     "outperformance_pct": -73.33,
     "verdict": "BEHIND",
     "history": [
-      {
-        "date": "2026-09-17",
-        "ts": "2026-09-17T16:06:32+05:30",
-        "checkpoint": "close",
-        "nifty_close": 23298.44921875,
-        "portfolio_total": 9122.3,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-09-17",
         "ts": "2026-09-17T17:32:24+05:30",
@@ -846,6 +838,14 @@
         "nifty_close": 22997.349609375,
         "portfolio_total": 1625.17,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-10-15",
+        "ts": "2026-10-15T20:54:34+05:30",
+        "checkpoint": "close",
+        "nifty_close": 22997.349609375,
+        "portfolio_total": 1625.17,
+        "starting_capital": 10000.0
       }
     ]
   },
@@ -950,16 +950,16 @@
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 265,
-    "triggers_detected": 1199,
-    "escalations_created": 751,
+    "observation_runs": 267,
+    "triggers_detected": 1210,
+    "escalations_created": 757,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "useful_triggers": 153,
     "emails_sent_total": 0,
     "alert_noise_score": 0.8,
-    "avg_triggers_per_run": 4.52,
-    "last_run": "2026-10-15T15:54:56+05:30",
+    "avg_triggers_per_run": 4.53,
+    "last_run": "2026-10-15T18:18:38+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -977,7 +977,7 @@
     },
     "progress": {
       "paper_trades": 8,
-      "tracked_episodes": 5034,
+      "tracked_episodes": 5500,
       "distinct_days": 84
     },
     "reasons": [
