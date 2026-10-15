@@ -1,54 +1,54 @@
 {
-  "as_of": "2026-10-15T15:53:22+05:30",
+  "as_of": "2026-10-15T17:29:54+05:30",
   "portfolio_max_drawdown_pct": -84.35,
   "total_signals": 2000,
   "total_paper_trades": 8,
   "strategies": {
     "trend_following": {
-      "signals_generated": 1941,
-      "paper_trades_triggered": 5,
+      "signals_generated": 1942,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1298,
-      "average_score_contribution": 29.4,
+      "avoided_bad_trade_count": 1316,
+      "average_score_contribution": 29.3,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "relative_strength": {
-      "signals_generated": 1941,
-      "paper_trades_triggered": 5,
+      "signals_generated": 1942,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 907,
-      "average_score_contribution": 49.0,
+      "avoided_bad_trade_count": 950,
+      "average_score_contribution": 47.3,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "mean_reversion": {
-      "signals_generated": 1941,
-      "paper_trades_triggered": 5,
+      "signals_generated": 1942,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1142,
-      "average_score_contribution": 46.8,
+      "avoided_bad_trade_count": 1163,
+      "average_score_contribution": 46.4,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "breakout": {
-      "signals_generated": 1941,
-      "paper_trades_triggered": 5,
+      "signals_generated": 1942,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
@@ -58,25 +58,25 @@
       "avoided_bad_trade_count": 0,
       "average_score_contribution": 49.2,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "volatility_risk": {
-      "signals_generated": 1941,
-      "paper_trades_triggered": 5,
+      "signals_generated": 1942,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 536,
-      "average_score_contribution": 48.6,
+      "avoided_bad_trade_count": 556,
+      "average_score_contribution": 48.0,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "portfolio_fit": {
       "signals_generated": 2000,
-      "paper_trades_triggered": 5,
+      "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
       "win_rate": 0.0,
@@ -86,7 +86,7 @@
       "avoided_bad_trade_count": 70,
       "average_score_contribution": 77.5,
       "confidence_accuracy": null,
-      "notes": "Insufficient sample to judge; continue paper testing."
+      "notes": "No paper trades yet attributed; acting mainly as a filter."
     }
   },
   "disclaimer": "Indicative only. One month of paper data is not enough to conclude a strategy works. No weights were changed automatically during the month."

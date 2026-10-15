@@ -1,5 +1,96 @@
 [
   {
+    "symbol": "ACE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.5% vs previous close.",
+    "trigger_ids": [
+      "trg_a57943fe995e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_bda161edf842",
+    "created_at": "2026-10-15T17:31:44+05:30",
+    "expires_at": "2026-10-15T17:31:44+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_c3a665fd801f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c759f6689159",
+    "created_at": "2026-10-15T17:31:44+05:30",
+    "expires_at": "2026-10-15T17:31:44+05:30"
+  },
+  {
+    "symbol": "GRAPHITE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -4.7% vs previous close.",
+    "trigger_ids": [
+      "trg_bdd03a333f6c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c55dbc466338",
+    "created_at": "2026-10-15T17:31:44+05:30",
+    "expires_at": "2026-10-15T17:31:44+05:30"
+  },
+  {
+    "symbol": "GESHIP.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.8% vs previous close.",
+    "trigger_ids": [
+      "trg_b86486c30679"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1500b17e2e3f",
+    "created_at": "2026-10-15T17:31:44+05:30",
+    "expires_at": "2026-10-15T17:31:44+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.6% since last observation.",
+    "trigger_ids": [
+      "trg_269a292400c1",
+      "trg_8cd6933f5b92"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_0a96c8d42ad8",
+    "created_at": "2026-10-15T17:31:44+05:30",
+    "expires_at": "2026-10-15T17:31:44+05:30"
+  },
+  {
     "symbol": "WELCORP.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -1920,109 +2011,5 @@
     "escalation_id": "esc_40eb90882e96",
     "created_at": "2026-10-06T19:21:13+05:30",
     "expires_at": "2026-10-06T19:21:13+05:30"
-  },
-  {
-    "symbol": "GLAND.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_382df3f4b696"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_e258c4ab70f6",
-    "created_at": "2026-10-06T19:21:13+05:30",
-    "expires_at": "2026-10-06T19:21:13+05:30"
-  },
-  {
-    "symbol": "CPPLUS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.4% since last observation.",
-    "trigger_ids": [
-      "trg_801f7fb6bb7c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CPPLUS.NS",
-      "score": 72.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 72.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_a6692c73ffef",
-    "created_at": "2026-10-06T19:21:13+05:30",
-    "expires_at": "2026-10-06T19:21:13+05:30"
-  },
-  {
-    "symbol": "TVSMOTOR.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -8.3% since last observation.",
-    "trigger_ids": [
-      "trg_588defb01b8f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c053a7824908",
-    "created_at": "2026-10-06T19:21:13+05:30",
-    "expires_at": "2026-10-06T19:21:13+05:30"
-  },
-  {
-    "symbol": "AEGISLOG.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_9defdf1956e3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f2799ceafb99",
-    "created_at": "2026-10-06T17:59:46+05:30",
-    "expires_at": "2026-10-06T17:59:46+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.2% since last observation.",
-    "trigger_ids": [
-      "trg_cd8095c591e5"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c77596386cbc",
-    "created_at": "2026-10-06T17:59:46+05:30",
-    "expires_at": "2026-10-06T17:59:46+05:30"
   }
 ]

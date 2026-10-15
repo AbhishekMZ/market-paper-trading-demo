@@ -1,33 +1,33 @@
 {
-  "as_of": "2026-10-15T15:54:56+05:30",
-  "checkpoint": "mid",
+  "as_of": "2026-10-15T17:31:44+05:30",
+  "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 11,
+  "triggers_this_run": 6,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 265,
-    "triggers_detected": 1199,
-    "escalations_created": 751,
+    "observation_runs": 266,
+    "triggers_detected": 1205,
+    "escalations_created": 756,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-15T15:54:56+05:30",
+    "last_run": "2026-10-15T17:31:44+05:30",
     "last_watchlist_size": 15
   },
   "result": {
-    "checkpoint": "mid",
+    "checkpoint": "close",
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
+      "FINCABLES.NS",
       "GESHIP.NS",
-      "CARTRADE.NS",
       "GRAPHITE.NS",
       "HFCL.NS",
       "THELEELA.NS",
@@ -37,34 +37,55 @@
       "CYIENT.NS",
       "PERSISTENT.NS",
       "FSL.NS",
-      "WELCORP.NS",
       "PNBHOUSING.NS",
-      "MCX.NS"
+      "MCX.NS",
+      "ACE.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
     ],
     "triggers": [
       {
-        "symbol": "GESHIP.NS",
+        "symbol": "FINCABLES.NS",
         "trigger_type": "LARGE_MOVE",
         "severity": "MEDIUM",
-        "reason": "Moved -3.8% since last observation.",
-        "company_name": "Great Eastern Shipping Co. Ltd.",
+        "reason": "Moved -3.6% since last observation.",
+        "company_name": "Finolex Cables Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1484.0999755859375,
+        "price_at_detection": 1393.9000244140625,
         "previous_price": null,
-        "change_pct": -3.82,
+        "change_pct": -3.62,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_705005f3550f",
-        "trigger_id": "trg_c78aba832a5c",
-        "detected_at": "2026-10-15T15:53:44+05:30"
+        "created_escalation_id": "esc_0a96c8d42ad8",
+        "trigger_id": "trg_269a292400c1",
+        "detected_at": "2026-10-15T17:30:18+05:30"
+      },
+      {
+        "symbol": "FINCABLES.NS",
+        "trigger_type": "GAP_MOVE",
+        "severity": "LOW",
+        "reason": "Gap -3.6% vs previous close.",
+        "company_name": "Finolex Cables Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1393.9000244140625,
+        "previous_price": null,
+        "change_pct": -3.623,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_0a96c8d42ad8",
+        "trigger_id": "trg_8cd6933f5b92",
+        "detected_at": "2026-10-15T17:30:18+05:30"
       },
       {
         "symbol": "GESHIP.NS",
@@ -83,72 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_705005f3550f",
-        "trigger_id": "trg_58e55e74f983",
-        "detected_at": "2026-10-15T15:53:44+05:30"
-      },
-      {
-        "symbol": "CARTRADE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved -7.1% since last observation.",
-        "company_name": "Cartrade Tech Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2964.0,
-        "previous_price": null,
-        "change_pct": -7.12,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_fa4aa775ac0b",
-        "trigger_id": "trg_46becb31616f",
-        "detected_at": "2026-10-15T15:53:52+05:30"
-      },
-      {
-        "symbol": "CARTRADE.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -5.9% vs previous close.",
-        "company_name": "Cartrade Tech Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2964.0,
-        "previous_price": null,
-        "change_pct": -5.9495,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_fa4aa775ac0b",
-        "trigger_id": "trg_0a63255a2b03",
-        "detected_at": "2026-10-15T15:53:52+05:30"
-      },
-      {
-        "symbol": "GRAPHITE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -4.8% since last observation.",
-        "company_name": "Graphite India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 767.2000122070312,
-        "previous_price": null,
-        "change_pct": -4.75,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_3167cf6dd0a9",
-        "trigger_id": "trg_9499222166af",
-        "detected_at": "2026-10-15T15:54:01+05:30"
+        "created_escalation_id": "esc_1500b17e2e3f",
+        "trigger_id": "trg_b86486c30679",
+        "detected_at": "2026-10-15T17:30:27+05:30"
       },
       {
         "symbol": "GRAPHITE.NS",
@@ -167,30 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_3167cf6dd0a9",
-        "trigger_id": "trg_744b92edfb98",
-        "detected_at": "2026-10-15T15:54:01+05:30"
-      },
-      {
-        "symbol": "HFCL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.0% since last observation.",
-        "company_name": "HFCL Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 243.82000732421875,
-        "previous_price": null,
-        "change_pct": -5.0,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_afcd24762c19",
-        "trigger_id": "trg_29e1877be50f",
-        "detected_at": "2026-10-15T15:54:10+05:30"
+        "created_escalation_id": "esc_c55dbc466338",
+        "trigger_id": "trg_bdd03a333f6c",
+        "detected_at": "2026-10-15T17:30:39+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -209,90 +146,42 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_afcd24762c19",
-        "trigger_id": "trg_84bd0b289da3",
-        "detected_at": "2026-10-15T15:54:10+05:30"
+        "created_escalation_id": "esc_c759f6689159",
+        "trigger_id": "trg_c3a665fd801f",
+        "detected_at": "2026-10-15T17:30:51+05:30"
       },
       {
-        "symbol": "WELCORP.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.6% since last observation.",
-        "company_name": "Welspun Corp Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2486.89990234375,
-        "previous_price": null,
-        "change_pct": -5.58,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_9a1d18626cfb",
-        "trigger_id": "trg_06c6dae8fe17",
-        "detected_at": "2026-10-15T15:54:56+05:30"
-      },
-      {
-        "symbol": "WELCORP.NS",
+        "symbol": "ACE.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
-        "reason": "Gap -5.6% vs previous close.",
-        "company_name": "Welspun Corp Ltd.",
+        "reason": "Gap -3.5% vs previous close.",
+        "company_name": "Action Construction Equipment Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 2486.89990234375,
+        "price_at_detection": 1155.699951171875,
         "previous_price": null,
-        "change_pct": -5.5775,
+        "change_pct": -3.4503,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_9a1d18626cfb",
-        "trigger_id": "trg_24b801c036db",
-        "detected_at": "2026-10-15T15:54:56+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.1% since last observation.",
-        "company_name": "Multi Commodity Exchange of India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3216.39990234375,
-        "previous_price": null,
-        "change_pct": -3.07,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_59c9650dc813",
-        "detected_at": "2026-10-15T15:54:56+05:30"
+        "created_escalation_id": "esc_bda161edf842",
+        "trigger_id": "trg_a57943fe995e",
+        "detected_at": "2026-10-15T17:31:44+05:30"
       }
     ],
-    "throttled": [
-      {
-        "symbol": "MCX.NS",
-        "trigger": "LARGE_MOVE",
-        "reason": "max_escalations_per_run"
-      }
-    ],
+    "throttled": [],
     "escalations": [
       {
-        "symbol": "CARTRADE.NS",
-        "severity": "HIGH",
+        "symbol": "FINCABLES.NS",
+        "severity": "MEDIUM",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -7.1% since last observation.",
+        "reason": "Moved -3.6% since last observation.",
         "trigger_ids": [
-          "trg_46becb31616f",
-          "trg_0a63255a2b03"
+          "trg_269a292400c1",
+          "trg_8cd6933f5b92"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -300,18 +189,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_fa4aa775ac0b",
-        "created_at": "2026-10-15T15:54:56+05:30",
-        "expires_at": "2026-10-15T15:54:56+05:30"
+        "escalation_id": "esc_0a96c8d42ad8",
+        "created_at": "2026-10-15T17:31:44+05:30",
+        "expires_at": "2026-10-15T17:31:44+05:30"
       },
       {
         "symbol": "GESHIP.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.8% since last observation.",
+        "reason": "Gap -3.8% vs previous close.",
         "trigger_ids": [
-          "trg_c78aba832a5c",
-          "trg_58e55e74f983"
+          "trg_b86486c30679"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -319,18 +207,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_705005f3550f",
-        "created_at": "2026-10-15T15:54:56+05:30",
-        "expires_at": "2026-10-15T15:54:56+05:30"
+        "escalation_id": "esc_1500b17e2e3f",
+        "created_at": "2026-10-15T17:31:44+05:30",
+        "expires_at": "2026-10-15T17:31:44+05:30"
       },
       {
         "symbol": "GRAPHITE.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -4.8% since last observation.",
+        "reason": "Gap -4.7% vs previous close.",
         "trigger_ids": [
-          "trg_9499222166af",
-          "trg_744b92edfb98"
+          "trg_bdd03a333f6c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -338,18 +225,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_3167cf6dd0a9",
-        "created_at": "2026-10-15T15:54:56+05:30",
-        "expires_at": "2026-10-15T15:54:56+05:30"
+        "escalation_id": "esc_c55dbc466338",
+        "created_at": "2026-10-15T17:31:44+05:30",
+        "expires_at": "2026-10-15T17:31:44+05:30"
       },
       {
         "symbol": "HFCL.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -5.0% since last observation.",
+        "reason": "Gap -5.0% vs previous close.",
         "trigger_ids": [
-          "trg_29e1877be50f",
-          "trg_84bd0b289da3"
+          "trg_c3a665fd801f"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -357,18 +243,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_afcd24762c19",
-        "created_at": "2026-10-15T15:54:56+05:30",
-        "expires_at": "2026-10-15T15:54:56+05:30"
+        "escalation_id": "esc_c759f6689159",
+        "created_at": "2026-10-15T17:31:44+05:30",
+        "expires_at": "2026-10-15T17:31:44+05:30"
       },
       {
-        "symbol": "WELCORP.NS",
-        "severity": "MEDIUM",
+        "symbol": "ACE.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -5.6% since last observation.",
+        "reason": "Gap -3.5% vs previous close.",
         "trigger_ids": [
-          "trg_06c6dae8fe17",
-          "trg_24b801c036db"
+          "trg_a57943fe995e"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -376,14 +261,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_9a1d18626cfb",
-        "created_at": "2026-10-15T15:54:56+05:30",
-        "expires_at": "2026-10-15T15:54:56+05:30"
+        "escalation_id": "esc_bda161edf842",
+        "created_at": "2026-10-15T17:31:44+05:30",
+        "expires_at": "2026-10-15T17:31:44+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-15T15:53:25+05:30"
+    "as_of": "2026-10-15T17:29:57+05:30"
   }
 }
