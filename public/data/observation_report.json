@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-15T17:31:44+05:30",
+  "as_of": "2026-10-15T18:18:38+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 6,
-  "escalations": 5,
+  "triggers_this_run": 5,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 4,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 266,
-    "triggers_detected": 1205,
-    "escalations_created": 756,
+    "observation_runs": 267,
+    "triggers_detected": 1210,
+    "escalations_created": 757,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-15T17:31:44+05:30",
+    "last_run": "2026-10-15T18:18:38+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -47,27 +47,6 @@
     "triggers": [
       {
         "symbol": "FINCABLES.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.6% since last observation.",
-        "company_name": "Finolex Cables Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1393.9000244140625,
-        "previous_price": null,
-        "change_pct": -3.62,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_0a96c8d42ad8",
-        "trigger_id": "trg_269a292400c1",
-        "detected_at": "2026-10-15T17:30:18+05:30"
-      },
-      {
-        "symbol": "FINCABLES.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap -3.6% vs previous close.",
@@ -83,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_0a96c8d42ad8",
-        "trigger_id": "trg_8cd6933f5b92",
-        "detected_at": "2026-10-15T17:30:18+05:30"
+        "created_escalation_id": "esc_bcd4cb8d4420",
+        "trigger_id": "trg_38721c9e41fe",
+        "detected_at": "2026-10-15T18:16:45+05:30"
       },
       {
         "symbol": "GESHIP.NS",
@@ -104,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_1500b17e2e3f",
-        "trigger_id": "trg_b86486c30679",
-        "detected_at": "2026-10-15T17:30:27+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_3626a593bce6",
+        "detected_at": "2026-10-15T18:16:54+05:30"
       },
       {
         "symbol": "GRAPHITE.NS",
@@ -125,9 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_c55dbc466338",
-        "trigger_id": "trg_bdd03a333f6c",
-        "detected_at": "2026-10-15T17:30:39+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_faa52b250e8f",
+        "detected_at": "2026-10-15T18:17:02+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -146,9 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_c759f6689159",
-        "trigger_id": "trg_c3a665fd801f",
-        "detected_at": "2026-10-15T17:30:51+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_1dec5c55a3bb",
+        "detected_at": "2026-10-15T18:17:14+05:30"
       },
       {
         "symbol": "ACE.NS",
@@ -167,93 +146,41 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_bda161edf842",
-        "trigger_id": "trg_a57943fe995e",
-        "detected_at": "2026-10-15T17:31:44+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_48e137083960",
+        "detected_at": "2026-10-15T18:18:38+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
-      {
-        "symbol": "FINCABLES.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.6% since last observation.",
-        "trigger_ids": [
-          "trg_269a292400c1",
-          "trg_8cd6933f5b92"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_0a96c8d42ad8",
-        "created_at": "2026-10-15T17:31:44+05:30",
-        "expires_at": "2026-10-15T17:31:44+05:30"
-      },
+    "throttled": [
       {
         "symbol": "GESHIP.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.8% vs previous close.",
-        "trigger_ids": [
-          "trg_b86486c30679"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_1500b17e2e3f",
-        "created_at": "2026-10-15T17:31:44+05:30",
-        "expires_at": "2026-10-15T17:31:44+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       },
       {
         "symbol": "GRAPHITE.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -4.7% vs previous close.",
-        "trigger_ids": [
-          "trg_bdd03a333f6c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_c55dbc466338",
-        "created_at": "2026-10-15T17:31:44+05:30",
-        "expires_at": "2026-10-15T17:31:44+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       },
       {
         "symbol": "HFCL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -5.0% vs previous close.",
-        "trigger_ids": [
-          "trg_c3a665fd801f"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_c759f6689159",
-        "created_at": "2026-10-15T17:31:44+05:30",
-        "expires_at": "2026-10-15T17:31:44+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       },
       {
         "symbol": "ACE.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "FINCABLES.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.5% vs previous close.",
+        "reason": "Gap -3.6% vs previous close.",
         "trigger_ids": [
-          "trg_a57943fe995e"
+          "trg_38721c9e41fe"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -261,14 +188,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_bda161edf842",
-        "created_at": "2026-10-15T17:31:44+05:30",
-        "expires_at": "2026-10-15T17:31:44+05:30"
+        "escalation_id": "esc_bcd4cb8d4420",
+        "created_at": "2026-10-15T18:18:38+05:30",
+        "expires_at": "2026-10-15T18:18:38+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-15T17:29:57+05:30"
+    "as_of": "2026-10-15T18:16:28+05:30"
   }
 }
