@@ -1,5 +1,72 @@
 [
   {
+    "symbol": "JIOFIN.NS",
+    "title": "Jio Financial Services Q2 Net Profit Falls 51 Per Cent To ₹340 Crore As Expenses Rise",
+    "source": "freepressjournal.in",
+    "provider": "gdelt",
+    "url": "https://www.freepressjournal.in/business/jio-financial-services-q2-net-profit-falls-51-per-cent-to-340-crore-as-expenses-rise",
+    "summary": "",
+    "published_at": "2026-10-15T15:30:00+00:00",
+    "fetched_at": "2026-10-16T11:13:39.022023+00:00",
+    "age_hours": 19.73,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_MISS"
+    ],
+    "risk_level": "MEDIUM",
+    "matched_keywords": [
+      "profit falls"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
+  },
+  {
+    "symbol": "JIOFIN.NS",
+    "title": "Jio Platforms IPO : Price , Dates , Shareholder Value , and Reliance Debt - Free Strategy",
+    "source": "rediff.com",
+    "provider": "gdelt",
+    "url": "https://www.rediff.com/business/report/jio-platforms-ipo-price-dates-shareholder-value-and-reliances-debt-free-strategy/20261016.htm",
+    "summary": "",
+    "published_at": "2026-10-16T09:45:00+00:00",
+    "fetched_at": "2026-10-16T11:13:39.021985+00:00",
+    "age_hours": 1.48,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.6666666666666666,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
+  },
+  {
+    "symbol": "JSL.NS",
+    "title": "Jindal Ferrous expands Odisha footprint with ₹5 , 000 cr carbon steel plant",
+    "source": "business-standard.com",
+    "provider": "gdelt",
+    "url": "https://www.business-standard.com/industry/news/jindal-ferrous-expands-odisha-footprint-with-5-000-cr-carbon-steel-plant-126101501182_1.html",
+    "summary": "",
+    "published_at": "2026-10-15T14:15:00+00:00",
+    "fetched_at": "2026-10-16T11:13:17.801540+00:00",
+    "age_hours": 20.97,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.7333333333333334,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
+  },
+  {
     "symbol": "NESTLEIND.NS",
     "title": "Nestle India stock falls further after 8 % crash on Q2 results ; HSBC sees 16 % upside but flags growth slowdown",
     "source": "moneycontrol.com",
@@ -3882,70 +3949,5 @@
     "matched_keywords": [
       "expansion"
     ]
-  },
-  {
-    "symbol": "JUBLFOOD.NS",
-    "title": "Jubilant Foodworks Ltd (BOM:533155) Q4 2026 Earnings Call Highlights: Strategic Expansion Amid ...",
-    "source": "GuruFocus.com",
-    "provider": "yfinance",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jubilant-foodworks-ltd-bom-533155-190119252.html",
-    "summary": "",
-    "published_at": "2026-05-20T19:01:19+00:00",
-    "fetched_at": "2026-10-01T17:27:38.525759+00:00",
-    "age_hours": 3214.44,
-    "is_fresh": false,
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.38,
-    "sentiment_confidence": 0.056,
-    "relevance": 1.0,
-    "event_types": [
-      "EXPANSION"
-    ],
-    "risk_level": "NONE",
-    "matched_keywords": [
-      "expansion"
-    ]
-  },
-  {
-    "symbol": "JUBLFOOD.NS",
-    "title": "India's Jubilant FoodWorks profit rises as Domino's sales growth picks up",
-    "source": "Reuters",
-    "provider": "yfinance",
-    "url": "https://sg.finance.yahoo.com/news/indias-jubilant-foodworks-profit-rises-090213366.html",
-    "summary": "",
-    "published_at": "2026-08-13T09:14:48+00:00",
-    "fetched_at": "2026-10-01T17:27:38.525743+00:00",
-    "age_hours": 1184.21,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [
-      "EARNINGS_BEAT"
-    ],
-    "risk_level": "NONE",
-    "matched_keywords": [
-      "profit rises"
-    ]
-  },
-  {
-    "symbol": "JUBLFOOD.NS",
-    "title": "Jubilant Foodworks Ltd (BOM:533155) (Q1 2027) Earnings Call Highlights: Popeyes Surges 45% LFL, ...",
-    "source": "GuruFocus.com",
-    "provider": "yfinance",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jubilant-foodworks-ltd-bom-533155-231100822.html",
-    "summary": "",
-    "published_at": "2026-08-13T23:11:00+00:00",
-    "fetched_at": "2026-10-01T17:27:38.525723+00:00",
-    "age_hours": 1170.28,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
   }
 ]

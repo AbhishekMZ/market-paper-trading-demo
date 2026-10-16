@@ -9958,5 +9958,72 @@
     "matched_keywords": [],
     "checkpoint": "mid",
     "decision_at": "2026-10-16T15:54:36+05:30"
+  },
+  {
+    "symbol": "JSL.NS",
+    "title": "Jindal Ferrous expands Odisha footprint with ₹5 , 000 cr carbon steel plant",
+    "source": "business-standard.com",
+    "provider": "gdelt",
+    "url": "https://www.business-standard.com/industry/news/jindal-ferrous-expands-odisha-footprint-with-5-000-cr-carbon-steel-plant-126101501182_1.html",
+    "summary": "",
+    "published_at": "2026-10-15T14:15:00+00:00",
+    "fetched_at": "2026-10-16T11:13:17.801540+00:00",
+    "age_hours": 20.97,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.7333333333333334,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
+  },
+  {
+    "symbol": "JIOFIN.NS",
+    "title": "Jio Platforms IPO : Price , Dates , Shareholder Value , and Reliance Debt - Free Strategy",
+    "source": "rediff.com",
+    "provider": "gdelt",
+    "url": "https://www.rediff.com/business/report/jio-platforms-ipo-price-dates-shareholder-value-and-reliances-debt-free-strategy/20261016.htm",
+    "summary": "",
+    "published_at": "2026-10-16T09:45:00+00:00",
+    "fetched_at": "2026-10-16T11:13:39.021985+00:00",
+    "age_hours": 1.48,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.6666666666666666,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
+  },
+  {
+    "symbol": "JIOFIN.NS",
+    "title": "Jio Financial Services Q2 Net Profit Falls 51 Per Cent To ₹340 Crore As Expenses Rise",
+    "source": "freepressjournal.in",
+    "provider": "gdelt",
+    "url": "https://www.freepressjournal.in/business/jio-financial-services-q2-net-profit-falls-51-per-cent-to-340-crore-as-expenses-rise",
+    "summary": "",
+    "published_at": "2026-10-15T15:30:00+00:00",
+    "fetched_at": "2026-10-16T11:13:39.022023+00:00",
+    "age_hours": 19.73,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [
+      "EARNINGS_MISS"
+    ],
+    "risk_level": "MEDIUM",
+    "matched_keywords": [
+      "profit falls"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-16T17:16:07+05:30"
   }
 ]
