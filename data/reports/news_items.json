@@ -9937,5 +9937,26 @@
     "matched_keywords": [
       "expansion"
     ]
+  },
+  {
+    "symbol": "NESTLEIND.NS",
+    "title": "Nestle India stock falls further after 8 % crash on Q2 results ; HSBC sees 16 % upside but flags growth slowdown",
+    "source": "moneycontrol.com",
+    "provider": "gdelt",
+    "url": "https://www.moneycontrol.com/news/business/markets/nestle-india-stock-falls-further-after-8-crash-on-q2-results-hsbc-sees-16-upside-but-flags-growth-slowdown-14053523.html",
+    "summary": "",
+    "published_at": "2026-10-16T05:15:00+00:00",
+    "fetched_at": "2026-10-16T10:00:10.679152+00:00",
+    "age_hours": 4.75,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "mid",
+    "decision_at": "2026-10-16T15:54:36+05:30"
   }
 ]

@@ -1,39 +1,5 @@
 [
   {
-    "ts": "2026-06-23T11:46:46+05:30",
-    "symbol": "AXISBANK.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 1363.0,
-    "mtm_price": 1363.0,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: unknown -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-06-23T11:46:46+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 538.92,
-    "jump_pct": 0.0,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-06-23T13:26:47+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 290.04998779296875,
-    "jump_pct": 46.18,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
     "ts": "2026-06-23T15:00:03+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -5981,6 +5947,45 @@
     "prev_price": 538.92,
     "rejected_price": 263.8999938964844,
     "jump_pct": 51.03,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-10-16T14:31:03+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-10-16T14:32:01+05:30",
+    "symbol": "POLICYBZR.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 1067.0999755859375,
+    "mtm_price": 1067.0999755859375,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "split_or_ca_discontinuity"
+    ],
+    "reasons": [
+      "consecutive close gap 36.0% >= 25% (suspected split/corporate action)."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
+    "ts": "2026-10-16T14:33:23+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 262.5,
+    "jump_pct": 51.29,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]
