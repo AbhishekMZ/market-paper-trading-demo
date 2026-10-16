@@ -1,5 +1,108 @@
 [
   {
+    "symbol": "KARURVYSYA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_89a620151d52"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_67d8cf5911ef",
+    "created_at": "2026-10-16T15:05:13+05:30",
+    "expires_at": "2026-10-16T15:05:13+05:30"
+  },
+  {
+    "symbol": "SYRMA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.1% since last observation.",
+    "trigger_ids": [
+      "trg_643abc4df6f3",
+      "trg_0ee219233196"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_cb88046bbf05",
+    "created_at": "2026-10-16T15:05:13+05:30",
+    "expires_at": "2026-10-16T15:05:13+05:30"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.0% since last observation.",
+    "trigger_ids": [
+      "trg_e1e370f714a8",
+      "trg_0d018fb7f5f1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "THELEELA.NS",
+      "score": 70.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=97, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_03309b9ecdda",
+    "created_at": "2026-10-16T15:05:13+05:30",
+    "expires_at": "2026-10-16T15:05:13+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +5.0% since last observation.",
+    "trigger_ids": [
+      "trg_5e940866f732",
+      "trg_2812b35a6760"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HFCL.NS",
+      "score": 65.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_8588901dd021",
+    "created_at": "2026-10-16T15:05:13+05:30",
+    "expires_at": "2026-10-16T15:05:13+05:30"
+  },
+  {
     "symbol": "ACE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1938,78 +2041,5 @@
     "escalation_id": "esc_8bf50b72ea7c",
     "created_at": "2026-10-07T17:50:32+05:30",
     "expires_at": "2026-10-07T17:50:32+05:30"
-  },
-  {
-    "symbol": "SAGILITY.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -6.2% since last observation.",
-    "trigger_ids": [
-      "trg_68f579f60290"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_2117c121108e",
-    "created_at": "2026-10-07T17:50:32+05:30",
-    "expires_at": "2026-10-07T17:50:32+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "CRITICAL",
-    "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -16.1% breaches hard-loss -15%.",
-    "trigger_ids": [
-      "trg_5544c22e203c",
-      "trg_fe5abff4555e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_3d78e08b4834",
-    "created_at": "2026-10-07T17:50:32+05:30",
-    "expires_at": "2026-10-07T17:50:32+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_182e7c6df817"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_e4cb42a47486",
-    "created_at": "2026-10-06T22:41:03+05:30",
-    "expires_at": "2026-10-06T22:41:03+05:30"
-  },
-  {
-    "symbol": "GRAPHITE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.3% vs previous close.",
-    "trigger_ids": [
-      "trg_63cb1874425a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a5f107f1f476",
-    "created_at": "2026-10-06T22:41:03+05:30",
-    "expires_at": "2026-10-06T22:41:03+05:30"
   }
 ]
