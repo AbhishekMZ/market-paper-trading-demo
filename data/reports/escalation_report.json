@@ -1,14 +1,15 @@
 {
-  "as_of": "2026-10-16T20:40:37+05:30",
+  "as_of": "2026-10-19T16:06:25+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SHYAMMETL.NS",
-      "severity": "LOW",
+      "symbol": "FINCABLES.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.6% vs previous close.",
+      "reason": "Moved -6.2% since last observation.",
       "trigger_ids": [
-        "trg_79443fa0c003"
+        "trg_25d09e52c417",
+        "trg_28fc0783238d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +17,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_6487d34813f3",
-      "created_at": "2026-10-16T20:40:37+05:30",
-      "expires_at": "2026-10-16T20:40:37+05:30"
+      "escalation_id": "esc_33de916fe2e2",
+      "created_at": "2026-10-19T16:06:25+05:30",
+      "expires_at": "2026-10-19T16:06:25+05:30"
     },
     {
       "symbol": "SYRMA.NS",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.9% vs previous close.",
+      "reason": "Moved -3.6% since last observation.",
       "trigger_ids": [
-        "trg_003c89edcb3f"
+        "trg_c6cc37b0ad35",
+        "trg_6bcef6837719"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,17 +36,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_508b52e4e5b5",
-      "created_at": "2026-10-16T20:40:37+05:30",
-      "expires_at": "2026-10-16T20:40:37+05:30"
+      "escalation_id": "esc_1f6071f0f62a",
+      "created_at": "2026-10-19T16:06:25+05:30",
+      "expires_at": "2026-10-19T16:06:25+05:30"
     },
     {
-      "symbol": "THELEELA.NS",
-      "severity": "LOW",
+      "symbol": "LTFOODS.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Moved -3.1% since last observation.",
       "trigger_ids": [
-        "trg_720e464da38d"
+        "trg_47b4815c08ca",
+        "trg_566596069e34"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,17 +55,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e952c77db2c5",
-      "created_at": "2026-10-16T20:40:37+05:30",
-      "expires_at": "2026-10-16T20:40:37+05:30"
+      "escalation_id": "esc_b147c0757a7e",
+      "created_at": "2026-10-19T16:06:25+05:30",
+      "expires_at": "2026-10-19T16:06:25+05:30"
     },
     {
-      "symbol": "IPCALAB.NS",
+      "symbol": "SAGILITY.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.2% vs previous close.",
+      "reason": "Gap -2.9% vs previous close.",
       "trigger_ids": [
-        "trg_d261b0bb8b05"
+        "trg_58997bf09262"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -70,9 +73,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_3f364979d2a1",
-      "created_at": "2026-10-16T20:40:37+05:30",
-      "expires_at": "2026-10-16T20:40:37+05:30"
+      "escalation_id": "esc_0e169a45fa09",
+      "created_at": "2026-10-19T16:06:25+05:30",
+      "expires_at": "2026-10-19T16:06:25+05:30"
+    },
+    {
+      "symbol": "LTTS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.8% vs previous close.",
+      "trigger_ids": [
+        "trg_3e3f0c22cd9d"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_175a08f2e453",
+      "created_at": "2026-10-19T16:06:25+05:30",
+      "expires_at": "2026-10-19T16:06:25+05:30"
     }
   ],
   "actions_taken": [],
