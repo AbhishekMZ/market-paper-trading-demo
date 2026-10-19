@@ -23,7 +23,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "SAMMAANCAP.NS",
@@ -49,7 +49,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ANURAS.NS",
@@ -75,7 +75,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "SJVN.NS",
@@ -101,7 +101,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "HSCL.NS",
@@ -127,7 +127,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "MARUTI.NS",
@@ -153,33 +153,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
-  },
-  {
-    "symbol": "YESBANK.NS",
-    "company_name": "Yes Bank Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "POLICYBZR.NS",
@@ -205,7 +179,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "NESTLEIND.NS",
@@ -231,7 +205,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "APOLLOHOSP.NS",
@@ -257,7 +231,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "MFSL.NS",
@@ -283,7 +257,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "3MINDIA.NS",
@@ -309,7 +283,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "HDBFS.NS",
@@ -335,7 +309,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "BIKAJI.NS",
@@ -361,7 +335,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "INOXWIND.NS",
@@ -387,7 +361,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "APTUS.NS",
@@ -413,7 +387,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "IRCON.NS",
@@ -439,7 +413,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "DMART.NS",
@@ -465,7 +439,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "DALBHARAT.NS",
@@ -491,7 +465,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "LTF.NS",
@@ -517,7 +491,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "FORTIS.NS",
@@ -543,7 +517,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "CROMPTON.NS",
@@ -569,7 +543,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "PIIND.NS",
@@ -595,7 +569,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ULTRACEMCO.NS",
@@ -621,7 +595,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "INDUSINDBK.NS",
@@ -647,7 +621,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "PFIZER.NS",
@@ -673,7 +647,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "AMBUJACEM.NS",
@@ -699,7 +673,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "COLPAL.NS",
@@ -725,7 +699,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ENRIN.NS",
@@ -751,7 +725,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "JWL.NS",
@@ -777,7 +751,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "BRITANNIA.NS",
@@ -803,7 +777,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "HINDUNILVR.NS",
@@ -829,7 +803,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "TIINDIA.NS",
@@ -855,7 +829,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "MANKIND.NS",
@@ -881,7 +855,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "SUZLON.NS",
@@ -907,7 +881,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ABFRL.NS",
@@ -933,7 +907,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "RAINBOW.NS",
@@ -959,7 +933,87 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
+  },
+  {
+    "symbol": "YESBANK.NS",
+    "company_name": "Yes Bank Ltd.",
+    "news_available": true,
+    "item_count": 1,
+    "fresh_item_count": 1,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 1,
+    "news_risk_level": "HIGH",
+    "dominant_event_types": [
+      "REGULATORY"
+    ],
+    "blocks_buy": true,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "1 relevant item(s); worst risk HIGH, sentiment NEUTRAL.",
+      "[HIGH] Sumitomo - Backed Yes Bank Pegs Bond Order Hit at $549 Million",
+      "HIGH/CRITICAL adverse news -> new paper buy blocked."
+    ],
+    "providers_used": [
+      "gdelt"
+    ],
+    "top_items": [
+      {
+        "symbol": "YESBANK.NS",
+        "title": "Sumitomo - Backed Yes Bank Pegs Bond Order Hit at $549 Million",
+        "source": "moneycontrol.com",
+        "provider": "gdelt",
+        "url": "https://www.moneycontrol.com/banking/sumitomo-backed-yes-bank-pegs-bond-order-hit-at-549-million-article-14054924.html",
+        "summary": "",
+        "published_at": "2026-10-18T18:30:00+00:00",
+        "fetched_at": "2026-10-19T17:42:43.463619+00:00",
+        "age_hours": 23.21,
+        "is_fresh": true,
+        "sentiment": "NEUTRAL",
+        "sentiment_score": 0.0,
+        "sentiment_confidence": 0.0,
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      }
+    ],
+    "critical_items": [
+      {
+        "symbol": "YESBANK.NS",
+        "title": "Sumitomo - Backed Yes Bank Pegs Bond Order Hit at $549 Million",
+        "source": "moneycontrol.com",
+        "provider": "gdelt",
+        "url": "https://www.moneycontrol.com/banking/sumitomo-backed-yes-bank-pegs-bond-order-hit-at-549-million-article-14054924.html",
+        "summary": "",
+        "published_at": "2026-10-18T18:30:00+00:00",
+        "fetched_at": "2026-10-19T17:42:43.463619+00:00",
+        "age_hours": 23.21,
+        "is_fresh": true,
+        "sentiment": "NEUTRAL",
+        "sentiment_score": 0.0,
+        "sentiment_confidence": 0.0,
+        "relevance": 1.0,
+        "event_types": [
+          "REGULATORY"
+        ],
+        "risk_level": "HIGH",
+        "matched_keywords": [
+          "ban"
+        ]
+      }
+    ],
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "TMPV.NS",
@@ -985,7 +1039,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "HONAUT.NS",
@@ -1011,7 +1065,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "AAVAS.NS",
@@ -1037,7 +1091,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ACC.NS",
@@ -1063,7 +1117,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "CCL.NS",
@@ -1089,7 +1143,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "UPL.NS",
@@ -1115,7 +1169,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "VOLTAS.NS",
@@ -1141,7 +1195,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "UBL.NS",
@@ -1167,7 +1221,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "ASTERDM.NS",
@@ -1193,7 +1247,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "SHREECEM.NS",
@@ -1219,7 +1273,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "GMRAIRPORT.NS",
@@ -1245,7 +1299,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "BAJAJ-AUTO.NS",
@@ -1271,7 +1325,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   },
   {
     "symbol": "VMM.NS",
@@ -1297,6 +1351,6 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-19T18:37:13+05:30"
+    "assessed_at": "2026-10-19T23:13:48+05:30"
   }
 ]
