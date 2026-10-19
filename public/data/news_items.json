@@ -1,5 +1,47 @@
 [
   {
+    "symbol": "ABFRL.NS",
+    "title": "Tasva Reimagines Contemporary Indian Menswear at Lakm Fashion Week in Partnership with Fashion Design Council of India ( Fdci )",
+    "source": "heraldglobe.com",
+    "provider": "gdelt",
+    "url": "http://www.heraldglobe.com/news/279380890/tasva-reimagines-contemporary-indian-menswear-at-lakm-fashion-week-in-partnership-with-fashion-design-council-of-india-fdci",
+    "summary": "",
+    "published_at": "2026-10-17T12:30:00+00:00",
+    "fetched_at": "2026-10-19T09:57:15.169914+00:00",
+    "age_hours": 45.45,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.625,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-19T16:35:40+05:30"
+  },
+  {
+    "symbol": "MRPL.NS",
+    "title": "Another MRPL Employee Dies Of Burn Injuries Sustained In September 30 Fire",
+    "source": "deccanchronicle.com",
+    "provider": "gdelt",
+    "url": "https://www.deccanchronicle.com/southern-states/karnataka/another-mrpl-employee-dies-of-burn-injuries-sustained-in-september-30-fire-1996761",
+    "summary": "",
+    "published_at": "2026-10-17T17:00:00+00:00",
+    "fetched_at": "2026-10-19T10:38:34.517080+00:00",
+    "age_hours": 41.64,
+    "is_fresh": false,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.625,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-19T16:35:40+05:30"
+  },
+  {
     "symbol": "JIOFIN.NS",
     "title": "Jio Financial Services Q2 Net Profit Falls 51 Per Cent To ₹340 Crore As Expenses Rise",
     "source": "freepressjournal.in",
@@ -3906,48 +3948,6 @@
     "risk_level": "HIGH",
     "matched_keywords": [
       "ban"
-    ]
-  },
-  {
-    "symbol": "JUBLFOOD.NS",
-    "title": "Dunkin’ re-enters major market after nearly a decade",
-    "source": "TheStreet",
-    "provider": "yfinance",
-    "url": "https://www.thestreet.com/restaurants/dunkin-re-enters-major-market-canada-after-nearly-a-decade",
-    "summary": "",
-    "published_at": "2026-05-15T19:13:00+00:00",
-    "fetched_at": "2026-10-01T17:27:38.525792+00:00",
-    "age_hours": 3334.24,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
-  },
-  {
-    "symbol": "JUBLFOOD.NS",
-    "title": "India's Jubilant FoodWorks posts higher profit on Domino's pizza demand, store expansion",
-    "source": "Reuters",
-    "provider": "yfinance",
-    "url": "https://sg.finance.yahoo.com/news/indias-jubilant-foodworks-posts-higher-103350913.html",
-    "summary": "",
-    "published_at": "2026-05-20T11:30:20+00:00",
-    "fetched_at": "2026-10-01T17:27:38.525774+00:00",
-    "age_hours": 3221.96,
-    "is_fresh": false,
-    "sentiment": "POSITIVE",
-    "sentiment_score": 0.38,
-    "sentiment_confidence": 0.056,
-    "relevance": 1.0,
-    "event_types": [
-      "EXPANSION"
-    ],
-    "risk_level": "NONE",
-    "matched_keywords": [
-      "expansion"
     ]
   }
 ]

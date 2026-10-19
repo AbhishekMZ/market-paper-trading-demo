@@ -1,6 +1,6 @@
 # Strategy Evaluation
 
-_As of 2026-10-16T20:39:25+05:30_
+_As of 2026-10-19T16:35:41+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **8**
@@ -10,10 +10,10 @@ _As of 2026-10-16T20:39:25+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 1947 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.9 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 1947 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1158 | 46.7 | No paper trades yet attributed; acting mainly as a filter. |
-| news_event_risk | 3 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 65.0 | No paper trades yet attributed; acting mainly as a filter. |
+| breakout | 1948 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.8 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 1948 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1162 | 46.7 | No paper trades yet attributed; acting mainly as a filter. |
+| news_event_risk | 5 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 65.0 | No paper trades yet attributed; acting mainly as a filter. |
 | portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 69 | 77.5 | No paper trades yet attributed; acting mainly as a filter. |
-| relative_strength | 1947 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1030 | 44.1 | No paper trades yet attributed; acting mainly as a filter. |
-| trend_following | 1947 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1310 | 29.4 | No paper trades yet attributed; acting mainly as a filter. |
-| volatility_risk | 1947 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 539 | 48.2 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 1948 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1026 | 44.1 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 1948 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1322 | 28.6 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 1948 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 519 | 49.1 | No paper trades yet attributed; acting mainly as a filter. |

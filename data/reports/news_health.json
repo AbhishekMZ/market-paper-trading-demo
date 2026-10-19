@@ -1,14 +1,16 @@
 {
-  "providers_used": [],
+  "providers_used": [
+    "gdelt"
+  ],
   "symbols_assessed": 500,
-  "symbols_with_news": 0,
-  "total_items": 0,
+  "symbols_with_news": 2,
+  "total_items": 2,
   "blocked_buys": 0,
   "critical_count": 0,
   "high_count": 0,
   "alerts_this_run": 0,
   "newsapi_enabled": false,
-  "last_run": "2026-10-16T20:39:24+05:30",
+  "last_run": "2026-10-19T16:35:40+05:30",
   "checkpoint": "close",
   "overall": "NORMAL"
 }
