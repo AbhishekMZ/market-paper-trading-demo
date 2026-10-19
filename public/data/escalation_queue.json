@@ -1,5 +1,41 @@
 [
   {
+    "symbol": "BALRAMCHIN.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_c58b346520bf"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d9753628bbb6",
+    "created_at": "2026-10-19T20:24:48+05:30",
+    "expires_at": "2026-10-19T20:24:48+05:30"
+  },
+  {
+    "symbol": "AUROPHARMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_680173cdcf66"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ba5c5294286e",
+    "created_at": "2026-10-19T20:24:48+05:30",
+    "expires_at": "2026-10-19T20:24:48+05:30"
+  },
+  {
     "symbol": "LTFOODS.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2000,42 +2036,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_e1711fda7b4c",
-    "created_at": "2026-10-08T19:26:09+05:30",
-    "expires_at": "2026-10-08T19:26:09+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -4.6% vs previous close.",
-    "trigger_ids": [
-      "trg_5b29fc4aeb18"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_52ff826bd0a9",
-    "created_at": "2026-10-08T19:26:09+05:30",
-    "expires_at": "2026-10-08T19:26:09+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -4.0% vs previous close.",
-    "trigger_ids": [
-      "trg_07402183d995"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_188dc737b4ae",
     "created_at": "2026-10-08T19:26:09+05:30",
     "expires_at": "2026-10-08T19:26:09+05:30"
   }
