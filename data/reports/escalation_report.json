@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-10-19T16:37:16+05:30",
+  "as_of": "2026-10-19T18:38:51+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "REDINGTON.NS",
-      "severity": "HIGH",
+      "symbol": "MOTILALOFS.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -7.6% since last observation.",
+      "reason": "Gap -3.5% vs previous close.",
       "trigger_ids": [
-        "trg_d0ff290a4960",
-        "trg_a484f1ef5ada"
+        "trg_e4f611b8b3ad"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -17,69 +16,53 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_8c320525d7cb",
-      "created_at": "2026-10-19T16:37:16+05:30",
-      "expires_at": "2026-10-19T16:37:16+05:30"
+      "escalation_id": "esc_ae3e59b9fdff",
+      "created_at": "2026-10-19T18:38:51+05:30",
+      "expires_at": "2026-10-19T18:38:51+05:30"
     },
     {
       "symbol": "HFCL.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.0% since last observation.",
+      "reason": "Gap +5.0% vs previous close.",
       "trigger_ids": [
-        "trg_fb25a48af805",
-        "trg_55f087f30954"
+        "trg_6bf51e65b9ac"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "HFCL.NS",
-        "score": 70.4,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=95, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-        "strengthened": true
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_117e2c748d30",
-      "created_at": "2026-10-19T16:37:16+05:30",
-      "expires_at": "2026-10-19T16:37:16+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_605683939d81",
+      "created_at": "2026-10-19T18:38:51+05:30",
+      "expires_at": "2026-10-19T18:38:51+05:30"
+    },
+    {
+      "symbol": "REDINGTON.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -3.2% vs previous close.",
+      "trigger_ids": [
+        "trg_c4429a50dcba"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_f3de42d85377",
+      "created_at": "2026-10-19T18:38:51+05:30",
+      "expires_at": "2026-10-19T18:38:51+05:30"
     },
     {
       "symbol": "LTFOODS.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.1% since last observation.",
-      "trigger_ids": [
-        "trg_a68d445164f3",
-        "trg_582f0b5e479a"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_628d310090c9",
-      "created_at": "2026-10-19T16:37:16+05:30",
-      "expires_at": "2026-10-19T16:37:16+05:30"
-    },
-    {
-      "symbol": "AUROPHARMA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
+      "reason": "Gap -3.1% vs previous close.",
       "trigger_ids": [
-        "trg_4a3b1d3a52af"
+        "trg_38e3b73e0c26"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -87,27 +70,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a9138ab914c4",
-      "created_at": "2026-10-19T16:37:16+05:30",
-      "expires_at": "2026-10-19T16:37:16+05:30"
-    },
-    {
-      "symbol": "BALRAMCHIN.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
-      "trigger_ids": [
-        "trg_8d07d9a83f80"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_f0086081efac",
-      "created_at": "2026-10-19T16:37:16+05:30",
-      "expires_at": "2026-10-19T16:37:16+05:30"
+      "escalation_id": "esc_7ff85edb00d4",
+      "created_at": "2026-10-19T18:38:51+05:30",
+      "expires_at": "2026-10-19T18:38:51+05:30"
     }
   ],
   "actions_taken": [],

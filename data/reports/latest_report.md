@@ -26,10 +26,10 @@
 - **NAVINFLUOR.NS** score 70.0 (LOW risk) — Final 70.0/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=90, portfolio_fit=80.
 
 ## 👀 Watchlist
-THELEELA.NS(72.6), KOTAKBANK.NS(71.5), CYIENT.NS(71.0), PTCIL.NS(70.9), HFCL.NS(70.4), PVRINOX.NS(70.0), PARADEEP.NS(69.7), ACMESOLAR.NS(69.5), GLAND.NS(69.5), ABDL.NS(69.0), ETERNAL.NS(68.4), SUPREMEIND.NS(68.4), SAILIFE.NS(68.2), BALRAMCHIN.NS(68.1), INDGN.NS(68.1), PETRONET.NS(68.1), ZENSARTECH.NS(68.1), ATHERENERG.NS(67.9), LGEINDIA.NS(67.9), SONACOMS.NS(67.8), BEML.NS(67.7), JINDALSAW.NS(67.7), CARTRADE.NS(67.6), CASTROLIND.NS(67.6), AUROPHARMA.NS(67.5), COHANCE.NS(67.3), PAYTM.NS(67.3), TARIL.NS(67.3), FSL.NS(67.0), HAL.NS(66.9), RKFORGE.NS(66.8), MPHASIS.NS(66.7), SAGILITY.NS(66.7), ACE.NS(66.6), JSWDULUX.NS(66.5), SPLPETRO.NS(66.5), HBLENGINE.NS(66.3), ANANDRATHI.NS(66.2), IIFL.NS(66.2), IPCALAB.NS(66.2), CPPLUS.NS(66.1), DLF.NS(66.1), CUB.NS(66.0), JYOTICNC.NS(66.0), SAREGAMA.NS(66.0), NETWEB.NS(65.9), TVSMOTOR.NS(65.9), LEMONTREE.NS(65.8), SUNTV.NS(65.8), TECHM.NS(65.8), INDHOTEL.NS(65.2), MCX.NS(65.2), PERSISTENT.NS(65.2), MOTHERSON.NS(65.2), WELCORP.NS(65.2), CRAFTSMAN.NS(65.1), GABRIEL.NS(65.1), REDINGTON.NS(65.1), RADICO.NS(65.0), ECLERX.NS(64.8), LTFOODS.NS(64.6), CRISIL.NS(64.4), PPLPHARMA.NS(64.4), DRREDDY.NS(64.3), PNBHOUSING.NS(64.3), PNB.NS(64.3), HCLTECH.NS(64.2), BRIGADE.NS(64.0), KPRMILL.NS(64.0), MOTILALOFS.NS(63.8), VIJAYA.NS(63.8), DIVISLAB.NS(63.7), LALPATHLAB.NS(63.7), AIIL.NS(63.6), GODIGIT.NS(63.6), LTTS.NS(63.5), GROWW.NS(63.3), CANHLIFE.NS(63.3), EMMVEE.NS(63.3), HEG.NS(63.3), ICICIAMC.NS(63.3), LENSKART.NS(63.3), MEESHO.NS(63.3), PWL.NS(63.3), PINELABS.NS(63.3), PIRAMALFIN.NS(63.3), TMCV.NS(63.3), TENNIND.NS(63.3), CHALET.NS(63.2), SYRMA.NS(63.2), INDIANB.NS(63.1), NYKAA.NS(63.0), GRAPHITE.NS(63.0), APLAPOLLO.NS(62.9), TCS.NS(62.9), KPIL.NS(62.8), KAJARIACER.NS(62.4), MAHABANK.NS(62.3), CGCL.NS(62.3), SCI.NS(61.6), GALLANTT.NS(61.4), NEULANDLAB.NS(61.3), WIPRO.NS(61.3), BHEL.NS(61.2), CENTRALBK.NS(61.2), TEGA.NS(61.2), WOCKPHARMA.NS(61.1), ASTRAL.NS(61.0), TATAELXSI.NS(61.0), BSOFT.NS(60.9), JSL.NS(60.8), WHIRLPOOL.NS(60.6), BHARTIHEXA.NS(60.5), ENGINERSIN.NS(60.4), INFY.NS(60.1)
+THELEELA.NS(72.6), KOTAKBANK.NS(71.5), CYIENT.NS(71.0), PTCIL.NS(70.9), HFCL.NS(70.4), PVRINOX.NS(70.0), PARADEEP.NS(69.7), ACMESOLAR.NS(69.5), GLAND.NS(69.5), ABDL.NS(69.0), AUROPHARMA.NS(68.9), ETERNAL.NS(68.4), SUPREMEIND.NS(68.4), SAILIFE.NS(68.2), BALRAMCHIN.NS(68.1), INDGN.NS(68.1), PETRONET.NS(68.1), ZENSARTECH.NS(68.1), ATHERENERG.NS(67.9), LGEINDIA.NS(67.9), SONACOMS.NS(67.8), BEML.NS(67.7), JINDALSAW.NS(67.7), CARTRADE.NS(67.6), CASTROLIND.NS(67.6), COHANCE.NS(67.3), PAYTM.NS(67.3), TARIL.NS(67.3), FSL.NS(67.0), HAL.NS(66.9), RKFORGE.NS(66.8), MPHASIS.NS(66.7), SAGILITY.NS(66.7), ACE.NS(66.6), GABRIEL.NS(66.5), JSWDULUX.NS(66.5), SPLPETRO.NS(66.5), HBLENGINE.NS(66.3), ANANDRATHI.NS(66.2), IIFL.NS(66.2), IPCALAB.NS(66.2), CPPLUS.NS(66.1), DLF.NS(66.1), CUB.NS(66.0), JYOTICNC.NS(66.0), SAREGAMA.NS(66.0), NETWEB.NS(65.9), TVSMOTOR.NS(65.9), LEMONTREE.NS(65.8), SUNTV.NS(65.8), TECHM.NS(65.8), INDHOTEL.NS(65.2), MCX.NS(65.2), PERSISTENT.NS(65.2), MOTHERSON.NS(65.2), WELCORP.NS(65.2), CRAFTSMAN.NS(65.1), REDINGTON.NS(65.1), RADICO.NS(65.0), LTTS.NS(64.9), ECLERX.NS(64.8), LTFOODS.NS(64.6), CRISIL.NS(64.4), PPLPHARMA.NS(64.4), DRREDDY.NS(64.3), PNBHOUSING.NS(64.3), PNB.NS(64.3), HCLTECH.NS(64.2), BRIGADE.NS(64.0), KPRMILL.NS(64.0), MOTILALOFS.NS(63.8), VIJAYA.NS(63.8), DIVISLAB.NS(63.7), LALPATHLAB.NS(63.7), GODIGIT.NS(63.6), GROWW.NS(63.3), CANHLIFE.NS(63.3), EMMVEE.NS(63.3), HEG.NS(63.3), ICICIAMC.NS(63.3), INDIANB.NS(63.3), LENSKART.NS(63.3), MEESHO.NS(63.3), PWL.NS(63.3), PINELABS.NS(63.3), PIRAMALFIN.NS(63.3), TMCV.NS(63.3), TENNIND.NS(63.3), CHALET.NS(63.2), SYRMA.NS(63.2), NYKAA.NS(63.0), GRAPHITE.NS(63.0), APLAPOLLO.NS(62.9), TCS.NS(62.9), KPIL.NS(62.8), KAJARIACER.NS(62.4), AIIL.NS(62.3), MAHABANK.NS(62.3), CGCL.NS(62.3), SCI.NS(61.6), GALLANTT.NS(61.4), NEULANDLAB.NS(61.3), WIPRO.NS(61.3), BHEL.NS(61.2), CENTRALBK.NS(61.2), WOCKPHARMA.NS(61.1), ASTRAL.NS(61.0), TATAELXSI.NS(61.0), BSOFT.NS(60.9), JSL.NS(60.8), WHIRLPOOL.NS(60.6), BHARTIHEXA.NS(60.5), ENGINERSIN.NS(60.4), TEGA.NS(60.2), INFY.NS(60.1)
 
 ## 🚫 Do-not-buy
-GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAINT.NS(49.3), IKS.NS(49.3), KALYANKJIL.NS(49.3), SBIN.NS(49.3), BPCL.NS(49.2), JSWSTEEL.NS(49.1), IGIL.NS(48.6), BANKINDIA.NS(48.5), DOMS.NS(48.5), JMFINANCIL.NS(48.5), TATACOMM.NS(48.5), TATAINVEST.NS(48.5), FIVESTAR.NS(48.3), TRAVELFOOD.NS(48.1), BSE.NS(48.0), ASHOKLEY.NS(47.9), JINDALSTEL.NS(47.9), LLOYDSME.NS(47.9), BATAINDIA.NS(47.7), GLAXO.NS(47.7), ICICIBANK.NS(47.7), IGL.NS(47.5), BHARTIARTL.NS(47.4), SUNDARMFIN.NS(47.3), ADANIGREEN.NS(47.0), GLENMARK.NS(47.0), AUBANK.NS(46.9), NEWGEN.NS(46.6), ABB.NS(46.5), BEL.NS(46.3), JUBLFOOD.NS(46.3), WAAREEENER.NS(46.3), CANBK.NS(46.2), RHIM.NS(46.1), POLYMED.NS(45.9), EICHERMOT.NS(45.6), UNOMINDA.NS(45.5), ZYDUSWELL.NS(45.5), PHOENIXLTD.NS(45.4), BANDHANBNK.NS(45.3), IDBI.NS(45.3), SRF.NS(45.2), KPITTECH.NS(45.1), ZENTEC.NS(45.0), TORNTPHARM.NS(44.9), CAPLIPOINT.NS(44.7), DATAPATTNS.NS(44.7), TATASTEEL.NS(44.7), LT.NS(44.6), CHOICEIN.NS(44.5), AEGISVOPAK.NS(44.4), HDFCBANK.NS(44.4), INDIGO.NS(44.3), AWL.NS(44.2), LICI.NS(44.0), UNIONBANK.NS(44.0), IRCTC.NS(43.9), IOC.NS(43.7), UCOBANK.NS(43.6), JBCHEPHARM.NS(43.3), MRF.NS(43.2), VBL.NS(43.2), BLUEJET.NS(43.1), NAM-INDIA.NS(43.0), INDIAMART.NS(42.9), MANAPPURAM.NS(42.9), RITES.NS(42.8), TATAPOWER.NS(42.8), AADHARHFC.NS(42.6), SIGNATURE.NS(42.5), UNITDSPR.NS(42.5), TITAGARH.NS(42.3), EMAMILTD.NS(42.2), GVT&D.NS(42.2), TATACHEM.NS(42.1), LODHA.NS(41.9), HINDALCO.NS(41.8), BLUEDART.NS(41.7), OBEROIRLTY.NS(41.7), IOB.NS(41.5), LICHSGFIN.NS(41.5), ADANIPOWER.NS(41.4), CANFINHOME.NS(41.3), MARICO.NS(41.1), MSUMI.NS(41.1), IDEA.NS(41.1), FINCABLES.NS(41.0), J&KBANK.NS(41.0), NCC.NS(41.0), SOBHA.NS(40.9), IDFCFIRSTB.NS(40.8), CHOLAHLDNG.NS(40.6), NATCOPHARM.NS(40.6), JIOFIN.NS(40.4), RELIANCE.NS(40.4), SCHNEIDER.NS(40.4), TIMKEN.NS(40.3), NH.NS(40.0), CONCOR.NS(39.9), ESCORTS.NS(39.9), ADANIENSOL.NS(39.8), JSWCEMENT.NS(39.8), SCHAEFFLER.NS(39.8), HDFCAMC.NS(39.7), CEMPRO.NS(39.6), POLYCAB.NS(39.3), NATIONALUM.NS(39.2), HINDPETRO.NS(39.1), PIDILITIND.NS(39.1), PRESTIGE.NS(39.1), PREMIERENE.NS(39.0), ONGC.NS(38.9), NHPC.NS(38.8), TITAN.NS(38.6), GICRE.NS(38.5), AFCONS.NS(38.4), CIEINDIA.NS(38.4), LINDEINDIA.NS(38.3), DEEPAKNTR.NS(38.2), FACT.NS(38.2), ZFCVINDIA.NS(38.2), OLAELEC.NS(37.9), NTPCGREEN.NS(37.8), IRFC.NS(37.6), KEI.NS(37.6), SBICARD.NS(37.6), GRASIM.NS(37.5), JKTYRE.NS(37.5), TORNTPOWER.NS(37.5), ELGIEQUIP.NS(37.4), RAILTEL.NS(37.4), IREDA.NS(37.3), SBFC.NS(37.2), TEJASNET.NS(37.2), ENDURANCE.NS(37.1), PFC.NS(37.1), ABLBL.NS(37.0), NUVAMA.NS(37.0), LATENTVIEW.NS(36.9), ATGL.NS(36.8), URBANCO.NS(36.8), MEDANTA.NS(36.7), HINDCOPPER.NS(36.7), M&M.NS(36.7), JUBLINGREA.NS(36.6), KIRLOSENG.NS(36.4), GMDCLTD.NS(36.3), OFSS.NS(36.3), AIAENG.NS(36.2), JAINREC.NS(36.2), MUTHOOTFIN.NS(36.2), CAMS.NS(36.1), GODREJCP.NS(36.1), SUNPHARMA.NS(36.1), ERIS.NS(36.0), GODREJPROP.NS(36.0), ABBOTINDIA.NS(35.9), JBMA.NS(35.9), TRIDENT.NS(35.8), GRSE.NS(35.7), SBILIFE.NS(35.7), ADANIENT.NS(35.6), BDL.NS(35.5), EXIDEIND.NS(35.5), NTPC.NS(35.5), CHAMBLFERT.NS(35.4), GODREJIND.NS(35.4), NIVABUPA.NS(35.4), INTELLECT.NS(35.2), M&MFIN.NS(35.2), NBCC.NS(34.9), VEDL.NS(34.8), ALKEM.NS(34.7), FIRSTCRY.NS(34.7), ONESOURCE.NS(34.7), RVNL.NS(34.7), BBTC.NS(34.6), HAVELLS.NS(34.6), TRITURBINE.NS(34.6), ABFRL.NS(34.5), COCHINSHIP.NS(34.5), GRAVITA.NS(34.5), CUMMINSIND.NS(34.4), JKCEMENT.NS(34.4), PGEL.NS(34.4), BAJFINANCE.NS(34.3), CHOLAFIN.NS(34.3), IFCI.NS(34.3), MAZDOCK.NS(34.3), VTL.NS(34.3), TATACONSUM.NS(34.2), DABUR.NS(34.1), DELHIVERY.NS(34.1), EIDPARRY.NS(34.1), GPIL.NS(34.1), GODFRYPHLP.NS(34.1), JPPOWER.NS(34.1), DIXON.NS(34.0), ARE&M.NS(33.9), KIMS.NS(33.9), BIOCON.NS(33.8), ITI.NS(33.8), INDIACEM.NS(33.8), IEX.NS(33.8), IRB.NS(33.7), ITC.NS(33.7), RPOWER.NS(33.7), TATACAP.NS(33.6), AMBER.NS(33.5), BAJAJFINSV.NS(33.5), POWERINDIA.NS(33.3), RECLTD.NS(33.2), ZEEL.NS(33.2), TTML.NS(33.0), OLECTRA.NS(32.9), SONATSOFTW.NS(32.9), CREDITACC.NS(32.8), SUMICHEM.NS(32.8), RAMCOCEM.NS(32.8), POWERGRID.NS(32.6), BHARATFORG.NS(32.5), PAGEIND.NS(32.4), LUPIN.NS(32.3), ANANTRAJ.NS(32.1), NMDC.NS(32.1), MAPMYINDIA.NS(32.0), CESC.NS(32.0), SWIGGY.NS(32.0), SHRIRAMFIN.NS(31.9), KEC.NS(31.8), HOMEFIRST.NS(31.7), THERMAX.NS(31.7), COROMANDEL.NS(31.6), ABREL.NS(31.5), BAYERCROP.NS(31.5), MMTC.NS(31.5), HUDCO.NS(31.3), JSWENERGY.NS(31.0), SWANCORP.NS(31.0), MAXHEALTH.NS(30.9), NLCINDIA.NS(30.9), ASIANPAINT.NS(30.8), ICICIPRULI.NS(30.6), VMM.NS(30.6), BAJAJ-AUTO.NS(30.5), GMRAIRPORT.NS(30.5), SHREECEM.NS(30.4), ASTERDM.NS(30.3), UBL.NS(30.2), VOLTAS.NS(30.1), UPL.NS(30.0), CCL.NS(29.9), ACC.NS(29.8), AAVAS.NS(29.8), HONAUT.NS(29.8), TMPV.NS(29.7), RAINBOW.NS(29.6), SUZLON.NS(29.4), MANKIND.NS(29.3), TIINDIA.NS(29.3), HINDUNILVR.NS(29.1), BRITANNIA.NS(28.7), JWL.NS(28.4), ENRIN.NS(28.4), COLPAL.NS(28.2), AMBUJACEM.NS(28.1), PFIZER.NS(28.1), INDUSINDBK.NS(27.4), ULTRACEMCO.NS(27.4), PIIND.NS(27.3), CROMPTON.NS(27.2), FORTIS.NS(27.2), LTF.NS(27.1), DALBHARAT.NS(26.6), DMART.NS(26.2), IRCON.NS(26.2), INOXWIND.NS(26.2), APTUS.NS(26.0), BIKAJI.NS(25.4), HDBFS.NS(25.2), 3MINDIA.NS(24.8), MFSL.NS(24.5), APOLLOHOSP.NS(24.3), NESTLEIND.NS(24.0), POLICYBZR.NS(24.0), YESBANK.NS(24.0), MARUTI.NS(22.5), HSCL.NS(17.1), SJVN.NS(13.2), ANURAS.NS(13.0), SAMMAANCAP.NS(12.1), DEEPAKFERT.NS(8.5)
+GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAINT.NS(49.3), IKS.NS(49.3), KALYANKJIL.NS(49.3), SBIN.NS(49.3), BPCL.NS(49.2), JSWSTEEL.NS(49.1), IGIL.NS(48.6), BANKINDIA.NS(48.5), DOMS.NS(48.5), JMFINANCIL.NS(48.5), TATACOMM.NS(48.5), TATAINVEST.NS(48.5), FIVESTAR.NS(48.3), TRAVELFOOD.NS(48.1), BSE.NS(48.0), NEWGEN.NS(48.0), ASHOKLEY.NS(47.9), JINDALSTEL.NS(47.9), LLOYDSME.NS(47.9), BATAINDIA.NS(47.7), GLAXO.NS(47.7), ICICIBANK.NS(47.7), IGL.NS(47.5), BHARTIARTL.NS(47.4), SUNDARMFIN.NS(47.3), ADANIGREEN.NS(47.0), GLENMARK.NS(47.0), AUBANK.NS(46.9), ABB.NS(46.5), BEL.NS(46.3), JUBLFOOD.NS(46.3), WAAREEENER.NS(46.3), RHIM.NS(46.1), POLYMED.NS(45.9), EICHERMOT.NS(45.6), UNOMINDA.NS(45.5), ZYDUSWELL.NS(45.5), PHOENIXLTD.NS(45.4), BANDHANBNK.NS(45.3), IDBI.NS(45.3), SRF.NS(45.2), KPITTECH.NS(45.1), ZENTEC.NS(45.0), TORNTPHARM.NS(44.9), CANBK.NS(44.8), CAPLIPOINT.NS(44.7), DATAPATTNS.NS(44.7), TATASTEEL.NS(44.7), LT.NS(44.6), CHOICEIN.NS(44.5), AEGISVOPAK.NS(44.4), HDFCBANK.NS(44.4), INDIGO.NS(44.3), AWL.NS(44.2), LICI.NS(44.0), UNIONBANK.NS(44.0), IRCTC.NS(43.9), IOC.NS(43.7), UCOBANK.NS(43.6), JBCHEPHARM.NS(43.3), MRF.NS(43.2), VBL.NS(43.2), BLUEJET.NS(43.1), NAM-INDIA.NS(43.0), INDIAMART.NS(42.9), MANAPPURAM.NS(42.9), RITES.NS(42.8), TATAPOWER.NS(42.8), AADHARHFC.NS(42.6), SIGNATURE.NS(42.5), UNITDSPR.NS(42.5), TITAGARH.NS(42.3), EMAMILTD.NS(42.2), GVT&D.NS(42.2), TATACHEM.NS(42.1), LODHA.NS(41.9), HINDALCO.NS(41.8), BLUEDART.NS(41.7), OBEROIRLTY.NS(41.7), IOB.NS(41.5), LICHSGFIN.NS(41.5), ADANIPOWER.NS(41.4), CANFINHOME.NS(41.3), MARICO.NS(41.1), MSUMI.NS(41.1), IDEA.NS(41.1), FINCABLES.NS(41.0), J&KBANK.NS(41.0), NCC.NS(41.0), SOBHA.NS(40.9), IDFCFIRSTB.NS(40.8), CHOLAHLDNG.NS(40.6), NATCOPHARM.NS(40.6), JIOFIN.NS(40.4), RELIANCE.NS(40.4), SCHNEIDER.NS(40.4), TIMKEN.NS(40.3), NH.NS(40.0), CONCOR.NS(39.9), ESCORTS.NS(39.9), ADANIENSOL.NS(39.8), JSWCEMENT.NS(39.8), SCHAEFFLER.NS(39.8), HDFCAMC.NS(39.7), CEMPRO.NS(39.6), DEEPAKNTR.NS(39.6), POLYCAB.NS(39.3), NATIONALUM.NS(39.2), HINDPETRO.NS(39.1), PIDILITIND.NS(39.1), PRESTIGE.NS(39.1), PREMIERENE.NS(39.0), ONGC.NS(38.9), NHPC.NS(38.8), TITAN.NS(38.6), GICRE.NS(38.5), AFCONS.NS(38.4), CIEINDIA.NS(38.4), LINDEINDIA.NS(38.3), FACT.NS(38.2), ZFCVINDIA.NS(38.2), OLAELEC.NS(37.9), NTPCGREEN.NS(37.8), IRFC.NS(37.6), KEI.NS(37.6), SBICARD.NS(37.6), GRASIM.NS(37.5), JKTYRE.NS(37.5), TORNTPOWER.NS(37.5), ELGIEQUIP.NS(37.4), RAILTEL.NS(37.4), IREDA.NS(37.3), SBFC.NS(37.2), TEJASNET.NS(37.2), ENDURANCE.NS(37.1), PFC.NS(37.1), ABLBL.NS(37.0), NUVAMA.NS(37.0), LATENTVIEW.NS(36.9), ATGL.NS(36.8), URBANCO.NS(36.8), MEDANTA.NS(36.7), HINDCOPPER.NS(36.7), M&M.NS(36.7), JUBLINGREA.NS(36.6), KIRLOSENG.NS(36.4), GMDCLTD.NS(36.3), OFSS.NS(36.3), AIAENG.NS(36.2), JAINREC.NS(36.2), MUTHOOTFIN.NS(36.2), CAMS.NS(36.1), GODREJCP.NS(36.1), SUNPHARMA.NS(36.1), ERIS.NS(36.0), GODREJPROP.NS(36.0), ABBOTINDIA.NS(35.9), JBMA.NS(35.9), TRIDENT.NS(35.8), GRSE.NS(35.7), SBILIFE.NS(35.7), ADANIENT.NS(35.6), BDL.NS(35.5), EXIDEIND.NS(35.5), NTPC.NS(35.5), CHAMBLFERT.NS(35.4), GODREJIND.NS(35.4), NIVABUPA.NS(35.4), INTELLECT.NS(35.2), M&MFIN.NS(35.2), NBCC.NS(34.9), VEDL.NS(34.8), ALKEM.NS(34.7), FIRSTCRY.NS(34.7), ONESOURCE.NS(34.7), RVNL.NS(34.7), BBTC.NS(34.6), HAVELLS.NS(34.6), TRITURBINE.NS(34.6), COCHINSHIP.NS(34.5), GRAVITA.NS(34.5), CUMMINSIND.NS(34.4), JKCEMENT.NS(34.4), PGEL.NS(34.4), BAJFINANCE.NS(34.3), CHOLAFIN.NS(34.3), IFCI.NS(34.3), MAZDOCK.NS(34.3), VTL.NS(34.3), TATACONSUM.NS(34.2), DABUR.NS(34.1), DELHIVERY.NS(34.1), EIDPARRY.NS(34.1), GPIL.NS(34.1), GODFRYPHLP.NS(34.1), JPPOWER.NS(34.1), DIXON.NS(34.0), ARE&M.NS(33.9), KIMS.NS(33.9), BIOCON.NS(33.8), ITI.NS(33.8), INDIACEM.NS(33.8), IEX.NS(33.8), IRB.NS(33.7), ITC.NS(33.7), RPOWER.NS(33.7), TATACAP.NS(33.6), AMBER.NS(33.5), BAJAJFINSV.NS(33.5), POWERINDIA.NS(33.3), RECLTD.NS(33.2), ZEEL.NS(33.2), TTML.NS(33.0), MMTC.NS(32.9), OLECTRA.NS(32.9), SONATSOFTW.NS(32.9), CREDITACC.NS(32.8), SUMICHEM.NS(32.8), RAMCOCEM.NS(32.8), HUDCO.NS(32.7), POWERGRID.NS(32.6), BHARATFORG.NS(32.5), PAGEIND.NS(32.4), LUPIN.NS(32.3), ANANTRAJ.NS(32.1), NMDC.NS(32.1), MAPMYINDIA.NS(32.0), CESC.NS(32.0), SWIGGY.NS(32.0), SHRIRAMFIN.NS(31.9), KEC.NS(31.8), HOMEFIRST.NS(31.7), THERMAX.NS(31.7), COROMANDEL.NS(31.6), ABREL.NS(31.5), BAYERCROP.NS(31.5), JSWENERGY.NS(31.0), SWANCORP.NS(31.0), MAXHEALTH.NS(30.9), NLCINDIA.NS(30.9), ASIANPAINT.NS(30.8), ICICIPRULI.NS(30.6), VMM.NS(30.6), BAJAJ-AUTO.NS(30.5), GMRAIRPORT.NS(30.5), SHREECEM.NS(30.4), ASTERDM.NS(30.3), UBL.NS(30.2), VOLTAS.NS(30.1), UPL.NS(30.0), CCL.NS(29.9), ACC.NS(29.8), AAVAS.NS(29.8), HONAUT.NS(29.8), TMPV.NS(29.7), RAINBOW.NS(29.6), ABFRL.NS(29.5), SUZLON.NS(29.4), MANKIND.NS(29.3), TIINDIA.NS(29.3), HINDUNILVR.NS(29.1), BRITANNIA.NS(28.7), JWL.NS(28.4), ENRIN.NS(28.4), COLPAL.NS(28.2), AMBUJACEM.NS(28.1), PFIZER.NS(28.1), INDUSINDBK.NS(27.4), ULTRACEMCO.NS(27.4), PIIND.NS(27.3), CROMPTON.NS(27.2), FORTIS.NS(27.2), LTF.NS(27.1), DALBHARAT.NS(26.6), DMART.NS(26.2), IRCON.NS(26.2), APTUS.NS(26.0), INOXWIND.NS(25.5), BIKAJI.NS(25.4), HDBFS.NS(25.2), 3MINDIA.NS(24.8), MFSL.NS(24.5), APOLLOHOSP.NS(24.3), NESTLEIND.NS(24.0), POLICYBZR.NS(24.0), YESBANK.NS(24.0), MARUTI.NS(22.5), HSCL.NS(17.1), SJVN.NS(13.2), ANURAS.NS(13.0), SAMMAANCAP.NS(12.1), DEEPAKFERT.NS(8.5)
 
 ## 🧠 Strategy contribution summary
 - trend_following: avg 27/100 (weight 18)
@@ -50,6 +50,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - ABDL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - SAILIFE.NS: Disagreement: ['relative_strength', 'mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - TARIL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- GABRIEL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - HBLENGINE.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CPPLUS.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CUB.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
@@ -58,22 +59,21 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - INDHOTEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - WELCORP.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CRAFTSMAN.NS: Disagreement: ['relative_strength', 'breakout'] positive vs ['portfolio_fit'] negative.
-- GABRIEL.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- LTTS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - PPLPHARMA.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - PNB.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - HCLTECH.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BRIGADE.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - MOTILALOFS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - VIJAYA.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following'] negative.
-- LTTS.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - NYKAA.NS: Disagreement: ['relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - APLAPOLLO.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - TCS.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- AIIL.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['mean_reversion'] negative.
 - GALLANTT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - NEULANDLAB.NS: Disagreement: ['relative_strength', 'volatility_risk'] positive vs ['trend_following', 'portfolio_fit'] negative.
 - WIPRO.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BHEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
-- TEGA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - WOCKPHARMA.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - ASTRAL.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - TATAELXSI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
@@ -81,6 +81,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - WHIRLPOOL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - BHARTIHEXA.NS: Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ENGINERSIN.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- TEGA.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - INFY.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ANTHEM.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - BALKRISIND.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
@@ -97,6 +98,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - RBLBANK.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - NAUKRI.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CARBORUNIV.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
+- DEVYANI.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - JSWINFRA.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - MGL.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - SAPPHIRE.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
@@ -107,7 +109,6 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - TATATECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - AFFLE.NS: Disagreement: ['relative_strength', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - BOSCHLTD.NS: Disagreement: ['relative_strength', 'mean_reversion'] positive vs ['volatility_risk', 'portfolio_fit'] negative.
-- DEVYANI.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - 360ONE.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - EMCURE.NS: Disagreement: ['mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - ABCAPITAL.NS: Disagreement: ['mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
@@ -116,6 +117,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - TRENT.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 - ATUL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - SARDAEN.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
+- FEDERALBNK.NS: Disagreement: ['portfolio_fit'] positive vs ['volatility_risk'] negative.
 - CDSL.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - KFINTECH.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - SIEMENS.NS: Disagreement: ['relative_strength', 'mean_reversion', 'portfolio_fit'] positive vs ['trend_following'] negative.
@@ -160,6 +162,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - TATAINVEST.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - TRAVELFOOD.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - BSE.NS: Disagreement: ['portfolio_fit'] positive vs ['relative_strength'] negative.
+- NEWGEN.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - ASHOKLEY.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - JINDALSTEL.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - BATAINDIA.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
@@ -171,12 +174,10 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - ADANIGREEN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
 - GLENMARK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - AUBANK.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
-- NEWGEN.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - ABB.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['relative_strength'] negative.
 - BEL.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - JUBLFOOD.NS: Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - WAAREEENER.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- CANBK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - RHIM.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - POLYMED.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.
 - EICHERMOT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
@@ -189,6 +190,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - KPITTECH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - ZENTEC.NS: Disagreement: ['mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - TORNTPHARM.NS: Disagreement: ['mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- CANBK.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - CAPLIPOINT.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - DATAPATTNS.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - TATASTEEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following'] negative.
@@ -248,6 +250,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - SCHAEFFLER.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - HDFCAMC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - CEMPRO.NS: Disagreement: ['mean_reversion', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- DEEPAKNTR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - POLYCAB.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - NATIONALUM.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - HINDPETRO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -261,7 +264,6 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - AFCONS.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - CIEINDIA.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - LINDEINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- DEEPAKNTR.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'volatility_risk'] negative.
 - FACT.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - ZFCVINDIA.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - OLAELEC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -320,7 +322,6 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - BBTC.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - HAVELLS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - TRITURBINE.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- ABFRL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - COCHINSHIP.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - GRAVITA.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - CUMMINSIND.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -354,11 +355,13 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - RECLTD.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - ZEEL.NS: Disagreement: ['volatility_risk', 'portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - TTML.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- MMTC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - OLECTRA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - SONATSOFTW.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - CREDITACC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - SUMICHEM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - RAMCOCEM.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- HUDCO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - POWERGRID.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - BHARATFORG.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - LUPIN.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -374,8 +377,6 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - COROMANDEL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - ABREL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - BAYERCROP.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- MMTC.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
-- HUDCO.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - JSWENERGY.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - SWANCORP.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - MAXHEALTH.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -394,6 +395,7 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - HONAUT.NS: Disagreement: ['volatility_risk'] positive vs ['trend_following', 'relative_strength', 'portfolio_fit'] negative.
 - TMPV.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - RAINBOW.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
+- ABFRL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
 - SUZLON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - MANKIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - TIINDIA.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength'] negative.
@@ -412,8 +414,8 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - DALBHARAT.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - DMART.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - IRCON.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
-- INOXWIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - APTUS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'mean_reversion', 'volatility_risk'] negative.
+- INOXWIND.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'mean_reversion', 'volatility_risk'] negative.
 - BIKAJI.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - HDBFS.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
 - MFSL.NS: Disagreement: ['portfolio_fit'] positive vs ['trend_following', 'relative_strength', 'volatility_risk'] negative.
@@ -438,33 +440,33 @@ GILLETTE.NS(49.8), DCMSHRIRAM.NS(49.6), ABSLAMC.NS(49.5), BLS.NS(49.5), BERGEPAI
 - ACMESOLAR.NS (WATCH, 69.5): Final 69.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=67.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 23105 (no API-key quota)
+- Provider: `yfinance` · calls today: 1505 · total this month: 23607 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
 - DataQuality:DATA_ANOMALY
 - DataQuality:DATA_INSUFFICIENT
 - No relevant news; strategy does not contribute.
-- Share price ₹10170 exceeds per-trade cap ₹10000.
-- Share price ₹10311 exceeds per-trade cap ₹10000.
-- Share price ₹10606 exceeds per-trade cap ₹10000.
-- Share price ₹11166 exceeds per-trade cap ₹10000.
-- Share price ₹11204 exceeds per-trade cap ₹10000.
-- Share price ₹11482 exceeds per-trade cap ₹10000.
+- Share price ₹10214 exceeds per-trade cap ₹10000.
+- Share price ₹10287 exceeds per-trade cap ₹10000.
+- Share price ₹10650 exceeds per-trade cap ₹10000.
+- Share price ₹11158 exceeds per-trade cap ₹10000.
+- Share price ₹11265 exceeds per-trade cap ₹10000.
+- Share price ₹11475 exceeds per-trade cap ₹10000.
 - Share price ₹12100 exceeds per-trade cap ₹10000.
-- Share price ₹121850 exceeds per-trade cap ₹10000.
-- Share price ₹15722 exceeds per-trade cap ₹10000.
-- Share price ₹17530 exceeds per-trade cap ₹10000.
-- Share price ₹19215 exceeds per-trade cap ₹10000.
-- Share price ₹19730 exceeds per-trade cap ₹10000.
-- Share price ₹22330 exceeds per-trade cap ₹10000.
-- Share price ₹25085 exceeds per-trade cap ₹10000.
-- Share price ₹25830 exceeds per-trade cap ₹10000.
-- Share price ₹28655 exceeds per-trade cap ₹10000.
-- Share price ₹30155 exceeds per-trade cap ₹10000.
-- Share price ₹31725 exceeds per-trade cap ₹10000.
-- Share price ₹35605 exceeds per-trade cap ₹10000.
-- Share price ₹45045 exceeds per-trade cap ₹10000.
+- Share price ₹121905 exceeds per-trade cap ₹10000.
+- Share price ₹15737 exceeds per-trade cap ₹10000.
+- Share price ₹17563 exceeds per-trade cap ₹10000.
+- Share price ₹19220 exceeds per-trade cap ₹10000.
+- Share price ₹19803 exceeds per-trade cap ₹10000.
+- Share price ₹22290 exceeds per-trade cap ₹10000.
+- Share price ₹25045 exceeds per-trade cap ₹10000.
+- Share price ₹25905 exceeds per-trade cap ₹10000.
+- Share price ₹28730 exceeds per-trade cap ₹10000.
+- Share price ₹30115 exceeds per-trade cap ₹10000.
+- Share price ₹31680 exceeds per-trade cap ₹10000.
+- Share price ₹35770 exceeds per-trade cap ₹10000.
+- Share price ₹45195 exceeds per-trade cap ₹10000.
 - Trailing 50-session average unavailable; the 1-month graph is not used as the trend.
 - Trailing 60-session excess return unavailable; one-day move is not used.
 - Trailing averages unavailable; a short pullback on the 1-month graph is not used.

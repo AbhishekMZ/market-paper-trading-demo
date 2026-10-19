@@ -1,5 +1,55 @@
 [
   {
+    "symbol": "INDIANB.NS",
+    "title": "South Indian Bank Revises Marginal Cost of Funds Based Lending Rates ( MCLR ) Effective October 20 , 2026",
+    "source": "equitybulls.com",
+    "provider": "gdelt",
+    "url": "https://www.equitybulls.com/news/377168/south-indian-bank-revises-marginal-cost-of-funds-based-lending-rates-mclr-effect",
+    "summary": "",
+    "published_at": "2026-10-18T16:45:00+00:00",
+    "fetched_at": "2026-10-19T12:29:45.272168+00:00",
+    "age_hours": 19.75,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-19T18:37:13+05:30"
+  },
+  {
+    "symbol": "INDIANB.NS",
+    "title": "TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank",
+    "source": "equitybulls.com",
+    "provider": "gdelt",
+    "url": "https://www.equitybulls.com/news/377204/tcs-bancs-for-treasury-marks-its-entry-into-sri-lanka-with-indian-bank",
+    "summary": "",
+    "published_at": "2026-10-19T11:15:00+00:00",
+    "fetched_at": "2026-10-19T12:29:45.271832+00:00",
+    "age_hours": 1.25,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-19T18:37:13+05:30"
+  },
+  {
     "symbol": "ABFRL.NS",
     "title": "Tasva Reimagines Contemporary Indian Menswear at Lakm Fashion Week in Partnership with Fashion Design Council of India ( Fdci )",
     "source": "heraldglobe.com",
@@ -3906,48 +3956,6 @@
     "risk_level": "NONE",
     "matched_keywords": [
       "loss"
-    ]
-  },
-  {
-    "symbol": "ULTRACEMCO.NS",
-    "title": "India's Ultratech cement tops cost pressures with strong demand",
-    "source": "Reuters",
-    "provider": "yfinance",
-    "url": "https://sg.finance.yahoo.com/news/indias-ultratech-cement-tops-cost-103320016.html",
-    "summary": "",
-    "published_at": "2026-07-20T10:33:20+00:00",
-    "fetched_at": "2026-10-01T17:27:46.765642+00:00",
-    "age_hours": 1758.91,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
-  },
-  {
-    "symbol": "ULTRACEMCO.NS",
-    "title": "India's UltraTech Cement plans its biggest rupee debt funding, bankers say",
-    "source": "Reuters",
-    "provider": "yfinance",
-    "url": "https://sg.finance.yahoo.com/news/indias-ultratech-cement-plans-biggest-031608190.html",
-    "summary": "",
-    "published_at": "2026-07-27T03:16:08+00:00",
-    "fetched_at": "2026-10-01T17:27:46.765623+00:00",
-    "age_hours": 1598.19,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [
-      "REGULATORY"
-    ],
-    "risk_level": "HIGH",
-    "matched_keywords": [
-      "ban"
     ]
   }
 ]
