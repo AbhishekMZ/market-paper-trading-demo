@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-19T23:15:37+05:30",
+  "as_of": "2026-10-20T15:23:16+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 6,
-  "escalations": 4,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 276,
-    "triggers_detected": 1266,
-    "escalations_created": 790,
+    "observation_runs": 277,
+    "triggers_detected": 1272,
+    "escalations_created": 795,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-19T23:15:37+05:30",
+    "last_run": "2026-10-20T15:23:16+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_f92e441e3fb2",
-        "detected_at": "2026-10-19T23:14:21+05:30"
+        "created_escalation_id": "esc_f456abc885c4",
+        "trigger_id": "trg_c7d6cadca770",
+        "detected_at": "2026-10-20T15:21:20+05:30"
       },
       {
         "symbol": "BALRAMCHIN.NS",
@@ -83,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_f97690a88804",
-        "detected_at": "2026-10-19T23:14:32+05:30"
+        "created_escalation_id": "esc_5ad83e0ff948",
+        "trigger_id": "trg_94e5dfa37ff8",
+        "detected_at": "2026-10-20T15:21:28+05:30"
       },
       {
         "symbol": "MOTILALOFS.NS",
@@ -104,9 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_316b989d0937",
-        "trigger_id": "trg_9dc12f6d9873",
-        "detected_at": "2026-10-19T23:14:32+05:30"
+        "created_escalation_id": "esc_782cd5f2e0d2",
+        "trigger_id": "trg_ccaa259236b7",
+        "detected_at": "2026-10-20T15:21:40+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -125,9 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_571b1152b2dd",
-        "trigger_id": "trg_905f35d7dd3e",
-        "detected_at": "2026-10-19T23:14:53+05:30"
+        "created_escalation_id": "esc_2db958c9001b",
+        "trigger_id": "trg_a4b4f6cb728f",
+        "detected_at": "2026-10-20T15:21:58+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -146,9 +146,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_6b01a35d21bf",
-        "trigger_id": "trg_7541043bc992",
-        "detected_at": "2026-10-19T23:15:29+05:30"
+        "created_escalation_id": "esc_a739792bfaa0",
+        "trigger_id": "trg_0bf427cd8ae3",
+        "detected_at": "2026-10-20T15:23:05+05:30"
       },
       {
         "symbol": "LTFOODS.NS",
@@ -167,31 +167,26 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_d123da8862e2",
-        "trigger_id": "trg_c2824d4003e2",
-        "detected_at": "2026-10-19T23:15:37+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_c264bb6df45d",
+        "detected_at": "2026-10-20T15:23:16+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "AUROPHARMA.NS",
+        "symbol": "LTFOODS.NS",
         "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      },
-      {
-        "symbol": "BALRAMCHIN.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "reason": "max_escalations_per_run"
       }
     ],
     "escalations": [
       {
-        "symbol": "MOTILALOFS.NS",
+        "symbol": "AUROPHARMA.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.5% vs previous close.",
+        "reason": "Gap -2.7% vs previous close.",
         "trigger_ids": [
-          "trg_9dc12f6d9873"
+          "trg_c7d6cadca770"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -199,9 +194,45 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_316b989d0937",
-        "created_at": "2026-10-19T23:15:37+05:30",
-        "expires_at": "2026-10-19T23:15:37+05:30"
+        "escalation_id": "esc_f456abc885c4",
+        "created_at": "2026-10-20T15:23:16+05:30",
+        "expires_at": "2026-10-20T15:23:16+05:30"
+      },
+      {
+        "symbol": "BALRAMCHIN.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.7% vs previous close.",
+        "trigger_ids": [
+          "trg_94e5dfa37ff8"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_5ad83e0ff948",
+        "created_at": "2026-10-20T15:23:16+05:30",
+        "expires_at": "2026-10-20T15:23:16+05:30"
+      },
+      {
+        "symbol": "MOTILALOFS.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -3.5% vs previous close.",
+        "trigger_ids": [
+          "trg_ccaa259236b7"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_782cd5f2e0d2",
+        "created_at": "2026-10-20T15:23:16+05:30",
+        "expires_at": "2026-10-20T15:23:16+05:30"
       },
       {
         "symbol": "HFCL.NS",
@@ -209,7 +240,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +5.0% vs previous close.",
         "trigger_ids": [
-          "trg_905f35d7dd3e"
+          "trg_a4b4f6cb728f"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -217,9 +248,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_571b1152b2dd",
-        "created_at": "2026-10-19T23:15:37+05:30",
-        "expires_at": "2026-10-19T23:15:37+05:30"
+        "escalation_id": "esc_2db958c9001b",
+        "created_at": "2026-10-20T15:23:16+05:30",
+        "expires_at": "2026-10-20T15:23:16+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -227,7 +258,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap -3.2% vs previous close.",
         "trigger_ids": [
-          "trg_7541043bc992"
+          "trg_0bf427cd8ae3"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -235,32 +266,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_6b01a35d21bf",
-        "created_at": "2026-10-19T23:15:37+05:30",
-        "expires_at": "2026-10-19T23:15:37+05:30"
-      },
-      {
-        "symbol": "LTFOODS.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.1% vs previous close.",
-        "trigger_ids": [
-          "trg_c2824d4003e2"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_d123da8862e2",
-        "created_at": "2026-10-19T23:15:37+05:30",
-        "expires_at": "2026-10-19T23:15:37+05:30"
+        "escalation_id": "esc_a739792bfaa0",
+        "created_at": "2026-10-20T15:23:16+05:30",
+        "expires_at": "2026-10-20T15:23:16+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-19T23:13:51+05:30"
+    "as_of": "2026-10-20T15:20:54+05:30"
   }
 }
