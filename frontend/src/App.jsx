@@ -4,10 +4,12 @@ import { formatDateTime } from './lib/format.js';
 
 import Today from './views/Today.jsx';
 import Why from './views/Why.jsx';
+import Portfolio from './components/Portfolio.jsx';
 import TrackRecord from './views/TrackRecord.jsx';
 
 const TABS = [
   { id: 'today', label: 'Today' },
+  { id: 'portfolio', label: 'Portfolio' },
   { id: 'why', label: 'Why' },
   { id: 'track', label: 'Track Record' },
 ];
@@ -94,6 +96,7 @@ export default function App() {
       <main className="content">
         <div className="container">
           {active === 'today' && <Today report={report} onSelectSymbol={goToWhy} />}
+          {active === 'portfolio' && <Portfolio />}
           {active === 'why' && <Why report={report} focusSymbol={focusSymbol} />}
           {active === 'track' && <TrackRecord report={report} />}
         </div>
