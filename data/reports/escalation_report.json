@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20T15:23:16+05:30",
+  "as_of": "2026-10-20T18:24:25+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
@@ -8,7 +8,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -2.7% vs previous close.",
       "trigger_ids": [
-        "trg_c7d6cadca770"
+        "trg_5d62e1103d01"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_f456abc885c4",
-      "created_at": "2026-10-20T15:23:16+05:30",
-      "expires_at": "2026-10-20T15:23:16+05:30"
+      "escalation_id": "esc_29d67e63f8ef",
+      "created_at": "2026-10-20T18:24:25+05:30",
+      "expires_at": "2026-10-20T18:24:25+05:30"
     },
     {
       "symbol": "BALRAMCHIN.NS",
@@ -26,7 +26,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -2.7% vs previous close.",
       "trigger_ids": [
-        "trg_94e5dfa37ff8"
+        "trg_5b0ab29b397b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +34,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5ad83e0ff948",
-      "created_at": "2026-10-20T15:23:16+05:30",
-      "expires_at": "2026-10-20T15:23:16+05:30"
+      "escalation_id": "esc_7cb2a2f415d2",
+      "created_at": "2026-10-20T18:24:25+05:30",
+      "expires_at": "2026-10-20T18:24:25+05:30"
     },
     {
       "symbol": "MOTILALOFS.NS",
@@ -44,7 +44,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -3.5% vs previous close.",
       "trigger_ids": [
-        "trg_ccaa259236b7"
+        "trg_b058adc263d8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,9 +52,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_782cd5f2e0d2",
-      "created_at": "2026-10-20T15:23:16+05:30",
-      "expires_at": "2026-10-20T15:23:16+05:30"
+      "escalation_id": "esc_6331108ecbde",
+      "created_at": "2026-10-20T18:24:25+05:30",
+      "expires_at": "2026-10-20T18:24:25+05:30"
     },
     {
       "symbol": "HFCL.NS",
@@ -62,7 +62,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +5.0% vs previous close.",
       "trigger_ids": [
-        "trg_a4b4f6cb728f"
+        "trg_24c101bec050"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -70,9 +70,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2db958c9001b",
-      "created_at": "2026-10-20T15:23:16+05:30",
-      "expires_at": "2026-10-20T15:23:16+05:30"
+      "escalation_id": "esc_85a0731faf59",
+      "created_at": "2026-10-20T18:24:25+05:30",
+      "expires_at": "2026-10-20T18:24:25+05:30"
     },
     {
       "symbol": "REDINGTON.NS",
@@ -80,7 +80,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -3.2% vs previous close.",
       "trigger_ids": [
-        "trg_0bf427cd8ae3"
+        "trg_9185d24bc903"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -88,9 +88,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a739792bfaa0",
-      "created_at": "2026-10-20T15:23:16+05:30",
-      "expires_at": "2026-10-20T15:23:16+05:30"
+      "escalation_id": "esc_9fdd5d06cc8f",
+      "created_at": "2026-10-20T18:24:25+05:30",
+      "expires_at": "2026-10-20T18:24:25+05:30"
     }
   ],
   "actions_taken": [],
