@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-10-20T18:24:26+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 6,
+    "escalations": 5,
+    "actions": 0
+  },
+  {
     "ts": "2026-10-20T15:23:18+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15262,34 +15270,5 @@
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
-  },
-  {
-    "ts": "2026-10-19T23:13:48+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "HEXT.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 74.7,
-    "strategy_contributions": {
-      "trend_following": 73.2,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 83.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 74.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=83, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.39,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
   }
 ]
