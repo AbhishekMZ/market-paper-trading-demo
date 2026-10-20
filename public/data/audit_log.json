@@ -1,5 +1,25 @@
 [
   {
+    "ts": "2026-10-19T23:15:37+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 6,
+    "escalations": 4,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-19T23:13:51+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-19T23:13:48+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DEEPAKFERT.NS",
@@ -15288,64 +15308,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 34.57,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-19T23:13:48+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "KARURVYSYA.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 75.7,
-    "strategy_contributions": {
-      "trend_following": 90.4,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 49.4,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "MEDIUM",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 75.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=90, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 35.2,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-19T23:13:48+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "LAURUSLABS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 76.9,
-    "strategy_contributions": {
-      "trend_following": 83.9,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 67.8,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 76.9/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 29.16,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],
