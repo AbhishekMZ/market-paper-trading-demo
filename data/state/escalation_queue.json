@@ -1,126 +1,5 @@
 [
   {
-    "symbol": "CARTRADE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -6.2% since last observation.",
-    "trigger_ids": [
-      "trg_6bea54140015",
-      "trg_4ebfffbc2ba6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_804d28680831",
-    "created_at": "2026-10-09T18:06:52+05:30",
-    "expires_at": "2026-10-09T18:06:52+05:30"
-  },
-  {
-    "symbol": "BALRAMCHIN.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +10.8% since last observation.",
-    "trigger_ids": [
-      "trg_4a95365c47d7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "BALRAMCHIN.NS",
-      "score": 68.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=61.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_bff0ef03ef29",
-    "created_at": "2026-10-09T17:14:45+05:30",
-    "expires_at": "2026-10-09T17:14:45+05:30"
-  },
-  {
-    "symbol": "COLPAL.NS",
-    "severity": "HIGH",
-    "action_type": "TRIM_REVIEW",
-    "reason": "Held position at -13.2% breaches strong-loss -10%.",
-    "trigger_ids": [
-      "trg_e5ebf6f44f46",
-      "trg_09e8506f65cc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_63cd1ab98427",
-    "created_at": "2026-10-09T19:27:32+05:30",
-    "expires_at": "2026-10-09T19:27:32+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +9.4% since last observation.",
-    "trigger_ids": [
-      "trg_8cf0dca5f398"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WELCORP.NS",
-      "score": 70.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.9/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_0bff6c984e69",
-    "created_at": "2026-10-09T19:27:32+05:30",
-    "expires_at": "2026-10-09T19:27:32+05:30"
-  },
-  {
-    "symbol": "CARTRADE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -6.2% since last observation.",
-    "trigger_ids": [
-      "trg_b42bd39da01b",
-      "trg_659c58bf3bfa"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_49018374146e",
-    "created_at": "2026-10-09T19:27:32+05:30",
-    "expires_at": "2026-10-09T19:27:32+05:30"
-  },
-  {
     "symbol": "BALRAMCHIN.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2022,5 +1901,114 @@
     "escalation_id": "esc_9fdd5d06cc8f",
     "created_at": "2026-10-20T18:24:25+05:30",
     "expires_at": "2026-10-20T18:24:25+05:30"
+  },
+  {
+    "symbol": "JINDALSAW.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -8.5% since last observation.",
+    "trigger_ids": [
+      "trg_3c76eb75964d",
+      "trg_e4df8624e794"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_155c08bec55c",
+    "created_at": "2026-10-21T15:25:41+05:30",
+    "expires_at": "2026-10-21T15:25:41+05:30"
+  },
+  {
+    "symbol": "AUROPHARMA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.1% since last observation.",
+    "trigger_ids": [
+      "trg_cec4b16e1012",
+      "trg_22b3682944f5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_70ee55b53e9e",
+    "created_at": "2026-10-21T15:25:41+05:30",
+    "expires_at": "2026-10-21T15:25:41+05:30"
+  },
+  {
+    "symbol": "MOTILALOFS.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.4% since last observation.",
+    "trigger_ids": [
+      "trg_c4b70312e3f7",
+      "trg_d063b08d7ff8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_4fd65a6f62d6",
+    "created_at": "2026-10-21T15:25:41+05:30",
+    "expires_at": "2026-10-21T15:25:41+05:30"
+  },
+  {
+    "symbol": "PARADEEP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.1% since last observation.",
+    "trigger_ids": [
+      "trg_55384cdb6ff3",
+      "trg_344deeb674c8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ca959ffcd165",
+    "created_at": "2026-10-21T15:25:41+05:30",
+    "expires_at": "2026-10-21T15:25:41+05:30"
+  },
+  {
+    "symbol": "FSL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.5% since last observation.",
+    "trigger_ids": [
+      "trg_c581c1700826",
+      "trg_d5fa14885ff2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "FSL.NS",
+      "score": 65.6,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=55.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_e9c058d14c06",
+    "created_at": "2026-10-21T15:25:41+05:30",
+    "expires_at": "2026-10-21T15:25:41+05:30"
   }
 ]
