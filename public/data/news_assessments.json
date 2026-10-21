@@ -23,7 +23,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "MANAPPURAM.NS",
@@ -49,59 +49,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "VMM.NS",
-    "company_name": "Vishal Mega Mart Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "UNITDSPR.NS",
-    "company_name": "United Spirits Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "ABB.NS",
@@ -127,7 +75,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "CREDITACC.NS",
@@ -153,33 +101,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "ZYDUSWELL.NS",
-    "company_name": "Zydus Wellness Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "INDIACEM.NS",
@@ -205,59 +127,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "COCHINSHIP.NS",
-    "company_name": "Cochin Shipyard Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "TATACHEM.NS",
-    "company_name": "Tata Chemicals Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "TRITURBINE.NS",
@@ -283,7 +153,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "TEJASNET.NS",
@@ -309,7 +179,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "JPPOWER.NS",
@@ -335,11 +205,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "HINDCOPPER.NS",
-    "company_name": "Hindustan Copper Ltd.",
+    "symbol": "FIVESTAR.NS",
+    "company_name": "Five-Star Business Finance Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -361,7 +231,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "POLYMED.NS",
@@ -387,7 +257,33 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "IDEA.NS",
+    "company_name": "Vodafone Idea Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "SIEMENS.NS",
@@ -413,7 +309,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "TECHNOE.NS",
@@ -439,7 +335,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "SYNGENE.NS",
@@ -465,7 +361,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "MARUTI.NS",
@@ -491,7 +387,33 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "SRF.NS",
+    "company_name": "SRF Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "SCI.NS",
@@ -517,7 +439,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "BAJAJ-AUTO.NS",
@@ -543,33 +465,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "YESBANK.NS",
-    "company_name": "Yes Bank Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "NESTLEIND.NS",
@@ -595,7 +491,59 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "UNITDSPR.NS",
+    "company_name": "United Spirits Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "YESBANK.NS",
+    "company_name": "Yes Bank Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "POLICYBZR.NS",
@@ -621,7 +569,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "APOLLOHOSP.NS",
@@ -647,7 +595,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "MFSL.NS",
@@ -673,7 +621,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "DEEPAKFERT.NS",
@@ -699,33 +647,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "PIIND.NS",
-    "company_name": "PI Industries Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "HDBFS.NS",
@@ -751,7 +673,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "3MINDIA.NS",
@@ -777,33 +699,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "CCL.NS",
-    "company_name": "CCL Products (I) Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "BIKAJI.NS",
@@ -829,33 +725,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "LTF.NS",
-    "company_name": "L&T Finance Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "CROMPTON.NS",
@@ -881,11 +751,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "NIVABUPA.NS",
-    "company_name": "Niva Bupa Health Insurance Company Ltd.",
+    "symbol": "VMM.NS",
+    "company_name": "Vishal Mega Mart Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -907,7 +777,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "IRCON.NS",
@@ -933,11 +803,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "DIXON.NS",
-    "company_name": "Dixon Technologies (India) Ltd.",
+    "symbol": "CCL.NS",
+    "company_name": "CCL Products (I) Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -959,7 +829,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "INOXWIND.NS",
@@ -985,85 +855,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "GMRAIRPORT.NS",
-    "company_name": "GMR Airports Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "UPL.NS",
-    "company_name": "UPL Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "HAVELLS.NS",
-    "company_name": "Havells India Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "DMART.NS",
@@ -1089,11 +881,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "BELRISE.NS",
-    "company_name": "Belrise Industries Ltd.",
+    "symbol": "PIIND.NS",
+    "company_name": "PI Industries Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -1115,11 +907,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "VEDL.NS",
-    "company_name": "Vedanta Ltd.",
+    "symbol": "NIVABUPA.NS",
+    "company_name": "Niva Bupa Health Insurance Company Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -1141,7 +933,59 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "DIXON.NS",
+    "company_name": "Dixon Technologies (India) Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "LTF.NS",
+    "company_name": "L&T Finance Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "INDUSINDBK.NS",
@@ -1167,33 +1011,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "SUZLON.NS",
-    "company_name": "Suzlon Energy Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "COLPAL.NS",
@@ -1219,33 +1037,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
-  },
-  {
-    "symbol": "ADANIENT.NS",
-    "company_name": "Adani Enterprises Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
     "symbol": "FORTIS.NS",
@@ -1271,11 +1063,11 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   },
   {
-    "symbol": "NLCINDIA.NS",
-    "company_name": "NLC India Ltd.",
+    "symbol": "GMRAIRPORT.NS",
+    "company_name": "GMR Airports Ltd.",
     "news_available": false,
     "item_count": 0,
     "fresh_item_count": 0,
@@ -1297,6 +1089,214 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-21T16:06:16+05:30"
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "ANURAS.NS",
+    "company_name": "Anupam Rasayan India Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "AMBUJACEM.NS",
+    "company_name": "Ambuja Cements Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "UPL.NS",
+    "company_name": "UPL Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "HAVELLS.NS",
+    "company_name": "Havells India Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "APTUS.NS",
+    "company_name": "Aptus Value Housing Finance India Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "KEI.NS",
+    "company_name": "KEI Industries Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "BAYERCROP.NS",
+    "company_name": "Bayer Cropscience Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
+  },
+  {
+    "symbol": "PFIZER.NS",
+    "company_name": "Pfizer Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-21T17:45:13+05:30"
   }
 ]
