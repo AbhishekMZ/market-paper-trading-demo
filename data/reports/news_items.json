@@ -10426,5 +10426,26 @@
     ],
     "checkpoint": "close",
     "decision_at": "2026-10-19T23:13:48+05:30"
+  },
+  {
+    "symbol": "SOLARINDS.NS",
+    "title": "Sona BLW , Solar Industries , Oracle , Aurobindo Pharma , CG Power : Midcap performers of 2026 , price targets and more",
+    "source": "businesstoday.in",
+    "provider": "gdelt",
+    "url": "https://www.businesstoday.in/markets/stocks/story/sona-blw-solar-industries-oracle-aurobindo-pharma-cg-power-midcap-performers-of-2026-price-targets-and-more-562627-2026-10-20",
+    "summary": "",
+    "published_at": "2026-10-20T10:30:00+00:00",
+    "fetched_at": "2026-10-21T10:24:56.281530+00:00",
+    "age_hours": 23.92,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.75,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-21T16:06:16+05:30"
   }
 ]

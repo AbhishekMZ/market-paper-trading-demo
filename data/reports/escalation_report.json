@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-10-21T15:25:41+05:30",
+  "as_of": "2026-10-21T16:07:27+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "JINDALSAW.NS",
+      "symbol": "WELSPUNLIV.NS",
       "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -8.5% since last observation.",
+      "reason": "Moved -7.6% since last observation.",
       "trigger_ids": [
-        "trg_3c76eb75964d",
-        "trg_e4df8624e794"
+        "trg_50339033522d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -17,18 +16,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_155c08bec55c",
-      "created_at": "2026-10-21T15:25:41+05:30",
-      "expires_at": "2026-10-21T15:25:41+05:30"
+      "escalation_id": "esc_ae17d155051f",
+      "created_at": "2026-10-21T16:07:27+05:30",
+      "expires_at": "2026-10-21T16:07:27+05:30"
     },
     {
-      "symbol": "AUROPHARMA.NS",
-      "severity": "MEDIUM",
+      "symbol": "NAVINFLUOR.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.1% since last observation.",
+      "reason": "Moved -6.6% since last observation.",
       "trigger_ids": [
-        "trg_cec4b16e1012",
-        "trg_22b3682944f5"
+        "trg_513b0461aec1"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -36,18 +34,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_70ee55b53e9e",
-      "created_at": "2026-10-21T15:25:41+05:30",
-      "expires_at": "2026-10-21T15:25:41+05:30"
+      "escalation_id": "esc_62c98a5617a5",
+      "created_at": "2026-10-21T16:07:27+05:30",
+      "expires_at": "2026-10-21T16:07:27+05:30"
     },
     {
-      "symbol": "MOTILALOFS.NS",
+      "symbol": "ASAHIINDIA.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.4% since last observation.",
+      "reason": "Moved -3.8% since last observation.",
       "trigger_ids": [
-        "trg_c4b70312e3f7",
-        "trg_d063b08d7ff8"
+        "trg_9a518c34dd82",
+        "trg_5d41ccec272b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -55,18 +53,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_4fd65a6f62d6",
-      "created_at": "2026-10-21T15:25:41+05:30",
-      "expires_at": "2026-10-21T15:25:41+05:30"
+      "escalation_id": "esc_6b61ec2aac49",
+      "created_at": "2026-10-21T16:07:27+05:30",
+      "expires_at": "2026-10-21T16:07:27+05:30"
     },
     {
-      "symbol": "PARADEEP.NS",
+      "symbol": "ACMESOLAR.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.1% since last observation.",
+      "reason": "Moved -3.5% since last observation.",
       "trigger_ids": [
-        "trg_55384cdb6ff3",
-        "trg_344deeb674c8"
+        "trg_d4bdf4067991",
+        "trg_026220944424"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -74,18 +72,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_ca959ffcd165",
-      "created_at": "2026-10-21T15:25:41+05:30",
-      "expires_at": "2026-10-21T15:25:41+05:30"
+      "escalation_id": "esc_819b4a9c8c6a",
+      "created_at": "2026-10-21T16:07:27+05:30",
+      "expires_at": "2026-10-21T16:07:27+05:30"
     },
     {
-      "symbol": "FSL.NS",
+      "symbol": "ETERNAL.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +3.5% since last observation.",
+      "reason": "Moved -3.3% since last observation.",
       "trigger_ids": [
-        "trg_c581c1700826",
-        "trg_d5fa14885ff2"
+        "trg_65941c4f256c"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -106,10 +103,10 @@
       },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_e9c058d14c06",
-      "created_at": "2026-10-21T15:25:41+05:30",
-      "expires_at": "2026-10-21T15:25:41+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_40c0efefcd15",
+      "created_at": "2026-10-21T16:07:27+05:30",
+      "expires_at": "2026-10-21T16:07:27+05:30"
     }
   ],
   "actions_taken": [],
