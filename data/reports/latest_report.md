@@ -466,7 +466,7 @@ HYUNDAI.NS(49.9), BANKBARODA.NS(49.8), DCMSHRIRAM.NS(49.8), KPRMILL.NS(49.8), AS
 - NAVINFLUOR.NS (WATCH, 68.8): Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=88, portfolio_fit=80.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 25620 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 26124 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

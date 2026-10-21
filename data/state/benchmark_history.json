@@ -2118,5 +2118,13 @@
     "nifty_close": 22811.349609375,
     "portfolio_total": 1625.17,
     "starting_capital": 10000.0
+  },
+  {
+    "date": "2026-10-21",
+    "ts": "2026-10-21T21:13:02+05:30",
+    "checkpoint": "close",
+    "nifty_close": 22811.349609375,
+    "portfolio_total": 1625.17,
+    "starting_capital": 10000.0
   }
 ]

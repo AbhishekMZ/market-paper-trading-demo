@@ -1,125 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "severity": "CRITICAL",
-    "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -15.6% breaches hard-loss -15%.",
-    "trigger_ids": [
-      "trg_2aa2e0e92f86",
-      "trg_58b4545504d7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_772e40c20096",
-    "created_at": "2026-10-12T18:39:50+05:30",
-    "expires_at": "2026-10-12T18:39:50+05:30"
-  },
-  {
-    "symbol": "CYIENT.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.6% since last observation.",
-    "trigger_ids": [
-      "trg_02adfe1aa377"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CYIENT.NS",
-      "score": 70.2,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_69da61428ca2",
-    "created_at": "2026-10-12T18:39:50+05:30",
-    "expires_at": "2026-10-12T18:39:50+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.0% since last observation.",
-    "trigger_ids": [
-      "trg_a52d033813a2",
-      "trg_1f7489d5f6c8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_aa8a712710cb",
-    "created_at": "2026-10-12T18:39:50+05:30",
-    "expires_at": "2026-10-12T18:39:50+05:30"
-  },
-  {
-    "symbol": "ANANDRATHI.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.4% since last observation.",
-    "trigger_ids": [
-      "trg_cdb33d79499e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d7c2edff4d49",
-    "created_at": "2026-10-12T18:39:50+05:30",
-    "expires_at": "2026-10-12T18:39:50+05:30"
-  },
-  {
-    "symbol": "CPPLUS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.1% since last observation.",
-    "trigger_ids": [
-      "trg_39461896a6b9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CPPLUS.NS",
-      "score": 71.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_55c744bb4ef0",
-    "created_at": "2026-10-12T18:39:50+05:30",
-    "expires_at": "2026-10-12T18:39:50+05:30"
-  },
-  {
     "symbol": "FINCABLES.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -1964,5 +1844,95 @@
     "escalation_id": "esc_5baa705220e0",
     "created_at": "2026-10-21T18:37:00+05:30",
     "expires_at": "2026-10-21T18:37:00+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_3a87c3d65b56"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_771640c3b1ba",
+    "created_at": "2026-10-21T21:14:23+05:30",
+    "expires_at": "2026-10-21T21:14:23+05:30"
+  },
+  {
+    "symbol": "TBOTEK.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_8f3368df5695"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_be2ae73b8fc3",
+    "created_at": "2026-10-21T21:14:23+05:30",
+    "expires_at": "2026-10-21T21:14:23+05:30"
+  },
+  {
+    "symbol": "ASAHIINDIA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_b315f1cd42e2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d192de468bd4",
+    "created_at": "2026-10-21T21:14:23+05:30",
+    "expires_at": "2026-10-21T21:14:23+05:30"
+  },
+  {
+    "symbol": "PARADEEP.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_fe72983ed176"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_984a025158e2",
+    "created_at": "2026-10-21T21:14:23+05:30",
+    "expires_at": "2026-10-21T21:14:23+05:30"
+  },
+  {
+    "symbol": "ACMESOLAR.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.4% vs previous close.",
+    "trigger_ids": [
+      "trg_b7340fc679fe"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1b128b055ab0",
+    "created_at": "2026-10-21T21:14:23+05:30",
+    "expires_at": "2026-10-21T21:14:23+05:30"
   }
 ]

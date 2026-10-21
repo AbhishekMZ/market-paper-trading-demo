@@ -1,32 +1,5 @@
 [
   {
-    "ts": "2026-07-01T15:07:11+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 290.3999938964844,
-    "jump_pct": 46.11,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-07-01T17:46:53+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 290.29998779296875,
-    "jump_pct": 46.13,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-07-02T13:09:28+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 290.1000061035156,
-    "jump_pct": 46.17,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
     "ts": "2026-07-02T14:18:11+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
@@ -6065,6 +6038,45 @@
   },
   {
     "ts": "2026-10-21T16:34:19+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 262.0,
+    "jump_pct": 51.38,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-10-21T20:00:52+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-10-21T20:01:27+05:30",
+    "symbol": "POLICYBZR.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 1008.0,
+    "mtm_price": 1008.0,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "split_or_ca_discontinuity"
+    ],
+    "reasons": [
+      "consecutive close gap 36.0% >= 25% (suspected split/corporate action)."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
+    "ts": "2026-10-21T20:02:15+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
     "prev_price": 538.92,
