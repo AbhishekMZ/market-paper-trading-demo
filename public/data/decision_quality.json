@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-10-22T16:07:49+05:30",
+  "as_of": "2026-10-22T17:41:10+05:30",
   "checkpoint": "close",
   "enabled": true,
   "metrics": {
-    "total_tracked_episodes": 5500,
+    "total_tracked_episodes": 5034,
     "matured_episodes": 5000,
     "paper_trades": 8,
     "distinct_days": 88,
     "action_rate_pct": 0.0,
     "avg_forward_return_acted_pct": 0.0,
-    "avg_forward_return_not_acted_pct": -0.6,
-    "decision_edge_pct": 1.12,
+    "avg_forward_return_not_acted_pct": -0.63,
+    "decision_edge_pct": 1.16,
     "buy_grade_hit_rate_pct": 0.0,
     "buy_grade_avg_return_pct": -6.52,
-    "benchmark_outperformance_pct": -71.96,
+    "benchmark_outperformance_pct": -72.12,
     "benchmark_verdict": "BEHIND"
   },
   "evidence_summary": {
@@ -30,7 +30,7 @@
       },
       {
         "label": "Tracked episodes",
-        "current": 5500,
+        "current": 5034,
         "required": 20,
         "done": true
       },
@@ -43,15 +43,15 @@
     ],
     "takeaways": [
       "Evidence maturity is 93.3% of the configured minimum sample.",
-      "Decision edge is 1.12% acted vs declined candidates.",
+      "Decision edge is 1.16% acted vs declined candidates.",
       "Benchmark verdict is BEHIND.",
-      "Paper portfolio outperformance is -71.96% vs NIFTY 50.",
-      "Blocked names rose 0.39% on average — blocking had a cost (still paper-safe).",
-      "Observer has run 282 time(s) with noise score 0.81."
+      "Paper portfolio outperformance is -72.12% vs NIFTY 50.",
+      "Blocked names rose 0.44% on average — blocking had a cost (still paper-safe).",
+      "Observer has run 283 time(s) with noise score 0.81."
     ],
     "watch_items": [
       "Only 8/10 paper trades so far.",
-      "Top observed strategy so far: news_event_risk (-0.55% avg forward return).",
+      "Top observed strategy so far: trend_following (-0.62% avg forward return).",
       "Best observed score threshold so far: 70 (descriptive only; no auto-tuning).",
       "Live trading remains DISABLED regardless of evidence summary."
     ],
@@ -59,10 +59,10 @@
     "auto_tuning": "DISABLED"
   },
   "forward_returns": {
-    "as_of": "2026-10-22T16:07:49+05:30",
-    "open_episodes": 500,
+    "as_of": "2026-10-22T17:41:10+05:30",
+    "open_episodes": 34,
     "matured_episodes": 5000,
-    "total_episodes": 5500,
+    "total_episodes": 5034,
     "by_score_band": {
       "buy_grade": {
         "count": 1,
@@ -71,16 +71,16 @@
         "hit_rate_pct": 0.0
       },
       "watch_grade": {
-        "count": 487,
-        "rated": 487,
-        "avg_return_pct": -1.19,
-        "hit_rate_pct": 30.2
+        "count": 462,
+        "rated": 462,
+        "avg_return_pct": -1.22,
+        "hit_rate_pct": 29.7
       },
       "low_grade": {
-        "count": 5012,
-        "rated": 5011,
-        "avg_return_pct": -0.54,
-        "hit_rate_pct": 33.7
+        "count": 4571,
+        "rated": 4570,
+        "avg_return_pct": -0.57,
+        "hit_rate_pct": 33.5
       }
     },
     "acted": {
@@ -90,10 +90,10 @@
       "hit_rate_pct": 0.0
     },
     "not_acted": {
-      "count": 5500,
-      "rated": 5499,
-      "avg_return_pct": -0.6,
-      "hit_rate_pct": 33.4
+      "count": 5034,
+      "rated": 5033,
+      "avg_return_pct": -0.63,
+      "hit_rate_pct": 33.2
     }
   },
   "shadow": {
@@ -104,51 +104,21 @@
       "hit_rate_pct": 0.0
     },
     "shadow_candidates": {
-      "count": 512,
-      "rated": 512,
-      "avg_return_pct": -1.12,
-      "hit_rate_pct": 30.9
+      "count": 486,
+      "rated": 486,
+      "avg_return_pct": -1.16,
+      "hit_rate_pct": 30.7
     },
     "blocked": {
-      "count": 24,
-      "rated": 24,
-      "avg_return_pct": 0.39,
-      "hit_rate_pct": 45.8
+      "count": 23,
+      "rated": 23,
+      "avg_return_pct": 0.44,
+      "hit_rate_pct": 52.2
     },
-    "acted_vs_shadow_edge_pct": 1.12,
+    "acted_vs_shadow_edge_pct": 1.16,
     "decision_note": "Not enough matured episodes on both sides to compare yet.",
-    "block_note": "Blocked names rose 0.39% on average — blocking had a cost (still paper-safe).",
+    "block_note": "Blocked names rose 0.44% on average — blocking had a cost (still paper-safe).",
     "shadow_examples": [
-      {
-        "symbol": "MEESHO.NS",
-        "name": "Meesho Ltd.",
-        "signal_id": "sig_db3f7d638c1f",
-        "label_at_open": "WATCH",
-        "score": 71.3,
-        "checkpoint": "close",
-        "contributors": [
-          "trend_following",
-          "relative_strength",
-          "mean_reversion",
-          "breakout",
-          "news_event_risk",
-          "volatility_risk",
-          "portfolio_fit"
-        ],
-        "news_risk_level": "NONE",
-        "news_blocked": false,
-        "data_quality_verdict": "OK",
-        "acted": false,
-        "entry_date": "2026-09-21",
-        "entry_price": 219.15,
-        "last_price": 240.19,
-        "last_update": "2026-09-22",
-        "runs_tracked": 5,
-        "forward_return_pct": 9.6,
-        "max_return_pct": 9.6,
-        "min_return_pct": 0.0,
-        "status": "MATURED"
-      },
       {
         "symbol": "HFCL.NS",
         "name": "HFCL Ltd.",
@@ -352,29 +322,50 @@
         "max_return_pct": 6.54,
         "min_return_pct": 0.0,
         "status": "MATURED"
+      },
+      {
+        "symbol": "BALRAMCHIN.NS",
+        "name": "Balrampur Chini Mills Ltd.",
+        "signal_id": "sig_083b7e502b2f",
+        "label_at_open": "WATCH",
+        "score": 68.3,
+        "checkpoint": "close",
+        "contributors": [
+          "trend_following",
+          "relative_strength",
+          "mean_reversion",
+          "breakout",
+          "volatility_risk",
+          "portfolio_fit"
+        ],
+        "news_risk_level": "NONE",
+        "news_blocked": false,
+        "data_quality_verdict": "OK",
+        "acted": false,
+        "entry_date": "2026-10-09",
+        "entry_price": 678.15,
+        "last_price": 720.2,
+        "last_update": "2026-10-13",
+        "runs_tracked": 5,
+        "forward_return_pct": 6.2,
+        "max_return_pct": 6.2,
+        "min_return_pct": 0.0,
+        "status": "MATURED"
       }
     ]
   },
   "benchmark": {
-    "as_of": "2026-10-22T16:07:49+05:30",
+    "as_of": "2026-10-22T17:41:10+05:30",
     "ready": true,
-    "points": 266,
+    "points": 267,
     "from_date": "2026-06-23",
     "to_date": "2026-10-22",
     "benchmark_name": "NIFTY 50",
-    "benchmark_return_pct": -11.79,
+    "benchmark_return_pct": -11.63,
     "portfolio_return_pct": -83.75,
-    "outperformance_pct": -71.96,
+    "outperformance_pct": -72.12,
     "verdict": "BEHIND",
     "history": [
-      {
-        "date": "2026-09-22",
-        "ts": "2026-09-22T20:44:10+05:30",
-        "checkpoint": "close",
-        "nifty_close": 23329.0,
-        "portfolio_total": 9193.1,
-        "starting_capital": 10000.0
-      },
       {
         "date": "2026-09-23",
         "ts": "2026-09-23T15:57:58+05:30",
@@ -846,83 +837,91 @@
         "nifty_close": 22646.94921875,
         "portfolio_total": 1625.17,
         "starting_capital": 10000.0
+      },
+      {
+        "date": "2026-10-22",
+        "ts": "2026-10-22T17:41:10+05:30",
+        "checkpoint": "close",
+        "nifty_close": 22687.650390625,
+        "portfolio_total": 1625.17,
+        "starting_capital": 10000.0
       }
     ]
   },
   "attribution": {
     "leaderboard": [
       {
-        "strategy": "news_event_risk",
-        "episodes": 2508,
-        "wins": 664,
-        "avg_forward_return_pct": -0.55,
-        "hit_rate_pct": 26.5,
+        "strategy": "trend_following",
+        "episodes": 4952,
+        "wins": 1645,
+        "avg_forward_return_pct": -0.62,
+        "hit_rate_pct": 33.2,
         "rank": 1
       },
       {
-        "strategy": "trend_following",
-        "episodes": 5418,
-        "wins": 1810,
-        "avg_forward_return_pct": -0.59,
-        "hit_rate_pct": 33.4,
+        "strategy": "relative_strength",
+        "episodes": 4952,
+        "wins": 1645,
+        "avg_forward_return_pct": -0.62,
+        "hit_rate_pct": 33.2,
         "rank": 2
       },
       {
-        "strategy": "relative_strength",
-        "episodes": 5418,
-        "wins": 1810,
-        "avg_forward_return_pct": -0.59,
-        "hit_rate_pct": 33.4,
+        "strategy": "mean_reversion",
+        "episodes": 4952,
+        "wins": 1645,
+        "avg_forward_return_pct": -0.62,
+        "hit_rate_pct": 33.2,
         "rank": 3
       },
       {
-        "strategy": "mean_reversion",
-        "episodes": 5418,
-        "wins": 1810,
-        "avg_forward_return_pct": -0.59,
-        "hit_rate_pct": 33.4,
+        "strategy": "breakout",
+        "episodes": 4952,
+        "wins": 1645,
+        "avg_forward_return_pct": -0.62,
+        "hit_rate_pct": 33.2,
         "rank": 4
       },
       {
-        "strategy": "breakout",
-        "episodes": 5418,
-        "wins": 1810,
-        "avg_forward_return_pct": -0.59,
-        "hit_rate_pct": 33.4,
+        "strategy": "volatility_risk",
+        "episodes": 4952,
+        "wins": 1645,
+        "avg_forward_return_pct": -0.62,
+        "hit_rate_pct": 33.2,
         "rank": 5
       },
       {
-        "strategy": "volatility_risk",
-        "episodes": 5418,
-        "wins": 1810,
-        "avg_forward_return_pct": -0.59,
-        "hit_rate_pct": 33.4,
+        "strategy": "portfolio_fit",
+        "episodes": 5033,
+        "wins": 1670,
+        "avg_forward_return_pct": -0.63,
+        "hit_rate_pct": 33.2,
         "rank": 6
       },
       {
-        "strategy": "portfolio_fit",
-        "episodes": 5499,
-        "wins": 1834,
-        "avg_forward_return_pct": -0.6,
-        "hit_rate_pct": 33.4,
+        "strategy": "news_event_risk",
+        "episodes": 2042,
+        "wins": 490,
+        "avg_forward_return_pct": -0.64,
+        "hit_rate_pct": 24.0,
         "rank": 7
       }
     ],
-    "rated_episodes": 5499,
+    "rated_episodes": 5033,
     "note": "Ranked by average forward return of contributing signals. Indicative only; small sample."
   },
   "threshold_analysis": {
     "table": [
       {
         "threshold": 70,
-        "would_buy_count": 149,
-        "avg_forward_return_pct": -1.3,
-        "hit_rate_pct": 26.8
+        "would_buy_count": 141,
+        "avg_forward_return_pct": -1.43,
+        "hit_rate_pct": 25.5
       },
       {
         "threshold": 75,
         "would_buy_count": 25,
-        "avg_forward_return_pct": -2.12,
+        "avg_forward_return_pct": -2.14,
         "hit_rate_pct": 20.0
       },
       {
@@ -945,21 +944,21 @@
       }
     ],
     "best_threshold_observed": 70,
-    "rated_episodes": 5499,
+    "rated_episodes": 5033,
     "auto_tuning": "DISABLED",
     "note": "Descriptive only. The live buy threshold is fixed in config/scoring.yml and is NEVER changed automatically in v1."
   },
   "observation": {
-    "observation_runs": 282,
-    "triggers_detected": 1309,
-    "escalations_created": 817,
+    "observation_runs": 283,
+    "triggers_detected": 1315,
+    "escalations_created": 821,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "useful_triggers": 153,
     "emails_sent_total": 0,
     "alert_noise_score": 0.81,
-    "avg_triggers_per_run": 4.64,
-    "last_run": "2026-10-21T21:14:23+05:30",
+    "avg_triggers_per_run": 4.65,
+    "last_run": "2026-10-22T16:08:37+05:30",
     "note": "Observation adds value when triggers lead to actions or protective blocks, not just alerts."
   },
   "readiness": {
@@ -977,7 +976,7 @@
     },
     "progress": {
       "paper_trades": 8,
-      "tracked_episodes": 5500,
+      "tracked_episodes": 5034,
       "distinct_days": 88
     },
     "reasons": [

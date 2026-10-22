@@ -1,26 +1,5 @@
 [
   {
-    "symbol": "MAXHEALTH.NS",
-    "trigger_type": "LARGE_MOVE",
-    "severity": "MEDIUM",
-    "reason": "Moved +3.7% since last observation.",
-    "company_name": "Max Healthcare Institute Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 1068.0,
-    "previous_price": null,
-    "change_pct": 3.69,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": true,
-    "blocks_action": false,
-    "created_escalation_id": null,
-    "trigger_id": "trg_b01387fc8c49",
-    "detected_at": "2026-09-21T16:36:37+05:30"
-  },
-  {
     "symbol": "COLPAL.NS",
     "trigger_type": "SOFT_LOSS_REVIEW",
     "severity": "MEDIUM",
@@ -10498,5 +10477,26 @@
     "created_escalation_id": "esc_f02f88217455",
     "trigger_id": "trg_551b20af92e6",
     "detected_at": "2026-10-22T16:08:36+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -5.0% vs previous close.",
+    "company_name": "HFCL Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 251.5500030517578,
+    "previous_price": null,
+    "change_pct": -4.9966,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_8883e754e5ae",
+    "trigger_id": "trg_a92af60b93b3",
+    "detected_at": "2026-10-22T17:41:38+05:30"
   }
 ]
