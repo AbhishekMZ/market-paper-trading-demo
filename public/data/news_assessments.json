@@ -23,7 +23,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ZEEL.NS",
@@ -49,7 +49,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "SWIGGY.NS",
@@ -75,7 +75,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "MARUTI.NS",
@@ -101,7 +101,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "NESTLEIND.NS",
@@ -127,7 +127,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "YESBANK.NS",
@@ -153,7 +153,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "POLICYBZR.NS",
@@ -179,33 +179,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
-  },
-  {
-    "symbol": "APOLLOHOSP.NS",
-    "company_name": "Apollo Hospitals Enterprise Ltd.",
-    "news_available": false,
-    "item_count": 0,
-    "fresh_item_count": 0,
-    "overall_sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.1,
-    "sentiment_sources_agree": false,
-    "sentiment_conflict": false,
-    "sentiment_n_sources": 0,
-    "news_risk_level": "NONE",
-    "dominant_event_types": [],
-    "blocks_buy": false,
-    "requires_manual_review": false,
-    "exit_review_for_holding": false,
-    "sentiment_boost": 0.0,
-    "reasons": [
-      "No relevant news found (overlay stays neutral; the score excludes news)."
-    ],
-    "providers_used": [],
-    "top_items": [],
-    "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "MFSL.NS",
@@ -231,7 +205,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "3MINDIA.NS",
@@ -257,7 +231,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "HSCL.NS",
@@ -283,7 +257,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "HDBFS.NS",
@@ -309,7 +283,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "BIKAJI.NS",
@@ -335,7 +309,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "BAJAJ-AUTO.NS",
@@ -361,7 +335,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "IRCON.NS",
@@ -387,7 +361,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "UNITDSPR.NS",
@@ -413,7 +387,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "DMART.NS",
@@ -439,7 +413,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "COLPAL.NS",
@@ -465,7 +439,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "DEEPAKFERT.NS",
@@ -491,7 +465,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "LTF.NS",
@@ -517,7 +491,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "CROMPTON.NS",
@@ -543,7 +517,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ZYDUSWELL.NS",
@@ -569,7 +543,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "OLAELEC.NS",
@@ -595,7 +569,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "INDUSINDBK.NS",
@@ -621,7 +595,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "NIVABUPA.NS",
@@ -647,7 +621,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "FORTIS.NS",
@@ -673,7 +647,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "INOXWIND.NS",
@@ -699,7 +673,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "HINDUNILVR.NS",
@@ -725,7 +699,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "TATACHEM.NS",
@@ -751,7 +725,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "CREDITACC.NS",
@@ -777,7 +751,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "SHRIRAMFIN.NS",
@@ -803,7 +777,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "PIIND.NS",
@@ -829,7 +803,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "APTUS.NS",
@@ -855,7 +829,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "CCL.NS",
@@ -881,7 +855,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "PFIZER.NS",
@@ -907,7 +881,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "JWL.NS",
@@ -933,7 +907,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "BRITANNIA.NS",
@@ -959,7 +933,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "GMRAIRPORT.NS",
@@ -985,7 +959,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ENRIN.NS",
@@ -1011,7 +985,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "MANAPPURAM.NS",
@@ -1037,7 +1011,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "VMM.NS",
@@ -1063,7 +1037,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "UPL.NS",
@@ -1089,7 +1063,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "SUZLON.NS",
@@ -1115,7 +1089,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "DIXON.NS",
@@ -1141,7 +1115,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ABB.NS",
@@ -1167,7 +1141,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "NCC.NS",
@@ -1193,7 +1167,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ABFRL.NS",
@@ -1219,7 +1193,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "ADANIENT.NS",
@@ -1245,7 +1219,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "TIINDIA.NS",
@@ -1271,7 +1245,7 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   },
   {
     "symbol": "JSWENERGY.NS",
@@ -1297,6 +1271,32 @@
     "providers_used": [],
     "top_items": [],
     "critical_items": [],
-    "assessed_at": "2026-10-22T17:41:09+05:30"
+    "assessed_at": "2026-10-22T21:13:27+05:30"
+  },
+  {
+    "symbol": "POWERINDIA.NS",
+    "company_name": "Hitachi Energy India Ltd.",
+    "news_available": false,
+    "item_count": 0,
+    "fresh_item_count": 0,
+    "overall_sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.1,
+    "sentiment_sources_agree": false,
+    "sentiment_conflict": false,
+    "sentiment_n_sources": 0,
+    "news_risk_level": "NONE",
+    "dominant_event_types": [],
+    "blocks_buy": false,
+    "requires_manual_review": false,
+    "exit_review_for_holding": false,
+    "sentiment_boost": 0.0,
+    "reasons": [
+      "No relevant news found (overlay stays neutral; the score excludes news)."
+    ],
+    "providers_used": [],
+    "top_items": [],
+    "critical_items": [],
+    "assessed_at": "2026-10-22T21:13:27+05:30"
   }
 ]

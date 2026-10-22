@@ -1,7 +1,26 @@
 {
-  "as_of": "2026-10-22T18:39:10+05:30",
+  "as_of": "2026-10-22T21:14:18+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "HFCL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -5.0% vs previous close.",
+      "trigger_ids": [
+        "trg_340957b4aa72"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_eed9d2e00029",
+      "created_at": "2026-10-22T21:14:18+05:30",
+      "expires_at": "2026-10-22T21:14:18+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }

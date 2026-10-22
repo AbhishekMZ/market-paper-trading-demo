@@ -1,26 +1,5 @@
 [
   {
-    "symbol": "LAURUSLABS.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap +3.2% vs previous close.",
-    "company_name": "Laurus Labs Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 2017.5,
-    "previous_price": null,
-    "change_pct": 3.2497,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_2560bf1a3914",
-    "trigger_id": "trg_badfa4215310",
-    "detected_at": "2026-09-21T18:28:36+05:30"
-  },
-  {
     "symbol": "HDFCBANK.NS",
     "trigger_type": "HIGH_RISK_NEWS",
     "severity": "HIGH",
@@ -10498,5 +10477,26 @@
     "created_escalation_id": null,
     "trigger_id": "trg_f6e60e7f03ad",
     "detected_at": "2026-10-22T18:37:37+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -5.0% vs previous close.",
+    "company_name": "HFCL Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 251.5500030517578,
+    "previous_price": null,
+    "change_pct": -4.9966,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_eed9d2e00029",
+    "trigger_id": "trg_340957b4aa72",
+    "detected_at": "2026-10-22T21:13:59+05:30"
   }
 ]

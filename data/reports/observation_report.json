@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-22T18:39:10+05:30",
+  "as_of": "2026-10-22T21:14:18+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 1,
-  "escalations": 0,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 285,
-    "triggers_detected": 1317,
-    "escalations_created": 822,
+    "observation_runs": 286,
+    "triggers_detected": 1318,
+    "escalations_created": 823,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-22T18:39:10+05:30",
+    "last_run": "2026-10-22T21:14:18+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,22 +62,35 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_f6e60e7f03ad",
-        "detected_at": "2026-10-22T18:37:37+05:30"
+        "created_escalation_id": "esc_eed9d2e00029",
+        "trigger_id": "trg_340957b4aa72",
+        "detected_at": "2026-10-22T21:13:59+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "HFCL.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -5.0% vs previous close.",
+        "trigger_ids": [
+          "trg_340957b4aa72"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_eed9d2e00029",
+        "created_at": "2026-10-22T21:14:18+05:30",
+        "expires_at": "2026-10-22T21:14:18+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-22T18:37:03+05:30"
+    "as_of": "2026-10-22T21:13:31+05:30"
   }
 }
