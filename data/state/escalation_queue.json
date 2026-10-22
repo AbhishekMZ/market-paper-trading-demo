@@ -1,24 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "severity": "CRITICAL",
-    "action_type": "EXIT_REVIEW",
-    "reason": "Held position at -15.6% breaches hard-loss -15%.",
-    "trigger_ids": [
-      "trg_05e2bb1aed99",
-      "trg_e52eb6fae685"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": true,
-    "email_sent": false,
-    "final_decision": "EXIT_REVIEW — manual only (v1 never auto-sells).",
-    "escalation_id": "esc_f4e645b7d3f2",
-    "created_at": "2026-10-12T22:26:48+05:30",
-    "expires_at": "2026-10-12T22:26:48+05:30"
-  },
-  {
     "symbol": "FINCABLES.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1881,13 +1862,45 @@
     "expires_at": "2026-10-21T21:14:23+05:30"
   },
   {
+    "symbol": "COFORGE.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.4% since last observation.",
+    "trigger_ids": [
+      "trg_452a3bf2ed08"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "COFORGE.NS",
+      "score": 69.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=64.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_b16e438c77f6",
+    "created_at": "2026-10-22T16:08:37+05:30",
+    "expires_at": "2026-10-22T16:08:37+05:30"
+  },
+  {
     "symbol": "HFCL.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved -5.0% since last observation.",
     "trigger_ids": [
-      "trg_1299442029a4",
-      "trg_894a2c8bd213"
+      "trg_63a6cd4e5b1d",
+      "trg_71bfa99e3512"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -1895,45 +1908,73 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_e59063fe5bc7",
-    "created_at": "2026-10-22T15:25:51+05:30",
-    "expires_at": "2026-10-22T15:25:51+05:30"
+    "escalation_id": "esc_c2c0fc542987",
+    "created_at": "2026-10-22T16:08:37+05:30",
+    "expires_at": "2026-10-22T16:08:37+05:30"
   },
   {
-    "symbol": "ACMESOLAR.NS",
+    "symbol": "MPHASIS.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.6% since last observation.",
+    "reason": "Moved +5.6% since last observation.",
     "trigger_ids": [
-      "trg_f9cfed075d5c",
-      "trg_eb7d1bc7e8a7"
+      "trg_d32004431035",
+      "trg_48050f248d9f"
     ],
     "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "MPHASIS.NS",
+      "score": 65.5,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=66. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
     "manual_review_required": false,
     "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b50f0548fc47",
-    "created_at": "2026-10-22T15:25:51+05:30",
-    "expires_at": "2026-10-22T15:25:51+05:30"
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_76584c88dab8",
+    "created_at": "2026-10-22T16:08:37+05:30",
+    "expires_at": "2026-10-22T16:08:37+05:30"
   },
   {
-    "symbol": "GLAND.NS",
-    "severity": "LOW",
+    "symbol": "SAGILITY.NS",
+    "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.9% vs previous close.",
+    "reason": "Moved +3.2% since last observation.",
     "trigger_ids": [
-      "trg_7e46e6b4710c"
+      "trg_551b20af92e6"
     ],
     "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAGILITY.NS",
+      "score": 68.7,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=68.",
+      "strengthened": true
+    },
     "manual_review_required": false,
     "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c35c2e9ea158",
-    "created_at": "2026-10-22T15:25:51+05:30",
-    "expires_at": "2026-10-22T15:25:51+05:30"
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_f02f88217455",
+    "created_at": "2026-10-22T16:08:37+05:30",
+    "expires_at": "2026-10-22T16:08:37+05:30"
   }
 ]
