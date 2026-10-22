@@ -1,5 +1,61 @@
 [
   {
+    "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_7e46e6b4710c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c35c2e9ea158",
+    "created_at": "2026-10-22T15:25:51+05:30",
+    "expires_at": "2026-10-22T15:25:51+05:30"
+  },
+  {
+    "symbol": "ACMESOLAR.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.6% since last observation.",
+    "trigger_ids": [
+      "trg_f9cfed075d5c",
+      "trg_eb7d1bc7e8a7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b50f0548fc47",
+    "created_at": "2026-10-22T15:25:51+05:30",
+    "expires_at": "2026-10-22T15:25:51+05:30"
+  },
+  {
+    "symbol": "HFCL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.0% since last observation.",
+    "trigger_ids": [
+      "trg_1299442029a4",
+      "trg_894a2c8bd213"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e59063fe5bc7",
+    "created_at": "2026-10-22T15:25:51+05:30",
+    "expires_at": "2026-10-22T15:25:51+05:30"
+  },
+  {
     "symbol": "ACMESOLAR.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1879,60 +1935,5 @@
     "escalation_id": "esc_f4e645b7d3f2",
     "created_at": "2026-10-12T22:26:48+05:30",
     "expires_at": "2026-10-12T22:26:48+05:30"
-  },
-  {
-    "symbol": "PTCIL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.8% vs previous close.",
-    "trigger_ids": [
-      "trg_552c79ac429e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_018323b41c12",
-    "created_at": "2026-10-12T20:56:12+05:30",
-    "expires_at": "2026-10-12T20:56:12+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_8336537028cf"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_208cb9ec4608",
-    "created_at": "2026-10-12T20:56:12+05:30",
-    "expires_at": "2026-10-12T20:56:12+05:30"
-  },
-  {
-    "symbol": "FINCABLES.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.0% since last observation.",
-    "trigger_ids": [
-      "trg_f7c01c3e3d46",
-      "trg_c0db53095e52"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_c69d5975d56c",
-    "created_at": "2026-10-12T20:56:12+05:30",
-    "expires_at": "2026-10-12T20:56:12+05:30"
   }
 ]

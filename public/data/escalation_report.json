@@ -1,14 +1,15 @@
 {
-  "as_of": "2026-10-21T21:14:23+05:30",
+  "as_of": "2026-10-22T15:25:51+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SHYAMMETL.NS",
-      "severity": "LOW",
+      "symbol": "HFCL.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.5% vs previous close.",
+      "reason": "Moved -5.0% since last observation.",
       "trigger_ids": [
-        "trg_3a87c3d65b56"
+        "trg_1299442029a4",
+        "trg_894a2c8bd213"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,71 +17,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_771640c3b1ba",
-      "created_at": "2026-10-21T21:14:23+05:30",
-      "expires_at": "2026-10-21T21:14:23+05:30"
-    },
-    {
-      "symbol": "TBOTEK.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.6% vs previous close.",
-      "trigger_ids": [
-        "trg_8f3368df5695"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_be2ae73b8fc3",
-      "created_at": "2026-10-21T21:14:23+05:30",
-      "expires_at": "2026-10-21T21:14:23+05:30"
-    },
-    {
-      "symbol": "ASAHIINDIA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.8% vs previous close.",
-      "trigger_ids": [
-        "trg_b315f1cd42e2"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_d192de468bd4",
-      "created_at": "2026-10-21T21:14:23+05:30",
-      "expires_at": "2026-10-21T21:14:23+05:30"
-    },
-    {
-      "symbol": "PARADEEP.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
-      "trigger_ids": [
-        "trg_fe72983ed176"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_984a025158e2",
-      "created_at": "2026-10-21T21:14:23+05:30",
-      "expires_at": "2026-10-21T21:14:23+05:30"
+      "escalation_id": "esc_e59063fe5bc7",
+      "created_at": "2026-10-22T15:25:51+05:30",
+      "expires_at": "2026-10-22T15:25:51+05:30"
     },
     {
       "symbol": "ACMESOLAR.NS",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.4% vs previous close.",
+      "reason": "Moved -3.6% since last observation.",
       "trigger_ids": [
-        "trg_b7340fc679fe"
+        "trg_f9cfed075d5c",
+        "trg_eb7d1bc7e8a7"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -88,9 +36,27 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1b128b055ab0",
-      "created_at": "2026-10-21T21:14:23+05:30",
-      "expires_at": "2026-10-21T21:14:23+05:30"
+      "escalation_id": "esc_b50f0548fc47",
+      "created_at": "2026-10-22T15:25:51+05:30",
+      "expires_at": "2026-10-22T15:25:51+05:30"
+    },
+    {
+      "symbol": "GLAND.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_7e46e6b4710c"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_c35c2e9ea158",
+      "created_at": "2026-10-22T15:25:51+05:30",
+      "expires_at": "2026-10-22T15:25:51+05:30"
     }
   ],
   "actions_taken": [],
