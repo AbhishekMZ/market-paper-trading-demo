@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-23T16:06:33+05:30",
+  "as_of": "2026-10-23T17:38:51+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 5,
-  "escalations": 4,
+  "triggers_this_run": 2,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 3,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 287,
-    "triggers_detected": 1323,
-    "escalations_created": 827,
+    "observation_runs": 288,
+    "triggers_detected": 1325,
+    "escalations_created": 828,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-23T16:06:33+05:30",
+    "last_run": "2026-10-23T17:38:51+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,30 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_c83afca76596",
-        "trigger_id": "trg_42dbf8305e1e",
-        "detected_at": "2026-10-23T16:06:23+05:30"
-      },
-      {
-        "symbol": "NAVINFLUOR.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.5% since last observation.",
-        "company_name": "Navin Fluorine International Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 7668.5,
-        "previous_price": null,
-        "change_pct": -3.5,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_0e891ab2ef22",
-        "trigger_id": "trg_77bbcc36d819",
-        "detected_at": "2026-10-23T16:06:23+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_75e9d5df40b0",
+        "detected_at": "2026-10-23T17:38:40+05:30"
       },
       {
         "symbol": "NAVINFLUOR.NS",
@@ -104,130 +83,26 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_0e891ab2ef22",
-        "trigger_id": "trg_304787c26d62",
-        "detected_at": "2026-10-23T16:06:23+05:30"
-      },
+        "created_escalation_id": "esc_499b70967645",
+        "trigger_id": "trg_bd2e4b6a0ae7",
+        "detected_at": "2026-10-23T17:38:41+05:30"
+      }
+    ],
+    "throttled": [
       {
-        "symbol": "SAILIFE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved -16.7% since last observation.",
-        "company_name": "Sai Life Sciences Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1395.300048828125,
-        "previous_price": null,
-        "change_pct": -16.72,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_adb1cf714fa1",
-        "trigger_id": "trg_6e8ec8d8ac90",
-        "detected_at": "2026-10-23T16:06:24+05:30"
-      },
-      {
-        "symbol": "ANANDRATHI.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +7.1% since last observation.",
-        "company_name": "Anand Rathi Wealth Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 2235.0,
-        "previous_price": null,
-        "change_pct": 7.09,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_d35037de0fb1",
-        "trigger_id": "trg_a74b48a2d53c",
-        "detected_at": "2026-10-23T16:06:32+05:30"
+        "symbol": "SAGILITY.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "SAILIFE.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -16.7% since last observation.",
-        "trigger_ids": [
-          "trg_6e8ec8d8ac90"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_adb1cf714fa1",
-        "created_at": "2026-10-23T16:06:33+05:30",
-        "expires_at": "2026-10-23T16:06:33+05:30"
-      },
-      {
-        "symbol": "ANANDRATHI.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +7.1% since last observation.",
-        "trigger_ids": [
-          "trg_a74b48a2d53c"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "ANANDRATHI.NS",
-          "score": 68.6,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 68.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_d35037de0fb1",
-        "created_at": "2026-10-23T16:06:33+05:30",
-        "expires_at": "2026-10-23T16:06:33+05:30"
-      },
-      {
         "symbol": "NAVINFLUOR.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.5% since last observation.",
-        "trigger_ids": [
-          "trg_77bbcc36d819",
-          "trg_304787c26d62"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_0e891ab2ef22",
-        "created_at": "2026-10-23T16:06:33+05:30",
-        "expires_at": "2026-10-23T16:06:33+05:30"
-      },
-      {
-        "symbol": "SAGILITY.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -2.7% vs previous close.",
+        "reason": "Gap -3.5% vs previous close.",
         "trigger_ids": [
-          "trg_42dbf8305e1e"
+          "trg_bd2e4b6a0ae7"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -235,14 +110,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_c83afca76596",
-        "created_at": "2026-10-23T16:06:33+05:30",
-        "expires_at": "2026-10-23T16:06:33+05:30"
+        "escalation_id": "esc_499b70967645",
+        "created_at": "2026-10-23T17:38:50+05:30",
+        "expires_at": "2026-10-23T17:38:50+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-23T16:05:40+05:30"
+    "as_of": "2026-10-23T17:37:56+05:30"
   }
 }

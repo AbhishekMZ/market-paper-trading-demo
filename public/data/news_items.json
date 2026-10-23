@@ -1,5 +1,55 @@
 [
   {
+    "symbol": "CENTRALBK.NS",
+    "title": "Govt eyes stake cuts in 4 PSU banks , including Central Bank , UCO Bank ; 2 more in privatisation plan",
+    "source": "moneycontrol.com",
+    "provider": "gdelt",
+    "url": "https://www.moneycontrol.com/banking/govt-eyes-stake-cuts-in-4-psu-banks-including-central-bank-uco-bank-2-more-in-privatisation-plan-article-14058223.html",
+    "summary": "",
+    "published_at": "2026-10-23T05:00:00+00:00",
+    "fetched_at": "2026-10-23T11:13:51.324562+00:00",
+    "age_hours": 6.23,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.8250000000000001,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-23T17:37:53+05:30"
+  },
+  {
+    "symbol": "CENTRALBK.NS",
+    "title": "After IDBI Bank sale , Centre looks at Central Bank , UCO Bank , 2 other PSU banks for stake cuts | Check terms here",
+    "source": "livemint.com",
+    "provider": "gdelt",
+    "url": "https://www.livemint.com/industry/banking/after-idbi-bank-sale-centre-looks-at-central-bank-uco-bank-2-other-psu-banks-for-stake-cuts-check-terms-here-11792736691027.html",
+    "summary": "",
+    "published_at": "2026-10-23T09:30:00+00:00",
+    "fetched_at": "2026-10-23T11:13:51.324470+00:00",
+    "age_hours": 1.73,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 0.8250000000000001,
+    "event_types": [
+      "REGULATORY"
+    ],
+    "risk_level": "HIGH",
+    "matched_keywords": [
+      "ban"
+    ],
+    "checkpoint": "close",
+    "decision_at": "2026-10-23T17:37:53+05:30"
+  },
+  {
     "symbol": "CGPOWER.NS",
     "title": "Q2 results today : Infosys , Tata Motors , Adani Power among 75 firms on Oct 23",
     "source": "business-standard.com",
@@ -3996,44 +4046,6 @@
     "published_at": "2026-06-08T15:28:02+00:00",
     "fetched_at": "2026-10-01T17:28:54.582401+00:00",
     "age_hours": 2762.01,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
-  },
-  {
-    "symbol": "NLCINDIA.NS",
-    "title": "NLCIL and CSIR-CECRI sign MoU for critical mineral extraction",
-    "source": "Mining Technology",
-    "provider": "yfinance",
-    "url": "https://www.mining-technology.com/news/nlcil-csir-cecri-mou-critical-mineral-extraction/",
-    "summary": "",
-    "published_at": "2026-06-11T14:43:43+00:00",
-    "fetched_at": "2026-10-01T17:28:54.582387+00:00",
-    "age_hours": 2690.75,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
-  },
-  {
-    "symbol": "NLCINDIA.NS",
-    "title": "NLCIL and NALCO partner on 1.08GW thermal plant in Odisha",
-    "source": "Power Technology",
-    "provider": "yfinance",
-    "url": "https://www.power-technology.com/news/nlc-india-nalco-1080mw-thermal-plant-odisha/",
-    "summary": "",
-    "published_at": "2026-07-09T13:12:37+00:00",
-    "fetched_at": "2026-10-01T17:28:54.582351+00:00",
-    "age_hours": 2020.27,
     "is_fresh": false,
     "sentiment": "NEUTRAL",
     "sentiment_score": 0.0,
