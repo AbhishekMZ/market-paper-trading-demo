@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-23T17:38:51+05:30",
+  "as_of": "2026-10-23T18:17:55+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 2,
-  "escalations": 1,
+  "escalations": 0,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 288,
-    "triggers_detected": 1325,
+    "observation_runs": 289,
+    "triggers_detected": 1327,
     "escalations_created": 828,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-23T17:38:51+05:30",
+    "last_run": "2026-10-23T18:17:55+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -63,8 +63,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_75e9d5df40b0",
-        "detected_at": "2026-10-23T17:38:40+05:30"
+        "trigger_id": "trg_ae088c30f1d6",
+        "detected_at": "2026-10-23T18:16:56+05:30"
       },
       {
         "symbol": "NAVINFLUOR.NS",
@@ -83,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_499b70967645",
-        "trigger_id": "trg_bd2e4b6a0ae7",
-        "detected_at": "2026-10-23T17:38:41+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_7d82ad00b80d",
+        "detected_at": "2026-10-23T18:17:13+05:30"
       }
     ],
     "throttled": [
@@ -93,31 +93,17 @@
         "symbol": "SAGILITY.NS",
         "trigger": "GAP_MOVE",
         "reason": "cooldown"
-      }
-    ],
-    "escalations": [
+      },
       {
         "symbol": "NAVINFLUOR.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.5% vs previous close.",
-        "trigger_ids": [
-          "trg_bd2e4b6a0ae7"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_499b70967645",
-        "created_at": "2026-10-23T17:38:50+05:30",
-        "expires_at": "2026-10-23T17:38:50+05:30"
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       }
     ],
+    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-23T17:37:56+05:30"
+    "as_of": "2026-10-23T18:15:45+05:30"
   }
 }
