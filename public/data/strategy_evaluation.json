@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-22T21:13:28+05:30",
+  "as_of": "2026-10-23T16:05:38+05:30",
   "portfolio_max_drawdown_pct": -84.35,
   "total_signals": 2000,
   "total_paper_trades": 8,
   "strategies": {
     "trend_following": {
-      "signals_generated": 1951,
+      "signals_generated": 1952,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -13,13 +13,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1524,
-      "average_score_contribution": 20.7,
+      "avoided_bad_trade_count": 1549,
+      "average_score_contribution": 19.4,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "relative_strength": {
-      "signals_generated": 1951,
+      "signals_generated": 1952,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -27,13 +27,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1126,
-      "average_score_contribution": 39.1,
+      "avoided_bad_trade_count": 1150,
+      "average_score_contribution": 37.8,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "mean_reversion": {
-      "signals_generated": 1951,
+      "signals_generated": 1952,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -41,13 +41,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 1360,
-      "average_score_contribution": 44.5,
+      "avoided_bad_trade_count": 1395,
+      "average_score_contribution": 43.8,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "breakout": {
-      "signals_generated": 1951,
+      "signals_generated": 1952,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -61,7 +61,7 @@
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "volatility_risk": {
-      "signals_generated": 1951,
+      "signals_generated": 1952,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -69,8 +69,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 586,
-      "average_score_contribution": 48.6,
+      "avoided_bad_trade_count": 629,
+      "average_score_contribution": 47.6,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
@@ -83,13 +83,13 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 73,
+      "avoided_bad_trade_count": 74,
       "average_score_contribution": 77.6,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     },
     "news_event_risk": {
-      "signals_generated": 4,
+      "signals_generated": 8,
       "paper_trades_triggered": 0,
       "wins": 0,
       "losses": 0,
@@ -97,8 +97,8 @@
       "average_gain": 0.0,
       "average_loss": 0.0,
       "false_positive_count": 0,
-      "avoided_bad_trade_count": 0,
-      "average_score_contribution": 64.2,
+      "avoided_bad_trade_count": 1,
+      "average_score_contribution": 64.1,
       "confidence_accuracy": null,
       "notes": "No paper trades yet attributed; acting mainly as a filter."
     }

@@ -1,5 +1,23 @@
 [
   {
+    "symbol": "COLPAL.NS",
+    "severity": "HIGH",
+    "action_type": "TRIM_REVIEW",
+    "reason": "Held position at -14.0% breaches strong-loss -10%.",
+    "trigger_ids": [
+      "trg_8995a53b8186"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "TRIM_REVIEW — manual only (v1 never auto-sells).",
+    "escalation_id": "esc_ef2b86492313",
+    "created_at": "2026-10-13T18:33:40+05:30",
+    "expires_at": "2026-10-13T18:33:40+05:30"
+  },
+  {
     "symbol": "MOTILALOFS.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -1886,20 +1904,37 @@
     "expires_at": "2026-10-22T21:14:18+05:30"
   },
   {
-    "symbol": "CYIENT.NS",
+    "symbol": "SAILIFE.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +8.1% since last observation.",
+    "reason": "Moved -16.7% since last observation.",
     "trigger_ids": [
-      "trg_320b4881a047",
-      "trg_78510713f3f8"
+      "trg_6e8ec8d8ac90"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_adb1cf714fa1",
+    "created_at": "2026-10-23T16:06:33+05:30",
+    "expires_at": "2026-10-23T16:06:33+05:30"
+  },
+  {
+    "symbol": "ANANDRATHI.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.1% since last observation.",
+    "trigger_ids": [
+      "trg_a74b48a2d53c"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": true,
     "focused_analysis_result": {
-      "symbol": "CYIENT.NS",
-      "score": 51.5,
-      "label": "NO_ACTION",
+      "symbol": "ANANDRATHI.NS",
+      "score": 68.6,
+      "label": "WATCH",
       "previous_label": "WATCH",
       "valid_opportunity": false,
       "action_allowed": false,
@@ -1908,81 +1943,24 @@
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
       "market_regime": "NEUTRAL",
-      "reason": "Final 51.5/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=91, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": false
+      "reason": "Final 68.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.",
+      "strengthened": true
     },
     "manual_review_required": false,
     "email_sent": false,
-    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-    "escalation_id": "esc_fb60c8226cbf",
-    "created_at": "2026-10-23T15:19:31+05:30",
-    "expires_at": "2026-10-23T15:19:31+05:30"
-  },
-  {
-    "symbol": "SHYAMMETL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.7% since last observation.",
-    "trigger_ids": [
-      "trg_803de8b89878",
-      "trg_eb10bfd48dc8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_25135a41ea0e",
-    "created_at": "2026-10-23T15:19:31+05:30",
-    "expires_at": "2026-10-23T15:19:31+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.0% since last observation.",
-    "trigger_ids": [
-      "trg_a5255732bcf8",
-      "trg_9f1c1babeb26"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_4e8ef15ee82d",
-    "created_at": "2026-10-23T15:19:31+05:30",
-    "expires_at": "2026-10-23T15:19:31+05:30"
-  },
-  {
-    "symbol": "PTCIL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.1% since last observation.",
-    "trigger_ids": [
-      "trg_fe21f89aa2d1",
-      "trg_7ee3248e3617"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_27fb6209e1c3",
-    "created_at": "2026-10-23T15:19:31+05:30",
-    "expires_at": "2026-10-23T15:19:31+05:30"
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_d35037de0fb1",
+    "created_at": "2026-10-23T16:06:33+05:30",
+    "expires_at": "2026-10-23T16:06:33+05:30"
   },
   {
     "symbol": "NAVINFLUOR.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.3% since last observation.",
+    "reason": "Moved -3.5% since last observation.",
     "trigger_ids": [
-      "trg_d92600d350d6",
-      "trg_5d398bf85115"
+      "trg_77bbcc36d819",
+      "trg_304787c26d62"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -1990,8 +1968,26 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ce7f7d99a3a0",
-    "created_at": "2026-10-23T15:19:31+05:30",
-    "expires_at": "2026-10-23T15:19:31+05:30"
+    "escalation_id": "esc_0e891ab2ef22",
+    "created_at": "2026-10-23T16:06:33+05:30",
+    "expires_at": "2026-10-23T16:06:33+05:30"
+  },
+  {
+    "symbol": "SAGILITY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_42dbf8305e1e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c83afca76596",
+    "created_at": "2026-10-23T16:06:33+05:30",
+    "expires_at": "2026-10-23T16:06:33+05:30"
   }
 ]
