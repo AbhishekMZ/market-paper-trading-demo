@@ -10721,5 +10721,26 @@
     ],
     "checkpoint": "close",
     "decision_at": "2026-10-23T17:37:53+05:30"
+  },
+  {
+    "symbol": "ATGL.NS",
+    "title": "Adani Total Gas Ltd , a city gas distributor supplying CNG and piped natural gas across cities in states , has raised Compressed Natural Gas ( CNG ) prices by ₹4 . 45 per kg",
+    "source": "thehindubusinessline.com",
+    "provider": "gdelt",
+    "url": "https://www.thehindubusinessline.com/markets/commodities/adani-total-gas-cites-higher-lng-cost-domestic-supply-cut-for-445-per-kg-cng-prices-hike/article71615330.ece",
+    "summary": "",
+    "published_at": "2026-10-23T12:00:00+00:00",
+    "fetched_at": "2026-10-23T14:23:05.988866+00:00",
+    "age_hours": 2.38,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-23T20:59:55+05:30"
   }
 ]

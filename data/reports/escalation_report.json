@@ -1,7 +1,44 @@
 {
-  "as_of": "2026-10-23T18:17:55+05:30",
+  "as_of": "2026-10-23T21:01:02+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "SAGILITY.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.7% vs previous close.",
+      "trigger_ids": [
+        "trg_756e02505aa9"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a8b8909245bc",
+      "created_at": "2026-10-23T21:01:02+05:30",
+      "expires_at": "2026-10-23T21:01:02+05:30"
+    },
+    {
+      "symbol": "NAVINFLUOR.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -3.5% vs previous close.",
+      "trigger_ids": [
+        "trg_72a6ca94658a"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_54158354e397",
+      "created_at": "2026-10-23T21:01:02+05:30",
+      "expires_at": "2026-10-23T21:01:02+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }

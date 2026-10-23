@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "ATGL.NS",
+    "title": "Adani Total Gas Ltd , a city gas distributor supplying CNG and piped natural gas across cities in states , has raised Compressed Natural Gas ( CNG ) prices by ₹4 . 45 per kg",
+    "source": "thehindubusinessline.com",
+    "provider": "gdelt",
+    "url": "https://www.thehindubusinessline.com/markets/commodities/adani-total-gas-cites-higher-lng-cost-domestic-supply-cut-for-445-per-kg-cng-prices-hike/article71615330.ece",
+    "summary": "",
+    "published_at": "2026-10-23T12:00:00+00:00",
+    "fetched_at": "2026-10-23T14:23:05.988866+00:00",
+    "age_hours": 2.38,
+    "is_fresh": true,
+    "sentiment": "NEUTRAL",
+    "sentiment_score": 0.0,
+    "sentiment_confidence": 0.0,
+    "relevance": 1.0,
+    "event_types": [],
+    "risk_level": "NONE",
+    "matched_keywords": [],
+    "checkpoint": "close",
+    "decision_at": "2026-10-23T20:59:55+05:30"
+  },
+  {
     "symbol": "CENTRALBK.NS",
     "title": "Govt eyes stake cuts in 4 PSU banks , including Central Bank , UCO Bank ; 2 more in privatisation plan",
     "source": "moneycontrol.com",
@@ -4035,24 +4056,5 @@
     "matched_keywords": [
       "record"
     ]
-  },
-  {
-    "symbol": "NLCINDIA.NS",
-    "title": "India to sell up to 3% stake in NLC India",
-    "source": "Reuters",
-    "provider": "yfinance",
-    "url": "https://sg.finance.yahoo.com/news/india-sell-3-stake-nlc-152802657.html",
-    "summary": "",
-    "published_at": "2026-06-08T15:28:02+00:00",
-    "fetched_at": "2026-10-01T17:28:54.582401+00:00",
-    "age_hours": 2762.01,
-    "is_fresh": false,
-    "sentiment": "NEUTRAL",
-    "sentiment_score": 0.0,
-    "sentiment_confidence": 0.0,
-    "relevance": 1.0,
-    "event_types": [],
-    "risk_level": "NONE",
-    "matched_keywords": []
   }
 ]

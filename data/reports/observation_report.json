@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-23T18:17:55+05:30",
+  "as_of": "2026-10-23T21:01:02+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 2,
-  "escalations": 0,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 289,
-    "triggers_detected": 1327,
-    "escalations_created": 828,
+    "observation_runs": 290,
+    "triggers_detected": 1329,
+    "escalations_created": 830,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-23T18:17:55+05:30",
+    "last_run": "2026-10-23T21:01:02+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ae088c30f1d6",
-        "detected_at": "2026-10-23T18:16:56+05:30"
+        "created_escalation_id": "esc_a8b8909245bc",
+        "trigger_id": "trg_756e02505aa9",
+        "detected_at": "2026-10-23T21:00:49+05:30"
       },
       {
         "symbol": "NAVINFLUOR.NS",
@@ -83,27 +83,53 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_7d82ad00b80d",
-        "detected_at": "2026-10-23T18:17:13+05:30"
+        "created_escalation_id": "esc_54158354e397",
+        "trigger_id": "trg_72a6ca94658a",
+        "detected_at": "2026-10-23T21:00:50+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "SAGILITY.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -2.7% vs previous close.",
+        "trigger_ids": [
+          "trg_756e02505aa9"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_a8b8909245bc",
+        "created_at": "2026-10-23T21:01:02+05:30",
+        "expires_at": "2026-10-23T21:01:02+05:30"
       },
       {
         "symbol": "NAVINFLUOR.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -3.5% vs previous close.",
+        "trigger_ids": [
+          "trg_72a6ca94658a"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_54158354e397",
+        "created_at": "2026-10-23T21:01:02+05:30",
+        "expires_at": "2026-10-23T21:01:02+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-23T18:15:45+05:30"
+    "as_of": "2026-10-23T20:59:58+05:30"
   }
 }

@@ -5,6 +5,42 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap -3.5% vs previous close.",
     "trigger_ids": [
+      "trg_72a6ca94658a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_54158354e397",
+    "created_at": "2026-10-23T21:01:02+05:30",
+    "expires_at": "2026-10-23T21:01:02+05:30"
+  },
+  {
+    "symbol": "SAGILITY.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_756e02505aa9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a8b8909245bc",
+    "created_at": "2026-10-23T21:01:02+05:30",
+    "expires_at": "2026-10-23T21:01:02+05:30"
+  },
+  {
+    "symbol": "NAVINFLUOR.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.5% vs previous close.",
+    "trigger_ids": [
       "trg_bd2e4b6a0ae7"
     ],
     "action_status": "OPEN",
@@ -1923,71 +1959,5 @@
     "escalation_id": "esc_ca4148286c01",
     "created_at": "2026-10-13T20:10:32+05:30",
     "expires_at": "2026-10-13T20:10:32+05:30"
-  },
-  {
-    "symbol": "CPPLUS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.9% since last observation.",
-    "trigger_ids": [
-      "trg_0ac7de51a9d1",
-      "trg_565e2b30f492"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CPPLUS.NS",
-      "score": 69.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 69.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_c142bb4775f0",
-    "created_at": "2026-10-13T18:33:40+05:30",
-    "expires_at": "2026-10-13T18:33:40+05:30"
-  },
-  {
-    "symbol": "MOTILALOFS.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +7.2% since last observation.",
-    "trigger_ids": [
-      "trg_e2913567c5b9",
-      "trg_f085fbbb841d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "MOTILALOFS.NS",
-      "score": 71.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 71.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_daa6e98e4ed0",
-    "created_at": "2026-10-13T18:33:40+05:30",
-    "expires_at": "2026-10-13T18:33:40+05:30"
   }
 ]
