@@ -5,7 +5,7 @@
       "change_pct": 1.0081,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:48:52+05:30"
+      "updated_at": "2026-10-26T18:51:29+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -68,7 +68,7 @@
       "change_pct": 0.1976,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:43+05:30"
+      "updated_at": "2026-10-26T18:52:23+05:30"
     },
     "SUNPHARMA.NS": {
       "last_price": 2045.5,
@@ -145,7 +145,7 @@
       "change_pct": -0.3656,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:42+05:30"
+      "updated_at": "2026-10-26T18:52:22+05:30"
     },
     "JSWCEMENT.NS": {
       "last_price": 139.4499969482422,
@@ -166,7 +166,7 @@
       "change_pct": 3.5835,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:34+05:30"
+      "updated_at": "2026-10-26T18:52:14+05:30"
     },
     "SONACOMS.NS": {
       "last_price": 823.5,
@@ -418,7 +418,7 @@
       "change_pct": 0.6448,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:17+05:30"
+      "updated_at": "2026-10-26T18:51:54+05:30"
     },
     "DALBHARAT.NS": {
       "last_price": 1856.199951171875,
@@ -439,7 +439,7 @@
       "change_pct": 4.5127,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:17+05:30"
+      "updated_at": "2026-10-26T18:51:54+05:30"
     },
     "LENSKART.NS": {
       "last_price": 684.8499755859375,
@@ -684,14 +684,14 @@
       "change_pct": 2.1388,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:52+05:30"
+      "updated_at": "2026-10-26T18:52:34+05:30"
     },
     "HEXT.NS": {
       "last_price": 592.6500244140625,
       "change_pct": 0.3131,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:00+05:30"
+      "updated_at": "2026-10-26T18:51:37+05:30"
     },
     "EICHERMOT.NS": {
       "last_price": 8010.5,
@@ -901,7 +901,7 @@
       "change_pct": -0.2237,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:25+05:30"
+      "updated_at": "2026-10-26T18:52:03+05:30"
     },
     "ASHOKLEY.NS": {
       "last_price": 175.63999938964844,
@@ -999,7 +999,7 @@
       "change_pct": -1.9831,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:51+05:30"
+      "updated_at": "2026-10-26T18:52:33+05:30"
     },
     "TATACAP.NS": {
       "last_price": 375.04998779296875,
@@ -1342,7 +1342,7 @@
       "change_pct": 1.9036,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:42+05:30"
+      "updated_at": "2026-10-26T18:52:23+05:30"
     },
     "POLICYBZR.NS": {
       "last_price": 1870.0,
@@ -1433,7 +1433,7 @@
       "change_pct": 2.1303,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:51+05:30"
+      "updated_at": "2026-10-26T18:52:33+05:30"
     },
     "SAPPHIRE.NS": {
       "last_price": 242.33999633789062,
@@ -1979,7 +1979,7 @@
       "change_pct": -2.031,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:50:00+05:30"
+      "updated_at": "2026-10-26T18:52:42+05:30"
     },
     "INOXWIND.NS": {
       "last_price": 77.9000015258789,
@@ -2196,7 +2196,7 @@
       "change_pct": 0.6371,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:09+05:30"
+      "updated_at": "2026-10-26T18:51:46+05:30"
     },
     "BHEL.NS": {
       "last_price": 434.04998779296875,
@@ -2217,9 +2217,9 @@
       "change_pct": 3.0455,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-26T16:49:34+05:30"
+      "updated_at": "2026-10-26T18:52:13+05:30"
     }
   },
-  "last_observation_at": "2026-10-26T16:50:00+05:30",
+  "last_observation_at": "2026-10-26T18:52:42+05:30",
   "last_regime": "NEUTRAL"
 }

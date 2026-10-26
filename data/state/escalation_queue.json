@@ -1,75 +1,5 @@
 [
   {
-    "symbol": "WELCORP.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.5% since last observation.",
-    "trigger_ids": [
-      "trg_bf3cfd966f88",
-      "trg_cea543f4b9b4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_29d8b0741968",
-    "created_at": "2026-10-14T16:17:23+05:30",
-    "expires_at": "2026-10-14T16:17:23+05:30"
-  },
-  {
-    "symbol": "ACE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.5% since last observation.",
-    "trigger_ids": [
-      "trg_5082187bccf8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f90505020b92",
-    "created_at": "2026-10-14T16:17:23+05:30",
-    "expires_at": "2026-10-14T16:17:23+05:30"
-  },
-  {
-    "symbol": "ABDL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.5% since last observation.",
-    "trigger_ids": [
-      "trg_5f601f823727",
-      "trg_827ac92a55ca"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ABDL.NS",
-      "score": 67.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=85, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_8867dfb0c7c7",
-    "created_at": "2026-10-14T17:49:17+05:30",
-    "expires_at": "2026-10-14T17:49:17+05:30"
-  },
-  {
     "symbol": "CUB.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2017,5 +1947,59 @@
     "escalation_id": "esc_bf6c26bcf6b0",
     "created_at": "2026-10-26T16:50:00+05:30",
     "expires_at": "2026-10-26T16:50:00+05:30"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.5% vs previous close.",
+    "trigger_ids": [
+      "trg_38a341628162"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_fcc7e7ee2ac6",
+    "created_at": "2026-10-26T18:52:42+05:30",
+    "expires_at": "2026-10-26T18:52:42+05:30"
+  },
+  {
+    "symbol": "COHANCE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_3877cc81cbef"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b7f1601e31ad",
+    "created_at": "2026-10-26T18:52:42+05:30",
+    "expires_at": "2026-10-26T18:52:42+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.6% vs previous close.",
+    "trigger_ids": [
+      "trg_8ac4071db7d1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d8722cffeb21",
+    "created_at": "2026-10-26T18:52:42+05:30",
+    "expires_at": "2026-10-26T18:52:42+05:30"
   }
 ]
