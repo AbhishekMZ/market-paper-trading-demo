@@ -1,5 +1,25 @@
 [
   {
+    "ts": "2026-10-23T21:01:02+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 2,
+    "escalations": 2,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-23T20:59:58+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-23T20:59:55+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "SWIGGY.NS",
@@ -15408,64 +15428,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 34.78,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-23T20:59:55+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "HEXT.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 72.7,
-    "strategy_contributions": {
-      "trend_following": 83.8,
-      "relative_strength": 86.8,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 75.0,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 72.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=87, trend_following=84, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 33.3,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-23T20:59:55+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "GESHIP.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 72.7,
-    "strategy_contributions": {
-      "trend_following": 69.5,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 73.9,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 72.7/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=74.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 31.63,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],

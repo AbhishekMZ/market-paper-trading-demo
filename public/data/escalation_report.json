@@ -1,42 +1,105 @@
 {
-  "as_of": "2026-10-23T21:01:02+05:30",
+  "as_of": "2026-10-26T16:21:34+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "SAGILITY.NS",
-      "severity": "LOW",
+      "symbol": "COFORGE.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
+      "reason": "Moved +4.9% since last observation.",
       "trigger_ids": [
-        "trg_756e02505aa9"
+        "trg_f70b9a42edaa",
+        "trg_3a1fbb2b7247"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "COFORGE.NS",
+        "score": 67.6,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=58.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a8b8909245bc",
-      "created_at": "2026-10-23T21:01:02+05:30",
-      "expires_at": "2026-10-23T21:01:02+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_51d38147dc9c",
+      "created_at": "2026-10-26T16:21:34+05:30",
+      "expires_at": "2026-10-26T16:21:34+05:30"
     },
     {
-      "symbol": "NAVINFLUOR.NS",
-      "severity": "LOW",
+      "symbol": "COHANCE.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.5% vs previous close.",
+      "reason": "Moved +3.0% since last observation.",
       "trigger_ids": [
-        "trg_72a6ca94658a"
+        "trg_008ad473c3cc",
+        "trg_106d689af7de"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "COHANCE.NS",
+        "score": 66.8,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 66.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=70.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_54158354e397",
-      "created_at": "2026-10-23T21:01:02+05:30",
-      "expires_at": "2026-10-23T21:01:02+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_b9dc3c8afdb5",
+      "created_at": "2026-10-26T16:21:34+05:30",
+      "expires_at": "2026-10-26T16:21:34+05:30"
+    },
+    {
+      "symbol": "SAILIFE.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.6% since last observation.",
+      "trigger_ids": [
+        "trg_2bd9de1cb732",
+        "trg_f5cbe807e777"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAILIFE.NS",
+        "score": 66.7,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 66.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=84, portfolio_fit=80. Disagreement: ['relative_strength', 'mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_fb2c9930b157",
+      "created_at": "2026-10-26T16:21:34+05:30",
+      "expires_at": "2026-10-26T16:21:34+05:30"
     }
   ],
   "actions_taken": [],
