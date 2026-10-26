@@ -1,33 +1,5 @@
 [
   {
-    "ts": "2026-07-08T12:06:40+05:30",
-    "symbol": "ITC.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
-  },
-  {
-    "ts": "2026-07-08T12:06:42+05:30",
-    "symbol": "BHARTIARTL.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
-  },
-  {
     "ts": "2026-07-08T12:06:44+05:30",
     "symbol": "AXISBANK.NS",
     "issue": "data_insufficient",
@@ -6119,6 +6091,29 @@
     "prev_price": 538.92,
     "rejected_price": 257.8999938964844,
     "jump_pct": 52.15,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-10-26T15:33:29+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-10-26T15:34:18+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 260.5,
+    "jump_pct": 51.66,
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   }
 ]

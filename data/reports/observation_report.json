@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-26T16:21:34+05:30",
+  "as_of": "2026-10-26T16:50:00+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 6,
-  "escalations": 3,
+  "triggers_this_run": 9,
+  "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
     "observation_runs": 291,
-    "triggers_detected": 1335,
-    "escalations_created": 833,
+    "triggers_detected": 1338,
+    "escalations_created": 835,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-26T16:21:34+05:30",
+    "last_run": "2026-10-26T16:50:00+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -26,66 +26,66 @@
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
+      "HEXT.NS",
+      "FSL.NS",
+      "LAURUSLABS.NS",
       "PVRINOX.NS",
-      "COFORGE.NS",
-      "ASAHIINDIA.NS",
-      "CASTROLIND.NS",
-      "ECLERX.NS",
-      "COHANCE.NS",
-      "SAGILITY.NS",
-      "PETRONET.NS",
-      "NAVINFLUOR.NS",
-      "WELSPUNLIV.NS",
-      "SAILIFE.NS",
       "ANANDRATHI.NS",
+      "COHANCE.NS",
+      "SAILIFE.NS",
+      "HCLTECH.NS",
+      "PETRONET.NS",
+      "TCS.NS",
+      "CASTROLIND.NS",
       "REDINGTON.NS",
-      "TBOTEK.NS"
+      "PERSISTENT.NS",
+      "CGCL.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
     ],
     "triggers": [
       {
-        "symbol": "COFORGE.NS",
+        "symbol": "HEXT.NS",
         "trigger_type": "LARGE_MOVE",
         "severity": "MEDIUM",
-        "reason": "Moved +4.9% since last observation.",
-        "company_name": "Coforge Ltd.",
+        "reason": "Moved +5.3% since last observation.",
+        "company_name": "Hexaware Technologies Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1993.0,
+        "price_at_detection": 592.6500244140625,
         "previous_price": null,
-        "change_pct": 4.87,
+        "change_pct": 5.28,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_51d38147dc9c",
-        "trigger_id": "trg_f70b9a42edaa",
-        "detected_at": "2026-10-26T16:19:50+05:30"
+        "created_escalation_id": "esc_5224e98f0b58",
+        "trigger_id": "trg_f7c934560f23",
+        "detected_at": "2026-10-26T16:49:00+05:30"
       },
       {
-        "symbol": "COFORGE.NS",
+        "symbol": "LAURUSLABS.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
-        "reason": "Gap +4.9% vs previous close.",
-        "company_name": "Coforge Ltd.",
+        "reason": "Gap +4.5% vs previous close.",
+        "company_name": "Laurus Labs Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1993.0,
+        "price_at_detection": 2058.89990234375,
         "previous_price": null,
-        "change_pct": 4.8671,
+        "change_pct": 4.5127,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_51d38147dc9c",
-        "trigger_id": "trg_3a1fbb2b7247",
-        "detected_at": "2026-10-26T16:19:50+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_61c26571309e",
+        "detected_at": "2026-10-26T16:49:17+05:30"
       },
       {
         "symbol": "COHANCE.NS",
@@ -104,9 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_b9dc3c8afdb5",
-        "trigger_id": "trg_008ad473c3cc",
-        "detected_at": "2026-10-26T16:20:26+05:30"
+        "created_escalation_id": "esc_43ca733bfe1a",
+        "trigger_id": "trg_71ee54f3cfb1",
+        "detected_at": "2026-10-26T16:49:34+05:30"
       },
       {
         "symbol": "COHANCE.NS",
@@ -125,9 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_b9dc3c8afdb5",
-        "trigger_id": "trg_106d689af7de",
-        "detected_at": "2026-10-26T16:20:26+05:30"
+        "created_escalation_id": "esc_43ca733bfe1a",
+        "trigger_id": "trg_baf1d615af1f",
+        "detected_at": "2026-10-26T16:49:34+05:30"
       },
       {
         "symbol": "SAILIFE.NS",
@@ -146,9 +146,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_fb2c9930b157",
-        "trigger_id": "trg_2bd9de1cb732",
-        "detected_at": "2026-10-26T16:21:08+05:30"
+        "created_escalation_id": "esc_bf6c26bcf6b0",
+        "trigger_id": "trg_f3cfe01c960b",
+        "detected_at": "2026-10-26T16:49:34+05:30"
       },
       {
         "symbol": "SAILIFE.NS",
@@ -167,26 +167,99 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_fb2c9930b157",
-        "trigger_id": "trg_f5cbe807e777",
-        "detected_at": "2026-10-26T16:21:08+05:30"
+        "created_escalation_id": "esc_bf6c26bcf6b0",
+        "trigger_id": "trg_7d96e97b776b",
+        "detected_at": "2026-10-26T16:49:34+05:30"
+      },
+      {
+        "symbol": "HCLTECH.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved +7.2% since last observation.",
+        "company_name": "HCL Technologies Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 1417.0,
+        "previous_price": null,
+        "change_pct": 7.19,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_6e168132107a",
+        "trigger_id": "trg_b4ed5cd92a07",
+        "detected_at": "2026-10-26T16:49:42+05:30"
+      },
+      {
+        "symbol": "TCS.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +3.3% since last observation.",
+        "company_name": "Tata Consultancy Services Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 2535.0,
+        "previous_price": null,
+        "change_pct": 3.28,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": null,
+        "trigger_id": "trg_fca2b02c0310",
+        "detected_at": "2026-10-26T16:49:43+05:30"
+      },
+      {
+        "symbol": "CGCL.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "HIGH",
+        "reason": "Moved -11.9% since last observation.",
+        "company_name": "Capri Global Capital Ltd.",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 231.0500030517578,
+        "previous_price": null,
+        "change_pct": -11.93,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": false,
+        "blocks_action": false,
+        "created_escalation_id": "esc_a9512c996908",
+        "trigger_id": "trg_bca6f980593e",
+        "detected_at": "2026-10-26T16:50:00+05:30"
       }
     ],
-    "throttled": [],
+    "throttled": [
+      {
+        "symbol": "TCS.NS",
+        "trigger": "LARGE_MOVE",
+        "reason": "max_escalations_per_run"
+      },
+      {
+        "symbol": "LAURUSLABS.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "max_escalations_per_run"
+      }
+    ],
     "escalations": [
       {
-        "symbol": "COFORGE.NS",
-        "severity": "MEDIUM",
+        "symbol": "HCLTECH.NS",
+        "severity": "HIGH",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.9% since last observation.",
+        "reason": "Moved +7.2% since last observation.",
         "trigger_ids": [
-          "trg_f70b9a42edaa",
-          "trg_3a1fbb2b7247"
+          "trg_b4ed5cd92a07"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "COFORGE.NS",
+          "symbol": "HCLTECH.NS",
           "score": 67.6,
           "label": "WATCH",
           "previous_label": "WATCH",
@@ -197,24 +270,23 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 67.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=58.",
-          "strengthened": false
+          "reason": "Final 67.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_51d38147dc9c",
-        "created_at": "2026-10-26T16:21:34+05:30",
-        "expires_at": "2026-10-26T16:21:34+05:30"
+        "escalation_id": "esc_6e168132107a",
+        "created_at": "2026-10-26T16:50:00+05:30",
+        "expires_at": "2026-10-26T16:50:00+05:30"
       },
       {
-        "symbol": "COHANCE.NS",
-        "severity": "MEDIUM",
+        "symbol": "CGCL.NS",
+        "severity": "HIGH",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.0% since last observation.",
+        "reason": "Moved -11.9% since last observation.",
         "trigger_ids": [
-          "trg_008ad473c3cc",
-          "trg_106d689af7de"
+          "trg_bca6f980593e"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -235,25 +307,24 @@
         },
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_b9dc3c8afdb5",
-        "created_at": "2026-10-26T16:21:34+05:30",
-        "expires_at": "2026-10-26T16:21:34+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_a9512c996908",
+        "created_at": "2026-10-26T16:50:00+05:30",
+        "expires_at": "2026-10-26T16:50:00+05:30"
       },
       {
-        "symbol": "SAILIFE.NS",
+        "symbol": "HEXT.NS",
         "severity": "MEDIUM",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.6% since last observation.",
+        "reason": "Moved +5.3% since last observation.",
         "trigger_ids": [
-          "trg_2bd9de1cb732",
-          "trg_f5cbe807e777"
+          "trg_f7c934560f23"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "SAILIFE.NS",
-          "score": 66.7,
+          "symbol": "HEXT.NS",
+          "score": 67.2,
           "label": "WATCH",
           "previous_label": "WATCH",
           "valid_opportunity": false,
@@ -263,20 +334,86 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 66.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=84, portfolio_fit=80. Disagreement: ['relative_strength', 'mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.",
-          "strengthened": false
+          "reason": "Final 67.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, volatility_risk=75.",
+          "strengthened": true
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_fb2c9930b157",
-        "created_at": "2026-10-26T16:21:34+05:30",
-        "expires_at": "2026-10-26T16:21:34+05:30"
+        "escalation_id": "esc_5224e98f0b58",
+        "created_at": "2026-10-26T16:50:00+05:30",
+        "expires_at": "2026-10-26T16:50:00+05:30"
+      },
+      {
+        "symbol": "COHANCE.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +3.0% since last observation.",
+        "trigger_ids": [
+          "trg_71ee54f3cfb1",
+          "trg_baf1d615af1f"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "COHANCE.NS",
+          "score": 68.9,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=63.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_43ca733bfe1a",
+        "created_at": "2026-10-26T16:50:00+05:30",
+        "expires_at": "2026-10-26T16:50:00+05:30"
+      },
+      {
+        "symbol": "SAILIFE.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +3.6% since last observation.",
+        "trigger_ids": [
+          "trg_f3cfe01c960b",
+          "trg_7d96e97b776b"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "SAILIFE.NS",
+          "score": 66.4,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 66.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=70.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_bf6c26bcf6b0",
+        "created_at": "2026-10-26T16:50:00+05:30",
+        "expires_at": "2026-10-26T16:50:00+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-26T16:19:21+05:30"
+    "as_of": "2026-10-26T16:48:44+05:30"
   }
 }
