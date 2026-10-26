@@ -1,7 +1,62 @@
 {
-  "as_of": "2026-10-26T20:01:32+05:30",
+  "as_of": "2026-10-26T22:53:23+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "LAURUSLABS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +4.5% vs previous close.",
+      "trigger_ids": [
+        "trg_c78564447edb"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_dc32b4a0695d",
+      "created_at": "2026-10-26T22:53:23+05:30",
+      "expires_at": "2026-10-26T22:53:23+05:30"
+    },
+    {
+      "symbol": "COHANCE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.0% vs previous close.",
+      "trigger_ids": [
+        "trg_28b874939a3a"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_21fe879e92f3",
+      "created_at": "2026-10-26T22:53:23+05:30",
+      "expires_at": "2026-10-26T22:53:23+05:30"
+    },
+    {
+      "symbol": "SAILIFE.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.6% vs previous close.",
+      "trigger_ids": [
+        "trg_79afc9391af8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a5121d5b9524",
+      "created_at": "2026-10-26T22:53:23+05:30",
+      "expires_at": "2026-10-26T22:53:23+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }

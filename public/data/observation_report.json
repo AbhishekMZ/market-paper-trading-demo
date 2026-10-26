@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-26T20:01:32+05:30",
+  "as_of": "2026-10-26T22:53:23+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 3,
-  "escalations": 0,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 3,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 293,
-    "triggers_detected": 1344,
-    "escalations_created": 838,
+    "observation_runs": 294,
+    "triggers_detected": 1347,
+    "escalations_created": 841,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-26T20:01:32+05:30",
+    "last_run": "2026-10-26T22:53:23+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_e2d5e170c416",
-        "detected_at": "2026-10-26T19:59:32+05:30"
+        "created_escalation_id": "esc_dc32b4a0695d",
+        "trigger_id": "trg_c78564447edb",
+        "detected_at": "2026-10-26T22:52:35+05:30"
       },
       {
         "symbol": "COHANCE.NS",
@@ -83,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_8e4453f79232",
-        "detected_at": "2026-10-26T20:00:02+05:30"
+        "created_escalation_id": "esc_21fe879e92f3",
+        "trigger_id": "trg_28b874939a3a",
+        "detected_at": "2026-10-26T22:52:52+05:30"
       },
       {
         "symbol": "SAILIFE.NS",
@@ -104,32 +104,71 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_5b59cbecd482",
-        "detected_at": "2026-10-26T20:00:18+05:30"
+        "created_escalation_id": "esc_a5121d5b9524",
+        "trigger_id": "trg_79afc9391af8",
+        "detected_at": "2026-10-26T22:52:53+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "LAURUSLABS.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +4.5% vs previous close.",
+        "trigger_ids": [
+          "trg_c78564447edb"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_dc32b4a0695d",
+        "created_at": "2026-10-26T22:53:23+05:30",
+        "expires_at": "2026-10-26T22:53:23+05:30"
       },
       {
         "symbol": "COHANCE.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.0% vs previous close.",
+        "trigger_ids": [
+          "trg_28b874939a3a"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_21fe879e92f3",
+        "created_at": "2026-10-26T22:53:23+05:30",
+        "expires_at": "2026-10-26T22:53:23+05:30"
       },
       {
         "symbol": "SAILIFE.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.6% vs previous close.",
+        "trigger_ids": [
+          "trg_79afc9391af8"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_a5121d5b9524",
+        "created_at": "2026-10-26T22:53:23+05:30",
+        "expires_at": "2026-10-26T22:53:23+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-26T19:58:55+05:30"
+    "as_of": "2026-10-26T22:52:01+05:30"
   }
 }

@@ -1,37 +1,5 @@
 [
   {
-    "ts": "2026-07-08T13:47:13+05:30",
-    "symbol": "TCS.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 2077.199951171875,
-    "mtm_price": 2077.199951171875,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: fallback -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
-    "ts": "2026-07-08T13:47:14+05:30",
-    "symbol": "HDFCBANK.NS",
-    "issue": "data_anomaly",
-    "price_source": "history.close",
-    "entry_price": 824.3499755859375,
-    "mtm_price": 824.3499755859375,
-    "price_consistency_check": "PASSED",
-    "anomaly_flags": [
-      "quote_source_changed"
-    ],
-    "reasons": [
-      "price source changed today: fallback -> history.close."
-    ],
-    "action": "blocked_buy_and_excluded_from_marking"
-  },
-  {
     "ts": "2026-07-08T13:47:14+05:30",
     "symbol": "INFY.NS",
     "issue": "data_anomaly",
@@ -6102,6 +6070,29 @@
   },
   {
     "ts": "2026-10-26T17:41:06+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 260.5,
+    "jump_pct": 51.66,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-10-26T21:38:18+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-10-26T21:39:54+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
     "prev_price": 538.92,

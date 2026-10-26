@@ -482,7 +482,7 @@ SBIN.NS(49.8), ICICIGI.NS(49.6), CIPLA.NS(49.1), CLEAN.NS(49.1), BRIGADE.NS(48.6
 - PERSISTENT.NS (WATCH, 67.9): Final 67.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=69.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 31647 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 32151 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
