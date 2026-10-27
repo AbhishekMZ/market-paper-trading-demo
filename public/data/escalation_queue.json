@@ -1,5 +1,128 @@
 [
   {
+    "symbol": "HEXT.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.9% since last observation.",
+    "trigger_ids": [
+      "trg_4a2831b8efea",
+      "trg_d3dc7ada2d81"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_cfa862d62a16",
+    "created_at": "2026-10-27T16:37:09+05:30",
+    "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
+    "symbol": "CYIENT.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.4% since last observation.",
+    "trigger_ids": [
+      "trg_1ed7e8522c54",
+      "trg_9848024c0f54"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c4032bb5f3b0",
+    "created_at": "2026-10-27T16:37:09+05:30",
+    "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.2% since last observation.",
+    "trigger_ids": [
+      "trg_52c7ad7918da",
+      "trg_1fd9ff55bf75"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 69.0,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_647c8ce11200",
+    "created_at": "2026-10-27T16:37:09+05:30",
+    "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_892f175056ae",
+      "trg_7ec28dc381e7"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LAURUSLABS.NS",
+      "score": 73.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 73.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=97, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_6be6462ad1ea",
+    "created_at": "2026-10-27T16:37:09+05:30",
+    "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
+    "symbol": "PAYTM.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -11.4% since last observation.",
+    "trigger_ids": [
+      "trg_f24501221a8c",
+      "trg_583b5795dd21"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_50136705d6fa",
+    "created_at": "2026-10-27T16:37:09+05:30",
+    "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
     "symbol": "SAILIFE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
