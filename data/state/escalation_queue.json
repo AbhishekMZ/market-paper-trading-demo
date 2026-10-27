@@ -1,100 +1,5 @@
 [
   {
-    "symbol": "CARTRADE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -7.1% since last observation.",
-    "trigger_ids": [
-      "trg_46becb31616f",
-      "trg_0a63255a2b03"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fa4aa775ac0b",
-    "created_at": "2026-10-15T15:54:56+05:30",
-    "expires_at": "2026-10-15T15:54:56+05:30"
-  },
-  {
-    "symbol": "GESHIP.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.8% since last observation.",
-    "trigger_ids": [
-      "trg_c78aba832a5c",
-      "trg_58e55e74f983"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_705005f3550f",
-    "created_at": "2026-10-15T15:54:56+05:30",
-    "expires_at": "2026-10-15T15:54:56+05:30"
-  },
-  {
-    "symbol": "GRAPHITE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.8% since last observation.",
-    "trigger_ids": [
-      "trg_9499222166af",
-      "trg_744b92edfb98"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_3167cf6dd0a9",
-    "created_at": "2026-10-15T15:54:56+05:30",
-    "expires_at": "2026-10-15T15:54:56+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.0% since last observation.",
-    "trigger_ids": [
-      "trg_29e1877be50f",
-      "trg_84bd0b289da3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_afcd24762c19",
-    "created_at": "2026-10-15T15:54:56+05:30",
-    "expires_at": "2026-10-15T15:54:56+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.6% since last observation.",
-    "trigger_ids": [
-      "trg_06c6dae8fe17",
-      "trg_24b801c036db"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9a1d18626cfb",
-    "created_at": "2026-10-15T15:54:56+05:30",
-    "expires_at": "2026-10-15T15:54:56+05:30"
-  },
-  {
     "symbol": "FINCABLES.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2033,5 +1938,95 @@
     "escalation_id": "esc_cfa862d62a16",
     "created_at": "2026-10-27T16:37:09+05:30",
     "expires_at": "2026-10-27T16:37:09+05:30"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.0% vs previous close.",
+    "trigger_ids": [
+      "trg_4d1e62b604b3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_463d48b472ab",
+    "created_at": "2026-10-27T18:13:11+05:30",
+    "expires_at": "2026-10-27T18:13:11+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.2% vs previous close.",
+    "trigger_ids": [
+      "trg_eedc60aa2644"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ad318a153612",
+    "created_at": "2026-10-27T18:13:11+05:30",
+    "expires_at": "2026-10-27T18:13:11+05:30"
+  },
+  {
+    "symbol": "CYIENT.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -4.9% vs previous close.",
+    "trigger_ids": [
+      "trg_ac2d559e1e08"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_ad08db608d95",
+    "created_at": "2026-10-27T18:13:11+05:30",
+    "expires_at": "2026-10-27T18:13:11+05:30"
+  },
+  {
+    "symbol": "HEXT.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.9% vs previous close.",
+    "trigger_ids": [
+      "trg_26ef919a7edf"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_391718212064",
+    "created_at": "2026-10-27T18:13:11+05:30",
+    "expires_at": "2026-10-27T18:13:11+05:30"
+  },
+  {
+    "symbol": "PAYTM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.2% vs previous close.",
+    "trigger_ids": [
+      "trg_075230a5e0b8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_07cd3e2f94a8",
+    "created_at": "2026-10-27T18:13:11+05:30",
+    "expires_at": "2026-10-27T18:13:11+05:30"
   }
 ]
