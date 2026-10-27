@@ -1,5 +1,25 @@
 [
   {
+    "ts": "2026-10-27T18:13:11+05:30",
+    "event": "OBSERVATION_RUN",
+    "checkpoint": "close",
+    "triggers": 5,
+    "escalations": 5,
+    "actions": 0,
+    "blocked": 0
+  },
+  {
+    "ts": "2026-10-27T18:11:38+05:30",
+    "event": "EMAIL",
+    "details": {
+      "daily": {
+        "sent": false,
+        "reason": "Email disabled or credentials/recipient missing.",
+        "recipient": "sahabhi115@gmail.com"
+      }
+    }
+  },
+  {
     "ts": "2026-10-27T18:11:34+05:30",
     "event": "SIGNAL_EVALUATED",
     "symbol": "DALBHARAT.NS",
@@ -15378,63 +15398,5 @@
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
-  },
-  {
-    "ts": "2026-10-27T18:11:34+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "COFORGE.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 73.5,
-    "strategy_contributions": {
-      "trend_following": 76.3,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 55.2,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 73.5/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=76.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 35.17,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-10-27T18:11:34+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "GESHIP.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 74.3,
-    "strategy_contributions": {
-      "trend_following": 84.2,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 63.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 74.3/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, trend_following=84, portfolio_fit=80.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 32.78,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
   }
 ]
