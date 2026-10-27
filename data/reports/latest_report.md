@@ -477,7 +477,7 @@ PARADEEP.NS(49.7), RHIM.NS(49.6), NUVAMA.NS(49.5), BALKRISIND.NS(49.3), ACUTAAS.
 - ASAHIINDIA.NS (WATCH, 67.7): Final 67.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=76.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1505 · total this month: 33656 (no API-key quota)
+- Provider: `yfinance` · calls today: 2009 · total this month: 34160 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.
