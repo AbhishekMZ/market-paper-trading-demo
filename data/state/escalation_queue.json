@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "DIVISLAB.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_3e4e56ece805"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_7ba4caf726fb",
-    "created_at": "2026-10-14T18:32:05+05:30",
-    "expires_at": "2026-10-14T18:32:05+05:30"
-  },
-  {
-    "symbol": "ABDL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_2774cfe5daaa"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_39818eea87d0",
-    "created_at": "2026-10-14T18:32:05+05:30",
-    "expires_at": "2026-10-14T18:32:05+05:30"
-  },
-  {
-    "symbol": "CUB.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_1c3387e2eb96"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a710dd6e982b",
-    "created_at": "2026-10-14T18:32:05+05:30",
-    "expires_at": "2026-10-14T18:32:05+05:30"
-  },
-  {
-    "symbol": "WELCORP.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_f40a474ad89d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_cae1fc3d1c24",
-    "created_at": "2026-10-14T21:15:47+05:30",
-    "expires_at": "2026-10-14T21:15:47+05:30"
-  },
-  {
-    "symbol": "BHEL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.9% vs previous close.",
-    "trigger_ids": [
-      "trg_bd4c463db006"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_318d326fdfde",
-    "created_at": "2026-10-14T21:15:47+05:30",
-    "expires_at": "2026-10-14T21:15:47+05:30"
-  },
-  {
     "symbol": "CARTRADE.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2000,5 +1910,141 @@
     "escalation_id": "esc_a5121d5b9524",
     "created_at": "2026-10-26T22:53:23+05:30",
     "expires_at": "2026-10-26T22:53:23+05:30"
+  },
+  {
+    "symbol": "HEXT.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.9% since last observation.",
+    "trigger_ids": [
+      "trg_1c618687aaa1",
+      "trg_f4b49e9b6857"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c25c04067589",
+    "created_at": "2026-10-27T15:47:37+05:30",
+    "expires_at": "2026-10-27T15:47:37+05:30"
+  },
+  {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_8cbf3df09728",
+      "trg_35debad2f11d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "LAURUSLABS.NS",
+      "score": 71.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 71.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=79. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_91498e03ecee",
+    "created_at": "2026-10-27T15:47:37+05:30",
+    "expires_at": "2026-10-27T15:47:37+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.2% since last observation.",
+    "trigger_ids": [
+      "trg_2c946c03a55c",
+      "trg_82bb23ddae16"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 69.0,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_88f98ce9254f",
+    "created_at": "2026-10-27T15:47:37+05:30",
+    "expires_at": "2026-10-27T15:47:37+05:30"
+  },
+  {
+    "symbol": "COHANCE.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.4% since last observation.",
+    "trigger_ids": [
+      "trg_93e843ced680",
+      "trg_a90155851e4e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "COHANCE.NS",
+      "score": 68.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=63.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_db79a8a0fa6d",
+    "created_at": "2026-10-27T15:47:37+05:30",
+    "expires_at": "2026-10-27T15:47:37+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_49c5bd6bc11a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_8083d95ae68a",
+    "created_at": "2026-10-27T15:47:37+05:30",
+    "expires_at": "2026-10-27T15:47:37+05:30"
   }
 ]
