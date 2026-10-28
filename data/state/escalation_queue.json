@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ACE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_47a72e309e71"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f81885bd64dd",
-    "created_at": "2026-10-15T20:56:05+05:30",
-    "expires_at": "2026-10-15T20:56:05+05:30"
-  },
-  {
     "symbol": "SHYAMMETL.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2070,5 +2052,23 @@
     "escalation_id": "esc_dc9e9f27a198",
     "created_at": "2026-10-28T18:44:27+05:30",
     "expires_at": "2026-10-28T18:44:27+05:30"
+  },
+  {
+    "symbol": "CHENNPETRO.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_8ff5bad1cb83"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_6c356299f905",
+    "created_at": "2026-10-28T22:45:23+05:30",
+    "expires_at": "2026-10-28T22:45:23+05:30"
   }
 ]

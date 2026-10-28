@@ -1,27 +1,6 @@
 [
   {
     "symbol": "HBLENGINE.NS",
-    "trigger_type": "LARGE_MOVE",
-    "severity": "MEDIUM",
-    "reason": "Moved +5.4% since last observation.",
-    "company_name": "HBL Engineering Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 806.0,
-    "previous_price": null,
-    "change_pct": 5.45,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": true,
-    "blocks_action": false,
-    "created_escalation_id": "esc_dfcb198c354c",
-    "trigger_id": "trg_94879f140509",
-    "detected_at": "2026-09-25T16:17:09+05:30"
-  },
-  {
-    "symbol": "HBLENGINE.NS",
     "trigger_type": "GAP_MOVE",
     "severity": "LOW",
     "reason": "Gap +4.0% vs previous close.",
@@ -10498,5 +10477,26 @@
     "created_escalation_id": null,
     "trigger_id": "trg_2e45d1b7c75f",
     "detected_at": "2026-10-28T19:48:20+05:30"
+  },
+  {
+    "symbol": "CHENNPETRO.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -3.3% vs previous close.",
+    "company_name": "Chennai Petroleum Corporation Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1521.4000244140625,
+    "previous_price": null,
+    "change_pct": -3.3295,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_6c356299f905",
+    "trigger_id": "trg_8ff5bad1cb83",
+    "detected_at": "2026-10-28T22:44:38+05:30"
   }
 ]
