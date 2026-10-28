@@ -1,26 +1,7 @@
 {
-  "as_of": "2026-10-28T18:44:27+05:30",
+  "as_of": "2026-10-28T19:50:04+05:30",
   "checkpoint": "close",
-  "open_escalations": [
-    {
-      "symbol": "CHENNPETRO.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.3% vs previous close.",
-      "trigger_ids": [
-        "trg_a4d78676e974"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_dc9e9f27a198",
-      "created_at": "2026-10-28T18:44:27+05:30",
-      "expires_at": "2026-10-28T18:44:27+05:30"
-    }
-  ],
+  "open_escalations": [],
   "actions_taken": [],
   "blocked_actions": []
 }
