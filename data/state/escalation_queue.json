@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "FINCABLES.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.6% vs previous close.",
-    "trigger_ids": [
-      "trg_38721c9e41fe"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_bcd4cb8d4420",
-    "created_at": "2026-10-15T18:18:38+05:30",
-    "expires_at": "2026-10-15T18:18:38+05:30"
-  },
-  {
     "symbol": "GESHIP.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2027,5 +2009,24 @@
     "escalation_id": "esc_9d3abb50083f",
     "created_at": "2026-10-27T22:07:49+05:30",
     "expires_at": "2026-10-27T22:07:49+05:30"
+  },
+  {
+    "symbol": "PETRONET.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.8% since last observation.",
+    "trigger_ids": [
+      "trg_c3522418918a",
+      "trg_7039aafac47f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a7928536f0b4",
+    "created_at": "2026-10-28T16:35:34+05:30",
+    "expires_at": "2026-10-28T16:35:34+05:30"
   }
 ]
