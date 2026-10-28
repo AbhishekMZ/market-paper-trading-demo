@@ -1,25 +1,103 @@
 {
-  "as_of": "2026-10-28T16:35:34+05:30",
+  "as_of": "2026-10-28T17:19:44+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "PETRONET.NS",
+      "symbol": "CHENNPETRO.NS",
       "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.8% since last observation.",
+      "reason": "Moved +5.9% since last observation.",
       "trigger_ids": [
-        "trg_c3522418918a",
-        "trg_7039aafac47f"
+        "trg_dc2117fa936e",
+        "trg_21e9bd45469d"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "CHENNPETRO.NS",
+        "score": 65.9,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a7928536f0b4",
-      "created_at": "2026-10-28T16:35:34+05:30",
-      "expires_at": "2026-10-28T16:35:34+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_5749297d4812",
+      "created_at": "2026-10-28T17:19:44+05:30",
+      "expires_at": "2026-10-28T17:19:44+05:30"
+    },
+    {
+      "symbol": "TBOTEK.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.8% since last observation.",
+      "trigger_ids": [
+        "trg_5dd58f4ae9ab"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "TBOTEK.NS",
+        "score": 69.4,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=97, portfolio_fit=80. Disagreement: ['relative_strength', 'mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_863bfa3248b5",
+      "created_at": "2026-10-28T17:19:44+05:30",
+      "expires_at": "2026-10-28T17:19:44+05:30"
+    },
+    {
+      "symbol": "WELSPUNLIV.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.1% since last observation.",
+      "trigger_ids": [
+        "trg_8c7adb22c96b"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "WELSPUNLIV.NS",
+        "score": 67.0,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=61.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_71ddec57fbe2",
+      "created_at": "2026-10-28T17:19:44+05:30",
+      "expires_at": "2026-10-28T17:19:44+05:30"
     }
   ],
   "actions_taken": [],

@@ -1,6 +1,6 @@
 # Strategy Evaluation
 
-_As of 2026-10-27T22:06:27+05:30_
+_As of 2026-10-28T17:18:30+05:30_
 
 - Total signals: **2000**
 - Total paper trades: **8**
@@ -10,9 +10,9 @@ _As of 2026-10-27T22:06:27+05:30_
 
 | Strategy | Signals | Trades | Wins | Losses | Win% | Avg Gain | Avg Loss | Avoided Bad | Avg Score | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
-| breakout | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.2 | No paper trades yet attributed; acting mainly as a filter. |
-| mean_reversion | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1328 | 45.3 | No paper trades yet attributed; acting mainly as a filter. |
-| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 76 | 77.6 | No paper trades yet attributed; acting mainly as a filter. |
-| relative_strength | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1130 | 39.2 | No paper trades yet attributed; acting mainly as a filter. |
-| trend_following | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1501 | 21.5 | No paper trades yet attributed; acting mainly as a filter. |
-| volatility_risk | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 733 | 42.1 | No paper trades yet attributed; acting mainly as a filter. |
+| breakout | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 0 | 48.3 | No paper trades yet attributed; acting mainly as a filter. |
+| mean_reversion | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1316 | 45.3 | No paper trades yet attributed; acting mainly as a filter. |
+| portfolio_fit | 2000 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 74 | 77.6 | No paper trades yet attributed; acting mainly as a filter. |
+| relative_strength | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1092 | 40.6 | No paper trades yet attributed; acting mainly as a filter. |
+| trend_following | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 1478 | 22.4 | No paper trades yet attributed; acting mainly as a filter. |
+| volatility_risk | 1952 | 0 | 0 | 0 | 0.0 | 0.0 | 0.0 | 739 | 41.0 | No paper trades yet attributed; acting mainly as a filter. |
