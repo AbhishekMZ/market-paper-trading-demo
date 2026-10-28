@@ -1,26 +1,5 @@
 [
   {
-    "symbol": "COLPAL.NS",
-    "trigger_type": "STRONG_LOSS_REVIEW",
-    "severity": "HIGH",
-    "reason": "Held position at -11.6% breaches strong-loss -10%.",
-    "company_name": "COLPAL.NS",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 1855.800048828125,
-    "previous_price": null,
-    "change_pct": -11.62,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "TRIM_REVIEW.",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_6e3c8731584a",
-    "trigger_id": "trg_ce67890eb670",
-    "detected_at": "2026-09-25T16:16:28+05:30"
-  },
-  {
     "symbol": "JUBLPHARMA.NS",
     "trigger_type": "LARGE_MOVE",
     "severity": "MEDIUM",
@@ -10498,5 +10477,26 @@
     "created_escalation_id": "esc_71ddec57fbe2",
     "trigger_id": "trg_8c7adb22c96b",
     "detected_at": "2026-10-28T17:19:36+05:30"
+  },
+  {
+    "symbol": "CHENNPETRO.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -3.3% vs previous close.",
+    "company_name": "Chennai Petroleum Corporation Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1521.4000244140625,
+    "previous_price": null,
+    "change_pct": -3.3295,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_dc9e9f27a198",
+    "trigger_id": "trg_a4d78676e974",
+    "detected_at": "2026-10-28T18:43:42+05:30"
   }
 ]

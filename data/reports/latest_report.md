@@ -484,7 +484,7 @@ ONGC.NS(49.9), BEL.NS(49.7), RADICO.NS(49.5), ZENTEC.NS(49.5), CDSL.NS(49.2), LT
 - CASTROLIND.NS (WATCH, 68.4): Final 68.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=75.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 35163 (no API-key quota)
+- Provider: `yfinance` · calls today: 1505 · total this month: 35665 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

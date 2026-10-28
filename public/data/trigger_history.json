@@ -1,5 +1,26 @@
 [
   {
+    "symbol": "CHENNPETRO.NS",
+    "trigger_type": "GAP_MOVE",
+    "severity": "LOW",
+    "reason": "Gap -3.3% vs previous close.",
+    "company_name": "Chennai Petroleum Corporation Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 1521.4000244140625,
+    "previous_price": null,
+    "change_pct": -3.3295,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_dc9e9f27a198",
+    "trigger_id": "trg_a4d78676e974",
+    "detected_at": "2026-10-28T18:43:42+05:30"
+  },
+  {
     "symbol": "WELSPUNLIV.NS",
     "trigger_type": "LARGE_MOVE",
     "severity": "MEDIUM",
@@ -6277,26 +6298,5 @@
     "created_escalation_id": "esc_e869dc808901",
     "trigger_id": "trg_d266645b6c7d",
     "detected_at": "2026-10-08T20:18:11+05:30"
-  },
-  {
-    "symbol": "MCX.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap -3.2% vs previous close.",
-    "company_name": "Multi Commodity Exchange of India Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 3255.60009765625,
-    "previous_price": null,
-    "change_pct": -3.1821,
-    "market_regime": "RISK_OFF",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": null,
-    "trigger_id": "trg_7a5472895949",
-    "detected_at": "2026-10-08T20:18:02+05:30"
   }
 ]
