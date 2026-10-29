@@ -1,5 +1,89 @@
 [
   {
+    "symbol": "LAURUSLABS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_0ca92043e0e1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_0f85cfa3fea1",
+    "created_at": "2026-10-29T16:53:47+05:30",
+    "expires_at": "2026-10-29T16:53:47+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.1% since last observation.",
+    "trigger_ids": [
+      "trg_c6faad26087e",
+      "trg_f77311845201"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 69.0,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_232a0994bc32",
+    "created_at": "2026-10-29T16:53:47+05:30",
+    "expires_at": "2026-10-29T16:53:47+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.3% since last observation.",
+    "trigger_ids": [
+      "trg_d0038f885cca",
+      "trg_a9ec8c6dc81e"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "KOTAKBANK.NS",
+      "score": 65.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_e214c82453b4",
+    "created_at": "2026-10-29T16:53:47+05:30",
+    "expires_at": "2026-10-29T16:53:47+05:30"
+  },
+  {
     "symbol": "CHENNPETRO.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -1983,91 +2067,6 @@
     "email_sent": false,
     "final_decision": "Focused re-analysis: WATCH — not a buy.",
     "escalation_id": "esc_0a368feed805",
-    "created_at": "2026-10-16T15:55:47+05:30",
-    "expires_at": "2026-10-16T15:55:47+05:30"
-  },
-  {
-    "symbol": "THELEELA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.3% since last observation.",
-    "trigger_ids": [
-      "trg_2ed639ed85b5",
-      "trg_b8367566fe36"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "THELEELA.NS",
-      "score": 70.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 70.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": false
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_a95e57341fc8",
-    "created_at": "2026-10-16T15:55:47+05:30",
-    "expires_at": "2026-10-16T15:55:47+05:30"
-  },
-  {
-    "symbol": "SYRMA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -4.9% since last observation.",
-    "trigger_ids": [
-      "trg_7ce678fc162a",
-      "trg_c3f5c7615d6f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5a5692bdebac",
-    "created_at": "2026-10-16T15:55:47+05:30",
-    "expires_at": "2026-10-16T15:55:47+05:30"
-  },
-  {
-    "symbol": "SHYAMMETL.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +10.1% since last observation.",
-    "trigger_ids": [
-      "trg_9c048209a88e",
-      "trg_56b0c2bfe58a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SHYAMMETL.NS",
-      "score": 73.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 73.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=95, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_d44bdb6e7d13",
     "created_at": "2026-10-16T15:55:47+05:30",
     "expires_at": "2026-10-16T15:55:47+05:30"
   }
