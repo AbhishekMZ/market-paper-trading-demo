@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "SYRMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -4.9% vs previous close.",
-    "trigger_ids": [
-      "trg_a7c41077c45e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_dd5f84abdad2",
-    "created_at": "2026-10-16T17:17:19+05:30",
-    "expires_at": "2026-10-16T17:17:19+05:30"
-  },
-  {
-    "symbol": "THELEELA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_0ca8a74c4f5e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_39fbb63f0262",
-    "created_at": "2026-10-16T17:17:19+05:30",
-    "expires_at": "2026-10-16T17:17:19+05:30"
-  },
-  {
     "symbol": "IPCALAB.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
