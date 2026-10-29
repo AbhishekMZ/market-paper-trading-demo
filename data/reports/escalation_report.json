@@ -1,21 +1,20 @@
 {
-  "as_of": "2026-10-29T16:53:47+05:30",
+  "as_of": "2026-10-29T17:39:16+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "KOTAKBANK.NS",
-      "severity": "MEDIUM",
+      "symbol": "SONACOMS.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.3% since last observation.",
+      "reason": "Moved +6.1% since last observation.",
       "trigger_ids": [
-        "trg_d0038f885cca",
-        "trg_a9ec8c6dc81e"
+        "trg_2194a8dfb25a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "KOTAKBANK.NS",
-        "score": 65.2,
+        "symbol": "SONACOMS.NS",
+        "score": 68.8,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -25,15 +24,79 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 65.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
+        "reason": "Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_e214c82453b4",
-      "created_at": "2026-10-29T16:53:47+05:30",
-      "expires_at": "2026-10-29T16:53:47+05:30"
+      "escalation_id": "esc_ef03bf48143e",
+      "created_at": "2026-10-29T17:39:16+05:30",
+      "expires_at": "2026-10-29T17:39:16+05:30"
+    },
+    {
+      "symbol": "ATHERENERG.NS",
+      "severity": "HIGH",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +6.0% since last observation.",
+      "trigger_ids": [
+        "trg_08707f92823f"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "ATHERENERG.NS",
+        "score": 68.7,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_29eb41f57471",
+      "created_at": "2026-10-29T17:39:16+05:30",
+      "expires_at": "2026-10-29T17:39:16+05:30"
+    },
+    {
+      "symbol": "HBLENGINE.NS",
+      "severity": "HIGH",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +12.5% since last observation.",
+      "trigger_ids": [
+        "trg_09a5f8ea5c06"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "HBLENGINE.NS",
+        "score": 67.4,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_a969b8c789bf",
+      "created_at": "2026-10-29T17:39:16+05:30",
+      "expires_at": "2026-10-29T17:39:16+05:30"
     },
     {
       "symbol": "PVRINOX.NS",
@@ -41,14 +104,14 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Moved +3.1% since last observation.",
       "trigger_ids": [
-        "trg_c6faad26087e",
-        "trg_f77311845201"
+        "trg_6dd0d98f9c9a",
+        "trg_3f258f01384e"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
         "symbol": "PVRINOX.NS",
-        "score": 69.0,
+        "score": 69.1,
         "label": "WATCH",
         "previous_label": "WATCH",
         "valid_opportunity": false,
@@ -58,15 +121,15 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
+        "reason": "Final 69.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_232a0994bc32",
-      "created_at": "2026-10-29T16:53:47+05:30",
-      "expires_at": "2026-10-29T16:53:47+05:30"
+      "escalation_id": "esc_04e798faed99",
+      "created_at": "2026-10-29T17:39:16+05:30",
+      "expires_at": "2026-10-29T17:39:16+05:30"
     },
     {
       "symbol": "LAURUSLABS.NS",
@@ -74,7 +137,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap +2.8% vs previous close.",
       "trigger_ids": [
-        "trg_0ca92043e0e1"
+        "trg_616a4ea3acee"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -82,9 +145,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_0f85cfa3fea1",
-      "created_at": "2026-10-29T16:53:47+05:30",
-      "expires_at": "2026-10-29T16:53:47+05:30"
+      "escalation_id": "esc_ce589ebd54ef",
+      "created_at": "2026-10-29T17:39:16+05:30",
+      "expires_at": "2026-10-29T17:39:16+05:30"
     }
   ],
   "actions_taken": [],
