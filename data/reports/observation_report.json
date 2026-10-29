@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-29T20:07:41+05:30",
+  "as_of": "2026-10-29T22:52:57+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 2,
-  "escalations": 0,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 305,
-    "triggers_detected": 1391,
-    "escalations_created": 868,
+    "observation_runs": 306,
+    "triggers_detected": 1393,
+    "escalations_created": 870,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-29T20:07:41+05:30",
+    "last_run": "2026-10-29T22:52:57+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_20e35ab96a20",
-        "detected_at": "2026-10-29T20:05:49+05:30"
+        "created_escalation_id": "esc_0470103978e2",
+        "trigger_id": "trg_9d2fcbc8b723",
+        "detected_at": "2026-10-29T22:51:46+05:30"
       },
       {
         "symbol": "PVRINOX.NS",
@@ -83,27 +83,53 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_5c96e5c910e9",
-        "detected_at": "2026-10-29T20:06:15+05:30"
+        "created_escalation_id": "esc_bafcab05e05c",
+        "trigger_id": "trg_27e487baeb49",
+        "detected_at": "2026-10-29T22:52:03+05:30"
       }
     ],
-    "throttled": [
+    "throttled": [],
+    "escalations": [
       {
         "symbol": "LAURUSLABS.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +2.8% vs previous close.",
+        "trigger_ids": [
+          "trg_9d2fcbc8b723"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_0470103978e2",
+        "created_at": "2026-10-29T22:52:57+05:30",
+        "expires_at": "2026-10-29T22:52:57+05:30"
       },
       {
         "symbol": "PVRINOX.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.1% vs previous close.",
+        "trigger_ids": [
+          "trg_27e487baeb49"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_bafcab05e05c",
+        "created_at": "2026-10-29T22:52:57+05:30",
+        "expires_at": "2026-10-29T22:52:57+05:30"
       }
     ],
-    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-29T20:05:32+05:30"
+    "as_of": "2026-10-29T22:51:29+05:30"
   }
 }

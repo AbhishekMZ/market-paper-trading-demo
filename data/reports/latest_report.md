@@ -477,7 +477,7 @@ JINDALSTEL.NS(49.9), CLEAN.NS(49.6), SBIN.NS(49.5), COALINDIA.NS(49.4), BSOFT.NS
 - SAREGAMA.NS (WATCH, 68.9): Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=69.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1005 · total this month: 37174 (no API-key quota)
+- Provider: `yfinance` · calls today: 1509 · total this month: 37678 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

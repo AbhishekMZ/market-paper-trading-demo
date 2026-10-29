@@ -1,7 +1,44 @@
 {
-  "as_of": "2026-10-29T20:07:41+05:30",
+  "as_of": "2026-10-29T22:52:57+05:30",
   "checkpoint": "close",
-  "open_escalations": [],
+  "open_escalations": [
+    {
+      "symbol": "LAURUSLABS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.8% vs previous close.",
+      "trigger_ids": [
+        "trg_9d2fcbc8b723"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_0470103978e2",
+      "created_at": "2026-10-29T22:52:57+05:30",
+      "expires_at": "2026-10-29T22:52:57+05:30"
+    },
+    {
+      "symbol": "PVRINOX.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.1% vs previous close.",
+      "trigger_ids": [
+        "trg_27e487baeb49"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_bafcab05e05c",
+      "created_at": "2026-10-29T22:52:57+05:30",
+      "expires_at": "2026-10-29T22:52:57+05:30"
+    }
+  ],
   "actions_taken": [],
   "blocked_actions": []
 }
