@@ -1,6 +1,6 @@
 [
   {
-    "ts": "2026-10-29T16:24:19+05:30",
+    "ts": "2026-10-29T17:47:12+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
     "prev_price": 538.92,
@@ -9,7 +9,7 @@
     "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
   },
   {
-    "ts": "2026-10-29T16:23:12+05:30",
+    "ts": "2026-10-29T17:44:50+05:30",
     "symbol": "JBCHEPHARM.NS",
     "issue": "data_insufficient",
     "price_source": "fallback",
