@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-30T17:37:31+05:30",
+  "as_of": "2026-10-30T18:55:38+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 8,
+  "triggers_this_run": 7,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 307,
-    "triggers_detected": 1401,
-    "escalations_created": 875,
+    "observation_runs": 308,
+    "triggers_detected": 1410,
+    "escalations_created": 880,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-30T17:37:31+05:30",
+    "last_run": "2026-10-30T18:55:38+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -62,30 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_bdf39d6368b6",
-        "trigger_id": "trg_097c592c6c50",
-        "detected_at": "2026-10-30T17:36:40+05:30"
-      },
-      {
-        "symbol": "SAILIFE.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.1% since last observation.",
-        "company_name": "Sai Life Sciences Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1557.5,
-        "previous_price": null,
-        "change_pct": 4.13,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_39ac865a7aea",
-        "trigger_id": "trg_d69605a92e7a",
-        "detected_at": "2026-10-30T17:36:57+05:30"
+        "created_escalation_id": "esc_3692ccc8888c",
+        "trigger_id": "trg_184a21e4cc6f",
+        "detected_at": "2026-10-30T18:54:47+05:30"
       },
       {
         "symbol": "SAILIFE.NS",
@@ -104,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_39ac865a7aea",
-        "trigger_id": "trg_7b47181c4709",
-        "detected_at": "2026-10-30T17:36:57+05:30"
+        "created_escalation_id": "esc_25bf8e2650f0",
+        "trigger_id": "trg_dbc4e44874bf",
+        "detected_at": "2026-10-30T18:55:04+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -125,9 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_11533a2653ff",
-        "trigger_id": "trg_6dc189cf33e2",
-        "detected_at": "2026-10-30T17:37:06+05:30"
+        "created_escalation_id": "esc_5ca7c377f934",
+        "trigger_id": "trg_a34d14ae3475",
+        "detected_at": "2026-10-30T18:55:13+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -146,9 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_11533a2653ff",
-        "trigger_id": "trg_1183d7678cfc",
-        "detected_at": "2026-10-30T17:37:06+05:30"
+        "created_escalation_id": "esc_5ca7c377f934",
+        "trigger_id": "trg_90eac62049ad",
+        "detected_at": "2026-10-30T18:55:13+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -167,9 +146,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_443b58e66917",
-        "trigger_id": "trg_9b6942d559c3",
-        "detected_at": "2026-10-30T17:37:14+05:30"
+        "created_escalation_id": "esc_17b619905910",
+        "trigger_id": "trg_9a28518a568b",
+        "detected_at": "2026-10-30T18:55:21+05:30"
       },
       {
         "symbol": "ABDL.NS",
@@ -188,9 +167,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_40281b0b9856",
-        "trigger_id": "trg_54fca0d41bf4",
-        "detected_at": "2026-10-30T17:37:31+05:30"
+        "created_escalation_id": "esc_e2f99a910233",
+        "trigger_id": "trg_436566b8fa8a",
+        "detected_at": "2026-10-30T18:55:38+05:30"
       },
       {
         "symbol": "PAYTM.NS",
@@ -210,8 +189,8 @@
         "requires_focused_analysis": false,
         "blocks_action": false,
         "created_escalation_id": null,
-        "trigger_id": "trg_57a3f462ac31",
-        "detected_at": "2026-10-30T17:37:31+05:30"
+        "trigger_id": "trg_094bf95bee4d",
+        "detected_at": "2026-10-30T18:55:38+05:30"
       }
     ],
     "throttled": [
@@ -228,7 +207,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Moved +8.3% since last observation.",
         "trigger_ids": [
-          "trg_097c592c6c50"
+          "trg_184a21e4cc6f"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -250,9 +229,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_bdf39d6368b6",
-        "created_at": "2026-10-30T17:37:31+05:30",
-        "expires_at": "2026-10-30T17:37:31+05:30"
+        "escalation_id": "esc_3692ccc8888c",
+        "created_at": "2026-10-30T18:55:38+05:30",
+        "expires_at": "2026-10-30T18:55:38+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -260,7 +239,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Moved +8.5% since last observation.",
         "trigger_ids": [
-          "trg_9b6942d559c3"
+          "trg_9a28518a568b"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -282,42 +261,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_443b58e66917",
-        "created_at": "2026-10-30T17:37:31+05:30",
-        "expires_at": "2026-10-30T17:37:31+05:30"
-      },
-      {
-        "symbol": "SAILIFE.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.1% since last observation.",
-        "trigger_ids": [
-          "trg_d69605a92e7a",
-          "trg_7b47181c4709"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SAILIFE.NS",
-          "score": 66.5,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 66.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=59.",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_39ac865a7aea",
-        "created_at": "2026-10-30T17:37:31+05:30",
-        "expires_at": "2026-10-30T17:37:31+05:30"
+        "escalation_id": "esc_17b619905910",
+        "created_at": "2026-10-30T18:55:38+05:30",
+        "expires_at": "2026-10-30T18:55:38+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -325,8 +271,8 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Moved +3.3% since last observation.",
         "trigger_ids": [
-          "trg_6dc189cf33e2",
-          "trg_1183d7678cfc"
+          "trg_a34d14ae3475",
+          "trg_90eac62049ad"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -348,9 +294,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_11533a2653ff",
-        "created_at": "2026-10-30T17:37:31+05:30",
-        "expires_at": "2026-10-30T17:37:31+05:30"
+        "escalation_id": "esc_5ca7c377f934",
+        "created_at": "2026-10-30T18:55:38+05:30",
+        "expires_at": "2026-10-30T18:55:38+05:30"
       },
       {
         "symbol": "ABDL.NS",
@@ -358,7 +304,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Moved -5.7% since last observation.",
         "trigger_ids": [
-          "trg_54fca0d41bf4"
+          "trg_436566b8fa8a"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -366,14 +312,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_40281b0b9856",
-        "created_at": "2026-10-30T17:37:31+05:30",
-        "expires_at": "2026-10-30T17:37:31+05:30"
+        "escalation_id": "esc_e2f99a910233",
+        "created_at": "2026-10-30T18:55:38+05:30",
+        "expires_at": "2026-10-30T18:55:38+05:30"
+      },
+      {
+        "symbol": "SAILIFE.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +4.1% vs previous close.",
+        "trigger_ids": [
+          "trg_dbc4e44874bf"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_25bf8e2650f0",
+        "created_at": "2026-10-30T18:55:38+05:30",
+        "expires_at": "2026-10-30T18:55:38+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-30T17:36:06+05:30"
+    "as_of": "2026-10-30T18:54:12+05:30"
   }
 }

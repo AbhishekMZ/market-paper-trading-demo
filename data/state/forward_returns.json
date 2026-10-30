@@ -13492,7 +13492,7 @@
     "KOTAKBANK.NS": {
       "symbol": "KOTAKBANK.NS",
       "name": "Kotak Mahindra Bank Ltd.",
-      "signal_id": "sig_9083fd2665b0",
+      "signal_id": "sig_a0639bfef92b",
       "label_at_open": "WATCH",
       "score": 72.6,
       "checkpoint": "close",
@@ -13521,7 +13521,7 @@
     "HCLTECH.NS": {
       "symbol": "HCLTECH.NS",
       "name": "HCL Technologies Ltd.",
-      "signal_id": "sig_345d69810cec",
+      "signal_id": "sig_c98cfdae013a",
       "label_at_open": "WATCH",
       "score": 68.4,
       "checkpoint": "close",
@@ -13550,7 +13550,7 @@
     "ADANIPORTS.NS": {
       "symbol": "ADANIPORTS.NS",
       "name": "Adani Ports and Special Economic Zone Ltd.",
-      "signal_id": "sig_addb9a13e52a",
+      "signal_id": "sig_02212b527be6",
       "label_at_open": "WATCH",
       "score": 68.0,
       "checkpoint": "close",
@@ -13579,7 +13579,7 @@
     "TCS.NS": {
       "symbol": "TCS.NS",
       "name": "Tata Consultancy Services Ltd.",
-      "signal_id": "sig_e1f1d1ecfcbd",
+      "signal_id": "sig_9c21f0e12cda",
       "label_at_open": "WATCH",
       "score": 67.5,
       "checkpoint": "close",
@@ -13608,7 +13608,7 @@
     "DRREDDY.NS": {
       "symbol": "DRREDDY.NS",
       "name": "Dr. Reddy's Laboratories Ltd.",
-      "signal_id": "sig_30127e07075c",
+      "signal_id": "sig_e8fd7b9b7d43",
       "label_at_open": "WATCH",
       "score": 67.1,
       "checkpoint": "close",
@@ -13637,7 +13637,7 @@
     "TECHM.NS": {
       "symbol": "TECHM.NS",
       "name": "Tech Mahindra Ltd.",
-      "signal_id": "sig_97aaba41e903",
+      "signal_id": "sig_a8bdf9d2a8a3",
       "label_at_open": "WATCH",
       "score": 65.9,
       "checkpoint": "close",
@@ -13666,7 +13666,7 @@
     "WIPRO.NS": {
       "symbol": "WIPRO.NS",
       "name": "Wipro Ltd.",
-      "signal_id": "sig_77175fc1e6cf",
+      "signal_id": "sig_6daa8ceb61c6",
       "label_at_open": "WATCH",
       "score": 65.4,
       "checkpoint": "close",
@@ -13695,7 +13695,7 @@
     "BHARTIARTL.NS": {
       "symbol": "BHARTIARTL.NS",
       "name": "Bharti Airtel Ltd.",
-      "signal_id": "sig_f5dbced69d43",
+      "signal_id": "sig_f0d213c9e625",
       "label_at_open": "WATCH",
       "score": 62.1,
       "checkpoint": "close",
@@ -13724,7 +13724,7 @@
     "INFY.NS": {
       "symbol": "INFY.NS",
       "name": "Infosys Ltd.",
-      "signal_id": "sig_26e443e5abe0",
+      "signal_id": "sig_153486cdad7f",
       "label_at_open": "WATCH",
       "score": 60.7,
       "checkpoint": "close",
@@ -13753,7 +13753,7 @@
     "CIPLA.NS": {
       "symbol": "CIPLA.NS",
       "name": "Cipla Ltd.",
-      "signal_id": "sig_35979f1608ae",
+      "signal_id": "sig_b3a8c4e474db",
       "label_at_open": "NO_ACTION",
       "score": 56.4,
       "checkpoint": "close",
@@ -13782,7 +13782,7 @@
     "LT.NS": {
       "symbol": "LT.NS",
       "name": "Larsen & Toubro Ltd.",
-      "signal_id": "sig_dc62a2aa5595",
+      "signal_id": "sig_01d0097b8e93",
       "label_at_open": "NO_ACTION",
       "score": 53.2,
       "checkpoint": "close",
@@ -13811,7 +13811,7 @@
     "ICICIBANK.NS": {
       "symbol": "ICICIBANK.NS",
       "name": "ICICI Bank Ltd.",
-      "signal_id": "sig_4a7df4435d65",
+      "signal_id": "sig_6a16033f86ec",
       "label_at_open": "NO_ACTION",
       "score": 52.9,
       "checkpoint": "close",
@@ -13840,7 +13840,7 @@
     "AXISBANK.NS": {
       "symbol": "AXISBANK.NS",
       "name": "Axis Bank Ltd.",
-      "signal_id": "sig_92ef9b041316",
+      "signal_id": "sig_58ae81eff790",
       "label_at_open": "NO_ACTION",
       "score": 51.5,
       "checkpoint": "close",
@@ -13869,7 +13869,7 @@
     "ONGC.NS": {
       "symbol": "ONGC.NS",
       "name": "Oil & Natural Gas Corporation Ltd.",
-      "signal_id": "sig_2ed1b5165678",
+      "signal_id": "sig_ad83c5fe2180",
       "label_at_open": "NO_ACTION",
       "score": 50.7,
       "checkpoint": "close",
@@ -13898,7 +13898,7 @@
     "JSWSTEEL.NS": {
       "symbol": "JSWSTEEL.NS",
       "name": "JSW Steel Ltd.",
-      "signal_id": "sig_a3fbeb3f1d8f",
+      "signal_id": "sig_c3e0202b51af",
       "label_at_open": "NO_ACTION",
       "score": 50.6,
       "checkpoint": "close",
@@ -13927,7 +13927,7 @@
     "POWERGRID.NS": {
       "symbol": "POWERGRID.NS",
       "name": "Power Grid Corporation of India Ltd.",
-      "signal_id": "sig_5d96f02a9720",
+      "signal_id": "sig_9ff5ec6b2334",
       "label_at_open": "DO_NOT_BUY",
       "score": 49.1,
       "checkpoint": "close",
@@ -13956,7 +13956,7 @@
     "SUNPHARMA.NS": {
       "symbol": "SUNPHARMA.NS",
       "name": "Sun Pharmaceutical Industries Ltd.",
-      "signal_id": "sig_6b49955ac17d",
+      "signal_id": "sig_17f7e917aaab",
       "label_at_open": "DO_NOT_BUY",
       "score": 48.0,
       "checkpoint": "close",
@@ -13985,7 +13985,7 @@
     "SBIN.NS": {
       "symbol": "SBIN.NS",
       "name": "State Bank of India",
-      "signal_id": "sig_178ae68e73e7",
+      "signal_id": "sig_156acd76dfb1",
       "label_at_open": "DO_NOT_BUY",
       "score": 45.9,
       "checkpoint": "close",
@@ -14014,7 +14014,7 @@
     "COALINDIA.NS": {
       "symbol": "COALINDIA.NS",
       "name": "Coal India Ltd.",
-      "signal_id": "sig_2d63af9ce2ba",
+      "signal_id": "sig_ca969238721f",
       "label_at_open": "DO_NOT_BUY",
       "score": 45.1,
       "checkpoint": "close",
@@ -14043,7 +14043,7 @@
     "HDFCBANK.NS": {
       "symbol": "HDFCBANK.NS",
       "name": "HDFC Bank Ltd.",
-      "signal_id": "sig_29e66eb91c0f",
+      "signal_id": "sig_5d1ee44c439d",
       "label_at_open": "DO_NOT_BUY",
       "score": 44.5,
       "checkpoint": "close",
@@ -14072,7 +14072,7 @@
     "NTPC.NS": {
       "symbol": "NTPC.NS",
       "name": "NTPC Ltd.",
-      "signal_id": "sig_fd1f74427b81",
+      "signal_id": "sig_c4d31af1eacc",
       "label_at_open": "DO_NOT_BUY",
       "score": 43.9,
       "checkpoint": "close",
@@ -14101,7 +14101,7 @@
     "TITAN.NS": {
       "symbol": "TITAN.NS",
       "name": "Titan Company Ltd.",
-      "signal_id": "sig_243a5856db9b",
+      "signal_id": "sig_b32e9e95b7b8",
       "label_at_open": "DO_NOT_BUY",
       "score": 39.6,
       "checkpoint": "close",
@@ -14130,7 +14130,7 @@
     "ULTRACEMCO.NS": {
       "symbol": "ULTRACEMCO.NS",
       "name": "UltraTech Cement Ltd.",
-      "signal_id": "sig_17d88574e4de",
+      "signal_id": "sig_f1f51d20be00",
       "label_at_open": "DO_NOT_BUY",
       "score": 38.8,
       "checkpoint": "close",
@@ -14159,7 +14159,7 @@
     "TATASTEEL.NS": {
       "symbol": "TATASTEEL.NS",
       "name": "Tata Steel Ltd.",
-      "signal_id": "sig_7cda6575fc06",
+      "signal_id": "sig_4f0207436f7d",
       "label_at_open": "DO_NOT_BUY",
       "score": 38.3,
       "checkpoint": "close",
@@ -14188,7 +14188,7 @@
     "ITC.NS": {
       "symbol": "ITC.NS",
       "name": "ITC Ltd.",
-      "signal_id": "sig_6ef9d657de93",
+      "signal_id": "sig_cbb8eedfb400",
       "label_at_open": "DO_NOT_BUY",
       "score": 37.6,
       "checkpoint": "close",
@@ -14217,7 +14217,7 @@
     "RELIANCE.NS": {
       "symbol": "RELIANCE.NS",
       "name": "Reliance Industries Ltd.",
-      "signal_id": "sig_1ae05395af4c",
+      "signal_id": "sig_e992b477c8d4",
       "label_at_open": "DO_NOT_BUY",
       "score": 36.0,
       "checkpoint": "close",
@@ -14246,7 +14246,7 @@
     "HINDUNILVR.NS": {
       "symbol": "HINDUNILVR.NS",
       "name": "Hindustan Unilever Ltd.",
-      "signal_id": "sig_c34a0fa44da1",
+      "signal_id": "sig_4c52da2b0006",
       "label_at_open": "DO_NOT_BUY",
       "score": 35.9,
       "checkpoint": "close",
@@ -14275,7 +14275,7 @@
     "BAJAJFINSV.NS": {
       "symbol": "BAJAJFINSV.NS",
       "name": "Bajaj Finserv Ltd.",
-      "signal_id": "sig_284e842901eb",
+      "signal_id": "sig_875858a7d69b",
       "label_at_open": "DO_NOT_BUY",
       "score": 35.1,
       "checkpoint": "close",
@@ -14304,7 +14304,7 @@
     "ASIANPAINT.NS": {
       "symbol": "ASIANPAINT.NS",
       "name": "Asian Paints Ltd.",
-      "signal_id": "sig_82209174af46",
+      "signal_id": "sig_530cace59099",
       "label_at_open": "HIGH_RISK_IGNORE",
       "score": 33.4,
       "checkpoint": "close",
@@ -14333,7 +14333,7 @@
     "BAJFINANCE.NS": {
       "symbol": "BAJFINANCE.NS",
       "name": "Bajaj Finance Ltd.",
-      "signal_id": "sig_32b231ab77ab",
+      "signal_id": "sig_643f520f5515",
       "label_at_open": "HIGH_RISK_IGNORE",
       "score": 33.2,
       "checkpoint": "close",
@@ -14362,7 +14362,7 @@
     "BRITANNIA.NS": {
       "symbol": "BRITANNIA.NS",
       "name": "Britannia Industries Ltd.",
-      "signal_id": "sig_0ef18f7688bf",
+      "signal_id": "sig_8f07bb50de72",
       "label_at_open": "HIGH_RISK_IGNORE",
       "score": 28.8,
       "checkpoint": "close",
@@ -14391,7 +14391,7 @@
     "NESTLEIND.NS": {
       "symbol": "NESTLEIND.NS",
       "name": "Nestle India Ltd.",
-      "signal_id": "sig_f82d4787eb69",
+      "signal_id": "sig_c3291cd3d580",
       "label_at_open": "HIGH_RISK_IGNORE",
       "score": 24.2,
       "checkpoint": "close",
@@ -14420,7 +14420,7 @@
     "MARUTI.NS": {
       "symbol": "MARUTI.NS",
       "name": "Maruti Suzuki India Ltd.",
-      "signal_id": "sig_619ef0c055e7",
+      "signal_id": "sig_1ba332de1ae6",
       "label_at_open": "HIGH_RISK_IGNORE",
       "score": 23.9,
       "checkpoint": "close",
