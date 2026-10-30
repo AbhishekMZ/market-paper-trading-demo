@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_c4429a50dcba"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f3de42d85377",
-    "created_at": "2026-10-19T18:38:51+05:30",
-    "expires_at": "2026-10-19T18:38:51+05:30"
-  },
-  {
     "symbol": "LTFOODS.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2113,5 +2095,73 @@
     "escalation_id": "esc_e897bf773294",
     "created_at": "2026-10-30T19:59:26+05:30",
     "expires_at": "2026-10-30T19:59:26+05:30"
+  },
+  {
+    "symbol": "PNB.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.7% since last observation.",
+    "trigger_ids": [
+      "trg_e10582c2b2b2"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PNB.NS",
+      "score": 66.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 66.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_923878121540",
+    "created_at": "2026-10-30T22:40:20+05:30",
+    "expires_at": "2026-10-30T22:40:20+05:30"
+  },
+  {
+    "symbol": "SAILIFE.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.1% vs previous close.",
+    "trigger_ids": [
+      "trg_fc9ec9a700fa"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_64ec837b7721",
+    "created_at": "2026-10-30T22:40:20+05:30",
+    "expires_at": "2026-10-30T22:40:20+05:30"
+  },
+  {
+    "symbol": "PTCIL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_150a36a37a37"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_399f561ff743",
+    "created_at": "2026-10-30T22:40:20+05:30",
+    "expires_at": "2026-10-30T22:40:20+05:30"
   }
 ]

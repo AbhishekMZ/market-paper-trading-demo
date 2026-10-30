@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-30T19:59:26+05:30",
+  "as_of": "2026-10-30T22:40:20+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
   "triggers_this_run": 3,
-  "escalations": 2,
+  "escalations": 3,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 309,
-    "triggers_detected": 1413,
-    "escalations_created": 882,
+    "observation_runs": 310,
+    "triggers_detected": 1416,
+    "escalations_created": 885,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-30T19:59:26+05:30",
+    "last_run": "2026-10-30T22:40:20+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -26,20 +26,20 @@
     "mode": "lightweight_monitoring",
     "observed_symbols": [
       "ITC.NS",
-      "PVRINOX.NS",
+      "KOTAKBANK.NS",
       "INDHOTEL.NS",
       "ASAHIINDIA.NS",
-      "THELEELA.NS",
+      "ABDL.NS",
+      "PVRINOX.NS",
       "SONACOMS.NS",
       "CASTROLIND.NS",
-      "BHARTIHEXA.NS",
       "SAILIFE.NS",
-      "HBLENGINE.NS",
-      "WELSPUNLIV.NS",
+      "PTCIL.NS",
+      "BHARTIHEXA.NS",
       "DIVISLAB.NS",
-      "KOTAKBANK.NS",
-      "ABDL.NS",
-      "PAYTM.NS"
+      "PNB.NS",
+      "HBLENGINE.NS",
+      "KARURVYSYA.NS"
     ],
     "open_positions_observed": [
       "ITC.NS"
@@ -62,68 +62,94 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_1c6329ea9d8c",
-        "detected_at": "2026-10-30T19:58:25+05:30"
+        "created_escalation_id": "esc_64ec837b7721",
+        "trigger_id": "trg_fc9ec9a700fa",
+        "detected_at": "2026-10-30T22:39:43+05:30"
       },
       {
-        "symbol": "WELSPUNLIV.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap +3.3% vs previous close.",
-        "company_name": "Welspun Living Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 219.0800018310547,
-        "previous_price": null,
-        "change_pct": 3.2568,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_c58b4bbf462c",
-        "trigger_id": "trg_9b5a4c84c6b8",
-        "detected_at": "2026-10-30T19:58:47+05:30"
-      },
-      {
-        "symbol": "PAYTM.NS",
+        "symbol": "PTCIL.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap -3.1% vs previous close.",
-        "company_name": "One 97 Communications Ltd.",
+        "company_name": "PTC Industries Ltd.",
         "status": "DETECTED",
         "source": "observation",
-        "price_at_detection": 1634.300048828125,
+        "price_at_detection": 23945.0,
         "previous_price": null,
-        "change_pct": -3.0952,
+        "change_pct": -3.0567,
         "market_regime": "NEUTRAL",
         "news_event_ids": [],
         "data_quality_flags": [],
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_e897bf773294",
-        "trigger_id": "trg_f77a2dd427a1",
-        "detected_at": "2026-10-30T19:59:26+05:30"
-      }
-    ],
-    "throttled": [
+        "created_escalation_id": "esc_399f561ff743",
+        "trigger_id": "trg_150a36a37a37",
+        "detected_at": "2026-10-30T22:39:44+05:30"
+      },
       {
-        "symbol": "SAILIFE.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
+        "symbol": "PNB.NS",
+        "trigger_type": "LARGE_MOVE",
+        "severity": "MEDIUM",
+        "reason": "Moved +3.7% since last observation.",
+        "company_name": "Punjab National Bank",
+        "status": "DETECTED",
+        "source": "observation",
+        "price_at_detection": 122.8499984741211,
+        "previous_price": null,
+        "change_pct": 3.65,
+        "market_regime": "NEUTRAL",
+        "news_event_ids": [],
+        "data_quality_flags": [],
+        "recommended_next_step": "",
+        "requires_focused_analysis": true,
+        "blocks_action": false,
+        "created_escalation_id": "esc_923878121540",
+        "trigger_id": "trg_e10582c2b2b2",
+        "detected_at": "2026-10-30T22:40:03+05:30"
       }
     ],
+    "throttled": [],
     "escalations": [
       {
-        "symbol": "WELSPUNLIV.NS",
+        "symbol": "PNB.NS",
+        "severity": "MEDIUM",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Moved +3.7% since last observation.",
+        "trigger_ids": [
+          "trg_e10582c2b2b2"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": true,
+        "focused_analysis_result": {
+          "symbol": "PNB.NS",
+          "score": 66.3,
+          "label": "WATCH",
+          "previous_label": "WATCH",
+          "valid_opportunity": false,
+          "action_allowed": false,
+          "manual_review": false,
+          "blocked_by": null,
+          "news_risk_level": "NONE",
+          "data_quality_verdict": "OK",
+          "market_regime": "NEUTRAL",
+          "reason": "Final 66.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+          "strengthened": true
+        },
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Focused re-analysis: WATCH — not a buy.",
+        "escalation_id": "esc_923878121540",
+        "created_at": "2026-10-30T22:40:20+05:30",
+        "expires_at": "2026-10-30T22:40:20+05:30"
+      },
+      {
+        "symbol": "SAILIFE.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +3.3% vs previous close.",
+        "reason": "Gap +4.1% vs previous close.",
         "trigger_ids": [
-          "trg_9b5a4c84c6b8"
+          "trg_fc9ec9a700fa"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -131,17 +157,17 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_c58b4bbf462c",
-        "created_at": "2026-10-30T19:59:26+05:30",
-        "expires_at": "2026-10-30T19:59:26+05:30"
+        "escalation_id": "esc_64ec837b7721",
+        "created_at": "2026-10-30T22:40:20+05:30",
+        "expires_at": "2026-10-30T22:40:20+05:30"
       },
       {
-        "symbol": "PAYTM.NS",
+        "symbol": "PTCIL.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap -3.1% vs previous close.",
         "trigger_ids": [
-          "trg_f77a2dd427a1"
+          "trg_150a36a37a37"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -149,14 +175,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_e897bf773294",
-        "created_at": "2026-10-30T19:59:26+05:30",
-        "expires_at": "2026-10-30T19:59:26+05:30"
+        "escalation_id": "esc_399f561ff743",
+        "created_at": "2026-10-30T22:40:20+05:30",
+        "expires_at": "2026-10-30T22:40:20+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-30T19:56:50+05:30"
+    "as_of": "2026-10-30T22:38:49+05:30"
   }
 }

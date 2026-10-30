@@ -1,14 +1,46 @@
 {
-  "as_of": "2026-10-30T19:59:26+05:30",
+  "as_of": "2026-10-30T22:40:20+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "WELSPUNLIV.NS",
+      "symbol": "PNB.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +3.7% since last observation.",
+      "trigger_ids": [
+        "trg_e10582c2b2b2"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "PNB.NS",
+        "score": 66.3,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 66.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_923878121540",
+      "created_at": "2026-10-30T22:40:20+05:30",
+      "expires_at": "2026-10-30T22:40:20+05:30"
+    },
+    {
+      "symbol": "SAILIFE.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.3% vs previous close.",
+      "reason": "Gap +4.1% vs previous close.",
       "trigger_ids": [
-        "trg_9b5a4c84c6b8"
+        "trg_fc9ec9a700fa"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,17 +48,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_c58b4bbf462c",
-      "created_at": "2026-10-30T19:59:26+05:30",
-      "expires_at": "2026-10-30T19:59:26+05:30"
+      "escalation_id": "esc_64ec837b7721",
+      "created_at": "2026-10-30T22:40:20+05:30",
+      "expires_at": "2026-10-30T22:40:20+05:30"
     },
     {
-      "symbol": "PAYTM.NS",
+      "symbol": "PTCIL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -3.1% vs previous close.",
       "trigger_ids": [
-        "trg_f77a2dd427a1"
+        "trg_150a36a37a37"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,9 +66,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e897bf773294",
-      "created_at": "2026-10-30T19:59:26+05:30",
-      "expires_at": "2026-10-30T19:59:26+05:30"
+      "escalation_id": "esc_399f561ff743",
+      "created_at": "2026-10-30T22:40:20+05:30",
+      "expires_at": "2026-10-30T22:40:20+05:30"
     }
   ],
   "actions_taken": [],
