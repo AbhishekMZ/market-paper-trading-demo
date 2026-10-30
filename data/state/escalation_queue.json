@@ -2077,5 +2077,41 @@
     "escalation_id": "esc_25bf8e2650f0",
     "created_at": "2026-10-30T18:55:38+05:30",
     "expires_at": "2026-10-30T18:55:38+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_9b5a4c84c6b8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c58b4bbf462c",
+    "created_at": "2026-10-30T19:59:26+05:30",
+    "expires_at": "2026-10-30T19:59:26+05:30"
+  },
+  {
+    "symbol": "PAYTM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_f77a2dd427a1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e897bf773294",
+    "created_at": "2026-10-30T19:59:26+05:30",
+    "expires_at": "2026-10-30T19:59:26+05:30"
   }
 ]

@@ -1,5 +1,41 @@
 [
   {
+    "symbol": "PAYTM.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -3.1% vs previous close.",
+    "trigger_ids": [
+      "trg_f77a2dd427a1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e897bf773294",
+    "created_at": "2026-10-30T19:59:26+05:30",
+    "expires_at": "2026-10-30T19:59:26+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.3% vs previous close.",
+    "trigger_ids": [
+      "trg_9b5a4c84c6b8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_c58b4bbf462c",
+    "created_at": "2026-10-30T19:59:26+05:30",
+    "expires_at": "2026-10-30T19:59:26+05:30"
+  },
+  {
     "symbol": "SAILIFE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -133,122 +169,6 @@
     "expires_at": "2026-10-30T18:55:38+05:30"
   },
   {
-    "symbol": "SAILIFE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -5.7% since last observation.",
-    "trigger_ids": [
-      "trg_54fca0d41bf4"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_40281b0b9856",
-    "created_at": "2026-10-30T17:37:31+05:30",
-    "expires_at": "2026-10-30T17:37:31+05:30"
-  },
-  {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.3% since last observation.",
-    "trigger_ids": [
-      "trg_6dc189cf33e2",
-      "trg_1183d7678cfc"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WELSPUNLIV.NS",
-      "score": 66.1,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 66.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=66. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_11533a2653ff",
-    "created_at": "2026-10-30T17:37:31+05:30",
-    "expires_at": "2026-10-30T17:37:31+05:30"
-  },
-  {
-    "symbol": "SAILIFE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.1% since last observation.",
-    "trigger_ids": [
-      "trg_d69605a92e7a",
-      "trg_7b47181c4709"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAILIFE.NS",
-      "score": 66.5,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 66.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=59.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_39ac865a7aea",
-    "created_at": "2026-10-30T17:37:31+05:30",
-    "expires_at": "2026-10-30T17:37:31+05:30"
-  },
-  {
-    "symbol": "DIVISLAB.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +8.5% since last observation.",
-    "trigger_ids": [
-      "trg_9b6942d559c3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "DIVISLAB.NS",
-      "score": 68.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_443b58e66917",
-    "created_at": "2026-10-30T17:37:31+05:30",
-    "expires_at": "2026-10-30T17:37:31+05:30"
-  },
-  {
     "symbol": "THELEELA.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -276,9 +196,9 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_bdf39d6368b6",
-    "created_at": "2026-10-30T17:37:31+05:30",
-    "expires_at": "2026-10-30T17:37:31+05:30"
+    "escalation_id": "esc_0337f12d169d",
+    "created_at": "2026-10-30T16:46:12+05:30",
+    "expires_at": "2026-10-30T16:46:12+05:30"
   },
   {
     "symbol": "PVRINOX.NS",

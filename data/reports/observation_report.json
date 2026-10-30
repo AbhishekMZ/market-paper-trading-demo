@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-10-30T18:55:38+05:30",
+  "as_of": "2026-10-30T19:59:26+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 7,
-  "escalations": 5,
+  "triggers_this_run": 3,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 308,
-    "triggers_detected": 1410,
-    "escalations_created": 880,
+    "observation_runs": 309,
+    "triggers_detected": 1413,
+    "escalations_created": 882,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-10-30T18:55:38+05:30",
+    "last_run": "2026-10-30T19:59:26+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -46,27 +46,6 @@
     ],
     "triggers": [
       {
-        "symbol": "THELEELA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +8.3% since last observation.",
-        "company_name": "Leela Palaces Hotels & Resorts Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 634.25,
-        "previous_price": null,
-        "change_pct": 8.29,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_3692ccc8888c",
-        "trigger_id": "trg_184a21e4cc6f",
-        "detected_at": "2026-10-30T18:54:47+05:30"
-      },
-      {
         "symbol": "SAILIFE.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
@@ -83,30 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_25bf8e2650f0",
-        "trigger_id": "trg_dbc4e44874bf",
-        "detected_at": "2026-10-30T18:55:04+05:30"
-      },
-      {
-        "symbol": "WELSPUNLIV.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.3% since last observation.",
-        "company_name": "Welspun Living Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 219.0800018310547,
-        "previous_price": null,
-        "change_pct": 3.26,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_5ca7c377f934",
-        "trigger_id": "trg_a34d14ae3475",
-        "detected_at": "2026-10-30T18:55:13+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_1c6329ea9d8c",
+        "detected_at": "2026-10-30T19:58:25+05:30"
       },
       {
         "symbol": "WELSPUNLIV.NS",
@@ -125,51 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_5ca7c377f934",
-        "trigger_id": "trg_90eac62049ad",
-        "detected_at": "2026-10-30T18:55:13+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +8.5% since last observation.",
-        "company_name": "Divi's Laboratories Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 9780.0,
-        "previous_price": null,
-        "change_pct": 8.49,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_17b619905910",
-        "trigger_id": "trg_9a28518a568b",
-        "detected_at": "2026-10-30T18:55:21+05:30"
-      },
-      {
-        "symbol": "ABDL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.7% since last observation.",
-        "company_name": "Allied Blenders and Distillers Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 698.25,
-        "previous_price": null,
-        "change_pct": -5.72,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_e2f99a910233",
-        "trigger_id": "trg_436566b8fa8a",
-        "detected_at": "2026-10-30T18:55:38+05:30"
+        "created_escalation_id": "esc_c58b4bbf462c",
+        "trigger_id": "trg_9b5a4c84c6b8",
+        "detected_at": "2026-10-30T19:58:47+05:30"
       },
       {
         "symbol": "PAYTM.NS",
@@ -188,141 +104,26 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_094bf95bee4d",
-        "detected_at": "2026-10-30T18:55:38+05:30"
+        "created_escalation_id": "esc_e897bf773294",
+        "trigger_id": "trg_f77a2dd427a1",
+        "detected_at": "2026-10-30T19:59:26+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "PAYTM.NS",
+        "symbol": "SAILIFE.NS",
         "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
+        "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "THELEELA.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +8.3% since last observation.",
-        "trigger_ids": [
-          "trg_184a21e4cc6f"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "THELEELA.NS",
-          "score": 72.3,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 72.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_3692ccc8888c",
-        "created_at": "2026-10-30T18:55:38+05:30",
-        "expires_at": "2026-10-30T18:55:38+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +8.5% since last observation.",
-        "trigger_ids": [
-          "trg_9a28518a568b"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "DIVISLAB.NS",
-          "score": 68.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_17b619905910",
-        "created_at": "2026-10-30T18:55:38+05:30",
-        "expires_at": "2026-10-30T18:55:38+05:30"
-      },
-      {
         "symbol": "WELSPUNLIV.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.3% since last observation.",
-        "trigger_ids": [
-          "trg_a34d14ae3475",
-          "trg_90eac62049ad"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "WELSPUNLIV.NS",
-          "score": 66.1,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 66.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=66. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": true
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_5ca7c377f934",
-        "created_at": "2026-10-30T18:55:38+05:30",
-        "expires_at": "2026-10-30T18:55:38+05:30"
-      },
-      {
-        "symbol": "ABDL.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -5.7% since last observation.",
-        "trigger_ids": [
-          "trg_436566b8fa8a"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_e2f99a910233",
-        "created_at": "2026-10-30T18:55:38+05:30",
-        "expires_at": "2026-10-30T18:55:38+05:30"
-      },
-      {
-        "symbol": "SAILIFE.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.1% vs previous close.",
+        "reason": "Gap +3.3% vs previous close.",
         "trigger_ids": [
-          "trg_dbc4e44874bf"
+          "trg_9b5a4c84c6b8"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -330,14 +131,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_25bf8e2650f0",
-        "created_at": "2026-10-30T18:55:38+05:30",
-        "expires_at": "2026-10-30T18:55:38+05:30"
+        "escalation_id": "esc_c58b4bbf462c",
+        "created_at": "2026-10-30T19:59:26+05:30",
+        "expires_at": "2026-10-30T19:59:26+05:30"
+      },
+      {
+        "symbol": "PAYTM.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -3.1% vs previous close.",
+        "trigger_ids": [
+          "trg_f77a2dd427a1"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_e897bf773294",
+        "created_at": "2026-10-30T19:59:26+05:30",
+        "expires_at": "2026-10-30T19:59:26+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-10-30T18:54:12+05:30"
+    "as_of": "2026-10-30T19:56:50+05:30"
   }
 }

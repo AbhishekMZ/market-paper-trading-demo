@@ -5,7 +5,7 @@
       "change_pct": 0.2264,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:21+05:30"
+      "updated_at": "2026-10-30T19:56:59+05:30"
     },
     "RELIANCE.NS": {
       "last_price": 1324.199951171875,
@@ -166,14 +166,14 @@
       "change_pct": 4.1318,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:04+05:30"
+      "updated_at": "2026-10-30T19:58:25+05:30"
     },
     "SONACOMS.NS": {
       "last_price": 890.5,
       "change_pct": 1.9345,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:47+05:30"
+      "updated_at": "2026-10-30T19:57:44+05:30"
     },
     "DEEPAKNTR.NS": {
       "last_price": 1788.199951171875,
@@ -376,7 +376,7 @@
       "change_pct": 1.2003,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:21+05:30"
+      "updated_at": "2026-10-30T19:58:58+05:30"
     },
     "LUPIN.NS": {
       "last_price": 2514.800048828125,
@@ -418,7 +418,7 @@
       "change_pct": 0.3221,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:21+05:30"
+      "updated_at": "2026-10-30T19:57:08+05:30"
     },
     "DALBHARAT.NS": {
       "last_price": 1856.199951171875,
@@ -467,7 +467,7 @@
       "change_pct": -1.2791,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:04+05:30"
+      "updated_at": "2026-10-30T19:58:08+05:30"
     },
     "MEDANTA.NS": {
       "last_price": 1479.9000244140625,
@@ -999,7 +999,7 @@
       "change_pct": 0.2025,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:55+05:30"
+      "updated_at": "2026-10-30T19:58:00+05:30"
     },
     "TATACAP.NS": {
       "last_price": 375.04998779296875,
@@ -1027,7 +1027,7 @@
       "change_pct": -3.0952,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:38+05:30"
+      "updated_at": "2026-10-30T19:59:26+05:30"
     },
     "BERGEPAINT.NS": {
       "last_price": 561.2000122070312,
@@ -1356,7 +1356,7 @@
       "change_pct": -0.883,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:47+05:30"
+      "updated_at": "2026-10-30T19:57:34+05:30"
     },
     "CYIENT.NS": {
       "last_price": 1156.699951171875,
@@ -1391,7 +1391,7 @@
       "change_pct": 0.5664,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:29+05:30"
+      "updated_at": "2026-10-30T19:59:07+05:30"
     },
     "PNBHOUSING.NS": {
       "last_price": 1165.4000244140625,
@@ -1482,7 +1482,7 @@
       "change_pct": -0.7349,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:38+05:30"
+      "updated_at": "2026-10-30T19:57:25+05:30"
     },
     "ENGINERSIN.NS": {
       "last_price": 289.5,
@@ -1678,7 +1678,7 @@
       "change_pct": 3.2568,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:13+05:30"
+      "updated_at": "2026-10-30T19:58:47+05:30"
     },
     "BEML.NS": {
       "last_price": 2013.300048828125,
@@ -1937,7 +1937,7 @@
       "change_pct": -1.6826,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:38+05:30"
+      "updated_at": "2026-10-30T19:59:18+05:30"
     },
     "HDBFS.NS": {
       "last_price": 678.0,
@@ -2021,7 +2021,7 @@
       "change_pct": -2.0104,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:55:12+05:30"
+      "updated_at": "2026-10-30T19:58:36+05:30"
     },
     "NUVOCO.NS": {
       "last_price": 337.79998779296875,
@@ -2224,7 +2224,7 @@
       "change_pct": 0.2037,
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
-      "updated_at": "2026-10-30T18:54:30+05:30"
+      "updated_at": "2026-10-30T19:57:16+05:30"
     },
     "GABRIEL.NS": {
       "last_price": 1425.0,
@@ -2234,6 +2234,6 @@
       "updated_at": "2026-10-30T16:44:28+05:30"
     }
   },
-  "last_observation_at": "2026-10-30T18:55:38+05:30",
+  "last_observation_at": "2026-10-30T19:59:26+05:30",
   "last_regime": "NEUTRAL"
 }
