@@ -10353,6 +10353,27 @@
     "detected_at": "2026-10-30T22:40:03+05:30"
   },
   {
+    "symbol": "COHANCE.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "HIGH",
+    "reason": "Moved -6.7% since last observation.",
+    "company_name": "Cohance Lifesciences Ltd.",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 447.04998779296875,
+    "previous_price": null,
+    "change_pct": -6.72,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": false,
+    "blocks_action": false,
+    "created_escalation_id": "esc_9bd05c11cda4",
+    "trigger_id": "trg_84ce02e4a230",
+    "detected_at": "2026-11-02T19:01:45+05:30"
+  },
+  {
     "symbol": "ASAHIINDIA.NS",
     "trigger_type": "LARGE_MOVE",
     "severity": "MEDIUM",
@@ -10369,9 +10390,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": true,
     "blocks_action": false,
-    "created_escalation_id": "esc_2395e824da64",
-    "trigger_id": "trg_9cc998c99016",
-    "detected_at": "2026-11-02T18:43:29+05:30"
+    "created_escalation_id": "esc_7c56add2a8e4",
+    "trigger_id": "trg_c716071a7024",
+    "detected_at": "2026-11-02T19:02:10+05:30"
   },
   {
     "symbol": "ASAHIINDIA.NS",
@@ -10390,9 +10411,30 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
-    "created_escalation_id": "esc_2395e824da64",
-    "trigger_id": "trg_a5ee10bc01b3",
-    "detected_at": "2026-11-02T18:43:29+05:30"
+    "created_escalation_id": "esc_7c56add2a8e4",
+    "trigger_id": "trg_df8840655cb5",
+    "detected_at": "2026-11-02T19:02:10+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "trigger_type": "LARGE_MOVE",
+    "severity": "HIGH",
+    "reason": "Moved +7.8% since last observation.",
+    "company_name": "Saregama India Ltd",
+    "status": "DETECTED",
+    "source": "observation",
+    "price_at_detection": 545.9000244140625,
+    "previous_price": null,
+    "change_pct": 7.77,
+    "market_regime": "NEUTRAL",
+    "news_event_ids": [],
+    "data_quality_flags": [],
+    "recommended_next_step": "",
+    "requires_focused_analysis": true,
+    "blocks_action": false,
+    "created_escalation_id": "esc_7551fb416b92",
+    "trigger_id": "trg_673b02b976a3",
+    "detected_at": "2026-11-02T19:02:11+05:30"
   },
   {
     "symbol": "CASTROLIND.NS",
@@ -10411,9 +10453,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": true,
     "blocks_action": false,
-    "created_escalation_id": "esc_4fd41c4b93d7",
-    "trigger_id": "trg_5075eba630c0",
-    "detected_at": "2026-11-02T18:44:03+05:30"
+    "created_escalation_id": "esc_4903b1bac71b",
+    "trigger_id": "trg_b4b0e155ec4d",
+    "detected_at": "2026-11-02T19:02:28+05:30"
   },
   {
     "symbol": "CASTROLIND.NS",
@@ -10432,9 +10474,9 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
-    "created_escalation_id": "esc_4fd41c4b93d7",
-    "trigger_id": "trg_49de605080bd",
-    "detected_at": "2026-11-02T18:44:03+05:30"
+    "created_escalation_id": "esc_4903b1bac71b",
+    "trigger_id": "trg_457fdd047ebe",
+    "detected_at": "2026-11-02T19:02:28+05:30"
   },
   {
     "symbol": "BHARTIHEXA.NS",
@@ -10453,50 +10495,8 @@
     "recommended_next_step": "",
     "requires_focused_analysis": false,
     "blocks_action": false,
-    "created_escalation_id": "esc_afbeb28d5244",
-    "trigger_id": "trg_92bdcf3c9577",
-    "detected_at": "2026-11-02T18:44:31+05:30"
-  },
-  {
-    "symbol": "KARURVYSYA.NS",
-    "trigger_type": "LARGE_MOVE",
-    "severity": "MEDIUM",
-    "reason": "Moved -3.3% since last observation.",
-    "company_name": "Karur Vysya Bank Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 344.5,
-    "previous_price": null,
-    "change_pct": -3.26,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_44baea14bf62",
-    "trigger_id": "trg_48a6fb7fab3a",
-    "detected_at": "2026-11-02T18:45:09+05:30"
-  },
-  {
-    "symbol": "KARURVYSYA.NS",
-    "trigger_type": "GAP_MOVE",
-    "severity": "LOW",
-    "reason": "Gap -3.3% vs previous close.",
-    "company_name": "Karur Vysya Bank Ltd.",
-    "status": "DETECTED",
-    "source": "observation",
-    "price_at_detection": 344.5,
-    "previous_price": null,
-    "change_pct": -3.2575,
-    "market_regime": "NEUTRAL",
-    "news_event_ids": [],
-    "data_quality_flags": [],
-    "recommended_next_step": "",
-    "requires_focused_analysis": false,
-    "blocks_action": false,
-    "created_escalation_id": "esc_44baea14bf62",
-    "trigger_id": "trg_f69cd3eb7cdb",
-    "detected_at": "2026-11-02T18:45:09+05:30"
+    "created_escalation_id": "esc_ab80299aa17c",
+    "trigger_id": "trg_8b4605a3a677",
+    "detected_at": "2026-11-02T19:02:36+05:30"
   }
 ]

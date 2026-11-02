@@ -5,7 +5,7 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap +2.7% vs previous close.",
     "trigger_ids": [
-      "trg_92bdcf3c9577"
+      "trg_8b4605a3a677"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": false,
@@ -13,28 +13,9 @@
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Logged for observation.",
-    "escalation_id": "esc_afbeb28d5244",
-    "created_at": "2026-11-02T18:45:09+05:30",
-    "expires_at": "2026-11-02T18:45:09+05:30"
-  },
-  {
-    "symbol": "KARURVYSYA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.3% since last observation.",
-    "trigger_ids": [
-      "trg_48a6fb7fab3a",
-      "trg_f69cd3eb7cdb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_44baea14bf62",
-    "created_at": "2026-11-02T18:45:09+05:30",
-    "expires_at": "2026-11-02T18:45:09+05:30"
+    "escalation_id": "esc_ab80299aa17c",
+    "created_at": "2026-11-02T19:02:45+05:30",
+    "expires_at": "2026-11-02T19:02:45+05:30"
   },
   {
     "symbol": "CASTROLIND.NS",
@@ -42,14 +23,14 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved +4.5% since last observation.",
     "trigger_ids": [
-      "trg_5075eba630c0",
-      "trg_49de605080bd"
+      "trg_b4b0e155ec4d",
+      "trg_457fdd047ebe"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": true,
     "focused_analysis_result": {
       "symbol": "CASTROLIND.NS",
-      "score": 65.1,
+      "score": 62.9,
       "label": "WATCH",
       "previous_label": "WATCH",
       "valid_opportunity": false,
@@ -59,15 +40,15 @@
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
       "market_regime": "NEUTRAL",
-      "reason": "Final 65.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=93, portfolio_fit=80, mean_reversion=68.",
-      "strengthened": false
+      "reason": "Final 62.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=96, portfolio_fit=80, trend_following=57. Disagreement: ['relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
     },
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_4fd41c4b93d7",
-    "created_at": "2026-11-02T18:45:09+05:30",
-    "expires_at": "2026-11-02T18:45:09+05:30"
+    "escalation_id": "esc_4903b1bac71b",
+    "created_at": "2026-11-02T19:02:45+05:30",
+    "expires_at": "2026-11-02T19:02:45+05:30"
   },
   {
     "symbol": "ASAHIINDIA.NS",
@@ -75,14 +56,14 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved +4.0% since last observation.",
     "trigger_ids": [
-      "trg_9cc998c99016",
-      "trg_a5ee10bc01b3"
+      "trg_c716071a7024",
+      "trg_df8840655cb5"
     ],
     "action_status": "OPEN",
     "focused_analysis_required": true,
     "focused_analysis_result": {
       "symbol": "ASAHIINDIA.NS",
-      "score": 66.6,
+      "score": 63.5,
       "label": "WATCH",
       "previous_label": "WATCH",
       "valid_opportunity": false,
@@ -92,15 +73,65 @@
       "news_risk_level": "NONE",
       "data_quality_verdict": "OK",
       "market_regime": "NEUTRAL",
-      "reason": "Final 66.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=94, volatility_risk=81, portfolio_fit=80.",
-      "strengthened": false
+      "reason": "Final 63.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=90, portfolio_fit=80, volatility_risk=66.",
+      "strengthened": true
     },
     "manual_review_required": false,
     "email_sent": false,
     "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_2395e824da64",
-    "created_at": "2026-11-02T18:45:09+05:30",
-    "expires_at": "2026-11-02T18:45:09+05:30"
+    "escalation_id": "esc_7c56add2a8e4",
+    "created_at": "2026-11-02T19:02:45+05:30",
+    "expires_at": "2026-11-02T19:02:45+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.8% since last observation.",
+    "trigger_ids": [
+      "trg_673b02b976a3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAREGAMA.NS",
+      "score": 63.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 63.2/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_7551fb416b92",
+    "created_at": "2026-11-02T19:02:45+05:30",
+    "expires_at": "2026-11-02T19:02:45+05:30"
+  },
+  {
+    "symbol": "COHANCE.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -6.7% since last observation.",
+    "trigger_ids": [
+      "trg_84ce02e4a230"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_9bd05c11cda4",
+    "created_at": "2026-11-02T19:02:45+05:30",
+    "expires_at": "2026-11-02T19:02:45+05:30"
   },
   {
     "symbol": "PTCIL.NS",
@@ -2174,24 +2205,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_6b01a35d21bf",
-    "created_at": "2026-10-19T23:15:37+05:30",
-    "expires_at": "2026-10-19T23:15:37+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_905f35d7dd3e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_571b1152b2dd",
     "created_at": "2026-10-19T23:15:37+05:30",
     "expires_at": "2026-10-19T23:15:37+05:30"
   }
