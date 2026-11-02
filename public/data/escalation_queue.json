@@ -1,5 +1,87 @@
 [
   {
+    "symbol": "ASAHIINDIA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.0% vs previous close.",
+    "trigger_ids": [
+      "trg_028a56917098"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7d10a30bfb8a",
+    "created_at": "2026-11-02T21:17:13+05:30",
+    "expires_at": "2026-11-02T21:17:13+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.3% since last observation.",
+    "trigger_ids": [
+      "trg_6cff8e818199"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SHYAMMETL.NS",
+      "score": 72.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 72.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_62d1eec274f5",
+    "created_at": "2026-11-02T21:17:13+05:30",
+    "expires_at": "2026-11-02T21:17:13+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +7.6% since last observation.",
+    "trigger_ids": [
+      "trg_084fd5c32922"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "GLAND.NS",
+      "score": 67.3,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_496133e0fde9",
+    "created_at": "2026-11-02T21:17:13+05:30",
+    "expires_at": "2026-11-02T21:17:13+05:30"
+  },
+  {
     "symbol": "BHARTIHEXA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2153,59 +2235,5 @@
     "escalation_id": "esc_5ad83e0ff948",
     "created_at": "2026-10-20T15:23:16+05:30",
     "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
-    "symbol": "AUROPHARMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_c7d6cadca770"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_f456abc885c4",
-    "created_at": "2026-10-20T15:23:16+05:30",
-    "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
-    "symbol": "LTFOODS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_c2824d4003e2"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d123da8862e2",
-    "created_at": "2026-10-19T23:15:37+05:30",
-    "expires_at": "2026-10-19T23:15:37+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_7541043bc992"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_6b01a35d21bf",
-    "created_at": "2026-10-19T23:15:37+05:30",
-    "expires_at": "2026-10-19T23:15:37+05:30"
   }
 ]

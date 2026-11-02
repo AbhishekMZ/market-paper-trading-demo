@@ -482,7 +482,7 @@ POWERGRID.NS(49.8), ICICIBANK.NS(49.6), ASTRAL.NS(49.1), HDFCLIFE.NS(48.9), AXIS
 - ZYDUSLIFE.NS (WATCH, 69.7): Final 69.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=78. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.
 
 ## 📊 Market-data usage
-- Provider: `yfinance` · calls today: 1003 · total this month: 1003 (no API-key quota)
+- Provider: `yfinance` · calls today: 1505 · total this month: 1505 (no API-key quota)
 
 ## 🧪 Data-quality warnings
 - Already held — adding would require averaging (blocked) and reduces diversification.

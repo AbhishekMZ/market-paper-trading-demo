@@ -1,37 +1,5 @@
 [
   {
-    "ts": "2026-07-14T16:26:20+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 275.54998779296875,
-    "jump_pct": 48.87,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
-    "ts": "2026-07-15T11:54:56+05:30",
-    "symbol": "TATAMOTORS.NS",
-    "issue": "data_insufficient",
-    "price_source": "fallback",
-    "entry_price": null,
-    "mtm_price": null,
-    "price_consistency_check": "FAILED",
-    "anomaly_flags": [],
-    "reasons": [
-      "no current price."
-    ],
-    "action": "shown_not_traded"
-  },
-  {
-    "ts": "2026-07-15T11:55:01+05:30",
-    "symbol": "ITC.NS",
-    "issue": "mtm_price_rejected",
-    "prev_price": 538.92,
-    "rejected_price": 277.3999938964844,
-    "jump_pct": 48.53,
-    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
-  },
-  {
     "ts": "2026-07-15T13:28:34+05:30",
     "symbol": "TATAMOTORS.NS",
     "issue": "data_insufficient",
@@ -6091,6 +6059,45 @@
   },
   {
     "ts": "2026-11-02T17:49:39+05:30",
+    "symbol": "ITC.NS",
+    "issue": "mtm_price_rejected",
+    "prev_price": 538.92,
+    "rejected_price": 266.3999938964844,
+    "jump_pct": 50.57,
+    "action": "kept_last_known_good_price; flagged DATA_ANOMALY; not traded"
+  },
+  {
+    "ts": "2026-11-02T20:05:01+05:30",
+    "symbol": "ITI.NS",
+    "issue": "data_anomaly",
+    "price_source": "history.close",
+    "entry_price": 259.1400146484375,
+    "mtm_price": 259.1400146484375,
+    "price_consistency_check": "PASSED",
+    "anomaly_flags": [
+      "extreme_move_unexplained"
+    ],
+    "reasons": [
+      "day move 20.0% >= 20% with no news/corporate-action flag."
+    ],
+    "action": "blocked_buy_and_excluded_from_marking"
+  },
+  {
+    "ts": "2026-11-02T20:05:13+05:30",
+    "symbol": "JBCHEPHARM.NS",
+    "issue": "data_insufficient",
+    "price_source": "fallback",
+    "entry_price": null,
+    "mtm_price": null,
+    "price_consistency_check": "FAILED",
+    "anomaly_flags": [],
+    "reasons": [
+      "no current price."
+    ],
+    "action": "shown_not_traded"
+  },
+  {
+    "ts": "2026-11-02T20:07:02+05:30",
     "symbol": "ITC.NS",
     "issue": "mtm_price_rejected",
     "prev_price": 538.92,
