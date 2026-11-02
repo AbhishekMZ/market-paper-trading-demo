@@ -1,23 +1,20 @@
 {
-  "as_of": "2026-11-02T21:15:58+05:30",
+  "as_of": "2026-11-03T02:10:38+05:30",
   "provider": "yfinance",
-  "last_successful_run": "2026-11-02T21:15:58+05:30",
+  "last_successful_run": "2026-11-03T02:10:38+05:30",
   "symbols_assessed": 500,
-  "usable_symbols": 498,
-  "rejected_symbols": 2,
-  "price_anomalies": 1,
+  "usable_symbols": 499,
+  "rejected_symbols": 1,
+  "price_anomalies": 0,
   "stale_quotes": 0,
   "missing_news": 500,
-  "anomaly_symbols": [
-    "ITI.NS"
-  ],
+  "anomaly_symbols": [],
   "rejected_symbol_list": [
-    "ITI.NS",
     "JBCHEPHARM.NS"
   ],
-  "overall": "DEGRADED",
+  "overall": "HEALTHY",
   "latest_workflow": "analyze",
-  "checkpoint": "close",
+  "checkpoint": "open",
   "mtm_incidents": 1,
   "universe_source": "csv",
   "universe_source_file": "nifty500.csv",

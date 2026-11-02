@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "BALRAMCHIN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_94e5dfa37ff8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5ad83e0ff948",
-    "created_at": "2026-10-20T15:23:16+05:30",
-    "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
     "symbol": "MOTILALOFS.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2235,5 +2217,23 @@
     "escalation_id": "esc_7d10a30bfb8a",
     "created_at": "2026-11-02T21:17:13+05:30",
     "expires_at": "2026-11-02T21:17:13+05:30"
+  },
+  {
+    "symbol": "ASAHIINDIA.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.8% since last observation.",
+    "trigger_ids": [
+      "trg_4ba52ab684eb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_69525bd083a9",
+    "created_at": "2026-11-03T02:12:00+05:30",
+    "expires_at": "2026-11-03T02:12:00+05:30"
   }
 ]
