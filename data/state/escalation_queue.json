@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "MOTILALOFS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.5% vs previous close.",
-    "trigger_ids": [
-      "trg_b058adc263d8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_6331108ecbde",
-    "created_at": "2026-10-20T18:24:25+05:30",
-    "expires_at": "2026-10-20T18:24:25+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_24c101bec050"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_85a0731faf59",
-    "created_at": "2026-10-20T18:24:25+05:30",
-    "expires_at": "2026-10-20T18:24:25+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_9185d24bc903"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9fdd5d06cc8f",
-    "created_at": "2026-10-20T18:24:25+05:30",
-    "expires_at": "2026-10-20T18:24:25+05:30"
-  },
-  {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -7.6% since last observation.",
-    "trigger_ids": [
-      "trg_50339033522d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ae17d155051f",
-    "created_at": "2026-10-21T16:07:27+05:30",
-    "expires_at": "2026-10-21T16:07:27+05:30"
-  },
-  {
-    "symbol": "NAVINFLUOR.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -6.6% since last observation.",
-    "trigger_ids": [
-      "trg_513b0461aec1"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_62c98a5617a5",
-    "created_at": "2026-10-21T16:07:27+05:30",
-    "expires_at": "2026-10-21T16:07:27+05:30"
-  },
-  {
     "symbol": "ASAHIINDIA.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2294,5 +2204,95 @@
     "escalation_id": "esc_50aa9411f656",
     "created_at": "2026-11-03T18:12:24+05:30",
     "expires_at": "2026-11-03T18:12:24+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.8% vs previous close.",
+    "trigger_ids": [
+      "trg_f396136f0d59"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_df94dc319f76",
+    "created_at": "2026-11-03T20:57:54+05:30",
+    "expires_at": "2026-11-03T20:57:54+05:30"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_9c997b94cc7a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1bd5c6eafead",
+    "created_at": "2026-11-03T20:57:54+05:30",
+    "expires_at": "2026-11-03T20:57:54+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_c39f51e587ab"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_aa86e276a929",
+    "created_at": "2026-11-03T20:57:54+05:30",
+    "expires_at": "2026-11-03T20:57:54+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +3.0% vs previous close.",
+    "trigger_ids": [
+      "trg_2b7598e125fb"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_4ee1d5276dd6",
+    "created_at": "2026-11-03T20:57:54+05:30",
+    "expires_at": "2026-11-03T20:57:54+05:30"
+  },
+  {
+    "symbol": "ASAHIINDIA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.4% vs previous close.",
+    "trigger_ids": [
+      "trg_edb9da247170"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_5e48525bb22c",
+    "created_at": "2026-11-03T20:57:54+05:30",
+    "expires_at": "2026-11-03T20:57:54+05:30"
   }
 ]

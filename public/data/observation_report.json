@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-03T18:12:24+05:30",
+  "as_of": "2026-11-03T20:57:54+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 11,
+  "triggers_this_run": 6,
   "escalations": 5,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 3,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 315,
-    "triggers_detected": 1439,
-    "escalations_created": 899,
+    "observation_runs": 316,
+    "triggers_detected": 1445,
+    "escalations_created": 904,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 153,
     "emails_sent_total": 0,
-    "last_run": "2026-11-03T18:12:24+05:30",
+    "last_run": "2026-11-03T20:57:54+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -47,27 +47,6 @@
     "triggers": [
       {
         "symbol": "ITC.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.1% since last observation.",
-        "company_name": "ITC.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 273.8999938964844,
-        "previous_price": null,
-        "change_pct": 3.12,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_a496cfccddfc",
-        "trigger_id": "trg_c956f098d7c8",
-        "detected_at": "2026-11-03T18:10:28+05:30"
-      },
-      {
-        "symbol": "ITC.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap +2.8% vs previous close.",
@@ -83,9 +62,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_a496cfccddfc",
-        "trigger_id": "trg_40c8b418b2d9",
-        "detected_at": "2026-11-03T18:10:28+05:30"
+        "created_escalation_id": "esc_df94dc319f76",
+        "trigger_id": "trg_f396136f0d59",
+        "detected_at": "2026-11-03T20:55:58+05:30"
       },
       {
         "symbol": "THELEELA.NS",
@@ -104,9 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_50b317ea491e",
-        "detected_at": "2026-11-03T18:10:44+05:30"
+        "created_escalation_id": "esc_1bd5c6eafead",
+        "trigger_id": "trg_9c997b94cc7a",
+        "detected_at": "2026-11-03T20:56:15+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -125,30 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_644700a4969d",
-        "detected_at": "2026-11-03T18:11:09+05:30"
-      },
-      {
-        "symbol": "INDHOTEL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.0% since last observation.",
-        "company_name": "Indian Hotels Co. Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 836.0499877929688,
-        "previous_price": null,
-        "change_pct": 3.01,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_eadd5347fd87",
-        "trigger_id": "trg_03903fbae89c",
-        "detected_at": "2026-11-03T18:11:18+05:30"
+        "created_escalation_id": "esc_aa86e276a929",
+        "trigger_id": "trg_c39f51e587ab",
+        "detected_at": "2026-11-03T20:56:39+05:30"
       },
       {
         "symbol": "GLAND.NS",
@@ -167,30 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_67f2543dedd8",
-        "detected_at": "2026-11-03T18:11:34+05:30"
-      },
-      {
-        "symbol": "ASAHIINDIA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +9.6% since last observation.",
-        "company_name": "Asahi India Glass Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 991.4500122070312,
-        "previous_price": null,
-        "change_pct": 9.56,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_e39c1f302cd9",
-        "trigger_id": "trg_0440c60bec75",
-        "detected_at": "2026-11-03T18:11:59+05:30"
+        "created_escalation_id": "esc_4ee1d5276dd6",
+        "trigger_id": "trg_2b7598e125fb",
+        "detected_at": "2026-11-03T20:57:04+05:30"
       },
       {
         "symbol": "ASAHIINDIA.NS",
@@ -209,30 +146,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_e39c1f302cd9",
-        "trigger_id": "trg_cae1b7f061ab",
-        "detected_at": "2026-11-03T18:11:59+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +9.4% since last observation.",
-        "company_name": "Multi Commodity Exchange of India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3490.10009765625,
-        "previous_price": null,
-        "change_pct": 9.45,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_4b0944ebf2b9",
-        "trigger_id": "trg_ee230f4997af",
-        "detected_at": "2026-11-03T18:12:07+05:30"
+        "created_escalation_id": "esc_5e48525bb22c",
+        "trigger_id": "trg_edb9da247170",
+        "detected_at": "2026-11-03T20:57:29+05:30"
       },
       {
         "symbol": "MCX.NS",
@@ -251,124 +167,26 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_4b0944ebf2b9",
-        "trigger_id": "trg_73e8980a3a92",
-        "detected_at": "2026-11-03T18:12:07+05:30"
-      },
-      {
-        "symbol": "SHYAMMETL.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +4.9% since last observation.",
-        "company_name": "Shyam Metalics and Energy Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1219.5,
-        "previous_price": null,
-        "change_pct": 4.87,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_50aa9411f656",
-        "trigger_id": "trg_39258d0c897a",
-        "detected_at": "2026-11-03T18:12:16+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_129322b6b012",
+        "detected_at": "2026-11-03T20:57:37+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "THELEELA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "SAREGAMA.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
-      },
-      {
-        "symbol": "GLAND.NS",
+        "symbol": "MCX.NS",
         "trigger": "GAP_MOVE",
         "reason": "max_escalations_per_run"
       }
     ],
     "escalations": [
       {
-        "symbol": "ASAHIINDIA.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +9.6% since last observation.",
-        "trigger_ids": [
-          "trg_0440c60bec75",
-          "trg_cae1b7f061ab"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "ASAHIINDIA.NS",
-          "score": 46.1,
-          "label": "DO_NOT_BUY",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 46.1/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=90, portfolio_fit=80, mean_reversion=52. Penalties: extreme_daily_move.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_e39c1f302cd9",
-        "created_at": "2026-11-03T18:12:24+05:30",
-        "expires_at": "2026-11-03T18:12:24+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +9.4% since last observation.",
-        "trigger_ids": [
-          "trg_ee230f4997af",
-          "trg_73e8980a3a92"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "MCX.NS",
-          "score": 47.3,
-          "label": "DO_NOT_BUY",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 47.3/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, mean_reversion=52. Penalties: extreme_daily_move.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_4b0944ebf2b9",
-        "created_at": "2026-11-03T18:12:24+05:30",
-        "expires_at": "2026-11-03T18:12:24+05:30"
-      },
-      {
         "symbol": "ITC.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.1% since last observation.",
+        "reason": "Gap +2.8% vs previous close.",
         "trigger_ids": [
-          "trg_c956f098d7c8",
-          "trg_40c8b418b2d9"
+          "trg_f396136f0d59"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -376,78 +194,86 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_a496cfccddfc",
-        "created_at": "2026-11-03T18:12:24+05:30",
-        "expires_at": "2026-11-03T18:12:24+05:30"
+        "escalation_id": "esc_df94dc319f76",
+        "created_at": "2026-11-03T20:57:54+05:30",
+        "expires_at": "2026-11-03T20:57:54+05:30"
       },
       {
-        "symbol": "INDHOTEL.NS",
-        "severity": "MEDIUM",
+        "symbol": "THELEELA.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.0% since last observation.",
+        "reason": "Gap -2.7% vs previous close.",
         "trigger_ids": [
-          "trg_03903fbae89c"
+          "trg_9c997b94cc7a"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "INDHOTEL.NS",
-          "score": 70.4,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 70.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_eadd5347fd87",
-        "created_at": "2026-11-03T18:12:24+05:30",
-        "expires_at": "2026-11-03T18:12:24+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_1bd5c6eafead",
+        "created_at": "2026-11-03T20:57:54+05:30",
+        "expires_at": "2026-11-03T20:57:54+05:30"
       },
       {
-        "symbol": "SHYAMMETL.NS",
-        "severity": "MEDIUM",
+        "symbol": "SAREGAMA.NS",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +4.9% since last observation.",
+        "reason": "Gap +3.0% vs previous close.",
         "trigger_ids": [
-          "trg_39258d0c897a"
+          "trg_c39f51e587ab"
         ],
         "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SHYAMMETL.NS",
-          "score": 72.1,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 72.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-          "strengthened": true
-        },
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
         "manual_review_required": false,
         "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_50aa9411f656",
-        "created_at": "2026-11-03T18:12:24+05:30",
-        "expires_at": "2026-11-03T18:12:24+05:30"
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_aa86e276a929",
+        "created_at": "2026-11-03T20:57:54+05:30",
+        "expires_at": "2026-11-03T20:57:54+05:30"
+      },
+      {
+        "symbol": "GLAND.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +3.0% vs previous close.",
+        "trigger_ids": [
+          "trg_2b7598e125fb"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_4ee1d5276dd6",
+        "created_at": "2026-11-03T20:57:54+05:30",
+        "expires_at": "2026-11-03T20:57:54+05:30"
+      },
+      {
+        "symbol": "ASAHIINDIA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +5.4% vs previous close.",
+        "trigger_ids": [
+          "trg_edb9da247170"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_5e48525bb22c",
+        "created_at": "2026-11-03T20:57:54+05:30",
+        "expires_at": "2026-11-03T20:57:54+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-03T18:10:19+05:30"
+    "as_of": "2026-11-03T20:55:49+05:30"
   }
 }
