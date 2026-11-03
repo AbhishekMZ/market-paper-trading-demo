@@ -5,96 +5,6 @@
     "action_type": "OBSERVE_ONLY",
     "reason": "Gap -3.5% vs previous close.",
     "trigger_ids": [
-      "trg_ccaa259236b7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_782cd5f2e0d2",
-    "created_at": "2026-10-20T15:23:16+05:30",
-    "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_a4b4f6cb728f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_2db958c9001b",
-    "created_at": "2026-10-20T15:23:16+05:30",
-    "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
-    "symbol": "REDINGTON.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_0bf427cd8ae3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a739792bfaa0",
-    "created_at": "2026-10-20T15:23:16+05:30",
-    "expires_at": "2026-10-20T15:23:16+05:30"
-  },
-  {
-    "symbol": "AUROPHARMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_5d62e1103d01"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_29d67e63f8ef",
-    "created_at": "2026-10-20T18:24:25+05:30",
-    "expires_at": "2026-10-20T18:24:25+05:30"
-  },
-  {
-    "symbol": "BALRAMCHIN.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_5b0ab29b397b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_7cb2a2f415d2",
-    "created_at": "2026-10-20T18:24:25+05:30",
-    "expires_at": "2026-10-20T18:24:25+05:30"
-  },
-  {
-    "symbol": "MOTILALOFS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.5% vs previous close.",
-    "trigger_ids": [
       "trg_b058adc263d8"
     ],
     "action_status": "OPEN",
@@ -2235,5 +2145,154 @@
     "escalation_id": "esc_69525bd083a9",
     "created_at": "2026-11-03T02:12:00+05:30",
     "expires_at": "2026-11-03T02:12:00+05:30"
+  },
+  {
+    "symbol": "ASAHIINDIA.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +9.6% since last observation.",
+    "trigger_ids": [
+      "trg_0440c60bec75",
+      "trg_cae1b7f061ab"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ASAHIINDIA.NS",
+      "score": 46.1,
+      "label": "DO_NOT_BUY",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 46.1/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=90, portfolio_fit=80, mean_reversion=52. Penalties: extreme_daily_move.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_e39c1f302cd9",
+    "created_at": "2026-11-03T18:12:24+05:30",
+    "expires_at": "2026-11-03T18:12:24+05:30"
+  },
+  {
+    "symbol": "MCX.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +9.4% since last observation.",
+    "trigger_ids": [
+      "trg_ee230f4997af",
+      "trg_73e8980a3a92"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "MCX.NS",
+      "score": 47.3,
+      "label": "DO_NOT_BUY",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 47.3/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, mean_reversion=52. Penalties: extreme_daily_move.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_4b0944ebf2b9",
+    "created_at": "2026-11-03T18:12:24+05:30",
+    "expires_at": "2026-11-03T18:12:24+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.1% since last observation.",
+    "trigger_ids": [
+      "trg_c956f098d7c8",
+      "trg_40c8b418b2d9"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a496cfccddfc",
+    "created_at": "2026-11-03T18:12:24+05:30",
+    "expires_at": "2026-11-03T18:12:24+05:30"
+  },
+  {
+    "symbol": "INDHOTEL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.0% since last observation.",
+    "trigger_ids": [
+      "trg_03903fbae89c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "INDHOTEL.NS",
+      "score": 70.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_eadd5347fd87",
+    "created_at": "2026-11-03T18:12:24+05:30",
+    "expires_at": "2026-11-03T18:12:24+05:30"
+  },
+  {
+    "symbol": "SHYAMMETL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.9% since last observation.",
+    "trigger_ids": [
+      "trg_39258d0c897a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SHYAMMETL.NS",
+      "score": 72.1,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 72.1/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=94, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_50aa9411f656",
+    "created_at": "2026-11-03T18:12:24+05:30",
+    "expires_at": "2026-11-03T18:12:24+05:30"
   }
 ]
