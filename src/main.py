@@ -385,6 +385,9 @@ def run(args: argparse.Namespace) -> int:
             )
             if result is not None:
                 executed.append(result.to_dict())
+        if adapter.is_paper:
+            for result in engine.ensure_cash_buffer(prices, buffer_pct=0.20):
+                executed.append(result.to_dict())
 
     # --- process paper buys (risk engine enforces all hard limits) ------- #
     if args.no_action:
