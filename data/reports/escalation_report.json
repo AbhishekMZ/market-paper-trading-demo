@@ -1,86 +1,99 @@
 {
-  "as_of": "2026-11-03T20:57:54+05:30",
+  "as_of": "2026-11-04T18:22:16+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "ITC.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.8% vs previous close.",
+      "symbol": "KOTAKBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_f396136f0d59"
+        "trg_9078d9665517"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_df94dc319f76",
-      "created_at": "2026-11-03T20:57:54+05:30",
-      "expires_at": "2026-11-03T20:57:54+05:30"
-    },
-    {
-      "symbol": "THELEELA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.7% vs previous close.",
-      "trigger_ids": [
-        "trg_9c997b94cc7a"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_1bd5c6eafead",
-      "created_at": "2026-11-03T20:57:54+05:30",
-      "expires_at": "2026-11-03T20:57:54+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_eb6197dba1e0",
+      "created_at": "2026-11-04T18:22:16+05:30",
+      "expires_at": "2026-11-04T18:22:16+05:30"
     },
     {
       "symbol": "SAREGAMA.NS",
-      "severity": "LOW",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.0% vs previous close.",
+      "reason": "Moved +13.3% since last observation.",
       "trigger_ids": [
-        "trg_c39f51e587ab"
+        "trg_dd5bd217a760",
+        "trg_3201198f4417"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAREGAMA.NS",
+        "score": 45.2,
+        "label": "DO_NOT_BUY",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_aa86e276a929",
-      "created_at": "2026-11-03T20:57:54+05:30",
-      "expires_at": "2026-11-03T20:57:54+05:30"
+      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+      "escalation_id": "esc_189d0858fa1b",
+      "created_at": "2026-11-04T18:22:16+05:30",
+      "expires_at": "2026-11-04T18:22:16+05:30"
     },
     {
-      "symbol": "GLAND.NS",
-      "severity": "LOW",
+      "symbol": "PVRINOX.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.0% vs previous close.",
+      "reason": "Moved +3.5% since last observation.",
       "trigger_ids": [
-        "trg_2b7598e125fb"
+        "trg_6b61a56f7983",
+        "trg_18b7a9d52cb3"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "PVRINOX.NS",
+        "score": 68.9,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_4ee1d5276dd6",
-      "created_at": "2026-11-03T20:57:54+05:30",
-      "expires_at": "2026-11-03T20:57:54+05:30"
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_4448a27b8df7",
+      "created_at": "2026-11-04T18:22:16+05:30",
+      "expires_at": "2026-11-04T18:22:16+05:30"
     },
     {
-      "symbol": "ASAHIINDIA.NS",
-      "severity": "LOW",
+      "symbol": "MCX.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +5.4% vs previous close.",
+      "reason": "Moved -5.0% since last observation.",
       "trigger_ids": [
-        "trg_edb9da247170"
+        "trg_7b86c9d68fef",
+        "trg_5f9ddbcb6403"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -88,11 +101,35 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5e48525bb22c",
-      "created_at": "2026-11-03T20:57:54+05:30",
-      "expires_at": "2026-11-03T20:57:54+05:30"
+      "escalation_id": "esc_d9acfb9aa2f5",
+      "created_at": "2026-11-04T18:22:16+05:30",
+      "expires_at": "2026-11-04T18:22:16+05:30"
+    },
+    {
+      "symbol": "TCS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_b4cda4859049"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a8b7a88e7036",
+      "created_at": "2026-11-04T18:22:16+05:30",
+      "expires_at": "2026-11-04T18:22:16+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "KOTAKBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }

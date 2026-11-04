@@ -1,5 +1,126 @@
 [
   {
+    "symbol": "TCS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_b4cda4859049"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a8b7a88e7036",
+    "created_at": "2026-11-04T18:22:16+05:30",
+    "expires_at": "2026-11-04T18:22:16+05:30"
+  },
+  {
+    "symbol": "MCX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -5.0% since last observation.",
+    "trigger_ids": [
+      "trg_7b86c9d68fef",
+      "trg_5f9ddbcb6403"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_d9acfb9aa2f5",
+    "created_at": "2026-11-04T18:22:16+05:30",
+    "expires_at": "2026-11-04T18:22:16+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.5% since last observation.",
+    "trigger_ids": [
+      "trg_6b61a56f7983",
+      "trg_18b7a9d52cb3"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 68.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_4448a27b8df7",
+    "created_at": "2026-11-04T18:22:16+05:30",
+    "expires_at": "2026-11-04T18:22:16+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +13.3% since last observation.",
+    "trigger_ids": [
+      "trg_dd5bd217a760",
+      "trg_3201198f4417"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAREGAMA.NS",
+      "score": 45.2,
+      "label": "DO_NOT_BUY",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_189d0858fa1b",
+    "created_at": "2026-11-04T18:22:16+05:30",
+    "expires_at": "2026-11-04T18:22:16+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_9078d9665517"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_eb6197dba1e0",
+    "created_at": "2026-11-04T18:22:16+05:30",
+    "expires_at": "2026-11-04T18:22:16+05:30"
+  },
+  {
     "symbol": "ASAHIINDIA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2202,97 +2323,5 @@
     "escalation_id": "esc_f4920663f0b6",
     "created_at": "2026-10-21T17:46:26+05:30",
     "expires_at": "2026-10-21T17:46:26+05:30"
-  },
-  {
-    "symbol": "TBOTEK.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_2651c5fbe8a9"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_06c468e9ab2a",
-    "created_at": "2026-10-21T17:46:26+05:30",
-    "expires_at": "2026-10-21T17:46:26+05:30"
-  },
-  {
-    "symbol": "SHYAMMETL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_ec3df64eba3b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_e971aaa674cd",
-    "created_at": "2026-10-21T17:46:26+05:30",
-    "expires_at": "2026-10-21T17:46:26+05:30"
-  },
-  {
-    "symbol": "ETERNAL.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.3% since last observation.",
-    "trigger_ids": [
-      "trg_65941c4f256c"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_40c0efefcd15",
-    "created_at": "2026-10-21T16:07:27+05:30",
-    "expires_at": "2026-10-21T16:07:27+05:30"
-  },
-  {
-    "symbol": "ACMESOLAR.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.5% since last observation.",
-    "trigger_ids": [
-      "trg_d4bdf4067991",
-      "trg_026220944424"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_819b4a9c8c6a",
-    "created_at": "2026-10-21T16:07:27+05:30",
-    "expires_at": "2026-10-21T16:07:27+05:30"
-  },
-  {
-    "symbol": "ASAHIINDIA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.8% since last observation.",
-    "trigger_ids": [
-      "trg_9a518c34dd82",
-      "trg_5d41ccec272b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_6b61ec2aac49",
-    "created_at": "2026-10-21T16:07:27+05:30",
-    "expires_at": "2026-10-21T16:07:27+05:30"
   }
 ]
