@@ -152,7 +152,7 @@ class HybridSignalEngine:
         confidence = self._confidence(results, regime, quality)
 
         # ---- regime + conflict gating ---------------------------------- #
-        label, gating_notes = self._apply_gating(label, regime, conflicts, confidence, quality)
+        label, gating_notes = self._apply_gating(label, regime, conflicts, confidence, quality, results)
 
         risk_level = self._risk_level(final_score, results, regime, quality)
         est_cost = self._estimate_cost(market_data, context)
@@ -204,15 +204,22 @@ class HybridSignalEngine:
             return SignalLabel.DO_NOT_BUY
         return SignalLabel.HIGH_RISK_IGNORE
 
-    def _apply_gating(self, label, regime, conflicts, confidence, quality):
+    def _apply_gating(self, label, regime, conflicts, confidence, quality, results=None):
         notes: List[str] = []
         is_buy = label == SignalLabel.BUY_SMALL_PAPER
 
-        # Conflict handling.
+        # Conflict handling. Bullish mode keeps the buy when trend and relative strength agree.
         if conflicts and is_buy and self.conflict_behavior == "prefer_no_action":
-            label = SignalLabel.WATCH
-            is_buy = False
-            notes.append("Strategy conflict -> downgraded to WATCH (prefer no action).")
+            core = set()
+            for r in results or []:
+                if r.strategy_name in ("trend_following", "relative_strength") and r.signal == POSITIVE and r.score_contribution >= 65:
+                    core.add(r.strategy_name)
+            if core == {"trend_following", "relative_strength"}:
+                notes.append("Strategy conflict kept as BUY: trend and relative strength both agree.")
+            else:
+                label = SignalLabel.WATCH
+                is_buy = False
+                notes.append("Strategy conflict -> downgraded to WATCH (prefer no action).")
 
         # Regime gating.
         if regime is not None:
