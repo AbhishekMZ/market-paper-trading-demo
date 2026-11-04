@@ -1,30 +1,24 @@
 {
-  "as_of": "2026-11-04T18:22:16+05:30",
+  "as_of": "2026-11-04T21:12:47+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 1,
-  "triggers_this_run": 8,
-  "escalations": 5,
+  "triggers_this_run": 5,
+  "escalations": 3,
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "KOTAKBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ],
-  "throttled": 0,
+  "blocked_actions": [],
+  "throttled": 2,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 317,
-    "triggers_detected": 1453,
-    "escalations_created": 909,
+    "observation_runs": 318,
+    "triggers_detected": 1458,
+    "escalations_created": 912,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 154,
     "emails_sent_total": 0,
-    "last_run": "2026-11-04T18:22:16+05:30",
+    "last_run": "2026-11-04T21:12:47+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -68,30 +62,9 @@
         "recommended_next_step": "Block any buy; review if held.",
         "requires_focused_analysis": false,
         "blocks_action": true,
-        "created_escalation_id": "esc_eb6197dba1e0",
-        "trigger_id": "trg_9078d9665517",
-        "detected_at": "2026-11-04T18:20:25+05:30"
-      },
-      {
-        "symbol": "PVRINOX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "PVR INOX Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1577.300048828125,
-        "previous_price": null,
-        "change_pct": 3.5,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_4448a27b8df7",
-        "trigger_id": "trg_6b61a56f7983",
-        "detected_at": "2026-11-04T18:20:42+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_240615a07e67",
+        "detected_at": "2026-11-04T21:10:54+05:30"
       },
       {
         "symbol": "PVRINOX.NS",
@@ -110,30 +83,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_4448a27b8df7",
-        "trigger_id": "trg_18b7a9d52cb3",
-        "detected_at": "2026-11-04T18:20:42+05:30"
-      },
-      {
-        "symbol": "SAREGAMA.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "HIGH",
-        "reason": "Moved +13.3% since last observation.",
-        "company_name": "Saregama India Ltd",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 636.7999877929688,
-        "previous_price": null,
-        "change_pct": 13.27,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_189d0858fa1b",
-        "trigger_id": "trg_dd5bd217a760",
-        "detected_at": "2026-11-04T18:20:59+05:30"
+        "created_escalation_id": "esc_4047bc726444",
+        "trigger_id": "trg_be793432674c",
+        "detected_at": "2026-11-04T21:11:11+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -152,30 +104,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_189d0858fa1b",
-        "trigger_id": "trg_3201198f4417",
-        "detected_at": "2026-11-04T18:20:59+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -5.0% since last observation.",
-        "company_name": "Multi Commodity Exchange of India Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 3315.0,
-        "previous_price": null,
-        "change_pct": -5.02,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_d9acfb9aa2f5",
-        "trigger_id": "trg_7b86c9d68fef",
-        "detected_at": "2026-11-04T18:21:58+05:30"
+        "created_escalation_id": "esc_033a34c6d64d",
+        "trigger_id": "trg_0148b4e6c106",
+        "detected_at": "2026-11-04T21:11:28+05:30"
       },
       {
         "symbol": "MCX.NS",
@@ -194,9 +125,9 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_d9acfb9aa2f5",
-        "trigger_id": "trg_5f9ddbcb6403",
-        "detected_at": "2026-11-04T18:21:58+05:30"
+        "created_escalation_id": "esc_3fcd2f3b3858",
+        "trigger_id": "trg_81f97d2137fa",
+        "detected_at": "2026-11-04T21:12:30+05:30"
       },
       {
         "symbol": "TCS.NS",
@@ -215,123 +146,31 @@
         "recommended_next_step": "",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_a8b7a88e7036",
-        "trigger_id": "trg_b4cda4859049",
-        "detected_at": "2026-11-04T18:22:16+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_469d34f2d842",
+        "detected_at": "2026-11-04T21:12:47+05:30"
       }
     ],
-    "throttled": [],
-    "escalations": [
+    "throttled": [
       {
         "symbol": "KOTAKBANK.NS",
-        "severity": "HIGH",
-        "action_type": "BLOCKED_BY_NEWS",
-        "reason": "High-risk adverse news.",
-        "trigger_ids": [
-          "trg_9078d9665517"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Adverse news — buy blocked.",
-        "escalation_id": "esc_eb6197dba1e0",
-        "created_at": "2026-11-04T18:22:16+05:30",
-        "expires_at": "2026-11-04T18:22:16+05:30"
-      },
-      {
-        "symbol": "SAREGAMA.NS",
-        "severity": "HIGH",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +13.3% since last observation.",
-        "trigger_ids": [
-          "trg_dd5bd217a760",
-          "trg_3201198f4417"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SAREGAMA.NS",
-          "score": 45.2,
-          "label": "DO_NOT_BUY",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_189d0858fa1b",
-        "created_at": "2026-11-04T18:22:16+05:30",
-        "expires_at": "2026-11-04T18:22:16+05:30"
-      },
-      {
-        "symbol": "PVRINOX.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.5% since last observation.",
-        "trigger_ids": [
-          "trg_6b61a56f7983",
-          "trg_18b7a9d52cb3"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "PVRINOX.NS",
-          "score": 68.9,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_4448a27b8df7",
-        "created_at": "2026-11-04T18:22:16+05:30",
-        "expires_at": "2026-11-04T18:22:16+05:30"
-      },
-      {
-        "symbol": "MCX.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -5.0% since last observation.",
-        "trigger_ids": [
-          "trg_7b86c9d68fef",
-          "trg_5f9ddbcb6403"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_d9acfb9aa2f5",
-        "created_at": "2026-11-04T18:22:16+05:30",
-        "expires_at": "2026-11-04T18:22:16+05:30"
+        "trigger": "HIGH_RISK_NEWS",
+        "reason": "cooldown"
       },
       {
         "symbol": "TCS.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
+    "escalations": [
+      {
+        "symbol": "PVRINOX.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -2.5% vs previous close.",
+        "reason": "Gap +3.5% vs previous close.",
         "trigger_ids": [
-          "trg_b4cda4859049"
+          "trg_be793432674c"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -339,20 +178,50 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_a8b7a88e7036",
-        "created_at": "2026-11-04T18:22:16+05:30",
-        "expires_at": "2026-11-04T18:22:16+05:30"
+        "escalation_id": "esc_4047bc726444",
+        "created_at": "2026-11-04T21:12:47+05:30",
+        "expires_at": "2026-11-04T21:12:47+05:30"
+      },
+      {
+        "symbol": "SAREGAMA.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap +13.3% vs previous close.",
+        "trigger_ids": [
+          "trg_0148b4e6c106"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_033a34c6d64d",
+        "created_at": "2026-11-04T21:12:47+05:30",
+        "expires_at": "2026-11-04T21:12:47+05:30"
+      },
+      {
+        "symbol": "MCX.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -5.0% vs previous close.",
+        "trigger_ids": [
+          "trg_81f97d2137fa"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_3fcd2f3b3858",
+        "created_at": "2026-11-04T21:12:47+05:30",
+        "expires_at": "2026-11-04T21:12:47+05:30"
       }
     ],
     "actions_taken": [],
-    "blocked_actions": [
-      {
-        "symbol": "KOTAKBANK.NS",
-        "blocked_by": "NEWS",
-        "trigger": "HIGH_RISK_NEWS"
-      }
-    ],
+    "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-04T18:20:08+05:30"
+    "as_of": "2026-11-04T21:10:36+05:30"
   }
 }
