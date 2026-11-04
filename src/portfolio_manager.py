@@ -98,7 +98,21 @@ class PortfolioManager:
             last = float(last)
             # Reject anomalous marks: keep the last-known-good price, flag, record.
             jump_pct = abs(last - prev) / prev * 100.0 if prev else 0.0
-            if p["symbol"] in anomalous_symbols or jump_pct > mtm_jump_pct:
+            split = _split_factor(float(prev or 0), last)
+            split_applied = False
+            if split and split >= 2:
+                new_qty = int(round(float(p["quantity"]) * split))
+                if new_qty >= 1 and p.get("avg_price"):
+                    p["quantity"] = new_qty
+                    p["avg_price"] = round(float(p["avg_price"]) / split, 4)
+                    self.last_mtm_incidents.append({
+                        "ts": now_ist_iso(), "symbol": p["symbol"], "issue": "split_adjusted",
+                        "prev_price": prev, "new_price": last, "factor": split,
+                        "action": f"Applied {split:g}-for-1 split so the mark can update.",
+                    })
+                    jump_pct = 0.0
+                    split_applied = True
+            if (p["symbol"] in anomalous_symbols or jump_pct > mtm_jump_pct) and not split_applied:
                 self.last_mtm_incidents.append({
                     "ts": now_ist_iso(), "symbol": p["symbol"], "issue": "mtm_price_rejected",
                     "prev_price": prev, "rejected_price": last, "jump_pct": round(jump_pct, 2),
@@ -135,6 +149,17 @@ class PortfolioManager:
         pf["as_of"] = now_ist_iso()
         storage.save_state("portfolio", pf)
         return pf
+
+
+def _split_factor(prev: float, last: float):
+    """Return N when last looks like a 1:N split of prev (within 8%)."""
+    if prev <= 0 or last <= 0 or prev <= last:
+        return None
+    ratio = prev / last
+    for n in (2, 3, 4, 5, 10):
+        if abs(ratio - n) / n <= 0.08:
+            return n
+    return None
 
     # ------------------------------------------------------------------ #
     # Summary for reports / dashboard
