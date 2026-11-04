@@ -252,6 +252,41 @@ class ExecutionEngine:
         return result
 
     # ------------------------------------------------------------------ #
+    # Keep a cash sleeve so the next buy is not rejected for ₹0 cash.
+    # Paper only. Sells a slice of the largest healthy holding.
+    # ------------------------------------------------------------------ #
+    def ensure_cash_buffer(self, prices: Dict[str, Optional[float]], buffer_pct: float = 0.20) -> List[OrderResult]:
+        if not self.adapter.is_paper:
+            return []
+        pf = storage.load_state("portfolio", {})
+        total = float(pf.get("total_value") or 0.0)
+        cash = float(pf.get("cash") or 0.0)
+        target = total * float(buffer_pct)
+        if total <= 0 or cash >= target - 1e-6:
+            return []
+        results: List[OrderResult] = []
+        ranked = sorted(pf.get("positions", []), key=lambda p: float(p.get("current_value") or 0.0), reverse=True)
+        for pos in ranked:
+            if cash >= target:
+                break
+            if pos.get("data_status") == "DATA_ANOMALY":
+                continue
+            symbol = pos.get("symbol")
+            held = int(pos.get("quantity") or 0)
+            price = prices.get(symbol) or pos.get("last_price")
+            if not symbol or held < 1 or not price or float(price) <= 0:
+                continue
+            need = target - cash
+            qty = min(held, max(1, int((need + float(price) - 1e-6) // float(price))))
+            result = self.process_sell(symbol, qty, float(price), f"Paper cash buffer: free ₹{need:.0f} ({buffer_pct:.0%} of book).")
+            if result is not None and result.status == OrderState.FILLED:
+                cash += float(result.price or price) * int(result.quantity or qty)
+                results.append(result)
+                pf = storage.load_state("portfolio", pf)
+                cash = float(pf.get("cash") or cash)
+        return results
+
+    # ------------------------------------------------------------------ #
     # Sell / trim flow (manual-review driven; never auto-forced)
     # ------------------------------------------------------------------ #
     def process_sell(
