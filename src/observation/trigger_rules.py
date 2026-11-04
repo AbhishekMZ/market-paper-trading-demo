@@ -113,8 +113,8 @@ class TriggerRules:
                 if recent_high and price > recent_high * (1 + self.breakout_pct / 100.0):
                     ev(TriggerType.PRICE_BREAKOUT, TriggerSeverity.MEDIUM,
                        f"Price {price:.2f} broke above recent high {recent_high:.2f}.",
-                       requires_focused_analysis=is_buy_candidate,
-                       recommended_next_step="Focused re-analysis → maybe paper buy." if is_buy_candidate else "Watch.")
+                       requires_focused_analysis=True,
+                       recommended_next_step="Focused re-analysis → maybe paper buy.")
                 elif recent_low and price < recent_low * (1 + self.breakdown_pct / 100.0):
                     ev(TriggerType.PRICE_BREAKDOWN, TriggerSeverity.MEDIUM,
                        f"Price {price:.2f} broke below recent low {recent_low:.2f}.",
@@ -126,10 +126,12 @@ class TriggerRules:
                     ev(TriggerType.LARGE_MOVE,
                        TriggerSeverity.HIGH if abs(move) >= 2 * self.intraday_move_pct else TriggerSeverity.MEDIUM,
                        f"Moved {move:+.1f}% since last observation.", change_pct=round(move, 2),
-                       requires_focused_analysis=is_buy_candidate and move > 0)
+                       requires_focused_analysis=move > 0)
             if prev_close and change_pct is not None and abs(change_pct) >= self.gap_pct:
                 ev(TriggerType.GAP_MOVE, TriggerSeverity.LOW,
-                   f"Gap {change_pct:+.1f}% vs previous close.", change_pct=change_pct)
+                   f"Gap {change_pct:+.1f}% vs previous close.", change_pct=change_pct,
+                   requires_focused_analysis=change_pct > 0,
+                   recommended_next_step="Focused re-analysis on an up gap." if change_pct > 0 else "Watch the down gap.")
 
         return out
 
