@@ -15,7 +15,12 @@ git fetch origin main
 
 for attempt in 1 2 3 4 5; do
   echo "Rebasing onto origin/main (attempt ${attempt})."
-  git rebase -X theirs origin/main
+  # No -X theirs: a conflict on the JSON ledger must fail instead of merging two books.
+  if ! git rebase origin/main; then
+    echo "Rebase conflict on generated state. Refusing to auto-merge the ledger."
+    git rebase --abort || true
+    exit 1
+  fi
   if git push origin HEAD:main; then
     exit 0
   fi
