@@ -149,6 +149,11 @@ def run(args: argparse.Namespace) -> int:
     cp_id = checkpoint["id"]
     print(f"[run] checkpoint={cp_id} last={checkpoint['is_last']} day={today_ist_str()}")
 
+    from ledger_reconcile import reconcile_portfolio_from_trades
+    healed = reconcile_portfolio_from_trades()
+    if healed:
+        print(f"[ledger] rebuilt open positions from fills: {healed}")
+
     usage = UsageTracker(md_cfg.get("provider", "yfinance"))
 
     if exec_state.get("kill_switch"):
