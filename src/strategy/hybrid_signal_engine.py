@@ -13,8 +13,10 @@ v1 is deterministic, auditable, and boring by design: no ML, no self-tuning.
 """
 from __future__ import annotations
 
+import json
 from typing import Any, Dict, List, Optional
 
+import storage
 from order_models import DataQuality, RiskLevel, SignalLabel, TradeSignal
 from strategy.base import NEGATIVE, POSITIVE, StrategyPlugin
 from strategy.breakout import BreakoutStrategy
@@ -73,6 +75,7 @@ class HybridSignalEngine:
         # NEUTRAL buys need at least this confidence. Default 0.50 (was hard-coded
         # 0.55) so borderline buy-grade scores are not starved for paper evidence.
         self.neutral_min_confidence = float(scoring.get("neutral_min_confidence", 0.50))
+        self.block_negative_buy_grade = bool(scoring.get("block_buys_on_negative_buy_grade_edge", True))
         self.experimental = scoring.get("experimental_strategies", {})
         self.penalties = configs["scoring"].get("scoring", {}).get("risk_penalties", {})
         self.data_quality_cfg = configs["settings"].get("data_quality", {})
@@ -236,11 +239,29 @@ class HybridSignalEngine:
                     "-> downgraded to WATCH."
                 )
 
+        # Measured buy-grade names have lost money. Do not add more until that edge is >= 0.
+        if label == SignalLabel.BUY_SMALL_PAPER and self.block_negative_buy_grade and self._buy_grade_edge_negative():
+            label = SignalLabel.WATCH
+            notes.append("Buy-grade forward edge is negative -> downgraded to WATCH (no new paper buys).")
+
         # Weak data never becomes a buy.
         if label == SignalLabel.BUY_SMALL_PAPER and quality in (DataQuality.WEAK, DataQuality.MISSING):
             label = SignalLabel.NO_ACTION
             notes.append("Weak/missing data -> no buy.")
         return label, notes
+
+    def _buy_grade_edge_negative(self) -> bool:
+        path = storage.report_file("decision_quality.json")
+        try:
+            with open(path, "r", encoding="utf-8") as fh:
+                metrics = (json.load(fh) or {}).get("metrics") or {}
+        except (OSError, json.JSONDecodeError):
+            return False
+        edge = metrics.get("buy_grade_avg_return_pct")
+        try:
+            return float(edge) < 0
+        except (TypeError, ValueError):
+            return False
 
     def _detect_conflicts(self, results) -> List[str]:
         strong_pos = [r.strategy_name for r in results if r.contributes_to_score and r.score_contribution >= 65 and r.signal == POSITIVE]
