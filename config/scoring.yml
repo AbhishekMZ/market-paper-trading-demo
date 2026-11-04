@@ -39,6 +39,8 @@ hybrid_scoring:
   no_action_threshold: 50
   do_not_buy_threshold: 35
   conflict_behavior: "prefer_no_action"
+  # Stop adding paper buys while measured buy-grade forward return is negative.
+  block_buys_on_negative_buy_grade_edge: true
   risk_off_blocks_new_buys: true
   data_insufficient_blocks_new_buys: true
   # Min confidence to keep a BUY under NEUTRAL regime (below -> WATCH).
