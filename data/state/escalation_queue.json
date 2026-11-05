@@ -1,95 +1,5 @@
 [
   {
-    "symbol": "GLAND.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_531c852c720e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_a704b4d077d2",
-    "created_at": "2026-10-21T18:37:00+05:30",
-    "expires_at": "2026-10-21T18:37:00+05:30"
-  },
-  {
-    "symbol": "AUROPHARMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_9dc5ffc4b793"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5baa705220e0",
-    "created_at": "2026-10-21T18:37:00+05:30",
-    "expires_at": "2026-10-21T18:37:00+05:30"
-  },
-  {
-    "symbol": "SHYAMMETL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.5% vs previous close.",
-    "trigger_ids": [
-      "trg_3a87c3d65b56"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_771640c3b1ba",
-    "created_at": "2026-10-21T21:14:23+05:30",
-    "expires_at": "2026-10-21T21:14:23+05:30"
-  },
-  {
-    "symbol": "TBOTEK.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.6% vs previous close.",
-    "trigger_ids": [
-      "trg_8f3368df5695"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_be2ae73b8fc3",
-    "created_at": "2026-10-21T21:14:23+05:30",
-    "expires_at": "2026-10-21T21:14:23+05:30"
-  },
-  {
-    "symbol": "ASAHIINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_b315f1cd42e2"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_d192de468bd4",
-    "created_at": "2026-10-21T21:14:23+05:30",
-    "expires_at": "2026-10-21T21:14:23+05:30"
-  },
-  {
     "symbol": "PARADEEP.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2323,5 +2233,126 @@
     "escalation_id": "esc_3fcd2f3b3858",
     "created_at": "2026-11-04T21:12:47+05:30",
     "expires_at": "2026-11-04T21:12:47+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +15.6% since last observation.",
+    "trigger_ids": [
+      "trg_921aaaa6dfbc",
+      "trg_1b604c4dc9fe"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "WELSPUNLIV.NS",
+      "score": 66.8,
+      "label": "WATCH",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 66.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['mean_reversion', 'volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_559efa7de447",
+    "created_at": "2026-11-05T19:00:06+05:30",
+    "expires_at": "2026-11-05T19:00:06+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -8.4% since last observation.",
+    "trigger_ids": [
+      "trg_da721ea6fefc"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_b72e9da721ef",
+    "created_at": "2026-11-05T19:00:06+05:30",
+    "expires_at": "2026-11-05T19:00:06+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_500d5a1e50e6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_7015b2779144",
+    "created_at": "2026-11-05T19:00:06+05:30",
+    "expires_at": "2026-11-05T19:00:06+05:30"
+  },
+  {
+    "symbol": "GESHIP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.1% since last observation.",
+    "trigger_ids": [
+      "trg_37ea523092d2",
+      "trg_1df7112940ff"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7df973bc91f9",
+    "created_at": "2026-11-05T19:00:06+05:30",
+    "expires_at": "2026-11-05T19:00:06+05:30"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "severity": "MEDIUM",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Moved +4.0% since last observation.",
+    "trigger_ids": [
+      "trg_d9bdcb6e3964",
+      "trg_3cb1edc9bb94"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "THELEELA.NS",
+      "score": 70.0,
+      "label": "MANUAL_REVIEW",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": true,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.0/100 -> MANUAL_REVIEW [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. One-day index spike -> manual review. Regime score stays on the 20-session read.",
+      "strengthened": false
+    },
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: manual review required.",
+    "escalation_id": "esc_5110b1018e46",
+    "created_at": "2026-11-05T19:00:06+05:30",
+    "expires_at": "2026-11-05T19:00:06+05:30"
   }
 ]
