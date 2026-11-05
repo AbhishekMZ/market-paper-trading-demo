@@ -1,47 +1,14 @@
 {
-  "as_of": "2026-11-05T19:00:06+05:30",
+  "as_of": "2026-11-05T21:14:49+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "WELSPUNLIV.NS",
-      "severity": "HIGH",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +15.6% since last observation.",
+      "reason": "Gap -4.2% vs previous close.",
       "trigger_ids": [
-        "trg_921aaaa6dfbc",
-        "trg_1b604c4dc9fe"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "WELSPUNLIV.NS",
-        "score": 66.8,
-        "label": "WATCH",
-        "previous_label": null,
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 66.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['mean_reversion', 'volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_559efa7de447",
-      "created_at": "2026-11-05T19:00:06+05:30",
-      "expires_at": "2026-11-05T19:00:06+05:30"
-    },
-    {
-      "symbol": "FINCABLES.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -8.4% since last observation.",
-      "trigger_ids": [
-        "trg_da721ea6fefc"
+        "trg_fccc896b978b"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -49,36 +16,35 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b72e9da721ef",
-      "created_at": "2026-11-05T19:00:06+05:30",
-      "expires_at": "2026-11-05T19:00:06+05:30"
+      "escalation_id": "esc_2285c2ccc6c0",
+      "created_at": "2026-11-05T21:14:49+05:30",
+      "expires_at": "2026-11-05T21:14:49+05:30"
     },
     {
-      "symbol": "KOTAKBANK.NS",
-      "severity": "HIGH",
-      "action_type": "BLOCKED_BY_NEWS",
-      "reason": "High-risk adverse news.",
+      "symbol": "REDINGTON.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.8% vs previous close.",
       "trigger_ids": [
-        "trg_500d5a1e50e6"
+        "trg_71fc615090b2"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
       "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Adverse news — buy blocked.",
-      "escalation_id": "esc_7015b2779144",
-      "created_at": "2026-11-05T19:00:06+05:30",
-      "expires_at": "2026-11-05T19:00:06+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_b40bbac6563a",
+      "created_at": "2026-11-05T21:14:49+05:30",
+      "expires_at": "2026-11-05T21:14:49+05:30"
     },
     {
       "symbol": "GESHIP.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.1% since last observation.",
+      "reason": "Gap -7.1% vs previous close.",
       "trigger_ids": [
-        "trg_37ea523092d2",
-        "trg_1df7112940ff"
+        "trg_371a91ae6b1d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -86,18 +52,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7df973bc91f9",
-      "created_at": "2026-11-05T19:00:06+05:30",
-      "expires_at": "2026-11-05T19:00:06+05:30"
+      "escalation_id": "esc_48e1ad93bd2c",
+      "created_at": "2026-11-05T21:14:49+05:30",
+      "expires_at": "2026-11-05T21:14:49+05:30"
     },
     {
       "symbol": "THELEELA.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "MANUAL_REVIEW",
-      "reason": "Moved +4.0% since last observation.",
+      "reason": "Gap +4.0% vs previous close.",
       "trigger_ids": [
-        "trg_d9bdcb6e3964",
-        "trg_3cb1edc9bb94"
+        "trg_f18afdeb3d85"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -119,17 +84,43 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "Focused re-analysis: manual review required.",
-      "escalation_id": "esc_5110b1018e46",
-      "created_at": "2026-11-05T19:00:06+05:30",
-      "expires_at": "2026-11-05T19:00:06+05:30"
+      "escalation_id": "esc_d11869df89b5",
+      "created_at": "2026-11-05T21:14:49+05:30",
+      "expires_at": "2026-11-05T21:14:49+05:30"
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +3.1% vs previous close.",
+      "trigger_ids": [
+        "trg_110bc7972c06"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "INDHOTEL.NS",
+        "score": 68.5,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 68.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_b94c6c8a8212",
+      "created_at": "2026-11-05T21:14:49+05:30",
+      "expires_at": "2026-11-05T21:14:49+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": [
-    {
-      "symbol": "KOTAKBANK.NS",
-      "blocked_by": "NEWS",
-      "trigger": "HIGH_RISK_NEWS"
-    }
-  ]
+  "blocked_actions": []
 }

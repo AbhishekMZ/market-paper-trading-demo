@@ -114375,3 +114375,4 @@
 {"ts": "2026-11-04T21:12:49+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 5, "escalations": 3, "actions": 0}
 {"ts": "2026-11-05T18:57:42+05:30", "event": "LEDGER_RECONCILED", "message": "Rebuilt positions from fills. Open: ['FINCABLES.NS', 'FSL.NS', 'GESHIP.NS', 'ITC.NS', 'REDINGTON.NS', 'WELSPUNLIV.NS']."}
 {"ts": "2026-11-05T19:00:08+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 11, "escalations": 5, "actions": 0}
+{"ts": "2026-11-05T21:14:51+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 6, "escalations": 5, "actions": 0}
