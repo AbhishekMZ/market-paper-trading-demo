@@ -1,5 +1,81 @@
 [
   {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.7% since last observation.",
+    "trigger_ids": [
+      "trg_bf19c900ccd7",
+      "trg_55625aff0917"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a5ee87bac110",
+    "created_at": "2026-11-06T18:47:04+05:30",
+    "expires_at": "2026-11-06T18:47:04+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "HIGH",
+    "action_type": "BLOCKED_BY_NEWS",
+    "reason": "High-risk adverse news.",
+    "trigger_ids": [
+      "trg_29206a48e48b",
+      "trg_00658e7de3d5"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Adverse news — buy blocked.",
+    "escalation_id": "esc_0b820afda1da",
+    "created_at": "2026-11-06T18:47:04+05:30",
+    "expires_at": "2026-11-06T18:47:04+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -7.1% since last observation.",
+    "trigger_ids": [
+      "trg_ff8ba4cdf331",
+      "trg_e6d4f4f65e1f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_05578e1ce672",
+    "created_at": "2026-11-06T18:47:04+05:30",
+    "expires_at": "2026-11-06T18:47:04+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -8.1% since last observation.",
+    "trigger_ids": [
+      "trg_202d7d8eb3b2",
+      "trg_50328a140641"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_39a75b106f12",
+    "created_at": "2026-11-06T18:47:04+05:30",
+    "expires_at": "2026-11-06T18:47:04+05:30"
+  },
+  {
     "symbol": "INDHOTEL.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2266,91 +2342,5 @@
     "escalation_id": "esc_d35037de0fb1",
     "created_at": "2026-10-23T16:06:33+05:30",
     "expires_at": "2026-10-23T16:06:33+05:30"
-  },
-  {
-    "symbol": "SAILIFE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -16.7% since last observation.",
-    "trigger_ids": [
-      "trg_6e8ec8d8ac90"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_adb1cf714fa1",
-    "created_at": "2026-10-23T16:06:33+05:30",
-    "expires_at": "2026-10-23T16:06:33+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_340957b4aa72"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_eed9d2e00029",
-    "created_at": "2026-10-22T21:14:18+05:30",
-    "expires_at": "2026-10-22T21:14:18+05:30"
-  },
-  {
-    "symbol": "HFCL.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -5.0% vs previous close.",
-    "trigger_ids": [
-      "trg_a92af60b93b3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_8883e754e5ae",
-    "created_at": "2026-10-22T17:41:57+05:30",
-    "expires_at": "2026-10-22T17:41:57+05:30"
-  },
-  {
-    "symbol": "SAGILITY.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.2% since last observation.",
-    "trigger_ids": [
-      "trg_551b20af92e6"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAGILITY.NS",
-      "score": 68.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=68.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_f02f88217455",
-    "created_at": "2026-10-22T16:08:37+05:30",
-    "expires_at": "2026-10-22T16:08:37+05:30"
   }
 ]

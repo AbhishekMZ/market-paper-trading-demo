@@ -1,32 +1,15 @@
 {
-  "as_of": "2026-11-05T21:14:49+05:30",
+  "as_of": "2026-11-06T18:47:04+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "WELSPUNLIV.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.2% vs previous close.",
-      "trigger_ids": [
-        "trg_fccc896b978b"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_2285c2ccc6c0",
-      "created_at": "2026-11-05T21:14:49+05:30",
-      "expires_at": "2026-11-05T21:14:49+05:30"
-    },
-    {
       "symbol": "REDINGTON.NS",
-      "severity": "LOW",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.8% vs previous close.",
+      "reason": "Moved -8.1% since last observation.",
       "trigger_ids": [
-        "trg_71fc615090b2"
+        "trg_202d7d8eb3b2",
+        "trg_50328a140641"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -34,17 +17,18 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_b40bbac6563a",
-      "created_at": "2026-11-05T21:14:49+05:30",
-      "expires_at": "2026-11-05T21:14:49+05:30"
+      "escalation_id": "esc_39a75b106f12",
+      "created_at": "2026-11-06T18:47:04+05:30",
+      "expires_at": "2026-11-06T18:47:04+05:30"
     },
     {
-      "symbol": "GESHIP.NS",
-      "severity": "LOW",
+      "symbol": "FINCABLES.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -7.1% vs previous close.",
+      "reason": "Moved -7.1% since last observation.",
       "trigger_ids": [
-        "trg_371a91ae6b1d"
+        "trg_ff8ba4cdf331",
+        "trg_e6d4f4f65e1f"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,75 +36,55 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_48e1ad93bd2c",
-      "created_at": "2026-11-05T21:14:49+05:30",
-      "expires_at": "2026-11-05T21:14:49+05:30"
+      "escalation_id": "esc_05578e1ce672",
+      "created_at": "2026-11-06T18:47:04+05:30",
+      "expires_at": "2026-11-06T18:47:04+05:30"
     },
     {
-      "symbol": "THELEELA.NS",
-      "severity": "LOW",
-      "action_type": "MANUAL_REVIEW",
-      "reason": "Gap +4.0% vs previous close.",
+      "symbol": "KOTAKBANK.NS",
+      "severity": "HIGH",
+      "action_type": "BLOCKED_BY_NEWS",
+      "reason": "High-risk adverse news.",
       "trigger_ids": [
-        "trg_f18afdeb3d85"
+        "trg_29206a48e48b",
+        "trg_00658e7de3d5"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "THELEELA.NS",
-        "score": 70.0,
-        "label": "MANUAL_REVIEW",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": true,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 70.0/100 -> MANUAL_REVIEW [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. One-day index spike -> manual review. Regime score stays on the 20-session read.",
-        "strengthened": false
-      },
-      "manual_review_required": true,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: manual review required.",
-      "escalation_id": "esc_d11869df89b5",
-      "created_at": "2026-11-05T21:14:49+05:30",
-      "expires_at": "2026-11-05T21:14:49+05:30"
-    },
-    {
-      "symbol": "INDHOTEL.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.1% vs previous close.",
-      "trigger_ids": [
-        "trg_110bc7972c06"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "INDHOTEL.NS",
-        "score": 68.5,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 68.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_b94c6c8a8212",
-      "created_at": "2026-11-05T21:14:49+05:30",
-      "expires_at": "2026-11-05T21:14:49+05:30"
+      "final_decision": "Adverse news — buy blocked.",
+      "escalation_id": "esc_0b820afda1da",
+      "created_at": "2026-11-06T18:47:04+05:30",
+      "expires_at": "2026-11-06T18:47:04+05:30"
+    },
+    {
+      "symbol": "WELSPUNLIV.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -4.7% since last observation.",
+      "trigger_ids": [
+        "trg_bf19c900ccd7",
+        "trg_55625aff0917"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_a5ee87bac110",
+      "created_at": "2026-11-06T18:47:04+05:30",
+      "expires_at": "2026-11-06T18:47:04+05:30"
     }
   ],
   "actions_taken": [],
-  "blocked_actions": []
+  "blocked_actions": [
+    {
+      "symbol": "KOTAKBANK.NS",
+      "blocked_by": "NEWS",
+      "trigger": "HIGH_RISK_NEWS"
+    }
+  ]
 }
