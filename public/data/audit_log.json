@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-06T18:47:06+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 8,
+    "escalations": 4,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-05T21:14:51+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15232,35 +15240,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 34.43,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ANANDRATHI.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "BUY_SMALL_PAPER",
-    "final_score": 71.4,
-    "strategy_contributions": {
-      "trend_following": 65.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 57.2,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "BUY_SMALL_PAPER",
-    "reason": "Final 71.4/100 -> BUY_SMALL_PAPER [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 31.73,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],
