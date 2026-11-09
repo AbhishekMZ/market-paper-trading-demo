@@ -1,81 +1,14 @@
 {
-  "as_of": "2026-11-09T19:37:22+05:30",
+  "as_of": "2026-11-09T23:16:56+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "FINCABLES.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +13.0% since last observation.",
-      "trigger_ids": [
-        "trg_b80c97857123",
-        "trg_0a7c7f7155d7"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "FINCABLES.NS",
-        "score": 36.4,
-        "label": "DO_NOT_BUY",
-        "previous_label": null,
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 36.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, mean_reversion=52. Penalties: extreme_daily_move. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_1148d4e015aa",
-      "created_at": "2026-11-09T19:37:22+05:30",
-      "expires_at": "2026-11-09T19:37:22+05:30"
-    },
-    {
-      "symbol": "DIVISLAB.NS",
-      "severity": "HIGH",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +12.1% since last observation.",
-      "trigger_ids": [
-        "trg_f7713dc2ff8a",
-        "trg_6eff33fd4278"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "DIVISLAB.NS",
-        "score": 45.2,
-        "label": "DO_NOT_BUY",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_f37819a62b05",
-      "created_at": "2026-11-09T19:37:22+05:30",
-      "expires_at": "2026-11-09T19:37:22+05:30"
-    },
-    {
       "symbol": "WELSPUNLIV.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.5% since last observation.",
+      "reason": "Gap +4.5% vs previous close.",
       "trigger_ids": [
-        "trg_465686f2b18e",
-        "trg_36783c9866f8"
+        "trg_fa93b717cc7d"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -97,18 +30,49 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_2ced5776a5f9",
-      "created_at": "2026-11-09T19:37:22+05:30",
-      "expires_at": "2026-11-09T19:37:22+05:30"
+      "escalation_id": "esc_dc38e472f8bc",
+      "created_at": "2026-11-09T23:16:56+05:30",
+      "expires_at": "2026-11-09T23:16:56+05:30"
+    },
+    {
+      "symbol": "FINCABLES.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +13.0% vs previous close.",
+      "trigger_ids": [
+        "trg_29366754350f"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "FINCABLES.NS",
+        "score": 36.4,
+        "label": "DO_NOT_BUY",
+        "previous_label": null,
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 36.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, mean_reversion=52. Penalties: extreme_daily_move. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+      "escalation_id": "esc_38952879d6cd",
+      "created_at": "2026-11-09T23:16:56+05:30",
+      "expires_at": "2026-11-09T23:16:56+05:30"
     },
     {
       "symbol": "THELEELA.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -4.6% since last observation.",
+      "reason": "Gap -4.6% vs previous close.",
       "trigger_ids": [
-        "trg_13a6bde98589",
-        "trg_c9e53297b97a"
+        "trg_44d48ed229db"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -116,18 +80,49 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_f46863e45d7c",
-      "created_at": "2026-11-09T19:37:22+05:30",
-      "expires_at": "2026-11-09T19:37:22+05:30"
+      "escalation_id": "esc_79b713d15862",
+      "created_at": "2026-11-09T23:16:56+05:30",
+      "expires_at": "2026-11-09T23:16:56+05:30"
+    },
+    {
+      "symbol": "SONACOMS.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.7% vs previous close.",
+      "trigger_ids": [
+        "trg_f821152d48b1"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SONACOMS.NS",
+        "score": 70.2,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. Buy-grade forward edge is negative -> downgraded to WATCH (no new paper buys).",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_cfeed8a2b693",
+      "created_at": "2026-11-09T23:16:56+05:30",
+      "expires_at": "2026-11-09T23:16:56+05:30"
     },
     {
       "symbol": "SAREGAMA.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.5% since last observation.",
+      "reason": "Gap +4.5% vs previous close.",
       "trigger_ids": [
-        "trg_0c7fc7b2d213",
-        "trg_5aac5d1f975e"
+        "trg_5564e7b81cdf"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -149,9 +144,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_3235bc26ebd9",
-      "created_at": "2026-11-09T19:37:22+05:30",
-      "expires_at": "2026-11-09T19:37:22+05:30"
+      "escalation_id": "esc_361b122b0cb3",
+      "created_at": "2026-11-09T23:16:56+05:30",
+      "expires_at": "2026-11-09T23:16:56+05:30"
     }
   ],
   "actions_taken": [],

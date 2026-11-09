@@ -1,139 +1,5 @@
 [
   {
-    "symbol": "HEXT.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.3% since last observation.",
-    "trigger_ids": [
-      "trg_f7c934560f23"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "HEXT.NS",
-      "score": 67.2,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.2/100 -> WATCH [regime NEUTRAL]. Top: trend_following=84, portfolio_fit=80, volatility_risk=75.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_5224e98f0b58",
-    "created_at": "2026-10-26T16:50:00+05:30",
-    "expires_at": "2026-10-26T16:50:00+05:30"
-  },
-  {
-    "symbol": "COHANCE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.0% since last observation.",
-    "trigger_ids": [
-      "trg_71ee54f3cfb1",
-      "trg_baf1d615af1f"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "COHANCE.NS",
-      "score": 68.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=63.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_43ca733bfe1a",
-    "created_at": "2026-10-26T16:50:00+05:30",
-    "expires_at": "2026-10-26T16:50:00+05:30"
-  },
-  {
-    "symbol": "SAILIFE.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.6% since last observation.",
-    "trigger_ids": [
-      "trg_f3cfe01c960b",
-      "trg_7d96e97b776b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "SAILIFE.NS",
-      "score": 66.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 66.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, volatility_risk=70.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_bf6c26bcf6b0",
-    "created_at": "2026-10-26T16:50:00+05:30",
-    "expires_at": "2026-10-26T16:50:00+05:30"
-  },
-  {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.5% vs previous close.",
-    "trigger_ids": [
-      "trg_38a341628162"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fcc7e7ee2ac6",
-    "created_at": "2026-10-26T18:52:42+05:30",
-    "expires_at": "2026-10-26T18:52:42+05:30"
-  },
-  {
-    "symbol": "COHANCE.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_3877cc81cbef"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_b7f1601e31ad",
-    "created_at": "2026-10-26T18:52:42+05:30",
-    "expires_at": "2026-10-26T18:52:42+05:30"
-  },
-  {
     "symbol": "SAILIFE.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2374,5 +2240,151 @@
     "escalation_id": "esc_3235bc26ebd9",
     "created_at": "2026-11-09T19:37:22+05:30",
     "expires_at": "2026-11-09T19:37:22+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.5% vs previous close.",
+    "trigger_ids": [
+      "trg_fa93b717cc7d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "WELSPUNLIV.NS",
+      "score": 67.8,
+      "label": "WATCH",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 67.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_dc38e472f8bc",
+    "created_at": "2026-11-09T23:16:56+05:30",
+    "expires_at": "2026-11-09T23:16:56+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +13.0% vs previous close.",
+    "trigger_ids": [
+      "trg_29366754350f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "FINCABLES.NS",
+      "score": 36.4,
+      "label": "DO_NOT_BUY",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 36.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, mean_reversion=52. Penalties: extreme_daily_move. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_38952879d6cd",
+    "created_at": "2026-11-09T23:16:56+05:30",
+    "expires_at": "2026-11-09T23:16:56+05:30"
+  },
+  {
+    "symbol": "THELEELA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -4.6% vs previous close.",
+    "trigger_ids": [
+      "trg_44d48ed229db"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_79b713d15862",
+    "created_at": "2026-11-09T23:16:56+05:30",
+    "expires_at": "2026-11-09T23:16:56+05:30"
+  },
+  {
+    "symbol": "SONACOMS.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.7% vs previous close.",
+    "trigger_ids": [
+      "trg_f821152d48b1"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SONACOMS.NS",
+      "score": 70.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. Buy-grade forward edge is negative -> downgraded to WATCH (no new paper buys).",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_cfeed8a2b693",
+    "created_at": "2026-11-09T23:16:56+05:30",
+    "expires_at": "2026-11-09T23:16:56+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.5% vs previous close.",
+    "trigger_ids": [
+      "trg_5564e7b81cdf"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAREGAMA.NS",
+      "score": 62.2,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_361b122b0cb3",
+    "created_at": "2026-11-09T23:16:56+05:30",
+    "expires_at": "2026-11-09T23:16:56+05:30"
   }
 ]
