@@ -1,50 +1,114 @@
 {
-  "as_of": "2026-11-06T20:49:41+05:30",
+  "as_of": "2026-11-09T19:37:22+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "WELSPUNLIV.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.7% vs previous close.",
-      "trigger_ids": [
-        "trg_aebaafd8384c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_364e6be51b73",
-      "created_at": "2026-11-06T20:49:41+05:30",
-      "expires_at": "2026-11-06T20:49:41+05:30"
-    },
-    {
-      "symbol": "REDINGTON.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -8.1% vs previous close.",
-      "trigger_ids": [
-        "trg_f7aaa11ac755"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_52e88dc8b60c",
-      "created_at": "2026-11-06T20:49:41+05:30",
-      "expires_at": "2026-11-06T20:49:41+05:30"
-    },
-    {
       "symbol": "FINCABLES.NS",
-      "severity": "LOW",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -7.1% vs previous close.",
+      "reason": "Moved +13.0% since last observation.",
       "trigger_ids": [
-        "trg_4bc5c0545ccd"
+        "trg_b80c97857123",
+        "trg_0a7c7f7155d7"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "FINCABLES.NS",
+        "score": 36.4,
+        "label": "DO_NOT_BUY",
+        "previous_label": null,
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 36.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, mean_reversion=52. Penalties: extreme_daily_move. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+      "escalation_id": "esc_1148d4e015aa",
+      "created_at": "2026-11-09T19:37:22+05:30",
+      "expires_at": "2026-11-09T19:37:22+05:30"
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "severity": "HIGH",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +12.1% since last observation.",
+      "trigger_ids": [
+        "trg_f7713dc2ff8a",
+        "trg_6eff33fd4278"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "DIVISLAB.NS",
+        "score": 45.2,
+        "label": "DO_NOT_BUY",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+      "escalation_id": "esc_f37819a62b05",
+      "created_at": "2026-11-09T19:37:22+05:30",
+      "expires_at": "2026-11-09T19:37:22+05:30"
+    },
+    {
+      "symbol": "WELSPUNLIV.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.5% since last observation.",
+      "trigger_ids": [
+        "trg_465686f2b18e",
+        "trg_36783c9866f8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "WELSPUNLIV.NS",
+        "score": 67.8,
+        "label": "WATCH",
+        "previous_label": null,
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 67.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_2ced5776a5f9",
+      "created_at": "2026-11-09T19:37:22+05:30",
+      "expires_at": "2026-11-09T19:37:22+05:30"
+    },
+    {
+      "symbol": "THELEELA.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -4.6% since last observation.",
+      "trigger_ids": [
+        "trg_13a6bde98589",
+        "trg_c9e53297b97a"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -52,9 +116,42 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_db6e1b6a611f",
-      "created_at": "2026-11-06T20:49:41+05:30",
-      "expires_at": "2026-11-06T20:49:41+05:30"
+      "escalation_id": "esc_f46863e45d7c",
+      "created_at": "2026-11-09T19:37:22+05:30",
+      "expires_at": "2026-11-09T19:37:22+05:30"
+    },
+    {
+      "symbol": "SAREGAMA.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved +4.5% since last observation.",
+      "trigger_ids": [
+        "trg_0c7fc7b2d213",
+        "trg_5aac5d1f975e"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAREGAMA.NS",
+        "score": 62.2,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
+        "strengthened": false
+      },
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Focused re-analysis: WATCH — not a buy.",
+      "escalation_id": "esc_3235bc26ebd9",
+      "created_at": "2026-11-09T19:37:22+05:30",
+      "expires_at": "2026-11-09T19:37:22+05:30"
     }
   ],
   "actions_taken": [],
