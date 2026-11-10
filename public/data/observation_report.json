@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-10T18:50:55+05:30",
+  "as_of": "2026-11-10T21:16:10+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 6,
   "triggers_this_run": 7,
-  "escalations": 5,
+  "escalations": 2,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 2,
+  "throttled": 5,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 325,
-    "triggers_detected": 1515,
-    "escalations_created": 944,
+    "observation_runs": 326,
+    "triggers_detected": 1522,
+    "escalations_created": 946,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 156,
     "emails_sent_total": 0,
-    "last_run": "2026-11-10T18:50:55+05:30",
+    "last_run": "2026-11-10T21:16:10+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -67,9 +67,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_c52e405b7d52",
-        "trigger_id": "trg_273778436c80",
-        "detected_at": "2026-11-10T18:49:06+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_2e9043fee12f",
+        "detected_at": "2026-11-10T21:14:20+05:30"
       },
       {
         "symbol": "FINCABLES.NS",
@@ -88,9 +88,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_9b9f2bca57b0",
-        "trigger_id": "trg_f9c774fb3c23",
-        "detected_at": "2026-11-10T18:49:22+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_acdc87cfee02",
+        "detected_at": "2026-11-10T21:14:37+05:30"
       },
       {
         "symbol": "THELEELA.NS",
@@ -109,9 +109,9 @@
         "recommended_next_step": "Watch the down gap.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_949af74ae169",
-        "trigger_id": "trg_3e8e9c672bc6",
-        "detected_at": "2026-11-10T18:49:56+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_e0abfa6f3802",
+        "detected_at": "2026-11-10T21:15:10+05:30"
       },
       {
         "symbol": "SONACOMS.NS",
@@ -130,9 +130,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_818d6b1d84f6",
-        "trigger_id": "trg_9f4cad5b4296",
-        "detected_at": "2026-11-10T18:50:13+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_849a59590a8f",
+        "detected_at": "2026-11-10T21:15:28+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -151,9 +151,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_f09405650462",
-        "trigger_id": "trg_2cd84d1ab3bb",
-        "detected_at": "2026-11-10T18:50:21+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_07640efcd5bf",
+        "detected_at": "2026-11-10T21:15:36+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -172,9 +172,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_58e39e86dcc0",
-        "detected_at": "2026-11-10T18:50:38+05:30"
+        "created_escalation_id": "esc_b86cf8982cc7",
+        "trigger_id": "trg_04362592571f",
+        "detected_at": "2026-11-10T21:15:53+05:30"
       },
       {
         "symbol": "GLAND.NS",
@@ -193,71 +193,54 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_de223baf0cf1",
-        "detected_at": "2026-11-10T18:50:46+05:30"
+        "created_escalation_id": "esc_ee04be59f0de",
+        "trigger_id": "trg_744a7793a272",
+        "detected_at": "2026-11-10T21:16:01+05:30"
       }
     ],
     "throttled": [
       {
-        "symbol": "DIVISLAB.NS",
+        "symbol": "WELSPUNLIV.NS",
         "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
+        "reason": "cooldown"
       },
       {
-        "symbol": "GLAND.NS",
+        "symbol": "FINCABLES.NS",
         "trigger": "GAP_MOVE",
-        "reason": "max_escalations_per_run"
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "THELEELA.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "SONACOMS.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      },
+      {
+        "symbol": "SAREGAMA.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
       }
     ],
     "escalations": [
       {
-        "symbol": "WELSPUNLIV.NS",
+        "symbol": "DIVISLAB.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.5% vs previous close.",
+        "reason": "Gap +12.1% vs previous close.",
         "trigger_ids": [
-          "trg_273778436c80"
+          "trg_04362592571f"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "WELSPUNLIV.NS",
-          "score": 67.8,
-          "label": "WATCH",
-          "previous_label": null,
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 67.8/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_c52e405b7d52",
-        "created_at": "2026-11-10T18:50:55+05:30",
-        "expires_at": "2026-11-10T18:50:55+05:30"
-      },
-      {
-        "symbol": "FINCABLES.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +13.0% vs previous close.",
-        "trigger_ids": [
-          "trg_f9c774fb3c23"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "FINCABLES.NS",
-          "score": 36.4,
+          "symbol": "DIVISLAB.NS",
+          "score": 45.2,
           "label": "DO_NOT_BUY",
-          "previous_label": null,
+          "previous_label": "WATCH",
           "valid_opportunity": false,
           "action_allowed": false,
           "manual_review": false,
@@ -265,47 +248,29 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 36.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, news_event_risk=65, mean_reversion=52. Penalties: extreme_daily_move. Disagreement: ['relative_strength'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+          "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
           "strengthened": false
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_9b9f2bca57b0",
-        "created_at": "2026-11-10T18:50:55+05:30",
-        "expires_at": "2026-11-10T18:50:55+05:30"
+        "escalation_id": "esc_b86cf8982cc7",
+        "created_at": "2026-11-10T21:16:10+05:30",
+        "expires_at": "2026-11-10T21:16:10+05:30"
       },
       {
-        "symbol": "THELEELA.NS",
+        "symbol": "GLAND.NS",
         "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -4.6% vs previous close.",
+        "reason": "Gap +4.2% vs previous close.",
         "trigger_ids": [
-          "trg_3e8e9c672bc6"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_949af74ae169",
-        "created_at": "2026-11-10T18:50:55+05:30",
-        "expires_at": "2026-11-10T18:50:55+05:30"
-      },
-      {
-        "symbol": "SONACOMS.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +2.7% vs previous close.",
-        "trigger_ids": [
-          "trg_9f4cad5b4296"
+          "trg_744a7793a272"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
         "focused_analysis_result": {
-          "symbol": "SONACOMS.NS",
-          "score": 70.2,
+          "symbol": "GLAND.NS",
+          "score": 65.8,
           "label": "WATCH",
           "previous_label": "WATCH",
           "valid_opportunity": false,
@@ -315,52 +280,20 @@
           "news_risk_level": "NONE",
           "data_quality_verdict": "OK",
           "market_regime": "NEUTRAL",
-          "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=93, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. Buy-grade forward edge is negative -> downgraded to WATCH (no new paper buys).",
+          "reason": "Final 65.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
           "strengthened": false
         },
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_818d6b1d84f6",
-        "created_at": "2026-11-10T18:50:55+05:30",
-        "expires_at": "2026-11-10T18:50:55+05:30"
-      },
-      {
-        "symbol": "SAREGAMA.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap +4.5% vs previous close.",
-        "trigger_ids": [
-          "trg_2cd84d1ab3bb"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": true,
-        "focused_analysis_result": {
-          "symbol": "SAREGAMA.NS",
-          "score": 62.2,
-          "label": "WATCH",
-          "previous_label": "WATCH",
-          "valid_opportunity": false,
-          "action_allowed": false,
-          "manual_review": false,
-          "blocked_by": null,
-          "news_risk_level": "NONE",
-          "data_quality_verdict": "OK",
-          "market_regime": "NEUTRAL",
-          "reason": "Final 62.2/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
-          "strengthened": false
-        },
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_f09405650462",
-        "created_at": "2026-11-10T18:50:55+05:30",
-        "expires_at": "2026-11-10T18:50:55+05:30"
+        "escalation_id": "esc_ee04be59f0de",
+        "created_at": "2026-11-10T21:16:10+05:30",
+        "expires_at": "2026-11-10T21:16:10+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-10T18:48:48+05:30"
+    "as_of": "2026-11-10T21:14:02+05:30"
   }
 }

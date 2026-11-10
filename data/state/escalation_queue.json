@@ -1,71 +1,5 @@
 [
   {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.0% since last observation.",
-    "trigger_ids": [
-      "trg_892f175056ae",
-      "trg_7ec28dc381e7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "LAURUSLABS.NS",
-      "score": 73.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 73.3/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=97, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_6be6462ad1ea",
-    "created_at": "2026-10-27T16:37:09+05:30",
-    "expires_at": "2026-10-27T16:37:09+05:30"
-  },
-  {
-    "symbol": "PVRINOX.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +4.2% since last observation.",
-    "trigger_ids": [
-      "trg_52c7ad7918da",
-      "trg_1fd9ff55bf75"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "PVRINOX.NS",
-      "score": 69.0,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 69.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_647c8ce11200",
-    "created_at": "2026-10-27T16:37:09+05:30",
-    "expires_at": "2026-10-27T16:37:09+05:30"
-  },
-  {
     "symbol": "CYIENT.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2441,5 +2375,69 @@
     "escalation_id": "esc_f09405650462",
     "created_at": "2026-11-10T18:50:55+05:30",
     "expires_at": "2026-11-10T18:50:55+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +12.1% vs previous close.",
+    "trigger_ids": [
+      "trg_04362592571f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "DIVISLAB.NS",
+      "score": 45.2,
+      "label": "DO_NOT_BUY",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_b86cf8982cc7",
+    "created_at": "2026-11-10T21:16:10+05:30",
+    "expires_at": "2026-11-10T21:16:10+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.2% vs previous close.",
+    "trigger_ids": [
+      "trg_744a7793a272"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "GLAND.NS",
+      "score": 65.8,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 65.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_ee04be59f0de",
+    "created_at": "2026-11-10T21:16:10+05:30",
+    "expires_at": "2026-11-10T21:16:10+05:30"
   }
 ]
