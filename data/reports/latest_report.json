@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T01:16:43+05:30",
+  "generated_at": "2026-11-10T18:01:20+05:30",
   "date": "2026-11-10",
-  "checkpoint": "open",
+  "checkpoint": "close",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
   "warning": "Not an NSE trading day (weekend or holiday) — skipping scan.",
   "api_usage": {
@@ -20,6 +20,6 @@
     "budget_enabled": false,
     "note": "yfinance has no API key/quota; polite limits applied.",
     "calls_today": 0,
-    "last_updated": "2026-11-10T01:16:43+05:30"
+    "last_updated": "2026-11-10T18:01:20+05:30"
   }
 }
