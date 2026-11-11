@@ -1,22 +1,23 @@
 {
-  "as_of": "2026-11-10T21:16:10+05:30",
+  "as_of": "2026-11-11T18:37:30+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "DIVISLAB.NS",
-      "severity": "LOW",
+      "symbol": "REDINGTON.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +12.1% vs previous close.",
+      "reason": "Moved +5.0% since last observation.",
       "trigger_ids": [
-        "trg_04362592571f"
+        "trg_e90e841305d1",
+        "trg_4d99976d80b9"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "DIVISLAB.NS",
-        "score": 45.2,
+        "symbol": "REDINGTON.NS",
+        "score": 44.5,
         "label": "DO_NOT_BUY",
-        "previous_label": "WATCH",
+        "previous_label": null,
         "valid_opportunity": false,
         "action_allowed": false,
         "manual_review": false,
@@ -24,47 +25,33 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 45.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+        "reason": "Final 44.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, mean_reversion=52, relative_strength=49. Disagreement: ['news_event_risk'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_b86cf8982cc7",
-      "created_at": "2026-11-10T21:16:10+05:30",
-      "expires_at": "2026-11-10T21:16:10+05:30"
+      "escalation_id": "esc_2773f62f1ba6",
+      "created_at": "2026-11-11T18:37:30+05:30",
+      "expires_at": "2026-11-11T18:37:30+05:30"
     },
     {
-      "symbol": "GLAND.NS",
+      "symbol": "SAREGAMA.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.2% vs previous close.",
+      "reason": "Gap -2.8% vs previous close.",
       "trigger_ids": [
-        "trg_744a7793a272"
+        "trg_18cea626e5c9"
       ],
       "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "GLAND.NS",
-        "score": 65.8,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 65.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-        "strengthened": false
-      },
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
       "manual_review_required": false,
       "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_ee04be59f0de",
-      "created_at": "2026-11-10T21:16:10+05:30",
-      "expires_at": "2026-11-10T21:16:10+05:30"
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_24a24338f7fe",
+      "created_at": "2026-11-11T18:37:30+05:30",
+      "expires_at": "2026-11-11T18:37:30+05:30"
     }
   ],
   "actions_taken": [],
