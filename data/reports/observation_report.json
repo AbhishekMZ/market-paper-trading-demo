@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-11T18:37:30+05:30",
+  "as_of": "2026-11-11T21:03:27+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 6,
-  "triggers_this_run": 3,
-  "escalations": 2,
+  "triggers_this_run": 2,
+  "escalations": 1,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 0,
+  "throttled": 1,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 327,
-    "triggers_detected": 1525,
-    "escalations_created": 948,
+    "observation_runs": 328,
+    "triggers_detected": 1527,
+    "escalations_created": 949,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 156,
     "emails_sent_total": 0,
-    "last_run": "2026-11-11T18:37:30+05:30",
+    "last_run": "2026-11-11T21:03:27+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -52,27 +52,6 @@
     "triggers": [
       {
         "symbol": "REDINGTON.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +5.0% since last observation.",
-        "company_name": "REDINGTON.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 344.79998779296875,
-        "previous_price": null,
-        "change_pct": 4.96,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_2773f62f1ba6",
-        "trigger_id": "trg_e90e841305d1",
-        "detected_at": "2026-11-11T18:35:47+05:30"
-      },
-      {
-        "symbol": "REDINGTON.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap +5.0% vs previous close.",
@@ -88,9 +67,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_2773f62f1ba6",
-        "trigger_id": "trg_4d99976d80b9",
-        "detected_at": "2026-11-11T18:35:47+05:30"
+        "created_escalation_id": "esc_87882eb021e0",
+        "trigger_id": "trg_1d38c1f3c3ac",
+        "detected_at": "2026-11-11T21:01:44+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -109,21 +88,26 @@
         "recommended_next_step": "Watch the down gap.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_24a24338f7fe",
-        "trigger_id": "trg_18cea626e5c9",
-        "detected_at": "2026-11-11T18:36:56+05:30"
+        "created_escalation_id": null,
+        "trigger_id": "trg_d7d31cb0610d",
+        "detected_at": "2026-11-11T21:02:52+05:30"
       }
     ],
-    "throttled": [],
+    "throttled": [
+      {
+        "symbol": "SAREGAMA.NS",
+        "trigger": "GAP_MOVE",
+        "reason": "cooldown"
+      }
+    ],
     "escalations": [
       {
         "symbol": "REDINGTON.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +5.0% since last observation.",
+        "reason": "Gap +5.0% vs previous close.",
         "trigger_ids": [
-          "trg_e90e841305d1",
-          "trg_4d99976d80b9"
+          "trg_1d38c1f3c3ac"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -145,32 +129,14 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_2773f62f1ba6",
-        "created_at": "2026-11-11T18:37:30+05:30",
-        "expires_at": "2026-11-11T18:37:30+05:30"
-      },
-      {
-        "symbol": "SAREGAMA.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -2.8% vs previous close.",
-        "trigger_ids": [
-          "trg_18cea626e5c9"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_24a24338f7fe",
-        "created_at": "2026-11-11T18:37:30+05:30",
-        "expires_at": "2026-11-11T18:37:30+05:30"
+        "escalation_id": "esc_87882eb021e0",
+        "created_at": "2026-11-11T21:03:27+05:30",
+        "expires_at": "2026-11-11T21:03:27+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-11T18:35:21+05:30"
+    "as_of": "2026-11-11T21:01:18+05:30"
   }
 }

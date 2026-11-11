@@ -1,10 +1,10 @@
 # Observation Report
 
-_As of 2026-11-11T18:37:30+05:30 — checkpoint close_
+_As of 2026-11-11T21:03:27+05:30 — checkpoint close_
 
 - Mode: **lightweight_monitoring**
 - Watchlist size: **15**  |  Observed: **15**
-- Triggers this run: **3**  |  Escalations: **2**
+- Triggers this run: **2**  |  Escalations: **1**
 - Paper actions: **0**  |  Blocked: **0**  |  Emails: **0**
 
 > PAPER TRADING ONLY. Swift action means swift PAPER action or a manual-review alert — never a real order.

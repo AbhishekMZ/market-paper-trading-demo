@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-11-11T18:37:30+05:30",
+  "as_of": "2026-11-11T21:03:27+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "REDINGTON.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +5.0% since last observation.",
+      "reason": "Gap +5.0% vs previous close.",
       "trigger_ids": [
-        "trg_e90e841305d1",
-        "trg_4d99976d80b9"
+        "trg_1d38c1f3c3ac"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -31,27 +30,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_2773f62f1ba6",
-      "created_at": "2026-11-11T18:37:30+05:30",
-      "expires_at": "2026-11-11T18:37:30+05:30"
-    },
-    {
-      "symbol": "SAREGAMA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.8% vs previous close.",
-      "trigger_ids": [
-        "trg_18cea626e5c9"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_24a24338f7fe",
-      "created_at": "2026-11-11T18:37:30+05:30",
-      "expires_at": "2026-11-11T18:37:30+05:30"
+      "escalation_id": "esc_87882eb021e0",
+      "created_at": "2026-11-11T21:03:27+05:30",
+      "expires_at": "2026-11-11T21:03:27+05:30"
     }
   ],
   "actions_taken": [],

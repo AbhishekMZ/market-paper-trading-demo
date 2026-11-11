@@ -1,5 +1,37 @@
 [
   {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +5.0% vs previous close.",
+    "trigger_ids": [
+      "trg_1d38c1f3c3ac"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "REDINGTON.NS",
+      "score": 44.5,
+      "label": "DO_NOT_BUY",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 44.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, mean_reversion=52, relative_strength=49. Disagreement: ['news_event_risk'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_87882eb021e0",
+    "created_at": "2026-11-11T21:03:27+05:30",
+    "expires_at": "2026-11-11T21:03:27+05:30"
+  },
+  {
     "symbol": "SAREGAMA.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2432,24 +2464,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_ad318a153612",
-    "created_at": "2026-10-27T18:13:11+05:30",
-    "expires_at": "2026-10-27T18:13:11+05:30"
-  },
-  {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.0% vs previous close.",
-    "trigger_ids": [
-      "trg_4d1e62b604b3"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_463d48b472ab",
     "created_at": "2026-10-27T18:13:11+05:30",
     "expires_at": "2026-10-27T18:13:11+05:30"
   }

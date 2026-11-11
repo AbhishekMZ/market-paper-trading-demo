@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-11T18:37:32+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 3,
+    "escalations": 2,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-10T21:16:12+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15103,37 +15111,6 @@
     ],
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "INDHOTEL.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 70.4,
-    "strategy_contributions": {
-      "trend_following": 86.2,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 32.9,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 70.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.3,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
   }
 ]
