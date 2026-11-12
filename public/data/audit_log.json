@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-12T19:25:16+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 7,
+    "escalations": 4,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-11T21:03:29+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15060,34 +15068,5 @@
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "BHARTIHEXA.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 69.6,
-    "strategy_contributions": {
-      "trend_following": 77.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 40.5,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 69.6/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=77.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.58,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
   }
 ]
