@@ -1,77 +1,5 @@
 [
   {
-    "symbol": "PVRINOX.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.2% vs previous close.",
-    "trigger_ids": [
-      "trg_eedc60aa2644"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ad318a153612",
-    "created_at": "2026-10-27T18:13:11+05:30",
-    "expires_at": "2026-10-27T18:13:11+05:30"
-  },
-  {
-    "symbol": "CYIENT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -4.9% vs previous close.",
-    "trigger_ids": [
-      "trg_ac2d559e1e08"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_ad08db608d95",
-    "created_at": "2026-10-27T18:13:11+05:30",
-    "expires_at": "2026-10-27T18:13:11+05:30"
-  },
-  {
-    "symbol": "HEXT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.9% vs previous close.",
-    "trigger_ids": [
-      "trg_26ef919a7edf"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_391718212064",
-    "created_at": "2026-10-27T18:13:11+05:30",
-    "expires_at": "2026-10-27T18:13:11+05:30"
-  },
-  {
-    "symbol": "PAYTM.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_075230a5e0b8"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_07cd3e2f94a8",
-    "created_at": "2026-10-27T18:13:11+05:30",
-    "expires_at": "2026-10-27T18:13:11+05:30"
-  },
-  {
     "symbol": "LAURUSLABS.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2466,5 +2394,108 @@
     "escalation_id": "esc_87882eb021e0",
     "created_at": "2026-11-11T21:03:27+05:30",
     "expires_at": "2026-11-11T21:03:27+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.2% since last observation.",
+    "trigger_ids": [
+      "trg_cbfd5ca79768",
+      "trg_2bddc5928922"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a9c0bb348806",
+    "created_at": "2026-11-12T19:25:15+05:30",
+    "expires_at": "2026-11-12T19:25:15+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.1% since last observation.",
+    "trigger_ids": [
+      "trg_388e1ec0f0d3",
+      "trg_1061324cce07"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "REDINGTON.NS",
+      "score": 44.5,
+      "label": "DO_NOT_BUY",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 44.5/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: news_event_risk=65, mean_reversion=52, relative_strength=49. Disagreement: ['news_event_risk'] positive vs ['trend_following', 'volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_ce6983f554a5",
+    "created_at": "2026-11-12T19:25:15+05:30",
+    "expires_at": "2026-11-12T19:25:15+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.4% since last observation.",
+    "trigger_ids": [
+      "trg_d2b832db62e4",
+      "trg_6e92d99a92ca"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 68.9,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_48429fa93e92",
+    "created_at": "2026-11-12T19:25:15+05:30",
+    "expires_at": "2026-11-12T19:25:15+05:30"
+  },
+  {
+    "symbol": "FSL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_356a586dff75"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e1a71c9a0b94",
+    "created_at": "2026-11-12T19:25:15+05:30",
+    "expires_at": "2026-11-12T19:25:15+05:30"
   }
 ]

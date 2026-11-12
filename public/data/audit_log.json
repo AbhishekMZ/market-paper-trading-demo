@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-11T21:03:29+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 2,
+    "escalations": 1,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-11T18:37:32+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15081,36 +15089,5 @@
       "No relevant news; strategy does not contribute."
     ],
     "conflicts": []
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "DIVISLAB.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 70.2,
-    "strategy_contributions": {
-      "trend_following": 83.2,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 21.3,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 70.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.45,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
-    ]
   }
 ]
