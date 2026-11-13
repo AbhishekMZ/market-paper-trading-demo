@@ -1,38 +1,5 @@
 [
   {
-    "symbol": "CHENNPETRO.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +5.9% since last observation.",
-    "trigger_ids": [
-      "trg_dc2117fa936e",
-      "trg_21e9bd45469d"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "CHENNPETRO.NS",
-      "score": 65.9,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 65.9/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=76. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_5749297d4812",
-    "created_at": "2026-10-28T17:19:44+05:30",
-    "expires_at": "2026-10-28T17:19:44+05:30"
-  },
-  {
     "symbol": "TBOTEK.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
@@ -2540,5 +2507,37 @@
     "escalation_id": "esc_40848f629fc4",
     "created_at": "2026-11-13T18:53:21+05:30",
     "expires_at": "2026-11-13T18:53:21+05:30"
+  },
+  {
+    "symbol": "GESHIP.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.7% vs previous close.",
+    "trigger_ids": [
+      "trg_8b7d1cb24135"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "GESHIP.NS",
+      "score": 68.8,
+      "label": "WATCH",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, news_event_risk=65. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_0cac6e3597e8",
+    "created_at": "2026-11-13T21:08:43+05:30",
+    "expires_at": "2026-11-13T21:08:43+05:30"
   }
 ]

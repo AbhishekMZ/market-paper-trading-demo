@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-11-13T18:53:21+05:30",
+  "as_of": "2026-11-13T21:08:43+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "GESHIP.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +4.7% since last observation.",
+      "reason": "Gap +4.7% vs previous close.",
       "trigger_ids": [
-        "trg_5cbf70b46402",
-        "trg_7a37c668aaea"
+        "trg_8b7d1cb24135"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -31,27 +30,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_df30391c7d41",
-      "created_at": "2026-11-13T18:53:21+05:30",
-      "expires_at": "2026-11-13T18:53:21+05:30"
-    },
-    {
-      "symbol": "REDINGTON.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.6% vs previous close.",
-      "trigger_ids": [
-        "trg_418e2f7fe571"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_40848f629fc4",
-      "created_at": "2026-11-13T18:53:21+05:30",
-      "expires_at": "2026-11-13T18:53:21+05:30"
+      "escalation_id": "esc_0cac6e3597e8",
+      "created_at": "2026-11-13T21:08:43+05:30",
+      "expires_at": "2026-11-13T21:08:43+05:30"
     }
   ],
   "actions_taken": [],
