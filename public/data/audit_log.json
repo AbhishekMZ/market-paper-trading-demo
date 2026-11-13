@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-12T21:40:09+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 4,
+    "escalations": 3,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-12T19:25:16+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -15037,36 +15045,5 @@
       "No relevant news; strategy does not contribute."
     ],
     "conflicts": []
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "ADANIPORTS.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 69.4,
-    "strategy_contributions": {
-      "trend_following": 72.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 70.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 31.9,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=72. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 32.59,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
-    ]
   }
 ]

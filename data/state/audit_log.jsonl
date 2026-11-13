@@ -114386,3 +114386,4 @@
 {"ts": "2026-11-11T21:03:29+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 2, "escalations": 1, "actions": 0}
 {"ts": "2026-11-12T19:25:16+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 7, "escalations": 4, "actions": 0}
 {"ts": "2026-11-12T21:40:09+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 4, "escalations": 3, "actions": 0}
+{"ts": "2026-11-13T18:53:23+05:30", "event": "OBSERVE_ONLY_RUN", "focused_symbol": null, "triggers": 3, "escalations": 2, "actions": 0}

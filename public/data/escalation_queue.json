@@ -1,5 +1,56 @@
 [
   {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_418e2f7fe571"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_40848f629fc4",
+    "created_at": "2026-11-13T18:53:21+05:30",
+    "expires_at": "2026-11-13T18:53:21+05:30"
+  },
+  {
+    "symbol": "GESHIP.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +4.7% since last observation.",
+    "trigger_ids": [
+      "trg_5cbf70b46402",
+      "trg_7a37c668aaea"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "GESHIP.NS",
+      "score": 68.8,
+      "label": "WATCH",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, news_event_risk=65. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_df30391c7d41",
+    "created_at": "2026-11-13T18:53:21+05:30",
+    "expires_at": "2026-11-13T18:53:21+05:30"
+  },
+  {
     "symbol": "PVRINOX.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2489,41 +2540,5 @@
     "escalation_id": "esc_5749297d4812",
     "created_at": "2026-10-28T17:19:44+05:30",
     "expires_at": "2026-10-28T17:19:44+05:30"
-  },
-  {
-    "symbol": "PAYTM.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.2% vs previous close.",
-    "trigger_ids": [
-      "trg_2bab1f37c785"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_9d3abb50083f",
-    "created_at": "2026-10-27T22:07:49+05:30",
-    "expires_at": "2026-10-27T22:07:49+05:30"
-  },
-  {
-    "symbol": "HEXT.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.9% vs previous close.",
-    "trigger_ids": [
-      "trg_2bf77210a72b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_fc21aad8b09c",
-    "created_at": "2026-10-27T22:07:49+05:30",
-    "expires_at": "2026-10-27T22:07:49+05:30"
   }
 ]
