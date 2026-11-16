@@ -1,5 +1,107 @@
 [
   {
+    "symbol": "SAREGAMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_86e1e4828364"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "SAREGAMA.NS",
+      "score": 63.4,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 63.4/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
+      "strengthened": true
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_d7fce039c773",
+    "created_at": "2026-11-16T19:25:32+05:30",
+    "expires_at": "2026-11-16T19:25:32+05:30"
+  },
+  {
+    "symbol": "REDINGTON.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.6% vs previous close.",
+    "trigger_ids": [
+      "trg_618c3083404d"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_bed4c0863bb8",
+    "created_at": "2026-11-16T19:25:32+05:30",
+    "expires_at": "2026-11-16T19:25:32+05:30"
+  },
+  {
+    "symbol": "DIVISLAB.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.2% since last observation.",
+    "trigger_ids": [
+      "trg_5d353737d650",
+      "trg_df187f1fb2d8"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_840ac8af8f60",
+    "created_at": "2026-11-16T19:25:32+05:30",
+    "expires_at": "2026-11-16T19:25:32+05:30"
+  },
+  {
+    "symbol": "ITC.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +3.5% since last observation.",
+    "trigger_ids": [
+      "trg_44e9d56e9616",
+      "trg_90892700ec92"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "ITC.NS",
+      "score": 36.2,
+      "label": "DO_NOT_BUY",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 36.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: breakout=48, mean_reversion=40, trend_following=39.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_1988b9afcca8",
+    "created_at": "2026-11-16T19:25:32+05:30",
+    "expires_at": "2026-11-16T19:25:32+05:30"
+  },
+  {
     "symbol": "GESHIP.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2439,105 +2541,5 @@
     "escalation_id": "esc_ef03bf48143e",
     "created_at": "2026-10-29T17:39:16+05:30",
     "expires_at": "2026-10-29T17:39:16+05:30"
-  },
-  {
-    "symbol": "CHENNPETRO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_8ff5bad1cb83"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_6c356299f905",
-    "created_at": "2026-10-28T22:45:23+05:30",
-    "expires_at": "2026-10-28T22:45:23+05:30"
-  },
-  {
-    "symbol": "CHENNPETRO.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -3.3% vs previous close.",
-    "trigger_ids": [
-      "trg_a4d78676e974"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_dc9e9f27a198",
-    "created_at": "2026-10-28T18:44:27+05:30",
-    "expires_at": "2026-10-28T18:44:27+05:30"
-  },
-  {
-    "symbol": "WELSPUNLIV.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.1% since last observation.",
-    "trigger_ids": [
-      "trg_8c7adb22c96b"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "WELSPUNLIV.NS",
-      "score": 67.0,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.0/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=61.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_71ddec57fbe2",
-    "created_at": "2026-10-28T17:19:44+05:30",
-    "expires_at": "2026-10-28T17:19:44+05:30"
-  },
-  {
-    "symbol": "TBOTEK.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +3.8% since last observation.",
-    "trigger_ids": [
-      "trg_5dd58f4ae9ab"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "TBOTEK.NS",
-      "score": 69.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 69.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, volatility_risk=97, portfolio_fit=80. Disagreement: ['relative_strength', 'mean_reversion', 'volatility_risk', 'portfolio_fit'] positive vs ['trend_following'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_863bfa3248b5",
-    "created_at": "2026-10-28T17:19:44+05:30",
-    "expires_at": "2026-10-28T17:19:44+05:30"
   }
 ]

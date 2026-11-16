@@ -1,21 +1,22 @@
 {
-  "as_of": "2026-11-13T21:08:43+05:30",
+  "as_of": "2026-11-16T19:25:32+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "GESHIP.NS",
-      "severity": "LOW",
+      "symbol": "ITC.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +4.7% vs previous close.",
+      "reason": "Moved +3.5% since last observation.",
       "trigger_ids": [
-        "trg_8b7d1cb24135"
+        "trg_44e9d56e9616",
+        "trg_90892700ec92"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "GESHIP.NS",
-        "score": 68.8,
-        "label": "WATCH",
+        "symbol": "ITC.NS",
+        "score": 36.2,
+        "label": "DO_NOT_BUY",
         "previous_label": null,
         "valid_opportunity": false,
         "action_allowed": false,
@@ -24,15 +25,84 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 68.8/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=92, news_event_risk=65. Disagreement: ['trend_following', 'relative_strength', 'news_event_risk'] positive vs ['portfolio_fit'] negative.",
+        "reason": "Final 36.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: breakout=48, mean_reversion=40, trend_following=39.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
+      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+      "escalation_id": "esc_1988b9afcca8",
+      "created_at": "2026-11-16T19:25:32+05:30",
+      "expires_at": "2026-11-16T19:25:32+05:30"
+    },
+    {
+      "symbol": "DIVISLAB.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -3.2% since last observation.",
+      "trigger_ids": [
+        "trg_5d353737d650",
+        "trg_df187f1fb2d8"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_840ac8af8f60",
+      "created_at": "2026-11-16T19:25:32+05:30",
+      "expires_at": "2026-11-16T19:25:32+05:30"
+    },
+    {
+      "symbol": "REDINGTON.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.6% vs previous close.",
+      "trigger_ids": [
+        "trg_618c3083404d"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_bed4c0863bb8",
+      "created_at": "2026-11-16T19:25:32+05:30",
+      "expires_at": "2026-11-16T19:25:32+05:30"
+    },
+    {
+      "symbol": "SAREGAMA.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +2.5% vs previous close.",
+      "trigger_ids": [
+        "trg_86e1e4828364"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": true,
+      "focused_analysis_result": {
+        "symbol": "SAREGAMA.NS",
+        "score": 63.4,
+        "label": "WATCH",
+        "previous_label": "WATCH",
+        "valid_opportunity": false,
+        "action_allowed": false,
+        "manual_review": false,
+        "blocked_by": null,
+        "news_risk_level": "NONE",
+        "data_quality_verdict": "OK",
+        "market_regime": "NEUTRAL",
+        "reason": "Final 63.4/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
+        "strengthened": true
+      },
+      "manual_review_required": false,
+      "email_sent": false,
       "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_0cac6e3597e8",
-      "created_at": "2026-11-13T21:08:43+05:30",
-      "expires_at": "2026-11-13T21:08:43+05:30"
+      "escalation_id": "esc_d7fce039c773",
+      "created_at": "2026-11-16T19:25:32+05:30",
+      "expires_at": "2026-11-16T19:25:32+05:30"
     }
   ],
   "actions_taken": [],
