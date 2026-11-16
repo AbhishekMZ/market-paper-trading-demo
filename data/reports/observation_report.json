@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-16T19:25:32+05:30",
+  "as_of": "2026-11-16T22:49:15+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 6,
-  "triggers_this_run": 6,
+  "triggers_this_run": 4,
   "escalations": 4,
   "actions_taken": [],
   "blocked_actions": [],
   "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 333,
-    "triggers_detected": 1549,
-    "escalations_created": 963,
+    "observation_runs": 334,
+    "triggers_detected": 1553,
+    "escalations_created": 967,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 156,
     "emails_sent_total": 0,
-    "last_run": "2026-11-16T19:25:32+05:30",
+    "last_run": "2026-11-16T22:49:15+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -52,27 +52,6 @@
     "triggers": [
       {
         "symbol": "ITC.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved +3.5% since last observation.",
-        "company_name": "ITC.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 295.1000061035156,
-        "previous_price": null,
-        "change_pct": 3.54,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": true,
-        "blocks_action": false,
-        "created_escalation_id": "esc_1988b9afcca8",
-        "trigger_id": "trg_44e9d56e9616",
-        "detected_at": "2026-11-16T19:23:33+05:30"
-      },
-      {
-        "symbol": "ITC.NS",
         "trigger_type": "GAP_MOVE",
         "severity": "LOW",
         "reason": "Gap +3.5% vs previous close.",
@@ -88,9 +67,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_1988b9afcca8",
-        "trigger_id": "trg_90892700ec92",
-        "detected_at": "2026-11-16T19:23:33+05:30"
+        "created_escalation_id": "esc_d2becf86c681",
+        "trigger_id": "trg_d7bda6a08857",
+        "detected_at": "2026-11-16T22:47:18+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -109,9 +88,9 @@
         "recommended_next_step": "Watch the down gap.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_bed4c0863bb8",
-        "trigger_id": "trg_618c3083404d",
-        "detected_at": "2026-11-16T19:23:50+05:30"
+        "created_escalation_id": "esc_4ed7427fe23d",
+        "trigger_id": "trg_4e78cb2648f6",
+        "detected_at": "2026-11-16T22:47:35+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -130,30 +109,9 @@
         "recommended_next_step": "Focused re-analysis on an up gap.",
         "requires_focused_analysis": true,
         "blocks_action": false,
-        "created_escalation_id": "esc_d7fce039c773",
-        "trigger_id": "trg_86e1e4828364",
-        "detected_at": "2026-11-16T19:24:58+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "trigger_type": "LARGE_MOVE",
-        "severity": "MEDIUM",
-        "reason": "Moved -3.2% since last observation.",
-        "company_name": "Divi's Laboratories Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 11080.0,
-        "previous_price": null,
-        "change_pct": -3.16,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_840ac8af8f60",
-        "trigger_id": "trg_5d353737d650",
-        "detected_at": "2026-11-16T19:25:15+05:30"
+        "created_escalation_id": "esc_4ea99f920b92",
+        "trigger_id": "trg_cf2762945b7e",
+        "detected_at": "2026-11-16T22:48:41+05:30"
       },
       {
         "symbol": "DIVISLAB.NS",
@@ -172,21 +130,20 @@
         "recommended_next_step": "Watch the down gap.",
         "requires_focused_analysis": false,
         "blocks_action": false,
-        "created_escalation_id": "esc_840ac8af8f60",
-        "trigger_id": "trg_df187f1fb2d8",
-        "detected_at": "2026-11-16T19:25:15+05:30"
+        "created_escalation_id": "esc_8736c8f0071a",
+        "trigger_id": "trg_ceb851396b54",
+        "detected_at": "2026-11-16T22:48:58+05:30"
       }
     ],
     "throttled": [],
     "escalations": [
       {
         "symbol": "ITC.NS",
-        "severity": "MEDIUM",
+        "severity": "LOW",
         "action_type": "OBSERVE_ONLY",
-        "reason": "Moved +3.5% since last observation.",
+        "reason": "Gap +3.5% vs previous close.",
         "trigger_ids": [
-          "trg_44e9d56e9616",
-          "trg_90892700ec92"
+          "trg_d7bda6a08857"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -208,28 +165,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-        "escalation_id": "esc_1988b9afcca8",
-        "created_at": "2026-11-16T19:25:32+05:30",
-        "expires_at": "2026-11-16T19:25:32+05:30"
-      },
-      {
-        "symbol": "DIVISLAB.NS",
-        "severity": "MEDIUM",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Moved -3.2% since last observation.",
-        "trigger_ids": [
-          "trg_5d353737d650",
-          "trg_df187f1fb2d8"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_840ac8af8f60",
-        "created_at": "2026-11-16T19:25:32+05:30",
-        "expires_at": "2026-11-16T19:25:32+05:30"
+        "escalation_id": "esc_d2becf86c681",
+        "created_at": "2026-11-16T22:49:15+05:30",
+        "expires_at": "2026-11-16T22:49:15+05:30"
       },
       {
         "symbol": "REDINGTON.NS",
@@ -237,7 +175,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap -2.6% vs previous close.",
         "trigger_ids": [
-          "trg_618c3083404d"
+          "trg_4e78cb2648f6"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": false,
@@ -245,9 +183,9 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Logged for observation.",
-        "escalation_id": "esc_bed4c0863bb8",
-        "created_at": "2026-11-16T19:25:32+05:30",
-        "expires_at": "2026-11-16T19:25:32+05:30"
+        "escalation_id": "esc_4ed7427fe23d",
+        "created_at": "2026-11-16T22:49:15+05:30",
+        "expires_at": "2026-11-16T22:49:15+05:30"
       },
       {
         "symbol": "SAREGAMA.NS",
@@ -255,7 +193,7 @@
         "action_type": "OBSERVE_ONLY",
         "reason": "Gap +2.5% vs previous close.",
         "trigger_ids": [
-          "trg_86e1e4828364"
+          "trg_cf2762945b7e"
         ],
         "action_status": "OPEN",
         "focused_analysis_required": true,
@@ -277,14 +215,32 @@
         "manual_review_required": false,
         "email_sent": false,
         "final_decision": "Focused re-analysis: WATCH — not a buy.",
-        "escalation_id": "esc_d7fce039c773",
-        "created_at": "2026-11-16T19:25:32+05:30",
-        "expires_at": "2026-11-16T19:25:32+05:30"
+        "escalation_id": "esc_4ea99f920b92",
+        "created_at": "2026-11-16T22:49:15+05:30",
+        "expires_at": "2026-11-16T22:49:15+05:30"
+      },
+      {
+        "symbol": "DIVISLAB.NS",
+        "severity": "LOW",
+        "action_type": "OBSERVE_ONLY",
+        "reason": "Gap -3.2% vs previous close.",
+        "trigger_ids": [
+          "trg_ceb851396b54"
+        ],
+        "action_status": "OPEN",
+        "focused_analysis_required": false,
+        "focused_analysis_result": null,
+        "manual_review_required": false,
+        "email_sent": false,
+        "final_decision": "Logged for observation.",
+        "escalation_id": "esc_8736c8f0071a",
+        "created_at": "2026-11-16T22:49:15+05:30",
+        "expires_at": "2026-11-16T22:49:15+05:30"
       }
     ],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-16T19:23:24+05:30"
+    "as_of": "2026-11-16T22:47:10+05:30"
   }
 }
