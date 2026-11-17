@@ -1,20 +1,21 @@
 {
-  "as_of": "2026-11-16T22:49:15+05:30",
+  "as_of": "2026-11-17T19:59:27+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "ITC.NS",
-      "severity": "LOW",
+      "symbol": "WELSPUNLIV.NS",
+      "severity": "HIGH",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +3.5% vs previous close.",
+      "reason": "Moved +7.9% since last observation.",
       "trigger_ids": [
-        "trg_d7bda6a08857"
+        "trg_09a7caba1670",
+        "trg_bcae7ba7dee8"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
       "focused_analysis_result": {
-        "symbol": "ITC.NS",
-        "score": 36.2,
+        "symbol": "WELSPUNLIV.NS",
+        "score": 49.4,
         "label": "DO_NOT_BUY",
         "previous_label": null,
         "valid_opportunity": false,
@@ -24,23 +25,24 @@
         "news_risk_level": "NONE",
         "data_quality_verdict": "OK",
         "market_regime": "NEUTRAL",
-        "reason": "Final 36.2/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: breakout=48, mean_reversion=40, trend_following=39.",
+        "reason": "Final 49.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
         "strengthened": false
       },
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_d2becf86c681",
-      "created_at": "2026-11-16T22:49:15+05:30",
-      "expires_at": "2026-11-16T22:49:15+05:30"
+      "escalation_id": "esc_42b3e5d9406f",
+      "created_at": "2026-11-17T19:59:27+05:30",
+      "expires_at": "2026-11-17T19:59:27+05:30"
     },
     {
-      "symbol": "REDINGTON.NS",
-      "severity": "LOW",
+      "symbol": "GLAND.NS",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.6% vs previous close.",
+      "reason": "Moved -4.1% since last observation.",
       "trigger_ids": [
-        "trg_4e78cb2648f6"
+        "trg_132edf0720cf",
+        "trg_bfea2b0f5b85"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -48,59 +50,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_4ed7427fe23d",
-      "created_at": "2026-11-16T22:49:15+05:30",
-      "expires_at": "2026-11-16T22:49:15+05:30"
-    },
-    {
-      "symbol": "SAREGAMA.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +2.5% vs previous close.",
-      "trigger_ids": [
-        "trg_cf2762945b7e"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "SAREGAMA.NS",
-        "score": 63.4,
-        "label": "WATCH",
-        "previous_label": "WATCH",
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 63.4/100 -> WATCH [regime NEUTRAL]. Top: portfolio_fit=80, trend_following=76, relative_strength=67.",
-        "strengthened": true
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: WATCH — not a buy.",
-      "escalation_id": "esc_4ea99f920b92",
-      "created_at": "2026-11-16T22:49:15+05:30",
-      "expires_at": "2026-11-16T22:49:15+05:30"
-    },
-    {
-      "symbol": "DIVISLAB.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -3.2% vs previous close.",
-      "trigger_ids": [
-        "trg_ceb851396b54"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_8736c8f0071a",
-      "created_at": "2026-11-16T22:49:15+05:30",
-      "expires_at": "2026-11-16T22:49:15+05:30"
+      "escalation_id": "esc_7e171134b50c",
+      "created_at": "2026-11-17T19:59:27+05:30",
+      "expires_at": "2026-11-17T19:59:27+05:30"
     }
   ],
   "actions_taken": [],
