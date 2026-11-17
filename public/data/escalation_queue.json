@@ -1,6 +1,56 @@
 [
   {
     "symbol": "GLAND.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -4.1% vs previous close.",
+    "trigger_ids": [
+      "trg_f33cd93fe802"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_e65e1c28ce93",
+    "created_at": "2026-11-17T22:33:17+05:30",
+    "expires_at": "2026-11-17T22:33:17+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +7.9% vs previous close.",
+    "trigger_ids": [
+      "trg_ce624759feb6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "WELSPUNLIV.NS",
+      "score": 49.4,
+      "label": "DO_NOT_BUY",
+      "previous_label": null,
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 49.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
+    "escalation_id": "esc_772856192d5b",
+    "created_at": "2026-11-17T22:33:17+05:30",
+    "expires_at": "2026-11-17T22:33:17+05:30"
+  },
+  {
+    "symbol": "GLAND.NS",
     "severity": "MEDIUM",
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved -4.1% since last observation.",
@@ -2448,70 +2498,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_35c863bb069a",
-    "created_at": "2026-10-29T19:02:13+05:30",
-    "expires_at": "2026-10-29T19:02:13+05:30"
-  },
-  {
-    "symbol": "HBLENGINE.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +12.5% since last observation.",
-    "trigger_ids": [
-      "trg_55d8ce402222"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "HBLENGINE.NS",
-      "score": 67.4,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 67.4/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=88, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_53e5e7ae499f",
-    "created_at": "2026-10-29T19:02:13+05:30",
-    "expires_at": "2026-10-29T19:02:13+05:30"
-  },
-  {
-    "symbol": "ATHERENERG.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +6.0% since last observation.",
-    "trigger_ids": [
-      "trg_17fe62befbf7"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "ATHERENERG.NS",
-      "score": 68.7,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 68.7/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=86, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_16de63dc8ba6",
     "created_at": "2026-10-29T19:02:13+05:30",
     "expires_at": "2026-10-29T19:02:13+05:30"
   }

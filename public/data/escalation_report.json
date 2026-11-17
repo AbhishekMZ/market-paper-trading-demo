@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-11-17T19:59:27+05:30",
+  "as_of": "2026-11-17T22:33:17+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "WELSPUNLIV.NS",
-      "severity": "HIGH",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +7.9% since last observation.",
+      "reason": "Gap +7.9% vs previous close.",
       "trigger_ids": [
-        "trg_09a7caba1670",
-        "trg_bcae7ba7dee8"
+        "trg_ce624759feb6"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -31,18 +30,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_42b3e5d9406f",
-      "created_at": "2026-11-17T19:59:27+05:30",
-      "expires_at": "2026-11-17T19:59:27+05:30"
+      "escalation_id": "esc_772856192d5b",
+      "created_at": "2026-11-17T22:33:17+05:30",
+      "expires_at": "2026-11-17T22:33:17+05:30"
     },
     {
       "symbol": "GLAND.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -4.1% since last observation.",
+      "reason": "Gap -4.1% vs previous close.",
       "trigger_ids": [
-        "trg_132edf0720cf",
-        "trg_bfea2b0f5b85"
+        "trg_f33cd93fe802"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -50,9 +48,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7e171134b50c",
-      "created_at": "2026-11-17T19:59:27+05:30",
-      "expires_at": "2026-11-17T19:59:27+05:30"
+      "escalation_id": "esc_e65e1c28ce93",
+      "created_at": "2026-11-17T22:33:17+05:30",
+      "expires_at": "2026-11-17T22:33:17+05:30"
     }
   ],
   "actions_taken": [],
