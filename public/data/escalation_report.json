@@ -1,46 +1,15 @@
 {
-  "as_of": "2026-11-17T22:33:17+05:30",
+  "as_of": "2026-11-18T19:46:07+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "WELSPUNLIV.NS",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap +7.9% vs previous close.",
+      "reason": "Moved -3.6% since last observation.",
       "trigger_ids": [
-        "trg_ce624759feb6"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": true,
-      "focused_analysis_result": {
-        "symbol": "WELSPUNLIV.NS",
-        "score": 49.4,
-        "label": "DO_NOT_BUY",
-        "previous_label": null,
-        "valid_opportunity": false,
-        "action_allowed": false,
-        "manual_review": false,
-        "blocked_by": null,
-        "news_risk_level": "NONE",
-        "data_quality_verdict": "OK",
-        "market_regime": "NEUTRAL",
-        "reason": "Final 49.4/100 -> DO_NOT_BUY [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, news_event_risk=65. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
-        "strengthened": false
-      },
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Focused re-analysis: DO_NOT_BUY — not a buy.",
-      "escalation_id": "esc_772856192d5b",
-      "created_at": "2026-11-17T22:33:17+05:30",
-      "expires_at": "2026-11-17T22:33:17+05:30"
-    },
-    {
-      "symbol": "GLAND.NS",
-      "severity": "LOW",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -4.1% vs previous close.",
-      "trigger_ids": [
-        "trg_f33cd93fe802"
+        "trg_a9c477c68a3f",
+        "trg_b1af14403b3f"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -48,9 +17,65 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_e65e1c28ce93",
-      "created_at": "2026-11-17T22:33:17+05:30",
-      "expires_at": "2026-11-17T22:33:17+05:30"
+      "escalation_id": "esc_a00850f87bb8",
+      "created_at": "2026-11-18T19:46:07+05:30",
+      "expires_at": "2026-11-18T19:46:07+05:30"
+    },
+    {
+      "symbol": "FINCABLES.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -3.6% since last observation.",
+      "trigger_ids": [
+        "trg_980d4ece8ec6",
+        "trg_4f2d909f00a6"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_7f90aa0e9f35",
+      "created_at": "2026-11-18T19:46:07+05:30",
+      "expires_at": "2026-11-18T19:46:07+05:30"
+    },
+    {
+      "symbol": "FSL.NS",
+      "severity": "MEDIUM",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Moved -4.6% since last observation.",
+      "trigger_ids": [
+        "trg_410a8e161559",
+        "trg_dd543496f740"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_34df465e614a",
+      "created_at": "2026-11-18T19:46:07+05:30",
+      "expires_at": "2026-11-18T19:46:07+05:30"
+    },
+    {
+      "symbol": "INDHOTEL.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap -2.9% vs previous close.",
+      "trigger_ids": [
+        "trg_fe6b466ce612"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_61b05eb90bd1",
+      "created_at": "2026-11-18T19:46:07+05:30",
+      "expires_at": "2026-11-18T19:46:07+05:30"
     }
   ],
   "actions_taken": [],

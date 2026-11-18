@@ -1,5 +1,80 @@
 [
   {
+    "symbol": "INDHOTEL.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_fe6b466ce612"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_61b05eb90bd1",
+    "created_at": "2026-11-18T19:46:07+05:30",
+    "expires_at": "2026-11-18T19:46:07+05:30"
+  },
+  {
+    "symbol": "FSL.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.6% since last observation.",
+    "trigger_ids": [
+      "trg_410a8e161559",
+      "trg_dd543496f740"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_34df465e614a",
+    "created_at": "2026-11-18T19:46:07+05:30",
+    "expires_at": "2026-11-18T19:46:07+05:30"
+  },
+  {
+    "symbol": "FINCABLES.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.6% since last observation.",
+    "trigger_ids": [
+      "trg_980d4ece8ec6",
+      "trg_4f2d909f00a6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7f90aa0e9f35",
+    "created_at": "2026-11-18T19:46:07+05:30",
+    "expires_at": "2026-11-18T19:46:07+05:30"
+  },
+  {
+    "symbol": "WELSPUNLIV.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -3.6% since last observation.",
+    "trigger_ids": [
+      "trg_a9c477c68a3f",
+      "trg_b1af14403b3f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_a00850f87bb8",
+    "created_at": "2026-11-18T19:46:07+05:30",
+    "expires_at": "2026-11-18T19:46:07+05:30"
+  },
+  {
     "symbol": "GLAND.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2414,91 +2489,5 @@
     "escalation_id": "esc_3692ccc8888c",
     "created_at": "2026-10-30T18:55:38+05:30",
     "expires_at": "2026-10-30T18:55:38+05:30"
-  },
-  {
-    "symbol": "THELEELA.NS",
-    "severity": "HIGH",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved +8.3% since last observation.",
-    "trigger_ids": [
-      "trg_097c592c6c50"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": true,
-    "focused_analysis_result": {
-      "symbol": "THELEELA.NS",
-      "score": 72.3,
-      "label": "WATCH",
-      "previous_label": "WATCH",
-      "valid_opportunity": false,
-      "action_allowed": false,
-      "manual_review": false,
-      "blocked_by": null,
-      "news_risk_level": "NONE",
-      "data_quality_verdict": "OK",
-      "market_regime": "NEUTRAL",
-      "reason": "Final 72.3/100 -> WATCH [regime NEUTRAL]. Top: trend_following=100, relative_strength=100, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'breakout', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict -> downgraded to WATCH (prefer no action).",
-      "strengthened": true
-    },
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Focused re-analysis: WATCH — not a buy.",
-    "escalation_id": "esc_0337f12d169d",
-    "created_at": "2026-10-30T16:46:12+05:30",
-    "expires_at": "2026-10-30T16:46:12+05:30"
-  },
-  {
-    "symbol": "PVRINOX.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_27e487baeb49"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_bafcab05e05c",
-    "created_at": "2026-10-29T22:52:57+05:30",
-    "expires_at": "2026-10-29T22:52:57+05:30"
-  },
-  {
-    "symbol": "LAURUSLABS.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_9d2fcbc8b723"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_0470103978e2",
-    "created_at": "2026-10-29T22:52:57+05:30",
-    "expires_at": "2026-10-29T22:52:57+05:30"
-  },
-  {
-    "symbol": "PVRINOX.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.1% vs previous close.",
-    "trigger_ids": [
-      "trg_2d41626f753e"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_35c863bb069a",
-    "created_at": "2026-10-29T19:02:13+05:30",
-    "expires_at": "2026-10-29T19:02:13+05:30"
   }
 ]
