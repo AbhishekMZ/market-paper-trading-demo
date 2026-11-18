@@ -1,15 +1,14 @@
 {
-  "as_of": "2026-11-18T19:46:07+05:30",
+  "as_of": "2026-11-18T22:12:20+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
       "symbol": "WELSPUNLIV.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.6% since last observation.",
+      "reason": "Gap -3.6% vs previous close.",
       "trigger_ids": [
-        "trg_a9c477c68a3f",
-        "trg_b1af14403b3f"
+        "trg_ac94a9221cce"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -17,18 +16,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_a00850f87bb8",
-      "created_at": "2026-11-18T19:46:07+05:30",
-      "expires_at": "2026-11-18T19:46:07+05:30"
+      "escalation_id": "esc_49c0c9b9a1dd",
+      "created_at": "2026-11-18T22:12:20+05:30",
+      "expires_at": "2026-11-18T22:12:20+05:30"
     },
     {
       "symbol": "FINCABLES.NS",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -3.6% since last observation.",
+      "reason": "Gap -3.6% vs previous close.",
       "trigger_ids": [
-        "trg_980d4ece8ec6",
-        "trg_4f2d909f00a6"
+        "trg_9c3470946c88"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -36,36 +34,17 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7f90aa0e9f35",
-      "created_at": "2026-11-18T19:46:07+05:30",
-      "expires_at": "2026-11-18T19:46:07+05:30"
+      "escalation_id": "esc_f552af8fd82f",
+      "created_at": "2026-11-18T22:12:20+05:30",
+      "expires_at": "2026-11-18T22:12:20+05:30"
     },
     {
       "symbol": "FSL.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -4.6% since last observation.",
-      "trigger_ids": [
-        "trg_410a8e161559",
-        "trg_dd543496f740"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_34df465e614a",
-      "created_at": "2026-11-18T19:46:07+05:30",
-      "expires_at": "2026-11-18T19:46:07+05:30"
-    },
-    {
-      "symbol": "INDHOTEL.NS",
       "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Gap -2.9% vs previous close.",
+      "reason": "Gap -4.6% vs previous close.",
       "trigger_ids": [
-        "trg_fe6b466ce612"
+        "trg_867a769c593e"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -73,9 +52,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_61b05eb90bd1",
-      "created_at": "2026-11-18T19:46:07+05:30",
-      "expires_at": "2026-11-18T19:46:07+05:30"
+      "escalation_id": "esc_136c477eeeac",
+      "created_at": "2026-11-18T22:12:20+05:30",
+      "expires_at": "2026-11-18T22:12:20+05:30"
     }
   ],
   "actions_taken": [],
