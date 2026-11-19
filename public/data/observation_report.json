@@ -1,24 +1,24 @@
 {
-  "as_of": "2026-11-18T22:12:20+05:30",
+  "as_of": "2026-11-19T19:44:00+05:30",
   "checkpoint": "close",
   "mode": "lightweight_monitoring",
   "watchlist_size": 15,
   "observed": 15,
   "open_positions_observed": 6,
-  "triggers_this_run": 4,
-  "escalations": 3,
+  "triggers_this_run": 0,
+  "escalations": 0,
   "actions_taken": [],
   "blocked_actions": [],
-  "throttled": 1,
+  "throttled": 0,
   "emails_sent": 0,
   "metrics": {
-    "observation_runs": 338,
+    "observation_runs": 339,
     "triggers_detected": 1570,
     "escalations_created": 978,
     "paper_actions_from_triggers": 0,
     "blocked_actions_from_triggers": 156,
     "emails_sent_total": 0,
-    "last_run": "2026-11-18T22:12:20+05:30",
+    "last_run": "2026-11-19T19:44:00+05:30",
     "last_watchlist_size": 15
   },
   "result": {
@@ -49,158 +49,12 @@
       "GESHIP.NS",
       "FSL.NS"
     ],
-    "triggers": [
-      {
-        "symbol": "WELSPUNLIV.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -3.6% vs previous close.",
-        "company_name": "WELSPUNLIV.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 255.97000122070312,
-        "previous_price": null,
-        "change_pct": -3.633,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Watch the down gap.",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_49c0c9b9a1dd",
-        "trigger_id": "trg_ac94a9221cce",
-        "detected_at": "2026-11-18T22:10:29+05:30"
-      },
-      {
-        "symbol": "FINCABLES.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -3.6% vs previous close.",
-        "company_name": "FINCABLES.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 1186.0,
-        "previous_price": null,
-        "change_pct": -3.6086,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Watch the down gap.",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_f552af8fd82f",
-        "trigger_id": "trg_9c3470946c88",
-        "detected_at": "2026-11-18T22:10:46+05:30"
-      },
-      {
-        "symbol": "FSL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -4.6% vs previous close.",
-        "company_name": "FSL.NS",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 273.0,
-        "previous_price": null,
-        "change_pct": -4.6122,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Watch the down gap.",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": "esc_136c477eeeac",
-        "trigger_id": "trg_867a769c593e",
-        "detected_at": "2026-11-18T22:11:03+05:30"
-      },
-      {
-        "symbol": "INDHOTEL.NS",
-        "trigger_type": "GAP_MOVE",
-        "severity": "LOW",
-        "reason": "Gap -2.9% vs previous close.",
-        "company_name": "Indian Hotels Co. Ltd.",
-        "status": "DETECTED",
-        "source": "observation",
-        "price_at_detection": 875.0499877929688,
-        "previous_price": null,
-        "change_pct": -2.9394,
-        "market_regime": "NEUTRAL",
-        "news_event_ids": [],
-        "data_quality_flags": [],
-        "recommended_next_step": "Watch the down gap.",
-        "requires_focused_analysis": false,
-        "blocks_action": false,
-        "created_escalation_id": null,
-        "trigger_id": "trg_ac419797d62a",
-        "detected_at": "2026-11-18T22:11:54+05:30"
-      }
-    ],
-    "throttled": [
-      {
-        "symbol": "INDHOTEL.NS",
-        "trigger": "GAP_MOVE",
-        "reason": "cooldown"
-      }
-    ],
-    "escalations": [
-      {
-        "symbol": "WELSPUNLIV.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.6% vs previous close.",
-        "trigger_ids": [
-          "trg_ac94a9221cce"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_49c0c9b9a1dd",
-        "created_at": "2026-11-18T22:12:20+05:30",
-        "expires_at": "2026-11-18T22:12:20+05:30"
-      },
-      {
-        "symbol": "FINCABLES.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -3.6% vs previous close.",
-        "trigger_ids": [
-          "trg_9c3470946c88"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_f552af8fd82f",
-        "created_at": "2026-11-18T22:12:20+05:30",
-        "expires_at": "2026-11-18T22:12:20+05:30"
-      },
-      {
-        "symbol": "FSL.NS",
-        "severity": "LOW",
-        "action_type": "OBSERVE_ONLY",
-        "reason": "Gap -4.6% vs previous close.",
-        "trigger_ids": [
-          "trg_867a769c593e"
-        ],
-        "action_status": "OPEN",
-        "focused_analysis_required": false,
-        "focused_analysis_result": null,
-        "manual_review_required": false,
-        "email_sent": false,
-        "final_decision": "Logged for observation.",
-        "escalation_id": "esc_136c477eeeac",
-        "created_at": "2026-11-18T22:12:20+05:30",
-        "expires_at": "2026-11-18T22:12:20+05:30"
-      }
-    ],
+    "triggers": [],
+    "throttled": [],
+    "escalations": [],
     "actions_taken": [],
     "blocked_actions": [],
     "emails_sent": 0,
-    "as_of": "2026-11-18T22:10:12+05:30"
+    "as_of": "2026-11-19T19:41:54+05:30"
   }
 }
