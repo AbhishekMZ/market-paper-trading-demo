@@ -1,6 +1,6 @@
 {
-  "as_of": "2026-11-24T21:07:57+05:30",
-  "checkpoint": "close",
+  "as_of": "2026-11-25T00:33:29+05:30",
+  "checkpoint": "open",
   "open_escalations": [
     {
       "symbol": "KOTAKBANK.NS",
@@ -8,7 +8,7 @@
       "action_type": "OBSERVE_ONLY",
       "reason": "Gap -2.5% vs previous close.",
       "trigger_ids": [
-        "trg_83d90da3a11a"
+        "trg_418a8e8dec42"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": false,
@@ -16,9 +16,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Logged for observation.",
-      "escalation_id": "esc_7fee003e96e4",
-      "created_at": "2026-11-24T21:07:57+05:30",
-      "expires_at": "2026-11-24T21:07:57+05:30"
+      "escalation_id": "esc_41bb3c6f135b",
+      "created_at": "2026-11-25T00:33:29+05:30",
+      "expires_at": "2026-11-25T00:33:29+05:30"
     },
     {
       "symbol": "PVRINOX.NS",
@@ -26,7 +26,7 @@
       "action_type": "MANUAL_REVIEW",
       "reason": "Gap +2.9% vs previous close.",
       "trigger_ids": [
-        "trg_f8e64519fadd"
+        "trg_8aa8ec4233a3"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -48,9 +48,9 @@
       "manual_review_required": true,
       "email_sent": false,
       "final_decision": "Focused re-analysis: manual review required.",
-      "escalation_id": "esc_caabeb46b6fb",
-      "created_at": "2026-11-24T21:07:57+05:30",
-      "expires_at": "2026-11-24T21:07:57+05:30"
+      "escalation_id": "esc_ff73e9c2f1ca",
+      "created_at": "2026-11-25T00:33:29+05:30",
+      "expires_at": "2026-11-25T00:33:29+05:30"
     }
   ],
   "actions_taken": [],
