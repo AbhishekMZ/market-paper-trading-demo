@@ -1,42 +1,6 @@
 [
   {
     "symbol": "ASAHIINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +4.0% vs previous close.",
-    "trigger_ids": [
-      "trg_028a56917098"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_7d10a30bfb8a",
-    "created_at": "2026-11-02T21:17:13+05:30",
-    "expires_at": "2026-11-02T21:17:13+05:30"
-  },
-  {
-    "symbol": "ASAHIINDIA.NS",
-    "severity": "MEDIUM",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Moved -3.8% since last observation.",
-    "trigger_ids": [
-      "trg_4ba52ab684eb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_69525bd083a9",
-    "created_at": "2026-11-03T02:12:00+05:30",
-    "expires_at": "2026-11-03T02:12:00+05:30"
-  },
-  {
-    "symbol": "ASAHIINDIA.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
     "reason": "Moved +9.6% since last observation.",
@@ -2487,5 +2451,55 @@
     "escalation_id": "esc_acb7dcf14108",
     "created_at": "2026-11-24T00:57:30+05:30",
     "expires_at": "2026-11-24T00:57:30+05:30"
+  },
+  {
+    "symbol": "KOTAKBANK.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -2.5% vs previous close.",
+    "trigger_ids": [
+      "trg_83d90da3a11a"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_7fee003e96e4",
+    "created_at": "2026-11-24T21:07:57+05:30",
+    "expires_at": "2026-11-24T21:07:57+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "LOW",
+    "action_type": "MANUAL_REVIEW",
+    "reason": "Gap +2.9% vs previous close.",
+    "trigger_ids": [
+      "trg_f8e64519fadd"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "PVRINOX.NS",
+      "score": 70.1,
+      "label": "MANUAL_REVIEW",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": true,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 70.1/100 -> MANUAL_REVIEW [regime NEUTRAL]. Top: relative_strength=100, trend_following=99, portfolio_fit=80. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative. Strategy conflict kept as BUY: trend and relative strength both agree. One-day index spike -> manual review. Regime score stays on the 20-session read.",
+      "strengthened": false
+    },
+    "manual_review_required": true,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: manual review required.",
+    "escalation_id": "esc_caabeb46b6fb",
+    "created_at": "2026-11-24T21:07:57+05:30",
+    "expires_at": "2026-11-24T21:07:57+05:30"
   }
 ]
