@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-25T21:00:06+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 5,
+    "escalations": 3,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-25T00:33:30+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -14658,34 +14666,5 @@
     "conflicts": [
       "Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
     ]
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "MOTHERSON.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 66.5,
-    "strategy_contributions": {
-      "trend_following": 43.8,
-      "relative_strength": 98.9,
-      "mean_reversion": 68.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 64.6,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 66.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=99, portfolio_fit=80, mean_reversion=68.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 34.73,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": []
   }
 ]

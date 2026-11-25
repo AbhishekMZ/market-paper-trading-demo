@@ -1,5 +1,55 @@
 [
   {
+    "symbol": "DIVISLAB.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +4.6% vs previous close.",
+    "trigger_ids": [
+      "trg_426294d96858"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "DIVISLAB.NS",
+      "score": 63.5,
+      "label": "WATCH",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 63.5/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, trend_following=83, breakout=70. Disagreement: ['trend_following', 'relative_strength', 'breakout'] positive vs ['volatility_risk', 'portfolio_fit'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: WATCH — not a buy.",
+    "escalation_id": "esc_78e273334fa4",
+    "created_at": "2026-11-25T23:39:30+05:30",
+    "expires_at": "2026-11-25T23:39:30+05:30"
+  },
+  {
+    "symbol": "SAREGAMA.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -5.6% vs previous close.",
+    "trigger_ids": [
+      "trg_ec258ae3264f"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_1c07c2f8ee2d",
+    "created_at": "2026-11-25T23:39:30+05:30",
+    "expires_at": "2026-11-25T23:39:30+05:30"
+  },
+  {
     "symbol": "ITC.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2448,42 +2498,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_aa86e276a929",
-    "created_at": "2026-11-03T20:57:54+05:30",
-    "expires_at": "2026-11-03T20:57:54+05:30"
-  },
-  {
-    "symbol": "THELEELA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap -2.7% vs previous close.",
-    "trigger_ids": [
-      "trg_9c997b94cc7a"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_1bd5c6eafead",
-    "created_at": "2026-11-03T20:57:54+05:30",
-    "expires_at": "2026-11-03T20:57:54+05:30"
-  },
-  {
-    "symbol": "ITC.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +2.8% vs previous close.",
-    "trigger_ids": [
-      "trg_f396136f0d59"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_df94dc319f76",
     "created_at": "2026-11-03T20:57:54+05:30",
     "expires_at": "2026-11-03T20:57:54+05:30"
   }
