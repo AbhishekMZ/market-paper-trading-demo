@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "ASAHIINDIA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +5.4% vs previous close.",
-    "trigger_ids": [
-      "trg_edb9da247170"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_5e48525bb22c",
-    "created_at": "2026-11-03T20:57:54+05:30",
-    "expires_at": "2026-11-03T20:57:54+05:30"
-  },
-  {
-    "symbol": "KOTAKBANK.NS",
-    "severity": "HIGH",
-    "action_type": "BLOCKED_BY_NEWS",
-    "reason": "High-risk adverse news.",
-    "trigger_ids": [
-      "trg_9078d9665517"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Adverse news — buy blocked.",
-    "escalation_id": "esc_eb6197dba1e0",
-    "created_at": "2026-11-04T18:22:16+05:30",
-    "expires_at": "2026-11-04T18:22:16+05:30"
-  },
-  {
     "symbol": "SAREGAMA.NS",
     "severity": "HIGH",
     "action_type": "OBSERVE_ONLY",
@@ -2516,5 +2480,55 @@
     "escalation_id": "esc_5053de3f20e3",
     "created_at": "2026-11-26T20:39:01+05:30",
     "expires_at": "2026-11-26T20:39:01+05:30"
+  },
+  {
+    "symbol": "PVRINOX.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap -4.2% vs previous close.",
+    "trigger_ids": [
+      "trg_d505b8489f90"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_998f74e0a9b2",
+    "created_at": "2026-11-26T23:23:18+05:30",
+    "expires_at": "2026-11-26T23:23:18+05:30"
+  },
+  {
+    "symbol": "HCLTECH.NS",
+    "severity": "LOW",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Gap +6.4% vs previous close.",
+    "trigger_ids": [
+      "trg_723a286209b0"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HCLTECH.NS",
+      "score": 50.6,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 50.6/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_318df730995c",
+    "created_at": "2026-11-26T23:23:18+05:30",
+    "expires_at": "2026-11-26T23:23:18+05:30"
   }
 ]

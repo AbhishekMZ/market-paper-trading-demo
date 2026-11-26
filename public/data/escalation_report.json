@@ -1,15 +1,32 @@
 {
-  "as_of": "2026-11-26T20:39:01+05:30",
+  "as_of": "2026-11-26T23:23:18+05:30",
   "checkpoint": "close",
   "open_escalations": [
     {
-      "symbol": "HCLTECH.NS",
-      "severity": "HIGH",
+      "symbol": "PVRINOX.NS",
+      "severity": "LOW",
       "action_type": "OBSERVE_ONLY",
-      "reason": "Moved +6.4% since last observation.",
+      "reason": "Gap -4.2% vs previous close.",
       "trigger_ids": [
-        "trg_975dfb77a56d",
-        "trg_24910250b5f6"
+        "trg_d505b8489f90"
+      ],
+      "action_status": "OPEN",
+      "focused_analysis_required": false,
+      "focused_analysis_result": null,
+      "manual_review_required": false,
+      "email_sent": false,
+      "final_decision": "Logged for observation.",
+      "escalation_id": "esc_998f74e0a9b2",
+      "created_at": "2026-11-26T23:23:18+05:30",
+      "expires_at": "2026-11-26T23:23:18+05:30"
+    },
+    {
+      "symbol": "HCLTECH.NS",
+      "severity": "LOW",
+      "action_type": "OBSERVE_ONLY",
+      "reason": "Gap +6.4% vs previous close.",
+      "trigger_ids": [
+        "trg_723a286209b0"
       ],
       "action_status": "OPEN",
       "focused_analysis_required": true,
@@ -31,28 +48,9 @@
       "manual_review_required": false,
       "email_sent": false,
       "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
-      "escalation_id": "esc_b4cd1d9359d2",
-      "created_at": "2026-11-26T20:39:01+05:30",
-      "expires_at": "2026-11-26T20:39:01+05:30"
-    },
-    {
-      "symbol": "PVRINOX.NS",
-      "severity": "MEDIUM",
-      "action_type": "OBSERVE_ONLY",
-      "reason": "Moved -4.2% since last observation.",
-      "trigger_ids": [
-        "trg_16c3d30e8f28",
-        "trg_317863c5a11c"
-      ],
-      "action_status": "OPEN",
-      "focused_analysis_required": false,
-      "focused_analysis_result": null,
-      "manual_review_required": false,
-      "email_sent": false,
-      "final_decision": "Logged for observation.",
-      "escalation_id": "esc_5053de3f20e3",
-      "created_at": "2026-11-26T20:39:01+05:30",
-      "expires_at": "2026-11-26T20:39:01+05:30"
+      "escalation_id": "esc_318df730995c",
+      "created_at": "2026-11-26T23:23:18+05:30",
+      "expires_at": "2026-11-26T23:23:18+05:30"
     }
   ],
   "actions_taken": [],
