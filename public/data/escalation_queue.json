@@ -1,5 +1,57 @@
 [
   {
+    "symbol": "PVRINOX.NS",
+    "severity": "MEDIUM",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved -4.2% since last observation.",
+    "trigger_ids": [
+      "trg_16c3d30e8f28",
+      "trg_317863c5a11c"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": false,
+    "focused_analysis_result": null,
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Logged for observation.",
+    "escalation_id": "esc_5053de3f20e3",
+    "created_at": "2026-11-26T20:39:01+05:30",
+    "expires_at": "2026-11-26T20:39:01+05:30"
+  },
+  {
+    "symbol": "HCLTECH.NS",
+    "severity": "HIGH",
+    "action_type": "OBSERVE_ONLY",
+    "reason": "Moved +6.4% since last observation.",
+    "trigger_ids": [
+      "trg_975dfb77a56d",
+      "trg_24910250b5f6"
+    ],
+    "action_status": "OPEN",
+    "focused_analysis_required": true,
+    "focused_analysis_result": {
+      "symbol": "HCLTECH.NS",
+      "score": 50.6,
+      "label": "NO_ACTION",
+      "previous_label": "WATCH",
+      "valid_opportunity": false,
+      "action_allowed": false,
+      "manual_review": false,
+      "blocked_by": null,
+      "news_risk_level": "NONE",
+      "data_quality_verdict": "OK",
+      "market_regime": "NEUTRAL",
+      "reason": "Final 50.6/100 -> NO_ACTION [regime NEUTRAL]. Top: relative_strength=100, trend_following=87, portfolio_fit=80. Penalties: extreme_daily_move. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
+      "strengthened": false
+    },
+    "manual_review_required": false,
+    "email_sent": false,
+    "final_decision": "Focused re-analysis: NO_ACTION — not a buy.",
+    "escalation_id": "esc_b4cd1d9359d2",
+    "created_at": "2026-11-26T20:39:01+05:30",
+    "expires_at": "2026-11-26T20:39:01+05:30"
+  },
+  {
     "symbol": "DIVISLAB.NS",
     "severity": "LOW",
     "action_type": "OBSERVE_ONLY",
@@ -2462,42 +2514,6 @@
     "email_sent": false,
     "final_decision": "Logged for observation.",
     "escalation_id": "esc_5e48525bb22c",
-    "created_at": "2026-11-03T20:57:54+05:30",
-    "expires_at": "2026-11-03T20:57:54+05:30"
-  },
-  {
-    "symbol": "GLAND.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_2b7598e125fb"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_4ee1d5276dd6",
-    "created_at": "2026-11-03T20:57:54+05:30",
-    "expires_at": "2026-11-03T20:57:54+05:30"
-  },
-  {
-    "symbol": "SAREGAMA.NS",
-    "severity": "LOW",
-    "action_type": "OBSERVE_ONLY",
-    "reason": "Gap +3.0% vs previous close.",
-    "trigger_ids": [
-      "trg_c39f51e587ab"
-    ],
-    "action_status": "OPEN",
-    "focused_analysis_required": false,
-    "focused_analysis_result": null,
-    "manual_review_required": false,
-    "email_sent": false,
-    "final_decision": "Logged for observation.",
-    "escalation_id": "esc_aa86e276a929",
     "created_at": "2026-11-03T20:57:54+05:30",
     "expires_at": "2026-11-03T20:57:54+05:30"
   }
