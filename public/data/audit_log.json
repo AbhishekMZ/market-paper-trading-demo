@@ -1,5 +1,13 @@
 [
   {
+    "ts": "2026-11-26T23:23:19+05:30",
+    "event": "OBSERVE_ONLY_RUN",
+    "focused_symbol": null,
+    "triggers": 2,
+    "escalations": 2,
+    "actions": 0
+  },
+  {
     "ts": "2026-11-26T20:39:02+05:30",
     "event": "OBSERVE_ONLY_RUN",
     "focused_symbol": null,
@@ -14583,37 +14591,6 @@
     "broker_adapter": "paper",
     "execution_mode": "paper",
     "estimated_costs": 31.54,
-    "warnings": [
-      "No relevant news; strategy does not contribute."
-    ],
-    "conflicts": [
-      "Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative."
-    ]
-  },
-  {
-    "ts": "2026-11-03T02:10:36+05:30",
-    "event": "SIGNAL_EVALUATED",
-    "symbol": "INDGN.NS",
-    "market_regime": "NEUTRAL",
-    "final_recommendation": "WATCH",
-    "final_score": 66.2,
-    "strategy_contributions": {
-      "trend_following": 73.0,
-      "relative_strength": 100.0,
-      "mean_reversion": 52.0,
-      "breakout": 48.0,
-      "news_event_risk": 50.0,
-      "volatility_risk": 22.2,
-      "portfolio_fit": 80.0
-    },
-    "risk_level": "LOW",
-    "data_quality_status": "GOOD",
-    "decision_taken": "WATCH",
-    "reason": "Final 66.2/100 -> WATCH [regime NEUTRAL]. Top: relative_strength=100, portfolio_fit=80, trend_following=73. Disagreement: ['trend_following', 'relative_strength', 'portfolio_fit'] positive vs ['volatility_risk'] negative.",
-    "paper_order_created": false,
-    "broker_adapter": "paper",
-    "execution_mode": "paper",
-    "estimated_costs": 35.14,
     "warnings": [
       "No relevant news; strategy does not contribute."
     ],
