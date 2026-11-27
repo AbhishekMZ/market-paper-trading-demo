@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-24T22:22:41+05:30",
-  "date": "2026-11-24",
-  "checkpoint": "close",
+  "generated_at": "2026-11-28T00:25:25+05:30",
+  "date": "2026-11-28",
+  "checkpoint": "open",
   "mode_banner": "PAPER TRADING ONLY — fake money. Live trading is DISABLED.",
   "warning": "Not an NSE trading day (weekend or holiday) — skipping scan.",
   "api_usage": {
     "month": "2026-11",
-    "calls_total": 2071,
+    "calls_total": 2085,
     "daily": {
       "2026-11-02": 1507,
       "2026-11-03": 506,
@@ -24,13 +24,16 @@
       "2026-11-19": 4,
       "2026-11-20": 4,
       "2026-11-23": 2,
-      "2026-11-24": 4
+      "2026-11-24": 4,
+      "2026-11-25": 6,
+      "2026-11-26": 4,
+      "2026-11-27": 4
     },
     "warnings": [],
     "provider": "yfinance",
     "budget_enabled": false,
     "note": "yfinance has no API key/quota; polite limits applied.",
-    "calls_today": 4,
-    "last_updated": "2026-11-24T22:22:41+05:30"
+    "calls_today": 0,
+    "last_updated": "2026-11-28T00:25:25+05:30"
   }
 }
